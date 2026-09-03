@@ -1,0 +1,95 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import PageFooter from '../components/PageFooter.astro';
+import sites from '../data/built.json';
+---
+<Base
+  title="Things I Built — Mike Todasco"
+  description="Forecast Fools, Patent Leaderboard and Patent Fighter — two scoreboards and an arcade game."
+>
+  <PageHeader
+    num="08" sym="Ws" name="Things I Built" fam="built" count="3"
+    title="Two scoreboards and an arcade game"
+    prose="The things I vibe coded that are worthy of me spending hosting costs on."
+    links={[]}
+    mike="mike-built"
+    mikeAlt="Cartoon Mike Todasco soldering together three glowing arcade cabinets at night"
+    right="Specimens 01 – 03"
+  />
+
+  <div class="plates">
+    <div class="grid three">
+      {sites.map((s, i) => (
+        <a class="plate" href={s.url} style="background:var(--built-pale)" target="_blank" rel="noopener">
+          <div class={`art preview ${s.kind}`}>
+            {s.kind === 'scoreboard' && (
+              <div class="ff">
+                <div class="k">The AI Prediction Scoreboard</div>
+                <div class="h">Who called the future — and who just sounded sure?</div>
+                <div class="mix"><i style="flex:1;background:#4ADE80"></i><i style="flex:1;background:#F87171"></i><i style="flex:1;background:#FBBF24"></i><i style="flex:3;background:#60A5FA"></i></div>
+              </div>
+            )}
+            {s.kind === 'leaderboard' && (
+              <div class="pl">
+                <div class="k">Top Inventors · All Time</div>
+                <div class="r"><b>1</b><span>Shunpei Yamazaki</span><em>6,629</em></div>
+                <div class="r"><b>2</b><span>Kia Silverbrook</span><em>4,747</em></div>
+                <div class="r"><b>3</b><span>Tao Luo</span><em>4,470</em></div>
+                <div class="r"><b>4</b><span>Jonathan P. Ive</span><em>2,945</em></div>
+                <div class="r me"><b>…</b><span>Michael C. Todasco</span><em>119</em></div>
+              </div>
+            )}
+            {s.kind === 'arcade' && (
+              <img src={`/img/${s.art}.webp`} alt="Patent Fighter splash screen with Tesla, Franklin and other inventors as arcade fighters" width="520" height="285" loading="lazy" />
+            )}
+          </div>
+          <div class="meta">
+            <div class="row">
+              <span class="n">{String(i + 1).padStart(2, '0')}</span>
+              <span class="src" style="color:var(--built)">{s.domain}</span>
+            </div>
+            <div class="sym" style="color:var(--built);font-size:34px">{s.sym}</div>
+            <div class="nm" style="font-size:19px">{s.name}</div>
+            <div class="sub">{s.desc}</div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <PageFooter
+    left=""
+    right="Element 08 · Things I Built"
+    fam="built"
+  />
+</Base>
+
+<style>
+  .grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .preview { height: 236px; padding: 20px 22px; display: flex; flex-direction: column; justify-content: center; gap: 12px; }
+
+  .scoreboard { background: #0E0F16; }
+  .ff { display: flex; flex-direction: column; gap: 13px; }
+  .ff .k { font-family: var(--cd); font-size: 11px; font-weight: 600; letter-spacing: .26em; text-transform: uppercase; color: #7C7FE8; }
+  .ff .h { font-family: var(--bv); font-size: 27px; line-height: 1.05; color: #F2F0FA; }
+  .ff .mix { display: flex; gap: 8px; }
+  .ff .mix i { height: 6px; }
+
+  .leaderboard { background: #FAF7EF; }
+  .pl { display: flex; flex-direction: column; gap: 5px; font-family: var(--cd); font-size: 14.5px; color: #1A1F3A; width: 100%; }
+  .pl .k { font-size: 11px; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: #8A8070; margin-bottom: 4px; }
+  .pl .r { display: grid; grid-template-columns: 26px 1fr 62px; gap: 8px; border-bottom: 1px solid #D8D1BF; padding-bottom: 4px; }
+  .pl .r b { font-weight: 700; }
+  .pl .r em { text-align: right; font-style: normal; font-variant-numeric: tabular-nums; }
+  .pl .r.me { color: var(--news); border-bottom: 0; }
+
+  .arcade { background: #0A0A0C; padding: 0; }
+  .arcade img { width: 100%; height: 100%; object-fit: cover; }
+  .pf { display: flex; flex-direction: column; gap: 16px; align-items: center; }
+  .cab { border: 2px solid #FFB020; padding: 11px 18px; text-align: center; box-shadow: 0 0 0 4px #0A0A0C, 0 0 18px rgba(255,176,32,.35); }
+  .cab b { display: block; font-family: var(--cd); font-weight: 700; font-size: 22px; letter-spacing: .22em; color: #FFB020; }
+  .cab span { display: block; font-family: var(--cd); font-size: 11.5px; letter-spacing: .1em; color: #C9922B; margin-top: 3px; }
+
+  @media (max-width: 900px) { .grid.three { grid-template-columns: 1fr; } }
+</style>

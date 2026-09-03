@@ -1,0 +1,142 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import PageFooter from '../components/PageFooter.astro';
+
+// `art` is a file in public/img, sized at build time so every logo carries
+// roughly the same optical weight — a square crest set to a wordmark's height
+// is unreadable, so `w`/`h` vary and the area stays constant. Leave `art` empty
+// and the name is set in type instead, so a missing logo still looks deliberate.
+const employment = [
+  { name: 'San Diego State', art: 'logo-sdsu.webp', w: 69, h: 48 },
+  { name: 'PayPal', art: 'logo-paypal.webp', w: 68, h: 48 },
+  { name: 'Sketch Maven', art: 'logo-sketchmaven.webp', w: 157, h: 27 },
+  { name: 'NewPage', art: 'logo-newpage.webp', w: 135, h: 31 },
+  { name: 'GE', art: 'logo-ge.svg', w: 48, h: 48 },
+];
+const education = [
+  { name: 'Johns Hopkins', art: 'logo-johnshopkins.webp', w: 95, h: 45 },
+  { name: 'UC Berkeley', art: 'logo-berkeley.webp', w: 130, h: 33 },
+  { name: 'Illinois', art: 'logo-illinois.webp', w: 46, h: 48 },
+];
+
+const elsewhere = [
+  ['LinkedIn', 'https://www.linkedin.com/in/todasco/', '— AI and business'],
+  ['Bluesky', 'https://bsky.app/profile/todasco.bsky.social', '— the funny stuff'],
+  ['Twitter/X', 'https://x.com/todasco', '— to feel bad about myself'],
+  ['Google Scholar', 'https://scholar.google.com/citations?user=LtLp_AoAAAAJ', '— the papers'],
+];
+---
+<Base
+  title="About — Mike Todasco"
+  description="Mike Todasco is a writer of eclectic stuff: children's books about science, humor, an AI newsletter, and 119 patents."
+>
+  <PageHeader
+    num="10" sym="Ab" name="About" fam="misc" count="—"
+    title="Who this is, and how to reach him"
+    prose="The short version: I write about AI for people who do not work in AI, I made a lot of patents at a payments company, and I am currently turning the periodic table into a comic book."
+    links={[
+      { label: 'Email', href: 'mailto:miketodasco@gmail.com' },
+      { label: 'Press kit', href: '/press' },
+    ]}
+    mike="mike-about"
+    mikeAlt="Cartoon Mike Todasco standing with his arms folded"
+    right="Own format"
+  />
+
+  <div class="aboutbody">
+    <div class="left">
+      <p class="lede">
+        Mike Todasco is a writer of eclectic stuff. His humor has appeared in Points in Case,
+        Slackjaw and Weekly Humorist. He holds 119 patents from his years leading innovation at
+        PayPal. He is a Visiting Fellow at San Diego State&rsquo;s AI Center. He lives in
+        California with his wife and two kids.
+      </p>
+
+      <div class="reclabel">Employment history</div>
+      <ol class="chain">
+        {employment.map((e, i) => (
+          <li>
+            {i > 0 && <span class="arrow" aria-hidden="true">&larr;</span>}
+            <div class={e.art ? 'mark logo' : 'mark'}>
+              {e.art ? <img src={`/img/${e.art}`} alt={e.name} width={e.w} height={e.h} />
+                     : <span class="wordmark">{e.name}</span>}
+            </div>
+          </li>
+        ))}
+      </ol>
+
+      <div class="reclabel">Education</div>
+      <ol class="chain">
+        {education.map((e, i) => (
+          <li>
+            {i > 0 && <span class="arrow" aria-hidden="true">&larr;</span>}
+            <div class={e.art ? 'mark logo' : 'mark'}>
+              {e.art ? <img src={`/img/${e.art}`} alt={e.name} width={e.w} height={e.h} />
+                     : <span class="wordmark">{e.name}</span>}
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+
+    <aside class="right">
+      <div class="getintouch">
+        <div class="k">Get in touch</div>
+        <h2>Want me on your podcast?</h2>
+        <p>Love to chat about AI, Innovation, and what it is like to write children&rsquo;s books about atoms.</p>
+        <a class="btn" href="mailto:miketodasco@gmail.com">Email me</a>
+        <p class="kitlink"><a href="/press">Bios, photos and topics &rarr;</a></p>
+      </div>
+
+      <div class="elsewhere" id="elsewhere">
+        <div class="k">Elsewhere</div>
+        {elsewhere.map(([label, href, note]) => (
+          <div class="ln"><a href={href}>{label}</a> <span>{note}</span></div>
+        ))}
+      </div>
+    </aside>
+  </div>
+
+  <PageFooter left="Based in California." right="Element 10 · About" fam="misc" />
+</Base>
+
+<style>
+  .aboutbody { display: grid; grid-template-columns: 1fr 420px; }
+  .left { padding: 30px 34px 34px; border-right: 1px solid var(--hair); }
+  .lede { margin: 0 0 18px; font-size: 19px; line-height: 1.55; color: #33302B; max-width: 62ch; }
+  .reclabel { font-family: var(--cd); font-size: 11.5px; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; color: var(--muted); margin: 26px 0 12px; }
+  .chain { list-style: none; margin: 0 0 26px; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+  .chain li { display: flex; align-items: center; gap: 10px; }
+  .mark {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
+    min-height: 74px; padding: 8px 14px; border: 2px solid var(--hair); background: var(--paper);
+  }
+  /* logos are supplied on white, so the cell matches rather than fights it */
+  .mark.logo { background: #FFF; }
+  .mark img { max-width: 100%; }
+  .wordmark { font-family: var(--cd); font-weight: 700; font-size: 19px; letter-spacing: .02em; text-transform: uppercase; line-height: 1; }
+  .arrow { font-family: var(--cd); font-size: 17px; color: var(--rule); }
+
+  .right { padding: 30px 30px 34px; display: flex; flex-direction: column; gap: 18px; background: var(--panel); }
+  .getintouch { border: 3px solid var(--ink); background: var(--misc-pale); padding: 20px; }
+  .k { font-family: var(--cd); font-size: 11.5px; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; color: var(--misc); margin-bottom: 8px; }
+  .getintouch h2 { font-family: var(--bv); font-size: 27px; line-height: 1.08; margin: 0 0 10px; font-weight: 400; }
+  .getintouch p { margin: 0 0 14px; font-size: 15px; line-height: 1.45; color: var(--body); }
+  .kitlink { margin: 12px 0 0; font-family: var(--cd); font-size: 13.5px; letter-spacing: .06em; text-transform: uppercase; }
+  .kitlink a { color: var(--news); border-bottom: 2px solid var(--news); }
+  .elsewhere { border-top: 1px solid var(--hair); padding-top: 16px; }
+  .elsewhere .k { color: var(--muted); margin-bottom: 9px; }
+  .ln { font-size: 15px; line-height: 1.9; color: var(--body); }
+  .ln a { border-bottom: 1px solid var(--hair); }
+
+  @media (max-width: 900px) {
+    .aboutbody { grid-template-columns: 1fr; }
+    .left { border-right: 0; padding: 20px 14px; }
+    .right { padding: 20px 14px; }
+    .chain { gap: 6px; }
+    .mark { min-height: 62px; padding: 7px 11px; }
+    .mark img { max-width: 108px; }
+    .wordmark { font-size: 16px; }
+  }
+</style>

@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import PageFooter from '../components/PageFooter.astro';
+---
+<Base
+  title="Patents — Mike Todasco"
+  description="119 US patents from Mike Todasco's years running innovation at PayPal, issued from 2016 to the present."
+>
+  <PageHeader
+    num="06" sym="Pt" name="Patents" fam="paper-ink" count="119"
+    title="Lots of Crazy Ideas I Like To Talk About at Parties"
+    prose="Patents from my time at PayPal from 2011-2022. Payments, machine learning, fraud, edge computing, and a surprising amount of augmented reality."
+    links={[
+      { label: 'Full list on Patent Leaderboard', href: 'https://www.patentleaderboard.com/paypal/michael-charles-todasco/9152' },
+      { label: 'USPTO', href: 'https://ppubs.uspto.gov/pubwebapp/' },
+    ]}
+    mike="mike-patents"
+    mikeAlt="Cartoon Mike Todasco in a lab coat beside a framed patent certificate"
+    right="Live from Patent Leaderboard"
+  />
+
+  <section class="embed">
+    <iframe
+      src="https://www.patentleaderboard.com/widget/inventor/9152"
+      title="Patent Leaderboard — Michael Charles Todasco"
+      loading="lazy"
+      height="400"
+    ></iframe>
+  </section>
+
+  <PageFooter
+    left="Filing data from the USPTO, by way of Patent Leaderboard."
+    right="Element 06 · Patents"
+    fam="paper-ink"
+  />
+</Base>
+
+<style>
+  .embed { padding: 26px 30px 30px; }
+  .embed iframe { width: 100%; border: 3px solid var(--ink); background: #FAF7EF; display: block; }
+  @media (max-width: 900px) { .embed { padding: 14px; } }
+</style>

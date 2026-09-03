@@ -1,0 +1,78 @@
+---
+import '../styles/global.css';
+
+const {
+  title,
+  description = "Mike Todasco writes children's books about science, humor for adults who think too much, and a weekly AI newsletter with zero hype.",
+  page = '',
+} = Astro.props;
+
+const site = Astro.site ?? new URL('https://todasco.com');
+const canonical = new URL(Astro.url.pathname, site).href;
+const ogImage = new URL('/img/og-default.jpg', site).href;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Mike Todasco" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Mike Todasco — author, inventor, experimenter" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content={ogImage} />
+  <meta name="twitter:creator" content="@todasco" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#EAE6DC" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bevan&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@300;400;500;600&display=swap"
+  />
+
+  {page === 'home' && (
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      name: 'Mike Todasco',
+      alternateName: 'Michael Todasco',
+      url: 'https://todasco.com/',
+      jobTitle: 'Author and Experimenter',
+      description,
+      sameAs: [
+        'https://todasco.substack.com',
+        'https://medium.com/@todasco',
+        'https://www.linkedin.com/in/todasco/',
+        'https://bsky.app/profile/todasco.bsky.social',
+        'https://scholar.google.com/citations?user=LtLp_AoAAAAJ',
+      ],
+    })} />
+  )}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="sheet-outer">
+    <main id="main" class="sheet">
+      <slot />
+    </main>
+  </div>
+</body>
+</html>

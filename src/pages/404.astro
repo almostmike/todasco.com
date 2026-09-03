@@ -1,0 +1,42 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Not found — Mike Todasco" description="That element isn't on the table.">
+  <div class="crumb">
+    <div><a href="/">&larr; The Table</a> <span class="sep">/</span> <span style="color:var(--misc)">Element ?? &middot; Unobtainium</span></div>
+    <div class="right">404</div>
+  </div>
+
+  <div class="nf">
+    <div class="left">
+      <div class="tile" style="background:var(--misc-pale)">
+        <div class="row"><span class="num">??</span></div>
+        <div class="sym" style="color:var(--misc)">Un</div>
+        <div class="nm">Unobtainium</div>
+      </div>
+      <div class="copy">
+        <h1>That element isn&rsquo;t on the table</h1>
+        <p>The page you asked for does not exist, which in fairness is true of most pages.</p>
+        <a class="btn" href="/">Back to the table</a>
+      </div>
+    </div>
+    <div class="mike">
+      <img src="/img/mike-404.webp" alt="Cartoon Mike Todasco holding a magnifying glass up to an empty picture frame, shrugging" width="600" height="680" />
+    </div>
+  </div>
+</Base>
+
+<style>
+  .nf { display: grid; grid-template-columns: 1fr 320px; }
+  .left { display: flex; align-items: center; gap: 40px; padding: 60px 34px; flex-wrap: wrap; }
+  .copy h1 { font-family: var(--bv); font-size: 38px; line-height: 1.06; margin: 0 0 10px; font-weight: 400; }
+  .copy p { font-size: 17px; color: var(--body); margin: 0 0 18px; max-width: 44ch; }
+  .mike { background: var(--panel); overflow: hidden; border-left: 1px solid var(--hair); }
+  .mike img { width: 100%; height: 100%; object-fit: cover; }
+  @media (max-width: 900px) {
+    .nf { grid-template-columns: 1fr; }
+    .left { padding: 26px 14px; gap: 24px; }
+    .copy h1 { font-size: 28px; }
+    .mike { max-height: 260px; border-left: 0; border-top: 1px solid var(--hair); }
+  }
+</style>

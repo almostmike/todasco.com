@@ -1,0 +1,18 @@
+{
+  "name": "todasco-com",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "jobs": "node scripts/fetch-jobs.mjs",
+    "build:live": "node scripts/fetch-jobs.mjs && astro build",
+    "jobs:check": "node scripts/check-notion.mjs"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^6.6.5",
+    "astro": "^5.14.1"
+  }
+}

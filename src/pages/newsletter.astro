@@ -1,0 +1,228 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import PageFooter from '../components/PageFooter.astro';
+import posts from '../data/newsletter.json';
+import featured from '../data/featured.json';
+
+// two-letter symbol from the title, unique across the set
+const STOP = new Set(['the','a','an','of','and','or','to','in','on','is','it','my','for','at','with','you','your','i']);
+const used = new Set();
+function symbolFor(title) {
+  const words = title.replace(/[^A-Za-z0-9 ]/g, ' ').split(/\s+/).filter(Boolean);
+  const strong = words.filter((w) => !STOP.has(w.toLowerCase()));
+  const pool = strong.length ? strong : words;
+  const cands = [];
+  const first = pool[0] ?? 'Xx';
+  if (pool[1]) cands.push(first[0].toUpperCase() + pool[1][0].toLowerCase());
+  for (let i = 1; i < first.length; i++) cands.push(first[0].toUpperCase() + first[i].toLowerCase());
+  for (const w of pool.slice(1)) cands.push(first[0].toUpperCase() + w[0].toLowerCase());
+  for (const c of cands) if (!used.has(c)) { used.add(c); return c; }
+  let n = 2;
+  while (used.has(first[0].toUpperCase() + n)) n++;
+  const f = first[0].toUpperCase() + n; used.add(f); return f;
+}
+
+const years = [...new Set(posts.map((p) => p.year))].sort();
+const rows = years.map((y) => ({
+  year: y,
+  items: posts.filter((p) => p.year === y).map((p) => ({ ...p, sym: symbolFor(p.title) })),
+}));
+const firstRow = rows[0];
+const restRows = rows.slice(1);
+
+// Pick one article per day. Consecutive days must not land on neighbours, so the
+// date key gets avalanche-mixed rather than just multiplied — a plain h*31 hash
+// walks the pool almost in order.
+function dayIndex(key, len) {
+  let h = 2166136261;
+  for (let i = 0; i < key.length; i++) { h ^= key.charCodeAt(i); h = Math.imul(h, 16777619); }
+  h ^= h >>> 15; h = Math.imul(h, 2246822507);
+  h ^= h >>> 13; h = Math.imul(h, 3266489909);
+  return ((h ^ (h >>> 16)) >>> 0) % len;
+}
+// Server-side default so the box is never empty. On a static build this is frozen
+// at build time, so the client re-picks for the visitor's actual date.
+const today = new Date();
+const todayKey = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
+const pick = featured[dayIndex(todayKey, featured.length)];
+---
+<Base
+  title="The Newsletter — Mike Todasco"
+  description="Every essay from Artificially Intelligent Conversations, numbered from the first one in August 2022."
+>
+  <PageHeader
+    num="01" sym="Ai" name="The Newsletter" fam="news" count="WEEKLY"
+    title="Artificially Intelligent Conversations"
+    prose={'Every essay since the first one, published August 2022 &mdash; &ldquo;The One Technology You SHOULD Freak Out About.&rdquo; Four years later, we&rsquo;re all freaking out.'}
+    links={[
+      { label: 'Substack', href: 'https://todasco.substack.com' },
+      { label: 'Medium', href: 'https://medium.com/@todasco' },
+      { label: 'LinkedIn', href: 'https://www.linkedin.com/newsletters/ai-conversations-6996917847037755392/' },
+    ]}
+    mike="mike-news"
+    mikeAlt="Cartoon Mike Todasco writing late at night while two small robots look over his shoulder"
+    right="Complete index · 109 essays and counting"
+  />
+
+  <div class="chartwrap">
+
+    <div class="topsplit">
+      <section class="period narrow">
+        <div class="ylabel"><b>{firstRow.year}</b><span>{firstRow.items.length}</span></div>
+        <div class="row">
+          {firstRow.items.map((p) => (
+            <a class="el" href={p.url} target="_blank" rel="noopener" title={p.title}>
+              <span class="n">{p.n}</span>
+              <span class="sym">{p.sym}</span>
+              <span class="t">{p.title}</span>
+              {p.movies && <span class="mv">At the Movies</span>}
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <aside class="featured" id="featured" data-pool={JSON.stringify(featured)}>
+        <div class="flabel">Featured article</div>
+        <a class="fcard" id="fcard" href={pick.url} target="_blank" rel="noopener">
+          <div class="fart"><img id="fimg" src={`/img/${pick.art}.webp`} alt="" width="760" height="430" /></div>
+          <div class="fmeta">
+            <span class="fnum" id="fnum">#{pick.n}</span>
+            <span class="ftitle" id="ftitle">{pick.title}</span>
+            <span class="fgo">Read it &rarr;</span>
+          </div>
+        </a>
+      </aside>
+    </div>
+
+    {restRows.map(({ year, items }) => (
+      <section class="period">
+        <div class="ylabel"><b>{year}</b><span>{items.length}</span></div>
+        <div class="row">
+          {items.map((p) => (
+            <a class="el" href={p.url} target="_blank" rel="noopener" title={p.title}>
+              <span class="n">{p.n}</span>
+              <span class="sym">{p.sym}</span>
+              <span class="t">{p.title}</span>
+              {p.movies && <span class="mv">At the Movies</span>}
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+
+  <PageFooter
+    left="Numbered from the first one. Violet marks the ten also filed under AI at the Movies."
+    right="Element 01 · The Newsletter"
+    fam="news"
+  />
+</Base>
+
+<style>
+  .chartwrap { padding: 22px 30px 28px; display: flex; flex-direction: column; gap: 22px; }
+
+  .topsplit { display: grid; grid-template-columns: 762px minmax(0, 1fr); gap: 20px; align-items: start; }
+
+  .period { display: grid; grid-template-columns: 58px 1fr; gap: 14px; align-items: start; }
+  .ylabel {
+    display: flex; flex-direction: column; align-items: flex-end;
+    padding-top: 4px; border-right: 2px solid var(--ink); padding-right: 12px;
+  }
+  .ylabel b { font-family: var(--bv); font-size: 26px; line-height: 1; font-weight: 400; }
+  .ylabel span { font-family: var(--cd); font-size: 12px; font-weight: 600; letter-spacing: .12em; color: var(--muted); margin-top: 3px; }
+
+  .row { display: grid; grid-template-columns: repeat(auto-fill, minmax(126px, 1fr)); gap: 5px; }
+  /* 2022 sits beside the featured box, so it wraps into narrower rows */
+  .period.narrow .row { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+
+  .el {
+    display: flex; flex-direction: column; gap: 3px;
+    aspect-ratio: 1 / 1; padding: 8px 9px 9px;
+    border: 2px solid var(--ink); background: var(--news-pale);
+    overflow: hidden; transition: transform .1s ease, background .1s ease;
+  }
+  .el:hover { transform: translateY(-2px); background: #F6E3DC; color: inherit; }
+  .el .n { font-family: var(--cd); font-size: 11px; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .el .sym { font-family: var(--bv); font-size: 30px; line-height: .92; color: var(--news); }
+  .el .t {
+    font-family: var(--cd); font-size: 11.5px; font-weight: 500; line-height: 1.16;
+    letter-spacing: .01em; color: var(--ink); margin-top: auto;
+    display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .el .mv {
+    font-family: var(--cd); font-size: 9px; font-weight: 700; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--film);
+  }
+
+  /* ── featured ─────────────────────────────────────────────── */
+  .featured { border: 3px solid var(--paper-ink); background: var(--paper-pale); }
+  .flabel {
+    font-family: var(--cd); font-size: 11.5px; font-weight: 700; letter-spacing: .24em;
+    text-transform: uppercase; color: #F2F6F9; background: var(--paper-ink);
+    padding: 7px 12px;
+  }
+  .fcard { display: block; }
+  .fcard:hover { color: inherit; }
+  .fcard:hover .fgo { border-bottom-color: var(--paper-ink); }
+  .fart { border-bottom: 3px solid var(--paper-ink); background: var(--panel); aspect-ratio: 760 / 430; overflow: hidden; }
+  .fart img { width: 100%; height: 100%; object-fit: cover; }
+  .fmeta { padding: 13px 15px 16px; display: flex; flex-direction: column; gap: 7px; }
+  .fnum { font-family: var(--cd); font-size: 12px; font-weight: 700; letter-spacing: .1em; color: var(--paper-ink); }
+  .ftitle { font-family: var(--bv); font-size: 22px; line-height: 1.15; }
+  .fgo {
+    font-family: var(--cd); font-size: 13px; font-weight: 700; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--paper-ink);
+    border-bottom: 2px solid transparent; align-self: flex-start;
+  }
+
+  @media (max-width: 1280px) {
+    .topsplit { grid-template-columns: 1fr; }
+    .featured { order: -1; max-width: 620px; }
+    .period.narrow .row { grid-template-columns: repeat(auto-fill, minmax(126px, 1fr)); }
+  }
+  @media (max-width: 900px) {
+    .chartwrap { padding: 14px; gap: 16px; }
+    .topsplit { grid-template-columns: 1fr; }
+    .featured { order: -1; }
+    .period { grid-template-columns: 40px 1fr; gap: 8px; }
+    .ylabel { padding-right: 8px; }
+    .ylabel b { font-size: 19px; }
+    .ylabel span { display: none; }
+    .row, .period.narrow .row { grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 4px; }
+    .el .sym { font-size: 22px; }
+    .el .t { font-size: 10px; -webkit-line-clamp: 3; }
+    .ftitle { font-size: 19px; }
+  }
+</style>
+
+<script>
+  // Rotate the featured article once a day. Deterministic from the date, so
+  // everyone sees the same one and it changes at midnight — no server needed.
+  const box = document.getElementById('featured');
+  if (box) {
+    try {
+      const pool = JSON.parse(box.dataset.pool || '[]');
+      if (pool.length) {
+        const d = new Date();
+        const key = `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;
+        let h = 2166136261;
+        for (let i = 0; i < key.length; i++) { h ^= key.charCodeAt(i); h = Math.imul(h, 16777619); }
+        h ^= h >>> 15; h = Math.imul(h, 2246822507);
+        h ^= h >>> 13; h = Math.imul(h, 3266489909);
+        const p = pool[((h ^ (h >>> 16)) >>> 0) % pool.length];
+        const card = document.getElementById('fcard');
+        const img = document.getElementById('fimg');
+        const num = document.getElementById('fnum');
+        const title = document.getElementById('ftitle');
+        if (card && img && num && title) {
+          card.href = p.url;
+          img.src = `/img/${p.art}.webp`;
+          img.alt = '';
+          num.textContent = `#${p.n}`;
+          title.textContent = p.title;
+        }
+      }
+    } catch { /* leave the server-rendered pick in place */ }
+  }
+</script>

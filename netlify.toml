@@ -1,0 +1,12 @@
+# Netlify reads this from the repo root. The Astro adapter writes the static
+# pages to dist/ and the on-demand /jobs route to .netlify/v1/functions/ssr,
+# which Netlify picks up on its own — publish only needs to point at dist/.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  # Astro 5 needs 18.17+. Pinned so a change to Netlify's default can't move
+  # the build out from under us.
+  NODE_VERSION = "22"

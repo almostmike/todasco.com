@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import PageFooter from '../components/PageFooter.astro';
+import films from '../data/movies.json';
+---
+<Base
+  title="AI at the Movies — Mike Todasco"
+  description="An ongoing series on what cinema taught us to expect from artificial intelligence, and what those films taught the language models."
+>
+  <PageHeader
+    num="04" sym="Mv" name="AI at the Movies" fam="film" count="10"
+    title="What the films got right, and very wrong"
+    prose="An ongoing series on what cinema taught us to expect from artificial intelligence, and what these movies taught the language models."
+    links={[{ label: 'Read in the newsletter', href: '/newsletter' }]}
+    mike="mike-movies"
+    mikeAlt="Cartoon Mike Todasco alone in a cinema seat clutching an enormous bucket of popcorn"
+    right="Specimens 01 – 10"
+  />
+
+  <div class="plates">
+    <div class="grid five">
+      {films.map((f, i) => (
+        <a class="plate" href={f.url} target="_blank" rel="noopener" style="background:var(--film-pale)">
+          <div class="art" style="height:168px;background:var(--panel)">
+            <img src={`/img/${f.art}.webp`} alt={`Cover art for the ${f.film} essay`} width="520" height="300" loading="lazy" />
+          </div>
+          <div class="meta">
+            <div class="row"><span class="n">{String(i + 1).padStart(2, '0')}</span></div>
+            <div class="sym" style="color:var(--film)">{f.sym}</div>
+            <div class="nm">{f.film}</div>
+            <div class="sub">{f.sub}</div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <PageFooter
+    left=""
+    right="Element 04 · AI at the Movies"
+    fam="film"
+  />
+</Base>
+
+<style>
+  .grid.five { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  @media (max-width: 1100px) { .grid.five { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (max-width: 700px)  { .grid.five { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+</style>

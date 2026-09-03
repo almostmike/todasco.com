@@ -1,0 +1,36 @@
+---
+const { num, sym, name, fam, count, title, prose, links = [], mike, mikeAlt, right } = Astro.props;
+const ink = `var(--${fam})`;
+const pale = `var(--${fam}-pale)`;
+---
+<div class="crumb">
+  <div><a href="/">&larr; The Table</a> <span class="sep">/</span> <span style={`color:${ink}`}>Element {num} &middot; {name}</span></div>
+  <div class="right">{right}</div>
+</div>
+
+<div class="phead">
+  <div class="tilecell">
+    <div class="tile" style={`background:${pale}`}>
+      <div class="row">
+        <span class="num">{num}</span>
+        <span class="cnt" style={`color:${ink}`}>{count}</span>
+      </div>
+      <div class="sym" style={`color:${ink}`}>{sym}</div>
+      <div class="nm">{name}</div>
+    </div>
+  </div>
+
+  <div class="prose">
+    <h1>{title}</h1>
+    <p set:html={prose} />
+    {links.length > 0 && (
+      <div class="links">
+        {links.map((l, i) => (
+          <a href={l.href ?? '#'} class={i === 0 ? 'on' : ''}>{l.label}</a>
+        ))}
+      </div>
+    )}
+  </div>
+
+  <div class="mike"><img src={`/img/${mike}.webp`} alt={mikeAlt} width="600" height="680" loading="eager" /></div>
+</div>

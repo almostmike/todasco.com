@@ -1,0 +1,182 @@
+---
+import Base from '../layouts/Base.astro';
+
+const tiles = [
+  { n: '02', sym: 'Pf', name: 'Periodic Fables', fam: 'book',  meta: 'FALL 2027',
+    desc: 'Graphic novels where atoms go on adventures.', href: '/periodic-fables', r: 2, c: 1 },
+  { n: '03', sym: 'Hu', name: 'Humor', fam: 'humor', meta: '10 PIECES',
+    desc: 'Jokes that got past an editor. Weekly Humorist, Slackjaw.', href: '/humor', r: 2, c: 2 },
+  { n: '04', sym: 'Mv', name: 'AI at the Movies', fam: 'film', meta: '10 ESSAYS',
+    desc: 'Her, Ex Machina, 2001, Blade Runner, Ghost in the Shell.', href: '/ai-at-the-movies', r: 2, c: 3 },
+  { n: '05', sym: 'Re', name: 'Research', fam: 'paper-ink', pale: 'paper-pale', meta: '7 PAPERS',
+    desc: 'Papers, preprints and odd experiments. 1,765 citations.', href: '/research', r: 2, c: 4 },
+  { n: '06', sym: 'Pt', name: 'Patents', fam: 'paper-ink', pale: 'paper-pale', meta: '119 FILED',
+    desc: 'Filed at PayPal, 2016 to present.', href: '/patents', r: 2, c: 5 },
+  { n: '07', sym: 'Me', name: 'Media', fam: 'misc', meta: '56 SHOWS',
+    desc: 'Podcasts, radio and TV. NPR, Wharton, NBC 7.', href: '/media', r: 2, c: 6 },
+  { n: '08', sym: 'Ws', name: 'Things I Built', fam: 'built', meta: '3 SITES',
+    desc: 'Two scoreboards and one arcade game about patents.', href: '/built', r: 3, c: 1 },
+  { n: '09', sym: 'Jb', name: "Mike's Jobs", fam: 'misc', meta: 'UPDATED DAILY',
+    desc: "Roles I'll refer you for. Free, and always will be.", href: '/jobs', r: 3, c: 2 },
+];
+
+const families = [
+  ['Books', 'book'], ['Humor', 'humor'], ['Film', 'film'],
+  ['Research', 'paper-pale'], ['Built', 'built'], ['Other', 'misc'],
+];
+---
+<Base title="Mike Todasco — Author, Inventor, Experimenter" page="home">
+
+  <div class="masthead">
+    <div>
+      <div class="eyebrow">Author &middot; Inventor &middot; Experimenter</div>
+      <div class="wordmark">Mike Todasco</div>
+    </div>
+    <nav class="topnav" aria-label="Sections">
+      <a href="/newsletter">Newsletter</a> &middot; <a href="/humor">Humor</a> &middot; <a href="/ai-at-the-movies">Film</a><br />
+      <a href="/research">Research</a> &middot; <a href="/media">Media</a> &middot; <a href="/built">Websites</a> &middot; <a href="/about">About</a>
+    </nav>
+  </div>
+
+  <div class="tablewrap">
+    <div class="chart">
+
+      <a class="el hero-el" href="/newsletter" style="grid-column:1;grid-row:1;background:var(--news-pale)">
+        <div class="r"><span class="n">01</span><span class="m" style="color:var(--news)">WEEKLY</span></div>
+        <div class="s" style="color:var(--news)">Ai</div>
+        <div>
+          <div class="t">The Newsletter</div>
+          <div class="d">Practical AI, zero hype. Four years and lots of essays.</div>
+        </div>
+      </a>
+
+      <div class="gap">
+        <div class="pitch">
+          <div class="kicker">Artificially Intelligent Conversations</div>
+          <h1>I write about AI so you don&rsquo;t have to freak out about it</h1>
+          <p>My musings about AI, sent once every week or two. In plain English, written by a human, and always, 100% free.</p>
+          <form class="sub" action="https://todasco.substack.com/subscribe" method="get" target="_blank" rel="noopener">
+            <label class="skip" for="email">Email address</label>
+            <input class="field" id="email" name="email" type="email" placeholder="email@email.com" required />
+            <button class="btn" type="submit">Subscribe</button>
+          </form>
+          <div class="fine">Runs on <a href="https://todasco.substack.com">Substack</a>. Cross-posted to <a href="https://medium.com/@todasco">Medium</a> and <a href="https://www.linkedin.com/newsletters/ai-conversations-6996917847037755392/">LinkedIn</a>.</div>
+        </div>
+        <div class="portrait">
+          <img src="/img/mike-home.webp" alt="Cartoon illustration of Mike Todasco with his arms folded" width="1040" height="680" />
+        </div>
+      </div>
+
+      <a class="el" href="/about" style="grid-column:6;grid-row:1;background:var(--misc-pale)">
+        <div class="r"><span class="n">10</span></div>
+        <div class="s" style="color:var(--misc)">Ab</div>
+        <div>
+          <div class="t">About</div>
+          <div class="d">Who I am, and how to get me on your podcast.</div>
+        </div>
+      </a>
+
+      {tiles.map((t) => (
+        <a class="el" href={t.href}
+           style={`grid-column:${t.c};grid-row:${t.r};background:var(--${t.pale ?? t.fam + '-pale'})`}>
+          <div class="r">
+            <span class="n">{t.n}</span>
+            <span class="m" style={`color:var(--${t.fam})`}>{t.meta}</span>
+          </div>
+          <div class="s" style={`color:var(--${t.fam})`}>{t.sym}</div>
+          <div>
+            <div class="t">{t.name}</div>
+            <div class="d">{t.desc}</div>
+          </div>
+        </a>
+      ))}
+
+    </div>
+  </div>
+
+  <div class="keybar">
+    <div class="fams">
+      <span class="klbl">Families</span>
+      {families.map(([label, v]) => (
+        <span class="fam">
+          <i style={`background:var(--${v.endsWith('pale') ? v : v + '-pale'})`}></i>{label}
+        </span>
+      ))}
+    </div>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/todasco/">LinkedIn</a> &middot;
+      <a href="https://bsky.app/profile/todasco.bsky.social">Bluesky</a> &middot;
+      <a href="https://x.com/todasco">X</a> &middot; &copy; 2026
+    </div>
+  </div>
+
+</Base>
+
+<style>
+  .masthead {
+    display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: end;
+    padding: 26px 30px 20px; border-bottom: 3px solid var(--ink);
+  }
+  .eyebrow { font-family: var(--cd); font-weight: 600; font-size: 13px; letter-spacing: .34em; text-transform: uppercase; color: var(--muted); }
+  .wordmark { font-family: var(--bv); font-size: 66px; line-height: .96; margin-top: 10px; }
+  .topnav { text-align: right; font-family: var(--cd); font-weight: 500; font-size: 15px; letter-spacing: .18em; text-transform: uppercase; line-height: 2; padding-bottom: 6px; }
+
+  .tablewrap { padding: 24px 30px 26px; }
+  .chart { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); grid-template-rows: 380px 228px 228px; gap: 6px; }
+
+  .el {
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding: 13px 14px 15px; border: 3px solid var(--ink);
+    transition: transform .12s ease;
+  }
+  .el:hover { transform: translateY(-3px); color: inherit; }
+  .el .r { display: flex; justify-content: space-between; align-items: baseline; gap: 6px; }
+  .el .n { font-family: var(--cd); font-size: 13px; font-weight: 600; color: var(--muted); }
+  .el .m { font-family: var(--cd); font-size: 11.5px; font-weight: 600; letter-spacing: .08em; }
+  .el .s { font-family: var(--bv); font-size: 54px; line-height: .88; }
+  .el .t { font-family: var(--cd); font-weight: 700; font-size: 19px; line-height: 1.02; text-transform: uppercase; }
+  .el .d { font-size: 13px; line-height: 1.35; color: var(--body); margin-top: 4px; }
+  .hero-el { padding: 15px 15px 17px; }
+  .hero-el .s { font-size: 76px; }
+  .hero-el .t { font-size: 21px; }
+  .hero-el .d { font-size: 13.5px; }
+
+  .gap { grid-column: 2 / 6; grid-row: 1; display: grid; grid-template-columns: 1fr 372px; gap: 18px; }
+  .pitch { border: 3px solid var(--ink); background: var(--panel); padding: 22px 24px; display: flex; flex-direction: column; justify-content: center; gap: 12px; }
+  .kicker { font-family: var(--cd); font-weight: 600; font-size: 12.5px; letter-spacing: .24em; text-transform: uppercase; color: var(--news); }
+  .pitch h1 { font-family: var(--bv); font-size: 37px; line-height: 1.04; margin: 0; font-weight: 400; }
+  .pitch p { margin: 0; font-size: 16px; line-height: 1.45; color: var(--body); max-width: 54ch; }
+  .sub { display: flex; gap: 7px; margin-top: 3px; }
+  .sub .btn { white-space: nowrap; }
+  .fine { font-family: var(--cd); font-size: 13px; color: var(--muted); }
+  .fine a { border-bottom: 1px solid var(--news); }
+  .portrait { border: 3px solid var(--ink); background: var(--panel); overflow: hidden; }
+  .portrait img { width: 100%; height: 100%; object-fit: cover; }
+
+  .keybar { display: flex; align-items: center; justify-content: space-between; gap: 30px; padding: 15px 30px; border-top: 3px solid var(--ink); background: var(--panel); }
+  .fams { display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: center; }
+  .klbl { font-family: var(--cd); font-weight: 600; font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: var(--muted); }
+  .fam { display: flex; align-items: center; gap: 7px; font-family: var(--cd); font-weight: 600; font-size: 12.5px; letter-spacing: .1em; text-transform: uppercase; }
+  .fam i { width: 14px; height: 14px; border: 1.5px solid var(--ink); display: inline-block; }
+  .social { font-family: var(--cd); font-size: 12.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+
+  @media (max-width: 1100px) {
+    .chart { grid-template-rows: 380px auto auto; }
+    .gap { grid-template-columns: 1fr 260px; }
+    .wordmark { font-size: 52px; }
+    .pitch h1 { font-size: 31px; }
+  }
+  @media (max-width: 900px) {
+    .masthead { grid-template-columns: 1fr; gap: 14px; padding: 18px 14px 14px; }
+    .topnav { text-align: left; font-size: 13px; letter-spacing: .12em; }
+    .wordmark { font-size: 40px; }
+    .tablewrap { padding: 14px; }
+    .chart { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: none; }
+    .el, .hero-el { grid-column: auto !important; grid-row: auto !important; min-height: 178px; }
+    .gap { grid-column: 1 / -1 !important; grid-row: auto !important; grid-template-columns: 1fr; }
+    .portrait { max-height: 260px; }
+    .pitch h1 { font-size: 27px; }
+    .sub { flex-direction: column; }
+    .keybar { flex-direction: column; align-items: flex-start; gap: 10px; padding: 14px; }
+  }
+</style>

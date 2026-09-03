@@ -1,0 +1,710 @@
+[
+ {
+  "no": "US12437232-B2",
+  "title": "Edge device machine learning",
+  "date": "10/7/2025",
+  "year": "2025"
+ },
+ {
+  "no": "US12430692-B2",
+  "title": "Visualization of spending data in an altered reality",
+  "date": "9/30/2025",
+  "year": "2025"
+ },
+ {
+  "no": "US12380361-B2",
+  "title": "Federated machine learning management",
+  "date": "8/5/2025",
+  "year": "2025"
+ },
+ {
+  "no": "US12323434-B2",
+  "title": "Page integrity assurance",
+  "date": "6/3/2025",
+  "year": "2025"
+ },
+ {
+  "no": "US12307500-B2",
+  "title": "Edge computing storage nodes based on location and activities for user data separate from cloud computing environments",
+  "date": "5/20/2025",
+  "year": "2025"
+ },
+ {
+  "no": "US12282943-B2",
+  "title": "Utilizing a vehicle to determine an identity of a user",
+  "date": "4/22/2025",
+  "year": "2025"
+ },
+ {
+  "no": "US12282909-B2",
+  "title": "Transmitting data based on retrieval locations",
+  "date": "4/22/2025",
+  "year": "2025"
+ },
+ {
+  "no": "US12250228-B2",
+  "title": "Targeted authentication queries based on detected user actions",
+  "date": "3/11/2025",
+  "year": "2025"
+ },
+ {
+  "no": "US12248936-B2",
+  "title": "User activity detection for locking cryptocurrency conversions",
+  "date": "3/11/2025",
+  "year": "2025"
+ },
+ {
+  "no": "US12238081-B2",
+  "title": "Edge device representation learning",
+  "date": "2/25/2025",
+  "year": "2025"
+ },
+ {
+  "no": "US12127090-B2",
+  "title": "Aggregation system for item retrieval",
+  "date": "10/22/2024",
+  "year": "2024"
+ },
+ {
+  "no": "US12081541-B2",
+  "title": "Device-side federated machine learning computer system architecture",
+  "date": "9/3/2024",
+  "year": "2024"
+ },
+ {
+  "no": "US12075235-B2",
+  "title": "On-device data privacy operations to prevent data sharing at user locations",
+  "date": "8/27/2024",
+  "year": "2024"
+ },
+ {
+  "no": "US12032732-B2",
+  "title": "Automated configuration of augmented and virtual reality avatars for user specific behaviors",
+  "date": "7/9/2024",
+  "year": "2024"
+ },
+ {
+  "no": "US11983395-B2",
+  "title": "Goal-based dynamic modifications to user interface content",
+  "date": "5/14/2024",
+  "year": "2024"
+ },
+ {
+  "no": "US11913799-B2",
+  "title": "Load balancing for map application route selection and output",
+  "date": "2/27/2024",
+  "year": "2024"
+ },
+ {
+  "no": "US11917510-B2",
+  "title": "Bluetooth low energy (BLE) pre-check in",
+  "date": "2/27/2024",
+  "year": "2024"
+ },
+ {
+  "no": "US11907995-B2",
+  "title": "Edge computing storage nodes based on location and activities for user data separate from cloud computing environments",
+  "date": "2/20/2024",
+  "year": "2024"
+ },
+ {
+  "no": "US11818140-B2",
+  "title": "Targeted authentication queries based on detected user actions",
+  "date": "11/14/2023",
+  "year": "2023"
+ },
+ {
+  "no": "US11790461-B2",
+  "title": "Visualization of spending data in an altered reality",
+  "date": "10/17/2023",
+  "year": "2023"
+ },
+ {
+  "no": "US11762996-B2",
+  "title": "Detection of fraudulent displayable code data during device capture",
+  "date": "9/19/2023",
+  "year": "2023"
+ },
+ {
+  "no": "US11755714-B2",
+  "title": "Authentication based on object recognition",
+  "date": "9/12/2023",
+  "year": "2023"
+ },
+ {
+  "no": "US11741417-B2",
+  "title": "Delivery confirmation using a wireless beacon",
+  "date": "8/29/2023",
+  "year": "2023"
+ },
+ {
+  "no": "US11727365-B2",
+  "title": "Carbon neutral blockchain protocol for resolving carbon offsetter payments for cryptocurrency transactions",
+  "date": "8/15/2023",
+  "year": "2023"
+ },
+ {
+  "no": "US11710162-B2",
+  "title": "Utilizing a vehicle to determine an identity of a user",
+  "date": "7/25/2023",
+  "year": "2023"
+ },
+ {
+  "no": "US11669292-B2",
+  "title": "Private virtual object handling",
+  "date": "6/6/2023",
+  "year": "2023"
+ },
+ {
+  "no": "US11605096-B2",
+  "title": "Initiating a device security setting on detection of conditions indicating a fraudulent capture of a machine-readable code",
+  "date": "3/14/2023",
+  "year": "2023"
+ },
+ {
+  "no": "US11592973-B2",
+  "title": "Goal-based dynamic modifications to user interface content",
+  "date": "2/28/2023",
+  "year": "2023"
+ },
+ {
+  "no": "US11580526-B2",
+  "title": "Electronic identification and authentication system",
+  "date": "2/14/2023",
+  "year": "2023"
+ },
+ {
+  "no": "US11553077-B2",
+  "title": "Conversation assistance system",
+  "date": "1/10/2023",
+  "year": "2023"
+ },
+ {
+  "no": "US11508105-B2",
+  "title": "Using augmented reality for accessing legacy transaction terminals",
+  "date": "11/22/2022",
+  "year": "2022"
+ },
+ {
+  "no": "US11475434-B2",
+  "title": "Local digital token transfer during limited or no device communication",
+  "date": "10/18/2022",
+  "year": "2022"
+ },
+ {
+  "no": "US11461780-B2",
+  "title": "Shared authentication for limited use of an associated account based on user location and connected devices",
+  "date": "10/4/2022",
+  "year": "2022"
+ },
+ {
+  "no": "US11403376-B2",
+  "title": "Authenticating activities of accounts",
+  "date": "8/2/2022",
+  "year": "2022"
+ },
+ {
+  "no": "US11392681-B2",
+  "title": "Authentication based on object recognition",
+  "date": "7/19/2022",
+  "year": "2022"
+ },
+ {
+  "no": "US11391585-B2",
+  "title": "Load balancing for map application route selection and output",
+  "date": "7/19/2022",
+  "year": "2022"
+ },
+ {
+  "no": "US11301832-B2",
+  "title": "Transmitting data based on retrieval locations",
+  "date": "4/12/2022",
+  "year": "2022"
+ },
+ {
+  "no": "US11281776-B2",
+  "title": "Detection of fraudulent displayable code data during device capture",
+  "date": "3/22/2022",
+  "year": "2022"
+ },
+ {
+  "no": "US11269581-B2",
+  "title": "Private virtual object handling",
+  "date": "3/8/2022",
+  "year": "2022"
+ },
+ {
+  "no": "US11228888-B2",
+  "title": "Bluetooth low energy (BLE) pre-check in",
+  "date": "1/18/2022",
+  "year": "2022"
+ },
+ {
+  "no": "US11144947-B2",
+  "title": "Managing user loyalty groups at point-of-sale accesses",
+  "date": "10/12/2021",
+  "year": "2021"
+ },
+ {
+  "no": "US11126674-B2",
+  "title": "Soft recommendations",
+  "date": "9/21/2021",
+  "year": "2021"
+ },
+ {
+  "no": "US11106281-B2",
+  "title": "Providing haptic feedback on a screen",
+  "date": "8/31/2021",
+  "year": "2021"
+ },
+ {
+  "no": "US11075924-B2",
+  "title": "Targeted authentication queries based on detected user actions",
+  "date": "7/27/2021",
+  "year": "2021"
+ },
+ {
+  "no": "US11068120-B2",
+  "title": "Visualization of spending data in an altered reality",
+  "date": "7/20/2021",
+  "year": "2021"
+ },
+ {
+  "no": "US11019552-B2",
+  "title": "Wireless beacon devices for use in managing transportation service terminals",
+  "date": "5/25/2021",
+  "year": "2021"
+ },
+ {
+  "no": "US11012553-B2",
+  "title": "Conversation assistance system",
+  "date": "5/18/2021",
+  "year": "2021"
+ },
+ {
+  "no": "US10974733-B2",
+  "title": "Vehicle use and performance restrictions based on detected users",
+  "date": "4/13/2021",
+  "year": "2021"
+ },
+ {
+  "no": "US10979869-B2",
+  "title": "Client device access to data based on address configurations",
+  "date": "4/13/2021",
+  "year": "2021"
+ },
+ {
+  "no": "US10970897-B2",
+  "title": "Using augmented reality for accessing legacy transaction terminals",
+  "date": "4/6/2021",
+  "year": "2021"
+ },
+ {
+  "no": "US10949859-B2",
+  "title": "Enhancing information security via the use of a dummy credit card number",
+  "date": "3/16/2021",
+  "year": "2021"
+ },
+ {
+  "no": "US10945052-B2",
+  "title": "Gathering unique information from dispersed users",
+  "date": "3/9/2021",
+  "year": "2021"
+ },
+ {
+  "no": "US10932109-B2",
+  "title": "System configurations to determine user data associated with mobile applications",
+  "date": "2/23/2021",
+  "year": "2021"
+ },
+ {
+  "no": "US10922731-B2",
+  "title": "Item location assistant with custom price display",
+  "date": "2/16/2021",
+  "year": "2021"
+ },
+ {
+  "no": "US10855689-B2",
+  "title": "System configurations for data stream accessibility",
+  "date": "12/1/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10810571-B2",
+  "title": "Location-based device and authentication system",
+  "date": "10/20/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10805470-B2",
+  "title": "Voice-controlled audio communication system",
+  "date": "10/13/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10755582-B2",
+  "title": "Drone physical and data interface for enhanced distance coverage",
+  "date": "8/25/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10750015-B2",
+  "title": "Authenticating with a service provider using a virtual assistant device",
+  "date": "8/18/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10743162-B2",
+  "title": "Aggregation system for item retrieval",
+  "date": "8/11/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10740814-B2",
+  "title": "Detector tags to determine perishability of food items",
+  "date": "8/11/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10708779-B2",
+  "title": "Electronic devices for wave pattern data transfer",
+  "date": "7/7/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10692083-B2",
+  "title": "Automatic authentication for a user with a service provider during a voice data connection to a merchant",
+  "date": "6/23/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10679208-B2",
+  "title": "Local digital token transfer during limited or no device communication",
+  "date": "6/9/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10670414-B2",
+  "title": "Load balancing for map application route selection and output",
+  "date": "6/2/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10659932-B2",
+  "title": "Client device access to data based on address configurations",
+  "date": "5/19/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10650425-B2",
+  "title": "Utilizing a vehicle to determine an identity of a user",
+  "date": "5/12/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10560567-B2",
+  "title": "Conversation assistance system",
+  "date": "2/11/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10558793-B2",
+  "title": "Authentication based on object recognition",
+  "date": "2/11/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10552920-B2",
+  "title": "Detecting location data of co-located users having a common interest",
+  "date": "2/4/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10553032-B2",
+  "title": "Augmented reality output based on item acquisition limitations",
+  "date": "2/4/2020",
+  "year": "2020"
+ },
+ {
+  "no": "US10515393-B2",
+  "title": "Image data detection for micro-expression analysis and targeted data services",
+  "date": "12/24/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10515353-B2",
+  "title": "Electronic identification and authentication system",
+  "date": "12/24/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10509473-B2",
+  "title": "Providing haptic feedback on a screen",
+  "date": "12/17/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10497036-B2",
+  "title": "Customer shopping help system",
+  "date": "12/3/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10499224-B2",
+  "title": "Bluetooth low energy (BLE) pre-check in",
+  "date": "12/3/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10448228-B2",
+  "title": "System configurations to determine user data associated with mobile applications",
+  "date": "10/15/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10417656-B2",
+  "title": "Managing user loyalty groups at point-of-sale accesses",
+  "date": "9/17/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10395069-B2",
+  "title": "Restricting access to a device",
+  "date": "8/27/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10379709-B2",
+  "title": "Electronically analyzing user activity on a graphical user interface",
+  "date": "8/13/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10373169-B2",
+  "title": "Enhancing information security via the use of a dummy credit card number",
+  "date": "8/6/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10366393-B2",
+  "title": "Shared authentication for limited use of an associated account based on user location and connected devices",
+  "date": "7/30/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10362027-B2",
+  "title": "Authenticating activities of accounts",
+  "date": "7/23/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10346827-B2",
+  "title": "Display of a transaction history using a payment card display device for secure transaction processing",
+  "date": "7/9/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10289261-B2",
+  "title": "Visualization of spending data in an altered reality",
+  "date": "5/14/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10284567-B2",
+  "title": "Targeted authentication queries based on detected user actions",
+  "date": "5/7/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10275733-B2",
+  "title": "Delivery confirmation using a wireless beacon",
+  "date": "4/30/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10264050-B2",
+  "title": "Predictive analysis of computing patterns for preloaded data to reduce processing downtime",
+  "date": "4/16/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10228893-B2",
+  "title": "Private virtual object handling",
+  "date": "3/12/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10231098-B2",
+  "title": "Client device access to data based on address configurations",
+  "date": "3/12/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10218710-B2",
+  "title": "System configurations for data stream accessibility",
+  "date": "2/26/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10212549-B2",
+  "title": "Social networking connections through short range wireless devices",
+  "date": "2/19/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10179591-B2",
+  "title": "Vehicle use and performance restrictions based on detected users",
+  "date": "1/15/2019",
+  "year": "2019"
+ },
+ {
+  "no": "US10160412-B2",
+  "title": "System configurations to retrieve review data and transmit notifications to mobile devices",
+  "date": "12/25/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US10140645-B2",
+  "title": "Intelligent fuel purchasing recommendations",
+  "date": "11/27/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US10122843-B2",
+  "title": "Conversation assistance system",
+  "date": "11/6/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US10104452-B2",
+  "title": "Gathering unique information from dispersed users",
+  "date": "10/16/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US10050457-B2",
+  "title": "Smart charging of user devices",
+  "date": "8/14/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US10044869-B2",
+  "title": "Voice-controlled audio communication system",
+  "date": "8/7/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US10025919-B2",
+  "title": "Authentication based on object recognition",
+  "date": "7/17/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US10025958-B1",
+  "title": "Restricting access to a device",
+  "date": "7/17/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US9996866-B2",
+  "title": "Item location assistant with custom price display",
+  "date": "6/12/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US9990624-B2",
+  "title": "Transmitting data based on retrieval locations",
+  "date": "6/5/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US9974000-B2",
+  "title": "Wireless beacon devices for use in managing transportation service terminals",
+  "date": "5/15/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US9959540-B2",
+  "title": "Security authentication using payment card display devices at accepted merchant locations",
+  "date": "5/1/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US9942691-B2",
+  "title": "System configurations to determine user data associated with mobile applications",
+  "date": "4/10/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US9936127-B2",
+  "title": "Systems and methods for providing attention directing functions in an image capturing device",
+  "date": "4/3/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US9892439-B2",
+  "title": "Utilizing a vehicle to determine an identity of a user",
+  "date": "2/13/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US9872140-B2",
+  "title": "Social networking connections through short range wireless devices",
+  "date": "1/16/2018",
+  "year": "2018"
+ },
+ {
+  "no": "US9760927-B2",
+  "title": "Customer shopping help system",
+  "date": "9/12/2017",
+  "year": "2017"
+ },
+ {
+  "no": "US9743261-B2",
+  "title": "Client device access to data based on address configurations",
+  "date": "8/22/2017",
+  "year": "2017"
+ },
+ {
+  "no": "US9720381-B2",
+  "title": "Unpredictable time clock",
+  "date": "8/1/2017",
+  "year": "2017"
+ },
+ {
+  "no": "US9635167-B2",
+  "title": "Conversation assistance system",
+  "date": "4/25/2017",
+  "year": "2017"
+ },
+ {
+  "no": "US9586596-B2",
+  "title": "Vehicle use and performance restrictions based on detected users",
+  "date": "3/7/2017",
+  "year": "2017"
+ },
+ {
+  "no": "US9585079-B2",
+  "title": "Wireless beacon devices for use in managing transportation service terminals",
+  "date": "2/28/2017",
+  "year": "2017"
+ },
+ {
+  "no": "US9576120-B2",
+  "title": "Authenticating activities of accounts",
+  "date": "2/21/2017",
+  "year": "2017"
+ },
+ {
+  "no": "US9536407-B2",
+  "title": "Emergency monitoring of tagged objects",
+  "date": "1/3/2017",
+  "year": "2017"
+ },
+ {
+  "no": "US9483937-B2",
+  "title": "Wireless beacon devices providing crosswalk management through communication device connections",
+  "date": "11/1/2016",
+  "year": "2016"
+ }
+]

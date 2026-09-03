@@ -1,0 +1,72 @@
+[
+ {
+  "sym": "He",
+  "film": "Her",
+  "sub": "What we wanted an AI companion to be",
+  "url": "https://medium.com/@todasco/her-ai-at-the-movies-d7f5786a0ac7",
+  "art": "film-her"
+ },
+ {
+  "sym": "Ag",
+  "film": "AlphaGo",
+  "sub": "The move nobody saw coming",
+  "url": "https://www.linkedin.com/pulse/alphago-ai-movies-michael-todasco-3i1vc/",
+  "art": "film-alphago"
+ },
+ {
+  "sym": "Od",
+  "film": "2001: A Space Odyssey",
+  "sub": "The lasting impact of HAL on how we picture AI",
+  "url": "https://todasco.substack.com/p/the-lasting-impact-of-2001-a-space",
+  "art": "film-2001"
+ },
+ {
+  "sym": "Gs",
+  "film": "Ghost in the Shell",
+  "sub": "When does the human end and the machine begin?",
+  "url": "https://todasco.substack.com/p/ghost-in-the-shell",
+  "art": "film-ghost"
+ },
+ {
+  "sym": "Ex",
+  "film": "Ex Machina",
+  "sub": "When AI outsmarts its creators",
+  "url": "https://todasco.substack.com/p/ex-machina-when-ai-outsmarts-its",
+  "art": "film-exmachina"
+ },
+ {
+  "sym": "Ai",
+  "film": "A.I. Artificial Intelligence",
+  "sub": "Rooting for robots",
+  "url": "https://todasco.substack.com/p/rooting-for-robots",
+  "art": "film-ai"
+ },
+ {
+  "sym": "Br",
+  "film": "Blade Runner",
+  "sub": "Memories, and who they belong to",
+  "url": "https://todasco.substack.com/p/memories-of-blade-runner",
+  "art": "film-bladerunner"
+ },
+ {
+  "sym": "Mt",
+  "film": "Metropolis",
+  "sub": "Scenes from AI movie history",
+  "url": "https://todasco.substack.com/p/metropolis-part-8-scenes-from-ai",
+  "art": "film-metropolis"
+ },
+ {
+  "sym": "Gd",
+  "film": "The Thinking Game",
+  "sub": "Google says it got 300 million views. The data disagree.",
+  "url": "https://todasco.substack.com/p/google-says-its-ai-documentary-got",
+  "art": "film-thinking"
+ },
+ {
+  "sym": "Bb",
+  "film": "The AI Doc",
+  "sub": "Should you have a baby in the age of AI?",
+  "url": "https://todasco.substack.com/p/should-you-have-a-baby-in-the-age",
+  "art": "film-aidoc"
+ }
+]

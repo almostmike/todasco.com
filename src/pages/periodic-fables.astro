@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import PageFooter from '../components/PageFooter.astro';
+---
+<Base
+  title="Periodic Fables — Mike Todasco"
+  description="A series of stand-alone graphic novels where atoms take readers on adventures through science. Fall 2027 from Paw Prints Publishing."
+>
+  <PageHeader
+    num="02" sym="Pf" name="Periodic Fables" fam="book" count="FALL 2027"
+    title="Graphic novels where atoms go on adventures"
+    prose="A series of stand-alone graphic novels taking readers through science one element at a time. Coming Fall 2027 from Paw Prints Publishing."
+    links={[{ label: 'Paw Prints Publishing', href: 'https://pawprintspublishing.com' }]}
+    mike="mike-fables"
+    mikeAlt="Cartoon Mike Todasco introducing a group of cartoon atoms, each with its own face"
+    right="Forthcoming"
+  />
+
+  <div class="fables">
+    <figure class="concept">
+      <img src="/img/fables-concept.webp" alt="Cartoon atoms with faces gathered around Mike Todasco in a bright landscape" width="900" height="600" loading="lazy" />
+      <figcaption><span class="k">Not actual artwork</span> This is just bad AI art. We got an amazing (human) artist to do all three books — but I&rsquo;m not allowed to show those yet.</figcaption>
+    </figure>
+    <div class="copy">
+      <h2>The premise</h2>
+      <p>Every element has a story. In <i>Periodic Fables</i>, we teach learners of all ages
+        about the world of chemistry in an exciting adventure!</p>
+    </div>
+  </div>
+
+  <PageFooter left="Fall 2027 · Paw Prints Publishing." right="Element 02 · Periodic Fables" fam="book" />
+</Base>
+
+<style>
+  .fables { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+  .concept { margin: 30px; }
+  .concept img { border: 3px solid var(--ink); width: 100%; }
+  .concept figcaption { margin-top: 10px; font-size: 14px; color: var(--muted); line-height: 1.45; }
+  .concept .k { font-family: var(--cd); font-size: 11.5px; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--book); display: block; }
+  .copy { padding: 30px 34px; align-self: center; }
+  .copy h2 { font-family: var(--bv); font-size: 30px; margin: 0 0 12px; font-weight: 400; }
+  .copy p { font-size: 17px; line-height: 1.55; color: var(--body); max-width: 52ch; }
+  @media (max-width: 900px) { .fables { grid-template-columns: 1fr; } .concept { margin: 14px; } .copy { padding: 14px; } }
+</style>

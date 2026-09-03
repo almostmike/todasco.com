@@ -1,0 +1,7 @@
+---
+const { left, right, fam } = Astro.props;
+---
+<div class="pfoot">
+  <span>{left}</span>
+  <span style={`color:var(--${fam})`}>{right}</span>
+</div>

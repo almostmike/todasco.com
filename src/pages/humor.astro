@@ -1,0 +1,107 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import PageFooter from '../components/PageFooter.astro';
+import pieces from '../data/humor.json';
+
+// rank = Mike's own order in the data file; newest/outlet are derived
+const withMeta = pieces.map((p, i) => ({ ...p, rank: i, order: i }));
+---
+<Base
+  title="Humor — Mike Todasco"
+  description="Published humor from Weekly Humorist, Slackjaw, Points in Case, Robot Butt, Greener Pastures and The Haven."
+>
+  <PageHeader
+    num="03" sym="Hu" name="Humor" fam="humor" count="10"
+    title="Jokes that got past an editor"
+    prose="Pieces published in places that occasionally pay real money, Weekly Humorist, Slackjaw, Points in Case, Robot Butt, Greener Pastures, The Haven."
+    links={[]}
+    mike="mike-humor"
+    mikeAlt="Cartoon Mike Todasco laughing hard in a café while other customers stare"
+    right="Specimens 01 – 10"
+  />
+
+  <div class="sortbar">
+    <span class="lbl">Sort</span>
+    <div class="sorts" id="sorts">
+      <button class="sortbtn" data-sort="rank" aria-pressed="true" type="button">By how funny I think it is</button>
+      <button class="sortbtn" data-sort="date" aria-pressed="false" type="button">Newest</button>
+      <button class="sortbtn" data-sort="outlet" aria-pressed="false" type="button">By outlet</button>
+    </div>
+  </div>
+
+  <div class="plates">
+    <div class="grid five" id="plates">
+      {withMeta.map((p) => (
+        <a class="plate" href={p.url} target="_blank" rel="noopener"
+           style="background:var(--humor-pale)"
+           data-rank={p.rank} data-date={p.date ?? ''} data-outlet={p.outlet}>
+          <div class="art" style="height:150px;background:var(--panel)">
+            <img src={`/img/${p.art}.webp`} alt={`Illustration for ${p.title}`} width="520" height="300" loading="lazy" />
+          </div>
+          <div class="meta">
+            <div class="row">
+              <span class="n"></span>
+              <span class="src" style="color:var(--humor)">{p.outlet}</span>
+            </div>
+            <div class="sym" style="color:var(--humor)">{p.sym}</div>
+            <div class="nm">{p.short}</div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <PageFooter
+    left="Each element carries the illustration that ran with the piece."
+    right="Element 03 · Humor"
+    fam="humor"
+  />
+</Base>
+
+<style>
+  .sortbar { display: flex; align-items: center; gap: 16px; padding: 14px 30px; border-bottom: 1px solid var(--hair); background: var(--panel2); flex-wrap: wrap; }
+  .sortbar .lbl { font-family: var(--cd); font-size: 11.5px; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+  .sorts { display: flex; gap: 6px; flex-wrap: wrap; }
+  .sortbtn {
+    font-family: var(--cd); font-size: 12px; font-weight: 600; letter-spacing: .08em;
+    text-transform: uppercase; padding: 5px 11px; cursor: pointer;
+    border: 1.5px solid var(--ink); background: var(--paper); color: var(--ink);
+  }
+  .sortbtn[aria-pressed="true"] { background: var(--humor); color: #FFF8EA; }
+  .grid.five { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  @media (max-width: 1100px) { .grid.five { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (max-width: 700px)  { .sortbar { padding: 12px 14px; } .grid.five { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+</style>
+
+<script>
+  const grid = document.getElementById('plates');
+  const bar = document.getElementById('sorts');
+  if (grid && bar) {
+    const plates = [...grid.children];
+    const renumber = () =>
+      [...grid.children].forEach((el, i) => {
+        const n = el.querySelector('.n');
+        if (n) n.textContent = String(i + 1).padStart(2, '0');
+      });
+
+    const sorters = {
+      rank:   (a, b) => Number(a.dataset.rank) - Number(b.dataset.rank),
+      date:   (a, b) => (b.dataset.date || '').localeCompare(a.dataset.date || '')
+                        || Number(a.dataset.rank) - Number(b.dataset.rank),
+      outlet: (a, b) => (a.dataset.outlet || '').localeCompare(b.dataset.outlet || '')
+                        || Number(a.dataset.rank) - Number(b.dataset.rank),
+    };
+
+    bar.addEventListener('click', (e) => {
+      const btn = e.target.closest('.sortbtn');
+      if (!btn) return;
+      bar.querySelectorAll('.sortbtn').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+      const sorted = [...plates].sort(sorters[btn.dataset.sort] ?? sorters.rank);
+      sorted.forEach((el) => grid.appendChild(el));
+      renumber();
+    });
+
+    renumber();
+  }
+</script>

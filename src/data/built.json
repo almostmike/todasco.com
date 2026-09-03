@@ -1,0 +1,27 @@
+[
+ {
+  "sym": "Ff",
+  "name": "Forecast Fools",
+  "domain": "forecastfools.com",
+  "url": "https://forecastfools.com",
+  "kind": "scoreboard",
+  "desc": "226 public AI predictions from 42 founders and researchers, scored with receipts. The calendar is undefeated."
+ },
+ {
+  "sym": "Pl",
+  "name": "Patent Leaderboard",
+  "domain": "patentleaderboard.com",
+  "url": "https://patentleaderboard.com",
+  "kind": "leaderboard",
+  "desc": "9.1M patents, 4.1M inventors, 105K companies. Ranked by inventor, company, city and university."
+ },
+ {
+  "sym": "Pg",
+  "name": "Patent Fighter",
+  "domain": "patentfighter.com",
+  "url": "https://patentfighter.com",
+  "kind": "arcade",
+  "desc": "A retro arcade game where you fight the greatest inventors of all time, because, why not?",
+  "art": "built-patentfighter"
+ }
+]

@@ -1,0 +1,196 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import PageFooter from '../components/PageFooter.astro';
+import media from '../data/media.json';
+
+// newest first, only rows that actually link somewhere
+const notable = media.filter((m) => m.url).slice(0, 6);
+
+const topics = [
+  ['AI without the hype', 'What actually works today, what is marketing, and how to tell the difference — for people who do not work in AI.'],
+  ['Innovation inside big companies', 'Eleven years running it at PayPal, and why most corporate innovation theatre fails.'],
+  ['Writing science for kids', 'Turning the periodic table into a graphic novel, and what children get about science that adults have unlearned.'],
+  ['AI and creativity', 'Whether the machines are funny yet, and what happens to writers who use them.'],
+  ['Patents, explained by someone with 119', 'How inventing actually works day to day, and why the number matters less than you think.'],
+];
+
+const questions = [
+  'What is the most overrated thing in AI right now?',
+  'You have 119 patents — what does inventing actually look like on a Tuesday?',
+  'You surveyed 300 people about data centre electricity. What did they get wrong?',
+  'Can AI be funny yet?',
+  'Why write a children’s book about atoms?',
+  'What should someone who does not work in AI actually do about it?',
+];
+---
+<Base
+  title="Press Kit — Mike Todasco"
+  description="Bios, headshots, topics and sample questions for podcast and press bookings with Mike Todasco."
+>
+  <PageHeader
+    num="A" sym="Pk" name="Press Kit" fam="news" count="GUESTS"
+    title="Everything you need to book me"
+    prose="Bios you can paste, photos you can download, and the things I am actually good at talking about. If something is missing, email me and I will send it within the day."
+    links={[{ label: 'Email me', href: 'mailto:miketodasco@gmail.com' }, { label: 'Past appearances', href: '/media' }]}
+    mike="mike-media"
+    mikeAlt="Cartoon Mike Todasco in a podcast studio"
+    right="Appendix A · Press & guest kit"
+  />
+
+  <section class="block">
+    <h2>Bios</h2>
+    <p class="hint">Copy whichever length fits. No need to ask.</p>
+
+    <div class="bio">
+      <div class="k">One line</div>
+      <p>Mike Todasco writes about AI for people who don&rsquo;t work in AI. He holds 119 patents from his years leading innovation at PayPal and is a Visiting Fellow at San Diego State&rsquo;s AI Center.</p>
+    </div>
+
+    <div class="bio">
+      <div class="k">Short — 50 words</div>
+      <p>Mike Todasco is a writer, inventor and Visiting Fellow at San Diego State&rsquo;s James Silberrad Brown Center for AI. He writes <i>Artificially Intelligent Conversations</i>, a weekly newsletter about AI without the hype, and holds 119 patents from his years leading innovation at PayPal.</p>
+    </div>
+
+    <div class="bio">
+      <div class="k">Long — 100 words</div>
+      <p>Mike Todasco is a writer of eclectic stuff. He writes <i>Artificially Intelligent Conversations</i>, a weekly newsletter read by people who want to understand AI without being sold it, and his humor has appeared in Weekly Humorist, Slackjaw, Points in Case and Robot Butt. He holds 119 patents from his years leading innovation at PayPal, and is a Visiting Fellow at San Diego State&rsquo;s James Silberrad Brown Center for AI, where his research has been cited 1,765 times. His first children&rsquo;s graphic novel series, <i>Periodic Fables</i>, arrives from Paw Prints Publishing in Fall 2027. He lives in California with his wife and two kids.</p>
+    </div>
+
+    <div class="facts">
+      <div><span class="fk">Name</span><span class="fv">Mike Todasco</span></div>
+      <div><span class="fk">Formal</span><span class="fv">Michael Todasco</span></div>
+      <div><span class="fk">Say it</span><span class="fv">TOE-DAS-KOE</span></div>
+      <div><span class="fk">Pronouns</span><span class="fv">he/him</span></div>
+      <div><span class="fk">Based</span><span class="fv">California</span></div>
+      <div><span class="fk">Email</span><span class="fv"><a href="mailto:miketodasco@gmail.com">miketodasco@gmail.com</a></span></div>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <h2>Photos</h2>
+    <p class="hint">Free to use with any coverage. Right-click to save, or use the links.</p>
+    <div class="shots">
+      <figure>
+        <img src="/img/press-photo2.webp" alt="Photograph of Mike Todasco outdoors" width="440" height="440" loading="lazy" />
+        <figcaption>Headshot <span class="warn">low resolution &mdash; ask for the original</span></figcaption>
+      </figure>
+      <figure>
+        <img src="/img/press-photo.webp" alt="Photograph of Mike Todasco against a green screen" width="600" height="600" loading="lazy" />
+        <figcaption>Cut-out <a href="/press/todasco-headshot.jpg" download>JPG</a> <span class="warn">green screen, high res</span></figcaption>
+      </figure>
+      <figure>
+        <img src="/img/press-cartoon.webp" alt="Cartoon illustration of Mike Todasco" width="600" height="600" loading="lazy" />
+        <figcaption>Cartoon Mike <a href="/press/todasco-cartoon.png" download>PNG</a></figcaption>
+      </figure>
+      <figure class="wide">
+        <div class="sheetbox">
+          <span class="k">Character sheet</span>
+          <span class="d">Turnaround, expressions and poses — for anyone making thumbnails or episode art.</span>
+          <a class="btn" href="/press/todasco-character-sheet.png" download>Download PNG</a>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>What I can talk about</h2>
+    <div class="topics">
+      {topics.map(([t, d], i) => (
+        <div class="topic">
+          <span class="tn">{String(i + 1).padStart(2, '0')}</span>
+          <div><b>{t}</b><p>{d}</p></div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="two">
+      <div>
+        <h2>Questions that work</h2>
+        <p class="hint">Steal these, or ignore them entirely.</p>
+        <ul class="qs">{questions.map((q) => <li>{q}</li>)}</ul>
+      </div>
+      <div>
+        <h2>Recently on</h2>
+        <ul class="ap">
+          {notable.map((m) => (
+            <li>
+              <a href={m.url} target="_blank" rel="noopener">
+                <b>{m.outlet}</b><span>{m.title}</span>
+              </a>
+              <em>{m.date}</em>
+            </li>
+          ))}
+        </ul>
+        <p class="hint"><a href="/media">All 56 appearances &rarr;</a></p>
+
+        <h2 class="mt">Logistics</h2>
+        <ul class="lg">
+          <li>Remote, over Riverside, Zoom or whatever you use</li>
+          <li>Wired mic and headphones, quiet room</li>
+          <li>Happy to record locally and send you the file</li>
+          <li>Pacific time; early mornings are fine</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <PageFooter left="Anything missing, just ask — miketodasco@gmail.com" right="Appendix A · Press Kit" fam="news" />
+</Base>
+
+<style>
+  .block { padding: 30px 34px; border-bottom: 1px solid var(--hair); }
+  .block.alt { background: var(--panel2); }
+  .block h2 { font-family: var(--bv); font-size: 27px; margin: 0 0 6px; font-weight: 400; }
+  .block h2.mt { margin-top: 26px; }
+  .hint { font-family: var(--cd); font-size: 14px; letter-spacing: .04em; color: var(--muted); margin: 0 0 18px; }
+
+  .bio { border-left: 3px solid var(--news); padding: 2px 0 2px 16px; margin-bottom: 18px; max-width: 78ch; }
+  .bio .k { font-family: var(--cd); font-size: 11.5px; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--news); margin-bottom: 4px; }
+  .bio p { margin: 0; font-size: 16.5px; line-height: 1.55; color: var(--ink); }
+
+  .facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px 24px; margin-top: 24px; border-top: 1px solid var(--hair); padding-top: 18px; }
+  .facts > div { display: flex; flex-direction: column; gap: 2px; }
+  .fk { font-family: var(--cd); font-size: 11px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
+  .fv { font-size: 16px; }
+  .fv a { border-bottom: 1px solid var(--news); }
+  .fv.todo { color: var(--faint); font-style: italic; }
+
+  .shots { display: grid; grid-template-columns: repeat(3, 200px) 1fr; gap: 16px; align-items: start; }
+  .shots img { width: 200px; aspect-ratio: 1 / 1; object-fit: cover; }
+  .shots figure { margin: 0; }
+  .shots img { border: 3px solid var(--ink); }
+  .shots figcaption { font-family: var(--cd); font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+  .shots figcaption a { color: var(--news); border-bottom: 1px solid var(--news); }
+  .shots figcaption .warn { display: block; color: var(--faint); text-transform: none; letter-spacing: .02em; font-size: 12px; }
+  .sheetbox { border: 3px dashed var(--rule); padding: 22px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; height: 100%; justify-content: center; }
+  .sheetbox .k { font-family: var(--cd); font-size: 11.5px; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--news); }
+  .sheetbox .d { font-size: 15px; color: var(--body); max-width: 42ch; }
+
+  .topics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 30px; }
+  .topic { display: grid; grid-template-columns: 34px 1fr; gap: 12px; align-items: baseline; padding: 10px 0; border-top: 1px solid var(--hair); }
+  .tn { font-family: var(--cd); font-size: 13px; font-weight: 700; color: var(--news); }
+  .topic b { font-family: var(--cd); font-size: 17px; font-weight: 700; text-transform: uppercase; letter-spacing: .01em; }
+  .topic p { margin: 3px 0 0; font-size: 15px; line-height: 1.45; color: var(--body); }
+
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+  .qs, .ap, .lg { margin: 0; padding: 0; list-style: none; }
+  .qs li { font-size: 16.5px; line-height: 1.45; padding: 9px 0 9px 22px; border-bottom: 1px solid var(--hair); position: relative; }
+  .qs li::before { content: '?'; position: absolute; left: 0; font-family: var(--bv); color: var(--news); }
+  .ap li { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: baseline; padding: 8px 0; border-bottom: 1px solid var(--hair); }
+  .ap li a { display: flex; flex-direction: column; }
+  .ap li a:hover b { color: var(--news); }
+  .ap li b { font-family: var(--cd); font-size: 15px; text-transform: uppercase; }
+  .ap li span { font-size: 15px; color: var(--body); }
+  .ap li em { font-family: var(--cd); font-size: 12px; font-style: normal; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); white-space: nowrap; }
+  .lg li { font-size: 15.5px; line-height: 1.5; padding: 5px 0 5px 20px; position: relative; color: var(--body); }
+  .lg li::before { content: '—'; position: absolute; left: 0; color: var(--muted); }
+
+  @media (max-width: 900px) {
+    .block { padding: 20px 14px; }
+    .facts, .topics, .two, .shots { grid-template-columns: 1fr; gap: 14px; }
+    .shots img { width: 100%; max-width: 260px; }
+  }
+</style>

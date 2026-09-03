@@ -1,0 +1,64 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import PageFooter from '../components/PageFooter.astro';
+import papers from '../data/research.json';
+---
+<Base
+  title="Research — Mike Todasco"
+  description="Papers, preprints and odd experiments from the James Silberrad Brown Center for AI at San Diego State."
+>
+  <PageHeader
+    num="05" sym="Re" name="Research" fam="paper-ink" count="7"
+    title="Papers, preprints and odd experiments"
+    prose="An eclectic mix of papers written since joining the James Silberrad Brown Center for AI at San Diego State. Some AI, some not."
+    links={[
+      { label: 'Google Scholar', href: 'https://scholar.google.com/citations?user=LtLp_AoAAAAJ' },
+      { label: 'SSRN', href: 'https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=10493676' },
+      { label: 'arXiv', href: 'https://arxiv.org/search/?searchtype=author&query=Todasco%2C+M' },
+    ]}
+    mike="mike-research"
+    mikeAlt="Cartoon Mike Todasco at a laboratory bench"
+    right="Specimens 01 – 07"
+  />
+
+  <div class="plates">
+    <div class="grid four">
+      {papers.map((p, i) => (
+        <a class="plate" href={p.url} target="_blank" rel="noopener" style="background:var(--paper-pale)">
+          {p.art ? (
+            <div class="art" style="height:168px;background:var(--panel)">
+              <img src={`/img/${p.art}.webp`} alt={`Illustration for ${p.short}`} width="520" height="300" loading="lazy" />
+            </div>
+          ) : (
+            <div class="art type" style="height:168px;background:var(--paper-pale)">
+              <span style="color:var(--paper-ink)">{p.plate}</span>
+            </div>
+          )}
+          <div class="meta">
+            <div class="row">
+              <span class="n">{String(i + 1).padStart(2, '0')}</span>
+              <span class="src" style="color:var(--paper-ink)">{p.date}</span>
+            </div>
+            <div class="sym" style="color:var(--paper-ink)">{p.sym}</div>
+            <div class="nm">{p.short}</div>
+            <div class="sub">{p.sub}</div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <PageFooter
+    left="1,765 citations · h-index 24 · 1,440 citations in the last five years."
+    right="Element 05 · Research"
+    fam="paper-ink"
+  />
+</Base>
+
+<style>
+  .grid.four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .plate .art.type { border-bottom-style: solid; }
+  @media (max-width: 1100px) { .grid.four { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (max-width: 700px)  { .grid.four { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+</style>

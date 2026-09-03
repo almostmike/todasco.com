@@ -1,0 +1,133 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import PageFooter from '../components/PageFooter.astro';
+import snapshot from '../data/jobs.json';
+import { fetchJobs, type Job } from '../lib/notion';
+import { NOTION_TOKEN, NOTION_DATABASE_ID } from 'astro:env/server';
+
+// Rendered on demand, not at build time: every visit reads Notion, so new rows
+// from the extension appear immediately with no rebuild. Cached briefly at the
+// edge so a burst of traffic doesn't hammer Notion.
+export const prerender = false;
+
+const NOTION_PAGE =
+  'https://numerous-rice-bd8.notion.site/30a34c404e5a803fb2b3f4ef689c5f1f?v=30a34c404e5a805ea5d1000c27b1a866';
+
+// Declared as secrets in astro.config.mjs, so these are read from the host's
+// environment at request time. Referencing `import.meta.env` here instead would
+// let the bundler inline the literal token into the deployed artifact, which
+// also means rotating the token would need a rebuild.
+const TOKEN = NOTION_TOKEN;
+const DB = NOTION_DATABASE_ID;
+
+let jobs: Job[] = snapshot as Job[];
+let live = false;
+try {
+  if (TOKEN && DB) {
+    jobs = await fetchJobs(TOKEN, DB);
+    live = true;
+  }
+} catch (err) {
+  // Notion down, token rotated, rate limited — show the last known board
+  // rather than an empty page.
+  console.error('[jobs] live fetch failed, using snapshot:', (err as Error).message);
+}
+
+Astro.response.headers.set(
+  'Cache-Control',
+  'public, max-age=0, s-maxage=120, stale-while-revalidate=600'
+);
+---
+<Base
+  title="Mike's Jobs — Mike Todasco"
+  description="Roles my friends are hiring for. If I can vouch for you, I'll make the introduction. Free, and always will be."
+>
+  <PageHeader
+    num="09" sym="Jb" name="Mike's Jobs" fam="misc" count="LIVE"
+    title="Don’t just apply. Get referred."
+    prose="Applying cold almost never works. Going through someone who knows you does. These are roles my friends are actively hiring for &mdash; see one that fits, ping me, and I will put you in touch with the hiring manager."
+    links={[]}
+    mike="mike-jobs"
+    mikeAlt="Cartoon Mike Todasco sitting across a desk from a hiring manager"
+    right="Updated daily"
+  />
+
+  <div class="searchbar">
+    <label class="skip" for="q">Search jobs</label>
+    <input class="field" id="q" type="search" placeholder="Search role, company or location…" />
+    <span class="note" id="jcount">{jobs.length} open</span>
+    {!live && <span class="stale">showing last saved board</span>}
+  </div>
+
+  <div class="tbl">
+    <div class="head jobrow">
+      <span>Posted</span><span>Role</span><span>Company</span><span>Location</span><span>Referred by</span>
+    </div>
+    {jobs.map((j) => (
+      <div class="row jobrow" data-q={`${j.role} ${j.company} ${j.location} ${j.by}`.toLowerCase()}>
+        <span class="dt">{j.date}</span>
+        <span class="ro">{j.role}</span>
+        <span class="co">{j.company}</span>
+        <span class="lo">{j.location}</span>
+        <span class="by">{j.url ? <a href={j.url} target="_blank" rel="noopener">{j.by} →</a> : j.by}</span>
+      </div>
+    ))}
+    <p class="empty" id="empty" hidden>Nothing matches that. Try a shorter search.</p>
+  </div>
+
+  <p class="openin">
+    Prefer it in Notion? <a href={NOTION_PAGE} target="_blank" rel="noopener">Open the full board &rarr;</a>
+  </p>
+
+  <PageFooter
+    left="Saved straight from LinkedIn into Notion by a browser extension, then published here."
+    right="Element 09 · Mike's Jobs"
+    fam="misc"
+  />
+</Base>
+
+<style>
+  .searchbar { padding: 18px 30px; border-bottom: 1px solid var(--hair); background: var(--panel2); display: flex; gap: 14px; align-items: center; }
+  .stale { font-family: var(--cd); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); white-space: nowrap; }
+  .searchbar .note { white-space: nowrap; text-transform: uppercase; letter-spacing: .16em; font-weight: 600; font-size: 12px; }
+
+  .jobrow { grid-template-columns: 74px 1fr 210px 190px 170px; }
+  .tbl .row .dt { font-family: var(--cd); font-size: 14px; font-weight: 600; color: var(--muted); padding-left: 4px; }
+  .tbl .row .ro { font-size: 16.5px; line-height: 1.3; }
+  .tbl .row .co { font-family: var(--cd); font-size: 16px; font-weight: 600; text-transform: uppercase; }
+  .tbl .row .lo { font-size: 14.5px; color: var(--body); }
+  .tbl .row .by { font-family: var(--cd); font-size: 14px; font-weight: 500; color: var(--news); }
+  .row[hidden] { display: none !important; }
+  .empty { font-family: var(--cd); font-size: 14px; letter-spacing: .04em; color: var(--muted); padding: 18px 4px; margin: 0; }
+
+  .openin { margin: 18px 30px 26px; font-family: var(--cd); font-size: 13.5px; letter-spacing: .06em; color: var(--muted); }
+  .openin a { color: var(--news); border-bottom: 2px solid var(--news); }
+
+  @media (max-width: 1100px) { .jobrow { grid-template-columns: 66px 1fr 170px 150px; } .tbl .row .by, .head span:last-child { display: none; } }
+  @media (max-width: 700px) {
+    .searchbar { padding: 14px; flex-direction: column; align-items: stretch; }
+    .jobrow { grid-template-columns: 60px 1fr; gap: 8px; }
+    .tbl .row .co, .tbl .row .lo { display: none; }
+    .tbl .head { display: none; }
+    .openin { margin: 14px; }
+  }
+</style>
+
+<script>
+  const q = document.getElementById('q');
+  const rows = [...document.querySelectorAll('.tbl .row')];
+  const out = document.getElementById('jcount');
+  const empty = document.getElementById('empty');
+  q?.addEventListener('input', () => {
+    const v = q.value.trim().toLowerCase();
+    let shown = 0;
+    rows.forEach((r) => {
+      const match = !v || (r.dataset.q || '').includes(v);
+      r.hidden = !match;
+      if (match) shown++;
+    });
+    if (out) out.textContent = v ? `${shown} of ${rows.length}` : `${rows.length} open`;
+    if (empty) empty.hidden = shown > 0;
+  });
+</script>

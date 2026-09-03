@@ -1,0 +1,65 @@
+[
+ {
+  "sym": "Ge",
+  "short": "Grid Expectations",
+  "plate": "Data centre electricity",
+  "sub": "Americans' overestimation of US data centre electricity use",
+  "date": "Aug 2026",
+  "art": "res-grid",
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7227338"
+ },
+ {
+  "sym": "Ky",
+  "short": "Know Your Author",
+  "plate": "The AI penalty",
+  "sub": "Does the AI penalty hold in short fiction?",
+  "date": "Jun 2026",
+  "art": "res-author",
+  "url": "https://arxiv.org/abs/2606.00006"
+ },
+ {
+  "sym": "Pn",
+  "short": "Take a Penny",
+  "plate": "EPS rounding",
+  "sub": "EPS rounding manipulation in US public companies, 2000–2025",
+  "date": "Apr 2026",
+  "art": "res-penny",
+  "url": "http://ssrn.com/abstract=6598639"
+ },
+ {
+  "sym": "Sa",
+  "short": "Art from the Artist",
+  "plate": "Goodreads readers",
+  "sub": "When an author is morally reclassified, does perceived quality change?",
+  "date": "Mar 2026",
+  "art": "res-artist",
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6321500"
+ },
+ {
+  "sym": "Nu",
+  "short": "I Know Numbers",
+  "plate": "Presidential rhetoric",
+  "sub": "Numerical rhetoric in US presidential press conferences, 1923–2025",
+  "date": "Jan 2026",
+  "art": "res-numbers",
+  "url": "https://zenodo.org/records/18371848"
+ },
+ {
+  "sym": "La",
+  "short": "All-In on LLM Accuracy",
+  "plate": "Prediction markets",
+  "sub": "Fake prediction markets, real confidence signals",
+  "date": "Dec 2025",
+  "art": "res-llm",
+  "url": "https://arxiv.org/abs/2512.05998"
+ },
+ {
+  "sym": "Ss",
+  "short": "Shorter Sentences",
+  "plate": "Newbery end-marks",
+  "sub": "A century of end-marks in Newbery Medal winners",
+  "date": "Oct 2025",
+  "art": "res-newbery",
+  "url": "https://doi.org/10.17605/OSF.IO/8GSC3"
+ }
+]
