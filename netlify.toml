@@ -10,3 +10,23 @@
   # Astro 5 needs 18.17+. Pinned so a change to Netlify's default can't move
   # the build out from under us.
   NODE_VERSION = "22"
+
+# ── Security headers ──────────────────────────────────────────────────────
+# Netlify served only HSTS by default. The CSP is built from what the site
+# actually loads: Google Fonts (stylesheet + font files), the Patent Leaderboard
+# iframe on /patents, and the Substack subscribe form. Everything else is
+# same-origin. Outbound <a href> links need no allowance.
+#
+# script-src needs 'unsafe-inline' because Astro inlines the featured-article
+# rotation script into newsletter.html rather than emitting a file. A hash would
+# be tighter but changes every time that script does, and would fail silently.
+# The site takes no user input — no search, no comments, no query-string
+# rendering — so there is no injection path for that to widen.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; frame-src https://www.patentleaderboard.com; form-action 'self' https://todasco.substack.com; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
