@@ -8,7 +8,11 @@ const {
 } = Astro.props;
 
 const site = Astro.site ?? new URL('https://todasco.com');
-const canonical = new URL(Astro.url.pathname, site).href;
+// build.format is 'file', so pathname arrives as /about.html. Netlify serves
+// that same page at the extensionless /about, which is what every internal
+// link and the sitemap use — so strip the extension to keep one canonical URL.
+const path = Astro.url.pathname.replace(/(?:index)?\.html$/, '');
+const canonical = new URL(path, site).href;
 const ogImage = new URL('/img/og-default.jpg', site).href;
 ---
 <!doctype html>
