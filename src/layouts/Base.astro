@@ -5,6 +5,7 @@ const {
   title,
   description = "Mike Todasco writes children's books about science, humor for adults who think too much, and a weekly AI newsletter with zero hype.",
   page = '',
+  noindex = false,
 } = Astro.props;
 
 const site = Astro.site ?? new URL('https://todasco.com');
@@ -23,6 +24,7 @@ const ogImage = new URL('/img/og-default.jpg', site).href;
   <title>{title}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonical} />
+  {noindex && <meta name="robots" content="noindex, follow" />}
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Mike Todasco" />
@@ -52,22 +54,61 @@ const ogImage = new URL('/img/og-default.jpg', site).href;
     href="https://fonts.googleapis.com/css2?family=Bevan&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@300;400;500;600&display=swap"
   />
 
-  {page === 'home' && (
+  {/* Person is the entity this whole site is about. Emitted on the home page and
+      on /about, which is the page that actually describes him — the two places a
+      search engine or an assistant would look to resolve "who is Mike Todasco". */}
+  {(page === 'home' || page === 'about') && (
     <script type="application/ld+json" set:html={JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'Person',
+      '@id': 'https://todasco.com/#mike',
       name: 'Mike Todasco',
       alternateName: 'Michael Todasco',
       url: 'https://todasco.com/',
+      mainEntityOfPage: canonical,
+      image: ogImage,
       jobTitle: 'Author and Experimenter',
       description,
+      knowsAbout: [
+        'Artificial intelligence',
+        'Generative AI',
+        'Innovation',
+        'Payments',
+        'Patents',
+        "Children's science books",
+      ],
+      affiliation: {
+        '@type': 'CollegeOrUniversity',
+        name: 'San Diego State University',
+        department: 'James Silberrad Brown Center for Artificial Intelligence',
+      },
+      alumniOf: [
+        { '@type': 'CollegeOrUniversity', name: 'Johns Hopkins University' },
+        { '@type': 'CollegeOrUniversity', name: 'University of California, Berkeley' },
+        { '@type': 'CollegeOrUniversity', name: 'University of Illinois Urbana-Champaign' },
+      ],
       sameAs: [
         'https://todasco.substack.com',
         'https://medium.com/@todasco',
         'https://www.linkedin.com/in/todasco/',
         'https://bsky.app/profile/todasco.bsky.social',
+        'https://x.com/todasco',
         'https://scholar.google.com/citations?user=LtLp_AoAAAAJ',
+        'https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=10493676',
       ],
+    })} />
+  )}
+
+  {page === 'home' && (
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      '@id': 'https://todasco.com/#website',
+      url: 'https://todasco.com/',
+      name: 'Mike Todasco',
+      description,
+      inLanguage: 'en',
+      publisher: { '@id': 'https://todasco.com/#mike' },
     })} />
   )}
 </head>

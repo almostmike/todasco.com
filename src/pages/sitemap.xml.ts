@@ -3,8 +3,11 @@ const PAGES = ['', 'newsletter', 'periodic-fables', 'humor', 'ai-at-the-movies',
 
 export async function GET() {
   const base = 'https://todasco.com';
+  // lastmod is the build date. Google largely ignores changefreq but does use
+  // lastmod to schedule recrawls, so it is worth emitting honestly.
+  const lastmod = new Date().toISOString().slice(0, 10);
   const urls = PAGES.map((p) =>
-    `  <url><loc>${base}/${p}</loc><changefreq>${p === '' || p === 'jobs' ? 'daily' : 'monthly'}</changefreq></url>`
+    `  <url><loc>${base}/${p}</loc><lastmod>${lastmod}</lastmod><changefreq>${p === '' || p === 'jobs' ? 'daily' : 'monthly'}</changefreq></url>`
   ).join('\n');
   return new Response(
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`,
