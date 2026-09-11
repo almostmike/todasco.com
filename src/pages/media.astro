@@ -10,7 +10,7 @@ import tags from '../data/media_tags.json';
   description="Every podcast, radio and television appearance since 2018, including NPR Morning Edition, Wharton Business Daily and NBC 7 San Diego."
 >
   <PageHeader
-    num="07" sym="Me" name="Media" fam="misc" count="56"
+    num="07" sym="Me" name="Media" fam="misc" count={String(rows.length)}
     title="Talking into other people’s microphones"
     prose="Podcast, radio, and television appearances. Everything from NPR Morning Edition to a couple of guys with a microphone. Hours of good listening here!"
     links={[{ label: 'Book me', href: '/press' }, { label: 'Past appearances', href: '/media' }]}

@@ -1,4 +1,5 @@
 ---
+import media from '../data/media.json';
 import Base from '../layouts/Base.astro';
 
 const tiles = [
@@ -12,7 +13,7 @@ const tiles = [
     desc: 'Papers, preprints and odd experiments. 1,765 citations.', href: '/research', r: 2, c: 4 },
   { n: '06', sym: 'Pt', name: 'Patents', fam: 'paper-ink', pale: 'paper-pale', meta: '119 FILED',
     desc: 'Filed at PayPal, 2016 to present.', href: '/patents', r: 2, c: 5 },
-  { n: '07', sym: 'Me', name: 'Media', fam: 'misc', meta: '56 SHOWS',
+  { n: '07', sym: 'Me', name: 'Media', fam: 'misc', meta: `${media.length} SHOWS`,
     desc: 'Podcasts, radio and TV. NPR, Wharton, NBC 7.', href: '/media', r: 2, c: 6 },
   { n: '08', sym: 'Ws', name: 'Things I Built', fam: 'built', meta: '3 SITES',
     desc: 'Two scoreboards and one arcade game about patents.', href: '/built', r: 3, c: 1 },
