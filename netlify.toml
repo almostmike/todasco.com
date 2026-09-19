@@ -53,10 +53,14 @@
   status = 301
 
 # The old site had ~30 /media/<topic> pages; the new site has one /media page.
+# Forced: with /media present as a real page, the unforced splat was not
+# applied to unknown subpages. If real /media/<topic> pages are ever added,
+# remove force so those files win again.
 [[redirects]]
   from = "/media/*"
   to = "/media"
   status = 301
+  force = true
 
 # ── Security headers ──────────────────────────────────────────────────────
 # Netlify served only HSTS by default. The CSP is built from what the site
