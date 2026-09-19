@@ -62,6 +62,135 @@
   status = 301
   force = true
 
+# Legacy /media/<topic> pages from the retired Lovable site, listed
+# explicitly because the /media/* splat rule does not fire on this site
+# (verified against the deployed Netlify ruleset 2026-09-19).
+
+[[redirects]]
+  from = "/media/ai"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/ai-artwork"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/ai-creativity"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/ai-integration"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/ai-generated-books"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/business"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/business-strategy"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/comedy"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/creativity"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/digital-transformation"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/education"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/entertainment"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/entrepreneurship"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/ethics"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/fintech"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/future-of-work"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/innovation"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/leadership"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/marketing"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/organizational-culture"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/payments"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/product-management"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/startups"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/storytelling"
+  to = "/media"
+  status = 301
+
+[[redirects]]
+  from = "/media/technology"
+  to = "/media"
+  status = 301
+
 # ── Security headers ──────────────────────────────────────────────────────
 # Netlify served only HSTS by default. The CSP is built from what the site
 # actually loads: Google Fonts (stylesheet + font files), the Patent Leaderboard
