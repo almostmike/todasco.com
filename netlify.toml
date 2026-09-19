@@ -11,6 +11,53 @@
   # the build out from under us.
   NODE_VERSION = "22"
 
+# ── Redirects ─────────────────────────────────────────────────────────────
+# Site alias -> canonical domain. Forced so todasco.netlify.app stops serving
+# a duplicate copy of the site even where the same file exists on both hosts.
+[[redirects]]
+  from = "https://todasco.netlify.app/*"
+  to = "https://todasco.com/:splat"
+  status = 301
+  force = true
+
+# Legacy paths from the retired Lovable site. Unforced, so any real page added
+# later at one of these paths wins over the redirect.
+[[redirects]]
+  from = "/childrens-books"
+  to = "/periodic-fables"
+  status = 301
+
+[[redirects]]
+  from = "/ai-newsletter"
+  to = "/newsletter"
+  status = 301
+
+[[redirects]]
+  from = "/ai-movies"
+  to = "/ai-at-the-movies"
+  status = 301
+
+[[redirects]]
+  from = "/research-patents"
+  to = "/research"
+  status = 301
+
+[[redirects]]
+  from = "/socials"
+  to = "/about"
+  status = 301
+
+[[redirects]]
+  from = "/mikesjobs"
+  to = "/jobs"
+  status = 301
+
+# The old site had ~30 /media/<topic> pages; the new site has one /media page.
+[[redirects]]
+  from = "/media/*"
+  to = "/media"
+  status = 301
+
 # ── Security headers ──────────────────────────────────────────────────────
 # Netlify served only HSTS by default. The CSP is built from what the site
 # actually loads: Google Fonts (stylesheet + font files), the Patent Leaderboard
