@@ -1098,5 +1098,25 @@
   "url": "https://www.linkedin.com/pulse/gpt-6-astra-arrested-intelligence-michael-todasco-g6ehc/",
   "src": "LinkedIn",
   "movies": false
+ },
+ {
+  "n": 111,
+  "date": "2026-09-15",
+  "label": "Sep 15",
+  "year": "2026",
+  "title": "Revisiting the Four-Day Workweek: AI Optimism From an Unlikely Source",
+  "url": "https://medium.com/@todasco/revisiting-the-four-day-workweek-ai-optimism-from-an-unlikely-source-9cb1a837337d",
+  "src": "Medium",
+  "movies": false
+ },
+ {
+  "n": 112,
+  "date": "2026-09-21",
+  "label": "Sep 21",
+  "year": "2026",
+  "title": "Colossus, The Forbin Project: The 1970 AI Movie That Saw 2026 Coming",
+  "url": "https://www.linkedin.com/pulse/colossus-forbin-project-1970-ai-movie-saw-2026-coming-michael-todasco-re6pe/",
+  "src": "LinkedIn",
+  "movies": true
  }
 ]
