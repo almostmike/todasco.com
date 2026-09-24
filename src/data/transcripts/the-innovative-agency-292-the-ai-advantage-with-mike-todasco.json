@@ -1,0 +1,206 @@
+{
+ "slug": "the-innovative-agency-292-the-ai-advantage-with-mike-todasco",
+ "outlet": "The Innovative Agency",
+ "title": "292. The AI Advantage, with Mike Todasco",
+ "date": "Apr-25",
+ "published": "2025-04-09",
+ "url": "https://podcasts.apple.com/us/podcast/292-the-ai-advantage-with-mike-todasco/id1419747902?i=1000702850251",
+ "duration_sec": 1687,
+ "host": "Sharon Toerek",
+ "speakers": [
+  "Mike Todasco",
+  "Sharon Toerek"
+ ],
+ "turns": [
+  {
+   "speaker": "Sharon Toerek",
+   "start": 22,
+   "paragraphs": [
+    "The show. Welcome back to The Innovative Agency, everybody. It's great to have you all here again today. Sharon Toerek. We, as you know, have had a lot of conversation around AI and what it means to agency world on the show over the last, I don't know, 6 to 12 months or so. And I wanted to take a fresh approach to this conversation because there's so much noise about AI and what it means for all of you and all of your businesses out there. And also, I think sometimes some panic. And I'm very, very motivated to show everybody reasons why they need to be optimistic. I was just telling our today's guest who I'm about to introduce to you that I want to give you all reasons to embrace this and use it to run your agencies better, faster, and wealthier.",
+    "And so today to help us do that is Mike Todasco. Mike is a former corporate innovation person. He was VP of innovation for PayPal before leaving the corporate, I'll call it rat race. Those are my words, not his. But leaving a big enterprise to share his knowledge in an academic environment. So he is now a professor, if you will, at San Diego State University and focuses on innovation. And AI is a big part of his body of work. And so Mike, I'm really looking forward to learning from you and getting your perspective about what this means for business and the agency marketers who are listening today. So welcome and thank you for being with me."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 117,
+   "paragraphs": [
+    "Well, Sharon, thanks for having me. I'm looking forward to learning from you today too as part of this. And hopefully the listeners are going to learn a couple things about AI and, you know, many other things about innovation and all this fun stuff that we'll talk about. So looking forward to this. Yeah. Me too."
+   ]
+  },
+  {
+   "speaker": "Sharon Toerek",
+   "start": 132,
+   "paragraphs": [
+    "Well, you and I had a brief conversation earlier and we were talking about the early days. And by that I mean maybe 24 months ago when ChatGPT became more retail, if you will, more democratic and everybody started talking about it. As people started using it. And this is really the first inkling that I had in talking with agency owners who had been using AI in their businesses before that and at that time already. But this is the time we started to feel a sense of maybe dread or worry on the part of agencies around what this is going to mean to the work that they did and the demand for it or the replacement of it by some of these AI driven tools.",
+    "And I think some of that panic has sort of settled now. And we're still left though with sort of this open question and we're certainly not going to solve it today about what is the integration of generative AI particularly into the work that marketing service firms do going to mean for them and the demand for their services and their ability to be profitable and their ability to go to a brand like PayPal or any sized brand and be unique and necessary to help them achieve their business goals. So I guess let's start there."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 212,
+   "paragraphs": [
+    "Let's just start off like if you are working at an agency, you own an agency, whatever it might be, and you think that's, well, AI is coming but things are just going to be where they are. And we're, you know, we're going to just kind of keep doing the same thing. You should be worried because it is going to change. And but here's the thing, like we as a species are not good with change. For most of our, you know, several hundred thousand years of existence, the world didn't change very much. Like change and rapid change is a few hundred year phenomenon for us to experience.",
+    "So like we are not equipped for with this. But here's the reality. If you really think about what your job is, what you did, how you served your customers and all that, like how that looks today versus 10, 20, 30 years ago, it's vastly different. We don't think of it that way. It's called the end of history illusion. We kind of think that whatever it is today is how things are going to be going forward. They're not. We can look to the past and see the change, but we have a hard time looking forward. Things are going to change. They're going to evolve. But these tools are a way to, you know, all these things and we'll talk about all these tools within the world of AI.",
+    "They're a way to better serve your clients. They're a way to actually make your life easier, to make your product better that you're doing, to improve your relationships with your clients and so forth as part of this. People like to have a human in the loop just to be completely honest with this. People like to have an expert that they can go to know who, okay, well this is the best models that we should be using for the highest output for AI generated videos and blah and all this other kind of stuff. PayPal isn't an expert of that. We just want to process payments when I was there or whatever company that you're at in those circumstances.",
+    "So there's still a ton of value out there for you to add, but you need to be on top of the technology and these tools to provide that for your clients. Right."
+   ]
+  },
+  {
+   "speaker": "Sharon Toerek",
+   "start": 328,
+   "paragraphs": [
+    "So let me take you back to your days as VP of innovation enterprise size organization like PayPal. Let say the CMO or the chief marketing team called you in to consult with them on innovative on blending innovation with their marketing. Mhm. What questions would you want to ask an agency who you were considering to help PayPal build its business today to help them understand how to add value to the engagement or what the human focused or strategic insight focused things that they needed to do that would move the needle or make a brand or make them attractive to you? Because I think that's what agencies are worried about.",
+    "Are we going to have anything to offer or are brands just going to think that we're just, you know, turning computers on in the morning and spitting stuff out? So you are on the brand side. How would you perceive it these days?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 384,
+   "paragraphs": [
+    "Yeah. I love this question, Sharon, because look, in my time when I was at PayPal, I was running the innovation group like six years there. Maybe with one exception, I don't think I ever interacted with the brand team in that world. Like I just didn't. Which is why I really like this question because I do think if I were there in 2025, it might be different to that point. And they might actually be bringing somebody like me or whatever it is to, you know, to have those sort of questions. So I really do like this question. And so if I were kind of the person evaluating the agency from an innovation perspective, what are the things that I would be looking at?",
+    "First, I would probably just like get a lay of the land from them where they think this is all going. So like where do you think the AI and the digitization is going? What do they see happening in the next 6, 12, 24 months? What are the tools that they use that are effective? And like I would like to understand their workflows. I mean, we're going to be partners as a company like what's your workflow? How do you use these tools and so forth? Like I'd be saying this in part because I just be super curious as well. But I think just from that I would be able to sort of glean the level of tech savviness.",
+    "Because the one thing you wouldn't want to do, especially if you're a technology company like PayPal, but I think it's almost any clients, you don't want to sign up with an agency who just doesn't get this stuff. Like, oh yeah, I think we use Dolly stuff or maybe the Adobe, the Firefly. Yeah, we like you want some level of confidence and competence in that because the amount of output that you can create, the iterations, how fast you could turn things over and so forth is vastly different today. Just a real quick sidebar. I'm in the, you know, very much in the world of engineering and software and things like that.",
+    "Mhm. What it takes to build a program, an app nowadays using AI for coding. And I think AI is most advanced for coding and computer engineering right now. Like that's where it is furthest along. And that's the area that's probably seeing the most amount of disruption and change of any field right now. It's incredible. I mean, you could spin out an app from nothing and it actually look quite professional probably within 60 minutes. And that's not an exaggeration. And that would be like something that people might actually even download in the app store. So like all of these paradigms are changing. This is going to change in the world of marketing and design.",
+    "Like that is a little bit further behind. If it's I know it's probably hard to believe for folks, but like it's not fully evolved yet, but it is going to get there. You are going to get to the equivalent of what an app that took a month to build is going to take 60 minutes. How is that going? What are you going to do in that future? And those are the kind of questions I'd push on."
+   ]
+  },
+  {
+   "speaker": "Sharon Toerek",
+   "start": 548,
+   "paragraphs": [
+    "Okay. So this is great. I so an agency owner looking to do business with a brand needs to be prepared to talk about how they integrate AI tools into their workflow. And they also need to demonstrate a level of awareness and savviness about what's out there and how the tools should maybe even aspirationally be used, even if they're not currently using them like that every day. Yeah. That is super helpful feedback for the agencies out there, especially in the business development conversations or who have an existing relationship with a client and need to know how to stand apart, how to demonstrate they're adding value to an existing client."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 591,
+   "paragraphs": [
+    "And Sharon, if I may just to add one other small point on that, like I am not saying like you need to be an AI expert. Like you need to understand the inner workings of a large language model or anything. That is not what I am saying here at all. You need to demonstrate that you are a world class expert in using these tools. That's the big differentiation of it. Like it doesn't matter all that the architecture. We know you're not building the tools. We know that's fine. That is totally okay. But, you know, you need to be for lack of a better term, the best darn prompt engineers and being able to get the most out of these tools to match the client's needs, to know when the right tool is and all that other kind of stuff. That's where you could really add"
+   ]
+  },
+  {
+   "speaker": "Sharon Toerek",
+   "start": 633,
+   "paragraphs": [
+    "Value. I think I'd love to know your reaction to this because I have, you, as someone who's been practicing IP law for a really long time, I think that there is or can be protectable IP in prompt engineering. It seems to me that agencies are in an ideal place to be able to create the kind of quick because they're experts at asking questions, right? They have to ask a lot of questions to suss out what the brand's goal is, what would constitute success in the relationship, etc. And so they ask questions all the time. So I think that developing a rubric or a formula or something for how to prompt could be protectable IP in some situations.",
+    "And for me, talking with agencies every day, they seem like they're in a prime position to be able to use their human insights to excel at this. So I'd love to know what your reaction to that is."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 693,
+   "paragraphs": [
+    "Oh, that's fascinating. So Sharon, we didn't talk about this before, but the first half of my time in innovation at PayPal, I was actually on the IP team. Okay. Yes. Yeah, yeah, yeah. So so my boss was the head of IP for PayPal is, you know, and so and it's because we had split from eBay and the whole and part of it was like, okay, we need an innovation function. We need to rebuild our patent portfolio because half the patents went with eBay, half went with PayPal. There was Samsung and all this, all the stuff. These all these like litigation going on at the time.",
+    "Like, yeah, we probably need to rebuild that. So I was lucky enough to have that. So it's fascinating to me to kind of take a step back and think, this wasn't what you're saying, but like even just today like to have an AI in the room for the sessions where we were talking about these things, to build the boilerplate, to do all those kind of things in the IP world, it is vastly different. But I think there is value there. And whether it's, you know, patentable or this is just more of a trade secret or whatever you might have, like there are I was actually talking just yesterday with a company where I'm actually on the board.",
+    "It's it's a startup and was talking to one of the engineers about proper prompting and how to effectively get the right prompts and what kind of experiments we were going to run so they can get the output from these models that they're looking for. And that's something that as a company you want to protect. Now again, I'm no attorney, so I'm not going to say whether or not that's going to be actually be patentable or something. I would have let my boss and others. Well, I don't even, yeah, and I"
+   ]
+  },
+  {
+   "speaker": "Sharon Toerek",
+   "start": 787,
+   "paragraphs": [
+    "I really, yeah. I think that the IP is an interesting question, but what I think for the purposes of the folks listening to this conversation, the point is you have unique ability either because you have category knowledge or because understand marketing tactics better than your competitor might, etc. You have unique ability to weigh in on what to ask AI to be effective using it. And so I think that's another sort of jewel in the crown that agencies maybe are not aware of or owning enough of yet. And that alone, I think should balance out some of the queasiness and they might have about the impact of AI on their businesses."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 831,
+   "paragraphs": [
+    "So Sharon, this is something that I remember very much like 2022, there was a YouTube video, somebody had run it kind of an experiment using I think it was Dolly 2, so an image generation software. And they had people who were artists generate images and non artists generate images. And they were kind of say like, okay, make an image of a dolphin. You make an image of a dolphin and kind of side by side. And then they had people independently rate which one they thought was better. And as you can imagine, when you did this, the artists were way better. It wasn't even close. It wasn't even close.",
+    "Like what the artists were actually generating with this versus what just like the average Joe was is is a complete different level. This is the same thing that you have here. So if you build campaigns, you know what a social media ad that is effective looks like. You know what a short TikTok segment is going to look like or whatever it's going to be. Like take whatever it is that you do in your job, these tools are going to make you do more better. So the agency who doesn't know anything, it's probably going to be able to get them to average. But if you're already above average, it's going to be able to push you even higher with that.",
+    "And that's how everybody needs to think about this. It's not just that, well, the company's not going to do this because they're just going to go into this and do that. Yeah, they might be able to and they might be able to get an average result, but they're not going to be able to get an above average result from that."
+   ]
+  },
+  {
+   "speaker": "Sharon Toerek",
+   "start": 917,
+   "paragraphs": [
+    "Yeah, I love that. So true. So let's talk about slop, your phrase, not mine. We were chatting earlier and I've read some of your thought leadership around content mediocrity, which you coined slop, which I love. I think that this is another opportunity and I'd love to get your reaction to this. I think this is another opportunity where agencies and the human insights they bring can really diverge and stand above and, you know, head and shoulders above their competitors by their ability to create content campaigns, whatever it is, that are truly unique and powerful because of the human insights. And you definitely pointed out sort of the flood of mediocre content that AI sort of opens us all up to.",
+    "So talk a little bit about that and your perspective on that and what it means for anybody who creates content marketing or any kind of content based marketing work. Yeah."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 976,
+   "paragraphs": [
+    "Now Sharon, I'm going to give a little bit of historical perspective too to just why for folks because this is what I'm referencing an article that I just wrote this past week and it was about the and slop as a concept for people is basically AI generated content without much of a purpose. And there's some estimates that it could be like 90% of the web is going to be AI generated in the next five or so years versus today it's, you know, probably single digit percentages. And so in that future, what happens? Well, one of the things that was kind of doing research is that people, whenever there is new ways to create content or produce content in a cheaper way or whatever it might be, people freak out about.",
+    "And one of the quote, I had a quote in there from Martin Luther from, you know, 500 years ago that was quoting about like, oh my gosh, all these books are coming out. Edgar Allan Poe in the 1800s was complaining about the same thing of like, these people are doing books, it's just going to be all junk and garbage. And of course we look back at these things and like, what do they know? Like the in 10 years and people were saying the same thing about blogs and podcasts and all these other kind of things. But we just figured it out. We're and the same thing is going to be happening with AI generated content now.",
+    "There is still going to be a way to elevate. People are still going to look to influencers. People are still going to do all of those kind of things. AI is going to become more of a workflow, more of the workflow as part of it. There is AI content, solely AI content that I read today and I know it is made by a computer. I will use perplexity as a great example. So perplexity has excellent articles and summarizations of topics and you could query stuff and I will read this stuff and absorb it and learn so much from it. And I know I am interacting with an AI as part of that and I'm okay with it.",
+    "But there are also a heck of a lot of blogs and newsletters and all these kind of and people who I just follow and I want to know what they're thinking. And this is the world that we're entering here on both of these things. And I think more and more so the people who I want to follow are going to be using AI tools to help them produce more content, help them create better content, all that kind of stuff. This is the exact same thing that businesses need to do. It is no I remember I had a business, an e-commerce business in 2009 and I remember just hiring people to write blog posts for me that were overseas to just give me link backs and all this kind of stuff as part of that.",
+    "I played that game and I if anybody's been in the industry for 15, 20 years, I'm sure they know that game as well. You can't do that anymore. It doesn't work and that's probably a good thing. But it was just creating junk content out there just so I could be better ranked on Google as part of it. There's going to be a different game going forward. But if you're making good content, if you're in I was just saying something about Duolingo. Let's bring them up right now. So if folks don't know like Duolingo, you know, language learning app, they killed their mascot, the little"
+   ]
+  },
+  {
+   "speaker": "Sharon Toerek",
+   "start": 1159,
+   "paragraphs": [
+    "Birdies, icon is dead on my phone."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1161,
+   "paragraphs": [
+    "He's dead on my phone as well. But like but then they resurrected him as part of I mean and this was a like this was just marketing and like this is brilliant though. This is a way to get people engaged. It's super creative. It was exciting. It was just a great way to get people talking about your brand, get people talking about your product. Now are we all going to be able to do something of that level? But no. But what's the equivalent? What's the thing you need for your clients, your businesses, you know, use again, the thing from all this is use AI to help you with these things.",
+    "Like have it, use it as a tool so you can do more, be more creative, be more innovative, more videos, more whatever. Like the things you could do with AI videos even today is kind of mind boggling compared to where we were a couple years ago. How can we do that for clients? And you could do it at a fraction of the cost that you would have been able to otherwise. It's all great questions to ask. There's going to be tons of slop, but there's also going to be really good content out there. You just got to make the really good stuff."
+   ]
+  },
+  {
+   "speaker": "Sharon Toerek",
+   "start": 1221,
+   "paragraphs": [
+    "Well, and I and I maintain that the unique insights you developed based on either specializing in an industry or specializing in a specific marketing skill or whatever, bring those insights to how you use the tools and it is a winning combination, I feel like. You know, I'd love to know what your what your experience has been. You're you're kind of in academia and kind of in the entrepreneurs world at the same time right now it sounds like. But in your past you were kind of in the entrepreneurial enterprise world and scanning the landscape, do you feel like enterprise size companies or brands are as far along in their adaptation of AI as more entrepreneurial thinkers are? No,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1263,
+   "paragraphs": [
+    "I don't. I don't at all. And I think that's a big risk. I don't. I'm kind of shocked by it. I was initially shocked by it like over the last couple of years, but then I'm like, oh, well, of course not. There's legacy. There's all these motivations. Like look, if we had artificial general intelligence today, if there was a if you could just go on your phone and talk to the smartest thing that has ever existed and ask it any question about anything, I mean, we're not that far from that. But like, you know, it could be, you know, to actually have it autonomously do work 24/7 and do it at like 20x the speed of any human.",
+    "Like we're not that far away from that future. The world doesn't change on that day. Like because like there's bureaucracies, there's process, there's people protect, you know, so much in Silicon Valley is the how many people do you have working for you? Like that was it wasn't about like what your team produced. It was like how big is your team? And it would lead to these like humongous teams within organizations that I think companies only in the past few years have started to move away from. There's so much a small company or an agency can do with introducing these things to businesses even today. Like that's one thing that's kind of mind blowing for me.",
+    "I was actually I'm doing something for San Diego State more broadly where I'm doing like an AI 101 session for employees. And I actually didn't even know everything. I kind of do my own thing there, but like I didn't know like they have access to like all the best tools and all that. And somebody was telling me like, yeah, nobody's using them. And like that's shocking to me. But when you're in a startup, when you're entrepreneurial, you got no choice but to use these things. And that is absolutely what I'm seeing more and more of. Another company that I've been working with a lot, they raised a bunch of money.",
+    "It is two people. Like I don't even know if they have plans to get more than like get that third person in there and the product that they're making and what they're building because they're using AI so effectively, so efficiently. So if you have bigger clients and to think like, oh gosh, how am I? I bet you even a company like Microsoft who in so many ways is is leading this wave, I bet you there are pockets within Microsoft that probably isn't using AI as effectively as you would imagine. And they're definitely not using as effectively as some startup who only has two people that started a couple months ago, who has a ChatGPT Pro subscription and that 200 bucks a month from that is giving them, you know, what they would get from having five people. So there's a big opportunity there."
+   ]
+  },
+  {
+   "speaker": "Sharon Toerek",
+   "start": 1408,
+   "paragraphs": [
+    "I love it. I mean, and I feel like again, it's an area that agencies who have a lot of experience in being consultative with their clients, a lot of experience in showing ropes to clients. And, you know, if you're an agency leader or owner listening to this, think about your opportunity to be a leader and a teacher in addition to a service provider to your clients because I'm just my mental wheels are turning into multiple revenue stream ideas even as I sit here and think about that. And that is stuff that you can do because you have unique again, human insights into your client's industry or a particular way of executing marketing.",
+    "And so I love that. I appreciate the affirmation because that has been my sense from talking with agencies and also corporate side marketers is that the agencies in many cases are actually they're farther ahead. They just pull their clients along. And so use that advantage because they'll catch up eventually, but not for a while."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1467,
+   "paragraphs": [
+    "I mean, it is look, I work in an AI center. I mean, so, you know, the people who have been spending years and decades of their life like working on this is where I'm at the university. But like even us at the center, we can't keep up on all this stuff. So like if, you know, if I were pitching a client, I would be putting this stuff front and center. I would be doing live demos with them. I would be maybe iterating on an idea or a topic or whatever and just showing them how fast, how nimble you can be, you know, showcasing these tools in many ways.",
+    "But I think even just by doing that, the client's going to be impressed like, oh, like oh, I heard you could do that, but I never actually, you know, I never actually saw a Sora video generation in person. And like, you know, I bet you most people who have access to ChatGPT have probably never even played with like AI video generation. If you know something about that, especially know like, hey, what could be good, what might not be perfect in there and can like show a client while they're talking like, okay, hold on a second, let this render for a couple minutes and we're going to do a we're going to show like a five second what this might look like.",
+    "And you put in this nice beautiful prompt and even if it only looks like 40% of what you're hoping for, that's still getting something communicated to a client. And that's really important because look, the client's just like throwing out ideas like you're just bringing those thoughts to reality and showing them like, hey, this is the future that you can have with marketing, with advertising, with all that wonderful stuff."
+   ]
+  },
+  {
+   "speaker": "Sharon Toerek",
+   "start": 1558,
+   "paragraphs": [
+    "This is your chance agencies to sell your ideation, your strategy. I mean, for years we've seen margin shrinking in the agency world because as it gets easier to make the stuff that you all have to make, you all been focused on trying to figure out a way to replace that revenue or increase your margin. And this is a way to sell what you can charge more for and use AI based tools to do the stuff that is either mundane or not profitable. This is your window. Absolutely. You know, I think that's a reason for all of us to be optimistic. And so this has been such an eye opener.",
+    "I love having had a chance to talk to somebody who's been on the enterprise side of things and who is looking at this academically as well. And so if folks want to learn more about the work that you're doing at San Diego State, where are some of the best places for them to reach out to you, Mike?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1612,
+   "paragraphs": [
+    "Yeah, I mean, you go to San Diego State's website for the AI center of course, or just Mike Todasco on LinkedIn is probably the place where I'm most active. You could follow me there, send me a direct message, whatever you like to do. Happy to help out, answer questions, anything. I just like talking about this stuff. So if I could help in any way, let me"
+   ]
+  },
+  {
+   "speaker": "Sharon Toerek",
+   "start": 1630,
+   "paragraphs": [
+    "Know. Well, I have learned so much in just our short time together. So thank you for sharing insights with us. And yeah, everybody check out the work that they're doing at the AI center. It's great stuff. All right everyone, thank you for joining us. And until the next time, be well, stay well. We'll see you soon. Take care all. The Legal and Creative Agency Listening. Until next time."
+   ]
+  }
+ ],
+ "words": 5268
+}
