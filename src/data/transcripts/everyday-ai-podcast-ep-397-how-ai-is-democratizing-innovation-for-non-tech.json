@@ -1,0 +1,273 @@
+{
+ "slug": "everyday-ai-podcast-ep-397-how-ai-is-democratizing-innovation-for-non-tech",
+ "outlet": "Everyday AI Podcast",
+ "title": "EP 397: How AI Is Democratizing Innovation for Non-Tech Experts",
+ "date": "Nov-24",
+ "published": null,
+ "url": "https://www.youreverydayai.com/how-ai-is-democratizing-innovation-for-non-tech-experts/",
+ "duration_sec": 2813,
+ "host": "Jordan Wilson",
+ "speakers": [
+  "Jordan Wilson",
+  "Mike Todasco"
+ ],
+ "turns": [
+  {
+   "speaker": "Jordan Wilson",
+   "start": 0,
+   "paragraphs": [
+    "Welcome to the Everyday AI podcast. My name is Jordan Wilson, and for the past three and a half years, we've put out more than 800 episodes. Yet, one of the most common questions I get, I didn't really have an answer for. Where do I start on the Everyday AI podcast? And that's why we started the Start Here series. And with fall now back in full swing, the Everyday AI podcast is going back to school and playing back the entire Start Here series from front to back. We've hit pause on our normal Monday to Friday programming to run back our most popular series ever for the next 30 days.",
+    "We made the Start Here series for beginners and AI champions alike. So whether you're just trying to get a grasp on large language models or grappling with the best coding harness for multi-agentic workflows, the Start Here series covers it all. Plain language, no jargon, and easy to follow along each day. So make sure to subscribe to the podcast and check back each day for new insights day by day. The series is a culmination of spending more than 10,000 hours covering generative AI over the past three and a half years, so you don't want to miss a single episode of the Start Here series. Let's get into it.",
+    "When you think about innovation, sometimes you think that you may have to have a background in innovation to be innovative, right? That would make sense. But what if I told you that you don't necessarily, right? It's I think you can still be more innovative in today's AI everywhere world if you have a background in innovation, but if you know what you're doing and if you know what large language model to use when and if you really listen to today's guests, I think that you can become more innovative than ever before your company, your departments, because I'm excited today to talk about how AI is democratizing innovation even for non-tech experts.",
+    "And we're going to be talking to an expert in innovation, but first I have to welcome you to Everyday AI. What's going on, y'all? My name is Jordan Wilson and I'm the host of Everyday AI and we are a daily podcast, newsletter, live stream helping everyday people learn and leverage generative AI to grow their companies and to grow their careers. But before we get started, have to first give a shout out to our partners at Microsoft and the WorkLab podcast. So why should you listen to the WorkLab podcast from Microsoft? Because it's made for leaders who know they must adapt to stay ahead. WorkLab is the place to find real world lessons and actionable insights to guide you and your organization through AI transformation.",
+    "That's w o r k l a b no spaces available wherever you get your podcasts. All right, speaking of podcasts, yeah, make sure to go check out WorkLab if but everyday, if you need 400 plus episodes, we have them all on our website. It is I say like a free generative AI university. So if you haven't already, please go to youreverydayai.com, sign up for the free daily newsletter and while you're there, go learn from literally the world's leading experts on whatever topic you want. All right, and normally we come to you fresh and live and we bring you the day's freshest AI news. This is technically pre-recorded but debuting it live, but we're still going to have everything that you need in today's newsletter, so make sure to go check that out.",
+    "All right, but let's get straight into it. Enough chit-chat from me. Let me bring on an expert who knows a thing or three about innovation and how even non-technical people can really start to innovate like the pros by using AI at the right place, at the right time, for the right purposes. So please help me and welcoming on the show. There we go, we got him. Mike Todasco, who is a visiting fellow at San Diego State University. Mike, thank you so much for joining the Everyday AI show."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 241,
+   "paragraphs": [
+    "Jordan, thanks for having me. And I liked your chit-chats. I want to hear more of that chit-chat in fact. I was I was really enjoying that, so I'd"
+   ]
+  },
+  {
+   "speaker": "Jordan Wilson",
+   "start": 249,
+   "paragraphs": [
+    "Like to keep going. Don't tempt me, Mike. We might accidentally, you know, turn this into a three-hour podcast like a Lex Friedman style, but we'll try not to. But Mike, can you tell everyone just a little bit you know about what you're doing right now at San Diego State University and then we'll we'll tap into your background a little bit more. But what are you working on now?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 265,
+   "paragraphs": [
+    "Yeah, I'm at San Diego State, but I live in Silicon Valley and I've lived here for about 20 years. I kind of have a dream role. I get to mentor students, I get to teach, I get to work in our lab when I go down there and it's beautiful to go down to San Diego whenever you possibly can. And we work on things like using AI and robots for mental health and we do research in those spaces and so forth. And it's just a very exciting place to be. And it's a very exciting time for anybody who is at all using, developing, doing whatever in the world of AI right now.",
+    "This is this is something that you will look back 20, 30, 40 years from now and tell your kids about, yeah, I remember doing that way back when. I mean, this is an amazing time right now."
+   ]
+  },
+  {
+   "speaker": "Jordan Wilson",
+   "start": 309,
+   "paragraphs": [
+    "All right, so it sounds like a dream job, FYI. But you know, you've had quite a background and history in the tech sector, you know, being there in Silicon Valley. But can you tell everyone a little bit about your, you know, on the topic of today's podcast, innovation, you have quite a background in it. Could you tell us a little bit about your time at PayPal?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 333,
+   "paragraphs": [
+    "Sure. And actually even before PayPal, I want to just to level set with everybody like my career started off as an accountant. So like I am like old school accountant, was actually even working at a paper company, like Dunder Mifflin style paper company and so forth before I joined PayPal and started my own little tech business. So like I do want to make clear like when if you're listening to this and all that and you're like, oh, but I'm not technical, like I ain't either. Like I kind of just learned all this stuff by doing because I was interested and excited and so forth. But 2011 I joined PayPal after my startup was not going where I wanted it to go.",
+    "I was a PayPal customer for years and got a job at PayPal doing product analytics. It was kind of like being data science, but they didn't even call it data science back then. But I had no idea what I was doing. I always like to tell people I was dangerously unqualified for every single job I ever had at PayPal. And it was just an amazing ride. I joined the mobile team back in 2011 when I joined when mobile was its own little weird thing like separate from the rest of the business, like, well, what are those mobile people doing and all that? And eventually it kind of overtook everything at the company.",
+    "And just had an amazing ride there. Was in various product roles for my first half of PayPal. And then when PayPal separated from eBay in 2015 moving into 2016, had the opportunity to kind of run the innovation group for the newly formed company. And honestly like talk about like dream jobs, that was pretty amazing. It was it was so much fun to do. It was all about inspiring our company to be more innovative, to work on new products, next generation technologies, new tools, all that awesome stuff. I every Sunday evening I was super excited to go to work that very next day. You know, you can't ask for"
+   ]
+  },
+  {
+   "speaker": "Jordan Wilson",
+   "start": 444,
+   "paragraphs": [
+    "Much better than that. Yeah, and you know, I'm curious because I do think you know, PayPal unless you grew up in the you know surge of PayPal, right? I think it was one of the most innovative companies of its time, right? I don't know if, you know, I'm sure we would have gotten there eventually, but so much of what you see today with online shopping, you know, and transacting online, PayPal actually paved the way very early on. So you know, I'm curious before we jump into the AI side, Mike, because I kick myself if I didn't ask you know, what was it like having to, you know, to be in charge of innovation at a company like that that at its, you know, in its heyday was one of the most innovative companies in the world and how did you approach that challenge? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 494,
+   "paragraphs": [
+    "So so the first thing I would say is I was in charge of the innovation group. I wasn't in charge of innovation because everybody was charged of in charge of innovation. And that's like a very, you know, distinct thing that I like to say, but that was true. I mean, that was part of our culture. There's a great book if you're really interested in the history of PayPal, it's called The Founders. I actually hosted the author Jimmy Soni at PayPal back in the day and kind of walked through it. And it talks about the early days of PayPal and just how we as a company were forced into innovation because there were all these Russian hackers that were, you know, days, maybe even hours away of just taking down the business because if the credit cards got exposed, then the company was no more.",
+    "And when you're forced at that, it forces you to be innovative. And this like really built this culture within the company that was something that we tried to continue as much as possible with my little innovation group. And you know, it introduced like little things that don't seem like much, but if anybody has ever tried to connect a bank account to something and all of a sudden you get two little deposits, you know, of like 14 cents and 32 cents and you have to confirm what those were, like that was a PayPal innovation. And that came from some engineer who basically they were asking the question, hey, we got to like have people send in checks and do all this stuff to add a bank account.",
+    "I wish there was just a pin number for a bank account. They're like, well, why don't we make a pin number? And that effectively that micro deposit thing that permeated for 20 plus years for all companies was like a little PayPal innovation. But like those are the innovations that really matter. It's the things where there is a problem and like you might think that like, well, wasn't that obvious? It wasn't obvious at the time. But it was a really simple, very elegant solution to be able to solve a big expensive problem that we were having. And so you do hundreds and thousands of those over the years and years as a company and eventually built up this really innovative culture."
+   ]
+  },
+  {
+   "speaker": "Jordan Wilson",
+   "start": 616,
+   "paragraphs": [
+    "So I want to kind of fast forward to current day and get your get your viewpoint on it because I'm sure that, you know, PayPal was using artificial intelligence obviously, but now we have generative AI, right? Where you don't necessarily need a PhD in machine learning to take advantage of AI. You know, what was your kind of first takeaway when you saw the surge of, you know, large language models that were made for everyone? And, you know, as being someone with a background in innovation, what was kind of what did that unlock for you kind of, you know, in the early days of generative AI, which is funny to talk about now that it's been like, you know, two or four years since we've had access to, you know, GPT technology? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 660,
+   "paragraphs": [
+    "Jordan, my I love talking about this because I remember I like literally my heart is probably palpitating right now because I remember how giddy I was the first time I've got to experience GPT-3 first hand. And because you're right, I in the innovation lab, I would have all these machine learning engineers and they would come in and they would do demos and they would do all this really impressive stuff. And I was always like, that's so cool. I can't do any of that. I'm not a not an engineer, let alone a machine learning engineer. I don't have the tools to do that. And when GPT-3 when GPT-3 came out, it was a while before I got access.",
+    "But I remember 2021 got access. I was just working on this fun little side project where I was working on a short story that was actually an inaugural address for an AI/robot that becomes president. And I'm like, okay, what's the inaugural address going to look like? So I actually wrote some pieces. I actually stole some from Obama's second inaugural address. I put that in there. And then I just kind of put that into GPT-3. And then I just like said, okay, I like hit go, whatever it was in the playground or whatever I was using at the time. And it just started generating. And honestly, Jordan, I was like, oh my, I was so excited because I'm I'm seeing this and it's creating like cohesive thought.",
+    "It's continuing the story from where I was. And it would screw up. Like one time it just kept it was like and like it was hallucinating, which actually made for a better story when I was kind of choosing this because you were actually seeing the AI screw up. But I remember it being in my kitchen seeing that, running upstairs, screaming. My wife didn't know what was wrong and all that. But I was just so excited. I'm like I'm like the computer it is it's making words. It's making words that make sense. And this was revolutionary. So for me in 2021 to see that, I immediately I it got it.",
+    "Like and I think part of it was because I wasn't an engineer. Like so this was me saying for the 99% of people on earth who are not engineers, this was the great unlock. And you just see those tools get better and better. And then, you know, I moved to image generation with DALL-E and tools like that and so forth. And that's why by the time I left PayPal summer 2022, that summer I actually wrote my first article about AI, which was effectively this is it was called the one technology that everyone should be freaking out about. Just because I was like, this is the future people.",
+    "Like it is here. Like look at what we can do today. This is the great unlock and it's not going to stop. And it's just kind of been up and to the right since then."
+   ]
+  },
+  {
+   "speaker": "Jordan Wilson",
+   "start": 827,
+   "paragraphs": [
+    "Yeah, it's it's it's funny Mike because I had a very similar reaction, right? My background, you know, I had a couple careers, but I was a journalist for a while and, you know, our team I had a digital strategy agency at the time and, you know, we're we're writing Google ads and, you know, SEO copy for clients. And I think it was late 2020, early 2021 when this GPT-3 technology, you know, started to roll out to these other, you know, third-party providers. And I think it was writing, you know, headline options for a current client, something small. But to be able to write, you know, hey, here's the client, here's here's the problem, and it would spit out 10 headlines, I was straight up flabbergasted, right?",
+    "And as a former journalist, I know, you know, what goes into, you know, sometimes writing a newspaper headline and spending three people around the newspaper and spending 10, 15, 30 minutes and for it to be able to spit out something so fast, I could see how revolutionary that that was, right? And like I love hearing that you had this exact same kind of feeling."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 892,
+   "paragraphs": [
+    "Yeah, absolutely. And specifically on the writing side, you know, let's fast forward to today and what the technology on opens up today for us. When you're using this technology, it is it is the greatest, not the greatest, it is an amazing writing partner that is always accessible. Like yes, I'd rather have Ernest Hemingway sitting next to me like drinking and just like being able to shout out ideas and so forth. But like that aside, to pay 20 bucks a month to use one of these tools to be able to say, hey, here's an article I just wrote, give me 10 potential headlines for this. Or do you know what?",
+    "I'm struggling with this piece here. Give me five different ways that you can you could shorten it, make it snappier. Or like I just got nothing here. Give me like two different options. Like that's how I use tools like Claude and ChatGPT all the time in my writing today. It is not going to be able to write something from beginning to start as well as a good writer could. It can do things like it could take sports and it's been doing this for almost a decade now, taking like sports scores and just making an article out of that. There's a there's a formula to that.",
+    "If you're trying to get a little bit more advanced in writing, it doesn't quite do that. But to have it as a writing partner to help you out with that, it just helps you iterate so much faster as part of that process."
+   ]
+  },
+  {
+   "speaker": "Jordan Wilson",
+   "start": 973,
+   "paragraphs": [
+    "Yeah, and I think that was probably one of the earlier and lowest hanging fruit use cases, right? Helping maybe people who weren't great writers be good or okay or better, right? Or above average pretty quickly. But now large language models are so much more than that, right? We have multimodality, the ability to input audio, output audio, right? It's it's it's getting wild now. And I think this, you know, especially some of the developments over the last six to nine months have really opened up the eyes to the everyday business person on, hey, I should probably be using large language models a lot more than I should.",
+    "But where do I start, right? Especially people who are non-technical. So Mike, what would be your best advice on how do people start? Where do they go? How do they know which model is maybe best for them or their use case?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1021,
+   "paragraphs": [
+    "So let's start with like where to start and then we'll get into which model next as part of that. So the where to start, I would actually say is not in the business context, it's probably in the personal context. Think about a problem that you're having in your life. Think about something that is mundane that maybe you don't enjoy doing. Maybe it's travel planning, maybe it's cooking. Whatever it might be, just start to apply the models because then especially you're not worried about data leaking out or any of these other kind of things that you may be worried about in the business context. So what I always say is like for people start with those personal use cases.",
+    "To give one very specific example, my dad is, you know, he just saw a doctor and doctor's like, yeah, you got to do some tweaks to your diet here. And so one of the things that I am working with him on is actually building a custom GPT for him. And this is something that I think anybody who pays the 20 bucks a month for ChatGPT can get. And we're going to like put all the information into that custom GPT. And within there and it's going to say like, hey, these are the things like, you know, here's actually his blood test, here's a few other things, here's some statistics.",
+    "And here's what we want, here's the goal, here's what we want to achieve. Now give him and there's so many different ways to do this, give him a 10 point scale. And so whenever he holds up his phone and takes a picture of what he's about to eat or a menu or whatever, grade those things for him as far as, you know, meeting his health goals. And sitting at a restaurant, that's pretty darn awesome to be able to just take a picture of the menu and to see like, oh, if I eat the chicken carbonara, that's a four out of 10. But if I eat the salad, it's an eight out of 10.",
+    "Hey, I'm going to go with this one today. And again, you customize that however you want, however resonates with you. By doing that kind of stuff personally for starters, that begin that starts to open up so many things of like, oh wow, if I did it for this, could I do it for that? And, you know, it just becomes natural that you start to realize that. Now bring it to the other part of your question, bringing it into actual workplace or even just finding out, okay, what model is best? What I would recommend is start with all the models. So I'm just going to like mention like five here that I like or my most frequent go-tos.",
+    "There's Claude by Anthropic, there's OpenAI's ChatGPT, there is Mistral, they have their own free model that's out there. There is Meta, so Meta has a Llama model if you just go to meta.ai. As long as you have any Instagram or Facebook account, you can use it. And there's also x.ai, which I think you actually have to pay for to use all things, but I don't know. So that's kind of the five. And how to find out which one's the best? Put the exact same prompt into all five models. And that's how I would start the process. So say you are a product manager and you're working on a PRD, so you know, some sort of product description, there's going to be a very formal format and so forth.",
+    "And yeah, here's a paragraph of like, you know, give me the high level points or whatever for a PRD. Drop that into each one of the five models and just and then within 10 seconds all of them will have responded with the result. And just like see like, okay, well, it looks like Claude did the best here. It looks like Meta did the best here or whatever it might be. And then you kind of go down that path. Now, of course, this is there's always the business concerns of data leakage and all this other kind of stuff. Like I'm just putting that aside for the time being.",
+    "You know, we can get to that later if you if you want to Jordan and how to think through that. But like that's how I would think about these problems and that because you will find like for me when I'm writing, Claude is definitely the best one, the one that I gravitate to and so forth. If I'm doing something a little bit more mathematical, the ChatGPT 01 preview, I think is the name. The naming is awful at these companies. It is like beyond ridiculous how bad it is. But like that's where I go to. And I've just kind of learned that over time."
+   ]
+  },
+  {
+   "speaker": "Jordan Wilson",
+   "start": 1274,
+   "paragraphs": [
+    "Yeah, yeah, I love that. And FYI, I want to put a video in our in our newsletter today. I there's there's quite a few tools that even allow you to do this all at once, right? Put in one prompt and you can get a, you know, a window of four or a window of six to make it even easier. But I do think there are some instances where I even like to go in individually because, you know, the user interface matters as well. But Mike, one thing actually I got to ask you this because you didn't mention Google Gemini and, you know, Microsoft Copilot, which I know is based off of GPT. Like is this is this a personal vendetta here or just No,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1314,
+   "paragraphs": [
+    "Oh my god. No, no. I literally I even have an Android phone and everything. I mean, so no, it's actually so funny. I don't pay for the advanced version of Google Gemini. I use the free one just because I'm paying for so many of these darn things right now. So I will occasionally use Gemini more for doing like complex searches, but you can try Google Gemini. I and actually if anybody and I have a free newsletter, I'm not trying to sell anything. If anybody checks it out, a little while ago I actually did something comparing them all and I did have Google Gemini in there.",
+    "So I it was sixth. And Gemini is at least the version that I used, one of the things I did was I actually had each of the models write copy and then I put it into an AI detection editor. And it would tell and Grammarly has a decent AI detection editor. And I will say like Gemini was the only one that was consistently getting like 100%, meaning it was like the detection editor was like this is 100% AI written. Now they all were 108 100% AI written, but Gemini for whatever reason like it feels a little bit more AI-y for certain things. That's why it's not usually the first one I turn"
+   ]
+  },
+  {
+   "speaker": "Jordan Wilson",
+   "start": 1386,
+   "paragraphs": [
+    "Yeah, yeah, something feeling AI-y. That's that's a very common feeling, especially if you scroll social media, you know, nowadays. Mike, one thing I want to get into. So this is great. You kind of gave us some great tips on where you can start, how you can, you know, kind of try on the different models, find the right one for your needs. But when it comes to innovation, right? That's where I really want to tap into it. So maybe I want to even start with you personally, you know, with your background. How has kind of the innovative process or the process of, you know, whatever innovation actually entails, right? Creativity, brainstorming, iteration, right? But this innovation process, how has this changed for you personally using large language models?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1433,
+   "paragraphs": [
+    "It's the second place I go. I mean, that's the honest answer. And what I mean by that is like the first place is still always kind of my brain, my pad of paper, whatever else. But like once I have that, then it just becomes my brainstorming partner on all these things. So let's take, you know, let's just say we're trying to build a new product or whatever it might be. And we have a customer who's has a very specific need where they, you know, they have a hard time, their dog, they have a hard time finding out what to do with their dog during the day while they're gone.",
+    "There we go. So I don't have any pets or anything, so I don't even know what to do in these situations. So I would just start with myself and like, okay, the problem statement is this. There's a customer who has this problem. During the day, they're gone for 10 hours a day. What do they do with their dog? Well, yeah, you could get somebody to walk it, you could keep the TV on, you could do all this other kind of stuff. I'm just going to kind of lay out my exhausted list of that. And whenever you're brainstorming yourself, and I've run literally hundreds of brainstorm sessions throughout my career and seen this well, your first ideas are basic and suck.",
+    "Like that's just how the brain works. Once you get up to like seven, eight, nine, that's when it starts to become interesting. And you kind of almost want to extend that to the point where it's almost slightly painful. Like I don't know if I got anything and things are getting stupid. And it's kind of like this wave form almost you see of like quality of idea over time as you're moving forward. But then I would take that and then I would frankly snap a picture using ChatGPT or whatever tool. And I would then say, hey, I'm trying to find a solution for my dog or a business to help people who leave their dog at home all day and want to do something to keep their dog occupied.",
+    "Here's a starter. I want you to take all these and go beyond, take them to the next level. And that's where the ChatGPT, it's going to see the patterns that you have. So it's going to be able to kind of take that, see like the type of things you're thinking about and so forth. But it's going to, you know, two, three X those ideas. Most of the ideas are going to be crap. And when you're brainstorming, when you're ideating, that's part of the process. It's no different for ChatGPT than it is for people. But then when it gives you know, and you can say, hey, give me 15 ideas, then what you should say is like, okay, ideas seven, actually I wouldn't, you could say like ideas seven, two and six are actually really bad.",
+    "Don't go in that direction. But ideas 11, 13 and 15, like let's go down on those. And in fact, can you combine, can you instead of saying this in 13, say this instead and whatever and then give me 10 more. And then you kind of keep doing this again and again and again. And then all of a sudden you've gone from, you know, and this happens in minutes. This is not hours or anything like that as it would be if it was humans doing this. This is, you know, 20 minutes of you brainstorming something and then five minutes of just running stuff through ChatGPT and you evaluating it.",
+    "You know, the one thing ultimately in like our AI future that I see, no matter what role you have in business, whether you're in finance, whether you're a product person or an engineer or an entrepreneur or whatever it might be, you're going to be much more the director of things, kind of pulling the strings, saying what's good, what's not good. Taste is going to matter even more in this future because, you know, the value of coming up with an idea is effectively going to be zero in this future."
+   ]
+  },
+  {
+   "speaker": "Jordan Wilson",
+   "start": 1656,
+   "paragraphs": [
+    "Oh wow, that's deep. The value of coming up with an idea could effectively be zero in the future. Sounds like a hot take, Mike. I 100% agree by the way. But explain that a little bit more, right? Because I think so many times people, right? All successful people in business have gotten to where they are today partially because they had good ideas, right? And then they had knowledge to back that up. But now those are things that large language models are increasingly getting better and better at, right? You mentioned the 01 model from OpenAI that's a reasoning model, right? So if these large language models essentially have all of the information and all of the knowledge of humankind essentially, right?",
+    "And if they're getting better and better at ideating and creating ideas, right? How should we as humans, as people who want to grow our companies and careers, how can we prepare for this large language model infused future?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1718,
+   "paragraphs": [
+    "It's a great question, Jordan. And what I would say is ideas have always been overvalued as far as their capital. And this phone that I showed you before, I have thousands of ideas in files in here of everything from, you know, the next great blockbuster movie to book ideas, to business ideas, to whatever it might be. I got all these things in there. What matters is execution on these ideas. Any day I will take a fair idea with excellent execution versus an excellent idea with fair execution. Like execution is what matters and that is going to be the case even more in this future. So, you know, so I think we always overvalued the value of ideas in the past.",
+    "And again, this, I'm the innovation guy. Like my job for six years was just coming up with ideas for stuff. It was not about execution and things like that. So I lived in this world and saw that like execution is what really matters. And look, I'm not saying, would I rather have an excellent idea with excellent execution? Of course. Like give me that any day. But it's going to be much easier to get to that excellent idea than it is in the past because we have these tools. And the thing that is just really going to matter, it's taste. It is taste, it is discretion, it is these other human traits and qualities that the AI can't quite do yet.",
+    "We're still, they still got a little ways to go before they're really able to say like, hey, this is a better idea than that one. Like they could sort of do that in some cases, but I think there's a lot of layers to that, a lot of experience that has to go into that to really decide that. So that's why execution is what matters in this future. But by all means, use these tools for ideation because that's what one of the things they do best."
+   ]
+  },
+  {
+   "speaker": "Jordan Wilson",
+   "start": 1835,
+   "paragraphs": [
+    "So since you kind of shared a somewhat hot take, Mike, I'm going to go ahead and throw one out. Yeah, I'm going to throw one out to you and I kind of want your response. So my thought is that we have to unlearn, right? I think all these companies are throwing out all these AI buzzwords like upskilling, reskilling, skill sharing, AI skill blank, right? I think we need to unlearn. I think that we have to unlearn good habits that we've developed over the past couple of, for a lot of people, decades. And we have to reimagine how we work in an AI first and an AI native world.",
+    "And I think a lot of that requires innovation, right? And maybe the way that we really need to work is and where we can apply this innovation and execution is literally reimagining how we do our day-to-day work and rewiring, unwiring first and then rewiring kind of our brain and how it works. What's your take on that and even kind of how innovation plays into this future because what you said, it sounds like ideas are nothing, execution is everything. And as the models get bigger and better, I think we have to just unlearn everything."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1906,
+   "paragraphs": [
+    "What do you think? I think unlearning is important and it's so hard. I do not envy big companies right now. I think it's really tough when you have bureaucracy, when you have all of these things lined up against you. Look, I always love the thought experiment. If we had define AGI however you want to, so basically it's smarter than the combined intelligence of all humans on earth. If it just was like dropped, Sam Altman just drops it down on us today, is the world going to change tomorrow? And I think everyone would say, well, probably not. Is it going to change in six months? Is it going to change in five years?",
+    "It's going to change at some point. But like there is so much bureaucracy in companies, there are so many incentives that are not, it doesn't necessarily push towards efficiency. I mean, in Silicon Valley, for example, I think this is finally starting to change, but for a long time, your mark of worth in Silicon Valley was how big your team was how many people you had working for you, how big your organization was and the title that would ultimately come with that was the mark of status in Silicon Valley. And that just meant, well, you just have more people, you have a bigger budget and all this other kind of stuff.",
+    "And I think there's finally starting to be a move away from that of a like, you know, some mass layoffs that we've seen over the last year and start restructuring around that. But that's hard. And these are supposed to be the most innovative companies in the world, but even they have been caught up very much in their own bureaucracy. So Jordan, everything you're saying, like for a big company, it ain't easy. It can be done, but like a lot of bold, sometimes difficult and sometimes wrong decisions will have to be made to say, well, how do we act in this future? How do we change the incentives so we can be more nimble, so we can be an AI first company or whatever you want to call that.",
+    "For a startup though, for a small business, totally different. Like if I'm starting a company today, am I going to hire a data analyst? Am I going to hire an HR person? Am I going to do that? Like I'm going to be thinking about, wow, like there are AI agents that could do this coding, that could do this. And again, I'm going to be hiring people to kind of direct these agents, but probably not to do a lot of the rote work itself. And then that's going to give these companies a competitive advantage. So look, I spend a lot of my day talking to people hoping to start or starting companies.",
+    "I think this is an amazing time to be starting something if you are truly AI first. And if you're a company who's not, how do you do that culture shift so that you can be? Because this is coming whether you like it or not. There's no legislation, there's no nothing that is going to be able to stop the AI train. Ethan Molik, the professor from Wharton, I love one of his thoughts that he has where he talks about even if that model stopped improving today, like this was the end, we never get better than this ChatGPT version or Claude version, we would still have years of productivity gains ahead of us because we haven't even figured out fully what these models are currently capable of.",
+    "And in reality, they're going to keep getting better. There's tens of billions of dollars being spent on hardware and all of these things that are just going, and you know, the scaling laws have not stopped. Basically meaning the more money, the more Nvidia GPUs they're throwing at this, the better results that they are getting. Which is how Nvidia has become the second most valuable company in the world or whatever it is today. But like we still don't see, it will probably stop at some point. We still got a little ways before that actually happens."
+   ]
+  },
+  {
+   "speaker": "Jordan Wilson",
+   "start": 2135,
+   "paragraphs": [
+    "All right, Mike, so I have one or two quick follow-ups on this that I really want to get to. But real quick, I have to shout out one more time our partners from Microsoft and the WorkLab podcast. So why should you listen to the WorkLab podcast from Microsoft? It explores the questions business leaders are asking. How can they guide their organizations on their AI adoption journeys? How can the technology help them create new products and business models and maximize value? How should they help their teams reskill in the new era of work? Why is it important to be completely transparent about when and how you utilize AI?",
+    "Well, find the answers on the WorkLab podcast. That's W O R K L A B, no spaces, available wherever you get your podcasts. Thanks again to our friends at Microsoft for sponsoring the Everyday AI show. But I want to follow up on something that you said there real quick, Mike. I know we've already been all over the place, but I love this. So you kind of talked about scaling laws, right? And they're actually getting like the rate of technology and the rate of compute is far exceeding what we thought scaling laws would limit us to. More and more money is being poured into GPUs, NPUs, quantum, etc., right?",
+    "And now we have agents, right? Literally any day now, we're going to have autonomous AI agents that you can build with natural language, right? From Salesforce and their Agentforce, and then from Microsoft that announced their Copilot Studio autonomous AI agents, right? So this is all happening very fast. And when you talk about innovation and starting a company, right? I want to go there now. If you were starting a new company today or if you were a business leader that needed to start a new line of business, a new line of revenue, where would you be looking because everything's happening so freaking fast?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2255,
+   "paragraphs": [
+    "Yeah, you know, I think Bezos when he was still running Amazon would kind of talk about what are the things that are not going to change in the next five or 10 years. And it was things like customers are going to want their products faster. So like delivery time is, you know, that's not going to change. They're probably going to want lower prices. That's not going to change. But like everything else is kind of up in the air. And that's where I would kind of start. First principles of like, okay, who is it that you're serving today or who is it you wish to serve?",
+    "And if you're starting a new business, you never want to fall in love with your product. You want to fall in love with your customer and specifically with solving the specific problem that your customer has. This has to be a burning need, burning desire. And when you have that, that becomes an unfair advantage for you. Whenever, if there's something that you obsess about all the time, that then becomes an advantage that no big company, no other startup, no nothing else out there can compete with. And so if I'm looking to start a small business, that's the first thing I'm saying. Like where is the thing that I am obsessed about that I want to solve a problem that exists out there in the world.",
+    "And if you're listening to me say this right now and you don't know what that is, that's okay. I would ask ChatGPT, I would ask Copilot, I would go into one of these tools and say, hey, I'm looking to start a new business. Help me, I want to be obsessive about something. Can you walk me through this? Ask me a bunch of questions. Help me find the thing that, the problem out there in the world that's not solved that I can uniquely solve in some way. And you know what? I bet you in a 30-minute discussion with one of the AI models, you're going to actually have like, huh, those are like three ideas that I want to explore.",
+    "So that's the first thing that I would say is like, so if you are obsessing about whatever that is, that's the starting point. And then Jordan, what was the rest of the question? I totally went on a tangent there, didn't I?"
+   ]
+  },
+  {
+   "speaker": "Jordan Wilson",
+   "start": 2382,
+   "paragraphs": [
+    "No, no, I mean, you crashed the first half, right? Like what would you do if you were, because we started to talk a little bit about AI agents and scaling laws and all these things that are happening and starting new businesses. But then I said, what about for those listening that are in charge of driving new areas of revenue for their current company, right? Because I'm sure there's so many businesses, actually if you think about it, I don't know what businesses out there can't create new lines of revenue because of the innovation and the creativity and the strategy that all these large language models are bringing, especially when we talk about autonomous AI agents.",
+    "But yeah, maybe what should leaders who are working in a certain department, how can they be looking to innovate with AI to create new lines of business?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2426,
+   "paragraphs": [
+    "So the one thing I would say is never be afraid to start too small. And that is something that I don't think most businesses truly follow. Let me give you an example. I know and it's funny, they're in the headlines for other reasons now, but the folks who started Character.ai where I believe on the Google Brain team and one of the reasons they left Google Brain is because they want to do some kind of fun, interesting things with Character.ai. And that was like Google's like, that's not going to move the needle for us. That's not interesting enough. And frankly, when you get into larger companies, that comes up all the time.",
+    "I can't tell you how many times I heard that within PayPal. The kind of like, unless this is going to produce $100 million of revenue, we're not interested. And I think that is the first thing that you need to move away from in your business. That, you know, let's just say you are a business that does $10 million of revenue and somebody comes up to you with an idea for, hey, I think this could maybe produce $25,000 of revenue in the first year. Your initial reaction is like, that's not even worth what we're paying the people that are going to be building this. The way you got to look at that is like, okay, we do need to place bets in all these different places.",
+    "And we need to see what our own core competencies are, what our customers needs are. And then in this new future, we don't know where things are going to go. And this is something that again, I think this is like one of the downfalls of innovation in larger companies whenever they start to push those things away because then all of a sudden startups create, you know, Character.ai was not thought to be a big, and for folks who don't know, it is effectively a way to talk to, it's a way a bunch of teenagers talk to online avatars. And they will, it's literally I think in the top five trafficked AI websites or something.",
+    "It's crazy. I tried it once, I don't get it. I'm 47 years old, I'm way too damn old for that thing. But the kids like they got their AI friends on there. Yeah, they love it. But yeah, for businesses, that's the one thing I would say. Like don't worry about it being too small. Like remove that constraint you have in your brain for size and just know that you got to place bets in different places. And there are different ways to do this. Maybe you do it through like some outside like almost like a venture fund type investments. There are different ways to do that.",
+    "Yes, it is going to be a bit of a distraction, but it's going to help you learn so much more. And when you start to look at these things, you truly don't know how these things, these little bets are going to bubble up in the next"
+   ]
+  },
+  {
+   "speaker": "Jordan Wilson",
+   "start": 2586,
+   "paragraphs": [
+    "Five years. All right, so Mike, we've covered so much, right? Generally these podcasts are a little shorter, but we just, I was having fun, I wanted to keep going. But as we wrap it up here, maybe what's your one most important takeaway? This is something I always ask our guests. So what's your one most important takeaway on how non-technical people can really use AI to be innovative even if that's not their big skill set? What's that big"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2617,
+   "paragraphs": [
+    "Takeaway? Yeah, Jordan, I would say I end every presentation that I give to students in AI on this and this is me talking to a bunch of like 18 to 24 year olds. The thing I tell them is to embrace their inner child. And that's what I'm going to tell all of your listeners as well. With these tools, you've got to just, you got to be afraid, unafraid to look dumb, to ask a dumb question, to get something that's not going to give you the response that you wanted to give. You got to experiment. You got to just try all of these things out. You got to know that maybe if you tried to do something today, three months from now when these models improve, it's going to give you a totally different answer.",
+    "I think too often people will say, you know, I'll put in a query into ChatGPT about something where they have a lot of knowledge or they know a whole bunch about and they're like, they got 10% of this wrong. Like I don't trust this thing. Well, like here's, like if anybody, I forget there's a name for this. Like if you've ever read like a newspaper article about yourself or anything you know deeply about that's written by a journalist, there's always a bunch of things that's wrong. Like I mean, it's just how these things go. And like the first time you kind of see that in life, you're like, oh, that gives you an entirely new perspective.",
+    "But this is how things have always been. There's shortcuts taken, there's things that are misunderstood or reinterpreted again and again. And like things are always going to be somewhat wrong. If you're dismissive of that and just say like, well, it got a little bit wrong today, I'm not even going to bother with this or maybe even got a whole bunch wrong, I'm not going to bother with this. Like that's not what a kid would do. A kid would look at him and say like, okay, I tried to play with this, build these blocks up here this way, that didn't work. I'm going to try and build it this way.",
+    "And that's what you got to do. So embrace that inner child and I think that is something that could benefit us all not only with AI, just in life in general."
+   ]
+  },
+  {
+   "speaker": "Jordan Wilson",
+   "start": 2733,
+   "paragraphs": [
+    "Such great takeaways from someone who's been there and is helping us all get to a better, more creative and more innovative place with AI. So Mike, thank you very much for taking time out of your day to join the Everyday AI show. We really appreciate it. Thanks Jordan, it was a lot of fun. And hey, as a reminder y'all, we covered a whole lot there. Don't worry if you weren't able to accurately take down every single piece of knowledge that Mike dropped on our heads. That's what I do. I'm a human. I'm going to go back, re-listen to this and type up a newsletter with my bare hands.",
+    "It's old school. So if you enjoyed this, please make sure to tell someone about it and also go to youreverydayai.com, sign up for that free daily newsletter where we will be recapping all of the highlights from today's show as well as keeping you up to date with everything else that you need to know. So thank you for tuning in. Please join us tomorrow in everyday for more Everyday AI. Thanks y'all. And that's a wrap for today's edition of Everyday AI. Thanks for joining us. If you enjoyed this episode, please subscribe and leave us a rating. It helps keep us going. For a little more AI magic, visit youreverydayai.com and sign up to our daily newsletter so you don't get left behind. Go break some barriers and we'll see you next time."
+   ]
+  }
+ ],
+ "words": 8805
+}
