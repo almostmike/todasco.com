@@ -1,0 +1,527 @@
+{
+ "slug": "future-squared-with-steve-glaveski-episode-246-how-to-stay-innovative-at",
+ "outlet": "Future Squared with Steve Glaveski",
+ "title": "Episode #246: How to Stay Innovative at a Fintech Startup Turned Global Financial Services Behemoth (with Mike Todasco)",
+ "date": "Jun-18",
+ "published": "2018-06-02",
+ "url": "https://www.steveglaveski.com/podcast/future-squared-episode-246-how-to-stay-innovative-at-a-fintech-startup-turned-global-financial-services-behemoth-with-mike-todasco",
+ "duration_sec": 3481,
+ "host": "Steve Glaveski",
+ "speakers": [
+  "Mike Todasco",
+  "Steve Glaveski"
+ ],
+ "turns": [
+  {
+   "speaker": "Steve Glaveski",
+   "start": 0,
+   "paragraphs": [
+    "Welcome to Future Squared, the podcast all about corporate innovation, entrepreneurship, and self-improvement. My name is Steve Glaveski, and each week I'll bring you conversations with thought leaders such as Kevin Kelly, Brad Feld, Steve Blank, Gretchen Rubin, Tim Harford, Adam Grant, Tim O'Reilly, Tyler Cowen, and many more on topics that will help you gain a distinct advantage not only in the world of creativity and innovation, but in your entire professional and personal life. Each and every Friday, I'll bring you Fast Fix Friday, some short, high-impact, and easily digestible insights to have you finishing your week on a high. Future Squared is powered by Collective Campus, a corporate innovation school, consultancy, and startup accelerator that works with large organizations to help them unlock their people's often-laden potential to create more impact for humanity and lead more fulfilling lives.",
+    "If your organization needs help coming up with ideas, testing and turning those ideas into reality, creating a culture of innovation, or partnering with startups, visit collectivecampus.io. So, without further ado, let's get into today's podcast. Welcome back to Future Squared for episode number 246 coming at you all the way from Greenwich Village in New York City. Today's episode is with PayPal's Global Director of Innovation, Mike Todasco. Mike is responsible for increasing the creative output of PayPal's employees across the company across the globe. Prior to his current role, Mike spent time at PayPal in product management, product marketing, product launch, and product analytics roles. We discussed a number of topics in this episode, including PayPal's objectives and challenges, PayPal's four global innovation labs that Mike's been fundamental in establishing and managing, what's behind PayPal's stock price doubling in the past 12 months to bring the market cap up to $90 billion, and how PayPal goes from ideation to experimentation and commercialization.",
+    "So, with that, I bring you Mike Todasco. Welcome to the show, Mike. Steve, thanks for having me. It's an absolute pleasure to have you on the show, and you're joining me all the way from sunny San Jose, where I understand you just spent your lunch break playing beach volleyball. Oh man, yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 139,
+   "paragraphs": [
+    "This is going to start to get around like this is what I live for, but it sort of is, dare I say. But yeah, so San Jose is a great place, and I could say this from somebody who grew up in Chicago where we have hot summers and cold winters, but you can kind of do outdoor stuff all year round here, and I love the fact, and it was 70-something degrees Fahrenheit and sunny today, and that's how I spent my lunchtime, so it was pretty awesome."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 165,
+   "paragraphs": [
+    "Well, there's many worse ways to spend your lunchtime, and having grown up in Chicago, would that make you a Bulls fan? It did."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 172,
+   "paragraphs": [
+    "I So, I am of the age of the Horace Grant, Jordan, Dennis Rodman, Scottie Pippen Bulls, so so yes. Man, I"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 181,
+   "paragraphs": [
+    "I would very much say so. I am a 25-year-long Phoenix Suns fan, and I think I'm still reeling from the '92-'93 final series loss against the Bulls. Like when Who was it? John Paxton scored that I think it was John Paxton who scored that three-pointer with like two seconds to go, and then Horace Grant blocked KJ. Man, I feel like that was just yesterday. It just burns into my corneas."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 206,
+   "paragraphs": [
+    "It is scary when you think about things that were 25 years ago that do feel like yesterday. Oh man, it's terrible."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 212,
+   "paragraphs": [
+    "It's terrible. But we got the number one We got the number one pick in the lottery yesterday, so maybe the tide will turn for the Phoenix Suns, but somehow I think it's going to take a lot more than the number one draft pick. But anyways, really happy to have you on the show today. Perhaps for our audience's benefit, Mike, do you want to give us the 2,000-foot, you know, helicopter view of who you are, what your role is at PayPal, and what your day sort of looks like? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 237,
+   "paragraphs": [
+    "So when I'm not playing volleyball, I guess. Yeah. So, so my title is I'm Director of Innovation at PayPal. And for folks who don't know, PayPal is a multinational fintech company with a suite of many different brands, including PayPal, of course, and Venmo, and Braintree, and so forth underneath our umbrella. And we have, you know, 200 million plus active customers that we have in our business, and I oversee our innovation labs as part of that. So, we have innovation labs in San Jose. We have two in India as well, and we're looking to expand them even further. So, that's my role. I've been here for 6 and 1/2 years, and again, in product and innovation roles during my time here."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 286,
+   "paragraphs": [
+    "Fantastic. And I noted that PayPal's opened a number of labs across the world. I mean, obviously there's a bit of a upswing for anybody who's been following the corporate innovation space in terms of innovation centers, innovation labs being set up, and, you know, the jury's out on which ones are successful and which ones aren't. But from what I understand, PayPal is very deliberate about its objective for setting up these labs. Ultimately, what is PayPal trying to get out of it, and what is the purpose of the lab before we even get into the results? Yeah. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 318,
+   "paragraphs": [
+    "I mean, because the last thing that we want to do is to just set up labs in a bunch of locations just because we can cut a ribbon, we can get in the local newspaper, we can get in headlines, and all that kind of stuff, because then 9 months later, it's just a dormant office space sitting in a building, nobody's using this. It's kind of like, \"Hey, what happened with that?\" That's not what we're trying to accomplish. One of the Do you know, to take a step back, one of the things that we really believe at PayPal is that, you know, each and every one of us is an innovator.",
+    "Like we have this in our DNA, and it's not just if you are in an engineering function or design function. It is if you are in our sales channel or legal or, you know, like myself, me personally, my background's as an accountant. So, I mean, like it is And I love to brag about that almost, quote unquote, to people because it's in each and every one of us. And people don't traditionally think about accounting and innovation as being the same things, but innovation is just a human trait, and that's something we believe really strongly. So, we set up these labs, first of all, in sites that are really excited about them.",
+    "The location really has to have a big enough employee base, and frankly, has to have almost gone through some steps to be able to say, \"Hey, we're ready for a lab there.\" We've done like speakers, we've done some brainstorming, we've done these hackathons, we've done all this. Like the You know, the lab is the next step in the evolution of getting more people innovating at any of our given sites. So, so yeah. So, what we do is The purpose of the innovation lab is to be a central hub for that location to bring people together, to have a place where people can come and try out the latest technologies, to take out books on various subjects, to hear from speakers And we have speakers in San Jose here every week, and it's a vast array for everything from, you know, people Just this past week, we had a CEO of a autonomous camera drone company called Skydio.",
+    "He was in the office, and everyone got to hear his story about raising $70 million and starting this. And professors that we have as well. I mean, we're just trying to get people exposed to as many different diverse ideas because then they're going to be able to take those back. You kind of give them the tools, you give them the ideas, exposure to the ideas, and the training, and then you kind of create this environment where people have the freedom to try new things, to experiment, to work on next-generation platforms, and so forth. And then that's just some of the things that we're trying to do in our innovation"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 492,
+   "paragraphs": [
+    "Labs. Fantastic. So, you mentioned that PayPal is trying to empower innovation across the organization. It doesn't matter if you're an accountant, you can still contribute to those objectives. And like you said, you're exposing people to diverse ideas, and effectively that's what innovation is all about. I mean, you think about the Medici effect. It is the intersection of lots of diverse disciplines coming together, and that's where most breakthrough solutions really come out of. But I guess what I'm interested in finding out more about is, you know, if everybody's an innovator, say somebody's sitting over in procurement, they've obviously got their day job, they've got to focus on that, but they've got an idea that they want to explore. I mean, how does PayPal empower employees to kind of balance their core duties with innovation? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 537,
+   "paragraphs": [
+    "No, it's a great question. So, you know, for everybody, we have an easily accessible idea portal where anybody within PayPal can submit any idea about anything. It doesn't have to be core to fintech, it doesn't have to be core to PayPal. We just want ideas. We want these to serve as inspiration for others. These ideas in themselves, you know, we will look at them, we will evaluate them, but we will also then post these publicly. So, within the company as well, every single one of these ideas can be upvoted, they can be commented on, and so forth by others in the company because we want these ideas to serve as inspiration for doing even more things.",
+    "And so, people will find the time in their days and their nights, you know, as they're, you know, going out on the weekends, they'll jot some idea down and whatever, and then come in during the week and submit it in 10-15 minutes of their time to the idea portal we have. And we've You know, last year, had thousands of PayPals from across the world submit ideas to here. And then, you know, and so ideation is one piece of that. And then from that, we will select ideas and select different focus areas where we want to actually take those ideas and start to gather teams together.",
+    "And this is very much in the kind of the spirit of a 20% time type program where people will work on this, and they will have the opportunity to build out something, you know, form a small team and build out some of these ideas on some next-generation type technology. So, something like, you know, augmented reality or blockchain or, you, even robotics and things like that. You know, we typically have area of focus, and then we'll have teams working on that."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 650,
+   "paragraphs": [
+    "Sorry, just to interject, Michael, before we go too far into the process, I mean, what's the selection of ideas based on, and how does that How does that process carry out?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 658,
+   "paragraphs": [
+    "The ideas that we actually carry to prototype Is Is that what you're referring to"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 663,
+   "paragraphs": [
+    "Specifically? Selecting ideas from the portal and then forming the teams. I mean, what is that selection of ideas based on? Who selects the ideas? What criteria are they looking for?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 672,
+   "paragraphs": [
+    "Yeah, so what we will typically do is we will work with our corporate strategy teams, our product marketing teams, you know, engineering, of course, various teams within PayPal, and we will typically look for focus areas. And so, these are areas where we want to spend a lot of time and resources, you know, for this 20% time that we have for our engineers and designers and all these other people who are working on these new ideas. So, we want to allow them to focus on an area, and we want to give them the tools and training on how to actually build in that. So, I'll give you a specific example with augmented reality.",
+    "So, last year, we had kind of deemed that AR was going to be a focus area. This was some place where we didn't really We felt that within the company, we wanted folks to get more exposed to what this technology could be because, you know, at that time, we had nothing that we were live with within PayPal that we were going out with into the marketplace in AR. There were some other companies even today kind of on the fray looking at these sort of technologies, but this was a very nascent type of technology we felt we need to start focusing on and getting people working on this.",
+    "So, what we would do is then we would bring in You know, we would kind of identify that target area with strategy and the other teams that I described before. And then there's different ways that we could do it. We've actually done it where we've had an ideathon where we will literally say, \"Hey, over this month, everybody submit their ideas in this area. Here's all the tools and training. Here's what already exists in the world. Now tell us more about that.\" And then we literally have a judging contest of those ideas. Or we could also just have, you know, take all the ideas that we've ever had and kind of have teams self-select within those areas.",
+    "We could say, \"Hey, teams within the portal, here are all of the augmented reality related ideas that we have had in the past. See which ones inspire you.\" Because one of the things that I will say with what we're doing with these teams is when people are working on a 20% time type activity, we really do not want to push them to any specific idea. We want to push them towards a platform, but we need them to work on something that they're passionate about. I mean, because that's really important. When you're going above and beyond, we want you to work on something that you love, that frankly, when it comes to the weekend and it's, you know, watching Game of Thrones or working on this thing using HoloLens, we want you to be so passionate and excited about that you actually choose to use HoloLens.",
+    "And it's When it's your idea, when you've formed it within your own team, that works for all the better. So, we almost use all the ideas that we have as inspiration, but ultimately as the teams form, they will take these ideas, they'll evolve, and they will ultimately decide what they will build with it as a prototype. And sometimes these things are fintech related, and sometimes they're not. And with how we look at this system where the primary goal is educating people on these new platforms, is learning more about it ourselves and how these work and what the potential is, the goal is not to get something into market.",
+    "It's to build up this base and build up this kind of this innovation culture. So, we're really open to what people can do. Yeah, and"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 900,
+   "paragraphs": [
+    "So there's a lot of value in what you've just said there, Mike. I think one thing in particular that jumped out was that people will have come up with these ideas oftentimes in their teams or will have iterated on the idea in their teams, and therefore they've been involved in it, and they feel a sense of ownership, and therefore they're far more likely to bring that passion and bring that commitment that they otherwise perhaps wouldn't if it was just, say, prescribed from above, \"Here's an idea, work on this,\" versus \"Come up with your own idea and work on that,\" is fundamentally different. I guess I wanted to just backstep just a little bit with respect to something you said around everybody can submit ideas, all kinds of ideas, doesn't necessarily need to align to PayPal's overarching strategy or anything like that.",
+    "I guess one thing I've seen with other organizations who run these idea challenges is they'll have lots of ideas, but then a lot of people perhaps won't get feedback, and they'll feel as if, \"Well, you know, if I'm going to submit an idea and not get any feedback, then I'm not going to contribute going forward.\" How does PayPal approach that aspect of its idea portal and ensuring that everybody, regardless of, you know, whether or not the idea made it through to the next stage, feels like they were actually heard? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 970,
+   "paragraphs": [
+    "No, I think it's a great point. So, when I go around the world and when, you know, others who are kind of preaching innovation at PayPal, one of the stories that, you know, I love to talk about comes from the book Grit by Angela Duckworth. Yes, exactly. And one of the things she talks about in there is, you know, the staff cartoonists at The New Yorker. And I'm going to get the exact number wrong because I typically You know, so The New Yorker, very famous magazine, you know, with like these legendary cartoons. And the staff cartoonists at The New Yorker Something like I want to say it was like 96 or 97% of the cartoons that the staff cartoonist who does nothing but that gets rejected.",
+    "So, and why is that? Because Do you know what? It's a really high bar. And even though this person's been doing this for 20 years, you know, 19 out of 20 times they don't move forward. And that's one of the things I try to very much teach people within PayPal, and we use a lot of examples of that, that, you know, just because an idea isn't getting accepted does not in any way mean that you're suboptimal, you're not good, your idea wasn't good. This is an evolution. I mean, nobody gets this kind of the first time. Let me tell you even a real specific example of one of our inventors.",
+    "So, this person was a You know, he's probably still just about 2 years out of college. So, you know, an engineer, he's based out of San Jose here, and he was extremely excited about the concept of him actually getting a patent. This was something that So, as part of our idea submission process, we also look at things for patenting. So, we will look at these ideas, and but like I said, it's an extremely high bar to get that patent. So, he had submitted some ideas on that because, you know, his heroes when he grew up, you know, the Elon Musks or Steve Jobs of the world had this, and he kind of thought it was a badge of honor.",
+    "He wanted to get this as well. So, he submitted an idea, and it got rejected. And then he submitted a second idea, and it got rejected. And a third, and a fourth, and a fifth, and again, and again, and again. But he would ask questions, he would iterate, and even more so, he set aside like 30 minutes every night to work on this. So, again, and again, and again of, you know, getting rejected for these ideas, but iterating each and every time. So, he had submitted over 100 ideas himself, and then he got his first patent after that. And do you know what? He started to figure out like how these things work, and so forth.",
+    "And so, this was actually a really eye-opening thing to him. So, he did this, was able to get his first patent, and lo and behold, he became actually our top patent inventor in PayPal last year. He filed over 20 patents just by himself. And this was You know, this was through grit and persistence through this process. And I tell his tale, I tell a bunch of other stories like that because again, what I try to have people understand, this is not a reflection of yourself or your worth if this is declined. We work on We do work on giving feedback, on being specific, on coaching, on Every week we'll give tools on how to improve your ideas, and all these kind of sessions we'll have.",
+    "We have office hours at all of our locations as well. So, we do partner with people. Yes, people do become frustrated, but ultimately, you know, we do everything we can to try to just encourage that grittiness within people and give them the opportunity to learn, to become great innovators."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 1219,
+   "paragraphs": [
+    "Yeah, and I absolutely love that approach. And I think when it comes to providing Well, either providing feedback or not providing feedback, as long as that tone is set in terms of what innovation is, that PayPal expects a high failure rate, that PayPal expects that most ideas that get submitted won't make it through, as long as that's clearly articulated and employees understand that, then they should be okay with perhaps even not receiving the feedback. Obviously, it's ideal to receive some feedback so you can then iterate on it, like you said in that example where he came up with the first patent Well, he got his first patent after, you know, 100-odd iterations.",
+    "And I know of another organization here in Australia, their innovation team has basically set themselves a failure target where 90% of the experiments that they run, they expect them to fail. And if their failure rate is below that, then it may suggest something about how big and bold their ideas actually are. They're not trying hard"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1274,
+   "paragraphs": [
+    "Yeah, exactly. They're not thinking big enough. I love that concept. That is That is really spot on. I like that."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 1280,
+   "paragraphs": [
+    "Yeah, and on that experimentation, I guess I wanted to take what you were talking about earlier a little bit further in terms of the augmented reality concept and, you know, that going through the funnel from idea portal to setting up the team. What does that prototyping stage look subsequent to that? I mean, how much time do teams have? What sort of metrics are they looking to measure success based on? And at what point do they either decide to pull the plug or receive additional funding for their idea? Yeah, no,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1310,
+   "paragraphs": [
+    "Exactly. That's That's great. So, we will typically give teams 4 to 6 months to work on this. And we like to, when we're focused on an area as much as possible, start a whole bunch of teams at the same time. So, when we were doing this with augmented reality last year, probably in August time frame, I want to say, we started with several teams from around the world who worked into December on this. And the goal in December was for them to be able to bring a working prototype into this big, you know, tech expo-y, science fair type event. That was another thing we really want to encourage with this was collaboration.",
+    "I mean, this was You know, we could have made this into more of a hackathon-y type thing where somebody's going to get a prize or whatnot. But we wanted Since it's such a new platform for people at PayPal, since there were so many different things to learn, we wanted these teams bouncing ideas off of each other, like sharing with each other how, \"Hey, this thing worked, this thing did not.\" And you know, and there was a very active Slack channel where like every single day they're firing back and forth from all over the world just learning and learning from each other on this. So, they're building to again, this tech expo type event that we have at the end of last year.",
+    "They're building their prototypes towards that. And then from that, we do two things. One, we see if there's interest in the business and anybody sponsoring one of these things to proceed forward. And we also see if there's interest in the teams to do that as well. Because frankly, with a lot of the teams, they might have just said, \"Hey, you know, I did my 20% time. I got to do nights and weekends doing this for 4 months. I learned a bunch about augmented reality. I'm cool with that.\" And we have to respect that. I think that's a great outcome to have. And other teams would say, \"Well, no, I really want this.",
+    "I want to do more.\" And so, we might shift people between teams because there are certain products that seem to have more potential and that there is a executive sponsor who wants to kind of take that on and guide that through, let's just say, the next 3 to 6 months on building out a working prototype that we could then give to employees. And that's kind of the next logical step of the stage gate process. And so, and that's what we're actually working through right now in fact with some teams. So, out of all of these teams who presented, a few of them continued into 2018, and we have teams right now who are still working on their AR prototypes working towards much employee"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 1485,
+   "paragraphs": [
+    "Pilot stage. So, Mike, you no doubt appreciate that today a lot of conventional sort of wisdom that comes out of Silicon Valley is around get out of the building, speak to your customers first. I mean, at what point during that 4 to 6 month period do teams engage customers to better understand the assumptions that underpin their business models or what features customers are actually after? Yeah, I would say"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1506,
+   "paragraphs": [
+    "Typically it's day one that they're doing that, to be very honest. You know, one thing I assume, Steve, you're probably familiar with like Adobe's Kickbox. Yeah, definitely. Yeah, so that is one thing we actually do within PayPal as well. We have a We have taken For people who don't know, Adobe has been so kind to open source to the world this 6-week program where you have You basically have a person, you take an idea, you talk to customers, you iterate, you build working paper prototypes, you talk to more customers, you go on, and so forth. And at the end of the 6 weeks, you will kind of talk about that prototype or lessons learned to a team of executives.",
+    "We do something very much in the spirit of Kickbox, but we've customized a few things to our own within PayPal. And this is something that is critical within our world that we need to be talking to customers early and often. Now, the customer may vary as to who that person potentially is. Customers for product You might even just start off with if it's a, you know, a Venmo product. Venmo is a P2P product that we have in the US. And if somebody is building out a prototype for within Venmo, they might start off in that first week just talking to a group of friends who are already current Venmo users.",
+    "You know, that might be their first customer interaction, and it's going to go on and on from there to get to more formal groups or larger groups to be able to do that. But ultimately, we want people talking to customers very early in the process in everything that"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 1614,
+   "paragraphs": [
+    "We do. Fantastic. I mean, that's the one thing that you were saying where I was like, \"Where are the customers coming into this picture?\" But I'm glad to hear that they're engaged from day one, and that there is a process in place at PayPal similar to Kickbox which, you know, if our audience isn't familiar, I'll add that to the show notes. I think it's definitely a very effective tool because so often the organizations that I come across that I work with, those that I haven't worked with for long, I might say, have an innovation process, but usually it's just so heavily focused on the idea, it's so insular, customers aren't engaged until maybe 6 months, maybe a year in, at which point they've got so many untested assumptions, but they've spent all their time building the thing, but the thing isn't reflective of what customers actually want, doesn't solve a problem, the business model hasn't been fleshed out, and ultimately you have one really big failure instead of lots of small sort of learnings along the way. And then people kind of shy away from innovation thereafter because it's like, \"Well, nobody wants to fail so big again.\" Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1673,
+   "paragraphs": [
+    "And I think, you know, talking with customers and getting customers involved is something that we as a company have gotten a lot better at the last 3 to 4 years, I would say. You know, I've been at PayPal for almost 7 years now. I would say in the beginning, we were definitely doing some technology for technology's sake. And you know, and we probably didn't have the customer in our lens as much as we should have. But now that is something that is You know, I probably didn't say it in the beginning almost because in our mind now it kind of goes without saying that you are going to be talking to a customer when you're working on a prototype or thinking about a new product or whatever it might be. It's very much I think in our culture it's pretty much become second nature to do that."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 1721,
+   "paragraphs": [
+    "Fantastic. Obviously, you know, PayPal owes its roots or its origins to the likes of Elon Musk and Peter Thiel and the PayPal Mafia. And I guess I'm keen to understand what the culture looks like today in so far as that culture of rapid experimentation. I mean, obviously, when the PayPal Mafia were at the organization, it was a totally different beast. It was a much smaller team. They were trying to do something new. They had the freedom to experiment. But today, the organization is listed. It's got a market cap of over about $90 billion. Now, when you're a listed company with a market cap of $90 billion, you kind of don't really have the same freedom to move fast and break things as the old adage is because you're beholden to your shareholders.",
+    "So what does that culture look like internally and how does PayPal balance that shareholder sort of return equation with the need to innovate? Obviously, we've touched on a couple of things that you're doing, but keen to understand a little bit more because it is a real challenge for most organizations today. Absolutely."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1779,
+   "paragraphs": [
+    "So I think that's a lot of what the role of the Innovation Lab plays. I mean, by being able to give people opportunities to be able to learn in completely new experiences that might be outside of their core and what they're doing in day-to-day. They might be working on a on a checkout experience during the day, but they're then working on some back-end blockchain experience by night or whatever it might be. So I mean, I think the culture gives a lot of freedom to do that. And I think there's just a lot of, you know, especially in San Jose, being here in Silicon Valley. I mean, that is just a lot of what people want to do.",
+    "People want to work on these new things. They want to try out all of these new experiences and so forth. Now, being in the world of fintech, we are moving people's money. And when you move people's money, there are a lot of regulations to do that. And that's frankly one thing at PayPal's core. We are really good with risk and compliance and understanding how to navigate the laws and so forth of the 200 plus countries and territories that we are currently active in. So that is something that we do at our core. You can't just throw out a product into the marketplace that might actually affect somebody's how money might move at some part in the chain without really testing that, without going through all of the compliance hoops and so forth.",
+    "But that is also why we have programs like what we do at the Innovation Lab where it lets people build this out as a prototype where yes, compliance might be aware of this, but there's no formal approvals that we need to have because we're just building these things internally. We're building these things as a prototype. We're not actually moving people's money with this yet. You know, the plan is that eventually we will. But to have this, it gives us that ecosystem where people can try a lot of different things and fail at a lot of different things too."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 1915,
+   "paragraphs": [
+    "Yeah, and on our compliance, Mike, I mean, I've worked with organizations in the past where compliance can either block innovation or they can enable it. Like they might come out and say, well, look, what you're doing currently contravenes clause XYZ of this particular regulation, but if you were to change this wording, if you were to change the way you do this, then that would be okay. And they would actually look for ways for innovation to thrive rather than shoot it down. What role does compliance play at PayPal in that regard?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1945,
+   "paragraphs": [
+    "I love our product policy and compliance teams. I really do. I mean, because again, I think they have like many, like everybody within PayPal, they kind of know what we're trying to achieve for our customer. And they are willing to work with the product and engineering teams and they do an amazing job at that. You know, one of the things I used to be in a function called product launch here. So I was a product launch manager. So when we were building stuff, you know, and basically getting this out into market and like so we would have a product and put it out there. One of the when I would be the launch manager on a brand new product within PayPal, one of the first calls that I would make is to our product policy team to bring them up to speed as soon as possible with this, to let them understand, hey, this is what we're trying to achieve here.",
+    "This is what we're trying to do and to let us know if there's any big watchouts that they foresee. But no, I mean, I think we're very blessed as part of our culture and you know, very fortunate in fact that we do have a team that really wants to partner with us here and do what's best for our customer while making sure everything we do is following the letter and you know, both the letter of the law and the spirit of the law as well. Yeah, and"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 2031,
+   "paragraphs": [
+    "It comes back to changing that mindset from why this won't work, why this isn't possible to how might we do this? How might we get around the regulation and partnering with compliance to do that? Yeah, I don't know if I"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2044,
+   "paragraphs": [
+    "Would say how to get around the regulation."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 2046,
+   "paragraphs": [
+    "Maybe that was the wrong choice of words."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2050,
+   "paragraphs": [
+    "No, but I mean, but yes, your point is though, regulation is how do we make a product that will abide by that regulation and still meet our customer's needs? That is ultimately what we're trying to achieve and they're amazing partners in that. Well said."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 2069,
+   "paragraphs": [
+    "Fantastic. So I guess I wanted to explore a little bit around what PayPal is currently working on. So I did a little bit of a search on the interwebs and I noticed that PayPal recently filed a patent in the blockchain space and I was keen to understand more about PayPal and blockchain. The patent I'm talking about was for an expedited virtual currency transaction system. This was published a couple of months ago. Yep. And keen to understand more about that and what your thoughts are on blockchain and how PayPal might get involved in that space. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2100,
+   "paragraphs": [
+    "No, absolutely. And Steve, so that specific patent that you're referring to is actually something that came out of our San Jose Innovation Lab. I was kind of partaking in those sessions that we had and so forth. I can't comment on that specifically, but I could talk to blockchain and cryptocurrency in much more broad terms. So you know, blockchain is one of the focus areas that we do have within our Innovation Lab. We think that there is a ton of potential in blockchain type technologies. And so right now we have several teams that are working on different prototype type solutions for a vast array of different blockchain experiences.",
+    "You know, cryptocurrencies is a part of blockchain, but it's only one subset of that. And I think there is ultimately potential in cryptocurrencies. I mean, I could see cryptocurrencies being very disruptive in the marketplace overall as well in the future. You know, I think that there's some work that probably needs to be done to fully get things right, to get the general acceptance. I mean, I actually do a presentation within PayPal on the past, present and future of money. And one of those things that I talk about in the past is like, you know, what did we use to define money as? You know, money used to be shells and stone and livestock and all of these kind of things.",
+    "And you know, money, you know, must be divisible, it must be portable and it must be generally accepted. And ultimately with a cryptocurrency, you know, I would ask people five years ago about Bitcoin and most people would say that's not money. Most people today do say it that it is money. But you know, I think that there is absolutely potential in cryptocurrency, but we see vast more potential in just the overall opportunity of what blockchain technologies might bring. And that's why we have teams that are actively looking at it as part of our Innovation Lab prototyping process."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 2241,
+   "paragraphs": [
+    "Yeah, and I mean, on the history of money, I believe it took a couple of centuries for paper money to really take off, which was initially just an IOU for gold and whatnot and other forms of currency back at that time. Whereas now we're expecting, well, if people don't accept cryptocurrency as a legitimate currency literally overnight, then it's not real money. But I think the time it takes for people to adopt new technologies or new currencies or new ways of doing things today is much shorter than what it was back then. And obviously the world is much shorter and concepts can travel faster, much quicker today than they could have say 200 years ago or even half a half a millennia ago."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2281,
+   "paragraphs": [
+    "Yeah, absolutely. And look, and it's amazing in the last, you know, seven, eight years where we have come with blockchain and cryptocurrencies. I mean, from where we started back then to where we are at today, it's phenomenal. And look, I think it's a great thing that you have so many different currencies that are trying out different things. This is a big experiment in many ways. And you know, I think eventually we will see what sticks from all this. We will see what the potential is from all these currencies. But you know, there's a lot to be said and you know, again, just coming back to blockchain technologies, that's where we do see true potential in"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 2331,
+   "paragraphs": [
+    "That. Yeah, definitely. And I think that's something that a lot of people who may not be too familiar with the space miss. They think of blockchain and Bitcoin as just being interchangeable and they just think of cryptocurrencies as just being Bitcoin, right? As opposed to the underlying ledger that can support so many different applications and anything that basically has an intermediary can in some way be decentralized, which has profound applications across so many industries. But on that point, I mean, it's still quite embryonic. I mean, if we look back in say 20 or 30 years, we'll say these were the embryonic Wild West days of blockchain, of ICOs, of Bitcoin, of cryptocurrency, of the whole realm of things.",
+    "And so organizations are trying to make sense of it. It will take time. And more recently, we've seen PayPal partner up with Barclays Bank and announced a tie-up as they are obviously mulling the threat of technology. Keen to understand what your view of say the broader fintech ecosystem is in so far as how say traditional financial institutions are responding to it."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2389,
+   "paragraphs": [
+    "Yeah, you know, I would say three years ago, we were in a very different place within the fintech ecosystem than where we are at today. We have had, you know, very much a shift in our strategy at PayPal where the Barclays of the world and Chase and Visa and Mastercard and so many of the other great fintech institutions that are out there and banks that are out there in the marketplace, we are looking to partner with them. PayPal is very much focused on having a platform strategy. We want to be a platform for digital payments across the world. And as one way to enable that, we're forging partnerships with all of these companies in the markets to do that.",
+    "And it's been extremely effective for us because not only is it, you know, helping to extend our reach, but it's also making for better consumer experiences as well. You know, we've had this thing called this choice initiative. And you know, going back a few years within PayPal, if you wanted to buy something and you were using PayPal to make that purchase, we would default you to your bank as the preferred method of payments to do that. And do you know what? Maybe sometimes you actually want to use your credit card because you get your points on that card or whatever else it might be. And so while people would have their credit card, they would have to manually switch it every time and sometimes they would forget and so forth.",
+    "And we did very much a strategic shift a few years ago in our partnerships with the networks and a lot of the banks that you're mentioning here as well where we said this is not this is not the right thing for a consumer. If you're a consumer and you want to use a card that is issued by Barclays or Chase or whomever else as your preferred funding mechanism when you're doing a checkout with PayPal, you should be able to do that. And you should be able to do that really easily. And that was just doing something simple like that, that was a big strategy shift.",
+    "But we're really seeing the benefits of that today. I mean, the usage for each of our customers is going up. Again, we're bringing more people onto the platform and so forth as well. But it's been a big strategic shift for us to view this ecosystem as ultimately being our partners. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 2554,
+   "paragraphs": [
+    "And I think that is a shift in thinking that needs to happen. And just yesterday, I was speaking with Jeremy Heimans who wrote the book New Power, which looks at how organizations, how movements are becoming a lot more decentralized, how your traditional organization was very much about exclusivity, authority, consolidating its resources, whereas your emerging modern organization in order to thrive today, it's more about being open source, about collaboration, about partnering with organizations you may have considered competitors just a few years ago to create value and put that customer first and give yourself an edge. And it seems like PayPal is also making that move or at least embodying a lot more of these new power values."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2598,
+   "paragraphs": [
+    "Absolutely. Yeah, no, I mean, and this is something we have embraced wholeheartedly. You know, it would look like a pile up of NASCAR cars if you would actually see all the logos of all the companies that we've signed partnerships with in the last, you know, two to three years. I mean, it is dozens and dozens of financial institutions where we've signed these big partnership agreements. And you're right, that is, you know, it's the right thing for us to do for our business because it is the right thing to do for our customer."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 2631,
+   "paragraphs": [
+    "Fantastic, I love it. And I just noted with a quick Google search that PayPal's market cap in the last 12 months has almost doubled from the mid 40s to the low 90 billions today. I mean, what factors, I mean, obviously outside of market sentiment and things like that, I mean, what internal factors do you think have been driving this? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2651,
+   "paragraphs": [
+    "Look, we are really executing on our plan. You know, we split almost three years ago from eBay. We were part of eBay. You know, we split off from eBay. And when we did that, you know, I would say the market was a little bit uncertain about us. Our stock kind didn't move. We had to basically prove ourselves to the market time and time again. And we were also doing this strategy shift. The market was very worried about what this would do to our margins and so forth. And so I think there was a little bit of the first year and a half as an independent company proving that we can execute, that we do have the right strategy in place.",
+    "And then I think once that was seen, yeah, we've had a pretty good ride for the last year or so and a little bit more as far as our valuation as a company and our stock price. So yeah, I think that's probably what's been going on behind the scenes. But you know, for us who work here, it's just driving it's you know, for me personally, it's the passion for innovation, the passion about teaching people and enabling them to be great innovators and knowing by doing that, we're going to be able to take awesome experiences that we already have and make them that much better for our consumers, for our merchants, for all of our partners that we have."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 2747,
+   "paragraphs": [
+    "Fantastic, and it sounds like the rapid ascendancy in the share price is basically a reflection of all the work that PayPal's done to prove itself to the market, to prove itself to investors, and therefore investors are now repaying that hard work."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2760,
+   "paragraphs": [
+    "I love to think that they're looking at the things that we're doing and executing upon and really recognizing that and frankly the potential that we still have as a company. I mean, we are a, like you said, a 90 billion market cap. But if you look at the landscape for digital payments and the growth rates for what this could be globally, there is so much opportunity out there in front of us. That's why a lot of people will ask about, you know, how much time we spend thinking about competition and all that kind of stuff. And you know, in my mind, it's our competition is largely cash.",
+    "There's a lot of cash in the world that's not always the best experience. Sometimes it might be, but it's not always the best experience for a customer to be using cash. And there's just so many more opportunities that we could introduce to our customers and just so much more room for growth there"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 2823,
+   "paragraphs": [
+    "Too. Yep, I could not agree more, Mike. Before we jump into our lightning round, I wanted to sidestep if you will and talk about Sketch Maven, a comic art marketplace you launched a few years ago. Tell us a little bit about the inspiration for Sketch Maven."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2838,
+   "paragraphs": [
+    "Oh man, I love talking about this. This was a passion project of mine. So this was like 2008 when I really, well, one thing I'll recommend for anybody who's out there, if you have an idea, write it down. I have binders of and pockets and folders of just notes for business ideas and so forth and just random thoughts and I keep it in Evernote and I have ideas everywhere. And you know, I recommend everybody to do something similar to that. What Sketch Maven was this was an idea that I had for an original comic book artwork marketplace. What that is, is so every comic book actually came from a hand-drawn piece of artwork, although it's slightly changing with digital now, but back then that was the case.",
+    "And so all these came from hand-drawn pages and it's a fairly unique problem that you have tens of millions of these individual pages that exist in the world, but only one of each page exists. And so what I was building was an e-commerce platform that would allow for people to, you know, kind of taking the concept of Zillow if you will. Zillow in the US is a housing platform where, you0 know, every house in the US is there and is given a value and has a placeholder, but doing the same thing with comic art pages. Because when there's only one of something that exists in the world, it is really hard to find that. It is really hard. And I found that out as a collector. And so it was a marketplace for that specifically. Yeah, I was"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 2946,
+   "paragraphs": [
+    "Doing some research on the topic and I saw that a few years ago, a 1952 Weird Science cover sold for $200,000 US."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2956,
+   "paragraphs": [
+    "Probably a Frazetta cover, I'm guessing. Yes, yeah, no, I think that's right. Some crumb artwork, you know, some Frank Miller, some stuff from Watchmen, some Todd McFarlane artwork. I could really geek out on you right now if you want me to, but I'll spare the audience of that. But yeah, there's a ton of potential in this market and you know, this was just something that was a passion of mine. You know, I paid my way through college by selling comic books and doing that. So I mean, I always kind of had this as a business. I got away from it when I left and went into the professional world.",
+    "And it was just one of those things that just was always gnawing at me of like, hey, there's a real opportunity here. And before I joined PayPal, I did that for a couple of years. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3007,
+   "paragraphs": [
+    "And I'm sure there's a lot of skills that you transferred from building your own e-marketplace with Sketch Maven into your role at PayPal. Absolutely."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3016,
+   "paragraphs": [
+    "It was, look, I tell everybody like you need to have, you know, if you can and if you have a passion for it, whether you succeed or not, to have an entrepreneurial experience in your life is something that is amazing. I mean, I got my MBA, I've, you know, done a whole bunch of things, but the two years that I did that were amazing because everything was on me and you know, and the small team that I had. But ultimately, you know, the successes, the failures, the hacks, the great press, the booths that went wrong at an expo, you had to figure so many things out. And yeah, I look at it with great love and adoration of that time where I did that."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3063,
+   "paragraphs": [
+    "Well, I definitely echo those sentiments about everybody giving entrepreneurship a go at least once in their life even if it's a side hustle. I think there's so many learnings that you will get out of it and it is a very rewarding experience. So Mike, we are out of time, but I can't leave you go without throwing you into our lightning round. Are you ready to rock and roll? Let's do it. Question number one is if you could work for any organization at any stage of the company lifecycle, who would it be and why?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3093,
+   "paragraphs": [
+    "Any organization at any stage of a company lifecycle. You know, I love companies or teams where it's probably about 50 to 200 people kind of where you know everybody and people are starting to define roles and so forth within the company, but there's enough of that scrappiness that you could still get thrown onto just about anything. And you know, one of the things I love doing is getting thrown on something that I know nothing about. I mean, there's probably nothing more exhilarating than saying, hey, we don't have anybody who could figure this out, go do that. And that's kind of the optimal organization size at least in my mind to do something like that."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3140,
+   "paragraphs": [
+    "Definitely. Any particular organizations that come to mind or just more around the attributes of the organization?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3147,
+   "paragraphs": [
+    "You know, so nothing specific, but I will say this and this is probably just maybe more friendly advice. When you're also at a company that size, you have to love the customer that you're serving. I mean, you need to, it's when you're in a larger company, I don't think it's as pivotal as loving the product, the team, the customer, the mission as when you're at a company with just a handful of people or even maybe just 50 people or something like that. So you know, I can't think of anything specifically as far as where it would be, but it would have to be something that I would be very passionate about."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3187,
+   "paragraphs": [
+    "Fantastic. Question number two, Mike, is if you could ask anyone a question dead or alive, who would it be and what would you ask?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3195,
+   "paragraphs": [
+    "Oh, I would probably ask, oh man, I'm going to nerd out on you here I guess, but I'm going to ask Abraham Lincoln why in his second term he really got Andrew Johnson to be his vice president. There have been books written about this because I'm learning out. You know, my oldest child's middle name is Lincoln. So I'm a little bit of a Lincoln nerd. I'm from Illinois originally. So I've always had that. But yeah, I would actually ask him about that because you went from arguably the greatest president to potentially one of the worst presidents ever after his assassination. And you know, from a CEO succession standpoint, that's not one of the things you want to do.",
+    "And you know, it always I always have the difficulty in saying he's the greatest president for that very fact. So yeah, I'm going to just totally geek out in US history and ask that question to Lincoln."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3258,
+   "paragraphs": [
+    "Yeah, maybe he just wanted a yes man who was no threat to his position, right?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3263,
+   "paragraphs": [
+    "Well, it ultimately came down to politics and you know, getting the vote and so forth as part of this because yeah, but still I would love to really dive deeper into that by asking him personally and what he would have, what he thought about that."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3278,
+   "paragraphs": [
+    "Fantastic answer. And lucky last, Mike, you know, you're flying all over the world, setting up innovation labs, you know, you've set up Sketch Maven in the past, doing all sorts of cool stuff. Do you have any rituals or routines to stay on top of your game?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3291,
+   "paragraphs": [
+    "Oh gosh, tons. I mean, frankly, one of my favorite books, probably one of the books that changed my life more than anything is Do Higgs Power of Habit. I highly recommend that to people all the time. You know, I get up at 5:40 every morning whether it's during the week or the weekend to exercise and get my daily workout in. And this is whether I'm traveling or not. You know, I love to as much as possible, I try to block off an hour every day at work to actually just go for a walk around campus to decompress, to listen to a podcast, to do things like that, to play some beach volleyball exactly.",
+    "Yeah, and yeah, I mean, those are two things I very religiously do and you know, if those things aren't happening, you know, something's going wrong in my world. But I recommend both of those to everybody."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3348,
+   "paragraphs": [
+    "Fantastic. Yeah, big fan of the 6:00 a.m. Workout and just going for sporadic walks throughout the day. I mean, even two or 30 minute walks throughout your day because I think people have this predisposition towards just sitting at their desk for as long as possible thinking that's being productive, but really getting up for 20 minutes, going for a walk means that you can come back and you can bring a lot more energy to that second sort of spurt of a couple of hours of work than you would if you were to just sit there for say four hours straight."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3376,
+   "paragraphs": [
+    "I know it is 16 minutes for me to leave where I sit to do a walk around campus and be back into my desk. So I have done that many a time. I have looked and said I have 18 minutes before my next meeting, I'm doing this. So yes, I've done that many times myself. Completely agree with that."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3393,
+   "paragraphs": [
+    "Fantastic. So Mike, people can connect with you on Twitter at Todasco and on LinkedIn at and we'll add the LinkedIn URL to the show notes. Is there anywhere else they should go or anything else they should check out to find out a little bit more or connect? Twitter,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3408,
+   "paragraphs": [
+    "LinkedIn's great and frankly people can reach out to me directly over email. I'm just mt@paypal.com. If you have any questions about anything we talked to in fintech or anything like that, you can reach out to me over email as well. Happy to talk to people"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3423,
+   "paragraphs": [
+    "That way. Perfect. Well, thank you so much Mike for giving up some time. It's been a pleasure. I hope our audience learned a few things from this conversation. I'm sure they did. And I hope you enjoy the rest of your sunny day in sunny San Jose. Thanks sir, that was fun. If you'd like to receive a weekly email from me complete with reflections, books I've been reading, words of wisdom and access to blogs, ebooks and more that we're publishing on a regular basis, just head over to future squared.xyz/subscribe and you'll get the very next one. If you're picking up what I'm putting down, please take a minute to like, share or subscribe on Apple Podcasts, Stitcher or Google Play.",
+    "It goes a long way to giving the podcast the exposure it needs so I can continue bringing you guests and conversations of the highest caliber. This episode was powered by Collective Campus. Until next time, Future Squared is out."
+   ]
+  }
+ ],
+ "words": 9918
+}
