@@ -1,0 +1,611 @@
+{
+ "slug": "the-starting-story-podcast-mike-todasco-from-comic-books-to-corporate-innovation",
+ "outlet": "The Starting Story Podcast",
+ "title": "Mike Todasco: From Comic Books to Corporate Innovation to AI Education",
+ "date": "Aug-25",
+ "published": "2025-07-04",
+ "url": "https://podcasts.apple.com/us/podcast/the-starting-story-podcast/id1785955898",
+ "duration_sec": 4574,
+ "host": "Krishna Parmar",
+ "speakers": [
+  "Krishna Parmar",
+  "Mike Todasco"
+ ],
+ "turns": [
+  {
+   "speaker": "Krishna Parmar",
+   "start": 0,
+   "paragraphs": [
+    "Hello, welcome back to the Starting Story podcast with me, Krishna Parmar. Here I interview entrepreneurs and business leaders around the world to find out more about how they started and the story that's taken them to where they are today. Today's guest is Michael Todasco, or just Mike. He has a background that started in finance and accounting, and then he transitioned into the tech industry. His entrepreneurial journey first started with founding an e-commerce company called Sketch Maven, which, even though it failed, provided him with, I'm sure, loads of learning experiences. He later joined PayPal, where he led the innovation group, focusing on projects like the Global Innovation Tournaments.",
+    "Currently, he's deeply engaged in AI. He advises companies and teaches at San Diego State University in America. He's exploring how AI can enhance personal empowerment and has over 100 US patents in various different fields, not just AI. He values authenticity and enjoys sharing his experiences to inspire others. Hopefully, this should be a very interesting and insightful conversation between me and Michael, and I look forward to finding out more about how he started and his story so far. Join me as we talk to Michael Todasco about his starting story. Mike, thank you so much for coming onto the Starting Story podcast with me today. It means a lot.",
+    "You're a very special guest with so much you've done. Like I was saying in the intro, you've gone all the way from kind of finance to tech. You're also delving in this modern frontier of AI. Really kind of a thorough resume behind your name. Do you want to talk a little bit more about who you are and what you do and what kind of interests you?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 101,
+   "paragraphs": [
+    "Yeah. First, thanks for having me. I'm glad to be here. I'm excited for a fun conversation with you today, and hopefully we can help or inspire a few people as part of it. My background, look, first and foremost, I'm a parent. I got two kids, 11 and 13. They are the focus of all things I do. I have an amazing wife that I've been married to for over 20 years. And beyond that, I am a son, and all these things, my parents are still with us, God willing. And I, you know, also dabble in a lot of business stuff. I've always been into business ever since I was a little kid, selling baseball cards and comic books, paying my way through college by doing that.",
+    "I've always been fascinated with the world of business and finance, and that is just something that has kind of carried through throughout my life and throughout my career. So that's me."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 157,
+   "paragraphs": [
+    "Okay, nice. So, I didn't realize that's how early you started, all the way back in college. It's one of those things where you don't really think of it as being an entrepreneur, do you, when you're selling baseball stuff? You don't go, \"Oh, I'm a big entrepreneur.\" It's just about making a small buck. But how come you are interested in business from such a young age? Is there any experience behind it? What kind of first got that twinkle where you were like, \"Hmm, I kind of like making this money\"? Honestly, Krishna,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 186,
+   "paragraphs": [
+    "I don't know fully. I think maybe my mom at least was really cheap, and money was very much a focus always, and so there was always an interest in that. And I remember I was six years old actually, and my parents got me my first, my dad purchased my first baseball cards for me. And for folks outside of the US, trading cards, things like that, like Pokémon cards, but these are for baseball players, especially back in the 1980s when I was growing up, that was the big thing, the big sport for this. And I didn't, no, I did like baseball. I never really played baseball, but at some point soon after that, I would collect them, and at some point I got a price guide.",
+    "And that was this real unlock to see numbers go up, numbers go down, and that these little pieces of cardboard had value to other people. I didn't know this was right in the middle of a collectibles boom in the 1980s. I didn't know that, so the numbers largely were going up, so it was a very exciting time, and I just kind of got into that. And you know, I collected as a kid, I traded with friends. By the age of 12, I was selling to actual dealers, walking into stores and selling stuff. By the age of 14, I was working in a store myself, like I got hired to work in one.",
+    "And then at like 16 or so, I was doing conventions. And then when I went off to school, would have been 1995, I actually started like a mail order catalog because it was too hard to do conventions and stuff. And eventually I started selling stuff online. Most people are like, \"Yeah, you started selling on eBay.\" No, no, no, this was before eBay. This was on Yahoo Auctions, which people don't even realize was a thing. It was actually really great for a couple of years to sell stuff, and then eBay kind of took over everything. But yeah, so I did that all through college. I got to be pretty good at it.",
+    "I mean, I was obsessed with it. And anything you're obsessed with in life is almost by definition something that if you really apply yourself, you will be good at. So I got to be pretty good."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 318,
+   "paragraphs": [
+    "Yeah, wow. Well, that's true right there. You have to do what you're already interested in, right? Otherwise, it feels like a chore trying to do that work. So,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 326,
+   "paragraphs": [
+    "Yeah. And Krishna, to that point, I would sometimes, especially when I'd come back from college, I'd be up until like 3:00 or 4:00 in the morning working on stuff, organizing, building a catalog, and it never felt like work or anything to me. I just enjoyed doing it. That's exactly right."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 340,
+   "paragraphs": [
+    "Amazing. Well, okay, that's eye-opening. I didn't realize that's how early your journey started. So then you went into college. What were you studying at college?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 350,
+   "paragraphs": [
+    "I went to college as a finance major. That's how I entered, mostly because finance was related to money in some way, and so I figured, \"Oh, well, that sort of makes sense.\" I kind of explored a bunch of things. I went to University of Illinois, so engineering was a big thing. Maybe I dabbled in that for a few weeks. My mom was an actuary, so I took like an actuarial science class, and none of that. And I wound up graduating a finance major, even though I kind of had all these parallel paths. I even worked in an advertising agency while I was in college and stuff like that as well. But I started in finance, I ended in"
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 392,
+   "paragraphs": [
+    "Finance. Okay, I mean, natural progression. If you're interested in business and money, then at that time, finance is like the next step, isn't it? You're not going to enter engineering, are you? So, makes sense. And then after finance, you then pursued an actual finance career, right? You went into working. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 408,
+   "paragraphs": [
+    "So in finance, there's a few different paths that you could take out of college typically. There's investments, kind of the personal finance side. There's investment banking, which would be mergers, acquisitions, stuff like that. Most people, I'd say probably the biggest one is corporate finance, and that's the world that I entered. And the company that I worked for was GE, General Electric, which back in 1999 when I graduated, was the most valuable company in the world. And it's almost funny to think nowadays, like \"Wow, GE?\" No, it was the undisputed champ. Jack Welch, who was the CEO at the time, I mean, I took a management class, and the teacher talked about Jack Welch at length.",
+    "He was, I think, Fortune actually said he was the manager of the century. That's what they called him. And then GE fell apart after he left. And that's a whole another thing about maybe he wasn't quite as brilliant as everyone thought. Sorry, go ahead, Krishna. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 473,
+   "paragraphs": [
+    "Yeah. So, I mean, that's interesting. You go into this finance career, right? And on the side, because you'd already started this business, in retrospect, you think about it with the whole cards, right? Did you keep that going during college and even after college, or did that kind of take a sideline?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 491,
+   "paragraphs": [
+    "It's funny. So, at some point, very soon after college, I got a girlfriend, became my wife. It was one of those things like, \"I'm an adult now. I don't need to be doing this anymore.\" But that said, got married, a few years later was going back to school to get my MBA and thinking about ideas, and I always kept idea files. And that was actually the job I did after my MBA, was getting back into that and creating my own comic book related business in fact. So, it's funny. I completely went away from it, almost kind of disowned it as a hobby, and within five, six years after that, was right back into"
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 535,
+   "paragraphs": [
+    "It again. Amazing. Because that's the thing, right? With lots of people that do start businesses early on, just because you have so much spare time when you're a child or even when you're a teen, as soon as you start working after college, all that spare time is eaten up by either work or the exhaustion after work. So, you kind of eventually fall away from it. So, it's nice to hear that you picked it back up again, almost naturally realizing that this is still valuable, this is still something I want to do. Yeah."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 564,
+   "paragraphs": [
+    "And one pro tip I will give for people out there, and this is just, I just wish everybody would do this: when you have ideas, when you have inspiration in life, write those things down somewhere because you never know when it's going to be useful. So, put it in your iPhone, use Google Keep, Evernote. Back in the day, I used to literally keep a file folder of just pieces of paper that I would drop in there. And that was part of the inspiration. Sometimes like years later, I would go back in and literally the idea that I built the business off of, which became known as Sketch Maven, came from one of those ideas I probably had five, six years before that.",
+    "So, pro tip for everybody: ideas are so valuable, especially in the age we're entering now of AI and so forth. Keep those. Don't think it's bad, good, it doesn't matter. Just all your ideas, just keep somewhere."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 620,
+   "paragraphs": [
+    "Yeah, I agree. Because think about to-do lists, right? To-do lists are obviously not for ideas, they're for tasks, but the rhetoric is the same. The whole point of a to-do list is you'll forget the tasks, so write it down somewhere. So, it's the same thing for an idea, right? There's so many times I've had an idea, literally going to bed, and I'd be like, \"You know what? I'll write this on the next day.\" And you wake up the next day and you're like, \"God damn it, I forgot what that idea was.\" You're like, \"I can't believe I've forgotten it. I should have just got up and written it down.\" So, it's one of those, it's like a to-do list but for ideas, and you can keep it there, except there's no time frame behind it. Whenever you feel the need for inspiration, you can just delve back into it and pick something up, right?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 657,
+   "paragraphs": [
+    "100%. So, to that, pro tip number two I'll give people: go onto Amazon, go to whatever, go to your local stationary store, buy like a bulk thing of notepads and put them in every room in your house. Have one, and buy pens too, and have them in every dresser, have them everywhere. Throw one into your car. It doesn't matter. Yes, you always have your phone by you, but look, in the middle of the night, I don't sleep with my phone. My phone stays very far away from me when I'm going to bed, but I have a notepad. So, if I do wake up at 3:00 in the morning, I just jot something down, and then it's out of my mind. I don't need to worry about it, and I go back to sleep."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 696,
+   "paragraphs": [
+    "Exactly. Well, talking about ideas, you said about Sketch Maven, right, which was your e-commerce store. So, you said that it failed. It didn't do what you expected. It failed miserably. Okay. So, explain a bit more. What was your ideation behind getting it started? What were your plans for it initially? Yeah."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 714,
+   "paragraphs": [
+    "So, here was the inspiration. It would have actually started probably when I was in college. The inspiration comes from comic books, and that from every comic book, it came from a hand-drawn piece of artwork. So, literally, if you've read a Spider-Man comic before, there was an artist who actually drew that picture back in the day. Now it's on tablets. Back in the day, they drew this on actual pieces of paper, and that is the original artwork behind it. And so, it's a very unique problem where there are millions of pages out there in the world that millions of people have seen, but there is only one copy, original copy of each and every one of those millions of pages.",
+    "And it started because there was a comic book cover, it was for a comic called Green Lantern, that I really, I saw at a convention when I was a kid. The artist was there. It was like $150. I didn't have that kind of money. And at some point later on, I was like, \"eBay was out there and all this.\" This was the early 2000s, years later. I'm like, \"Oh, I'm going to go buy that.\" And that's when I realized, if you're trying to find something where there's only one of it in the world, it is a really, really hard thing to do. There's only one Mona Lisa, but there's enough documentation to know, \"Okay, it's in the Louvre.\" You go to Paris, that is how you find it.",
+    "You know how to do it. But for everything else, the millions of comic book pages, who knows where these things are? We don't even know if they exist anymore. So, it was a marketplace built around that. The bigger theory was that in 2009 when I started this, collectibles were underserved by sites like eBay. And that if you wanted to buy sneakers and you were a sneakerhead, it wasn't really structured for that. Yeah, there are a lot of people on there, but eBay was a one-size-fits-all model. And that you can build all of these niche collectibles marketplaces, tailor-focused to serve a community, and that would serve it better.",
+    "And Comic Art was one that was small, but it was manageable, and it was like, \"Okay, this is a good place for me to start this hypothesis.\" And this was before Goat and StockX and all of these other things came to serve that same niche. So, I built it. I had no idea what I was doing. I was hiring designers off of Upwork and developers to build this. I remember, Krishna, when we launched it, I did not even, day one it launches, and I'm testing checkout, and I'm like, \"Oh, it's not even a secure checkout.\" People are putting their credit card number, and there's not even the little lock up there.",
+    "I didn't put that in the specs. And this was before Stripe or anything like that. So, all of these were problems. I'm like, \"Oh my God, I need to fix that, I need to fix this.\" It was hard for a non-developer who had never done a website before to do that."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 896,
+   "paragraphs": [
+    "I can imagine. Yeah, go ahead. I can imagine. I mean, now you've got Shopify for e-commerce, and even if you try to make a basic website now, you can do all non-code, right? You can just drag and drop blocks. Obviously, back then, you need to get a developer in who'd do everything. Even as you said yourself, for secure checkout, you have Stripe nowadays, all this stuff. Whereas back then, you had to manually code all that, which is just so much effort for someone who hasn't touched a line of code ever, right?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 921,
+   "paragraphs": [
+    "Yeah, I mean, and I learned some PHP. I was able to do a few things here or there, but the site was getting hacked and all that. The best piece of advice came from my sister-in-law, who's an academic, who we were with her one Christmas. She was like, \"Hey, how's the business going?\" I'm like, \"I'm not well. It just started to get hacked, people are taking data, and all this other kind of stuff.\" And she said to me very innocently, she was like, \"Well, I guess that means your site's doing well enough to get hacked.\" And I'm like, \"I guess you're right there.\" It wasn't hacked day one.",
+    "You do need some sort of traction to actually have hackers trying to get into your site, and it was quite easy for them to do that. But so, this was just all stuff for me to learn. And look, I learned more in those two years of building and running that site than at any other time, any other two-year span of my career. It was amazing. I say it was a failure just because in the end, it didn't get to where I wanted to be. There are a lot of little successes I had in there, but in the end, after two years, I just had to make the hard decision of, \"Okay, I'm not going to do this anymore. I need to move on to something else.\""
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 999,
+   "paragraphs": [
+    "Okay. So, when you initially said it was a complete failure, I thought it was just kind of like you put loads of effort into it but it went nowhere. But it seems like it was still making sales, you were still kind of attracting some people. It was more just the logistics of running or maintaining the site that seemed to just take over the actual benefits of keeping it going, right?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1017,
+   "paragraphs": [
+    "Yeah, I mean, there were sales, but every month, Krishna, there was more money going out than there was coming in, and that's only sustainable for so long. So, there were some sales, there were some things, but even just storing images was much more expensive, much harder to do back in 2010 than it was today. So, even just my AWS costs were fairly high at that time. So, all of these things, it just did not get where I wanted to do because the ultimate vision wasn't just comic art, it was shoes and collectible pens and watches or whatever else. It was all these other things and just never got to that point. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 1057,
+   "paragraphs": [
+    "I think the only thing that kind of stopped you maybe at that time was just, I don't know, maybe just the lack of funds to hire an excellent developer maybe who could just seal the gaps. And there were just too many gaps that sand was just running through them, and it was hard to patch them up."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1072,
+   "paragraphs": [
+    "So, one of the things, I was living in Silicon Valley at the time. I was actually going to school at Berkeley, which is part of one of the schools up here in the valley. So, I was talking to a lot of people who were founders, and the one piece of feedback I was getting again and again and again was, \"You need to find a technical co-founder.\" I did hear that time and time again. I talked to several different people about being that technical co-founder to help out with all of that. But I think honestly, I was looking and asking for too much from them because not only I wanted them to be technical, I wanted them to love comic books as much as me and understand the business side.",
+    "I was looking for a clone of me plus all the tech stuff, when in reality I should have just been like, \"Clone of me and just a rough interest in some of the things.\" I was being way too stringent, and that's why at some point I was like, \"Well, I'm just going to go off and do this on my own.\" And honestly, it was lonely too. When you're the only person, when you're hiring a bunch of people from India and other places that are on the other side of the world, it's tough. It was tough doing that. And if I had that technical co-founder, we could have at least been supportive of each other as part of"
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 1150,
+   "paragraphs": [
+    "That. Yeah, no, that's true. That kind of loneliness with entrepreneurship is so true. And having a co-founder, or even if you don't have a co-founder, having a group of people who understand you and what you're trying to do can make such a big difference, right? So, once you left Sketch Maven, you realized this is done for, I'm going to move on, do something different. What was that something different that you moved"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1173,
+   "paragraphs": [
+    "Onto? The criteria for finding a job was it had to make money. That was basically as far as my criteria went. Luckily, I was living in Silicon Valley at the time. And part of it also was I had my first kid. It was one of those things like I was doing some side consulting to pay some bills and all that, but it was completely unrelated to Sketch Maven. But that made me travel, which is harder being away from the kid and all that. I'm like, \"I just need something local and stable.\" I remember there were two companies I interviewed with that gave me offers. One was IAC, which had a business called Ask.com.",
+    "And so, this was like one of the old-school search engines, like Ask Jeeves, like 2011. It was still around. I had an offer from there. It was up in Oakland, a little bit of a drive. But then something closer was PayPal, which was actually right down the street from me. I had used PayPal for credit card processing. I had signed up for PayPal back in 99 or 2000 when they were bribing people by giving you 10 or 20 bucks to sign up for the service. So, I'd used it for a long time, and I had a lot of friends from school that were there. That's how I originally got introduced.",
+    "And got offers from both. It wasn't hard to make that call to join PayPal, especially because I thought they were kind of crazy for hiring me because I didn't feel I was qualified at all. I wasn't qualified. And I'm like, \"Why are they hiring me here?\" But I'm like, \"I'm going with it, I'm going with it.\""
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 1267,
+   "paragraphs": [
+    "So, you went into PayPal and you did some, like what specific department? It sounds like you were pointing to some side department, what was it called? It was called the Global Innovation Tournaments. That sounds like something I've never heard before."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1281,
+   "paragraphs": [
+    "That was a little bit later on. So, initially I just joined the mobile team. That's back when mobile was separate from the rest of the company. This was 2011. David Marcus, who was at Facebook also, now very much an entrepreneur doing things in the crypto Bitcoin space, his company was bought and they kind of took over mobile. So, it was very entrepreneurial, like doing a lot of new and exciting things, kind of different than the rest of the culture at PayPal. And so, I actually came in as data analytics. It would later be called a data scientist, but that term wasn't really widely used in 2011.",
+    "And that's what I initially came in to do. So, I was doing that and product jobs for probably my first four or five years, like product manager, product marketing, all this, just jumping around, as I always like to say, being dangerously unqualified for every single job that I had there. But it was fun, and I was just constantly put into new challenges. And then when PayPal split from eBay, 2015 going into 2016, one of the opportunities we had was to create corporate functions, and that's when the opportunity to kind of like define what innovation was going to mean for our company and to kind of build that out, what that was going to look like. And so, that was the opportunity that I had, which frankly took me to my end of my career at PayPal."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 1368,
+   "paragraphs": [
+    "Okay. Because that kind of is a bridge to what you're doing right now, isn't it? In terms of, if you're working with innovations, now you're working with AI and trying to delve deeper into it, which is obviously one of the biggest innovations in the last decade. So, kind of how, when was the first time you kind of had that exposure to AI? Was it when everyone else did, or because you were already working in a tech company, did you have it a little bit prior to when the rest of the world boomed? Oh,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1392,
+   "paragraphs": [
+    "At PayPal, we used a lot of AI and machine learning, so I was constantly being exposed to it. We never called it artificial intelligence. That was one of the things I learned back in the 2010s because we were coming out of an AI winter. For folks who don't know, ever since the 1950s, there's been all this hype about AI and the promise that it has, and then all of a sudden it doesn't do that, and then there's like what's known as AI winters. And really, we were coming out of another one of those in the 2010s, so it was all machine learning, deep learning. We talked a little bit about neural networks and things like that, but we never ever muttered the words AI, which was just funny how that panned out.",
+    "So, at that time though, like PayPal was really, really, I would say, using a lot of different methods and techniques out of necessity. And when I say that, what I mean is it was two specific areas in the company. It was risk and security because if you think about a company like PayPal, all that it's doing is, \"You have money, you have money, we'll send the money between those two people.\" That's not a very hard problem. The hard part of the problem is, \"Is this person who they claim to be? Is this person who they claim to be?\" That is the hardest part. It's the identity part, which is the most difficult part in a two-sided transaction like that.",
+    "In person, it's cash, it doesn't matter, whatever it is. But when you're doing things electronically, that becomes a lot more difficult. And when you have billions and billions of transactions going across your platform, you can't do this through traditional coding, and you've got to be a step or two ahead of the bad guys. And that's why for years at PayPal, there were machine learning techniques to analyze transactions, to analyze accounts, and so forth. To do that, it was a necessity in the business. And so, like within that world of risk and security, we were world-class. In other parts of the business, especially when I was there, not so much in the AI world.",
+    "It was like you would think everything had it. No, for like marketing or something, we weren't using those tools for the most part in my time that was there. We would dabble, there would occasionally be a machine learning team in customer service. It never got the traction everyone was hoping for and some other things like that. But yeah, so I was exposed to it a lot in my time there, and also just in the world of innovation, I got to see a lot of the cool stuff either that we were building or other teams in the company were building."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 1546,
+   "paragraphs": [
+    "Mm, so kind of what you've said so far, it sounds a lot like you're someone who's just like naturally curious about just how things work. Because I feel like when someone says they're, you know, dangerously underqualified for a job, then I'm thinking the only reason you kind of got in or the only reason you got in but still survived was because you were so curious that you would quickly pick up stuff and kind of integrate yourself. Because there are some people on the contrary who would be dangerously underqualified, go into the work, be recognized as dangerously underqualified, and get fired from the job. Yet you obviously weren't.",
+    "So clearly you're to pick up things quickly, right? And not only that, as we've seen in the corporate side and also in terms of business and then also in terms of AI, which is so new, but you're still kind of trying to be like on top of it, which is so difficult because every week I reckon there's like a new 100 chatbots that come out every single week. It's too hard to stay on top of it. What would you say to that?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1598,
+   "paragraphs": [
+    "I say there's probably half right. Yes, yeah. I mean, look, I think for this to work and for frankly for anybody as we're entering this real age of AI that we're in right now, like you need to be curious. You need to be like you need to be experimenting with stuff. You need to know that hey, failure is just part of the process and just kind of put yourself out there and try things and not everything is going to work as part of that. And you know, those are things I try to instill at the company and I try to do myself. I wasn't always successful even in doing it myself.",
+    "Like some I mean, we're all we have pride, we have ego, we have all these other things. So it's sometimes hard to say like hey, I failed at this. It's not always the easiest thing in the in the world to do. Different types of failure as well to look at. So like I think that is really important for people as we enter this next age to really dive into that and just try these things out. And you've got to be curious about this. Like if it if you talk to a language model and the language model doesn't give you what you want, ask why. Either ask why in your own brain like oh maybe I didn't ask right.",
+    "Maybe I should have said this and this. Ask why it's in the model itself. Like these you know, large language models in the chat format that they're built in are so conversational. Like these need to be back and forth. You can't just go into it expecting for it to lead your mind. You got to just wonder why. You got to anticipate what how it's thinking and so forth. And like a lot of that is like if you anticipate how it's thinking, you got to be curious like well why does it think that way? And you know, ultimately just ask a lot of questions. But yes, like curiosity is going to be a superpower for everyone going forward, I think."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 1713,
+   "paragraphs": [
+    "Yeah, I agree because curiosity is has always been something a good skill to have rather than just being complacent and sitting where you are. But I think with this kind of new age and with just the amount of information that gets thrown out now with AI, it's like everything's gone into turmoil. Everything's gone complex and you know these like you said, large language models, they can be used in so many ways as well. Like I use them sometimes when I'm struggling on an Excel sheet and I'm struggling to find a particular formula. Before, I remember even before I'd have to go onto the actual Excel website, whatever thousand of pages they have, and try to figure out which actual flipping formula do I use.",
+    "Whereas now I can just go into the LLM and ask it please can you help me with this one? It'll give me the answer. And then all these little things even I know some people say they use it for emotional support, some people use it for like business guidance. It's like anything you can think of, you it's it's quite at least something that can help you out, right?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1772,
+   "paragraphs": [
+    "So Oh, absolutely. And that's one thing for people who are you know, little hesitant to use these models, if there is anybody hopefully everybody watching this is not, but like if you are, think about an area in your life where there is opportunity. Like for me, you know, I give the example of my mother about a year ago gave me a call and she's like hey, I got to I'm going to the hospital. And the other thing we did was like we made it our patient advocates. We would say okay, given what you've seen here, what questions should we ask the doctor? Like what are important things that we should ask?",
+    "Like make us more informed for that. And honestly, Krishna, that made such a better experience. So my parents who were like never ever like we should use AI, found really quickly oh my god, you could use it for that. Well, here comes the curiosity. Well, what else could I use it for in my life? And that's what I always tell people like just start with something like cooking meals, like planning your travel, whatever it might be, wherever there's a pain point, wherever there's something you're passionate about, use it for that. Just spend some time with it and then you're going to see all these other applications where you can use that in your life to even help you even more so."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 1845,
+   "paragraphs": [
+    "Exactly. And then how did that kind of lead you onto what you're doing right now with the air? Because now you're teaching people, right? And you're kind of sharing your ideas out. I mean, is that something that you kind of got I don't want to like almost scouted for? Did people kind of notice that talent go would you like to teach? Or did you have to kind of reach out to people? I don't know how this works. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1866,
+   "paragraphs": [
+    "No, I don't either. I was just figuring out as I went along, Krishna. I think this started so at some point I went back to school while I was still at PayPal. I was going part-time. One of the great things and look, the innovation job I had at PayPal was the greatest job in the world because anything I could do to inspire innovation in the company, I got to do. One of my favorite things and this was just like came from an idea I had and it built into this whole thing was like huh I like reading books. Like authors have books. What if I actually invited authors over and I just do like fireside chats with them?",
+    "I did a hundred of those type of talks when I was at PayPal. No one ever gave me the permission to. No one ever said I could. Like or anything. No one said I couldn't. So like okay, I'm just going to do this. And suddenly it became a thing. And in talking to all of these authors, at some point I'm like huh maybe I could write a book. And so I actually went back to school to get an MFA in writing. And for me like I was never a good writer like but I like enjoy the process, I enjoy thinking and so forth. But when I started the school in 2021, like I was really becoming fascinated about you know, and hearing about what GPT-3 could do in the world of writing.",
+    "And just diving deeper into that got me really excited about this world. It was the next year that I left PayPal just it was my time. I was six years in the same job. I was still enjoying it. You know, COVID made it a little less fun. I will be completely honest. It wasn't as great as it once was. But even with that, it was just it was time to move on. I didn't this was the first time in my career of you know, 22 years of working where I'm like I don't even know what I'm going to do now. I had no plans, no idea.",
+    "But that summer is when Midjourney came out. I think DALL-E 2 was getting released and like going out of beta where people could actually start using DALL-E 2. And these were the image generation tools. And it was magical for me. Like honestly, you would put in any prompt and it would give you a raw version of something that kind of looks like that or not. And it was a back and forth. And it was an amazing time. And that summer like there's a lot of buzz around here. But when I would talk to other people kind of outside of AI tech circles, they didn't even know about these things.",
+    "And that's when I just started writing about it. So I just started posting the very first thing I posted was in August of 2022. It was titled the one technology that everyone should be freaking out about. And this was all about AI. Like and I meant freaking out both in a positive and a negative way because like there's so much potential and so much wrong in this and just nobody was discussing it. So I just started blogging about it on LinkedIn. And somebody I knew who was at a university just reached out and said hey, this is cool. Like do you want to do it through our school?",
+    "And this was at San Diego State University. Now for folks outside, I live in California, Northern California. San Diego is like at the bottom tip right next to Mexico. It's like eight hours away. But he's like yeah, you can work remote. Just come down here occasionally. And it's beautiful down there. I'm always happy to go down there. I was like cool. Let me let me do that. And so I've always been interested in teaching. But it was really just my writing and putting writing out there with zero expectation to the world that got the attraction that was able to kind of bring me into that world to you know, do university stuff now.",
+    "And it's cool. I get to teach. I get to like dabble in like more formal fancy academic research stuff too and which is totally new to me. But it's it's a different world and it's been really exciting."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 2106,
+   "paragraphs": [
+    "Yeah, of course. And being able to teach about any topic you love is is an honor in itself, right? Because it clearly means that other people want to listen to you. And that can be in any format. There's so many people I've spoken to on this podcast where they teach via courses or they teach via books or they teach via you know, social media. And you've got another method right there, which is teaching in person through classes and really like inspiring others, which is what we need especially you know, even in university they tell students oh don't use AI. You can't use it for assignments.",
+    "But then I think to myself like the future is AI. Like you can't tell people to not use it because they will be using it. It's there's even school set up now, haven't there? Where even like you know, primary school children are getting at least taught like what an LLM is, how to use it because it's their life now. It's it's a continuum now. It's not going to stop. It's not like one day suddenly ChatGPT or all these LLMs are going to go guys, that's it. That's the end and thanks for this free trial. We're just going to end. I know. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2163,
+   "paragraphs": [
+    "Look, Krishna, I'm old enough to know have remembered you know, when Wikipedia came out, how that was the evil that was going to destroy education and society. I kind of know stories of the calculator. I'm not quite that old. I am old enough to remember spell check and even myself thinking like oh my god, like how are they allowing spell check in schools? I mean, and I know it seems funny now, but like seriously like in like late '80s, early '90s, think about that. Like you used to have to go to the dictionary to do all this stuff. And now you just hit F7 or whatever the heck it was at the time and it would spell check a thing for you.",
+    "Like that's cheating, right? Like these are all paradigm shifts that we go through as a society. AI in so many ways does feel like cheating. And maybe in some ways it probably is. But the reality is you're right. This is what it's going to be moving forward. I think the important thing for professors out there and for teachers is to be transparent about it. Like they need like there was a piece in it was either New York Magazine or the New Yorker came out a couple weeks ago. And I think the headline that I took away was a student saying they the teacher is telling us we can't use AI, but we just caught them using AI.",
+    "And like to me that is the greatest hypocrisy. Like if you as a teacher are using it but saying your students can't and especially if you're hiding it, like that's wrong. That that's wrong on so many levels. Like that's going to set you your own credibility back. And frankly, this is going to set like all of these things back when we're just lying about it. Like be upfront about it. And I think that is the important thing. I have a son who is 13 years old and he has an English literature type class that he takes. And I had a one-on-one with the teacher in there.",
+    "And one of the things in talking and he's amazing teacher, is like yeah, you know what? I decided about two years ago no more computers. We're just going to go like straight up pen and paper, books, all this other kind of stuff. You will never need a computer for the stuff that we're going to be doing in class. And you know what? Like that's awesome. Like me as a tech guy, I'm actually like okay, like that's fine because he has made a strategic decision with the class to say you know what? There are certain basics, certain fundamentals like we just need to do, we just need to know.",
+    "And I talked to him like hey, you know, if you ever did want to introduce AI, what would that look like? And you know, and that would probably be a separate module. And you know, you do all this, you write papers and then at the end of the semester, I'm going to give you the weekend to write a paper with ChatGPT. Do you know what? My standards are usually here, but if you're using ChatGPT, my standards are now up here. Like you need to write an amazing paper. And I want to see the whole prompt. I want to see everything that you went through. I want to hear your and then you're going to come and talk to the class about why you did this, the hardships you had, the shortcomings, all this other kind of stuff.",
+    "And like okay, that's a great use of that tool to be able to do that and get there. So I think in school it's important to learn the fundamentals. Like you know, it's important to still teach times tables to kids even though we all have calculators on us all the time. But at a certain point you also kind of say like okay, we think you got your times table. Go ahead and use a calculator. Math is more advanced now. You we're not in you know, you're not like senior year of college. Nobody is saying hey this advanced calc class or whatever it is that you're taking, differential equations, no calculators on this test.",
+    "Like that would be ridiculous to us to do that because we the tools are there. Yet I think it just comes down to yes, there are fundamentals where we can say hey, no AI for this and this is how we're going to do this. But like yes, this means we could actually do much more and teach other skills by using those as"
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 2406,
+   "paragraphs": [
+    "Part of the process. Yeah, that's a good that's a good way of thinking because you know, you don't want AI to be used so much that the human population becomes dependent on it so that if it was to you know, let's say one day ChatGPT crashes and it's like that day was you know, a national day of no no work got done. But you want it to be a stage of like AI is able to supplement the basic that everyone knows because that's what that's what it was created for, right? It was created so that you get you get the work done to 60% and AI is there to just you know, piece together the rest of it and just coordinate it into a really good piece of whatever you're trying to do, good objective completed.",
+    "And yeah, I agree that's something that has to be taken into the future of education, even the workplace. And you see taking into the future of that you know, everything wherever AI can be used rather than you know stay away from it or shy away from it should be embraced and kind of taken into taken into steadily and just be openly discussed as okay can we use it? Can we not use it? And if we can use it, to what level can we do it properly? Absolutely."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2469,
+   "paragraphs": [
+    "And have real discussions about the ethics of this and so forth. I was Google just announced and released something called Veo 3. And I was playing with it just yesterday. And my 11-year-old daughter, she wanted to play with it. And it was super fun because it's what it does is creates little eight-second videos. They're amazing quality. They add audio, they add sound effects. It all seems finely integrated. And she was like oh, I want to do something with Sanrio characters. So it's like Hello Kitty and stuff like that. And she was like oh, it's not going to allow me to do that, is it? And I'm like no, probably not.",
+    "Why not? He's like well, that's because like they own this IP. And like she knows all this. I'm like she's 11 years old. I didn't know what IP was until I was in my 30s, I'm sure. And it's super exciting to kind of see this and just have these discussions about these because like these tools are going to be part of our life. And just ignoring them, it doesn't mean that they're going to go away."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 2532,
+   "paragraphs": [
+    "Yeah, that's true. Well, another part of what you've done, what you've been doing, which I was when I came across your LinkedIn, I was pretty surprised. You've got over a hundred US patents. I mean, that is something I've just not heard from anyone anywhere. Like I mean, why on earth do you have that many patents? What are they for?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2553,
+   "paragraphs": [
+    "So so Krishna, here's the secret to that. I have over a hundred patents because I had thousands of really bad ideas that did not become patents. Like that's the honest answer for that. Like all of these things are a funnel. At some point when I was in PayPal, I was working on this product called PayPal Beacon. Super amazing forward-looking technology. This is about 2013. The engineer at PayPal who created it, Bluetooth 4.0 was standard. So like that was just coming out at that time. And I remembered he would actually drive to Cupertino where Apple was headquartered, you know, like five-time miles away. And he was sitting with Apple engineers to help them understand Bluetooth 4.0 and how to integrate it into their iPhones and so forth to actually make for a better experience.",
+    "Like he was at the top of the technology with that. One of the things that the engineer did, I'm going to use this rubber band as an example, is like he's like well, if we build this little hardware, you know, it kind of looked about this size here and this little piece of hardware, we put that into a store, it could be emitting a Bluetooth 4.0 signal from that. Somebody walks in with their phone and their phone would be able to passively talk to that. What does that mean? It means if you're pulling up into the driveway and a Starbucks has a this thing, this beacon shooting out signals and it knows you typically come there between those hours, it could actually start making your coffee before you even enter the store.",
+    "It could do all of these kind of things. And ultimately you could pay hands-free. So this was a new emerging technology that we had. I had never even thought about patents before I started working on that product. And at some point I got to sit down with some patent engineers who you know, were lawyers, sorry, patent attorneys who were lawyers and engineers. It's this weird hybrid. And they were just asking me about the technology. And they just kept on saying well, what else can it do? What else can it do? What else can it do? Like just further. I'm like well, it could do this.",
+    "I guess you could do this. I guess and I was like oh my god, this was so much fun. Like I like never had that much fun just sitting down with an attorney before for an hour just talking about what is possible and how you could make the possible what is possible a reality. And I started to just have those sessions by myself. I would just think of ideas. I would build stuff out. I would prototype. I would talk to people. I would include other people as part of this. And I would I was doing this in addition to my day job just because I loved it.",
+    "I would just walk around the world and think of ideas about like what kind of things we have. And that's why like I said, I would have thousands and thousands of these ideas. And at that time, you know, this actually led to my innovation job because it kind of put me down all these really interesting paths at PayPal. And like I said, the only reason I have a hundred plus whatever the number is patents is because I had thousands and thousands of ideas that were not patentable, were not good or not whatever. But that's the filtering process you got to go through."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 2750,
+   "paragraphs": [
+    "Okay, so so this because I read some of them and I read I think the beacon one, but there's just like it's just all over the place because initially when I saw patent, I thought maybe he's just done loads of AI related stuff. But it's actually a lot more. It's it's it's really all over the place with it. And I suppose it kind of ties in as you said with the PayPal innovation because that's exactly what we're doing, right? Creating new things. But kind of how did you"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2771,
+   "paragraphs": [
+    "Yeah, I think that's right, Krishna. So our innovation group was basically everything else. Like things we're not really working on as a company, what could be a cool and new emerging technology. Like you know, back in 2016 it was augmented reality and things like that. And eventually it was blockchain technology and all these other things. Like those were the avenues we got to go deep into. Some became real products, some became patents, some became nothing. Like it was you know, it ran the gamut from that."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 2800,
+   "paragraphs": [
+    "So what does it mean when you have a patent? Because usually a patent means that no one else can then produce that thing or no one else can do something to do with it without you being in that. So does that mean like for example, if you've got the patent for some of your patent I noticed were like with a group. So it's like a group of people created it. Does that mean does that mean you basically own that idea so now no one else can create that you know, Bluetooth beacon thing? Or is there something more to it? So"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2824,
+   "paragraphs": [
+    "Let me do this without getting too technical here. So what a patent is is largely a government granted monopoly. And every government around the world has it. And if you have a patent in the United States, that has no impact on the UK unless from the UK you're shipping stuff in the United States. Like these are largely separate as part of that. So while I'm on these patents, I actually don't own a single one of them because I was employed by PayPal. So while I am considered the inventor, the assignee of the patent is PayPal Inc. Or whomever owns this now. They could have sold it.",
+    "They could have done whatever. So PayPal actually owns that. Like I actually don't own it even though I'm the listed inventor on all of those. And what the patent does is it gives you that government granted monopoly for typically 20 years. But it only works if you choose to enforce it. So all the time, Krishna, I will see stuff that I know we patented as a company popping up in other products. And I know PayPal didn't license that or anything. The reality of the world of patents, at least when I was there, maybe it's changed somewhat, was I always liken it to nuclear weapons in some way.",
+    "So like you have your nukes, you have your nukes. And you know what? I know you have a bunch of nukes. I know. So I'm not going to sue you. I'm not going to attack you. I'm not going to sue you. That is a lot of what happened. You know, 2016 when I first was working on innovation stuff, patents was a huge part. It was almost everything in the world that we were doing there. That's in large part because like Apple and Samsung and all these companies were all suing each other over this stuff. We were now a separate company separated from eBay. Half the patents went with eBay.",
+    "Half stayed with us. We're much smaller. We needed just ideas. We needed kind of build that own arsenal just so in case Samsung or Apple or whomever felt frisky and wanted to go after PayPal, they might think twice because maybe we actually have something that could be related to an iPhone. And do you what? Okay, that's their core business. We don't want to do that. So like that was a little bit of the strategy to be completely honest with you. Is that the best way for things to work? Hell no. Like it's stupid frankly. Like I think honestly in many ways like should software patents even exist?",
+    "I don't know. I mean, I kind of have a lot of doubts about that. But in many ways for us at PayPal at that time, it was kind of a necessity in some ways to run the business and to not have to worry about these other like big things that could potentially happen."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 2991,
+   "paragraphs": [
+    "Okay, I never thought of patents that way. So so it's really just like if a big company tries to sue you're like yeah, but you're using that one small thing that we have and we could just enforce this if we want to do right now."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3003,
+   "paragraphs": [
+    "100%, 100%. That's what you would see. If somebody came after you for using this thing, they're going to go through all your patents because they're all online. And they're going to talk to their engineers and their product people and all that and say hey, any of these things like we might be doing you know, they're violating or whatever it might be. And that's the whole litigation process that you have in there. So that is absolutely what happens."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 3026,
+   "paragraphs": [
+    "Wow. Okay, so I mean, wow. So you now you're really just you're teaching. What are you doing on like the business side right now? So right now you're teaching, you're sharing your advice. But are you doing anything else on the side like consulting or coaching or anything else?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3042,
+   "paragraphs": [
+    "No. No, I'm not. I mean, I hope entrepreneurs all the time. I would never take money from an entrepreneur for that. Like maybe I'll take equity or something if I'm really doing a lot as an advisor or something, but no, for the most part, no. I'm at a very fortunate place in my life right now where I don't have to worry about that. I'm I am paid through the university where I'm working at. You know, it's it's not big tech money by any stretch, but that's okay. So no, I'm not doing any consulting or anything like that. I just get to explore and do whatever I want to with my life right now and that's what drives me."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 3081,
+   "paragraphs": [
+    "Nice. I mean, even consulting and all this stuff, it sounds like, you know, really good, but you also have to remember the downsides of if you do become a freelancer and all this, then your time is now tied to your energy. And if you were to start consulting, let's say one-to-one-to-one, then suddenly your time is going into that, right? So it's one of those things where, you know, not every business is the right thing for every person. I mean,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3106,
+   "paragraphs": [
+    "Krishna, like yesterday, you know, earlier this week, Google announced V O 3, which I've mentioned before, is a text-to-video generation model. I spent the entire day working with prompts on Discord chats, looking what other people were doing, all this other kind of stuff. And to me, like I couldn't have been happier. I could not sleep last night because I was thinking about all this stuff, like and what you can do and what the possibilities were and all of that other stuff because I'm like, you know, this is the most excited I've been about an A I product in, you know, probably a couple years potentially.",
+    "This was like I have the flexibility to be able to do that. That's pretty awesome. The university grants that, you know, to me, so it's it's pretty nice gig."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 3153,
+   "paragraphs": [
+    "Yeah, that's pretty good. And so, you know, in terms of your own learning with kind of curiosity and just kind of creating things, I mean, for anyone on, even like for me or anyone sitting on the outside, if we came across someone who said, look, I spend hours researching or, you know, delving into the latest find in A I. I've also created a hundred, well, a hundred patterns based on soever many ideas just because I'm so interested in creating things. Someone would argue, where do you have the time for all this? How do you have the energy, the time, the motivation to just start creating things that you don't even know if they're going to work, if they're going to be used, if you're going to make money off it?",
+    "What would you say to that kind of the mindset that's needed to be able to just stay curious and, you know, not always being money-minded, but like being like self-minded and just like giving your energy to things that make yourself happy?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3204,
+   "paragraphs": [
+    "Oh man, that's a great question. It really is. I think there was exercise program I used to do, this guy Tony Horton. It was called P 90 X. It got to be real popular in the U S and I think probably around the world. And one of the things he would say in the workouts was enjoy the journey. And I think that's really important with all of these things. Like I'm working on a children's book just because I want to. Not about A I, it's about chemistry, something I know nothing about. And I have spent, I don't know, hundreds of hours writing these things. It's crazy.",
+    "And I don't know if a single person is going to ever read these things. I hope so. But if they don't, I'm okay with that. Because do you know what? Like I really enjoyed the process. I've enjoyed the learning, I've what I've learned about myself, like how I've learned completely new processes and all this other kind of stuff. Like I decoupled you know, what maybe there's almost two different levels of success. Like yes, I would love for people to read that and I'm going to go on podcasts, I'm going to do all this stuff to promote and try and get that to happen. But you know, if in the end it doesn't happen because there's a great book ban or shortage or whatever things out of my control, like I will have at least enjoyed the journey as part of it.",
+    "And this is one of the things you said in the very beginning, Krishna, like you need to kind of love these things. You need to have a passion for them. I was lucky enough at the age of, when did I have the innovation job? I would have been about 39 years old when I first got that innovation job. Is that right? Was I that old? Yeah, I think I was that old when I when I first got that. To have found something where like, oh my god, like this is the intersection of my passion and I guess what I'm good at and what I could actually get paid for.",
+    "And that's a pretty amazing thing. Not everyone is going to be able to find that. But I will say sometimes we do chase a buck too much. Like what is more important to have a job that is fulfilling, you know, personally and professionally, that pays you know, a little bit less, maybe you don't get to take that extra vacation, maybe you don't get to do whatever it might be or, you know, as part of that, versus taking a job that's not fulfilling but does pay you more. These are personal decisions we all have to make. I'm not saying like this is the right one for everyone.",
+    "Like I could get paid a lot more money now like working at a tech company or doing whatever it is, but like I actually really enjoy. I feel so fulfilled in the things that I'm doing today. And I'm I don't know, I'm just lucky enough to be able to make that type of choice. And so I think for all of us, it's just kind of be in that situation, can you? And just to always ask those questions. One question everybody should ask themselves all the time, like every year, January 1st, every year, ask yourself the question, couple of questions, like would if I were if I weren't getting paid, would I be doing this job?",
+    "And the answer probably for most people is probably no. And if we lived in a communist society where you could take on every any job, you're going to get paid the exact same amount of money no matter what is it that you would be doing? And it's got to build for the world. It can't be like, what's, you know, I play video games all day or what? Like go a little bit further, a little bit further than that. Like really think through that. And you know, these are real questions to ask that can help maybe guide you and maybe you're not going to totally get there.",
+    "Like even in my job today, yeah, there's some things that I don't like that I have to do. I mean, that's kind of the part of every job, but like it's it's finding that right balance and just getting you closer to whatever that job is, that ideal job where you would be doing it even if they weren't paying you for it."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 3451,
+   "paragraphs": [
+    "Well, it comes with an element of self-awareness, I think, because sometimes people get so lost in the hustle, and that doesn't even need to be an entrepreneurial hustle, it can just be the hustle of, you know, feeding your family and going to your nine-to-five and just kind of surviving. Everything if everything can be made busy, you know, even if it doesn't need to be. And I think that's what leads to, you know, sometimes people's just days going by without realizing, years going by without realizing, and people not really asking the deep questions of like, am I happy with this? Is this something I'd love to keep on doing?",
+    "You know, if I had to, like you know, like you said, questions to ask yourself at the end of each year, start of each year, kind of saying, you know, if I had to do this till my retirement, would that really make me happier or should I look for a change?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3494,
+   "paragraphs": [
+    "That thing. And the other thing, and I want to build on that, that's such a great point, there's always a third option. I like, I think often in our world we limit ourselves to binary choices. Either I could stay in this job or I can quit this job, or like I can either work here or here, whatever. There's always a third option. And I think sometimes it is just frankly being alone with our own thoughts, being uncomfortable with our own thoughts, to be asked those little bit more difficult questions. Well, okay, I need this much money to put food on the table. I have this job, it's the only job that'll take me, what else am I going to do?",
+    "Spend an hour, spend a day, whatever, like really think deep about what those things might be because there are always other creative options out there for you. It just sometimes, you know, it's painful to sometimes do that. Like we, you know, especially in American culture, like you mentioned busyness, like being busy is a badge of honor in American culture. Like not having time to actually think. Oh yeah, I'll just in meetings back-to-back all day. It's a way to kind of showcase your own personal importance. Like yeah, I was in so many meetings today, whatever it might be. But like honestly, like you're missing out. You're not using all of your brain if you're just in meetings all the time.",
+    "You're not thinking strategically, you're not thinking about yourself, you're not thinking about other possibilities for you or your business or whatever it might be. We all need that time to separate, to really let our minds wander, to fantasize, to think about alternatives and all that. And I think, you know, like the culture just buttons us up as like, hey, you want to still being busy like that puritanical work ethic, you just want to be busy and just stay busy and do that till your 65 and, you know, that's a good life."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 3610,
+   "paragraphs": [
+    "Yeah, no, it's it's a it's a very good point and it's quite introspective really, looking deeper into, you know, what it means to be human and kind of live a life really. All these things that we have created artificially, synthetically, like nine-to-five jobs and commuting and making a salary, these are all not aligned with our own natural evolution, is it? Because go back a million years, no humans working a nine-to-five making a salary and driving a car to work. They were, you know, sitting around the fire with their family and hunting for food, but then sitting and talking and stuff like that, which is what which is what at the root of our body, our biology is what's going to make us happy.",
+    "Obviously the way the world works, we can't do that. We can't just, you know, hunt food, sit around and talk all day, but we can try to at least incorporate as much of it as possible to at least make it worth, you know, worth continuing working, at least makes it worth remembering kind of what you're here for and what you're working towards, rather than like a machine because humans weren't designed to be just machines, which is sometimes what working a nine-to-five can make you feel like, right?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3675,
+   "paragraphs": [
+    "Absolutely. I think of, oh boy, so many points that makes me think of. One of the things I wrote about a couple years ago, and it was great to just be able to do a deep dive in this, was I really wanted to get into the history of, you know, is A I going to take our jobs? And all the other kind of like panics we've had about that in the past and so forth. And I went back to like John Maynard Keynes, who wrote, you know, a hundred years ago, one of the things he forecasted was that, you, productivity is going to go like this.",
+    "It is going to go up into the right over the next hundred years. And what's that going to mean for us as a society? Well, it means we're going to be instead of working 55 hours a week, we're going to be working 15 hours a week because this productivity is going to give us so much leisure time and so much this and all that. And the amazing thing, you can look back at this, like Keynes was really damn close with like forecasting productivity. He was very prescient in that. What he didn't realize was yeah, we do work less than we did a hundred years ago.",
+    "You know, so it went from 55 to 40 something hours a week in the United States or whatever it might be, but it didn't go down to 15. He completely underestimated the amount of stuff that we would be looking for to have a fulfilling life. And that's, you know, one thing like people glamorize often in the United States like the 1950s. It was the post-war time. U S is kind of becoming the economic superpower where, you know, Europe and Asia are rebuilding and so forth and like just things are great here. And you know, everyone can afford a house. Like the house that everyone could afford was like 600 square feet, which put in perspective is probably like a third of the size of like the average home in the U S or a fourth of the size of the average home in the U S today.",
+    "Like we kind of lose perspective on like, oh, those like people didn't go like on a plane for vacation or anything like that. All of these things that like we like, you know, we glorify the past, we kind of forget about all of the things that we have today that we didn't have then, but we somehow think that's better. But then when we apply it to where we're at today, we think we need to be happy to have all of these things. And I'm my hope, and this is where I came with this, it was like a three-part piece that I wrote, like my hope is that we can use A I to actually make that tradeoff for us as a society and say, maybe we don't need to work as much.",
+    "Let's have the robots work a little bit more. Let's let's bring more fun, let's bring more joy, let's bring more art, let's bring more whatever into our lives that makes it gratifying. I think that that would be a wonderful gift that we could have with all this. And in the U S it's been both sides of the political spectrum have talked about things like the four-day work week. Richard Nixon, a conservative Republican, you know, talked about this back when he was vice president in the 1950s before he became president. More recently, you have Bernie Sanders, kind of the opposite side of the political spectrum. Like there's agreement that we could have here like maybe we don't need to do this.",
+    "Like can we just all sign up and just know like, hey, just being perpetually busy for the sake of being busy is not the right choice for us"
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 3888,
+   "paragraphs": [
+    "To take. Yeah, it's so nice to hear this because initially, you know, very early on in the podcast, I thought that, you know, speaking to business leaders, speaking to entrepreneurs, the thing I'm going to hear a lot of is grind, work, you know, do your market research, do all this, you know, competitor analysis, all these kind of business things, you know, they sound big, they sound heavy, they sound like very responsible business actions. But it's nice to hear from more and more guests nowadays where they're saying things like, sure, do that, but then don't forget who you are. Don't forget, don't forget the things that make you happy because there's absolutely no point of you, let's say, let's say you've gone, oh, I'm going to quit my job to be an entrepreneur, and then you do an analysis and you're like, okay, so in my job I worked eight hours a day, now I work 24/7.",
+    "In my job I had a team around me, now I'm on my own. In my job I had goals, now I'm goalless. And in my job at least I had a stable salary, now I don't even have a stable income. Like, you know, sure you became an entrepreneur, the name sounds cool, but if you look at the variables, you've kind of not reached what you aimed to set out to do because you're not actually happier. And this is kind of the same thing we're talking before where sometimes just by working, you forget to just compare and go, is this the right way for me to go?",
+    "Am I doing the right thing for myself? And, you know, this whole conversation for the last, you know, 15, 20 minutes with you, Mike, has been about don't forget that crucial, you know, little sprinkling on the top of, is this what makes me happy? Would I want to keep doing this? If not, if it's a really strong no, if really strongly you're going, you know what, I actually hate getting up in the morning to go to that meeting. If I really hate getting in the morning to just write that last little blog, think about how you can change. Again, even changes don't have to be a binary solution.",
+    "It can be there's loads of opportunities, but at least you've being self-aware, you've analyzed that you're not happy with where you are and therefore you can look for opportunities to change and change direction. There's no right or wrong for any single person. Even stuff that you've said, even stuff that I've said will not work for a third person. But at least if someone's self-aware, they can know what works for themselves, right?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 4011,
+   "paragraphs": [
+    "Absolutely. I'm going to probably totally butcher it, but I'm going to try and get it out there anyway. There's the parable of the businessman and the fisherman. I don't know, I think it's in many cultures. It's been retold many times. So basically how this story goes is you have a businessman on vacation, goes to an island somewhere, sees a fisherman, strikes up a conversation and says like, oh, you know, this is amazing, what do you do? He's like, oh, I'm a fisherman, I go out in the boat and I collect fish all day. And then what do you do? I'm a businessman, I do all this to this and, you0 know, blah.",
+    "And then the conversation leads to kind of like, well, what do you aspire to do? And the fisherman's like, well, this is what I aspire to do. I love doing this. The businessman answers the same question. He's like, well, I aspire to do, you know, I just want to live a life where I'm just on a boat all day fishing. And of course that, you know, the disconnect from that is like, this guy could do that. Like is that really what they aspire to do? I mean, and this is when we get into like self-reflection and asking those tough questions. Like if that really is what you aspire to do, do it today.",
+    "Like there's no reason why you can't do that today. You can still be a fulfilling member of society. You just don't have to follow the same rat race that you've been told that you need to follow. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 4095,
+   "paragraphs": [
+    "That's so true. Well, Mike, kind of as I kind of tie off, I think this conversation's really been, it's been a little bit all over the place, but in a good way, because there is so much that we've covered, all, you know, not only your story, which started way earlier than I expected. I didn't expect it to start all the way back. You didn't know I was going to start at the womb. Yeah, yeah, I didn't realize. He was just like, oh, I was kicking and I knew business, you know. So all the way from the age of six, you know, moving on to college, you know, having that not really entrepreneurial spirit, but having that curiosity, which is so important, and it's so helpful to just be naturally inquisitive about things.",
+    "And then you realizing that really if you compare your story, your entire lifetime, it has just been really underpinned by your curiosity of things around you, all the way down from, you know, cards all the way to your work with innovation and kind of trying to find new things, creating patterns for things that, you know, might not even exist, might not even get used, but at least you created it. And then even now delving into A I, being able to spend, you know, you know, hours on the latest thing, getting excited about it, make feeling happy about it, right? It's something that someone can only aspire to be kind of a dream because lots of people would be on the other side going, I wish I had time to just spend on something that I love doing.",
+    "And therefore I'm glad that on that second half of the conversation we were able to really delve into like the depth of what it means to be able to do what you love and how you can, you know, it's something that's spoken too often and I'm sure someone's seen a quote somewhere on social media which is like, life is too short to not do what you love. Or if you do what you love, then if you work and do what you love, then work doesn't feel like work. I mean, everyone sees those quotes, but at least we were also able to talk about how do you implement it?",
+    "How do you build it in so that every single day you're doing something you love and every single day you wake up thinking, I'm excited about what's going to happen, rather than the opposite, which unfortunately is the truth for so many people where they are waking up and dreading what's going on. They can't wait for like work to be over. They can't wait to be back in bed again."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 4221,
+   "paragraphs": [
+    "If we could live in a world where people were excited on Sunday nights to be able to go to work the next day, like that that is something that would, I mean, because I was when I was in PayPal. I really enjoyed my time there. Like I would have done that for free. But I think that's something, man, if we could get that little bit closer to that in our world, that would be a wonderful thing."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 4242,
+   "paragraphs": [
+    "Exactly. But it's it's people like you, Mike, that are going out teaching others and trying to share this really good wisdom about not just the typical business life stories we hear about the struggle that people went through and almost making it noble, the price you pay with the time and the struggle, right? So many people let's say that, oh, I'm I'm rich at 50 because I devoted my entire 20s to just working. Whereas you'll have another person that'll be like, oh, I'm not quite as rich as that person, but I traveled in my 20s and I got loads of experience. Again, there's no right or wrong, but at least if people can, you know, if people can at least engage with the different perspectives that others have to share, then they can make their own depending on what kind of person they are and lead a more fulfilling life. Absolutely."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 4290,
+   "paragraphs": [
+    "Absolutely. I've taken all perspectives. That is that is just one thing that we all can do a better job of. I think that's"
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 4298,
+   "paragraphs": [
+    "Exactly. Well, Mike, you know, looking back, what kind of, you know, if you're looking back to when you're in university or whenever you had like a struggle in your life, looking forward, what kind of advice would you give yourself, you know, especially considering you talked about things like just do things even though there's no money associated, there might not be an actual gain associated with it? What advice would you give to someone who's also thinking about that like, I'm interested in this but there's no money associated in this, I might not actually make anything but I'm super interested? What might they want to hear?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 4329,
+   "paragraphs": [
+    "Like almost all of the successful things in life start where there's no money tied to it and there's no expectation of money. I mean, maybe there is like a hope of money, but like any entrepreneur started their business without, they bootstrapped it, right? In the beginning they were just doing this nights and weekends, whatever it might be, without knowing what's going to come from it. One of, we didn't even get into this, one of the most fulfilling things I ever did when I was actually really not enjoying my job, like in my career in finance and accounting, one of the things I decided to do with a friend who I worked with was create a sketch comedy show that we were like then videotaping and writing and editing at night and all this other kind of stuff.",
+    "And I was finding a completely different creative outlet from that. I didn't make a single penny off of that thing, but it was amazing and like 20 years later we still talk about that. There are so many of those things in life. I mean, life is a collection of all these amazing stories and experiences that we have. The vast majority of those things you are not going to get paid for. Find the ones that you really love, be good at it, do your best, give it your all. And, you know, sometimes you will be recognized and serendipity will lead to one thing and you post something on YouTube just for what your passion is and like, oh my god, people are actually interested in me doing this.",
+    "And sometimes that won't happen. And as long as you're okay with both scenarios and kind of like so much of happiness in life is having low expectations. Like I think if you do look at the happiest country lists generally speaking, they are countries with lower expectations for what is going to happen in their own life. If you just kind of go with the flow with that, that is that is one of the ingredients for a happy life. Try these things, try some experience, just do follow those passions of yours. Maybe there's money on the other side, maybe there's not, but just explore and you'll be amazed at the experiences that you'll have."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 4458,
+   "paragraphs": [
+    "That's really good advice. It's something similar I heard too as well where, when you're when you're in your, you know, your last stages of life, the last thing that usually someone wishes for is I wish I had more certificates or I wish I had more, you know, more medals or I wish I had more, let's say, a thousand pounds more in the bank. But most people will say I wish I'd just done more when I was younger or wish I'd just lived a better life or seen more things, talked to more people. It's at the end of the day, it's the relationships and the experiences that people hold on to because realistically all the material things in life you can only hold on to a certain period of time.",
+    "After a while you have to let them go, right? So I think that was a really good kind of summary, really good kind of almost like a two-way conversation we were able to have about two different things, business and life. And it's really important what we've discussed. So thank you so much for talking so well, so thoroughly about some really deep topics that need discussion, otherwise often it can be so easy to put them under the carpet and, you know, shy away from them. So I'm glad we were able to bring up to light,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 4523,
+   "paragraphs": [
+    "Mike. No, no, and Krishna, I love the conversations that you're having. You are you are so so darn good at this. Like this was really a fun experience and I hope people did take a few things that were helpful away from it."
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 4535,
+   "paragraphs": [
+    "I appreciate that. Thank you, Mike. Where can people find out more about you and what you're doing?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 4539,
+   "paragraphs": [
+    "Honestly, LinkedIn's probably the best place. It's the one social network that isn't poisoned in so many ways that doesn't make me sad when I'm use it. So you can just D M me, follow me on there, whatever you want to do. I'm always happy to talk to"
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 4552,
+   "paragraphs": [
+    "People. Yeah, that's right. I've been on your LinkedIn and it's pretty thorough. You get basically an entire understanding of what you've been doing, including all the patterns you've got behind your name, which I did not scroll down the entire list."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 4563,
+   "paragraphs": [
+    "It is crazy. Yeah, like all"
+   ]
+  },
+  {
+   "speaker": "Krishna Parmar",
+   "start": 4565,
+   "paragraphs": [
+    "Those. Yes, yeah, yeah. Well, Mike, thank you so much for coming on and I look forward to speaking soon at some time. Thanks, Krishna."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 4571,
+   "paragraphs": [
+    "It's a pleasure being on. Thanks for having me. Thank you."
+   ]
+  }
+ ],
+ "words": 14805
+}
