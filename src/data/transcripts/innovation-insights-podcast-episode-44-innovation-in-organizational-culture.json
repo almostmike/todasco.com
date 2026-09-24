@@ -1,0 +1,576 @@
+{
+ "slug": "innovation-insights-podcast-episode-44-innovation-in-organizational-culture",
+ "outlet": "iNNOVATION Insights Podcast",
+ "title": "Episode 44: Innovation in Organizational Culture with Michael Todasco, MBA, MFA",
+ "date": "Feb-25",
+ "published": "2025-02-18",
+ "url": "https://podcasts.apple.com/se/podcast/innovation-in-organizational-culture-with-michael/id1723278216?i=1000693383437",
+ "duration_sec": 3804,
+ "host": "Dr. Eulanda Sanders",
+ "speakers": [
+  "Dr. Eulanda Sanders",
+  "Mike Todasco"
+ ],
+ "turns": [
+  {
+   "speaker": "Mike Todasco",
+   "start": 0,
+   "paragraphs": [
+    "One of the things that we were putting in this while building that culture of innovation, it was about like everyone is an innovator here. We didn't want to have really a dual class structure of, well, here's your innovation engineers, here's your other engineers working on the day-to-day, and well, these are the cool jobs, these are the not so cool jobs. We didn't want that. And so a lot of what the job was about building a culture of innovation where everyone, not just the engineers, but everybody in the company thought of themselves as an innovator and how could we do that?"
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 41,
+   "paragraphs": [
+    "Welcome to another episode of Innovation Insights where we dive deep into the minds shaping the future of industries through innovation, creativity, and groundbreaking research. We believe that innovation happens in all aspects of life. I am your host, Dr. Eulanda Sanders. It is a pleasure to welcome Mike Todasco, MBA and MSA, and a true innovator and thought leader who spends his days envisioning how artificial intelligence will transform the way we create, leveraging generative tools like ChatGPT, Midjourney, and others emerging at an exponential pace. Mike is at the forefront of AI-driven creativity. All the images you see throughout this introduction have been created by Mike using these cutting-edge tools, showcasing the power and fun of generative AI in visual storytelling.",
+    "Mike's professional journey includes a dynamic tenure at PayPal where he was an evangelist for innovation and creativity, inspiring employees across the globe. In addition to driving innovation, he wore many hats in product management, marketing, and launches, thriving in the chaotic energy of bringing new ideas to life. Before his time in tech, Mike founded SketchMaven, a startup fueled by late nights and unwavering passion. Earlier in his career, he honed his expertise in finance and accounting, starting out at GE, the company with the iconic meatball logo. An accomplished inventor, Mike has been granted over 100 US utility patents, showcasing his ability to transform ideas into impactful solutions.",
+    "He holds an MBA from UC Berkeley and a BS from the University of Illinois, and he occasionally shares his leadership insights with aspiring professionals. Mike balances his profound accomplishments with a playful spirit and an ever-present curiosity, making him an inspiring figure in innovation. Today, we are thrilled to explore Mike's perspectives on how generative AI is reshaping creativity, his journey as a multi-faceted innovator, and his vision for the future of technology and human ingenuity. Mike, welcome to the Innovation Insights podcast. Eulanda,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 188,
+   "paragraphs": [
+    "That that was bold. I are we going to solve all of the humankind's problems here?"
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 193,
+   "paragraphs": [
+    "Is that is that what we're Oh, I think so. I think so. I think I think I think over the"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 197,
+   "paragraphs": [
+    "Next 15 minutes, I'm excited."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 200,
+   "paragraphs": [
+    "Mike, so glad to have you on the podcast. I mean, for our audience, we do prep meetings for each podcast just to, you know, so that the guest knows what we're going to do, what the format's like. I can tell you I laughed more through the prep meeting with Mike than any what else. I mean, it was just hilarious. And so you're in for a ride."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 225,
+   "paragraphs": [
+    "Oh, it was fun. And I think you get all the credit for that. It was it was it was a really fun talk. So I'm I've been looking forward to this for weeks now."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 234,
+   "paragraphs": [
+    "Oh, good. Oh, good. Well, tell us about your background because I mean, my goodness, you have just innovated all over the place."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 245,
+   "paragraphs": [
+    "Yeah, that's I just should have a business card, innovate all over the place. Like that's yeah, so I what is my background? I started like I'm going to go way back to childhood. So I grew up in Chicago, '80s and '90s. One of the things I did as many kids my age, I collected baseball cards and that was like my foray into business. I probably took it much more seriously than the other mostly boys in my neighborhood who would do this and I started selling them. And I actually I was 14, I was working at baseball card stores store. I would then by 16, I was like doing conventions and I was buying and selling these things and I didn't know that there was a bubble going on in this stuff, but like I was just like riding the ride and I actually was able to pay for college because of all the stuff that I was doing as part of that.",
+    "And this was before, you know, I was actually so I, you know, as I was in college, I was at University of Illinois, online was starting. So I never used the internet before I got to Illinois and I started selling online on Yahoo Auctions, which folks might know was like actually a thing. It was actually, I think it was bigger than eBay for a while even, which is crazy. But yeah, that's just showing my age and older stuff there. But did that, got a job in finance. I was awful at finance, moved into private equity. I wasn't much better at that. Started a company, failed at that, but then I got a job at PayPal.",
+    "And we can talk about how I convinced them to hire me if you want, but I really enjoyed it. I very much enjoyed my time. I was there for 11 years. The back half doing innovation at the company was just amazing and so much fun. And I left PayPal 2022. I kind of felt that it was just time to move on. I kind of did all the things I wanted to do there. And I've just been writing about AI. I'm at a university now so I get to teach and do all that fun stuff related to it as well."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 378,
+   "paragraphs": [
+    "And so so how did you enter, you know, so you teased us with, you know, how did you convince PayPal to hire you and then, you know, sometimes it's so obtuse to people about innovation. I ran innovation. Well, what does that really mean?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 396,
+   "paragraphs": [
+    "Yeah, yeah, yeah. Oh, innovation means very different things. I mean, I'll dive into both. So first getting being hired at PayPal. So first thing, like so this is kind of pro tips for anybody out there because I did get to hire a lot of people and so forth. So like kind of know the hiring process at big company. Step number one, like if you see something online, don't just hit the easy apply like link or whatever. That's useless. That is honestly like it is just going into a void. For any given job at PayPal, there were hundreds and hundreds of applicants. If I was the hiring manager, I wouldn't even look at the resumes.",
+    "Like you just couldn't. But if somebody within the company would actually refer somebody, I would actually give that a second look. And that's just the reality of how things go. Somebody that you know, somebody you respect passes that along. So I was able to find out that I was connected to I found out the hiring manager, found out my wife went to school with somebody whose spouse went to school with the hiring manager. So weird, you know, series of connections and I just went through them. And at least that was able to just get an initial phone screen. And then when I was in the interview itself, I was, you know, I had just failed at my startup and I basically talked for like six hours of all the ways that I failed at my startup and how bad it went, but frankly all the things that I learned from it as part of it.",
+    "I was very open, very tangible. Like I was just sharing all my lessons. I didn't have the same level of experience that a lot of other people who had been in tech before. I had, you know, tried to build a tech company for like two years and I failed at it, but like I just doubled down on that. And I don't know, like somehow I convinced them to hire me. And it was great. It was like, you know, I planned on being there for a year and I was there for 11 years. And that was, you know, this wonderful testament to the culture in the company.",
+    "Fast forward 2016, so it's like three, four, five years after I'd been working at the company, PayPal splits from eBay. One of the things just defining so brand new company, you know, we're looking at, well, let's should we create an innovation org? It actually started off in the world of legal. So I was a non-engineer, non-lawyer running innovation from within like the legal org at PayPal. And that was all about building up PayPal's patent portfolio for starters and expanded many other things. But I got to do that. I did that for years. And innovation at PayPal was a tiny team. Peak, I would say I had 15 people working for me.",
+    "Most commonly, I probably had one or two. And 15 was like there was a special thing we're working on this project, we need certain expertise. It was very decentralized. And PayPal was a company of like 20, 30,000 people. One of the things that we were putting in this while building that culture of innovation, it was about like everyone is an innovator here. We didn't want to have really a dual class structure of, well, here's your innovation engineers, here's your other engineers working on the day-to-day, and well, these are the cool jobs, these are the not so cool jobs. We didn't want that. And so a lot of what the job was about building a culture of innovation where everyone, not just the engineers, but everybody in the company thought of themselves as an innovator and how could we do that? So that's a lot of what I did."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 622,
+   "paragraphs": [
+    "Well, let's dive a little deeper into that. So, you know, what are what are some tactics or what did you implement to do that? Because you hear organizations, yeah, we want to be innovative, we want to build this culture. And culture sometimes hard to build or change. Yeah."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 639,
+   "paragraphs": [
+    "So one of the things we did is this was there are so many things we did. Let me let me start with that. Let me start with one here. Innovation tournament was one of the things that we did to really get like the whole company involved. And this was a concept that actually an intern had. We were we would have these brainstorms. So we took and again, none of this cost money. Like that's the one thing I want to get clear. Like it was a small team. I basically had no budget. So like from day one, it was just like, okay, just go figure this out.",
+    "You know, there's a in the intern college, you got innovation. And it's kind of like innovating through constraints, having not much to do. And like that's a lot of what our innovation was. It wasn't, you know, to use the analogy for AI today, we were we were kind of doing the deep seek model, which is the Chinese AI startup that didn't have any money to do this versus the open AI model where you got like billions and billions of dollars being thrown at you. That was kind of how it worked. And you could do a lot of innovating when you do that. So the innovation tournament just came from a brainstorm session we were having with a bunch of interns.",
+    "I would have these all the time. Maybe I would bribe them with candy bars or something. That was about it to show up. But like usually people just want to show up. They want to hear their thoughts and so forth. And they knew like, well, if there was a really good thought that came up, like we can actually start to do something with it. Somebody had an idea of like, well, we have an innovation tournament, make it like a almost like a game show and we could have this across the company and so forth. And she worked on that idea for maybe a month and then she had to go back to school.",
+    "But like to me and a couple other volunteers, and it was almost always just volunteers working on this who were passionate about it, made this into a reality. So the whole process, we would have like five senior leaders on the company put forth a problem statement. We built forth a real simple website. We can even do this like in Google Forms or something where people would submit kind of like a very short answer to that problem. What is it that they could do? And then we just had various stages in the process where we start off, I mean, we got thousands and thousands of ideas from across the company and we would just kind of go through an innovation process step by step by step.",
+    "And, you know, people would form teams, they would do all this, but the ideas would come from anywhere and everywhere across the company. And then finally by the end, we got we convinced the CEO and some others like, hey, can we get an hour of your time like to, you know, we're going to put you on stage and we're going to set up a camera and all this. And we did like this big production thing. That's almost where all the money went. It was just like our lighting and stuff like that for this big production we had. But it was an amazing experience and it was a way to get thousands of people engaged and involved.",
+    "And in fact, there's if anybody is interested in this and I could I'll share the link and I'm sure we could throw on show notes or something. There was a Harvard Business Review study on our innovation tournament at PayPal. So if anybody really wants to go deeper, there you could go into HBR and you could see that that article that kind of tracked us as we did all that."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 834,
+   "paragraphs": [
+    "Yeah, yeah, we'll make sure that it's linked in here. That's great. That is great. Well, thank you for that's a wonderful example. That's really really is. So what were some of the challenges in creating an AI culture? You know, you mentioned budget, you know, and generally, you know, budget sometimes you don't have that. But did you get pushback from people sometimes or any other?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 861,
+   "paragraphs": [
+    "Oh my gosh, all the time. I mean, I'm just a person who's kind of naive to pushback. Like I don't maybe I don't take the social cues well. I'd be like, okay, they don't like me, but whatever. I'm just going to go over here and do something else. Yeah, I mean, there was pushback. There was sometimes, you know, I would get questions from managers who are like, why is my employee doing this work for you because they have their day job over here, but they're working on this robot for you? Like I don't want that. I didn't approve of that. And most managers would not do that to be very clear.",
+    "Like because I think we'd always had this innovative culture. Like if you get your day job done, well, fine. If you got other time to do other stuff, like that's great. I mean, people would get their this is almost like side projects people would we live, you know, that where the headquarters was in Silicon Valley. And the culture here is very much like people will finish their day jobs and then they'll go work on a startup at night. And instead of doing that, they just might work on some other weird crazy PayPal project at night is is what we're really trying to tap into and not only in Silicon Valley where our headquarters were but like in offices all around the globe get that same spirit.",
+    "But yeah, we would get pushback. One of the things that we had as a company is we did have like four principles. I can't remember exactly, but one of them was innovation. And so, you know, I had this huge slack channel with like, I don't know, thousand plus people who are just involved in innovation and excited about it in the company. And I remember whenever we were doing goals as a company at the beginning of the year, I would always put out a reminder just to say, hey, like you don't have to do this, but like, you know, innovation is one of our principles. And if you want to work on stuff in the innovation lab, whatever that might be, you should probably put that in your goals.",
+    "Like talk to your manager, say, hey, I want to take 5, 10% of my time to do this and so forth. A lot of people did that. And that was one way to kind of be more proactive with managers instead of just like dropping down them like, hey, I've been doing this for the past six week. It's more like, hey, I would like to do more of this. I would like to expand my capabilities. And, you know, it doesn't have to be in the annual whatever goal setting process, but that was like just one really easy way to do that. And like since we're in January now, I think, you know, for people and companies who are setting goals, like these are the times to talk to your managers and talk to your teams about, well, like what innovative stuff can and should we be doing this year?"
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 1017,
+   "paragraphs": [
+    "Oh, that's such a great point, you know, where we are in Q1 and, you know, people are thinking about their goals for the year. That's really a great point. Well, thanks for that example. And so your patent, I want to talk about your patents because did many of those come out of your work at PayPal or was it other work that you did"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1039,
+   "paragraphs": [
+    "Or I think it entirely from my work at PayPal actually, yes. Wow. Yeah. Wow. Yeah, no, the whole patent like, look, I am I was a finance and accounting person. I never even when I started working at PayPal, I never like thought I would be getting patents. That was like Thomas Edison and people like that. Like why would I be getting a patent? I didn't even really understand it. I was working on a product called PayPal Beacon. If anybody wants to go on like YouTube, type in PayPal Beacon, you can see the product video. It was pretty cool. I mean, so this was like 12 years ago or so.",
+    "It was a way for a we were making a piece of hardware, so a little like hardware stick that a merchant can stick inside their store and then a person would come in with their phone and they could have it in their pocket or their purse and it would passively talk to that piece of hardware. The thing that was cool about it was using this new Bluetooth 4.0 technology where you didn't have to like used to have to like sync your device. Like you always had to put in a code through Bluetooth. This was like a way to not have to do that. And it was just a cool way to make payments.",
+    "We're like, wow, this could be really interesting. You just walk into a store, it knows Eulanda that you are there and it knows that you love this type of coffee and it could start making that coffee even though there's a big line there. Like all this kind of stuff were the types of things we were thinking of. So a very exciting project within the company. I had a product role on that and I had to meet with one of the lawyers within PayPal. And I did this often, didn't think much of it. And when I go meet with the lawyer, he says like, hey, you work on this.",
+    "That's cool. Like explain to me how it works. I explain how it works. He's like, well, what else can you do? He's like, okay, well, what else can you do? He kept on asking me this. And then at some point I'm like, why are you asking me this? Like I thought I was going to get yelled at. I didn't really understand or know what was going on. And he explained, he's like, oh, well, this is like for a patent process. Like this is something that was a very revolutionary technology. We're very much at the forefront of this. Wanted to understand its capabilities because like that team wanted to file patents on this thing.",
+    "I'm like, what, you could just do that? You're just taking my ideas. And he's like, well, that's what a patent is. A patent is based on an idea that you can explain that really no one else has really thought of before. And I was like, okay, like that was that one hour Eulanda. I was like, probably the most that was the most fun I've ever had with a lawyer in my life. I will say that. Like I was I was like, that was amazing. I just got to talk about like the future and just say stupid stuff and he was just taking notes and everything.",
+    "And that got me down this whole thing. I was like, well, and I remember talking to him after I'm like, can I do this for other stuff? Like other ideas? Can I bring in other people? So for probably two or three years, I was just having these brainstorm sessions with smart people that I knew at PayPal on my own. This was kind of before I had the innovation job. So I was just doing various product jobs, just talking about stuff, filing these patents whenever we had like, oh my gosh, this is a great idea. Some of them become products, some of it did not. But I did this for years.",
+    "And that's why I kind of was doing the innovation job for free for a few years before I actually like did it full time. And that's why like when the legal team decided that they wanted to build the patent portfolio after splitting from eBay, I was kind of a logical choice to bring in somebody like me who'd been doing like these kind of things for free. Now I could do it full time. And that was just the best job in the world to just be able to talk about the future and what we could do with play with gadgets and all that. And that was kind of what let me down that innovation and patent path."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 1275,
+   "paragraphs": [
+    "So basically doing this work and then later on when the organization decided we need to really get some structure behind this, you were tapped or did you have to advocate for this position like?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1291,
+   "paragraphs": [
+    "I might have been putting subtle hints that I was open to this like in many ways because I did I was very close with the patent team. I would spend a lot of time with them. And I think maybe at least a year or two before like I was like, oh, I'd love to just do this. So I think I might have planted a few seeds in there, maybe volunteered a little bit more. Like I remember one time the person who ultimately became my boss, she was saying something about like how she had to run some sessions in India and had to like fly all the way over to the US to India and she wasn't excited because, you know, some things with her kids and all that.",
+    "I'm like, well, I'll do that for you. And it was one of those things. I'm like, hey, well, like tap me. And so like yeah, there was there was a little bit of that but, you know, I mean ultimately it was their call but like, look, you want to if you there's something in a company you really want out there like you want like say you don't have an innovation team like at PayPal we didn't and you wanted to see the formation of one well, you know, it might be a long process but start to plant the seeds, start to make people see how well this could be a lot of value in doing that and why ultimately you're the right person for that."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 1366,
+   "paragraphs": [
+    "That is great advice for our audience. We have a well, we have the whole lifespan of listeners. So for those that are in, you know, entering the workplace in the workforce, that's really great advice. So thank you. Sure. And yeah, I mean gosh, I mean it does sound like you just helped drive your career and what you were going to do there and so 11 years in that and then you decided let's try some other things."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1404,
+   "paragraphs": [
+    "Yeah, I had no plan to be completely honest with you. Yeah, like so 2022 I, you know, I've never been in the same job for so long. I was in that innovation job for like six years. I will say COVID made it not as much fun as pre-COVID. Like I loved being in the office, loved being in the lab. And so like it did make it much less enjoyable in most aspects. But it was just time. It was just time. I kind of, you, done all the things I could do at PayPal and it was just time for me to move on. I had zero plans for what I was going to do.",
+    "I remember I left in May of that year. And then my plan was just to take the summer off. I'd never done that before. So in that summer, I had already been playing with AI tools like GPT-3, Dolly, tools like that. And I just started playing with them more over the summer. And the more that I did with them, the more excited I got. And I remember by the end of the summer, it was actually making me angry. And I say it was making me angry because like nobody was talking outside of like the weird circles that I was in, like nobody was talking about this stuff.",
+    "There was this one guy, David Shapiro, who's a YouTuber who I was learning so much from just vicariously watching his videos on YouTube. He was doing these things with GPT-3 that were amazing and he was getting like 75 viewers or something like that for this. I mean, it was just like incredible. Yeah, and that's why that's why I'm like, why is nobody like what is going on? And so I think I got like so frustrated with it. My first and I'm like, I'm just going to write about this. My first article that I wrote was something along the lines of the one technology that everyone should be freaking out about.",
+    "And that was like referring to AI because like just nobody was really talking about it. I was like it was so clear it was just there. And so I just continued to write about it. Like it started to resonate with like people I knew and they passed that along. Eventually got passed along to somebody at university and they're like, hey, we have an AI center here. We love how you communicate. Why don't you do that through us? And that's how I got involved with San Diego State where I'm still at today. So a lot of the writing is kind of, you know, in support of the university and so forth as well.",
+    "And then ChatGPT happened and then like everything's like I was like, okay, everything is sort of falling in line since then. But you know, those six months or so leading up to that was just an exciting time of just, you, pure experimentation where like, you know, the world wasn't really paying attention. And then again, once ChatGPT happened, it was clear within to me within maybe three or four days after the launch like of like, okay, this is totally different."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 1589,
+   "paragraphs": [
+    "Oh, well, I mean you really what's interesting and what I like about you is that you've written about it, but also you're a user of the technology too. And so you're bringing in that application part of it. And reflecting back, you mentioned when you first, you saw the internet and I think about that quite often. I think it was 1990 94 at University of Nebraska and I went to a faculty meeting and I was a grad student but I was invited to faculty meetings for some reason. I don't know. And I went there. Yeah. Yeah, I now I just told be there. I was like, okay, I went and I'm like, why am I here?",
+    "But we had a demonstration on the worldwide web. And that was the first time. So you, if you think about when you first was introduced to the internet, you know, kind of publicly, it had been around for a while but really publicly to where we are now with AI, I mean, what I mean, is your mind just like"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1660,
+   "paragraphs": [
+    "It is, it is because I think this is going to be much bigger than what we've seen with the internet. I think this is going to be much more world-changing than what we have seen before. When I so I, you know, I was lucky enough to go to University of Illinois, started in 1995. So I got there first time using the internet. And I actually remember just like even just clicking on links and like and that takes me somewhere else and like I like it was so exciting and so interesting for me. And I remember then going back, you know, after being at school, going back for like Thanksgiving break or something and talking to friends who went to other schools who didn't have that.",
+    "And it was like I was living in the future down in Champagne, Illinois. Like it was one of those weird things. I'm like, whoa, I feel like I'm living in the future here. And then you kind of just see everyone else does it. And that's why I think for me when I really started to play with you know, GPT-3 and what OpenAI was building, I'm like, oh my gosh, like this feels like the future just not everybody is in that future yet. And I think that's where we're even at today. I mean, we're a couple years into, you know, this whole generative AI revolution with ChatGPT.",
+    "But, you know, how was it two, 300 million people have used it? That that still means like there are billions of people who are on the internet that have not used these tools before. And like I find new uses of these every single day. And that's what inspires a lot of my writing Eulanda. I like you were saying like what, you know, I write because I write about it because I use these things. And there's a lot of stuff out there that is going to be world-changing. Give a good example here. So OpenAI has released something called Operator and that is an AI agent. And AI agent is kind of it's it's a very unique and exciting concept where you can actually have AI's doing work for you.",
+    "I mean, a lot of this is the ultimate promise. And very excited I signed up for it. Unfortunately, it costs 200 bucks a month. I'm like, okay, I'm going to at least give this darn thing a try and see how it is. You, very optimistic, very hopeful of it. It's total trash, I will say."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 1803,
+   "paragraphs": [
+    "Like I read your I read your I read your article like you. Thank you. Yeah, I was like, okay, good to know because I'm not going to invest in that. Yeah. Yeah."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1810,
+   "paragraphs": [
+    "And again, I want to call balls and strikes as much as I possibly can. Like it is total trash. It is not worth spending 200 bucks on like by any stretch. But six months from now, that might not be the case. I mean, even within that. So what it is is it's like you have this own virtual web browser that kind of comes up behind the scenes and it's doing stuff in there. And it could be for flight planning or, you, I was trying to use it for like the kids' summer camps and planning all that stuff out. Just can't do it today. But I can see how it could.",
+    "And that's the one thing for everybody to keep in mind. Like it, you know, it's always easy to be a cynic about something. You just like, ah, that's not, you know, it's not good today, that's garbage, whatever. But like it takes an extra step or two to just take us like to look back and say like, okay, I see what doesn't work, but how could that work? And to see that path to get there like Operator is not always going to be trash. It is probably going to be quite good. It is going to be useful and it is going to be something that everyone is probably going to be using in some form in the next let's say 18 months.",
+    "And with all these tools, what I tell people is like the sooner you get on board and just and again, you don't have to spend 200 bucks a month. I wouldn't do that. But like with all the other tools out there, most of these things are even free to just get out there and just start playing with it. Just like putting it first even if it's not perfect. This is how we're going to be doing business, doing education, doing like personal managing our household and stuff like that. That is like the really exciting thing that is in front of us. And like I said, this is I really believe it will be more revolutionary than that revolution I saw 30 years ago back when I was starting college."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 1922,
+   "paragraphs": [
+    "Oh, and I love what you say about, you know, a technology or a platform may not be working right now, but later it will. And I've seen that, you know, innovation insights. So, you know, this is a side hustle for me. The only way I'm able to do it is with if I didn't have AI, I wouldn't be able to do it. And what I've noticed, especially with another little project we're working on or me, I'm working on is a we have a virtual consultant and her name is Inno Insights. Yeah. Okay, nice. I like it. Yeah, she kind of her hair is kind of like me. She has pink earrings. She's a little hipper, a little younger, maybe. And she's out"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1971,
+   "paragraphs": [
+    "There. Are always cooler than us. Let's be honest there. Mine definitely aren't."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 1976,
+   "paragraphs": [
+    "But it's definitely on purpose much cooler than me. And she wears pink sunglasses all the time and but and optimizes a pink business suit. And we're working on a whole series of basically animated series on her. And she's going to fight stagnation. So we have stagnation and stagnation that character has been built in mid journey. And then she has a couple of sidekicks too to help her out. That's awesome. Oh yeah, it's pretty fun. But as I've been building this out, like sometimes I'm like, okay, I'm trying to work on, you know, videos all and it's not quite working right. I wait a week. I'm back to that same technology.",
+    "They've made improvements and you know, this is a little bit easier. And it's just like, okay, you know, just be patient and it's all going to work out just fine."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2027,
+   "paragraphs": [
+    "I mean, Eulanda, especially like text to video. I mean, you know, the most famous example people give of this is Will Smith eating spaghetti. Because like if you go back, if anybody just Googles Will Smith eating spaghetti AI, you will see these videos from a year ago. So, you know, maybe early 2024 from Runway and, you know, all these other tools of Will Smith eating spaghetti. And it's these bizarre things like it kind of looks like Will Smith and it's like sort of like how somebody maybe eats spaghetti. But then, you know, you start to see what it looks like with these newer models. And even just 12 months later, it is night and day.",
+    "Like it's still not, you know that isn't actually Will Smith eating spaghetti, but it's starting to get to the point where it's close. And again, like with all of these things, you just have to like see the prediction. Like this is going to keep going forward and forward. You know, the cliché is today is the worst that AI is ever going to get. But that's true. Like just tomorrow it is going to be better and better and better. And it's because there are people working on this, the technology is getting better on this. There are more, there's just more focus, more dollars, more resources going to this.",
+    "Like it is going to just keep getting better. And yeah, and the better you understand it at its root level, like, you know, playing with it early, trying to get that cartoon to work out rights and all that like that's, you know, that's only going to help you when the models get better. So like you're going to be much more senior in this process and understand how to even get better outputs out of the better models."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 2126,
+   "paragraphs": [
+    "Oh, well, it is just so fun and it's it's exciting. It is fun. Okay. And it's a fun time to, you know, integrate it into a startup business and trying to figure things out. And the amount of information that's coming and, you know, what I learn every day, like you said, you learn something every day, is just, it's just fun."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2148,
+   "paragraphs": [
+    "If you're absolutely. And if you're a startup now, you have to be using these tools. Like I envy startups starting businesses today because like yeah, when I did my business, you know, 14 years ago, I didn't have these AI tools that could do that. But like you have these tools and these are going to be the great equalizers for you. You know, the ability to you get a bunch of contracts or something like that, you're like, oh, I don't know about these contracts. You take those contracts, you drop it into Claude, you say, hey Claude, you've seen millions of contracts. Anything look weird in these things?",
+    "You could have paid an attorney, you know, $200 an hour to do that. You really don't have the money to do that. Claude does a job that's, you know, 90% as good of an attorney, but that's probably good enough. And, you know, and like those are the things that you need to consider as a startup for every step of your process because you don't have unlimited resources. You're not a big company. And so paying 20 bucks a month for Claude or ChatGPT or whatever is probably an investment that's going to pay for itself like in less than a day once you really start to realize what these things could do. Oh, I"
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 2221,
+   "paragraphs": [
+    "Absolutely agree with you. And, you know, I've had I've had many startups. I've had startups, you0 know, on my own previously, some within universities, which is a whole other story and challenge of trying to start a startup within a university. But yeah, when you mentioned Yahoo, I was like, oh my gosh, because, one of my earlier businesses, we had an online, we were trying to do online sales with Yahoo business. Oh, wow."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2253,
+   "paragraphs": [
+    "Yeah, yeah, yeah. Do you remember that platform? I do remember Yahoo business. Yes. People don't realize like Yahoo was the king of the internet. Like when I moved out to Silicon Valley in 2006, like that was still kind of the place to be. I mean, Google was kind of coming up, but really '06 like Yahoo was like a cool place to be. Yeah."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 2280,
+   "paragraphs": [
+    "Well, what's really sad, my sister and I think are probably the two only people in the world that still have our Yahoo email"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2289,
+   "paragraphs": [
+    "Account. Oh, I do as well. I kind of I use mine secretly. Okay, here's what I do. This is this is me. I don't think I've ever confessed this ever to anybody before. So I do have a Gmail address, but I have all my Gmail stuff forwarded to my Yahoo address and I actually manage it through my Yahoo account on there. So like, but I never send from that because like I am actually too embarrassed to send from it, but it is how I manage all my email. So"
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 2321,
+   "paragraphs": [
+    "At least you're here or too embarrassed. No, no, no, not me. Sometimes I still do or people ask me and mine is worse because I also have it's a Yahoo United Kingdom account. So then, you know, I have to say, you know, and people look at me like what is"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2344,
+   "paragraphs": [
+    "Alien at this point? They're like, what? UK, what is this? Yeah, that's funny."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 2352,
+   "paragraphs": [
+    "Well, you know, when we talk about technology, there's always a fear that humans are going to be replaced by technology and by AI. And I will share with you, I am very nice to all of the AI platforms that I work with. I am too, just in case. Yeah. Yes, please. Thank you. Good morning, all of that. What are your thoughts about us being taken over by the robots?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2379,
+   "paragraphs": [
+    "Yes, so so look, I will say I am polite to my AI as well. Like we have like Alexa in our home and stuff and I actually try and teach the kids to say please and thank you even though it isn't. I just kind of like the habit of that and I find myself doing it as well. Will AI so I wrote a lot about this and then done a lot of research. Is AI going to take jobs? Yes. I think that the answer is is yes, it will. Other technological revolutions have. This absolutely will. There are going to be people displaced, full stop. I think it is already happening.",
+    "And anybody who's saying, well, it's not going to, like no, it's going to happen. It will. Now, the bigger question is like what's the net effect of this? Because, you know, the internet took a lot of jobs and destroyed a lot of jobs and so forth, but it also created a lot of jobs. You know, I mean, for people watching this today, did your job exist 30 years ago? Or if it did exist 30 years ago, how would the tasks that make up that job look different? Those are all questions to ask. And I think that is going to be true with AI as well.",
+    "The bigger question on this, which is where you're getting to, Eulanda, is if we get to the point of AGI, which doesn't really have a definition, but it stands for artificial general intelligence, effectively it is AI is smarter than the smartest person in your company and could do all those things and you wouldn't actually know the difference interacting with that person or anything like that. And they could do tasks, they could do meetings, and they're going to work 24/7 and blah. When we start to enter that world, like what does that look like for employment? And like the honest answer is I don't know. I mean, I just don't know.",
+    "There's some areas where we're always going to be have an attraction to having humans do it. I am a big Golden State Warriors fan. We just beat OKC the other night, which was like for us Warriors fans of the lifeline, like we're in a very trying season. But people here will pay hundreds of dollars to go see Steph Curry play, because he's amazing. He will he will take things. He's just like a supernatural human being that can take a ball and from long distances get this into a really small hole. And it's amazing to see that. We have built robots and I just saw a demo on YouTube of one recently of a robot that they taught to shoot free throws and even longer was doing like full court shots.",
+    "It did something like 2,500 free throws in a row. And then and then I think they actually got so bored, they just shut it off. They're like, okay, like it's just not going to miss. And no human being is going to pay to see that, right? I mean, like that is just it's not interesting. And but the robot's better. It's better than Steph Curry is. But like it's not the same. Like, you know, we Any car anybody today who's been in a car has probably gone faster than Usain Bolt. You know what I mean? But like you would not pay to just sit on the side of the highway and watch cars come by at 40 miles an hour.",
+    "Right? So there are certain Yes. So there are certain things that arts and all that like yes, maybe they can do it better, but we're drawn to humans. We're drawn to that. Like we want to know that, you0 know, there was somebody behind that. That Martin Scorsese actually put his vision behind this movie and we'll watch that. But then there's also going to be just thinking on movies, there's going to be things that we're watching that are AI generated and we're okay with that. And so I think we're going to enter this world where yeah, humans will still matter. There will still be human jobs, but there's going to be some things that AIs are going to do and do really well and we're going to be okay with that.",
+    "And where that dividing line is, I don't know. The one thing that I hope for is that for us as a society, we look at this as an opportunity to bring in more leisure, bring in more like just like freedom that we have. Like we can we don't have to only find meaning through work. We can find meaning through hobbies. We can find meaning just through family and helping others and all this. Like in America, I think we're too focused on finding meaning through work. And, you know, is there is a way to maybe even reduce this? This is what Keynes wrote about 100 years ago when he was looking at productivity going up into the right and, you know, and saying, well, that means Americans are going to work way less.",
+    "Well, they work a little bit less than 100 years ago, but not that much less. Like he thought we'd all just be sitting around like just working eight hours a week and that was it. That didn't happen because we're like we need more and more. And for us as a society in this new world, this gives us a brand new chance to just really think about, okay, what is it that we want? Are we just going to continue to work 40 hours plus a week because we want to consume more stuff? Or is it that we want to work 20 hours a week, let the robots do a whole bunch more and be happier with maybe a slightly higher standard of living versus a doubling or tripling or whatever it could be if we were, you know, continuing to work 40, 50 hours."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 2725,
+   "paragraphs": [
+    "I agree and, you know, that's something that we talk about, you know, within our team. We do have a consulting team of actual people and then we have our virtual consultant Inno Insights. But, you know, you know, thinking about, you know, the workplace and how, yeah, there's that balance because it really does need to be that balance. And if AI and technology can help, I mean, it's helped in many other ways. I mean, we don't have to take, you know, horse and buggy to the store. Yes, yeah, that saves time. Yep. A little bit, little bit. Thank good. Yeah. You know, so yeah, it's this really a great, way for us to think about it and I think to help reduce fear that some people have about, you know, displacement completely. Yeah. I"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2779,
+   "paragraphs": [
+    "Mean, look, it's the one thing I can tell people is all of our jobs are going to change, full stop. That just is. If you're working in some way with a computer or something like that, like your job is going to change in some way, whether you're a teacher, whether you are an engineer, you know, whether, you know, if you're working at a construction site with a with a tablet in front of you or something like that, all of these things are going to change from AI. The sooner you understand what these models are good for, what they're not good for, then the more that you embrace them, dare I say, the better off I think you individually are going to be in whatever future is in front of you.",
+    "Like it's it's going to help you understand, oh, I could do these things more efficiently. And you are going to morph your own job. As I said before, a job is just it's just a bunch of tasks. Your job today is different than it was 10 years ago and it is going to be different 10 years from now as well. You know, assuming it is still around. But like more you can kind of define how what is its core and serving your customer or whatever it might be, how is it that you can use these tools to help you do that better? The better off you're going to be in whatever this future is that that is going to be in front of us."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 2864,
+   "paragraphs": [
+    "Well, I think it's exciting personally and, you0 know, change happens. You're back. My computer completely froze. I guess"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2876,
+   "paragraphs": [
+    "Oh no. I really thought it was me and I'm like, oh boy, this isn't I, you know, no. No,"
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 2881,
+   "paragraphs": [
+    "No, it was completely me. It just oh my gosh. And I haven't had that happen. Oops. Until trouble though. No"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2890,
+   "paragraphs": [
+    "Problem. You were basically you were you left off on change scaring people."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 2898,
+   "paragraphs": [
+    "Yeah, yeah. And I guess that scared the computer and"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2904,
+   "paragraphs": [
+    "Computer is like computer like is AI going to kick me out of my job too? Like what the hell?"
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 2909,
+   "paragraphs": [
+    "Who are you going to take care of this change thing you're talking about?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2916,
+   "paragraphs": [
+    "The poor Dell PC was like, I'm out of a job. Like why are you going to need me anymore in this future?"
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 2922,
+   "paragraphs": [
+    "Like I'm on a HP, you know, because I'm like old school everything these days. Oh yeah. Well, I was going to also ask you about, like what is one of the most unusual or surprising, AI uses or use cases or just surprises from AI that you've seen recently that you're like, wow, that's just amazing."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2950,
+   "paragraphs": [
+    "Oh, wow. So what is what has surprised me recently? I mean, look, so I think the whole thing about DeepSea and the fact that this seems to be a model that was made for a fraction of the cost, like that's surprising. I think I to what you were talking about before with taking text to video and where that has come. So, you know, playing around with Sora a little bit, it's janky, but like I can see that where it's going. That's really surprising and exciting. I think text to music is pretty darn cool too. I was having such a fun time when a company called Udio came out several months ago and what they do is, you know, so you basically just kind of put in a prompt and it will generate a song in whatever style and so forth.",
+    "Like I was just I spent like an entire Saturday afternoon just making songs and sending them to friends and they're like about like little inside things we had and you know, all these kind of things. And like it was it was so great. And like that's it. AI is a tool. AI is a tool that should help us be more creative. Be like I'm not a musician. And I'm, you know, not looking for I'm not going to go to an AI concert anytime soon either. I actually want to go to a concert where you see human beings where, you know, they could be playing a guitar chord and they could screw up or something like that.",
+    "I want to see all of that like, you know, the good and the bad of that. But to just be sending those things around to friends and like highly personal and like of a certain genre or like, oh my, this actually sounds like this artist or whatever it might be, like that's super fun. So I think I am constantly Eulanda, like I'm constantly scouring out there to see what's available and pretty much just kind of just try anything and try everything out there. Why not? Yeah. Oh yeah."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 3073,
+   "paragraphs": [
+    "Oh yeah. I am too. And I've been thinking about themes. We have a song that, you know, we just got from Canva that was, you0 know, you know, free to use in commercial use. But I've been thinking about innovation song or rap or something because I am not a rapper and I"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3093,
+   "paragraphs": [
+    "Just absolutely. You can add you can add ChatGPT or Claude write your rap lyrics and then put it in there and customize that exactly how you want. That's the fun I did for my MFA program. I was making a little like mini documentary about something and it was just for one of my classes. And so it was, you know, just a different art form. And so I, you know, I wrote this thing, I had that, I filmed a bunch and then I'm like, I used it to make a theme song for it. Like literally closing credits theme song. And it was so much fun to be able to do something like that.",
+    "And like I these tools and they're going to enable us to be much more creative, than we could have been otherwise. And I will Absolutely. Yeah."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 3146,
+   "paragraphs": [
+    "I have, you know, if you were able to make a customize, like ChatGPT or customize AI technology that could fix some, you know, human issue you have, what would"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3165,
+   "paragraphs": [
+    "That be? So I've done this a little bit already. So like ChatGPT gives you the ability to do custom GPTs. And I will start preface as I'm not a doctor and this is not medical advice, but I will continue after prefacing with that. I uploaded all my like I got a dexa scan, like a body scan, I got a blood test, I got all I put all my medical information into this custom GPT. And if anything ails me, if there's any question, if there's anything, I just refer to that and knows so much about me because of that. And I will ask it exercise questions.",
+    "I will ask it like eating questions. Like I'll sometimes say like, hey, you know, given my diet and I'll put my goals of what I want to achieve in there. And then I could even go in there and just take a I'm at a restaurant, take a picture of the menu and say, hey, what should I eat? You know, if I want to like follow my diet goals and what I'm trying to achieve and you know where all my biomarkers are and all that like should I do here? And I'll do that every time, but like sometimes it's nice. It's nice to just say like, ah, just pick for me, pick for me and it'll do that.",
+    "And like I've had to just kind of scrape these things together, but I am sure there are companies that are actually working on doing this stuff for real where it's going to be more tailored because the reality is for folks watching this, you know, for folks that like I see my doctor probably 20 minutes a year. You know, and I can my doctor has hundreds and hundreds of patients. Like it is impossible for my doctor to know everything about me, to be able to stay up on all the latest literature that is coming out because there's so much happening in medicine. You know, what they learned in med school 15 years ago doesn't always apply to where we're at today.",
+    "There's so many things happening that are so fast. You need to have this kind of a tool to do that. So, you know, and again, I'm not saying never go to a doctor like, but I'm saying this can actually even help you and it can actually say like, hey, maybe you should see a doctor about this. Or it's like, hey, when I see a doctor about this thing that you mentioned, what are the questions that I should ask? And it could help you with that conversation and really be there for you as a patient and just, you know, give you 24/7 access to something that is never going to get bored, like never going to say like, you already asked me this question.",
+    "Like AIs aren't snarky and that's great. Because I know I've asked the AI the same question multiple times and like if I was asking a human like, oh my god, like again, it doesn't do that. It doesn't do that. You get infinite times and it'll be fine. So yeah. It's true."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 3330,
+   "paragraphs": [
+    "That is so true. Yeah, that's a great that is a great case use. Yeah, I like that."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3339,
+   "paragraphs": [
+    "Yeah. Well, more medicine for sure. Yes. Yeah, yeah."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 3343,
+   "paragraphs": [
+    "Well, I'm going to I'm going to invite you back at some point because, you know, we're this is a ride with, technology and AI that like you said, it's just getting started. So"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3357,
+   "paragraphs": [
+    "Eulanda, the world is changing so darn fast that like, you know, if you have be like it's going to be a whole new world when we do this in six months again or whenever it is that you want me to come back on like I am more than happy to. So anytime you call me on, I always love talking to you."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 3372,
+   "paragraphs": [
+    "Oh, well, thank you. I do want to ask you, how do you define innovation?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3378,
+   "paragraphs": [
+    "Ah, so when I was at PayPal, I didn't define innovation intentionally. And the reason was because, I wanted everybody in our company to have their own definition. I would talk to all the employees when they would start and I would just say, hey, innovation is one of our core principles. You need to be more innovative. And, you0 know, the attorney probably had a very different view on what innovation was than the designer than, you know, whomever it would be. But if you really were to ask me what innovation was and how at least I defined it for myself, it's basically just creating useful things in a new and unique way.",
+    "That's that's how I look at it. Like it's something that has to be useful or at least thoughtful, and just kind of doing it in a in a new method or something like that. And that's how I at least think about it. But I don't know. What's your definition? I want to know your Oh, nobody's ever asked me that. Really? How are yours? I don't care about mine. Like you have a better one. Well,"
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 3448,
+   "paragraphs": [
+    "I don't know if I oh my gosh. That is really a good question for me. I really find that innovation there needs to be a purpose. There's usually a problem that's being solved, to make life better for humans or living beings, you know, animals, you know, flowers, plants, you know, like just to make life better. But there needs to be a purpose. I don't see that just to innovate just to innovate is useful, you know, and I've probably I probably professionally have been accused of like, yeah, she just must innovate just to innovate. I'm like, no, I there's there's a purpose."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3501,
+   "paragraphs": [
+    "But I would say there's sometimes a time for that. Like sometimes like you just innovate for an innovation sake because like you don't know where that is going to take you. There's a great channel on TikTok and everything that is called I think it's called unnecessary innovations. It is awesome. The guy who does this Matty something or other. I can't remember his name exactly, but like he does this stuff and it is like he comes up with the most ridiculous type of things, that are just kind of like solutions. And it's like it's there for laughter. It's like, you know, but you get this kind of just see his old process of like, oh like oh this makes sense.",
+    "This is interesting. This is, you know, they're all stunts, but you're like, oh, I can actually, you know, like he has a table and it's the table's made of puzzle pieces, but then he has coasters that he made on drinks that are the same size of those puzzle pieces. So he actually put it in there and it like fits perfectly inside the table. And he'll just do like things like that. And like they're always impressive, funny, and they just inspire other innovations. Like sometimes it's fun to just think of something silly because that's going to then start to come down the path and think of something real."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 3578,
+   "paragraphs": [
+    "Well, I'm glad you said that and, you know, it is making me, you know, rethink what I just said because I used to teach a creativity class, and you know, we would brainstorm and, you know, and, you know, foster that. But you know, I think sometimes as we get older too, we get the we get the innovation, the playfulness beat out of us. Yes."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3599,
+   "paragraphs": [
+    "It's a Maya Angelou quote, isn't it? I believe that that you're paraphrasing. Yeah, like we're all oh god, she's a great quote about basically having the innovation creativity just beaten out of us when we're like great like yes. Yeah."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 3615,
+   "paragraphs": [
+    "Oh, so I have to look that up. And I will and I think that was partly, you know, related to what I said earlier that you just can't innovate to innovate because I think that's been beaten out of me through academia, leadership roles in academia. Yeah."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3631,
+   "paragraphs": [
+    "So one thing I found out and I just started doing this in the last few months, I have started doing humor writing. And I find like for me that is a great creative outlet because I'm just making myself laugh. I don't know if anybody else is actually laughing when these things get published. But like that has been just a great creative outlet and it just brings you in entirely new places. And I think it's important for all of us to just try new things. Like after this thing, I'm actually going to go ice skating after this. I'm 47 years old. I really can't ice skate.",
+    "I'm trying not to injure or kill myself while doing this, but it is super cool to just like, you know, just kind of rewiring your brain in different ways with different experiences. And so like all of these things are like important for all of us, especially as we get old because otherwise you just get in routines. And there's nothing that kills innovation and creativity by just like having a dull dry routine with nothing new, nothing novel as part of that."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 3693,
+   "paragraphs": [
+    "That is a great point and a great call to action to our listeners is, you know, stop all of those routines. You know, some you need, but you know,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3706,
+   "paragraphs": [
+    "Routines but just, you know, find some way, find those creative outlets and whatever it is that you have. That's right."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 3712,
+   "paragraphs": [
+    "Yeah. Yeah, yeah. So very, very, very some of those routines. So Yes, exactly. Oh, Mike, this has just been too much fun. Thank you for joining us and we will, put your contact information in, the show notes and make sure that, you know, people are able to connect with you. And I will be bugging you again, it was just too fun. I hope so."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3740,
+   "paragraphs": [
+    "But I hope so. No, Eulanda, it's always fun talking to you. Thanks for having me. And yeah, if listeners want to reach out to me, if they made it this far into the podcast and still want to actually reach out reach out on LinkedIn or wherever else, I'm happy to chat."
+   ]
+  },
+  {
+   "speaker": "Dr. Eulanda Sanders",
+   "start": 3755,
+   "paragraphs": [
+    "Well, to our listeners, thank you for joining us and please, you know, make some comments, let us know your thoughts about the episode. Please subscribe and, you know, just continue to embrace change and opportunities. And as always, I say keep innovating, keep dreaming, and keep making a difference."
+   ]
+  }
+ ],
+ "words": 11104
+}
