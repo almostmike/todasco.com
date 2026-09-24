@@ -1,0 +1,492 @@
+{
+ "slug": "productized-podcast-168-innovation-ai-and-the-future-of-product-management",
+ "outlet": "Productized Podcast",
+ "title": "168. Innovation, AI, and the Future of Product Management with Mike Todasco",
+ "date": "Feb-25",
+ "published": "2025-02-18",
+ "url": "https://www.youtube.com/watch?v=VK3zYqpqP1c",
+ "duration_sec": 3082,
+ "host": "Pedro Ganço",
+ "speakers": [
+  "Mike Todasco",
+  "Pedro Ganço"
+ ],
+ "turns": [
+  {
+   "speaker": "Pedro Ganço",
+   "start": 0,
+   "paragraphs": [
+    "Hi, welcome to 80th season of the Productized Podcast. My name is Pedro Ganço and I'm hosting today's episode. We're diving deep into product challenges and emerging opportunities. Today we have a very special guest, Mike Todasco. Mike is a visiting fellow at the James Silberrad Brown Center for Artificial Intelligence at the San Diego State University and an AI writer and advisor. Previously, he has spent over a decade at PayPal where he led innovation on a global scale. He's a serial innovator with over 100 patents and an inspiring advocate for fostering creativity in teams. And if you're into rhymes, you should definitely check his LinkedIn about section to find his numerous sites as well.",
+    "Today we'll be discussing Mike's journey through the world of product innovation, how AI is transforming creativity and lessons he's learned from launching groundbreaking products. Mike, welcome to the show."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 58,
+   "paragraphs": [
+    "Pedro, thanks for having me today. I thought you're going to do one of the rhymes. I was hoping to hear you rap it, but that's okay. They could just go to my profile and see."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 66,
+   "paragraphs": [
+    "I think I think that needs to go to the second time we get this interview and I think it's a great way for people now that are curious. I'll not say the rhyme. People need now to check your LinkedIn profile to see what I'm talking about. That's awesome. So before we dive in, we usually go easy. We have three very light questions just to do the semi-ice breaking and get to know you in a different lens. So the question I have for you is, what is your favorite app or tech product right now?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 92,
+   "paragraphs": [
+    "That's a great way to start off. My favorite app that I'm using, my gosh, I have to look at my phone. I'm sorry. Like my favorite app that I'm using on my phone, I think I got to go with Claude, honestly. Like that is probably my one go-to. I'm looking at my front page on there. Like the writing abilities of Claude are really next level. It is so helpful to have that. I love so many things about ChatGPT and many other AI products, but I think if I were to have, like what would be the one if it went away, I would be really, really upset about it. It would probably be that."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 129,
+   "paragraphs": [
+    "Okay, that's interesting. I would be guessing it would be ChatGPT. So you're now using more Claude AI than ChatGPT for conversational."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 138,
+   "paragraphs": [
+    "I love Well, I love the voice on ChatGPT specifically. I think that's amazing and I use that for a lot. It's, you know, I've been displaying like different voices, using it to go on walks, using it for a dictation tool, all this stuff. So maybe that's my second favorite one. But I do a lot of writing and Claude is reasonably able to match my style and I use it as an editor. I use I use it for the entire writing process to just help me out."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 164,
+   "paragraphs": [
+    "Okay, cool. I wasn't expecting that. Another one that probably is not that light of a question may make you sing is what is the most unusual or interesting thing about you that people can't find online?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 176,
+   "paragraphs": [
+    "That you can't find online? I'm 47 years old and I'm just taking up ice skating as a 47-year-old. And here's the proof that I guess now you can find online. I was like week three into it, took a hard fall and sprained my sprained my arm. It'll be better, but I'll be back out there. So yeah, I guess that's one thing you probably couldn't find online about me. That's like, wow, 47 and you're just starting to do this. But"
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 204,
+   "paragraphs": [
+    "Yeah. I confirmed that I did some stalking and I couldn't find that at all. And I hope you get better from the fall you just had. No, no. Yeah, your open heart. You share a lot with the world on your thoughts, which is really, really good. And just to wrap up these ice breaking questions, easy. You never stumbled upon product management. So what do you imagine you would be doing today?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 226,
+   "paragraphs": [
+    "So the whole I didn't know what product management was when I actually started at PayPal. Like I truly did not. I never, I mean, I think I heard of the term, but I didn't know what it was. And so I actually started product analytics and eventually became a PM in my time there. So I would almost say like if I didn't enter that world of tech and product and all that, like it's hard to imagine because it was such a career pivot. I was doing finance and strategy before that. But if I didn't, I don't think I would have continued in finance and strategy. Honestly, I think I would probably be running my own business.",
+    "I don't know what that would look like. I don't even know if it would be a software business. I don't know what it would be. It would probably have been something entrepreneurial. Yeah, just something entrepreneurial. And of course, being a product manager is very entrepreneurial in so many ways. We can get we'll get to that later, no doubt."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 279,
+   "paragraphs": [
+    "Yeah, and that's a very good pivoting point to the going a bit into your journey. The first segment of this interview for people that may not know you yet, because you have a very fascinating career, you started your career on like you were saying, like in the finance world, like as an accountant, but then you also you've been a founder, you made your own company, you went for PayPal then a decade as a product person, then director of innovation, and now more recently as a lecturer, an AI advisor. And every single title of this has a story of its own in your life, in your career.",
+    "And if you have to say what the role better suits you today, how do you see you today? As a product person, this is a more broad question. How do you see yourself today?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 322,
+   "paragraphs": [
+    "I'm a curious person. I think that's the honest answer, Pedro. Like I'm not necessarily a good corporate person. I don't know like how to play a lot of politics. I don't I don't know a lot of other things, but I'm always just been curious. I love customers. I love working with customers. I have a small soft spot in my heart for small businesses and things like that. And so I think I've always just been drawn to new and different challenges in my life. And so, yeah, finance and accounting is very different than strategy, which is very different than product, which became innovation, and now doing university stuff.",
+    "I'm, you know, constantly discovering and find that, you know, in most jobs that I have, I just get bored after a little while. And, you know, it's it's always interesting to have a new challenge. Like my job at innovation at PayPal was six years in the same job. I've never done that before. And that's probably the one rare job in the world I could ever see that I could have possibly lasted that long. So, you know, five years from now, what am I going to be doing? Am I still going to be doing the university stuff I'm doing now? No. Hope at San Diego State isn't watching this right now.",
+    "My boss and all that, but like I think they know that about me and so forth. Like, you know, maybe I do it part-time. I love to work with students. I do love to do all that, but, you know, my life's going to have different phases. I'll probably be doing more writing and things like that. Like I've already started to be much more active in different styles and types of writing. I see myself being much more active writer maybe in five years."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 415,
+   "paragraphs": [
+    "And what has inspired you in that transition to tech? You came from an accountant in finance world. What led you to this pivoting?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 426,
+   "paragraphs": [
+    "I've always been super interested in technology. I just always like I was never a technologist, but I love technology. So about 21 years ago, so like 2003, I actually got my wife and I, we got married, we had our first house, and one of the things we bought, we had a big yard, is I bought a robotic lawnmower. And like it's it's funny like, you know, in 2003, I was like, oh well everyone's going to have a robot mowing their lawn in 20 years. And today like people like what that existed 20 years ago? It did. It was really hard to work with and I had to manipulate and do a lot of things to actually get it to work.",
+    "But I've just always been really interested in where that is going to take us. And I think that's one of the reasons why I'm so excited about AI is I just see this being a huge shift in product and business and our personal lives and everything that we do. For the first time with these technologies, at least in my lifetime, you really don't have to be an engineer to grasp it and to be able to manipulate it and to do it. And that's why it's really exciting to me. So I think I've just always been interested in how technology can fix our problems, can make our lives better and so forth. So that's always what I've been drawn to."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 502,
+   "paragraphs": [
+    "That's an immense potential, you not being in the need of being the tech specialist and still being able to do a lot of stuff with AI. And that's massive. And in your journey, you also been a founder of Sketchmaven, a very very fun project that you had like solving a real problem. Do you want to expand a little bit on that? Because absolutely."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 523,
+   "paragraphs": [
+    "Absolutely. So first thing I would recommend is never let a good idea go to waste. So anybody who's listening to this and watching this, like don't let a good idea go away. Like I have note files that I have backed up on my phone of hundreds of book ideas, movies ideas, business ideas, whatever. Like whenever I have an idea for something, just write it down. And back when I was a kid, I was even doing this. And I remember one time being at a comic book convention because I love collecting comic books, and they had a piece of original artwork from a comic that I really liked.",
+    "And I just remember it was like $150 at the time. And I didn't have $150. Like a regular comic back in those days would cost a dollar. So the artwork to the original cover, which only one exists in the world, was a lot more than that. And of course it was. Well, fast forward to me being an adult, like I remembered that and I was like, I should go find that. I'm going to go on eBay and find that cover. Well, here is the problem. You can't find that on eBay. Like when there's only one of something that exists in the entire world, it's really darn hard to find that thing.",
+    "And so that's what and this is true for a lot of things for a lot of different collectibles, especially in 2008, 2009 when I was starting this. Sites like eBay didn't it was just very general. It didn't serve specific collector communities really well. And so my first thesis was a company called Sketchmaven. And I owned like Shoemaven and Comicmaven and all these other kind of it was building off this brand. It was going to expand into other underserved collectible markets. But the one that I thought would work really well was this original comic art because the problem that we're solving was there are thing there are comic books that have been read by millions of people, but only one of each of those original pages because they used to draw all of these pages by hand.",
+    "Now it's digital so there isn't really a page behind it. Only one exists and there's millions of those pages. So if you want to find a page, how do you do that? Like eBay doesn't work for that. And so it was really a two-sided marketplace where you could say, hey, I own this, hey, I want to buy this, like if anybody in the world has this and so forth for that. And that was what I built out. It was an amazing ride. It was cool working with artists, collectors and doing all this stuff. I also had no idea what I was doing. The site was getting hacked.",
+    "I didn't even have in the beginning of the website, I don't even think I had secure checkout. This is before Stripe that we were doing this. So like literally like you would buy something and like your credit card was just going into the ether there as part of as part of doing this. You know, I learned those things pretty quickly as part of it. But yeah, I mean, it was an amazing experience. It never got to where I wanted to be. PayPal came calling about two years later. I had my first kid. I'm like, okay, I probably need a real job instead of one that just has money going out the door.",
+    "And that's what that was Sketchmaven. Look, I will say to anybody, starting your own business is an amazing experience. Amazing. I learned so much more in those two years than probably any other two-year period in my life. You learn how to do product, you learn how to work with engineers. And again, I'm somebody who's coming from the paper industry before this. So like I was doing accounting and finance and strategy in the paper industry of all things. It was quite an introduction into technology and, you know, really set me up for success for where I was able to go after that."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 732,
+   "paragraphs": [
+    "That's amazing. And I was even about to ask you exactly that, where you felt you learned more, building that own startup of yours or working for PayPal. It's you just said it. You said that you would learn more in a startup, doing your own stuff than joining just a company. Why do you feel is that? Is because the rate of failure needs to really fail really fast and a lot because you need to learn a lot."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 757,
+   "paragraphs": [
+    "Yeah. I mean, rate of failure is is one huge part of that. I think it's also it's on you."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 765,
+   "paragraphs": [
+    "And quick break, did you know this year's Productized Conference is a big one? We're celebrating our 10th edition. For a decade, we've been bringing product managers, designers and innovators together in Lisbon for top-tier insights, interactive workshops and invaluable networking. This year is bigger and better than ever with world-class speakers and special anniversary celebrations. Don't miss your chance to be part of it October 16th to 17th in Lisbon. Join us for the big celebration. Tickets are now available at www.productized.co. We hope to meet you there."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 796,
+   "paragraphs": [
+    "It is your business. It becomes your identity also when you're doing this. Like people like we're friends. Like I was the comic book guy for years among friend groups and whatever else and people I met. I mean, it became part of your identity. So like if it's if it fails, like in many ways you fail. I mean, that's how I felt. That was hard for a while for me to really get over that. So you do everything possible because this is your baby. It didn't exist if you weren't there. If you walk away, it doesn't exist anymore. I mean, I was a solopreneur. I mean, it was just me in that business.",
+    "I was hiring out, I was contracting out other stuff, but ultimately it was just me. And you're managing these people, you're using your actual money doing this thing. You're trying to do things on the cheap. You're just being scrappy and finding out whatever way it takes to make this thing a success. I learned a lot when I was at PayPal, but PayPal didn't go bankrupt the day I left the company. PayPal didn't go bankrupt the day the CEO when I was there left the company. I mean, that's what corporations are meant to do. They have redundancies. There's not Steve Jobs left Apple. He was ill and Tim Cook took over.",
+    "And Tim Cook is no Steve Jobs. You know, I don't mean that disparagingly, but he's not. He would be the first person to admit that. You know, Apple stock has probably gone 10x at least since he left the company. Like you know what I mean? So like, you know, like one of the premier technologists of the world, like even Elon Musk, I mean, whoever the equivalent is today, if he leads Tesla, is Tesla still going to survive? Yeah, Tesla's going to be fine. Frankly, dare I say in some ways it might be better. Stock price is probably going to take a hit, I'm sure, but like Yeah, but I mean, it's not like he's there full-time anyways."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 906,
+   "paragraphs": [
+    "So Yeah, that totally sums it up. That's and to be fair, you did it all before like you're saying, before Stripe, before AI, before we can jump on a Claude and do such amazing content and in very different times. That leads me very well to the first segment I want to explore with you, which is all about innovation because you're such a privileged guest for us to have in here to talk about innovation. And for any product managers that may be listening to us, how can they foster innovation within their organizations? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 933,
+   "paragraphs": [
+    "I will tell you something I actually did when I was leading a product team at PayPal. This is before I had the innovation job. It was a function called product launch. So most companies don't have this. It was almost it was like halfway between product management and project management. It was a weird hybrid we had between those two at PayPal. We had both of those other functions, but there's this weird launch function that we had as well. So I took on this team with about 10 people or so. I remember meeting with everybody and one of the questions I had, I was like, do you find yourself to be a creative person or an innovative person?",
+    "I can't remember the term I used. I used them interchangeably. And half of the team said no and half of the team said yes. And one of my jobs, the manager from that point became, okay, I want to get the half that sees no, that says no to see that they actually are innovative, that they are creative. So one of the things I did was we had a weekly staff meeting and I said, you know, so we, you know, first week of that staff meeting, I'm saying like, do you know what we're going to do here? We're going to take the first five minutes of the 30 minutes we're all going to meet together and I'm going to ask one of you every week, what's something innovative you've done over the past week?",
+    "I'm going to cold call on you to do that. I'm going to do it this week and I'm going to give an example. And I don't even remember what I said, but I made a very little example, something small, something, you know, I was like, but and again, it could be in your professional life, it could be in your personal life. Now, I think the initial reaction was like odd, like this is I hate my boss. My boss is making me do this. Like I got to do my job and now I have to always think about something innovative. But then I started doing that.",
+    "And I think the first couple weeks I might have been talking to people and I was like, hey, I would cold call on somebody who I knew had something good. So one person said an example of their spouse who brought somebody home. They were making dinner that one night and they never told that. So like they had to like literally on the spot just figure out, okay, oh god, like we got we got a guest coming over, like they're in the like I got to do something and how they figured it out. Another one they talked about PayPal's headquarters is right next to an airport and they talked about how they actually cut through the airport to get to work that day.",
+    "And I was like, what? Like you actually went through the airport to get here? Like we're separate. Like yeah, yeah, yeah, like this is what I did. And like another one talked about how wasn't showing an engineer wasn't showing up for meetings, you know, and they needed this engineer there. How do they solve that problem? You could have went to their manager or whatever. Found out that this engineer liked a certain type of donut and basically added to the bought those, expense those. But I'm like, yeah, of course you can just expense donuts if you need this to happen. Brought them in, put that in the headline of their meeting invite, resent the invite out and low and behold, that engineer started showing up to the meetings.",
+    "And again, so like this was like this is 10 years later. This is innovation. And just week after week after week just hearing these things and hearing these other people on your team do that, like these little things help you think of like, oh yeah, I'm innovative, I'm creative. And once you believe that you are, like you see it. Like biologically we are an innovative species. We just are. That is how we got to where we are at as a society today. I mean, it all became it all came from human innovation, human ingenuity and creating and building stuff. And I think it just comes to how do you unlock that in your team.",
+    "So like if you want if you're a product manager, you or you have a team or even your team of engineers, whatever, and you want them to be more innovative, that's it. You have them look at the little things, have them identify that. And then we can talk about more steps you could do, but like to me that's step one right there. Just have them realize the innovation that they have with them within themselves is the very first thing to do."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 1170,
+   "paragraphs": [
+    "Remove the limiting beliefs all away and think that innovation is everywhere. That really reminds me of Elon Musk going into Twitter, what have you done today? What have you done this week? Like because he wants us to focus on productivity. That's amazing that you did exactly the same thing way before like saying what did you did innovative this week? And it can be much beyond tech."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1194,
+   "paragraphs": [
+    "Absolutely. And I think you don't want to just limit it to their job. You want people to think about this in all aspects of their life. I think that is an important thing because when they're thinking about how I'm innovative at home, when they're driving to work, when they're when they're on vacation, and again, they don't have to be thinking about work, they just have to be thinking about, oh yeah, I'm an innovator. I always come up with different solutions. I always come up with great questions to ask or whatever. When that becomes part of a person's identity, they're going to bring that into the workplace."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 1223,
+   "paragraphs": [
+    "Okay, that's amazing. You put the baseline for everyone in the team to be innovative in this team. And then beyond that, do you have any kind of frameworks or kind of processes that you like to implement in companies to become innovative? Or you think this one step that you shared is enough to cascade innovation?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1242,
+   "paragraphs": [
+    "What I shared is step one. What I'd say is step two and this is something anybody can access. I used to actually teach this at PayPal back, you know, 10 plus years ago. Adobe actually open sourced something that they have called Kickbox. Kick as in kicking something and box as in a box. And anybody can go today even to kickbox.org and you could download all the materials. This was something Adobe had internally where anybody who had an idea within the company at any time could basically just go and claim one of these boxes. And then they could work on it in their spare time and be innovative and so forth.",
+    "I took that, tweaked that, like so it wasn't available to all employees within PayPal. You had to have kind of a team sponsor. But if the team sponsored it, then I would come in, I would teach that, I would work with them. And the whole concept is it's a lot of customer discovery. A lot of that starts with like, you know, that you literally have like a bad idea notebook where you just, you know, one of the things we already talked about, you start writing down all of the ideas that you potentially have. And then, you know, you find one that resonates and then you start talking to customers about that idea and start talking to customers more specifically about what problems that they're having.",
+    "And you just kind of keep iterating and iterating and iterating. And at some point, at least at PayPal, we would then have the group present to a panel of like VPs and other judges and kind of friends of mine who are doing me a favor at PayPal. And some like in some of those would actually see an idea and be like, oh my god, we need to do that. And they would actually implement that and they would say like, okay, can we bring that into the team? Let's talk more about that. So there would be that. And other times people would come up with an idea.",
+    "Like one person I remember his idea was he wanted to make a tabletop game, like literally like a Dungeons and Dragons type table. I know nothing about gaming as you could probably tell here, but like that type of a tabletop game. I remember him saying like, hey, is it okay? I'm like, yes, it's okay because like what does that have to do with PayPal? Nothing. But again, it's teaching him how to be innovative about something that he's really passionate about. And that was one of the rules that we had in there. Like it doesn't matter. Like you can innovate on absolutely anything that you want with this kickbox if you're part of the program.",
+    "And I think that was actually important. And look, most people do do work projects, but if somebody wants to do something outside of it's still going to just teach them the skills to be more innovative. So again, they get to bring that back into their job later."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 1397,
+   "paragraphs": [
+    "Okay, that completely ruins probably my next question because I was thinking about that. I'll bring it on. I was about to ask you if you what are the most common mistakes you see people making when trying to innovate? But now that you bring this gaming into equation, do you feel that there's no mistakes because you don't know what to expect? Or do you feel, no, no, I actually see some mistakes and there are things people shouldn't do to innovate."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1423,
+   "paragraphs": [
+    "No, I think I think it's a great question. And I think one common mistake is to frankly, you have one side of your brain that's basically telling you, hey, I got all these amazing crazy ideas and the other side that's kind of like, god, that's going to be so hard to do. And, you know, how are you going to implement that? You're never going to get funding. That's such a pain in the butt to do that, whatever it might be. Getting this side of the brain under control is letting this side of the brain that's like putting filters on you run free. That's one of the biggest problems with innovation, at least in the early stages.",
+    "In the beginning, you really need to be open. You need to think about crazy ideas. We used to host brainstorming sessions at PayPal and sometimes I would actually like give out an award for somebody who came up with the dumbest idea in the session. Like as a way to just encourage that, as a way to just like throw things out there and have people do that. And I would throw out dumb ideas myself to just make sure that everybody knows, hey, it's a safe space."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 1479,
+   "paragraphs": [
+    "Yeah. Remove all the judgmental part of it, yeah."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1482,
+   "paragraphs": [
+    "Removing the judgment. Like, look, it has to come at some point. You don't want to just release dumb ideas into the marketplace, but that comes later. That comes when they're actually talking to customers. That comes when building and so forth. But, you know, the first stages of innovation like really need to be just wide open, casting a wide net because I could tell you like so many times somebody like somebody will even just come up with a dumb idea and I'm trying to understand it, to yes and it, to build off of that idea or and I might misinterpret it and I go in a different direction, but because they said that crazy thing, it never would have let me think about things in a different way.",
+    "You know, one other example I'll give, we actually worked with a lot of product teams in PayPal when I was in innovation on this. You know, there was I forget which group within PayPal, but PayPal's whole model is based off of a merchant paying for credit card processing. So, you go to whatever, walmart.com, you click the PayPal button on Walmart, you put in your credit card, Walmart will pay PayPal a fee, and you get your, you know, $100 thing you bought on Walmart for $100, something like that. So, we actually started these sessions where the question I asked was what if PayPal was free? What would that look like?",
+    "So, we actually say we're changing our business model tomorrow. Merchants, you don't need to pay anything for PayPal. Like what does what Okay, what happens then? And again, like those are those are the kind of questions that start the best sessions like this because your initial reaction to that, especially if you've been working at PayPal for as long as I have, you'd be like, well, that's stupid. Like what are you thinking about? That's like how we make money. Well, we're just not going to make money anymore? We're like, no, no, we're going to make money. How are we going to make money? What are we going to do?",
+    "And that gets And that leads to all of these other questions of like, okay, so like we're we're forced to do that. Credit cards still cost us money. Guess we could charge the consumer for the privilege of using PayPal. Well, what would that look like? Like And then it leads to all of these other questions that you wouldn't have or of these potential products. I need 5% of them are going to be garbage. But like maybe 5% will be forcing you to think in a completely new and a completely different way."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 1620,
+   "paragraphs": [
+    "I completely love that. And maybe sometimes not even get to the good results. And the way I see it, failure is really ingrained with innovation. And it's often part of the innovation process and getting through the failures. Can you Can you share with us a time or experiment that didn't go as planned and how can one learn from it?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1643,
+   "paragraphs": [
+    "I love failure stories, Pedro. So, thank you for I'm going to give you two, in fact, and both from PayPal. One is it's a little bit meta for lack of a better term here. So, we were actually creating This was in 2019, 2020. We had an innovation lab there and at one point we were inspired by Ben & Jerry's, the ice cream company. One of the things they have at Ben & Jerry's headquarters is a graveyard for all of the ice cream flavors that no longer exist. So, you see that there like you could go online, you could see pictures, it's all these flavors and what years they existed.",
+    "You know, it's a flavor failure graveyard basically. And like it came up so many times in my years at the company like, you know, we tried that, but like do we really learn from these failures? Like often we just sweep them under the rug and all that. So, we actually started to build a product graveyard of all the PayPal products that had died and failed. We literally bought this big wooden slab from like a Home Depot, had all this stuff on there, had brushes and shrubs. We were making like this whole thing. Like there's some people in the company that were really excited about this and they were like coming in early in the day and building this thing out and so forth.",
+    "And we were going to have QR codes with actual videos with the people who made these products telling the stories of like, okay, what worked, what didn't work and so forth because some because something failed 5 years ago doesn't mean it can't fail today. I'm I'm convinced today if somebody wants to go create my comic artwork marketplace like that will actually work today. There's so much easier to buy it. I'm I'm kind of done with that. But if somebody wants to take that and run with it, go with it. You'll find a way to make that thing work. But here's the thing, COVID happened, we were out of the office and I never went back into the innovation lab that I used to be at.",
+    "So, I think the failure graveyard itself is a failure. It's a graveyard for the graveyard. Yeah, it's a yeah, it's a failure of a failure. That's why I said it was meta in the beginning. So, that So, that's one. Another one was a product I was working on was called PayPal Beacon. This was like 12 years ago we were working on this thing. It was a piece of hardware. So, a little like piece of hardware like no bigger than a pen. You would walk into a store, it would communicate verse via Bluetooth 4.0, which was a new standard at the time, with somebody's device and these two could passively talk to each other, which enabled things like hands-free payments.",
+    "Like you literally don't even need to touch your phone. You walk into the store, you're within vicinity of this sensor and you could pay hands-free. Very cool technology. This is how I got like my first patents and so forth were all related to it and my role on the team is working on this. I loved it. I was so excited about it. We were building and then we're like, okay, let's go test this. So, we went to Stanford University, which is very close to where PayPal's headquarters are and there's University Avenue there. So, all these super smart, tech savvy students that are there, we had relationships with a few stores there.",
+    "We set it up in those stores. Start talking to people and everybody and all the students we're talking to were like, why am I going to do this? Like why would ever Why would I ever use my phone to make a payments? Like I can use a credit card, I can use cash. What the heck? What problem are you actually solving? I'm like, oh, well, that's just the first batch of students. Let's see. And like we did this for weeks and weeks and weeks and like, oh god, like nobody has any desire to do to use this thing. Now, yeah. So, in this And eventually David Marcus, who was the president of PayPal at the time, was a huge supporter of this project.",
+    "He left to go to Meta. So, like, you know, that changed the company, new president coming in, all this other kind of stuff. And it was just like, okay, the project's dead. Like this is going nowhere as part of that. Like customers hate it, the supporter in the company's gone, all that stuff. And it was a failure. And it was like even like I almost had I became known as the beacon. Oh my god, you're the guy who made that thing like or worked on that. So, yeah, like even my brand somewhat took a hit there. But like here's the thing, we were way just One, we didn't talk to customers enough early on.",
+    "We were so excited about the technology that we were building the technology for technology's sake. And that's one thing that's, you know, I think everyone always is told not to do. I knew that beforehand, but like it's easy to get sucked up in it when you're when you're getting patent filings, when you're building all this stuff, when you're actually seeing it work, when our lead engineer was literally driving down to Cupertino to meet with Apple because Apple wasn't able to figure out how to get Bluetooth 4.0 to work in their phones as well as it was working in our devices. Like I mean that was like We were like really ahead technologically there, but customers didn't want it. And that was the lesson. It wasn't the right time. The customer team was not the right time for"
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 1943,
+   "paragraphs": [
+    "That. Sometimes it's not the bad idea, it's just very poor luck on timing. Like you said, the SketchMaven today might be the greatest thing. And if you go to talk to users before you were probably people wouldn't want to go into a stranger's car, suddenly they want it. If you come to Portugal, now people are willing to pay with their mobile phones a day. So, probably there has an essence of certainty, right? Sometimes even the idea could be good, but the timing is just not right."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1972,
+   "paragraphs": [
+    "Absolutely. And that was one more reason why we wanted this kind of graveyard of product failures because like, you know, we tried QR codes for payments in 2012 and stuff. And it's funny, I actually remember us doing this in 2012 at PayPal and at the time we're like, do people really still use QR codes? Because like QR codes, they were very popular in like the early to mid aughts, I would say, like as cameras were, you know, and probably more mid aughts like. And then like QR codes went away and like, well, you got to pay with the QR code, but like But then you like look at Alipay and other things like that, like it took off there years later.",
+    "Like you never know. And absolutely timing does have so much to do with whatever it is that you're building. And just because what you're building doesn't mean the idea was wrong. It might just mean that the time was wrong for that specific idea."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 2028,
+   "paragraphs": [
+    "Totally. I could spend the entire podcast session just talking about innovation and pick up a brand on it, but I don't want to miss the opportunity to talk about AI. Everyone is not talking about AI, but I feel people will be surprised with the ideas that you may have on it because you're now deeply immersed in exploring how AI is changing the way we create. And I want to start off with this question like because the generative AI is booming everywhere. We see every company wrapping ChatGPT around their existing products. What are your thoughts on it? Is this the right way to innovate, a necessary evil to figure out and not miss out? Curious to know what you think about it."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2065,
+   "paragraphs": [
+    "AI and what we're building, we collectively as in the world is building with like these generative AI tools are going to be probably the most impactful software tools we've ever seen in our lifetimes. It is already changing how I work professionally, how I interact in my home. And it's just an amount of time before we all are doing that. The rest of the world is going to catch up to that eventually and start to see like, wow, this truly does change everything. So, a company that's just building a wrapper on ChatGPT, I don't know. I mean I mean here's here's what I would say is ChatGPT is going to be an amazing tool that can solve so many different problems.",
+    "ChatGPT itself was just a wrapper on GPT-3 and GPT-3.5. It was available before November of 2022. I mean OpenAI released the DaVinci model, which anybody could access through the OpenAI playground. And when ChatGPT And I was using it every day. When ChatGPT itself launched, I remember I was like, okay, this is a thing they already have. Like I didn't I honestly I didn't get it because like because I was like, well, you already have this. It's just called the playground and I had access to that. I'm like, well, what the heck is the big deal for this? And then I saw people talking about it a little bit that weekend and I'm like, okay, well, maybe there's something Like it took me at least a month or so before I realized like what was really happening here because they had a really similar tool that actually had more stuff, but it was a different UI.",
+    "It didn't have like temperature and all these other weird things. It was just simplifying it for people. So, if you're out there and you're thinking, well, we're just a wrapper on ChatGPT, I think that can work. I mean especially if you know If you have a use case and you're building something for a customer that you know intimately and you are putting some fine tuning on top of ChatGPT, if you're doing whatever it might be like and you're really just nailing that targeted use case, I think that that can work just fine. Now, is that going to scale to a billion dollar business? Well, probably not.",
+    "Like, you know, I mean so there are limitations to it, but, you know, if you're a one or two person shop, you have a highly targeted customer that you are focused on and you can use these tools to give them a much better experience than what natively they're going to be able to get in the ChatGPT app, I think that's okay. I think that's totally okay to do something like that. But we'll see. I mean I think there are a lot of companies that are just doing it really simply in a really lazy way that just And those won't survive. But I think if Look, if you know your customer, you know, take whatever niche of customer you want, OpenAI is not going to be focused on that.",
+    "They're not going to be focused on serving that customer in any way. They're like very broad. They're they're what like 1,500 people now like something like that in the entire company. They're they're not going to be hyper focused on this. Maybe when we get to the point of AGI, when if that ever comes, like then it could, but for the most part like yeah, I'd What I'd say go out and make those wrappers and just see what works."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 2268,
+   "paragraphs": [
+    "And just figure it out because if you focus on still your customer's problems that you're solving, it's just a way to enhance your current solutions. So, probably a way to go until figure it out. Okay."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2278,
+   "paragraphs": [
+    "And the other thing is like the one of the great things is like we have so many competing models today and different models do do things better. Like I guess in my personal opinion, Claude 3.5 is a much better writer in most ways than ChatGPT is. So, like, you know, I mean maybe there's a way to use different types of your wrapper over different models and for these types of projects you're grabbing that model, for those you're grabbing that other one. That's something ChatGPT will never do. They're never going to be integrating Claude for certain things or whatever it might be. And, you know, there might be You might be able to be more cost effective. You might be able to just build a better product, whatever it might be."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 2318,
+   "paragraphs": [
+    "For sure it will definitely change the way we do things. And that's the power of new technology. It always comes with a disruption, but it also comes with fear and uncertainty. So, now I want to ask you where do you stand on a scale from 1 to 10, being 1, let's regulate it, let's figure it out first, and 10 being the wild west of like just embrace and see what it goes and then we focus more on the ethical and philosophical questions. Where do you stand? Look, I"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2343,
+   "paragraphs": [
+    "Think I think this needs to be regulated. I don't know if it need How much more regulation we need. I think for certain things like in the US in particular, we need more legal clarity on things like copyright law that has not been updated for this. In a country like Japan, they basically have said if it's out there in the open web, you want to train a large language model, it's yours to have. And that's it. Like there's no compensation, no nothing. I mean that's effectively how it works in Japan. I don't think that's how it's going to work in the United States. I think we're going to get somewhere around that.",
+    "I think, you know, already these models have filters on them. There is red teaming on them. I'm pretty sure if you're using ChatGPT or any of these models in Germany, it's going to be very hard to generate Nazi propaganda in those models because that's illegal. And believe me, like Twitter and Facebook and all these have figured out how to do that in Germany where it is illegal to distribute that type of information. They figured that real quick. Even eBay had to figure that out because like, you know, that's that's legal in the United States to like sell World War II Nazi propaganda, I don't know, Alexa.",
+    "Like that's that's legal in the United States. That ain't legal in Germany to do that. And this is something that eBay and the other sites like that, like everyone has figured that out. So, I think there's a lot to be done within the local laws that already exist. Or I'm sorry, I think a lot has already been done for the local laws that already exist. The next level for us for the theoretical, I don't know how much more we really need to do with that. You know, there is a question on open sourcing for open source materials like if Meta is then allowing this or their Llama model, well, I guess you could point to Meta as the creator of Llama.",
+    "So, they would ultimately be responsible. But it's something that's like more communal open source like how does that work? That's a little bit tougher for me. But yeah, so to answer your question, Pedro, scale 1 to 10, I'm probably like a 6 on that. I'm like yeah, I mean like I think most of our current laws are going to suffice for AI and there's probably a few other things that we need to do, but I would never I'm I'm definitely not in the stop everything camp."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 2475,
+   "paragraphs": [
+    "Okay. Yeah, you are in the positive lens of this will bring much more opportunities rather than challenges."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2481,
+   "paragraphs": [
+    "Most technologies we've had in our lifetime, with some exceptions, have given more positive to the world than negative. You know, things developed for, you know, you always go like Alfred Nobel and, you know, like, you know, you know, he created dynamites, which was meant for mining and all this other stuff, and then all of a sudden like it, you know, it expands and being used for war and all this other stuff, hence the creation of the Nobel Prize. And all this is, you know, the story that I'm sure most people know."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 2514,
+   "paragraphs": [
+    "Yeah, I mean At the same time, fire kills, electricity kills, internet spreads hate and yeah, but overall when you look at these big technology changes, overall it's"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2525,
+   "paragraphs": [
+    "Positive. I think the internet is a net positive. I think that social networks are a net positive although, you know, and like I think And I think AI will absolutely be a net positive as well. That does not mean there's downsides. There are plenty of downsides to it, but the question is is it more good than bad? Are we better as a society or are we worse as a society to have it? And I'm in the definitely in the better camp."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 2549,
+   "paragraphs": [
+    "You know, we have a ton of tools like ChatGPT, Claude AI, Midjourney. Where do you see this going? What are the opportunities? Is just on content creation because AI is really really good at it now? What other opportunities you foresee? AI changing products, changing services."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2567,
+   "paragraphs": [
+    "I see yeah, like Midjourney is great just for iteration, for ideation, to be able to share with a designer, hey, this is kind of what I'm thinking. I'm I'm thinking this sort of style, this whatever it might be. You know, it's a great step one for that. Claude, ChatGPT are great thought partners, they're great brainstorming partners. I think that you could do so much with these models and tools and even just like bouncing ideas off of like, hey, is this dumb? Like can act like you are this customer and put a customer profile in there. And I'm going to pitch like five different ideas to you.",
+    "Tell me which one of these ideas you think resonates the most. Like you could do some really interesting things in that. I think ultimately with where these tools are at today, they're not job killers for most jobs by any stretch. They're not. I think they will make people be able to do a heck of a lot more once they start to know and understand how to use these tools effectively. That's going And that's going to take time. Especially that's going to take time in larger organizations. Big companies are at a disadvantage here. Small companies are at a complete advantage for something like this because they're going to be AI first because they have no other option to do whatever it is that they want to do with that.",
+    "So, yeah. So, I mean I think ultimately you want to be as AI first as you can. You want to embrace these tools. Your jobs will evolve. Your jobs are not going to be replaced for the vast majority of jobs. But I mean I think you want to understand these tools because if you're If you use these tools and you're like, oh my god, it does everything I do and it does it 100 times faster and 10 times better, well, then I think you do need to question, well, what is your job? What are you ultimately trying to do and serve? And if it's like, well, this is it, like my whole job is I don't know, translating low quality material on mass or something and that's it, well, that might be you'll just do more proofreading or do more checking of that I guess or whatever it might be."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 2694,
+   "paragraphs": [
+    "And looking out to the audience that is listening to us, mostly junior and senior product managers, the roles are going to evolve like you're saying and putting AI into it, how do you see the role changing? Is just the discovery that will be speeded up because you can do so much more brainstorming like you're saying? Other things in product management, how do you see the role evolve with AI?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2712,
+   "paragraphs": [
+    "Think about it. So, it's going to help you talk to your designers because I think you're going to be able to Assuming you don't have the design skills, which I never had, you're going to be able to sketch things out using Midjourney or Flux or any of these image type generators to kind of get to the vision of like, hey, I'm thinking something like this. Like can you take the font of this, the design of this and kind of put it all together into one versus just like, you know, explaining stuff at a higher level or even just like rapid iteration to showing things to customers?",
+    "Like my gosh, we You can literally be sitting with a customer potentially with these tools with a little bit of fine tuning and just like spinning up some pretty quick, you know, robust paper prototypes let's just say and showing them on an ongoing basis. I think even it's going to enable you to do some coding. I mean one of I'm not an engineer and over the summer I was developing video games that would related to the articles about AI that I was writing. So, I was writing about a bunch of AI movies and I'm like, hey, wouldn't it be fun if I actually developed video games for each of these movies that I'm watching and like, you know, that I could tell a story.",
+    "So, I like have a 2001, a Blade Runner game and all these other kind of things, real simple stuff. But I was never able to do that before. And so, I think it'll help them talking with the engineers and working with the engineers on their teams as well like to say like, hey, I spun this out, I know it ain't good, but I use, you know, I use Cursor or something like that, you know, to build this out and blah, there it is or, you know. And I think that's a really interesting way to just communicate more effectively with your engineers. And obviously with customers they already"
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 2818,
+   "paragraphs": [
+    "Did the Sorry, say again? Sorry, to go on the conversation, but do you see this trend already happening in the Silicon Valley like going for smaller teams? People don't need as much bigger teams to develop things and test it out. Do you see this already happening, smaller teams? I see it happening"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2832,
+   "paragraphs": [
+    "In startups. I'm not as close to larger companies as I as I used to be. So, I don't know if it's happening as much in big companies. There are a hell of a lot more one, two person startups that are like that are raising money and it's like, are you going to hire an engineer? No, no, we're good. We don't need an engineer right now. We're just going to Like there is a lot more of that that I'm seeing 100%. I think in companies I don't know if they have truly made that pivot versus kind of getting stuck in their old ways of doing things, but I do see things like look, you know, the backlog on a roadmap, like these things should be coming down.",
+    "Like all those things that you keep putting off year after year on your product roadmap, like this stuff should start to come in because your engineers should become more efficient, your communications across teams should be able to be more efficient. This is a golden era we're entering for product managers, I really believe. And it is going to allow, you know, you get your teams embracing these tools, you're going to be able to do so much more."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 2894,
+   "paragraphs": [
+    "Do you feel tempted to go back to early entrepreneurial things like SketchMaven, maybe launch a different startup Maven for you to explore now powered with AI, powered with Stripe and all the things you didn't have before?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2907,
+   "paragraphs": [
+    "Pedro, absolutely. I mean like I don't think I'm going to anytime soon. I'm really enjoying my life right now, but like that said, like these tools are just getting so darn good that it is not hard to spin something out right now and build that and start actually making money from that. I'm enjoying other stuff I'm doing, but like, you know, to start a company, it basically needs to keep you up at night. It needs to for you know, you need to be kept up at night and be like, oh my god, why does this not exist in the world? Why can't they just do this?",
+    "What Like I'm not to that point with anything yet, but I think the second I am, yeah, I'm just going to Yeah, And I think anybody out there should as well. Like even if you have a job, just work on it nights and weekends. You could I'm sure you can work on a project nights and weekends today and probably get more done than you could have working on this thing full-time 2 years ago by using AI tools and, you know, emerging AI agents that are coming out as well."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 2967,
+   "paragraphs": [
+    "Like this has been such a fun and insightful conversation. Your journey and expertise is amazing. I really enjoyed having this conversation with you and how you can leverage AI. So much think for us to think about. But before we just wrap up, I just have now two other questions, which is do you have any upcoming projects or initiatives you're involved with that you like to share?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2990,
+   "paragraphs": [
+    "For your audience, what I would say is I'm always just thinking about new stuff in the world of AI. Like I think just follow me on LinkedIn, Todasco. I'm on there. I have a newsletter. I put out a bunch of stuff in very normal terms about AI and as being an ex product manager, it is very close to the product world and I try and explain it in very normal terms. So, usually it's related to that. That's most of my upcoming stuff."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 3013,
+   "paragraphs": [
+    "And what is the best way for people to find these, only on LinkedIn?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3016,
+   "paragraphs": [
+    "Yeah, LinkedIn, Todasco. I'm on Bluesky. It's like Todasco, my last name on most socials, but LinkedIn is the one I'm most at."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 3025,
+   "paragraphs": [
+    "Okay. So, people don't miss out on that and go check the rhyme that we started this podcast."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3030,
+   "paragraphs": [
+    "At the very least, go to my LinkedIn page for that. Thank you for that,"
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 3033,
+   "paragraphs": [
+    "Pedro. And it was not AI generated, so it's really Todasco brand on it."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3039,
+   "paragraphs": [
+    "Yeah, so really like this was done well before I ever had access to GPT-3 that I did this. And but then at some point I'm like I probably People are just going to assume this is AI generated. I'm like I don't want them to think that."
+   ]
+  },
+  {
+   "speaker": "Pedro Ganço",
+   "start": 3049,
+   "paragraphs": [
+    "I do that. I said this is probably until I get to the last part and I say, okay, I'm going to mention this on the podcast. Mike, thank you so much. It has been a pleasure. And for everyone listening to us, don't forget to also follow Productize on LinkedIn and subscribe to the podcast for more great conversation like this. Also follow Mike on LinkedIn to stay up to date. And thank you so much. Thanks, Pedro. Thanks for having me."
+   ]
+  }
+ ],
+ "words": 10121
+}
