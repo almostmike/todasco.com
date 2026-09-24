@@ -1,0 +1,287 @@
+{
+ "slug": "ai-for-business-marketing-sales-the-ai-hat-podcast-80-scale-like-paypal-simple",
+ "outlet": "AI for Business, Marketing & Sales: The AI Hat Podcast",
+ "title": "80: Scale Like PayPal: Simple AI Strategies That Actually Work for Small Business with Mike Todasco",
+ "date": "Jun-25",
+ "published": "2025-06-07",
+ "url": "https://www.youtube.com/watch?v=2lSk4C78bIw",
+ "duration_sec": 2559,
+ "host": "Mike Allton",
+ "speakers": [
+  "Mike Allton",
+  "Mike Todasco"
+ ],
+ "turns": [
+  {
+   "speaker": "Mike Allton",
+   "start": 178,
+   "paragraphs": [
+    "With the AI hat, you'll understand. Greetings program. Welcome back to the AI Hat podcast where I selfishly use this time to pick the brains of experts harnessing the power of AI across all areas of business from streamlining operations and boosting productivity to gaining a competitive edge and driving explosive growth. Oh, and you get to learn too. Subscribe to be shown how to prepare yourself and your brand for this AI revolution and come out ahead. Are you spending hours trying to figure out how to make AI work for your business while these bigger companies seem to got it all figured out? What if you could learn how one of the world's most innovative companies actually implements AI and discover how to scale those same strategies in your business without the enterprise budget?",
+    "The truth is most small businesses are drowning in AI tools and possibilities, unsure which strategies actually drive results and which are just burning time and money. They're stuck watching larger companies pull ahead while trying to piece together a working AI strategy. But today we're going to change that. I am thrilled to welcome Michael Todasco, former director of innovation at PayPal where he managed over 100 patents and drove innovation initiatives that transform how one of fintech's biggest players leverages AI. Now Michael spends his time helping businesses of all sizes implement practical AI solutions that drive real results. He's going to share the strategies that actually work.",
+    "No fluff, no complexity, just proven approaches you can implement starting today. Hey Michael, welcome to the show. Well Mike, thanks for having me. I'm excited to have this conversation. My pleasure. Now before we dive into these strategies, what do you think is the biggest misconception that you see small businesses have about implementing AI effectively?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 288,
+   "paragraphs": [
+    "I think Mike, you summed it up really well actually in the beginning, the fact that like, \"Oh, this is just for the big companies.\" 10 years ago that was true, but it is not today. When I was at PayPal, we had an army of machine learning/AI engineers that were getting paid hundreds of thousands of dollars that were able to do all of these amazing things. The thing is with generative AI, with where we're at today, you have access for 20 bucks a month to the most powerful AI tools that frankly man has ever created. And that is an amazing equalizer. Well, where you said just be the big companies who had people building these things were only able to do this, you have these tools today.",
+    "And like that is like one of the most wonderful and the most exciting things for small businesses in this wave of AI that we're seeing right now."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 340,
+   "paragraphs": [
+    "And what's cool is what Sam Altman has said is that the tools today are the worst they'll ever be. Yep. They're only getting bigger, faster, better, cheaper, so on. So let's talk about PayPal because when you were there, you managed, I said over 100 patents? Yeah. Any of them involving AI? What would you say are some of the key principles that that guided your AI implementation there, some of which like would translate to a small business owner?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 368,
+   "paragraphs": [
+    "Oh, good question. So I would say PayPal, we were using AI and machine learning tools because we were forced into it. That's the honest question, the honest answer to that because at a company like PayPal, if PayPal, especially in the early days, if PayPal was ever hacked, and it was constantly trying to be hacked, just think about it's millions and millions of credit card numbers and credentials and all this other stuff in there, it's a pretty prime target to actually break into it. And you cannot just use traditional computing systems to keep away the bad guys. We built a pretty heavy security and risk AI function over the years to manage to know who breaks in so that the fraud is under control and all that other kind of stuff.",
+    "And we did this for a long time and we learned and we iterated again and again and again. And the one thing I will say is at least when I was there, I left in 2022, PayPal was never good at using AI and all the other stuff though. It was just where it was mission critical is where it found the opportunity. And again, if I'm to bring that parallel into the small business world, I would look at whatever it is, the Claude or ChatGPT or DeepSeek or I don't care what model you're using or talking about, but just ask yourself like what are the big pain points that I have in my business?",
+    "Is it dealing with lawyers? Is it doing planning or something like that? Maybe it's planning schedules or whatever it might be. I would look at my biggest pain points and then look at ways to be able to use AI for that. That's what PayPal did for years is what every other big company does is what's the biggest most effective tools at the biggest problems that you have. That's the exact same thing that small business owners need to do."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 482,
+   "paragraphs": [
+    "Can you think through one of those examples and walk us through how you used AI at PayPal specifically and how that might relate to or a problem that maybe that you saw at PayPal and how that might relate to a small business owner that's maybe going through obviously not the same problem with scope, but a similar problem that they can relate to? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 504,
+   "paragraphs": [
+    "I so one of the AI examples that we often gave at PayPal and this was actually part of kind of the sales script, we had this amazing innovation center and we brought customers in there, we got to walk through this. And it was it was walking somebody through a transaction. It was done on this big screen. You could see the whole map of the world. And you know, somebody's trying to buy boots from a retailer in Texas, but they happen to be They're based in New York, but it's being shipped to California. And this is being done from an IP address in Tokyo and all this other kind of stuff.",
+    "And it would be impossible for any human to be able to like make all those connections and to frankly do that in the amount of time that would be allotted for a person to actually say that, \"Yeah, this is a legitimate transaction.\" Because a lot of what like your credit card companies, PayPal or Stripe or Square or anything like that, a lot of what they're doing is just making sure that you are you. And that's why sometimes you put a transaction through like, \"Why is my credit card not allowing this?\" Well, you're doing something outside the scope of what you normally do, so they think it could be fraud.",
+    "And so companies like that use AI tools to determine, \"Well, what might be going on? Are there other things in that story?\" And in that story we used to tell, we would often say like, \"Oh, well your IP address moved. We know this IP address was related to a an airport IP address.\" And then 12 later 12 hours later we see that you had another airport IP address in Tokyo. We know that there's a holiday coming up. You had bought and shipped other things on this holiday, yada. It turns out it's Father's Day. You're traveling for business and you're getting something shipped. That's not something a human being would be able to pull together and do that in 500 milliseconds or something like that when you would take PayPal models.",
+    "So with that, okay, well I'm not doing that Mike. Like that my business doesn't have that. Here's one thing I would say. Like what is the thing where you just got a bunch of data? Put a bunch of invoices. Just put your Like literally just drop a file that you have from QuickBooks into an AI and just say, \"Hey, can you make sense of this? Am I managing my inventory levels? Like be my CFO and just tell me what I can do.\" You could do this Like all of these models are multimodal now, which means it's not just text. You could drop in a CSV file or an Excel file or a PDF or what have you and just start asking it questions like that.",
+    "And it will go through a similar process. And you can do this whether you have a finance person at your company or not. Frankly, if you're the finance person at the company, this might be the first thing you should personally do when you have all this data. Just start querying the AI and say, \"Hey, what might I be missing here? What trends do you see in this data?\" AI is great at pattern matching, at being able to connect something over here with something that's over here. And it's just about asking questions again and again and again. And you do that for 10, 15 minutes with an AI and you might start to uncover things about your own business that you never realized before.",
+    "And that's where the real value is going to start to come in because it's going to then start to learn this about your business. You're going to see your business in a different way. And then you could just keep building on that. It'll help you better manage your finances, your business, or whatever it is that you're struggling with at any given time."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 714,
+   "paragraphs": [
+    "I love that example of what a CFO might do or any business owner right who maybe they don't have a CFO, but they want the AI to act as a CFO. That's a very core operational thing that that businesses need to be able to do. They need to be able to understand their finances and inventory trends and that sort of thing. Where do you think a business leader should start? What do you think like their first three steps should be if they want to start implementing AI at that like operational level? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 741,
+   "paragraphs": [
+    "So I would say if you're a business leader, first thing is I would use it personally. That that is like the be all end all. Just get into ChatGPT, get into Claude, get into Grok. It doesn't matter. Just get into one of the tools and just start using it. Use it for your own life. Make it your default. Use something like Perplexity and make that your default search engine instead of Google Search. These are all AI tools. Most of them have free versions. Just start to realize what they're actually capable of and what they're not. The thing I find out like time and time again is people who don't use AI often overestimate certain things that they're capable of.",
+    "And people who do use it have a little bit just of a better grasp of like, \"Oh, it can do this really well, but it can't do this really well.\" And the only way to figure that out is to play with it. So once you're done playing with it, what I would do is I bring it to the business. If you're a small business, say you got like 20, 30 employees, buy a corporate license. Buy something at the enterprise level that, you know, all the appropriate employees would do, be able to have, would be able to use. And this is how I would do it.",
+    "If I was really trying to make my company AI first, if I had like a weekly meeting, let's just say I had a weekly all hands meeting at my business where everyone gets together and set the agenda and what's worrying them for the week, say there's 20 people in the room, I would start that meeting with every time say I'm going to cold call on somebody and I'm going to ask you to tell me what's one interesting thing that you did with AI this past week. Business, could be for professional reasons. You already got access. We've given you that. You know you can use it for work.",
+    "I want you to share one thing about that. And you might Your team's going to hate you at first. They're going to be like, \"Oh my god, really? You're going to make me do this?\" What's going to happen after a few weeks, people are going to start to think about things in a different way. They're going to start to think about it like in an AI first way. They're going to be thinking during the week, \"Oh, what is it that I could do with AI? Maybe I'll try AI to solve this problem for me.\" And they'll do that. They'll do that again and again and again.",
+    "And I bet you just about anything within a month you're going to start to create an AI first culture because on top of that what I would do is I'd open up some If you use Slack or Teams or whatever it might be to share messages, I would open up an AI channel and just say, \"Hey people, share what you're doing in this AI channel.\" Because that's how we learn. We learn from each other. The difficult thing about these models is they have infinite capabilities and possibilities of what you can do with them. So it immediately freezes people up. We don't We Because we can do anything and everything, we do nothing.",
+    "That is a very natural human thing. You got to push your team, push your company past that so they see, \"Oh, there's all this cool stuff that I can actually do.\" Get them past that that that stopping point, that little barrier that they have. And then you're going to actually start to see, \"Well, we're building a company that's using this for a whole bunch of different problems that they weren't before.\" This episode is brought to you by Google Chrome. You think you know a browser, but Gemini and Chrome, that's new. It can help you with practically anything on the web, like restoring a vintage motorcycle from a 50-page restoration blog or finally break down that long article you've had open for weeks.",
+    "Gemini and Chrome is here for it. Ready to make anything online make sense? There's no place like Chrome. Check responses, setup required, compatibility and availability varies, 18"
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 961,
+   "paragraphs": [
+    "Plus. Love that so much because the underlying truth that that's behind what you were just talking about is that you need to have a leader who's embracing AI and empowering their team right who's saying, \"You know what? Okay, we are going to get Google Workspace with AI or we're going to get a ChatGPT Teams account. You're all going to have access and you're all going to share at the weekly all hands because I run the agenda and I'm going to carve out that time. I'm going to make sure that's there and I've got the keys to the Slack channel. We're going to create a special channel.\" I think that's fantastic and I couldn't agree more. Do you think that creating some kind of an AI policy document should be part of that initial strategy?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1000,
+   "paragraphs": [
+    "Yeah, I think it's important. And I don't know how much It depends on how sensitive the data in your corporation is. I think generally speaking there should be some level of parameters just like I am sure within your company there's something that says, \"Hey, you shouldn't be using your personal email to email customers or email vendors or anything like that. You use your corporate email that's that's within our servers and all that. You would never use your personal email for that.\" Probably a similar set of rules like you shouldn't share this, you should This is okay to do. Just give some level of guidelines. And here's the great thing with that Mike.",
+    "If you don't know what how to start with those guidelines, like literally just ask the AI. Just say, \"Hey, this is my business. This is what I'm concerned about. Can you give me bullet points that would be guidelines that I could create that I could send to my employees that would help them have an AI policy for our company?\" And boom, it's going to generate that in 10, 15 seconds. You look through that and say, \"Oh, I'm going to tweak this, tweak this.\" And I bet you within 5 minutes you have those guidelines that you can then use. Like look, if you had a place that has a lawyer or privacy team, great. But I'm assuming most people don't have that, so just let the AI do it for you."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 1071,
+   "paragraphs": [
+    "Yeah, I was just teaching a workshop in fact where I was I was showing them some custom instructions and I was showing them the files that I had attached to that and I had attached a target audience document and a brand voice document. And they're like, \"Well, oh, we don't have a brand voice document. How do I create that?\" I was like, \"Well, let's just start with AI and you can have AI walk you through how to create it.\" And then you can ask the AI to turn that conversation into the custom instructions that you need to provide the AI for everything else that you want to do that uses your brand voice."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1104,
+   "paragraphs": [
+    "And I'll say you said a great thing. One of my favorite hacks with ChatGPT specifically is to use their advanced voice mode. And this is just a very natural, very conversational thing you can have. You can actually say to ChatGPT advanced voice mode, \"Hey, here's my company. I want you to actually interview me about this and just ask me a bunch of questions for that.\" And you could talk to it just in your own natural language without even typing. And then at the end of it you say, \"Okay, if you're done with questions, can you actually summarize this in something that I can make into a document?\" And then it'll just take what it the interview that it did over the last 20 minutes or whatever and put that into a real document.",
+    "For somebody who like I've started writing books that way, I use the audio features. We use it with my kids in the car when we're driving to school to quiz them on a on a test that they have coming up. Any of those kind of things like that is a killer feature that people do not use enough."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 1164,
+   "paragraphs": [
+    "Love that use case. Folks, write that down, practice it, do it yourselves. But one of the things that I know you've mentioned online Mike that I've seen is you've said that AI should be viewed as augmented intelligence rather than artificial intelligence. Can you walk us through what you meant by that and why that distinction matters for businesses? Yeah, I"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1184,
+   "paragraphs": [
+    "Hate the name artificial intelligence. So I actually wrote a whole piece about how bad a decision it was when they gave the name back in the 1950s at Dartmouth of artificial intelligence. There's actually a record of all the other things that they could have called it. And but like this was the most sci-fi and it was a way to get attention. We were in the middle of a race to space with the Soviets and to do things that were very futuristic and sci-fi that generated a lot of interest. So that's why one of the main reasons why we call it artificial intelligence to this day.",
+    "But here's the thing like there's a lot of negative connotations that come with that. It's not its own being. It's not its own species. It's nothing like that. The artificial intelligence that exists today, it's really just augmenting us and making us better. I write a lot and I use AI all the time in helping me do research, helping to proofread what I'm doing, helping to give me feedback and things that I'm writing and so forth, all that kind of stuff. I also Just at times I will have an AI and I'll just say, \"Hey, can you write a book for me?\" And I'll tell you when you just do that, it's awful.",
+    "Like and I've published these books in fact. So if anybody wants to go to Amazon, you can go to look up Alex Irons. That is my pen name that I use for all these AI books. I give all the money to charity, so I'm not So you could buy them. They're not very good, but for 99 cents you could buy one of these things and see from 2022 until today what it looks like over time when AI writes a book. And look, they're not very good."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 1282,
+   "paragraphs": [
+    "Please tell me these are like combat war novels. What are these called?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1288,
+   "paragraphs": [
+    "Oh, so I will give it a topic. So it is very Everything from I did one about like all 50 states and unique stories from the 50 states. I did when Mickey Mouse went into public domain I had to write a Mickey Mouse story for me that was within the public domain guidelines. It's a whole bunch of different stuff in there. And then yeah, not too much about AI taking over us or anything like that."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 1311,
+   "paragraphs": [
+    "The pen name Alex Irons struck me as someone who's going to write about green berets and seal missions and stuff. I don't know."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1319,
+   "paragraphs": [
+    "It struck me. Well it's funny. So the AI actually gave me the name Alex Irons. I was like, \"I won. I won because I think I asked it. I won names that have AI in like the first name, last name. So I want the initial to be AI.\" And then I also I wanted the.com is available. So I think if you go to alexirons.com it'll forward to the Amazon page. But again, I'm not making money. They're no good. But if you want to really look at it, you'll you'll help beat some people if you if you happen to buy one of those on Amazon. Where were we? What was the What's that saying before that? Lost track Mike."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 1355,
+   "paragraphs": [
+    "No, that that was terrific because we were pushing back on the idea I think that a lot of folks have that using AI is is cheating, or that they shouldn't be using it. And I think that was just great that that you pushed back on that. Folks, we're talking with It is a tool unlike other tools. That's right. Yeah, cool. Absolutely. Folks, we're talking with Mike Todasco about the lessons and ideas businesses of all kinds can take from PayPal and similar enterprise initiatives. And I've got seven more questions you're not going to want to miss. But first a quick word from our sponsor. This episode of AI for Business Leaders, the AI Hat podcast is brought to you by Magi.",
+    "Tired of juggling multiple AI subscriptions and trying to figure out which tool to use and when? Magi simplifies AI for businesses by offering access to all the leading language models and image and video generators for one low price. With Magi you can create custom instructions to personalize AI for every business need and use them across all LLMs including ChatGPT, Gemini, Claude, and even DeepSeek. No more building custom GPTs or gems that are limited to just one platform. Magi also lets you create customized workspaces for your entire team giving everyone in your organization access to the same AI assistance and tools and props. Ready to streamline your AI workflow and empower your team?",
+    "Tap the link in the show notes to visit Magi today to learn more. And now back to the rest of today's episode. Have you ever heard of Magi Mike?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1448,
+   "paragraphs": [
+    "I have not, but I feel I need to go to the link in the show notes and check it out."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 1452,
+   "paragraphs": [
+    "You got to check it out. I just I just couldn't be to ask because a friend of mine, Dustin Stout, is the founder and he's not far from you. He's just a little bit for the south in California from you. So I was also thinking I'm I'm way overdoing redoing that video because I don't talk about the thing that I like the most about Magi which is the fact that it's a wrapper for all the other LLMs. So using Magi you can access ChatGPT, Gemini, Claude, Lama, now you can access DeepSeek. He's got them all in there at the paid level, but you only have to pay Magi one $20 a month fee rather than paying all these other ones right and you still get the custom instructions and everything.",
+    "So it's a super fantastic tool. Definitely check it out. But yeah, it answers that that probing question that a lot of businesses have is, \"Well, which one am I supposed to use?\" We've touched on it already. You said just use one of them. But still, which one? But I think where I'd love for you to go with next is if you could talk about what you think some of the biggest mistakes businesses are making when they're trying to implement AI beyond just what we've already talked about today. Now they want to do actual like automation. They want to do some workflows and that sort of thing. What are some of the mistakes that you see that making?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1528,
+   "paragraphs": [
+    "I think the first thing that I often see businesses making and that's a mistake is over optimizing. I think that in reality if you're going from zero to some sort of AI model that you're going to be using, like it almost doesn't matter which one you're going to be using. They're all going to be extremely good for whatever it is that you're trying to accomplish. And I think a lot of times businesses will get frozen. They will say like, \"Well, I don't know which one of these to use or anything like that,\" so they just don't choose any of them. Or they could say, \"Well, I think it's just going to get better in a couple months.",
+    "Like I heard this one thing is going to be coming out. There's some rumor. Like why don't we just wait for that? We'll wait for to see it come out and see what happens then.\" Like there's always going to be an excuse not to implement these. That that's just the reality of what we're we're facing and like with these cycles and how quickly things are evolving. So the biggest thing that businesses can do is just use it. Like literally just jump in. You pick one of the models, do a little bit of research on it, just say like, \"Okay, we're going with Anthropic's Claude. We're going to open AI ChatGPT.",
+    "We're going to open source a meta Lama model. We're going to use Magi. We're going to test them all. We're going to do whatever it might be.\" Just pick on something. You can revisit it again down the line. But the productivity, the benefits that you're going to get for just starting with something in one of the major models out there is going to more than offset any time you're going to just send spend frozen just like, \"Oh, I'm trying to find the perfect model.\" Just find one that's good enough."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 1630,
+   "paragraphs": [
+    "Love it. Fantastic advice. And I know you're sharing that kind of advice through San Diego State University to students and I'm sure businesses of all kinds. I'm sure you've heard lots of success stories of businesses that have effectively scaled some AI. I wonder if you could think of one that you could share with the audience."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1649,
+   "paragraphs": [
+    "Well look, I think the reality is like most AI We've been working with AI except it was not out in front. AI's always been in the background or at least the last 10, 15 years. So a company like PayPal, it was making risk decisions. If you're using any social network out there, they AI and machine learning is going to be generating your customized news feed. All of these things are using AI as part of that. And today we have these wonderful tools of generative AI that are definitely put out front to people and that people can start using them and so forth. And honestly Mike, like I don't think we've even begun to see what the benefits of this truly are.",
+    "I am I'm hearing stuff out there and actually talking to people at medium or larger sized companies that seem to be doing a lot with these tools as far as more effectively using them for customer service. I think Google said that 20% of that code that engineers were writing is now being done by AI. I might be getting that number a little bit off, but like that was like the last number that they put out there. So And this is like the same kind of things that you can buy. If you have engineers in your firm, you need to be using these tools. I don't think there's anything any kind of background, any kind of function that you have within a business as long as you're working with the computer that you're not going to have significant benefits in doing AI.",
+    "Again, law firm, legal, things like that where I see huge benefits for businesses just saying, \"Hey, we're going to do our first draft of contracts.\" And maybe some of these that are more sensitive will do a first draft and then send to a lawyer or whatever it might be. And or even just interpreting contact tracks is a huge thing. So coming in the other direction instead of having to say, \"Hey, can you read through this whole thing?\" One of my favorite things to do if I get something I'm just I throw it into an AI and say, \"Hey, is anything out of the usual, out of the ordinary here?",
+    "Anything look weird in this contract, non-traditional that I should watch out for?\" And if you think about it, the AI has seen thousands and millions of contracts, so it knows if something's trying to be snuck in there. People have done It's it's called a needle in a haystack test. So you can take like a book that's in public domain, say like you take Huckleberry Finn, insert on page 232 a line about Pizza Hut is having a sale and there's a buy one get one free. And then put it into Claude and if you've done this before and then say, \"Hey, is there anything weird in this book?\" And it will almost always come back to you and say, \"Yeah, on page 232 there's an ad for Pizza Hut.\" And it does that within seconds.",
+    "Like it knows how to do that stuff. It is incredible at finding that. So like again, it depends on your business use case, but like for me, for me being a non-lawyer, the legal stuff is where I would turn to, especially contract interpretation."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 1848,
+   "paragraphs": [
+    "That is that is great advice. And you and I both know that's going to result in saved time. That's going to result in potentially finding issues before they become issues. Maybe somebody's got a clause that they've put into the contract that really doesn't gel with how you do business. That's going to help you find that right away. But I'm wondering on behalf of business owners, how do they actually measure for themselves these benefits? How do they measure the ROI of implementing AI?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1878,
+   "paragraphs": [
+    "Okay, so I learned a lot about So I My background is in finance. That's where I started my career. So I was the ROI guy for many a years. And then I moved into One of my jobs at PayPal was running innovation there. And of course, you know, that in back of my mind I'm thinking, \"Well, what about what's the ROI? How is that going to actually matter?\" And the way I found around that and there was a way around that, it made a lot of sense at least for the situation I was in at PayPal, was our innovation team and our innovation costs were so tiny, infinitesimally tiny that it wasn't a worry.",
+    "It wasn't a concern. It was just a simple rounding error with something like that. So everyone left us alone. They knew we were like It was like sometimes just me, sometimes me and one or two people or whatever, but we kept it tight, we kept it lean. And that was part of what we wanted to spur and inspire in the company like, \"Hey, you don't need a whole bunch of money to be thrown at you.\" So if I'm a small business owner and I'm thinking about AI and these tools, all I would do to start is I would say, \"Do you want We're not even going to worry about ROI for 6 months, for 12 months.",
+    "We are going to spend 20 bucks a month,\" and that's generally as much as this costs, \"to get ChatGPT, Claude, whatever it is. The tool doesn't actually matter. It's just like the fact that you're using it matters. And we're going to revisit that after 6 months.\" So keep the costs low in the beginning. The last thing you want to do is say like, \"Well, we're going to do the $200 a month plan and we're going to do this, and that.\" Like no, no, no, no. 20 bucks a month that is going to get you everything you are going to need to get started. 6 months from now, I think it's worthwhile to take a look back and see how have your workflows changed?",
+    "Are you using less legal costs? Are you giving better service to your customers? Are your employees able to work less overtime? Whatever it might be that's important to you for that, but give it 6 months to do that because it's going to take a while. And if you're finding after 6 months you want I think this AI is adding no value and like no one's actually using it, despite what Mike told me in the beginning of, \"Hey, let's make this an AI first company,\" then you know what? Then I guess you probably shouldn't do it. I think that's the honest answer to that. I think more likely what you're going to find out is that people are going to be using it and you're going to then be able to make a decision, \"Okay, should we do a couple other things?",
+    "Like it works real well here, but man, it would be amazing if we had agents and could do this and so forth.\" But honestly, I would not get into any of that kind of stuff until at least like the 6-month mark of just working with the traditional systems that are already super low cost. If you can afford 20 bucks per head, you should be able to afford that no matter what your business is. And again, look at it as an investment and if a few months there isn't value, then you can reconsider it."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 2061,
+   "paragraphs": [
+    "That is such smart advice. I appreciate you sharing that. And I wonder if you could just for our last question just kind of look ahead and say what AI emerging trends you're seeing. Like you've talked about agents. We haven't really talked about operator. I'll preface this by saying on this particular show we don't often get into the latest and greatest things and we avoid as much as we can. But that said, it is unavoidable to talk about specific AI models and that sort of thing. But again, just what's coming do you think that small business leaders in particular should be thinking about? So"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2097,
+   "paragraphs": [
+    "So the last week I will touch on the two things that you mentioned. So DeepSeek and Operator came out. DeepSeek is a Chinese model that had been launched and it is extremely low cost. It is also Chinese, so there's a lot of censorship and so forth that it is part of them. So like realize that. Don't be surprised when you see that. But it is much lower cost. I think DeepSeek is not as special as frankly the methods that were used to make DeepSeek are going to lead to much lower costs for these models going forward and frankly much higher performance. And that's the most exciting takeaway for most folks.",
+    "Operator is OpenAI's first chatbot. And so I'm actually writing a piece that I'm going to release in the next day or so. It should be live by the time folks are watching this about like my first week using Operator. And I will And so Operator you have to spend the 200 bucks a month for the pro subscription with ChatGPT. I've been using it and I am so disappointed. I couldn't tell you how disappointed I am with it. Like I've used other agent stuff. It's pretty useless. It's actually shocking to me that they released this. I was struggling with it and I said, \"Hey Operator, what should I actually do with you?\" And I literally was It was like, \"Oh, I'm really good with travel.\" And I'm like, \"Cool.",
+    "Tell me like in June a family of four we're going to want to travel somewhere to Europe. Give me some prices like for direct flight from San Francisco to Europe.\" Something like that is what I gave it. It went back and thought for 24 minutes. I'm not making this up. Like this is in my article. It went back and thought for 24 minutes. Again, no problem. AI goes to work for 24 minutes. And it comes back to me and says, \"I couldn't find any flights for you going from San Francisco to Europe in June, but here's a flight going from Orlando to San Francisco over the timeline that you require.\" And I was like, \"Wow.\" I swear to god.",
+    "Like and that was And this is after other frustrating stuff. I'm like, \"Are you kidding me? It took 24 minutes to give me like a totally useless thing?\" Like it's half-baked. To my friends at OpenAI I just asked like, \"What are you doing right now? Like this should not have been released at least at the $200 tier and maybe it could have been free for people to test it.\" But like oh man. But that said, where are we going? Again to your original question like these things are going to work. Operator isn't going to be always this bad. There's going to be other agent type software that will be able to spend 25 minutes and actually give me a killer itinerary and say, \"Hey, we found this one flight and we also found this flight in and it uses miles to do that and we know you have a bunch of United miles or whatever it might be and doing that and that and that.\" That's the kind of stuff that's exciting.",
+    "So I think we are going to see cheaper models. DeepSeek is an example of that. We are going to see more agents in our work lives and our personal lives where these things can run semi-autonomous autonomously in the background and they could like work to some sort of task. That is emerging today and we will start to see more and more of that in the months to come. I think 2025 is going to be just immensely exciting in the world of AI and it's only going to accelerate more and more. Like that that is the reality like and that's may we all live in exciting times."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 2299,
+   "paragraphs": [
+    "Right? Yeah, I couldn't agree more. I was giving my client the same advice earlier today because we were talking about Operator and we were exploring some potential use cases. Like could they use Operator to do a LinkedIn Sales Navigator search and start to surface prospects and then enroll prospects in a workflow that uses a different app and so on? And like theoretically yes, it should be able to do that. But in practice probably not today, probably in 3 to 6 months. So yes,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2331,
+   "paragraphs": [
+    "These are coming. Yeah, yeah, yeah. It's Yeah, it's the right integration. It's the right whatever. You'll get there. So you can dream these things. You may want to just test to see This is like the problem of like all the characters in Dolly 1 and Dolly 2 having six fingers and things like that and just the form faces and all that. Like it was obvious to anybody who is seeing the progression like that's not going to last forever. And now frankly most images you have don't have six fingers anymore. They figured out all of those problems. There's other things. Images are getting better and better.",
+    "It's the exact same thing with the agents like Operator. It's the exact same thing with all of these models. What is true today and any of its shortcomings is very likely not going to be true tomorrow. And the only way to find out is frankly just for you to use these models and just to keep testing and seeing what they're capable of."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 2381,
+   "paragraphs": [
+    "Could not agree more. Mike, you have been fantastic. This has been such an interesting deep dive and comparison to what PayPal had been done and your lessons from PayPal which is fantastic. So I appreciate you sharing that with us. For folks who want to learn more about you or how you can potentially help them, where should they go?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2400,
+   "paragraphs": [
+    "Yeah, I think just my LinkedIn is the best place. Just Mike Todasco on LinkedIn. You can find me there. I have a little newsletter where I try and explain AI stuff to common folks like myself. And so if you're into that, you can sign up. It's all free and everything on there. And I'd be happy to answer any questions that you have if people want to just DM me there as well."
+   ]
+  },
+  {
+   "speaker": "Mike Allton",
+   "start": 2421,
+   "paragraphs": [
+    "Terrific. On behalf of the common folk, thank you Mike. We will have the links to everything we talked about in today's show notes as we always do. That's all the time we've got for today friends. But remember, if this is your first foray in the world of AI in business, I've got the perfect resource for you in the show notes below, The AI Primer designed to quickly get you up to speed on the terms, the tactics, and the underlying technology that's powering this AI revolution. Check it out and I'll see you in our next episode. Welcome to the Grid. That's a wrap on another episode of the AI Hat podcast.",
+    "I hope you gained some valuable insights and actionable strategies to boost your business with AI. If you enjoyed this show, please subscribe, leave a review, and share it with your network. And don't forget to visit theaihat.com for more resources and to connect with me. Until next time, keep innovating and remember the future of business is human and is powered by AI."
+   ]
+  }
+ ],
+ "words": 7334
+}

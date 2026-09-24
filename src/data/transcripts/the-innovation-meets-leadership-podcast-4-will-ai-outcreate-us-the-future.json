@@ -1,0 +1,288 @@
+{
+ "slug": "the-innovation-meets-leadership-podcast-4-will-ai-outcreate-us-the-future",
+ "outlet": "The Innovation Meets Leadership Podcast",
+ "title": "4. Will AI Outcreate Us? The Future of Innovation (with Mike Todasco)",
+ "date": "Mar-25",
+ "published": "2025-03-23",
+ "url": "https://innovationmeetsleadership.com/season-5-episode-4-will-ai-outcreate-us-the-future-of-innovation-with-mike-todasco",
+ "duration_sec": 1996,
+ "host": "Natalie Born",
+ "speakers": [
+  "Mike Todasco",
+  "Natalie Born"
+ ],
+ "turns": [
+  {
+   "speaker": "Announcer",
+   "start": 0,
+   "paragraphs": [
+    "Welcome to the Innovation Meets Leadership podcast. Real inspiration for real innovators. If you're looking for innovation and leadership transformation, your journey starts"
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 14,
+   "paragraphs": [
+    "Now. Welcome to the Innovation Meets Leadership podcast. I'm your host, Natalie Born. Hey, if you're enjoying Innovation Insights, don't forget to hit subscribe so that you never miss a future episode. And by following the Innovation Meets Leadership podcast, you'll stay at the forefront of trends, strategies, and real-world examples that guide today's innovators. And today will be no different. I'm really excited to have Mike Todasco on the show. I'm going to spend a minute with Mike just letting him kind of unfold his background, really fascinating background. But today we're going to spend some time with Mike talking specifically about AI. Before we do that, Mike, welcome to the podcast. We're excited to have you. Jump in and just tell us a little bit about your background."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 57,
+   "paragraphs": [
+    "No, absolutely. And Natalie, thanks for having me here. Super excited to be here. My background is I was a finance and accounting guy back in the day. I was always just really interested in technology. I moved into like corporate strategy and at some point I got the crazy idea to start my own e-commerce company. This was back in like 2009 and I had no idea what the heck I was doing. I didn't even have secure payments, like all this other wonderful stuff that I soon had to learn about. From that, I got an opportunity to go at PayPal where I was in product and then eventually running innovation for the company when it became independent from eBay.",
+    "And I just got really into like next generation technology stuff. I left PayPal 2022 and I'm currently at a university, San Diego State's AI Center. And as part of that, get to talk and teach and write and do all fun stuff with like what is emerging in the world of AI. That's awesome."
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 118,
+   "paragraphs": [
+    "Well, thanks for giving us your backstory. Yeah, I'd love to talk a little bit about an article you wrote which I thought was really intriguing and I thought our audience would enjoy kind of unpacking that a little bit today. So you recently called, you talked about AI slop if you will and you talked about how this is an interesting term I think that we can kind of even know what you mean before you explain it within the world of artificial intelligence. But talk a little bit about what even spurred you on to write this article and how we should kind of be thinking about AI as a whole."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 153,
+   "paragraphs": [
+    "Yeah, look, so what slop is, it's kind of just junk being thrown onto the internet without much purpose, audience, art, anything in that. It's just kind of like just words being put out there, you know, for maybe to drive people, to drive traffic, maybe to fill up a blog, maybe to do whatever. It's just slop. Nobody actually wants, no human wants to read this stuff. And what drew me to it is in part, I've been creating AI slop since 2022. So one of the experiments that I've been running for the last three plus years is I have a AI alter ego called Alex Irons. And Alex Irons writes books and publishes them on Amazon.",
+    "And so anybody could go there, they could search for Alex Irons, they could find them, they could buy these books. To be very clear and transparent, I donate all the money to charity. So if you are curious enough to do that, just know it's you're not actually making money, but it's slop. It's not good. And the reason I do it is I actually try to over time see how models are improving. But even today with the best models that are out there, writing a coherent 20,000 plus words is really darn difficult. So I've been doing this for several years now and anybody who does Google searches and things like that will see more and more like, hey, I think that's an AI image or like whatever it might be.",
+    "Like slop is just becoming more and more prevalent. One, I think it was Gartner, they said by 2030 it could be 90% of the internet is slop. And so I really wanted to dig into the question of like, okay, if 90% of the internet is basically this garbage, what does that mean for us who use it day in and day out? And that was the inspiration for the article."
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 259,
+   "paragraphs": [
+    "Yeah, it's interesting. I don't know if this is true. You probably know way more about this than I do. But I was hearing that the models that everyone is now in and using are actually being dumbed down because of the vast number of people that are in these models using them. And I don't know if that's true, but I would imagine just due to the vast amount of content that's being produced every day from AI, the real question is do humans change the way we read or does that actually place a preference now on people that are not using AI in that what they're writing is more coherent and so therefore people will be more drawn to it?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 298,
+   "paragraphs": [
+    "I don't know. Yeah, I mean, I think it's a great question. So I think with the models, you're seeing, you're seeing, you know, hundreds of millions of people are using these models now and we'll get into the billions in the upcoming months if not years to do that. So I think it is going to be more and more common. So it's no magic to be able to, you know, quote unquote create a book using an AI and publish it. I do it all the time. It could take, you0 to 60 minutes even. And usually I write something personally at the beginning of it. But like Amazon actually had to limit people to three books a day that they could publish, which is of course, even that is ridiculous because no one who is a writer out there is, you might write three books a year maybe if you're a romance writer or something like that.",
+    "But nobody is writing three books a day, thousand books plus a year. So like that is just showing how much of it is out there and how prevalent it is. I think with how for us to deal with this, how for society to deal with this, to think about it, the more I did the research, the less I actually do see it as being a real problem for us as consumers because you're right, if it's, if we start reading it and it's not good, we're going to gravitate somewhere else. There have always been gatekeepers. You know, we go to certain blogs because we trust that author.",
+    "We go to a publication because we trust that. We use Google because we trust it to surface the relevant results or whatever it might be. There will continue to be gatekeepers in this world that will kind of keep the slop behind the paywall, just keep it out there, you know, away from us. Some of it's going to sneak in, of course. But it's going to be more of a challenge for them as it is for us. Because here's the honest answer. If, you know, Facebook for example has been talking a lot lately about more and more of the news feed being AI generated content. You know, they've been running tests on Instagram and on native Facebook and so forth as part of that.",
+    "If it's inundated with slop and people don't like that, you know, then there goes their business basically. What they're hoping to do frankly is having more interactive AI content. And that's what's interesting. So I actually don't think in the future we'll be interacting with AI less. We will be interacting with AI much more. I hope it's transparent whether it's a human or AI. We can talk about what that might look like. But I think it is going to ultimately be comments, content that is keeping us excited, engaged, whatever it might be. Might not be the best thing for us, but it's at least going to be serving Facebook or whomever's wants and needs by keeping us engaged and on the site."
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 474,
+   "paragraphs": [
+    "So how would you segment what's happening? I mean, do you feel that as we, let's go out maybe two years and do you feel like humans will be able to still create things that are more valuable than AI in two years? I think right now we can look at it and say for sure that's happening at a pretty good clip. However, AI can generate content so much faster. Do you feel like in two years we'll be feeling like AI is up to par? The way that I've called a lot of the writing of AI lately is like it's a lot of hype without the heart behind it and it doesn't have that experience right of like anchoring down on real true examples.",
+    "It's kind of a lot of hyperbole. Do we feel like models are being trained fast enough? And I feel like maybe they are, but I don't know that that could, we could see that drastically change and almost not even be able to tell the difference. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 527,
+   "paragraphs": [
+    "Look, it's a great question. And this is, you know, I think we're entering a world where you have two different types of content. We are going to have AI generated content that we are all consuming that is personally meant for us. This means you can go into Netflix and say, hey, I want to see another episode of Stranger Things, but I actually want you to include Tim Robinson from I Think You Should Leave, which is another Netflix robber. I was just thinking of like what the heck else does Netflix have? Like and make it more of a comedy and sketch comedy and all that. And you know, it's probably not going to be as good as the original.",
+    "It probably might be a little artifact, it might look a little off. But like it's going to be made just for you. And that's like an end of one type content. And that's, you know, probably five years away from like literally just being able to sit back, watch that on your TV or your phone and it's literally being just generated for you. But it's something you would actually want to see. But I do think on the other side of that, Netflix announces another season of Stranger Things, they're going to still be able to do that. They're still going to be able to draw people in because it is going to be much more communal type content.",
+    "So I think in this future world, we're going to see both sides of that. I think it's important in part because we still, maybe this changes in the future, but like we still interact with humans. We care about what other humans say, what they think. This is hardwired into us. Just for example, last night I was going, I live in San Francisco. I'm a fan of the NBA and I was watching Steph Curry play basketball against Brooklyn. And I'm literally was going for a walk while I was watching this and I almost dropped my phone at one point because he made this crazy half court like buzzer beater shot.",
+    "That was like, it was insane. It was insane. But you can have, but Toyota for example makes robots that can do that. And they can do that with perfect accuracy. They actually have this basketball playing robot that made like 2,500 free throws in a row, better than what any human can do. And you know what? I wouldn't pay any amount of money. I wouldn't spend any amount of time to watch that. It's boring. So again, I said an extreme example, but that's a different just kind of art form there. Even if AI can make better art than humans can, we are still going to be drawn to the art that is created by humans, whether it be in sports or whether it be in painting or whatever.",
+    "Like there are a lot of painters out there that cannot hold a candle to AI, however you want to think about that. But it's the story behind it. Who is this? What is the vision? What is their inspiration? All this other kind of stuff. That is actually what's going to matter. And not saying that AI or sorry, artists or painters or authors won't be using these tools, they will be. But it's still going to ultimately be a human that's directing it for this mass market type content that is going to attract people to that, you know, until the end of time. So"
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 719,
+   "paragraphs": [
+    "If you think about, you know, someone that's listening to this and they're thinking, okay, how do I use AI in a way where it's helpful to me personally but doesn't take the human element that kind of, I go back and think about the experience economy where people want more human interaction, human touch. What are some ways that people should be thinking about it kind of on a personal side? And then what are some ways that businesses should be thinking about AI in this space?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 747,
+   "paragraphs": [
+    "Yeah, a great question, Ally. And I could spend hours talking about it on the personal side because I use this all the time. Look, just the other night I was having a little bit of a spat with my kids and I'm like, I actually don't know how to deal with this right now. So I excused myself. I went into ChatGPT at that point. I'm like, hey, this is the situation right now. I actually need some advice. It's like 8:30 in the evening. They got to get to bed. They're like, blah, all this other kind of stuff. Like help me out here. Would it have been better, easier to talk to a therapist, to talk to a human?",
+    "My wife's traveling, all this other like, yeah, probably. But you know what? That time like 8:30 at night, like I just can't, I can't just pick up the phone and whatever. Like I just kind of needed an answer to get me through that is going to be like 80% of perfect. And my gosh, that's what I needed at that time. And it was able to give that to me. And I'm not going to lie,"
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 801,
+   "paragraphs": [
+    "I have used it the same way. Have you really? Yeah. I have. You know, I have two kids and one is a teenager. So it's kind of like, okay, how do we navigate this?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 810,
+   "paragraphs": [
+    "Yeah. Yeah, so I, 11 and 13 are mine. So it could be crazy times needless to say during that. But like it's nice to just have this thing that is completely unemotional that can just kind of give you feedback. Like you can do whatever it is with that. So that's one way. Look, another one in the household like I haven't looked up a recipe in probably two years for cooking, everything like that. Like I am constantly using this. I will take a picture of like, hey, is this sauce even look right? Like I'll like hold a spoon up to it or whatever to kind of show thickness.",
+    "I'm like, is this right? And it'll give me feedback on that. I'd actually, I remember one time I was getting a, had it give me a recipe and I had to get sake like Japanese alcoholic frank. I don't know anything about sake. I get to the store and you know, I live in the Bay Area. There's lots of, you know, in the grocery store there's lots of options for sake there. I'm like, I have no idea what I'm supposed to pay. I just held my phone up, took a picture. I'm like, what sake should I get? And it will tell me that and it'll explain why and so forth as part of that.",
+    "I'm like, that is awesome. That is just awesome to be doing that. I've heard of people actually, and I haven't done this yet, using like the voice option just while you're cooking, just talking to it, saying like, hey, I'm doing this. Can you like tell me why is this happening? Like they're, it's either explaining, it's giving them tips to do it. It's like they're literally just conversing. I haven't done that yet, but I'm thinking about trying that soon. And the last one I'll throw out there is just for like my own health. I've made the personal decision that I trust the AI enough that I'm going to put a bunch of health information, blood tests and all this stuff in there.",
+    "And then I just ask it questions. And if anything's wrong with me, if I have, you know, and I put my goals, my fitness goals, my all that kind of stuff in there, my routines, everything, it knows everything about me. And honestly, Natalie, like this is the first place I go to. It, I see my doctor, my primary care doctor for like probably 20 minutes a year. And I can tell you how many hundreds of patients he probably has. But like this thing, it is a great supplement to that. And it's something I can do at 3:00 in the morning. I can just ask it a question, whatever it might be.",
+    "And again, I'm not suggesting people like ditch their doctor or whatever, but like, and I'm not offering medical advice as well. To be clear. For me personally, it is amazing to have that. And so like just on the personal side, I think those are like three things that I use this for all the time. Ultimately people just got to try stuff out, see where the problems are in their life, see where the opportunities are and just use it and see if it works for you. Try it a few times and if it doesn't, try it for something else. You'll be surprised. Yeah, you know,"
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 975,
+   "paragraphs": [
+    "It's interesting to hear some personal uses. I know we'll get in the business side in second, but I just want to underline, highlight, score, underscore some of the personal uses here because I have used it to check my 10-year-old's math homework. I mean, I literally take a picture, upload it and then instantly it's like these are correct, these are incorrect. And then we can just work on that instead of me having to go back and remember math from that period. Although I'm still having to remember math from that period."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1002,
+   "paragraphs": [
+    "Well, especially I don't know if your kid's doing any bar modeling. Have you gone through that yet? Like that is a new form of math that I never learned or anything. And so they're doing bar modeling. I'm like, I can do this algebraically. I have no idea what this bar model is. So I'm like, ChatGPT, tell me what this bar model means. What is this?"
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 1018,
+   "paragraphs": [
+    "Yeah. Yeah, so so you're right. I mean, there's there's lots of just personal productivity uses. There's, you're right, using it for recipes. I have not used it in a, you know, personal health sense, but you know, that feels really interesting because you're talking about, you're right, it's 3:00 a.m. Who are you going to call? I mean, you know, besides 911. Like can you just have a question, right? Yeah, yeah. Hopefully it's not. If it is that bad, call 911. But in that situation, just having that 24/7 place to just, I call it a mental sparring partner. It's kind of like you can bounce ideas off of it. It doesn't mean you have to take the advice, but you can at least bounce ideas off it and get closer."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1059,
+   "paragraphs": [
+    "Gives a little bit of a piece of mind. I mean, I'm 47 years old. So it's like, you know, parts of the body are already starting to fail and all that. So like it'll be like, you know, like what is that thing on my ankle? I'll take a picture of it. Like, hey, give me all this stuff. And it'll actually say, hey, because we know your blood work, we know this, like it could be this or this. And you know, it just starts the conversation. I even did it one time where my mother who it was totally okay but had to go, she was just not feeling well.",
+    "We went to the emergency room that day. And I don't know for folks who have ever been to an emergency room when you're not just like bleeding out, it's it could be easily 12 hours that you're there. Like if you're about to die, they'll take good care of you. But if they're not quite sure, you seem fine, you're stable, you are at the back of the queue. So she would get these tests and we would actually then upload them into ChatGPT because she would be able to get the results on the hospital app on her phone. But I'm like, I don't know what the heck these tests mean.",
+    "But we're able to put it in there. And so we could ask it questions like, well, what does this mean? And so forth hours before we'd see a doctor. But then we could actually even say like, okay, when the doctor comes, like what kind of things should we be asking? So it's basically a patient advocate. And for a stressful situation like that, it's so so helpful, so helpful to have. We are going to get to a future where, you know, I think within five years it is going to be considered medical malpractice if you're not using an AI as a doctor. I truly believe that"
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 1146,
+   "paragraphs": [
+    "Because so many more elements it could be looking at. Yes,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1150,
+   "paragraphs": [
+    "Exactly. Like no doctor anywhere can even try and keep up on the thousands of journal articles, all this kind of thought. Like if you think about how much medicine is advancing and given the promise of AI, how much it could advance, a doctor who went to med school 10, 12 years ago, sure they're taking continuing education and all that. But like they can't keep up on all this stuff. It is just not humanly possible. So your partner, a doctor who can make a human connection, that's, you know, one of the things we'll often talk about here with the patient, but then have an AI supplementing like that, that is the future and that is how doctors will be operating in the future."
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 1189,
+   "paragraphs": [
+    "That's really powerful to think about. And I think that's such a strong use case for again, just globally, right? All that happens, especially when we saw COVID go from, you know, one side of the world to another. I think that, you know, the ability and the speed to be able to solve problems becomes a must. So let's take a little bit of a walk down the business side of things because I was just on the phone this past week with someone and they said, all right, everyone keeps talking about AI. I'm sold, I'm sold. But like what do I do, right? So people keep saying we should use it and he's like, of course we should.",
+    "But how and what? And so let's maybe take an example of like a mid-size business, you know, like right around the, let's call it the $100 million mark. How should they be thinking about AI for their team, their people? How do they integrate some of these things in? They're sold on it. They want to use it. They want to make life better for themselves and others, but they don't know how to get started."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1246,
+   "paragraphs": [
+    "First thing I would say to any business in this situation is, you know, especially for like a mid-size firm like that, like okay, put the rules in place for your employees because here's the reality, even if you don't have an approved way for them to do this or to use this, they're using it. You have employees using this. It could be leaking data, it could be doing all this other kind of stuff. It'd be like the equivalent if you didn't have a company email and said, well, yeah, we want you to talk to each other, send messages, but we don't want you using your personal email.",
+    "Well, do you know what? People are going to use their personal email. Like you have to give them a corporate email and say just use this. So it doesn't matter which one. Like you could do this with Microsoft or Amazon. You probably already have a cloud provider and they can give you access to Claude or ChatGPT or whatever. Honestly, there's pretty much no going wrong with this. Just pick one of them and say, hey employees, yeah, you might have been doing this on the side, but like we're going to be using ChatGPT at least for the next year or whatever it is or Claude or again, it doesn't really matter which one you use.",
+    "Just get one of them in place, make it clear that it's there for employees, encourage them to use it. How would I encourage them to use it? Because here's the honest answer is like people, the people who create this don't even fully know what these models are capable of because they are the first like general purpose. Usually when you would write code, you are doing if this then that type statements. You are doing certain functions. You're saying, if a user does this behavior, this is what you should be doing in the code and so forth. And like kind of following that is a decision tree almost.",
+    "These are infinite. There's no limit to the types of inputs people can put in and there's no limit to the outputs that it could give either. So one of the things that I would do, let's just say you're a manager within an organization. So the company has done that and then you have a team of let's just say 10, 20 people. If you have a communication channel, teams, Slack, zoom, whatever, I would actually like literally open up an AI channel within there and say, hey, we're loading, we're starting this now. I want you all to share on this channel what you're doing with these tools.",
+    "Joe is doing this stuff with invoices where he's scanning this and doing OCR with it and whatever and all that. And Tammy's doing this with legal documents and so forth. And she's doing that. Like put that all in there just so people can see that. And then honestly, so to kind of go like a step like lower, like if you were just like a manager of a smaller team, this is something that actually did at PayPal, not with AI, but with just, I was trying to encourage my team to be more creative and innovative back in the day. I would actually start every staff meeting with that team and I would say, I want you to tell me one creative or innovative thing you've done in the past week.",
+    "I would call cold call on people. It was just five minutes. And of course in the beginning my team hated me. They're like, what the, like we're supposed to like talk about what we're doing for the week and like literally Mike is doing this like oh my god, can't stand this. But here's what happened. So I think I shared first and everyone during the week would be thinking, okay, how do I do something creative or innovative or how do I do something with AI? And it doesn't matter if it's professional or personal. And the big thing to emphasize, it doesn't have to be big. Just some small way that you're using these tools because this is going to spark ideas and inspiration with the rest of the team.",
+    "Again, like it was probably one of the most memorable things I remember as a manager because I remember the stories that people would tell. But it was everything from like cutting through the airport to get to work, which was just a crazy thing like for where we were like you cut through an airport? Like what? Like it was like, yeah, I did that. Like wow, that's great. And like that was a wonderful example to a person who found out somebody wasn't coming to a meeting and found out he liked these type of donuts, bought those donuts and then all of a sudden and made it very clear that these donuts meeting and low and behold the guy start showing up.",
+    "And those are all these kind of creative solutions that like we would hear this as a team and would make us all more creative. Do the same thing with AI. Just have these stories week after week and people are going to start to learn where the opportunities are. Because I'd love to tell people, yeah, you should do it an email. Yeah, you should do this. Yeah, you should do. It's so personal. It's so infinitely possible. But like in part of the problem is since you could do almost anything in the world with these, it's hard to know where to start. And that's why I kind of use the collective action of your teams, of your organizations and you'll start to find opportunities in that."
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 1526,
+   "paragraphs": [
+    "I love that advice. I think that's a really cool way of thinking about it because you also find that people are using it in creative ways that you wouldn't think about. And I feel like that's really, that's really been my personal journey with AI being like, I wonder if it can do this? I wonder if we can do that? And just seeing what and sometimes it works really well, sometimes it doesn't work as expected,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1548,
+   "paragraphs": [
+    "Right? Yeah. It's amazing. So I'm actually writing a piece right now. So one of the things that a lot of the AI companies have been releasing is something called deep research. And what this is, and for business people, there's a lot of promise in this. It can, basically you could say, hey, we're looking to expand in our pizza place in Portland, Oregon. Can you give me an outline of the competition in Portland for pizza restaurants? How many restaurants are there? What is it per capita? Blah. You can do this and it will go off, it will start to search the web and it will come back in like five to 10 or 15 minutes with like literally a report that would probably take intern like weeks to do or something like that.",
+    "And it's come back to you in minutes and it's really, really darn impressive. Now the experiment I'm writing for a subsequent piece I'm going to be releasing later is I'm having to do something where I know a lot about the subject matter. And of course when I do that, I and I'm running five of these with the exact same prompt, seeing how the results are different, I'm saying, oh, it's not always quite there. So you have to always use things, these things with caution. The concept is known as falling asleep at the wheel where you would just kind of blindly say like, oh, my car's got it.",
+    "It's driving autonomously. I'm just going to take a nap here. No, you don't want to do that. You don't want to do that in your business either just to say, hey, we're going to make all of our decisions based off this Portland, Oregon pizza chain report that comes out here. Well, you might want to fact check a few things. You might want to run it a couple times in different models. You know, do whatever it is. But it's still going to save you so much time. And ultimately, I think you already alluded to this Natalie, like just because a model can't do it perfectly today, that doesn't mean that's going to be true six months from now.",
+    "Like it used to be like I can't generate images because they're all like, you know, six fingered hands and all that. Like that's right. I mean, like the models just progress more and more and more and they're all just getting better."
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 1679,
+   "paragraphs": [
+    "Yeah, and that's one thing that I found to be true is that I have struggled to use it in the image space. More so I use it on the kind of the writing side. But to your point, you can't fall asleep at the wheel. I remember one day in particular I had a very busy day and I had two personal introductions I needed to make one to the other. And I'd gotten the introduction from somebody else. So I didn't even know the person. And AI is like, I know this person's work personally and they've done such a great job. And I didn't like even think to read the thing.",
+    "And so I sent it off and I immediately was embarrassed. I was like, I don't know their work personally. And I haven't worked, you know. So you're right. They're in, they're in some sense to the fact that we can fall asleep at the wheel and then our emails and what we're saying is disingenuous and it's because we're not checking it. And that absolutely happened to me. And I was like, never again. I'm going to thank you for helping speed me up. But now I'm going to slow down and read what you actually wrote for me. So that's a great point."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1733,
+   "paragraphs": [
+    "And it's funny Natalie, at some point I decided an emails like in the last couple years like I am going to actually not intentionally misspell stuff but like I'm actually making more of an effort or I should say less of an effort to get the grammar and the spelling and the punctuation right in emails because I think then people are like especially for longer emails, I think the immediate assumption most people have is, oh, is this like you actually write this? What does this actually do? So it's so funny. Like I've actually tried to put in more, you know, be a little bit less perfect because then it's a little bit clearer that this is me actually. Yeah. Yeah, well a human"
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 1770,
+   "paragraphs": [
+    "Wrote this. It's it's not. Yeah, yeah, yeah, a human wrote that. Yes, yeah, I love that. Well what final thoughts would you have for listeners who are, you know, either kind of deep into AI or really really thinking about, you know, jumping in with both"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1784,
+   "paragraphs": [
+    "Feet? Look, for people who are just jumping in, I mean, the simple answer is just do it. Like just ask the models. If you're not sure, if you're not comfortable, just talk to the models. You could do it through voice, you could do it through text. Just say, hey, I'm not sure about you model. Like I've heard I should be using you ChatGPT, but like I haven't found any use for you. Like help me think through like what it takes to find something that's useful that you can do for me. Help me put together a plan for that. And do you know what? It's going to actually do a pretty good job in that.",
+    "But you have to go back and forth. This isn't just one time and it gives you an output and it's perfect. There's always back and forth with these. These are just how the models operate. They only know so much about you. They only know so much about your intention and so forth. So the more you tell it, the better the output's going to be. But just work with it. Like I teach at university, I teach classes in AI, all this other kind of stuff. You don't need to take that honestly. Like you could just do it yourself and that's fine. And if you're a pro, if you're already using this stuff, honestly just keep at it.",
+    "You know, inspire others around you to do it. Share your ideas, share your thoughts with others. That's why I write about this. You know, I always share my prompts with people. I'm just very open because I want to learn. I want to make, you know, this more accessible to more people because like from a technology standpoint, this should be probably the most accessible technology we've ever had. Because as long as you know how to use a phone, as long as you kind of know how to be able to talk to it, you just kind of have to hit a button and you enter this world of being able to interact with the most powerful machine learning models like humanities ever created.",
+    "And most of the time it's even free to be able to do that. Which, you know, to me five years ago is just mind-blowing to think of where we're at today with that."
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 1898,
+   "paragraphs": [
+    "How do people find you and follow you? I know we've got, you know, we talked about your alter ego out there. Is it Alex Irons? Alex Irons, your honor."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1906,
+   "paragraphs": [
+    "And I'm looking AI did generate that name for me because I was like, I want a name where the URL is available. So I think alexirons.com but it had to be AI. And so like ChatGPT I think gave me that name."
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 1920,
+   "paragraphs": [
+    "So but the real you, how do people find the real you?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1923,
+   "paragraphs": [
+    "The real me, probably the best place is LinkedIn. So if you just want to see Mike Todasco on LinkedIn, I do blog on there. I write about AI stuff, try to make it very accessible. And you can always just direct message me if you got a question about any of this kind of stuff. Always have it a chat with people and help people out with this."
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 1942,
+   "paragraphs": [
+    "Well, I love it. This has been such a fun conversation. Thanks for joining me. Thanks Natalie. Well to our listeners, thank you for joining the Innovation Meets Leadership podcast. Remember, don't just get out of the box, break the box and set it on fire. Let's go transform something."
+   ]
+  },
+  {
+   "speaker": "Announcer",
+   "start": 1959,
+   "paragraphs": [
+    "Thank you for joining us for the Innovation Meets Leadership podcast. Be sure to subscribe to our show on iTunes. Follow us on Instagram or Facebook at Innovation Meets Leadership and visit our site at innovationmeetsleadership.com for more innovation resources."
+   ]
+  },
+  {
+   "speaker": "Natalie Born",
+   "start": 1980,
+   "paragraphs": [
+    "Hey, my new book is out, Set It on Fire, the Art of Innovation. Click on the link to learn more. And don't just get out of the box, break the box and set it on fire. Let's go transform something."
+   ]
+  }
+ ],
+ "words": 6601
+}

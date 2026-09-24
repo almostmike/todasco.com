@@ -1,0 +1,386 @@
+{
+ "slug": "a-beginners-guide-to-ai-teaching-startups-and-ai-beards-mike-todasco",
+ "outlet": "A Beginner's Guide to AI",
+ "title": "Teaching, Startups, and AI Beards: Mike Todasco on the Beautiful Chaos of the Now",
+ "date": "Sep-25",
+ "published": "2025-09-12",
+ "url": "https://www.youtube.com/watch?v=HQl0tVcNqO0",
+ "duration_sec": 2537,
+ "host": "Dietmar Fischer",
+ "speakers": [
+  "Dietmar Fischer",
+  "Mike Todasco"
+ ],
+ "turns": [
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 36,
+   "paragraphs": [
+    "For many of you, math was always a problem in school or university and today I talk to Mike Todasco and he has this great idea of teaching everybody through what they are really connected to, like learning your math or whatever topic it is through let's say baseball. You're interested in baseball and your teacher in this case the AI would just make everything about baseball for you and you would love to learn suddenly. About this and other things is Mike was the senior director of innovation at PayPal. We talk in this interview and yes it's an interview episode again. Welcome back to the Beginners Guide to AI.",
+    "It's Dietmar again from Argo Berlin at the microphone and without further ado we dive deep into this interview. Yeah, so before I talk too much about Mike, as you all know, I don't like this PR things that other people write about people and then I would read. I just give the mic to Mike, but first of all, welcome to the podcast."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 113,
+   "paragraphs": [
+    "Dietmar, thank you for having me. Excited to be here with you today."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 117,
+   "paragraphs": [
+    "And what did bring you into AI?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 121,
+   "paragraphs": [
+    "I've always been curious about technology in general. Like I'm I'm not a technologist by background. My background was in finance and accounting, but I've just always been attracted to tech and you know, I was a person who, you know, 20 plus years ago had a robot lawnmower and things like that. Like I mean I was just always the person tinkering, buying, playing with stuff, all that. I got a job at PayPal in 2011 is when I started at the company and machine learning, as we more often referred to AI stuff at the time was a huge part of the PayPal's business because when you're doing billions and billions of transactions, you can't identify the bad guys, secure the company, you know, do all the things that you need to do in security and risk.",
+    "That can't just be done with traditional computing methods. So, you know, it was very world class in doing many things with machine learning back then. I got very involved in that world at the company. I eventually led innovation at PayPal, which was like the best job ever. And then when I left PayPal, I was this was 2022 and mid 2022 and at that time I was actually aggravated that people weren't talking about AI in the general public more because to me it was like just very clear like this was an emerging technology that was about to change everything with like GPT-3 and technologies like that that were out there.",
+    "So I just started writing about it and just because I felt nobody else was. And then you know, few months later ChatGPT comes out that starts to change everything and so forth. But like that was so and you know, I'm still very much involved there. Work with companies in the space. I'm at a university at their AI center. So do a lot of things with AI still."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 239,
+   "paragraphs": [
+    "Oh, this is both things are interesting for me. Business and AI and teaching. This is both of the things yeah, business obviously we have a business audience but also some people here at university or schools or so. This is a thing. Do you do you use AI for teaching? Yeah. Or for research or what do you use?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 263,
+   "paragraphs": [
+    "Yes, the answer is yes. The answer is yes. Yeah, no, Dietmar, it is for look if I were so if I were teaching younger kids right now, this is one thing I like to put out there to anybody who is a teacher, you should be using these tools. To me, the be all end all of this. I was when I grew up as a kid in America, we had these things called baseball cards. And so they were little pieces of cardboard with a picture of a baseball player on one side with all these numbers and statistics on the back of it. And I learned how to do math by basically reading these cards because I would obsessed with these cards.",
+    "Like it was like a secret puzzle. And to me, if all of my classes were giving me programs related to baseball, you know, all my all my problems and so forth in math were baseball problems, like I would have loved that. I would have loved that so much. And for every kid, there's an unlock. And this is one of the things that AI can do. Like if you are teaching math to, you know, let's just say 10-year-old kids, you can do this. You can unlock. You can say, hey, what is it that you like? What is it that you like? Get all this in there, put this into a large language model, and it could literally customize so every single student in your class gets different homework.",
+    "That could be done easily today. You can even build it off of there like well maybe some are going to focus more on this some are going to focus more on this those things like this is all emerging these are things that can be done with ChatGPT and other tools that are even out there right now and that's just one example of using the tools that are out there today to make a teacher's life easier but to be able to make it so that the students in the class are way more engaged. I you know whenever often a lot of teachers at my kids school will you know they'll put their kids names you know various kids names in the class in the problems for example and that gets people excited that even gets adults excited to see their own name and you know like all of these things are just like it sounds like such a simple little thing but like that is just one of probably millions of different unlocks in the education system that can make education better that you couldn't have done before that would have been way too much work for a teacher but now oh my gosh have an AI do all that for you and then just print out 30 different copies and hand it out to the students."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 421,
+   "paragraphs": [
+    "And it's not like I just substitute the same problem with different labels on it but I can the ChatGPT can or whatever AI you use can adjust the problem for the level for the for the topic I mean the topic the level everybody talks about yeah you can adjust to the level but the motivational part that is great. Love it."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 446,
+   "paragraphs": [
+    "Absolutely. Yes. No, motivation, levels, you know, language, whatever it might be, there's so many different ways to do that and to customize it. I do think for the teachers, for the school systems that embrace this, like they are going to be so far ahead of the places that are not embracing it. That just saying, well, that's how we taught school back in the 1990s and 2000s, that's how we should always teach school. No, no, I mean it should evolve, it should change and like this is a gift in many ways that has been given to us as educators and it's up to us to be able to use it in the best way to serve our students."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 491,
+   "paragraphs": [
+    "I have just this there's an in my 1953 or 56 story from Isaac Asimov where the teacher in school it's like everybody has their own teacher and yeah it's like but he was visionary in this yeah."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 507,
+   "paragraphs": [
+    "You have that today. I mean you really have that. So one of the other things we do when we're sometimes going to school we will turn on voice mode in ChatGPT and if one of the while we're driving to school we will through the speaker system in the car have our kids talk to ChatGPT and just have a conversation about like a test that they're going to have today. You know maybe they're having a test on biology or chemistry and it's just say hey ChatGPT can you quiz us on this quiz my kid on this and make the questions a little bit harder each time they answer it correctly and a little easier each time they answer it incorrectly and it could do that it could do that and all of these things that I'm describing are free or free or you know 20 bucks a month or whatever it calls or whatever it costs but I mean they're free or relatively free to do that and that is just amazing. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 558,
+   "paragraphs": [
+    "I mean there's if you have to pay someone to teach your child something like that's like between $10 $20 euros an hour so this is the monthly fee yeah totally makes sense"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 571,
+   "paragraphs": [
+    "Yeah. And here's what I would say like say I wanted to learn German you know what would I would probably do is I would do both I mean I would probably make it so hey ChatGPT while I'm driving in my car I want you to like help me learn German remember the words I remember the ones I don't fix me on my pronunciation all this other kind of stuff do that but then I would probably also in addition to that I would probably also go on a site like oh not Upwork there's some sites that actually specialize in this like with languages and so forth and I would get a human tutor once a week as well and balance that but it's like I would advance so much further in learning German by being able to do that in the car learning German having an AI with you it's going to be better than Duolingo it's going to be better than any of those things because it's actually can listen to you as part of that but then also supplement with a human somebody who's actually there who's a native speaker who knows how to do this like that's that's a great thing I don't see you know we're not going to get to a point where we don't need teachers anymore because it's about the relationship and you know the relationship the teacher has with the student is what matters most it's not grading papers it's not any of that kind of stuff it's like sitting there looking you in the eye and having a discussion and really talking to you understanding your needs and so forth that's that's what an AI can't do so let humans do more of that let AI do all the other stuff."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 664,
+   "paragraphs": [
+    "This is actually interesting coming from academics to business. I mean the problems are different but the same kind of no it's like the human in the loop or the AI or what's your position will AI replace lots of jobs or is it like the same like with you say language learning now?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 687,
+   "paragraphs": [
+    "Yeah, I think it will. I mean I think there's no denying it is going to replace jobs but I do think people will be doing different things. The internet replaced tons of jobs. You know, if we just kind of look at what the most common professions are over, you know, in 2025 year tranches over time, it changes drastically. And this has changed drastically over the last 100 plus years. That's going to continue to happen and that's going to accelerate. There will still be jobs. That's not going away anytime in the foreseeable future. Like could there be a future? Maybe. I mean, but I truly don't see us getting to that point.",
+    "But jobs are going to change, they're going to evolve, and AI is going to be at the center of all of those jobs that you have. If you're a customer service agent, you know, if you're dealing with customers on the phone or over email all day, there's going to be an AI there to help you. It's going to help you be more effective. It's going to help you get to the right data. It's going to help coach you. It's going to do whatever it might be. And maybe the AI is going to take all the easy things and it's going to leave the more complex things or the things that need emotion because somebody's really upset on the other side or whatever it might be.",
+    "We're going to figure this out. It's going to be messy. When we trans when we transitioned as a society from agriculture to the industrial world and frankly when we transitioned from industrial world to the information world that we're in today it gets messy in between there are jobs lost and I don't want to be dismissive of that but I think you know net jobs will exist we will have that but like we all needs to know as a society it's going to be bumpy as we get to whatever that endpoint is going to look like."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 804,
+   "paragraphs": [
+    "That makes sense Mike. Transitions are always a stage where there's insecurity but I mean I love the positive approach that yeah we'll figure that out okay with the with the turmoil phase but yeah like things what do you think are our abilities that that what won't AI rage soon?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 827,
+   "paragraphs": [
+    "Oh. What won't AI replace? There is something to be said for We are attracted to humans and I'll just give an example. On Netflix there is a documentary about the 2024 men's basketball Olympics. Germany did great in it. You know, US, France, Serbia, all these teams in there. It was behind the scenes and it's and so forth. And I will say like I live in San Francisco where Steph Curry lives and plays and that is something where you know just as an example we love that imperfection the imperfection of sports and it applies to many things other than sports but sports is one thing that can resonate people can resonate Toyota has recently created a robot that can make like 2,500 free throws in a row like in basketball like it just kept going they literally had to unplug it and they're like okay we're done like it just wouldn't miss they thought they would go until it missed and then finally they're just like we've literally been here all day we just need to move on.",
+    "That's not interesting. Nobody is going to go watch robots shoot baskets. Like it is, you know, you might just see it for a novelty, but after 5 minutes, nobody is going to go to Paris to see and cheer on their country and like their country's robot. Nobody cares about that. We care about human performance and those are the things that matter. I don't see doctors going away because even if an AI could diagnose you better the messenger in between the person talking to you the person looking you straight in the eye and having that conversation with you like those are things that we actually need and can use like there is something about the human connection as much as perfect as great as AI can be it is never ever going to be a human and especially for internet you know face to face interactions things like that there are going to be many times where a human is just going to be wanted just because even if it's less efficient than an AI."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 1006,
+   "paragraphs": [
+    "Yeah, I see that like the first example that you said was basketball but I just thought about those chess games. I mean chess computers are better I mean I don't play much chess but computer were always since I played they were always better than me still I played chess with people because it was more fun. Yeah."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1026,
+   "paragraphs": [
+    "Yes, yeah and that's right. I mean everyone's 25 years ago IBM built a computer beat Gary Kasparov and you know and this was literally in the 1990s this happened like computers beat humans in chess and prognosticators at the time were like well nobody's going to play chess anymore like are we done because the computer does it better no no there's more people playing chess today than there was 25 years ago and you're right just because a computer does it better it's not interesting to us no we love that we love the competition so you know and that's why I feel with like books and entertainment and things like that if an AI and it can't today to be very clear like an AI cannot write a better book than a human being it's just it's not even close will an AI be able to probably but if an AI can do that are we going to read those sometimes but are we also going to be attracted to human written books absolutely because we know one layer deeper oh that's the guy who did this or that person was nice to me and you know I met them at a convention or something and they I got an autograph or whatever like we get these connections and those are the kind of things that really matter to us."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 1101,
+   "paragraphs": [
+    "I mean but assistant roles are totally normal in the future I guess no?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1108,
+   "paragraphs": [
+    "So so like administrative assistants and things like that like"
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 1113,
+   "paragraphs": [
+    "Those or writing your book I remember this thing with if you have ebooks in Amazon and they tell you people they drop your book on page 25 do something there. Oh. And then you're going into that helps you make your book better or then you ask the AI what could I do better and then as a human you make something out of it."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1138,
+   "paragraphs": [
+    "Yeah look I use so I write a lot I have a blog about AI and things that anybody can follow out there and whenever I'm writing something I'm using an AI a ton to help me out with my writing it helps me do research faster it helps me fact check it gives me it does all these other things like and it helps me do that on the fly and I use that really well for it works great for blogging but I am also writing books and with those books I have a human editor as well so I will write the first draft I will then use tools like Claude or ChatGPT to ask it questions to actually have it do some of the grunt work before it gets to that human editor and then I pass it off to that human editor so you know today there are circumstances where I use both you know will that change in the future I don't know I kind of like having a human being on the other side to just because one of the things you'll find out if people use these large language models a lot they're trying to please you so even if you wrote garbage generally speaking it's going to tell you oh this is really good this is really innovative this is really whatever and sometimes it's like no this is just trash it's it's meant to please you and that's not what you want sometimes you just want a human being saying hey Mike this is garbage you need to start over and like it's hard to get an AI to do that sometimes."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 1227,
+   "paragraphs": [
+    "I remember those things those singing shows casting shows where someone comes and is totally surprised that he she is not singing very well because everybody told her she's singing well no"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1241,
+   "paragraphs": [
+    "No no. And that's what in some ways that's what AIs do now like and anybody can try this just write something drop it in there and say hey ChatGPT what do you think about this it's going to you will be shocked it will probably say like oh yeah this is really good I mean it's very positive and again like maybe for most things that's fine but if you just keep on putting trash in there it will just think it's all good and then yeah it might give you a little bit diluted as to what actually is good or not."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 1274,
+   "paragraphs": [
+    "Actually it's a funny part of AI literacy not only to learn prompting but also to better evaluate results no it's like you have to know why the engine ends as what."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1287,
+   "paragraphs": [
+    "Yeah look the more you understand about the underlying technology the better off you're going to be in just knowing what it's good at and what it's not good at and yeah if somebody's just coming off the street and just says well AI said it was great and it's really smart yeah they don't they don't know that so it's and that's why it's good to play with these tools it's good to understand where their shortcomings are and where the things they really are good at and know that that will also change over time I mean you know there isn't a feature name in the tools I know of but you could prompt it and say hey I actually want you to be really critical of this you know you could say things like that and that will sort of get it out of that pleasing mode but you know you got to do what's right for you with this and again it's it's a little bit of an art form just to be the human working with these. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 1339,
+   "paragraphs": [
+    "No, this is like I see this is a typical problem and if I take this into the other area business and then it's a problem because then it's about competition I mean if I talk about a casting show it's nice I mean you are there and it's like but business suddenly your firm has a problem. Yeah. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1359,
+   "paragraphs": [
+    "It could it could say like oh yeah this strategy is brilliant you're going to make millions of dollars doing this or whatever when in reality you know any first year MBA student would look at it and say like oh no that's not that's not that's not going to work so so yes that is something you need to be really careful of in business for sure and that's why you know for today you need a human in the loop this human evaluation on this thing not just accepting everything that AI says is to be truth."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 1389,
+   "paragraphs": [
+    "So we need the editors talking about talking about you did do work with a lot of business what do you think are their biggest problems their biggest challenges now with the AI?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1402,
+   "paragraphs": [
+    "I think the biggest problem for most existing businesses is they're not using it enough that's the honest challenge they have existing workflows and those existing workflows are really inefficient I work with a lot of startups and what teams of like one or two people can do with a whole host of AIs that they can work with really well it actually makes me feel bad for the much larger businesses who don't have that and who have these workflows and who need to find a way to change so that's that's to me the biggest risk of any business with AI is just not using the AI as much as they can and should be because of bureaucracy because of data issues because of whatever it's just having all of these reasons that are preventing you from doing that while you know the competition do you even know about starts doing it again and again and again and starts taking over."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 1464,
+   "paragraphs": [
+    "Do you have a startup example you don't need to name names but where people really used AI?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1473,
+   "paragraphs": [
+    "I can say there's one company that I've been working with and they actually had a little bit of a pivot recently to doing something completely different and from an engineering perspective they now have probably a third of the engineers they used to and probably 2x the output that they used to and you know and I think that is probably not going to be that's fairly typical I think of companies who are going to be AI first companies like Cursor so Cursor is one that has an AI tool that I think actually surpassed ChatGPT for as the fastest tool to 100 million users if I'm getting the metric right or $100 million $100 million something like that I forget what it was exactly but I mean net is like this is growing really fast where I live in Silicon Valley in California there is a little bit of a worry that you know software unemployment is going up much higher and much faster than the rest of the economy and software is the one area where there is more and more AI being used just if you're an engineer not using these AI tools you're probably getting left behind in some way so engineers are embracing it in part because they have to but it's also just allowing them to do so much more than they have been in the past when I talk to students at school you know when I talk to them in 2023 let's say when I was talking them about like doing what they're going to do after school I basically told them hey learn about these tools because you're going to enter a company nobody's going to know how to use these AI tools but you are and that is going to make you special and stand out when I talk to them today I don't have that same message exactly and this is getting to your earlier question about where we're going with all of the you know job loss and so forth the one thing I'm pretty confident on is solopreneurs so an entrepreneur of one like you see there's a business opportunity you want to solve that serve a customer be lightning focus you have a legion of AIs working for you at your direction and building that out like I see that being a quite common business model that is replicable for the for long time going forward in the future you know at other companies especially entry level jobs I don't know this is the disruption we were talking about before I think it's already starting to happen with software engineers and I think it's going to start to expand to other parts as well."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 1644,
+   "paragraphs": [
+    "Yeah, there's this research the unemployment rate of software engineers doubled and this is the first thing people do that develop AI they go for software because they are software engineers and it's just the first vertical yeah yeah. Yes."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1662,
+   "paragraphs": [
+    "That was always the arguments during the 2010s about startups here in Silicon Valley. The problems that we're solving were the problems they needed and basically these were a bunch of guys in their 20s who weren't living with their mom anymore. So like Uber was, you know, getting you to drive to places and there was like, you know, having food delivery and all this other kind of stuff. It was like all the things your mom used to do with you for you that was what these software builders were building out in the 2010s. Yeah, yeah."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 1692,
+   "paragraphs": [
+    "No really like what do you think where is the energy of let's say AI literacy best put to work on businesses or at universities teaching people or schools or in the education system?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1709,
+   "paragraphs": [
+    "I think I mean AI is just going to proliferate everywhere. It's going to be in the software we're using. It's going to be a part of all of our workflows. I do not despite working at a university and, you know, part of a research center there, like I don't think you have to go to a university to learn about AI. The great thing about AI and AI tools is the best way to learn them is just to learn by doing. People ask me all the time, Mike, do I do I need to read your blog post? Do I need to take your class or do I need to take this class or watch this YouTube video?",
+    "And look, all of that stuff is fine. I'm not going to say you can't or shouldn't do that, but honestly, the best way for 99.99% of the population to learn how to use AI is just by using AI. And here's the great thing, and this is so different than software that we've used in the past. If you're not sure about it, if you don't know how to use it or what to do, you just say, hey AI, I don't know what to do with you. I don't like you. I'm confused about you. I'm whatever and just talk to it type use your voice use whatever method you want to as an input device do it in English do it in German it doesn't matter these things are multimodal they're multi-language however it is that you want to communicate with these things they're going to be able to interpret that and work with you and as long as you make your intentions clear like I'm an AI skeptic I've tried to use you in the past I've never found a use can you work with me over the next week on finding a way that I'm going to be able to put you to use in my life and find you to be useful great you could literally anybody can take that prompt and within a few hours you're probably going to be opened up your eyes are going to be opened up wide like wow I didn't know I could do this or this helps me so much with this part of work or this really helps me out at home doing this or whatever it might be and that's the beauty about these tools."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 1841,
+   "paragraphs": [
+    "Yeah, yeah, it's it's really the tool that teaches you about how to use itself it's like great yeah yeah. Yeah, and that's"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1850,
+   "paragraphs": [
+    "Completely unique and that's why I think and that's why I almost have to say it because we haven't experienced that before. It's never been like hey I don't know how to use like my computer so I'm just going to like well no if you don't know like as long as you get to the computer as long as you can get to the web page or the app or whatever it is then you just ask it so you've learned all those steps now you just have to ask it the question."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 1874,
+   "paragraphs": [
+    "That's great no and that's an interesting point where do you personally use the AI? Everywhere. In business private whatever but everywhere"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1889,
+   "paragraphs": [
+    "Yeah. I'm I'm actually going into my ChatGPT just to kind of see what I had on there so within the last day I have asked it about the benefits of eating blueberries versus pomegranate in my diet specifically within my diet because it has all my health information in there so it knows about that what's the best I had to do a search for me to what is the bank with the highest interest rate right now so it like searched like 40 different websites to be able to find that out for me I actually thought my beard was growing faster than it had been in the past and so I asked it about them like is that normal what could cause a beard to do that dinner recipes one of my kids might have been sick something about like some business research more recipes yada and that's like within the last day.",
+    "Those are all things you can do and that's why it really is limitless with the potential for this and especially with one like ChatGPT where it actually keeps memory of you it's really nice when it starts to actually get to know you because then it will customize the responses a little bit closer to what you want or it might remember something you said a couple months ago and tie that in and so forth so like you know that's a really nice feature that all these have."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 1977,
+   "paragraphs": [
+    "Yeah, there's still some work that has to go into the memory function I guess like from them but also from yourself and can update it or make custom GPTs or so but it's already there and it's already yeah at our fingertips interesting yeah it's the same for me if I look to what I have there it's like really crazy that's from the last thing I did was I needed for my for my accountant she wanted to know the exchange rate of dollar to euro for booking and in at that certain date for whenever the exchange was happening the transfer was happening and I was like yeah I could do that but"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2019,
+   "paragraphs": [
+    "ChatGPT give the go into ChatGPT with internet search or perplexity or one of those and it will get you and it'll even tell you the source of that and you can send all that over exactly."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 2028,
+   "paragraphs": [
+    "So it's it's really like and that's actually a thing for the people out yeah it really just use it for everything and even if it's not quicker you learn something it's like."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2038,
+   "paragraphs": [
+    "Yeah, it might not be quicker up front but it will be soon enough like if I if I think of some of the research like I'm writing an article right now about AI slop and so AI slop is just kind of mindless the amount of stuff that and it's going to be ever increasing on the internet that is just mindless generated AI stuff that is going to be out there and kind of flooding the internet but I've been just doing a research with it and you know using perplexity using ChatGPT with internet access deep research is another feature that has been introduced in xAI's Grok, Google's Gemini, ChatGPT, and Perplexity.",
+    "So there's four different flavors of deep research where it will just go out and just like, you know, look at 30, 40, sometimes 100 plus sources and kind come back to you with like a little paper in 5 minutes of like to educate you on whatever subject it is that you want like those are features that yeah like will save time so I think in the beginning it's going to take you more time but once you start to really realize it's going to take less and less time to do this and it's going to start to save you a ton of time."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 2112,
+   "paragraphs": [
+    "This is the time saving is one thing and there's the last question I have for the interview and that would be like what's the danger the most so the terminator question the matrix question do you think that is any probability what do you think about that?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2129,
+   "paragraphs": [
+    "Look the dangers I see today let's start that and then we'll get into the future I you know terminator is not happening in 2025 today what is going to happen is things like people falling asleep at the wheel and the concept of that is an AI seems to be good it's only 99% accurate you just like okay just let the AI run and in the 19% of the cases where it is inaccurate that's slipping through and it could you know embarrass you at work or worse it could get you into a accidents because you're in a driverless car whatever it might be those are the things I think that are going to be more I mean we talked about job loss and the disruptions from that that is real that is going to be happening but you know I think going forward like that is the biggest threat that I see now terminator type scenarios like I don't know I like I don't think it is very likely to have that I think it is a very interesting story narrative to me one of the most interesting angles on that is that these AIs have actually been trained somewhat by the fiction that we write about them like that if you ask an AI about terminator or metropolis or any AI movie or book or 2001 anything like that ask about any of those things AI is going to know about it and so in some ways we have taught an AI you know we have used this as the training method to so like well this is how an AI should act like we have kind of created this in some ways so could it be a self-fulfilling prophecy probably not is there a chance sure there's a chance of that but you know with the benefits that I see to healthcare with just like human productivity with improving our lives with all of these things that we have like in front of us like to me that's I see this is very much being a net positive you know there's nothing in life that is just pure positive with no negative the internet I think it's been a net positive there's more good things but there are absolutely some bad things that come with that AI is going to be the same I just you know but I'm very much at the camp of like there's going to be more good than there is bad and I'm hoping the terminator doesn't happen."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 2285,
+   "paragraphs": [
+    "Actually I love this that we shouldn't have made those movies to self-fulfillingly"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2292,
+   "paragraphs": [
+    "For the future. We didn't know we'd create all this training material or we should have at least suppressed it so when you ask an AI about hey give me some examples of AI gone bad it's like oh I didn't think an AI could go bad okay that's that's. It's just Wall-E and stuff like this."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 2305,
+   "paragraphs": [
+    "Yeah, it's all Wall-E, yeah. Great, thank you. So Mike, the last thing for today, where can people find you? Where can they connect to you and your blog and?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2317,
+   "paragraphs": [
+    "Absolutely. No, Dietmar, thank you for having me. And people want to find me, I'm best on LinkedIn. I'm the only Mike Todasco on there. So you could just follow me on LinkedIn and follow my newsletter. And if you got a specific question, you know, send me a direct message, reach out. Always happy to help with that in any way I can."
+   ]
+  },
+  {
+   "speaker": "Dietmar Fischer",
+   "start": 2337,
+   "paragraphs": [
+    "Great. I will put actually the link in the show notes, but yeah, Mike Todasco is easy to find and that's a great thing. So yeah, thank you for the great inspiration you gave us here and I love to talk to people that talk about university and teaching because this is one of my passions and this is really a thing business is is important but how to get the next generation going yeah this is That's important that's important yes. AI natives yeah so thank you for that that I could pick your brain here and yeah let's see what 2025 brings us and yeah. Sounds good. Thank you Dietmar.",
+    "Thanks for having me. Wow, a great interview again. So what I loved most was that with our movies, with our literature, we may doom more probable. So the terminator scenario in itself yeah dooms us for being victims of the terminator scenario interesting thought yeah no but also the teaching stuff I really love because you all people you know I work in the pedagogics department and this is actually a thing that really would help make learning better for the people yeah so thanks for listening to the podcast or watching the YouTube video don't forget to follow on the argoberlin.com/newsletter or in your favorite podcasting app and hope to have you back again in the next episode signing off Dietmar from argo.berlin."
+   ]
+  }
+ ],
+ "words": 6718
+}
