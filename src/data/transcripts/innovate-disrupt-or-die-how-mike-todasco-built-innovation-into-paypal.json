@@ -1,0 +1,399 @@
+{
+ "slug": "innovate-disrupt-or-die-how-mike-todasco-built-innovation-into-paypal",
+ "outlet": "Innovate, Disrupt, or Die!",
+ "title": "How Mike Todasco Built Innovation Into PayPal",
+ "date": "Apr-26",
+ "published": "2026-04-23",
+ "url": "https://podcasts.apple.com/us/podcast/innovate-disrupt-or-die-how-mike-todasco-built-innovation/id1812980896?i=1000763242255",
+ "duration_sec": 2566,
+ "host": "Danny Nathan",
+ "speakers": [
+  "Danny Nathan",
+  "Mike Todasco"
+ ],
+ "turns": [
+  {
+   "speaker": "Danny Nathan",
+   "start": 0,
+   "paragraphs": [
+    "Welcome to Innovate, Disrupt or Die, the podcast where innovation isn't just an ideal, it's a way of life. I'm your host and creator of the Innovate, Disrupt or Die newsletter, Danny Nathan. Hello folks and welcome back to another episode of Innovate, Disrupt or Die, the podcast. This week I have Mike Todasco with me. Mike, welcome. Thanks so much for joining us."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 28,
+   "paragraphs": [
+    "Danny, I'm looking forward to this. I want to innovate with you and disrupt today. Let's let's not die. Let's not die."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 34,
+   "paragraphs": [
+    "Yeah, no dying. No dying. Awesome. All righty. Mike, I'm going to start with the easy question that I ask everybody. Tell me a little bit about yourself, your background, and how it relates to the world of innovation."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 44,
+   "paragraphs": [
+    "Sure. Look, I'm first of all, I'm a father of two and a and a and a loving husband and I started my business life in the glamorous world of accounting way back in the day and literally worked for a paper company like Dunder Mifflin style way back when. And then, but I was always interested in technology. I was always like I literally Danny in 2003 when I got my first house, my wife and I were just married, got our first house, I got a robot lawnmower. This was this was 22 years ago. I had a robot mowing my lawn. I was I was always that guy tinkering and all that.",
+    "But eventually moved started my own business, failed miserably at it. It was an e-commerce company. I didn't know what I was doing, but it was an amazing experience. I have been there. That led me to PayPal where I was dangerously unqualified for every job I had in the 11 years that I was there. And the back half of my time there I was actually running innovation for PayPal. So got to work on a lot of new and emerging technologies. I kind of got all the leftovers. So like blockchain was, you know, something we weren't doing within the company. So spun up the first blockchain group working on augmented reality and all this other stuff in there.",
+    "And you know, so playing with new toys and also like building a culture of innovation for the company. So I did that for many years until 2022 and then left and started just focusing full-time on AI where I've been a part of San Diego State's AI center where I'm a visiting fellow and I write about AI and teach and do all this other fun stuff."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 137,
+   "paragraphs": [
+    "There's a lot to unpack there, Mike. One, I'm glad you threw out culture of innovation because it's something that I talk about a lot. But before I get into that and dive deeper, you've mentioned AR both today and during our intro call in the context of PayPal. Purely because I am just absolutely curious, how did AR rear its head within the walls of PayPal? Because when I think of, you know, financial technology, augmented reality isn't exactly the first place that my brain goes. And look, most of these things they never"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 167,
+   "paragraphs": [
+    "Got out of the lab to be very transparent. But let me tell you about some of the experiments we ran and that we got a lot of a look at that. So we were doing things like facial recognition for payments and so forth. That was one way to use AR. And it's so funny when we started doing the AR stuff, I always had to explain augmented reality to people. And how I explained it was, hey, you know that camera on your phone? You know there's a little box that sometimes goes over the head or whatever of a person or something like that. That box doesn't exist in real life.",
+    "Your camera is augmenting, your phone is augmenting over the reality that you're seeing through there. And then like I think within about 6 months Pokémon Go came out. This is like 2016 or"
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 212,
+   "paragraphs": [
+    "Whatever. And all of a sudden everybody knew what you were talking about."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 214,
+   "paragraphs": [
+    "Everyone knew what augmented reality was because like literally on the PayPal campus there's just people walking around playing Pokémon Go for like 6 months there all day. And so but it was things like that. Like they never made it out into the wild. You know it was with our Venmo which was a product of PayPal's, you know, like for splitting, for sending money to people and just looking at that. The thought was that these things here are not going to be the be-all end-all platform and that there's going to be other experiences, there's going to be glasses, there's going to be whatever and we just wanted to get ahead of that as a company.",
+    "Again, none of it actually made it out into the wild. We couldn't get to the place, but those are the kind of things that we were experimenting in. Gotcha. Very"
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 258,
+   "paragraphs": [
+    "Cool. All righty. You mentioned during our intro call Mike that while you were at PayPal, you deliberately avoided defining innovation for your team. Can you tell me sort of more about the approach? Like talk to me a bit about what did innovation mean within the walls of PayPal and why did you make the conscientious choice not to kind of define that for the people that that were there, that were exploring the opportunities?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 288,
+   "paragraphs": [
+    "Yeah. Let me take you back to 2016 when I was starting this job because the first thing I will say Danny is I had no idea what the hell I was doing. Like I had been a product manager and working on some pretty innovative things at PayPal but then take but PayPal had split from eBay so we became our own company yet again after, you know, 15 years being part of eBay or so. And it was like well we had to define all these things. And so I was lucky enough to kind of take on this innovation job and define whatever that meant. And one of the things I got to do was talk to all new employees about innovation.",
+    "And this was a very diverse group. It was all backgrounds. There's compliance people, there's legal, there's turn, you know, there's us people, there's designers, there's engineers, there's all these people that I get to talk to for 30 to 60 minutes about what innovation meant. And it became pretty clear quickly that the lawyer in the company is going to view innovation very differently than what the designer is going to be. And that we all have a different perception of what that means. And we just wanted to let them know like however it was that you define it for yourself, it's okay, but we want you to innovate.",
+    "So to bring up like the lawyers, like one way that the lawyers innovated, we actually lost a pretty sizable merchant account. And one of the reasons why was because we couldn't be fast enough with a lot of the sign-offs and all that. I think we had like 70 pages or something that their council had to read through and sign off on or whatever. Like the other company was just like somebody else just came up and said like yeah, no, you don't need to do that, just do this. And like all else equal, that was one of the big deciding factors. And we're like this is a competitive disadvantage.",
+    "So how do we turn 70 pages and make it into one? And that was an We would talk about that on the same level as the things that we were building and the products and the patents and whatever else like because like that's a huge process innovation that we would have. So we would have like innovation days, we would have all these kind of things within the company, but like we never put like strong strict definitions around those things. And everybody kind of gets, you know, what innovation means at a high level. And as long as they know that's okay and that's encouraged, that is then something that we would instill throughout the people in the company."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 429,
+   "paragraphs": [
+    "That's fantastic. Mike, what was the experience like educating and encouraging folks in roles like legal or finances? Kind of a different ball of wax when you're talking PayPal, but roles that you don't generally think of as sitting at the core of innovation efforts. Was it challenging to sort of get those folks on board or were they excited to have the opportunity to consider things that either in other roles or other organizations whatever they might not have been able to?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 459,
+   "paragraphs": [
+    "You got 20,000 employees that we're trying to define this. The last thing that I ever wanted to do was focus on the innovation resistant people within the company where I wanted to put most of my time on effort on the innovation curious people because if you get that 10 or 20% out of 20,000 that's, you know, two or 4,000 people, you get them doing this, you give them the attention and recognition and all that, you're going to start to see the other people up the ladder want to do things like that."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 494,
+   "paragraphs": [
+    "Right, it gets that flywheel going and you get people looking around going oh that guy's doing something"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 498,
+   "paragraphs": [
+    "Interesting, how do I get to do that? Yeah. I mean and that's the thing like you never like if you're building a product, never focus on okay, who's not using the product. Focus on who's using the product and how do you make this even better so they become your biggest evangelist for what you're doing. So in the finance, we bought these robots and I just bought like five of them. I was kind of like hey, as long as you're going to use this, I'll send it to you. Who wants it? Just give me a proposal, it's yours. And the person that raised our hand was somebody on the finance team.",
+    "And he was like yeah, can I do something on this? I'm like do you know how to do this? He's like no. I'm like well do you want to work at this? He's like yeah. I like okay, this is yours. And 7:00 7:30 in the morning, long before I ever got into the innovation lab, he would be in the lab and he'd be toiling away at stuff and he'd be building a team, he'd be doing all this other kind of stuff. And what the hell did that have to do with finance? Absolutely nothing. Absolutely nothing. But it was teaching him a totally different skill set.",
+    "It was showing whatever's possible. And so he got this thing working and I forgot what even built, but like he would have it going around the campus, the PayPal campus and people would see this PayPal branded robot and be like well that's cool. Wait, a finance guy did that? And it was pretty amazing to start to just build that culture. So I think that was really important to do that."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 578,
+   "paragraphs": [
+    "Yeah, absolutely. I can totally see where that would inspire a lot of other people. Mike, you've hit on this idea of a culture of innovation a couple of times now and to be frank, most of what you're sort of describing and discussing sort of falls under the umbrella in my mind of building that culture in terms of how you give people the permission to experiment and to try weird things and to learn something that isn't related to their core purpose within the business. Talk to me a little bit about what a culture of innovation means to you and how you sort of went about that over the course of I think you said it was 5 years in the innovation role at PayPal. It started before I had the job."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 618,
+   "paragraphs": [
+    "I mean to be completely honest Danny like I was sort of lobbing for this job before the job even existed. That was actually"
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 625,
+   "paragraphs": [
+    "My next question was how did the job come about?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 627,
+   "paragraphs": [
+    "So if you want to kind of weave that in, that's great. Yeah. I got into this whole process of like just learning about patents and filing more of them on other ideas, on other concepts. And effectively what a patent is, it is to be able to explain a technological concept or an idea that no one's ever thought of before. And I would like literally lead these brainstorming sessions within PayPal just doing this on my own. I had a day job, I would do that all the time. I did that for years. And finally then and I just loved it. So I was getting all these patents, all this stuff while I was still doing my day job and it was super fun, interesting like, you know, the company loved it and everything else as well.",
+    "So then when we're splitting I had the opportunity like basically one of the things that happened is half of the patents went with eBay, half of them went with PayPal and there are all these lawsuits. Apple was suing Samsung, all these patent lawsuits were going out and we're like crap, we're a small company relative to all these. We're losing half our assets. We need to rebuild this portfolio. How do we do that? That's when I raised my hand and said like hey, I might be able to help with that. You know I've been doing for the last 3 years and all that. And that's so innovation moved into technology, I started off in legal. So I was actually on the with all the lawyers doing that. And that was just kind of the evolution of that."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 706,
+   "paragraphs": [
+    "Interesting. So you started as part of the legal team. I'm I'm picturing, you know, you in an office or at a desk amongst a bunch of lawyers. Were you getting sort of the side eye of who is this guy and what is he doing in the in the legal department?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 721,
+   "paragraphs": [
+    "Yeah. Yeah, totally. I mean look, I got that lot like even before the innovation job just in my entire career, my entire life I've always got it the side eye. One of the things I did was I never actually took a desk. So I never sat with the lawyers or anything like that. I actually gave up my desk in PayPal in years before that because I was hiring somebody, they didn't have room for a desk and so as a good boss, I'm like you got my desk. Like the last thing I want you to do is come to the company and not have one. I don't need a desk.",
+    "I will work out of my backpack. And I did that for the last 9 years I think that I was at the company. I just worked out of my backpack. But eventually I was able to commandeer our innovation lab. And what the heck commandeer that? I convinced somebody in facilities to take a conference room offline and then I just started stealing furniture from across the campus that nobody else seemed to be using. And if they would complain, I would give it back and if not, I would just take. And I mean and so like that's how we built out the innovation lab. It was a couple thousand bucks total, but it was mostly just like anything that and eventually people started donating stuff to me because they're like hey, like I remember actually the head of legal was like I got this chair, it doesn't match my office. I'm like I don't give a crap, just I'll take it."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 792,
+   "paragraphs": [
+    "And she was happy to give it to me. Yeah, send it over here. What was happening within the lab? Was this a place that was staffed with an innovation team or was it more of a like a transitory waypoint for people that were looking to try weird things and experiment? Like what was the purpose of the lab once it became established with stolen furniture?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 813,
+   "paragraphs": [
+    "Much more of the ladder that you just described there. Like for a long time in PayPal like innovation was just me. Case I got like another person or I'd get an intern or whatever. It was me and a whole bunch of just ambitious volunteers who wanted to build cool stuff and have cool conversations. Anything I would just constantly try experiments to build community and to build just this, you know, this culture of innovation within the company. And I eventually stole TVs so we would do like on Thursdays a thing called Ted and Breakfast where I would literally go to McDonald's across the street, buy like a whole thing of like egg McMuffins and hash browns, just kind of throw it out there and people could kind of come and go and watch TED talks and that would lead to these discussions and all that.",
+    "And it was it was really just all about building a community. And it was totally fun because we would just have these people from all different backgrounds just coming in and out. And people would bring friends, you know, hold events. Like one of the greatest hacks Danny that I ever found out was don't ever spend money to like bring in somebody as a speaker. Find those same people who have a new book coming out, say that you're going to buy 100 or 200 copies of their book, you know, and if you live somewhere more remote where they're not doing part of the book tour, that might be harder.",
+    "And pre-buy those books and just say okay, come on your book tour when you're in San Francisco, just come down for an hour and I'll interview you on stage and give out the books. That was the greatest hack ever because you spend $100 on books or sorry, buy 100 books, 200 bucks each or something, that's two grand. Some of these people charge like $25,000 to do speaking. And plus I get to give out all the books. We get to then have like a book club meeting as a company about those books after the fact. I get to meet with cool people on stage and do one-on-one type sessions. We videotape that, we send that all around. Absolutely."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 927,
+   "paragraphs": [
+    "Mike, I love the story about the hack and it actually segues nicely into my next question which was what other recommendations do you have? So, you know, you're describing your evolution within PayPal into an innovation leader. For anybody who's listening who is in a similar kind of spot where maybe they're not even in an innovation role, but they're trying to establish the culture and the opportunities as you're describing it, what advice would you give them?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 958,
+   "paragraphs": [
+    "Start small. Start small and experiment like crazy is what I would say Danny. So just start from the ground up around something that you are personally passionate about that you also think is going to benefit the business. I mean that's the Venn diagram that you want. In some way AI is going to help your business, you're passionate about AI, putting those two things together, that's a great thing to start off with. Then set up a Slack channel or a Teams channel with like AI sharing. And what you're doing is you're building a community as part of that within the company. And that is just going to start to get bigger and bigger and bigger."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 997,
+   "paragraphs": [
+    "Interesting. So Mike, starting small, how did you then grow the innovation capability within PayPal over time? And what did it look like sort by the end of your tenure? I mean how had your efforts changed the role of innovation for PayPal?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1015,
+   "paragraphs": [
+    "Wow, that's a great You know, it's one thing I never tried to be too introspective on this in some ways and in part because I never had to. And let me just say this one thing, I would go to some innovation conferences with a lot of other people who were running innovation teams like me or whatever it might be. And a lot of that always came up was like well how do you measure ROI? What's the return on investment of what you're doing? And I would always tell them like it's me so I don't have to worry about ROI. I'm one line item on there and it's all this other person like time and anything like that.",
+    "Like yeah, if I wanted to grow this into an empire if that was my goal, that would be more of an issue or a problem. But I never had to worry about that because I always kept it small and manageable. I frankly always did things that I knew the CEO would like. We could talk about that a little bit later, but like you know, I would always like kind of get on their radar with some of the really cool stuff we're doing. So it was never like if there was any cost cutting like what we were doing was never even a thought. So so that's one thing that I would say to people like the smaller you start this thing, the more constrained that you are, like the more freedom and leeway you're going to actually have to do.",
+    "For building out the culture itself, like it's fun like, you know, so while we had this mandate and I've talked mostly about like culture of innovation as a company, we would have a leader come in and say hey, we need to be doing something in blockchain. Can you actually build out a blockchain team? Here's some money to hire some engineers or something to do that. So that was another thing which I haven't talked about at all that we would do within the company. And you know, it's fun with that because like now like PayPal has its own stable coin and that was like in that released 2 years ago and we started to work on that back in 2019 and like work on the original papers and efforts in that area and so forth.",
+    "So like we do see that kind of stuff as well. But like, you0 you know, the culture of innovation like it's a brand new leadership team now and I don't I haven't actually been there in like 2 years so I don't actually know what's going on fully. But I do see some stuff in the product side of like oh yeah, like I remember that. You know, there are things like that too. Nice. Nice."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 1155,
+   "paragraphs": [
+    "Talk a little bit more then about the efforts of building out new teams and new capabilities. I guess what I'm sort of the underlying question that I'm driving at here is it sounds like a lot of your initial innovation efforts around PayPal were as you've described, establishing the culture of innovation, helping people understand that they have permission to be innovative and to think about innovation as a part of their job. But then at some point, I'm assuming that kind of the rubber hits the road if you will and there's got to be an output from those efforts as well. And what I'm hearing is that the output was, you know, occasionally new teams like a blockchain focused team for example that came together.",
+    "How did that process work? And then, you know, you go to build a blockchain team, you hire a few people. Like how did that team then go from being a brain child of, you know, the innovation department or Mike or whatever into becoming a standalone functional team that operates without, you know, the need for your oversight specifically so that you could at least as I picture it, then go back and refocus on building the culture and whatever that next team might be."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1231,
+   "paragraphs": [
+    "Yeah. I mean I think there's almost two phases in this Danny. So I think like the first blockchain work we were doing was long before I had that blockchain team. And we would do things like we would have, you know, couple month long hackathons and things like that where people might get to work on a project and we'll have a certain problem statement or whatever it might be. And then we would do things like so so PayPal's main campus at headquarters probably like 3,500 people. So there's some pretty big rooms that they have in there that could hold a couple hundred people. And you know, I would say hey, we're going to work on a blockchain theme, something related to blockchain.",
+    "Anybody in the company can build, anybody could do whatever. Here are the parameters. And here's a whole bunch of VPs that are going to see the final pitches of that. And then I would gather a whole bunch of people and say hey, 2 months from now can I get an hour on your calendar to do this, to evaluate, to do that? And we would do this. And frankly, this was one way to get people excited because especially a lot of the people involved in innovation were earlier in their career, don't have as much exposure to some of the more senior people in the company. And this more senior people in the company get to see like kind of fresh brand new ideas that are coming from throughout the business as well.",
+    "And that was really exciting to do that. And frankly, it was also planting a little bit of a seed within those leaders in the company because then they would start talking about that and so forth. So probably the first blockchain things we did was like 2015 2016 in that time frame. So when, you know, strategically as a company they're starting to say like hey, maybe we should start to do stuff in this space. How do we test that out? You know, I would be one of the first people that they would go to with something like that. And so with blockchain specifically, it was one of the senior leaders within the company said hey, like do you think you could build out a blockchain group?",
+    "We could do these tests. For that, we did have a very specific goals and criteria that we wanted to meet over time. That was a little bit different because it's like okay, I'm actually giving you this chunk of money. This is not innovation money. This is not to hire authors. This is to hire engineers to do this. And these are the tests and this is how we're going to meet every month and talk about progress and these are the goals that we want to reach and all of that kind of stuff as part of the process. So I think it was very prescribed, but it all started with planting seeds.",
+    "I mean again, any kind of new emerging technology and we've talked about augmented reality, robots, we haven't even gone into machine learning and AI type stuff yet. So like all of these things that we were doing other experiments, you know, sessions where we're just like kind of putting people on stage, being flamboyant, being out there and just kind of showcasing the talent that we had within the company."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 1400,
+   "paragraphs": [
+    "Yeah. Mike, it's interesting as you're describing this thinking, I'm thinking back to my experiences during sort of a similar time range and I'm going to ask this question fully aware that this may be a me question and it may be a an environmental question, but I sort of have a sense that that during the time period you're talking about, so, you0 you know, 2013 2016 early that there was more of an excitement and a willingness in the technology community in general to share, to present, to get on stage, to wax poetic about ideas. And I sort of have the sense that today things have shifted more into an entrepreneurial perspective where people still have the same ideas, but they're driven by the potential of to put it bluntly, starting a company and making money off of those ideas as opposed to potentially sharing them and building community around them.",
+    "And I guess I realize that's not a question. I guess my question comes down to am I crazy or do you see some of that yourself? And then if so, do you think that the culture and the community that you're describing from then could still thrive today?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1476,
+   "paragraphs": [
+    "Yes, in one specific area. But I think you're probably right Danny. I think I think that there is a lot of that today. And I think I might be having a harder time launching some of those things that I said today with one big exception and I think that's AI. Yes. Because I think in that world that is the perfect example of something where anybody can use it, anybody can benefit from it. When I started at PayPal, I worked with a lot of machine learning engineers and I saw a lot of cool demos and all this amazing stuff and I couldn't do any of it because I wasn't an engineer myself.",
+    "I couldn't do that. And then fast forward 2021, I had my first experience with GPT-3 which was, you know, predecessor to ChatGPT and all that. And I remember typing stuff in there and I was working with their playground tool and having it just kind of spit out like a story, spit out what whatever it was and like literally like screaming because I'd never seen something like this before. I'd seen engineers do stuff like this. I've seen, you know, we have a customer service machine learning team that would do all this weird stuff with like learning from this and then it would spit out stuff as a chatbot and all that.",
+    "But like holy crap, I was able to do that and I'm not an engineer. And that was so damn eye opening for me that I was just giddy at the time because, you know, 99.999% of the world is not machine learning engineers. They are like you and me who, you know, can talk, can speak, can do whatever, but that like was an unlock for everybody else. So today, I mean everybody on a board level, on a senior leadership level, on a individual manager, middle management level, they're all thinking about how can we use AI more effectively, how can we use that better? And everything that I've described here, that is what I would focus on.",
+    "I would just say like okay, even if you're a seasoned company using these tools, there's still opportunity here. But most companies aren't seasoned. Most companies are just like hey, they talk about AI on CNBC, I don't know what the hell to do. And be the person that's starting that movement within your company saying like okay, let's go and figure this out. We're going to spend 20 bucks a month on enterprise, you know, Claude Sonnet 4.5 or whatever and just have this. It's not a lot of money to do that. We're going to start sharing all this stuff in a Slack channel. We're going to set this up and we're just going to start running experiments in some sandbox of all the amazing things that we might be able to do.",
+    "And 80% of those things are going to fail, but 20% of those things are going to be really damn interesting. And we're going to want to start to get the interest of up leadership starting to look at that. Like today that is something that I can't imagine a company that isn't going to embrace from an innovation standpoint you doing something like this. Right,"
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 1661,
+   "paragraphs": [
+    "Interesting. Mike, that's a great transition too to what you've been doing over the last few years. We've talked a lot about PayPal and your innovation role there. Tell me more about what you're up to, you know, since that sort of aha moment with GPT-3 and how your focus has shifted into the AI space and then perhaps how your innovation background has influenced the way that you view the experiments that you're doing with AI."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1687,
+   "paragraphs": [
+    "Yeah, it's a great question. I've been fascinated about just by these tools, these AI tools as just being able to heighten human creativity so much. This is the really exciting thing to me about these tools is that they are going to enable people to do so much more with them. And that is going to open up a lot more creativity as we start to be able to figure out like what these things can do. There's going to be a hell of a lot of AI slop, like don't get me wrong. There's going to be just like garbage just kind of being thrown out there, but it's going to be more customizable, more personal.",
+    "Like I would love to make a documentary series about my family and, you know, about like the history of our family and things like that. And, you know, we probably it'll be hard to do today, but I bet you within like 3 or 4 years like that's going to be doable. And that you're going to be able to have a documentary, you know, about your family lineage and all that. You could all sit around the TV and watch and discuss and all that. We're like you couldn't do that before and like that's going to be possible now."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 1750,
+   "paragraphs": [
+    "Interesting. Mike, remind me you're currently remind me of your current title, please."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1755,
+   "paragraphs": [
+    "Yeah, yeah. Sorry, I totally went off. I have a problem of not actually answering questions Danny. But that's a lot of what I do. So I'm at San Diego State. They have an AI center there. It's been around for about 10 years. I'm a visiting fellow which means I get to write about AI stuff, I get to teach, I get to just run a hell of a lot of experiments. I do research in that. The current research I doing is perceptions of creativity in AI, just how people perceive AI created works versus human created works and what the difference in perception that humans have. Is there anything you can share about your discoveries there, Mike? Sorry, go ahead."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 1794,
+   "paragraphs": [
+    "Is there anything you can share about your discoveries so far about the perception of creativity?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1798,
+   "paragraphs": [
+    "Yeah, we're not published yet, but I but I don't think I'm supposed to talk about it, but I don't care. I'll talk about it anyway. Like look, the hypothesis I had so here was the experiment. We basically give an AI generated story to, you know, 300 people. Half of the people are told that it's AI and half of the people are told that it's written by a human. That doesn't exist. So to the best of your knowledge, you have that and then we have you rate those stories. And the hypothesis was the people who were told that it's AI are going to rate it lower overall.",
+    "That's not quite the case. Like what we're starting to see and like and we, you know, just got the data last week so I'm still kind of playing with it, but it seems like the hypothesis was probably wrong and that it really does seem that we're actually looking at least for this form on almost equal footing between the two. Now like that's the great thing with research like it's going to beg so many more questions, so many more studies, but it just seemed kind of counter to at least the narrative out there that everything AI is garbage, everything AI is slop, people hate AI. At least in this study, I haven't seen that so far. That's really interesting."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 1867,
+   "paragraphs": [
+    "Part of what's so fascinating about what you're describing Mike is the I guess the difference between who we view as everyday people versus professional creators for example. And, you know, part of what you've been driving at is AI's ability to increase access for the everyman to a creative outlet, to something that can formulate an idea based on the way they describe it. For example, that they might not have been able to illustrate themselves or photograph themselves or edit together and do a video themselves. Whereas and my sense is and certainly the data that you're describing would seem to indicate that people are okay with creative help in that regard.",
+    "But then when you look at professional creators who I think are perhaps more vocal about, you know, looking down on AI and trying to protect their own IP in terms of how it's used for AI, have a very different perspective. And again, this is me hypothesizing and I have no data to back it up, but, you know, there's sort of an interesting dichotomy there and I think it will be it'll be interesting to see how it unfolds over time and whether AI really really becomes more a part of the creative process or whether we maintain that divide between the everyman creator and the professional creator and the way"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1950,
+   "paragraphs": [
+    "That they use AI. So I don't know if I have a question buried in there, but things become democratized. The people who kind of know the secrets and the keys to that and especially if you're also making your living doing that, you're going to be more resistant to that change than somebody who is casual about that. And I think that's one of the interesting things we're finding out. And, you know, probably in this study, you know, we didn't actually ask this question, but just playing the odds, none of these 300 people that we asked in the survey were probably professional writers. I'm guessing if they were professional writers, they would have maybe felt a little bit differently and a little bit more passionately if, you know, you might react more negatively to an AI created podcast.",
+    "I may react more negatively to an AI created whatever visiting fellow who teaches or something like that. Like I think that is a natural human reaction we will have to all this, but like it's not going to change. You know, I always look at historical parallels for this kind of stuff and, you know, and just what people have said over time to different advances of technology. Like photographs for example, like there's an argument you can't even copy a photograph or copyright a photograph. So you couldn't get legal protection for a photograph because the original argument was like well that's literally you are just capturing what the world is and then like why the hell should you be able to copyright that photograph?",
+    "And that didn't hold up with like well no, but it's there's an art to it and so forth. And you know what? We still have artistic professional photographers. We have professional photographers at weddings and stuff like that. There are all these kind of things even though, you know, four billion people have a camera in their pocket at all times versus, you0 you know, 150 years ago there were a thousand people that had a camera. You know, I mean like it's completely changed. And I think what you're going to see is especially for smaller creators, especially for more independent creators, especially for more entrepreneurial creators, they're going to and they're already starting to look at like how I can use these tools to do so much more, so much more quickly, how I could quickly iterate and just experiment with things again and again.",
+    "Honestly, just as a amateur creator, I have so much fun with it, but it's I think it's just the natural reaction of any kind of technological advance that you're going to see this. A great example I will say is you go on Disney Plus, there's a series called Lights and Magic. I think it's the name. It's about ILM which was a George Lucas company, Industrial Lights and Magic. And one of the things you see is so it's a special effects shop. And you see the pivot when they go from practical effects like the first Star Wars like literally the Death Star scene with all that.",
+    "Like this is made by putting together like model pieces and gluing this together and all this other stuff and going from that to digital effects. And when you saw that in this movie back in the 1980s, all the practical effects people were like this is crap, this shouldn't happen, this should be. And you know what? Like within 5 years like either they transitioned over to the digital side or they did not. And like that was kind of the change in the world that we saw. And I think we're going to be seeing a very similar pivot right now."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 2159,
+   "paragraphs": [
+    "Interesting. Yeah, I agree Mike and I think it will be incredibly interesting to sort of see where it nets out. Are there any particularly surprising"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2168,
+   "paragraphs": [
+    "Discoveries about AI or our relationship to AI that have come out of your research? Well, my research has been very hyper focused on that, but let me talk maybe not out of my research, but just kind of the research more broadly. The thing that actually keeps me up most at night about AI is AI companionship. And I actually had an old professor of mine, his name is Sam Apple and he wrote something for Wired just this past September. And it was a great piece. I highly recommend people read it. And it was all about AI companions and he and he basically had all these people who basically have AI boyfriends and girlfriends.",
+    "And they came together and it was right that it was a very level like kind of both sided part of this. And it was very well written. And it part of me is so frightened by that for society because you can't compete with AI. We are naturally inclined to anthropomorphize things which means you see human traits and things where humanity does not exist. This is just how we work. But the surprising thing so that's the surprising thing to me about that. You asked the question Danny, what's the surprising thing? There was a podcast I listened to recently called Science Versus and it had an episode about AI companions and they kind of followed somebody in this episode.",
+    "The interesting thing to me was the episode actually ended in an oddly positive way where like after 9 months of being with this AI companion, the person was just like yeah, I'm done. Like and that was it. There was no drama, there was no else. It's kind of like yeah, I've done it. And like maybe our wiring is such if it's so sycophantic or whatever like it's just not natural for us and we don't do that. Like I don't know. I don't know. But like this ultimately we're going to be asking ourselves the question like do we want to live in the matrix or do we want to live in the world that we have today?",
+    "And I think a lot of people are going to choose matrix. And I don't think that's a good thing, but like that's something I'm very much trying to grab, put my grab, you know, try to understand and grapple with like"
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 2298,
+   "paragraphs": [
+    "Every day. Yeah, it's so funny that you bring that up too Mike. Have you seen the sort of social commentary around friend.com and their device? Yeah. Yes. So I've seen it because they've been running a massive advertising campaign around the New York subway system. And being in New York, I have seen the ads. And it's so funny because, you know, usually I just sort of ignore the subway ads and go cool, there's a movie coming out or whatever. This was one of the few where I saw the ad and it literally I mean I think the ad was friend.com in big text with a picture of the device.",
+    "And so I immediately of course went to the website and kind of went what is this? Like from a technology perspective, an AI perspective, and a human perspective, it's so interesting. And I think that as that becomes more normal, the tolerance for it is going to change and we're going to we're going to sort of see the those who those who will and those who will not. And so I'm curious to see where that nets out. Last couple of questions for you. First off, is there anything that I haven't asked you about that either you're dying to share or that you think would just put a really good kind of cap"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2367,
+   "paragraphs": [
+    "On our conversation here? God, you've covered it all Danny. I mean look, the thing that I would just summarize all this and mostly focus on the innovation side of things for people who are really interested in the innovation side like just take ownership, just be intrapreneurial if you want, be entrepreneurial within your own company. Just do that, just do it first and don't ask for permission is honestly what I would tell people to do that. Now do that within reason. Like don't like oh I'm going to download all the customer data. Like don't be stupid with it like as you're doing it, but like to just be able to do this and just start that movement within your company like if it's not happening, like be the person that makes it happen.",
+    "And that's what I would say like just like be that person within the company. Some people ain't going to like it. Your boss might not even like you doing that, but then, you know, it just means you probably need to find a new boss or potentially even find a new company, but just start doing that within the company if you have that that desire and drive. And if you're the person watching this podcast, I hope you do. So just do it."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 2436,
+   "paragraphs": [
+    "Awesome. Yeah, I hope more people feel inspired to take action on it. Awesome. Mike, where can folks find you if they want to keep up with your research and your ideas and all of that fun stuff?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2448,
+   "paragraphs": [
+    "LinkedIn is the one social network that I'm actually active on because it's the one that bores me after about 5 minutes of being on it because the other ones are too exciting for me. So I'm on LinkedIn for 5 minutes a day or so and I'm like okay, I'm good. But yeah, that's the best place. Just Mike Todasco on LinkedIn. And people can DM me or anything like that. I will be more than happy to help them out in their journeys or response. Like I just I love doing this stuff and talking about this stuff. Awesome. And you also have a Substack, artificially intelligent conversations.",
+    "Yeah, yeah, yeah. So so it's Substack, medium or LinkedIn, any of those three. I post in all three of those places. You can see my newsletter about AI stuff. That's whatever is interesting to me. And I try and write in very simple terms as best I can. I love what you've written Mike."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 2499,
+   "paragraphs": [
+    "I love what you've written. I have it open here which is part of why I had the title ready to go here, but I mean Google built an AI for kids books and I used it for corporate propaganda. I love it. That's"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2510,
+   "paragraphs": [
+    "Fantastic. Yeah, yeah, yeah. That was fun. I did that one recently. I did I think the most recent one I did was how many people has ChatGPT killed?"
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 2517,
+   "paragraphs": [
+    "I did see that one too. Yeah."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2518,
+   "paragraphs": [
+    "And so that was like literally going into the data of just seeing like okay, like what is the environmental impact? What is all this other kind of stuff that that and, you know, it's it's a little bit attention grabbing, but it's it's fun, exciting, weird stuff, but it's all AI related if you're into that."
+   ]
+  },
+  {
+   "speaker": "Danny Nathan",
+   "start": 2535,
+   "paragraphs": [
+    "Mike, thank you so much for taking the time to be with us today. I love hearing your stories and the evolution of innovation at PayPal has been a fantastical learning experience. So thank you for joining me. It was a pleasure Danny. Thanks for having me. That's it for today. Thanks for tuning in to Innovate, Disrupt or Die, the podcast. Join us again for our next episode and don't forget to subscribe at innovate disruptordie.com. That's all folks."
+   ]
+  }
+ ],
+ "words": 8216
+}

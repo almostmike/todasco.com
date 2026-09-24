@@ -9,6 +9,7 @@ import research from '../data/research.json';
 import media from '../data/media.json';
 import built from '../data/built.json';
 import patents from '../data/patents.json';
+import { transcripts, transcriptPath, transcriptText, NOTE } from './transcripts';
 
 export const SITE = 'https://todasco.com';
 
@@ -89,6 +90,13 @@ export function llmsTxt(): string {
     '',
     ...research.map((r) => link(`${r.short}: ${r.sub}`, r.url, r.date)),
     '',
+    ...(transcripts.length ? [
+      '## Interview transcripts',
+      '',
+      link('All transcripts', `${SITE}/media/transcripts`, 'auto-generated text of podcast and video interviews'),
+      ...transcripts.map((t) => link(`${t.outlet}: ${t.title}`, SITE + transcriptPath(t), t.published ?? t.date)),
+      '',
+    ] : []),
     '## Elsewhere',
     '',
     ...PROFILES.map(([n, u]) => link(n, u)),
@@ -143,6 +151,20 @@ export function llmsFullTxt(): string {
     '',
     ...PROFILES.map(([n, u]) => link(n, u)),
     '',
+    ...(transcripts.length ? [
+      `## Interview transcripts (${transcripts.length}, auto-generated)`,
+      '',
+      NOTE,
+      '',
+      ...transcripts.flatMap((t) => [
+        `### ${t.outlet}: ${t.title}`,
+        '',
+        `Published ${t.published ?? t.date}. Original: ${t.url}. Transcript page: ${SITE}${transcriptPath(t)}`,
+        '',
+        transcriptText(t),
+        '',
+      ]),
+    ] : []),
   ].join('\n');
 }
 

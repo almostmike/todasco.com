@@ -1,0 +1,678 @@
+{
+ "slug": "intentional-excellence-elevate-your-life-built-to-build-the-ceo-series",
+ "outlet": "Intentional Excellence: Elevate Your Life",
+ "title": "Built to Build: The CEO Series with Mike Todasco",
+ "date": "Sep-25",
+ "published": "2025-09-24",
+ "url": "https://podcasts.apple.com/us/podcast/built-to-build-the-ceo-series-with-mike-todasco/id1788924229?i=1000728259242",
+ "duration_sec": 3920,
+ "host": "Candice Ruggiero",
+ "speakers": [
+  "Candice Ruggiero",
+  "Mike Todasco"
+ ],
+ "turns": [
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 2,
+   "paragraphs": [
+    "Welcome to the Intentional Excellence podcast. I'm your host, Candice Ruggiero. I'm a keynote speaker, host of this podcast, host of Love Speaks Live, and host of Love Speaks Out in the Community. I'm also an education expert and founder of Novara Global Education Consulting. Today, we're continuing with our special series called Built to Build, the CEO series. And this series highlights leaders and innovators who have built not only companies and careers, but also the mindset and resilience it takes to lead with purpose. Our guest tonight is someone who truly embodies innovation and intentionality. He's Mike Todasco. Mike Todasco is a visiting fellow at the James Silbarad Brown at the Brown Center for Artificial Intelligence at San Diego State University.",
+    "There he writes, he advises and teaches on AI. A former senior director of innovation at PayPal, he led global innovation programs and holds over 100 US utility patents. Mike began his tech career after founding and failing his first startup, Sketch Maven, an e-commerce site for comic book art. Before that, he worked in finance and accounting, openly admitting he wasn't a great accountant. Today, he focuses on making AI accessible, blending his Johns Hopkins MFA studies with hands-on experimentation. He blogs, runs the AI conversations newsletter, and even publishes AI written books under the pen name Alex Irons. He also donates proceeds to charity. Known for simplifying complex topics, Mike helps leaders and individuals adopt AI as augmented intelligence to enhance creativity, decision making, and productivity.",
+    "He lives in California with his two children and enjoys exploring the intersection of technology, curiosity, and real life. Mike, it's such an honor to have you with us. How are you today, Mike? I'm wonderful,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 140,
+   "paragraphs": [
+    "Candice. I feel the episode might already be over. That was that was a beautifully, eloquently long intro. Thank you."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 147,
+   "paragraphs": [
+    "Well, I listened like three episodes before this also from my built to build series. I was able to feature the managing partner of MS3 IT Solutions where he's also involved with AI and he got me so interested with it. He handles the home solutions and real estate and healthcare and I was so like blown away with what AI can do. So I am so excited to have you because I want myself to learn more about AI and I want everyone the viewers to know the capabilities of AI. So you don't know how excited I am to feature you. Well, I love it."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 188,
+   "paragraphs": [
+    "That's what I'm here for. Let's do it. Let's do some teaching here."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 193,
+   "paragraphs": [
+    "Good. I love that. All right. So Mike, my podcast is worldwide. I am let's share with everybody where we're podcasting from. I'm in Florida, specifically in Tampa, Florida in United States. Where are you podcasting from?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 207,
+   "paragraphs": [
+    "California in the Silicon Valley area."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 210,
+   "paragraphs": [
+    "Nice. So how's the weather? How's the weather in California now?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 215,
+   "paragraphs": [
+    "It's always nice here. Like it's been such a nice summer and everything. It's I grew up in Chicago where it's miserable summer, miserable winter and I really appreciate it out here."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 225,
+   "paragraphs": [
+    "Oh, are you kidding me? I'm from New York and I'm now in Florida for three years. Honestly, I miss it sometimes. I still Come on."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 233,
+   "paragraphs": [
+    "You don't miss the snow? My oldest son's 14 years old and he still has not seen snow. So and I'm just fine by that."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 240,
+   "paragraphs": [
+    "Well, I hope it like during the winter season like in one like East Coast at least he can experience the snow. You know what I mean? No, no, no. He's not"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 248,
+   "paragraphs": [
+    "Going to do it until he's 18 and like I mean the only thing that I will say like he can go Well, I want him to go like I'd love for him to go to college far away and somewhere cold because he'll appreciate living here. But when we go on family vacations, they actually have this thing in California called ski week which I'd never heard of before coming here. It's literally a week off in February that you get from school and like public schools, private schools, everyone kind of does it. Most people go to like Tahoe or Utah. We go to like Hawaii, Mexico City like we go we go warm. We go warm."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 283,
+   "paragraphs": [
+    "All right. Okay. All right. Well, I'm well me my heart is still part of like the winter in New York. I miss it. I'm going to be honest. I miss it. So I go home once in a while just to like enjoy New York City, the white Christmas, especially if it's white Christmas. Yes. Yeah. It's beautiful. It's beautiful. I just don't want to have to deal with it. Yes. All right. So let's start. Can't wait. So Mike, let's talk about the inspiration. I believe Mike that every career path has a spark, a moment or a bold step that shaped what followed. So Mike, what inspired you to step from finance into entrepreneurship and eventually into innovation and AI? And perhaps share was there a defining moment that shifted your path?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 329,
+   "paragraphs": [
+    "Look, I would say I was just always interested in entrepreneurship and I was frankly just always naive on business and stuff like that. The whole reason I went into finance is because I knew it was kind of about money and I thought money was really interesting. And so that is why I got a degree in finance for my undergrad and why I pursued that. And then I got in and I'm like, oh boy, this isn't exactly what I was expecting. But I was always doing entrepreneurial things on the side. I would I actually like made a TV show with like a co-worker of mine and we were submitting it to this was before YouTube, mind you.",
+    "So there was no easy way to distribute something independently. So we're like driving to public access TV stations to distribute our episodes like all over Ohio and Michigan and places like that where we lived. I was always doing entrepreneurial things and I actually went back to school to get my MBA and just as part of my MBA program, most people like looking for jobs after and I'm like, well, do you know what? I'm just going to use this as an opportunity to transition and to just do my own thing. And that's what I did post MBA."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 402,
+   "paragraphs": [
+    "That's exciting. Talk to us about the e-commerce that you were at because like nowadays like the in thing is e-commerce. And everybody likes comic book. Talk to us about that. What happened?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 412,
+   "paragraphs": [
+    "Yeah, so this was so so the idea came from so I collected comics in the '80s and '90s growing up. Frankly, I paid for college in many ways by buying and selling comic books. And I would actually I had a new I had a catalog, a newsletter and stuff like that I would send out. People would send me their checks. I would go deposit them and then I would like send out the comics. Eventually it went to not even eBay but Yahoo auctions. I'm really showing my age here because like that wasn't a thing in the early '90s you know selling online but eventually I started selling in places like that.",
+    "But the whole idea came from me wanting a piece of artwork. So every comic came from a hand drawn piece of artwork. Me wanting to buy a piece that I saw in the '90s at a convention. The artist was there. I'm like, oh, I should be able to find that. And then I kind of discovered it's a unique problem when there's there's only one hand drawn page for everyone even though millions of people have seen the finished product. So there's tens of thousands, hundreds of thousands of these individual pages but each one is unique. And to find something where there's only one of them that exists in the world, it's not a really easy thing to do.",
+    "And so it was all about building a marketplace, so an e-commerce marketplace where people can buy and sell this comic book artwork. And it was 2009 when I started that business. It was called Sketch Maven. I'd never built a website before. I had no idea what I was doing. I remember I launched on Thanksgiving day 2009. I didn't even have a secure checkout. So like you know that little lock symbol you see? I didn't I didn't know I needed that. And this was before Stripe. This was before all of these things that exist today. And I was just constantly just figuring stuff out, failing as I went.",
+    "I did that for two amazingly painful years but also I grew so much in that and that put me on the next path of my career trajectory."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 538,
+   "paragraphs": [
+    "Well, that's how that's what leads us to the bigger the bigger stuff like stepping forward, failing, succeeding, that's how we learn. That's really practically how we learn."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 550,
+   "paragraphs": [
+    "And absolutely and Candice like my entire interview so I got a job at PayPal 2011. My entire job interview at PayPal was like six hours of me talking about how I failed in this business. That's all that I did was just talk about yeah I screwed this up, I screwed this up. Boy, I tried this thing, that didn't work and just me telling all these kind of stories and you know especially in Silicon Valley and I think somewhat more in the US that's permeated like that resonates to be able to recognize the mistakes you made and show that you're able to learn from them."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 585,
+   "paragraphs": [
+    "I totally agree with you Mike because I've learned from my own journey that what made me who I am right now were my trials, my challenges in life, my failures. And if you're able to own and make them part of you, that's how you really become resilient. And really my podcast has been about resilience, it's authenticity. It's because like what you and I have been talking about right now, it's really all of these things that we go through in life which makes us who we are and you know what I mean? And sometimes admitting that we failed, sometimes it's it's like it's like it's better than just being like you know I mean I just feel like we always learn from our mistakes and we always learn from our failures. And for you to admit that, that means you're willing to grow. That's how I that's how I perceive life."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 637,
+   "paragraphs": [
+    "I think that's I think that's very wise Candice and look and that's I think it's important for everybody like just failure is just part of the learning. It just has bad branding. But you know like we're not born knowing what all 50 states are. We're not born knowing all these facts. Like it's guessing and checking. It's it's this whole process that we have to go through. And as long as you could show like hey I take these things, I learn from it, I don't make the same mistake twice. I you know we'll iterate and iterate like I think that's a great story and I think any hiring manager, any investor, any whomever is going to really like want to put a lot of faith in"
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 679,
+   "paragraphs": [
+    "A person who can do that. And to think that you were you worked for PayPal a very known as a big company like known for everything and for them to like notice you just shared six hours of you talking about your failures and challenges. It's like they were looking at the authenticity of you. Like it's it wasn't like what you I guess what you already have. It's like what you can bring. You know what I mean? Yeah. I mean"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 707,
+   "paragraphs": [
+    "I mean look I'll be completely honest. I don't know why they hired me. Like I was I was completely unqualified for the job that they were hiring before. I was doing data analytics which nowadays is kind of like data science is what it's known as. There's there's a software tool that you need to know and I didn't know anything about this. Like I knew literally nothing and but they just brought me on board for whatever reason. And my entire journey at PayPal was just going from one job that I was dangerously unqualified for to the next. But it was it was a great time, a great trajectory and you know I was fortunate enough to work in a place that worked for people who were willing to take chances."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 752,
+   "paragraphs": [
+    "And for sure it's great on your resume whatever it was like you know just working for PayPal is very good on your resume, right? Yeah, it's helped. It's helped. It's helped, right? Okay, let's talk about your journey and your challenges because I believe that behind every innovation are lessons learned through both successes and setbacks. Now you've been open about your first startup failing, right? So how did that experience shape your approach to innovation later at you know you talked about PayPal and maybe in your current AI work now maybe from like the failing now to how did it start? How did you get into that path?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 790,
+   "paragraphs": [
+    "Well, I mean I think you know and this is this is actually something that's very timely. When you were I was a solopreneur so I was hiring people but I was hiring people online through like Odesk/Upwork to build a website, to do PR work for me, all this kind of stuff. And eventually like okay I it's cheaper for me to do a little bit of coding here, to do to write my own press release, to do whatever. And so I would do that and hire people. So I kind of learned how to like take on all of these different skills. But one thing I also learned was just quick experimentation, was just trying stuff you know just doing it fast, seeing if it sticks and then seeing what happens.",
+    "That's something I absolutely carried to PayPal. But even now I'm in the world of academia which is very slow, very slow. Oh my god. Like when you from business world to academia, it's ridiculous. But just like as an example, I'm working on some research right now and Are you a professor? No, I'm a visiting fellow which basically means I get I get to do whatever I want."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 858,
+   "paragraphs": [
+    "But your students are college students? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 861,
+   "paragraphs": [
+    "Yeah, yeah, yeah. Yes. So so I have students but I also I get to write and do research and things like that whenever I want to. And there's a special AI center we have at San Diego State. But I'm working on some research right now and I'm talking to a few people they're like, oh yeah, this will take six months. And I'm like, I think I could do it in about six days. Like I don't see I don't think I think there's an older way of doing things but like I almost feel just kind of going in naive just kind of saying hey I think I can I'm using a lot of AI to frankly help me with the research and we can talk about how to do that and there's other tools to do things more effectively, more efficiently and so forth.",
+    "And it opens things up when you do that. And like I think there's an advantage always to being ignorant. There's an advantage to not having just seen how things were only done a certain way and therefore I'm going to only do those ways going forward. I'm coming in there with fresh eyes and that gives a real advantage. And that's something I definitely learned from doing my own startup."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 931,
+   "paragraphs": [
+    "Now at this point share how I know you did share how you got into AI because you know like you were just watching you know you were on Upwork and then you wanted like productivity to be fast and stuff like that. So what year are you when do you think AI really entered like really started? And how far are we like with the potential when did it start you think the concept of AI? And where are we right now when it comes to like if you compare where we'at now to the full potential of AI? And can maybe in between tell us like what can AI really do to transform not just individual lives but like businesses like because like people the problem with it is it's here but it's people are unaware.",
+    "They're really not aware of what it's capable of. So maybe at this point like I said when did it start? Where are we and where is it going to be in the future? How wide is it?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 995,
+   "paragraphs": [
+    "Yeah. Look it started in the 1950s. We're going to go through a little we'll do a very short history lesson here. The concept the coin the term artificial intelligence was 1954 I believe at Dartmouth College. There was this summer thing. There's all of these people in the world of kind of computer science as we would recognize it now. And they were saying hey we can have these machines that would be able to kind think like a human being. And we think this could happen in the next 10 years. That's what they were saying back in the 1950s. Of course that didn't happen. You know the branding AI is in some ways it's original sin because it's not really intelligence.",
+    "It conjures all these other there's a million other things they could have called it. But AI was its branding. This was 1950s. We're in the race against the Soviets. Science was kind of the first thing on everybody's mind and to say artificial intelligence, my gosh that pulls up sci-fi, that pulls up all this stuff and you know it's going to bring funding, it's going to bring attention and all these kind of things to it. So what has happened over time we've had what's known as AI winters. So there's all this hype and promise and all that and then it doesn't pan out and it just plunges.",
+    "And then for years after that nobody's interested in AI. And then all of like oh wait a minute there's some new revolution happening here in the '80s whatever it might be and this just kind of keeps on going and going. So when I started PayPal in the 2010s people never refer we never called it AI. And frankly we're almost slapped on the wrist if you refer to it as AI. It was all machine learning which is a subset of artificial intelligence. It's the subset kind of that falls in most of the things that people are familiar with today is is really kind of machine learning.",
+    "But we couldn't even do that because like people were burned by it. Nobody was going into AI, nobody was going into AI jobs. And then Why not? What do you think what's why not? Because honestly it was the I actually have an uncle of mine. He got a degree in artificial intelligence in 2002 I believe. He was pretty much unemployable by that because like the technology wasn't there. We hadn't figured out certain things. So a couple things that happened. One there was this project on a Stanford and kind of there's this team from the University of Toronto that did this thing basically they were able to train an AI to extremely efficiently recognize pictures.",
+    "And so like you'd show it a picture of a dog or there's a fun thing you can actually Google this if you do like look up dog or muffin and you can see all these pictures of like blueberry muffins versus dogs. And like you know if an AI thinks it's a blueberry muffin or a dog. So that's hard for a human to do as well. But they were able to recognize this with like much higher much higher authority than people than AIs were in the past. And so this led to more interest and people would build off of that idea and so forth. Then you know the transformer paper was so GPT is generalized pre-trained transformer.",
+    "That actually came from Google. And that was a paper that they released which basically said hey here is a more effective way that you can train an AI model to be able to like predict the next word and so forth. And that's what these models the large language models we do today we see that. So this kind of kept on going and going and then you know I started the reason I got so excited about it and the reason everybody listening and watching should be excited is because I'm not an engineer and I worked with a lot of"
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 1229,
+   "paragraphs": [
+    "Oh go ahead sorry. No, no, no. I'm just saying like it's important to it's nice to share with them that you don't have to have that you know like an engineer, you don't have to be an AI grad, you don't have to know coding to really appreciate AI. So sorry for interrupting. Go ahead. That's the"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1247,
+   "paragraphs": [
+    "Magic of the world we're entering now. In the 2010s when I was working with AI or machine learning teams, they were doing these amazing things. And look we're paying them at PayPal half a million dollars a year or whatever to do these incredible things. But I would watch these demos, I would work with these teams and I could I couldn't do that. I just didn't have access, I didn't have the abilities, I wasn't an engineer and all that. When GPT-3 came out and I first got access to that in 2021, it was so eye opening for me because I was able to just type in natural language and I was getting a computer to do things that it wasn't even really programmed to but it was like it was like helping me finish a story.",
+    "It was doing all of these things that like would seem very creative, rudimentary but creative in many ways. And that's why I immediately got it because I for years had seen amazing things AI folks could do but like this is something for the 99.99% of the people in the world who are not engineers. Anybody could go to ChatGPT or Gemini or whatever and just use those products, just talk in real language and for like 20 bucks a month you were getting access to the world's smartest model which is just"
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 1322,
+   "paragraphs": [
+    "Incredible to think about. So later we're going to deal with how it's helping leaders and individual and communities right? But can you give us like really examples to just really impress our viewers? Like what is give me like a few examples of really how AI how powerful AI is like really specific maybe scenarios or like industry you know what I mean? Let me let me"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1347,
+   "paragraphs": [
+    "Go with like personal because I always tell people find like reason in your own personal life to use it first. And so just today literally today I had to go to a doctor and like so there's like a collective surgery I have to look into and I'm talking to a few different doctors and all that. I used my phone to record the conversation. And"
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 1370,
+   "paragraphs": [
+    "I Like just normal recording on"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1373,
+   "paragraphs": [
+    "Your phone, the normal recording. Normal recording, makes it into a transcript. I then put that into Google Gemini and said like hey what are the thing what are the main takeaways? Give me the summary of this. What are the things look all this is happening. It's just me and a doctor talking about something I really don't know anything about. But it could be my patient advocate in there. And like I can have this and I have this log of it now and it took me nothing to do this. It just you know it just took a like a greying and like hey can I record?",
+    "And then actually hitting that button and then throwing it into one of these you know relatively free models that exist out there. And now I could talk to three different doctors. I could have that memory so to speak like wait what did that one say? Like what was that thing that that that one doctor said? Or I can take these things and dive deeper into them with the next doctor I see or have follow-ups. I can have like the AI ask me like hey what are some questions I should be asking that I'm not? You know what did I miss in this thing? And you can so I did this for something personal.",
+    "You could apply this to like you know practicing for an interview, working on your sales pitch. You could do just about anything in the workplace you could do with these type of models. And that was literally this morning. This was that was one way that I was using up. And another one that's just real quick is like I use ChatGPT specifically pretty much constantly for like meal prep. Every I have four people in my family, my wife, myself and two kids. Everyone's picky. I'm probably the pickiest one out of the four of us. And our role in our the Todasco household is we're only making one dish.",
+    "Like we're not doing different things for the kids or anything like that. So I put all the preferences in ChatGPT and knows all that. I will literally just go to the grocery store and say hey I want something new, I want something different, I want something with a shrimp base, I want something that'll take me 30 minutes, I want something I could throw in an air fryer, I want something whatever and it'll give me that, it'll give me a shopping list, it'll do whatever. And literally it makes it makes that so much easier. And it'll customize it because also I'm a horrible cook. So when I when I inevitably screw stuff up and I'm like oh I forgot to add the chili powder in step three, what should I do now?",
+    "Or I'll even take a picture of it and say hey does this look right? And I have all of those things going with the AI as part of it. But again that's just one little itty bitty way to use these. There's so many more that you"
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 1523,
+   "paragraphs": [
+    "Can. Well you're you being specific you're really targeting everyday individuals that you don't have to be an entrepreneur, you don't have to be in this specific field to really appreciate or use AI. So that's amazing. Now Mike a lot of my viewers are entrepreneurs, all right? They're in they're in coaching, they're in keynote speaking, they're like just all kinds of entrepreneurship. Tell us how you can how AI can be involved let's say marketing or like website. Give us some examples. So"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1560,
+   "paragraphs": [
+    "I mean well first the first thing I would say is like this is made for entrepreneurs. Like who is going to really benefit from these tools? It isn't as much companies like PayPal, my former employer. Why? Because PayPal already had dozens, hundreds of AI engineers working for them. Your local pizza place, your whatever was not hiring AI engineers back in the day to do stuff like or whatever it might be. And I'm sure that is true for all of the entrepreneurs watching. But like it gives you access to these tools that are best in class that frankly in my job when I was running innovation at PayPal five years ago, if you would have asked me then hey what would you pay for ChatGPT like what that is now today, you'd spend tens of thousands of dollars, hundreds of thousands of dollars and you're getting it for 20 bucks.",
+    "So when I talk to students and they say like what jobs are going to exist in the future, the short answer is like I don't know. But the one thing I do know is a solopreneur, an individual, one person entrepreneur who is hyper focused on serving your customer. Yeah, yeah. You have a customer, you have a vision, you have a focus and you are going to have you know maybe you have people coming in and out but you are just going to have you know in the very near future and some of it today you're going to have AIs helping you in all parts of the job with customer service, with sales, with building the website, with whatever it might be.",
+    "And the key thing for you to decide as an entrepreneur is like okay where is it that I personally am really adding value versus what is something that an AI can do can help with? And website Candice is a great example. There are tools today in fact I'm doing this I'm going back to school as well. So I'm a student as well as a teacher. I'm actually teaching my fellow students in my writing program because all writers need to have their own websites. So we're actually doing a session just next month on how do you create your own website with AI because you can do this.",
+    "You can just go to Gemini, you can go to Claude or ChatGPT and just say hey this is my business, this is what I want. And it works really well if you're just like an individual you know it'll even generate photos and photographs of you in different positions, all this other kind of stuff potentially you know when especially using a tool like Gemini or ChatGPT. But it can start to build a website for you. And then you could just kind of and then if you don't even know well okay you built it, what do I do now? I'll say well get an account at GoDaddy or Squarespace.",
+    "It'll walk you through all of those steps that you need to do. You don't need to hire somebody to build a website anymore. If it's a complex website, yes. But I would like the world of software engineering is changing very very fast. Most of my friends are software engineers. And for the ones who are early on their career, they're in a very difficult position. The ones who are a little bit more senior are in much better shape. But like for things like building you've know 95% of websites this is all stuff that's being done by AI today. And like and if you're a little entrepreneur who's scrappy, who has some imagination, this is something that you can do."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 1766,
+   "paragraphs": [
+    "So Mike the biggest fear or like what people are thinking is that if we are fully AI dependent, what about loss of job, loss of human power? Is that a possibility or will that happen if we are fully have you know if we are fully AI dependent?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1784,
+   "paragraphs": [
+    "Look I think it will happen. I think it is happening. I think the big question for a society is what are the what's the net difference in jobs going to be? Some jobs will go away entirely. Customer service you know at most places is going to be heavily disrupted I think in the next few years. But at a place like Zappos where they pride themselves in human connection and so forth, it ain't going to be disrupted at all. I mean it's probably going to be very complementary so that there's actually more time to do one-on-one. And that's what we're going to see is that all jobs are going to change and evolve.",
+    "Some will go away, some will become something else and entirely new jobs are going to be created as part of it. I think the kind of questions I'm most interested in is like what do we want to do as a society? I wrote a whole piece on job disruption. It actually was a three-parter just last year on this. And you know it was really interesting to go back in time and to see other technological innovations and how people thought they would disrupt the workplace and how they actually did. The good news for us as a country and a society is we work much less now than we did 100 years ago.",
+    "And that's a good thing. It gives us more time to you know to be outside, to scroll TikTok, to do whatever leisure things that we want and we can do. I hope that leads to more of this. And I hope we as a society make a strategic decision to do more of that. I always use the example of the four-day work week. Four-day work week was a Republican talking point started by Richard Nixon back in the 1960s. And it's now kind of you know Bernie Sanders and others have actually specifically talked about AI impacting you know our society to help us move us towards that.",
+    "Like I feel like can we just both like get on the same page with that and say like hey if there are huge productivity gains, could we take the benefits from that and apply that? And that's what I hope we move towards. But it's going to be a very bumpy ride as we start to move towards whatever that's going to look like. And the better off you will be as in you the listener out here, the person watching this is the more that you understand these tools, the more that you just don't get locked into well I only can do what I've done in my in the past in my job versus oh my job could be so much more.",
+    "Like these are the human things that really matter in my job versus these are the things that like yeah I guess I could have an AI do that."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 1946,
+   "paragraphs": [
+    "What do you think is the biggest challenge? Like why are we still not fully automated? What is the biggest you did mention you're in academia also and you did say we're pretty slow here. So what is the challenge? What's keeping us behind?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1963,
+   "paragraphs": [
+    "Look, here's things are we're slow to move as humans. There's a lot of reasons for that. We don't do things the most efficient way. As much as even people think that they do, it's just it's not. There's pride. There's all these reasons. Like look, in Silicon Valley, it was a badge of honor to talk about how big your organization was. It still is. So if you can if you have 100 people in your organization, but you could cut it down to 50, you actually don't want to do that because it's not as cool when you go to a party and say, yeah, I have 50 people in my organization versus 100.",
+    "There are all these different things that affect us, which is actually why the entrepreneurs out there, those are the ones, it's your viewers, those are the people who change things. Yeah. I mean, so that is that's the thing. Like it is hard to move a big ship. One of the best books on this is Satya Nadella, the CEO of Microsoft now. I can't remember the name of this book. It came out. It's a lot about AI. It came out in the late teens, I believe. But he talks about how he kind of changed the focus of Microsoft overall. And that's hard. That's hard and it took a brilliant CEO like him years to do that.",
+    "So look, if we had AGI tomorrow, which basically means like an AI smarter than any human being could ever be, like if that happened tomorrow, we're not going to know it the next day. Like the world isn't going to look very different. It will in the next year, the next couple of years, but it's not like it happens overnight."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 2061,
+   "paragraphs": [
+    "Well, let me give you an example, right? So I've been in the field of education for 30 years as a teacher, admin intern. I'm supposed to be an assistant principal, but I changed my career. And for me, the biggest challenge is people's mindset. They are just so used to the ways that they do things. Cuz like I said, the field of education can be penetrated by AI, but maybe 70% of teachers, educators, or even administrators are so behind when it comes to technology. And they're just scared of the unknown and not willing to change. So I think it's really the like I said, the negative mindset and like they're just like here in America, we're just used to being comfortable.",
+    "Like if we are doing the same thing over and over again, it doesn't disrupt our everyday routine, we're fine. People are just not, you know, like adventurous enough or risk-taker enough to try other things. And I'm also I also teach English online and most of my students are Asian students, right? When I tell you how I'm in awe of the technology of my students, they use stuff. They're at home. I see them cuz you know, like they're practically I've been with them for years. They use tools or stuff that like we don't even have here. Bullet train, we don't even have bullet train when it's everywhere in you know, in China and in Japan, just stuff like that.",
+    "And like I told you, like I'm like and we're in America. I just feel like we need to step up our game because if these Asian countries can do it, I'm sure we have the resources here, but our greatest challenge and our greatest competition really is the mindset. The mind, people are just scared. That's why we need people like you to make people aware. So like you being in a podcast, you need to have your own podcast and really I gave up on that"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2187,
+   "paragraphs": [
+    "Dream a long time ago. It's not that"
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 2190,
+   "paragraphs": [
+    "Hard. It's not that hard. You know what I mean? But I just feel like if none of you would be speaking about how strong and how powerful AI is, then it's not going to be known to like us, we're okay, our generation, the entrepreneurs, the go-getters, but what about those people who really are just when it comes to technology, I can't do this. When you don't need to be really good at technology, just a little. You know what I mean? They don't really know that you don't need to be fully like an engineer or you know, like a no."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2226,
+   "paragraphs": [
+    "Well, that is the beautiful thing about generative AI is you don't need to be an engineer to use this. Like you just need to be able to speak English or French or Mandarin or whatever your local language is. You don't even you just talk to it in that language and it will talk back to you in a way that makes sense to you. And that is the one thing that has been really unique about this. But look, I think you know, and obviously I work with a lot of teachers and so forth. It is somewhat of a self-selecting group where I think teachers are not the natural risk-takers that you might see in other areas of business and so forth.",
+    "But the thing is like I think all teachers are passionate about like teaching better, you know, being there for their kids, like you know, doing more. And that's what I always double down on. Like you know, I think if you've been a teacher for 15, 20 years and all of a sudden like you think, well, this is the way I always did it, that's the way that's right, I think this is just a fresh time to just take another look and say, well, does it make more sense to do this? And can you use these tools to help you? You know, we're moving to a world where you're going to have 30 kids in your class and every one of them will have a completely different homework assignment because each of them is going to be tailored to where each of your students are at and not just like, oh well, you give all 30 kids the same homework.",
+    "Cuz you want for some it's too easy, for some it's too like that doesn't really make sense to do that. And you can use the tools that exist today to really start to push you down the road to be able to do things like that."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 2329,
+   "paragraphs": [
+    "Well, the thing also that the push that needs to be done also is like teachers go through professional development. That's a must in order for them to acquire hours or just to start the year. They AI leaders or AI instructors like you need to penetrate the districts and come up with your own course to show the teachers how to use it because we rely heavily on professional development. That's all year long. We attend professional development. And what do we talk about? It's the same thing, curriculum, safety management, like it's the same thing over and over and over again. What we need now is that AI lesson, that AI that's what the push is supposed to be.",
+    "And I have a global consulting firm wherein you know, I do my own digital courses and I couldn't penetrate AI because I'm not an expert in AI yet. You know what I mean? I think like what you said, you don't need to be a software engineer to be able to like know it, you know, how you use it and everything like that. But I feel like that's what the education industry needs to do, penetrate the professional developments. And that's a huge and make it mandatory for teachers to at least baby steps, use maybe for a month use this one and then this one and they have to show it, give it back to the students by actually using it.",
+    "That's big, Mike. If you can enter the field of education through professional development and workshop, that is and the field of education is massive. It's massive and wide. That's a big wow, that's a big thing that you can do."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2436,
+   "paragraphs": [
+    "Look, I think for any like I'm I'm I appreciate that. I'm not going to do it, but like for any listeners, for anybody out like there's a huge opportunity for that. I think there is I mean, I think there is just a great way to be able to teach and to bring these tools because like ultimately it's not hard. It just takes a different type of mentality because like it's the first time with software where you're going to get a different result every time. It is not prescriptive to just say, well, what am I supposed to do with this? You can ask them, hey, what can I do with you?",
+    "These are my pain points and all that, but you just need to kind of learn that new thinking. The great thing is people who are growing up and going to high school and college now, they're becoming AI first. So they are going to get it and they are getting it right now. I think it is folks that are maybe a little bit more stuck in the middle and who have developed, you know, old habits that are like a little bit hard of just breaking those and saying like, oh, I could actually use this to grade and it might actually help me be more fair or whatever it might be out there."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 2499,
+   "paragraphs": [
+    "And the ones, the population that you just mentioned are the ones teaching the elementary, the middle schooler. And we're missing the thing that you know, that the young generation, the kids can already start learning from AI or even learn to start using AI because like it's not being taught to them. You know what I mean? It's just that's the thing. Like you did mention that like the college students and like the gen the gen what do you call that? That gen age are using it, right? But the younger ones and they're so smart."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2535,
+   "paragraphs": [
+    "And if I may, it's like the one thing I do want to say is like I don't think every teacher needs to use AI in the classroom. Actually, I do want to go on record saying that. I do think every teacher needs to be conscious of the decision of using AI or not using AI. And one example is my son was in eighth grade last year and his English teacher basically said, you know what, I'm taking computers out of the classroom. And I'm just like, you know what, they're going to just write longhand and they're going to do this cuz they can't send the stuff home or anything like that.",
+    "And do you know what? I applauded that decision because like honestly, they're going to be able to get exposed to it in all these other places. This was about the fundamentals of writing. And you know, and I loved it and it was like very exciting because I had these discussions with them and all that. And like, yeah, you could introduce it, but like also you just need to be strategic. You can't act like it's 2019 anymore. It's not. It's 2025. So you do need to make a decision, either this is the reason we're not going to use AI or I'm not going to use AI or this is the ways that I'm going to allow students to use it, not allow them to use it. And myself, I'm going to be transparent with how I'm using it with the students as well."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 2609,
+   "paragraphs": [
+    "Cuz wherever you go, there's boundaries. There's like the must do and those things that you don't have to do. So like what you said, just what, 15 minutes of the day for an English teacher to just include AI in whatever way just to give the kids that touch of, you know, even enhancing their creativity and their technological advancement. You know what I mean? Because we owe it also to our young students to make them you know, technologically aware and you know, because I believe in 21st century thinking skills. And we need that innovation, we need that collaboration, we need that you know, critical thinking. And you do that if all of these things are combined.",
+    "So you know, I just hope that teachers will you know, give it a chance. And like I said, the move nowadays is really bigger you know, penetrate the professional development cuz I myself will learn from it. And that's the only way that teachers will because they have no choice. They have to sit in like an eight-hour PD. And you know what's a 30 minute out of like an eight-hour or like a seven-hour PD to include AI as a part of their training. You know what I mean? That's big if they can do that. And it might be extremely"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2692,
+   "paragraphs": [
+    "Helpful to just get those"
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 2694,
+   "paragraphs": [
+    "30 minutes. And maybe teachers actually might appreciate the change so it's not the same PD, the same training they're doing over and over again. You know what I mean? You know, we don't know. Maybe if like 50% will accept it, then wow, that's a big accomplishment, you know what I mean? Rather than nothing at all. Right? Now, Mike, I really have not heard about what you actually do cuz I believe that innovation becomes powerful when it impacts real people. Now, can you share about now your work, whether through your patents, teaching or your AI newsletter, how they're helping leaders and individuals better understand and use AI in their everyday lives? Like what you exactly do and who are your clients if you could share with us?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2743,
+   "paragraphs": [
+    "Yeah, I mean, look, so my clients are anybody who's out there. I don't charge, I don't consult, I don't do anything like that. I have a free newsletter that anybody out there can use if they want to. It is available on my LinkedIn, Medium, Substack, any of those places you could find it. I just talk about like AI and how people can apply it in their current day. So I mean, it's reviews of products, it's a lot about the ethics of using these tools. It kind of runs the gambit on it. This week I wrote about how many people have been killed by AI. And like so that was a whole topic I got into as part of that.",
+    "And like it's kind of whatever is top of mind related to the world of AI. And I've I don't know, put out 80 or so publications over the last few years. It's about once a week I'll send these things out depending on my schedule. But yeah, that's what I write. And then I teach through university. I will occasionally have a LinkedIn Live session sponsored by San Diego State that anybody can attend. And yeah, and so if people are interested, they can just follow me and they'll see all that stuff."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 2809,
+   "paragraphs": [
+    "Have you done keynote speaking and read it talk to in conventions and Okay."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2816,
+   "paragraphs": [
+    "I'm at that next phase of my life. I'm in the lazy phase of my life now where like I don't want to leave the house if I don't have to leave the house. So no, I really don't. I go down to San Diego, I am talking like as a favor, I'm talking to somebody's business that I know and just kind of doing a little talk, but I'm not on the convention circuit."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 2837,
+   "paragraphs": [
+    "All right. So so individuals can reach out to you as well as business businesses? Okay. All right. Sure."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2844,
+   "paragraphs": [
+    "I'd rather talk to individuals. Businesses can too. But I look, if people have a question on this stuff, you know, like follow me on LinkedIn, send me a direct message, whatever and say like, hey, I have a question on this, whatever, I'm happy to do that. I'm here to try to help people through this transition that we're going through. I am here so that it's not just the folks like me in Silicon Valley who are the only ones who understand how to use and are using these tools. I want the whole rest of the country, I want the whole rest of the world to have access and to be able to make these decisions on how it can help them in their lives and in what ways they don't want to use it in their lives. Like I want people to be able to play with these things to understand where's the good and where's the bad from"
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 2886,
+   "paragraphs": [
+    "It. Yes. You're being so humble about it. You can do so many things with like your knowledge or like your expertise and your experience. Like you can do more, Mike. I feel like you can"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2898,
+   "paragraphs": [
+    "Do more. Free is a good price for me to charge."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 2902,
+   "paragraphs": [
+    "All right, Mike, let's talk about the unique edge and future vision. So leaders who stand out often bring together worlds that don't normally meet. So what you do, you're blending technology with creativity, even using your MFA background in your AI experiments. So Mike, what makes your perspective on AI different and where do you see this intersection of creativity and technology heading in the next few years?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2930,
+   "paragraphs": [
+    "What makes it different is just I use these things all the time. And I'm just I'm not afraid to make a fool of myself. I'm not afraid to try something and it doesn't work and all that and just kind of keep jumping in. So you just do that enough and you get a unique perspective of like, oh, this could work really well for that and so forth. The second part is where do I see this going? Yes, in the future,"
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 2952,
+   "paragraphs": [
+    "Yeah. Yeah, look,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2954,
+   "paragraphs": [
+    "V O 3 is a tool made by Google and it allows you to make eight-second commercials or eight-second videos with sound fully integrated. This was amazing when it was launched. I pay 250 bucks a month now for Google just to get access to this thing because I will send friends birthday cards. Just the other day my daughter was doing some things and I was making some things that she could send to her friends through V O 3. And it was just like these little eight-second clips and stuff. And she was just laughing her head off to do that. And like it allows you to just be so much more creative.",
+    "And that is the thing that excites me with this. Look, we're going to have, you know, I'm telling you this in 2025. By 2030, you're going to have the Disney Plus version of where it is customized for Candace. And Candace, you're a fan of Robert Downey Jr. And you want to see more Iron Man, but you also want to see that integrated with Star Wars universe or whatever. And Disney Plus for 100 bucks a month is going to just generate videos for you and only you and do that on the fly. And you're going to be able to thumbs up, thumbs down and it's literally going to be regenerating.",
+    "And if you want a 47-minute movie versus a two-hour and 47-minute movie, it will be able to do that. And you'll be the first person who will see that. That is going to happen. That is the future we're going to. But I will also say that doesn't mean that movie that's going to be all of what we consume. We are still going to see that big Christopher Nolan movie that comes out. We're still going to see wow, Pixar has something amazing coming out. We all want to see that. Whatever it is, like there's going to be these two buckets that we have. And it's just like the world we're in now in many ways with social media.",
+    "Like your Facebook feed is different than mine, is different than every other person on this planet. It's just going to be the media is going to be different as well. And we're going to have these two things side by side. And look, in this world of mass customization, there's certain things that are going to enable entrepreneurs to do that they never could before. You can send every single customer of yours when they sign up for your product a different welcome email from you through an AI clone you've made with their name and all that, welcoming them firsthand to whatever. And you know, and some of this is going to be like, yeah, that's kind of lame.",
+    "I don't really want to do it. Some of it will really blow people away. And we're all going to be living through this and just got to experiment, you got to try stuff to figure out, okay, what's going to work. And if you're that business doing that, there's a great story about a business, a dentist office in Los Angeles when V O 3 was released. They got I think it was like five million views on TikTok for a video they put out entirely made by AI. It was this gorilla who was skydiving. The gorilla hit the ground hard. The gorilla lost its two front teeth and went to this dentist office, you know, the person there, and got teeth replacement.",
+    "And that was the commercial that they made. And millions of people saw that. You know, that just took a couple of creative people in the dentist office. I'm sure this brainstormed ideas one day and you know, a couple hundred bucks to make something that millions of people then saw. And well, what are all those other opportunities? What are the things that it's still not entrepreneurs can do this stuff today and get noticed out there."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 3174,
+   "paragraphs": [
+    "Now, let me ask you though, if you are the one let's say hiring and you see that somebody's work is fully AI, would you hire that person?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3186,
+   "paragraphs": [
+    "If they're disclosing it, if they're trying to pass it off as their own, absolutely not. But no, if they're disclosing it and saying, I actually two years ago was encouraging students to submit for job applications because no one should ever have one resume that goes out to a bunch of different companies. You should have a resume that's customized to the language that the company used in the job posting based on your skills. Like you should send a different resume, a different cover letter, all that stuff should be completely customized. Now that's common place now. Two years ago it wasn't. And I was literally telling people like, yeah, you should use AI and tell them you used AI to do this cuz it was powerful.",
+    "As long as people are up front about it, as long as I could see like the reason why they're doing it, like yeah, I'm open to it. But if I know that they're doing AI and they're not admitting it, no, that'll never fly with me."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 3240,
+   "paragraphs": [
+    "So I'm also currently writing my book. How can AI help me with that?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3247,
+   "paragraphs": [
+    "So AI is horrible at writing books outwards. Just put that on the table. I've been so my alter ego you mentioned in the beginning, Alex Irons, is I think I've written or I've had AI write 20 or so books. They're all on Amazon since 2022, just having different AI models write them. They all stink. Let's be completely honest."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 3271,
+   "paragraphs": [
+    "But"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3276,
+   "paragraphs": [
+    "So look, it's really hard to write like 75,000 words or something like that, keep this cohesive story in check. Like I tried a whole bunch, it's really hard to do that. It can write like emails really well, it can write poems really well and this shorter form things, but keeping that context is extremely hard for a large language model to do. But for your book, I would probably like Claude is the one I find that helps me most with writing. I would use it as my yeah, Claude, c l a u d e. It's made by company called"
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 3311,
+   "paragraphs": [
+    "Anthropic. And somebody mentioned to me, like the one that I interviewed, Comet, have you used Comet as a browser, isn't it? It's a browser, yeah, and he is like I am not used to this. Perplexity's"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3327,
+   "paragraphs": [
+    "Browser, I think."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 3329,
+   "paragraphs": [
+    "Yeah, I have not used it, no. So if I am to spend 200, will I do Google or will I do Comet? I know you don't like how great is Google cuz if I'm spending it anyway, cuz I'm like I said, I'm very curious and I really want AI to like run my whatever I do, would I is Google that big with AI that I'm going to learn really use it or should I just because it's the same price."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3354,
+   "paragraphs": [
+    "Here's what I would say, Candace, and this for anybody out there, the three main and I don't have ownership in any of these. I like don't invest in these companies. So Google, Anthropic, and Open AI, so ChatGPT, Claude, and Gemini, those are kind of the three best-in-class models. They're the three ones I use the most. What I would say to anybody is start with the free tier. And like you wanted to do something, put the exact same response in all three of them at the same time. See which one gives you the best. And if you find out you're using it more and more and you're hitting limits, then go up to like the 20 bucks a month.",
+    "And it's about 20 bucks a month for all three of them. And then after a month, just see which one you like best. You can get a lot for 20 bucks a month. Sometimes you won't get the immediate access to the stuff that I get with Google, you know, for example. But I mean, for most folks, the 20 bucks a month version gets you more than enough. Like Google's I spend 20 bucks a month for Claude, 20 bucks a month for ChatGPT, and I spend a stupid amount of money for Gemini, at least now. Six months from now I might not. But while it's still a novelty, I do spend that."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 3426,
+   "paragraphs": [
+    "Cuz I was just thinking like I'm paying separate for Google Workspace, I'm paying separate for my website provider, website provider, I'm paying so maybe all in one, maybe just Google can just do everything for me. You know what I mean? Like yeah, I mean, that 20 bucks a month it gives you like ad-free YouTube. And they are throwing other things in that. I think they just want you to start using it and everything twice. So I can see them doing hosting services or whatever else. That's good. All right. So oh my god, Mike, you I really hope that people become more aware of AI because it's just amazing like how you describe it.",
+    "Like I myself are really curious and maybe like I'll message you one of these days if I have questions or maybe even look ask for your what, your coaching when it comes to that because like I said, I you know, I want to be productive, I want cost efficient, I want to be cost efficient, I want to be you know, time management is important to me too. And sometimes I just need to be led, you know, how to do it, right? You know, especially you know, when you're busy, you want to maximize your time and not hire different individuals to do my reels, to do my editing.",
+    "I do everything. So you know, just knowing where to go and what program I should really use will help a lot. You know what I mean?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3512,
+   "paragraphs": [
+    "And if you can't get to me, one of the things you could all do is just ask the AI, say hey, these are all the things like what are the AIs that exist as of this month that can do these things and help me out and what's going to be most effective?"
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 3527,
+   "paragraphs": [
+    "Give me some for our young let's say seniors, high school students who are trying to look for their career, future career, what can you advise to them if you think AI is going to be big?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3544,
+   "paragraphs": [
+    "Just follow what you love. That's the honest thing. You know, I think 100 years ago everybody was like, yeah, you need to be a software engineer. And now I was like, oh, I don't know. Look, if you want to be a software engineer, become a software engineer. If you want to be an English major or a theater major or whatever it is, like do that, follow your passion. We don't know where this is all going to wind up. But people who have a passion for what they do for a living have an unfair advantage over the rest of us who might not enjoy it as much.",
+    "Like if you really love accounting, more power to you, like do that. Whatever it is, look, it's going to make for a happier life, but it's also you know, Steven Dubner, I think, or oh no, sorry, Steve Levitt, the teacher from Freakonomics, the teacher at University of Chicago, would talk about like who he would hire when they're bringing in associate professors at the school. And he would say the one thing you would look for is people that were obsessed about economics because when they were obsessed about economics, when like literally they go to the grocery store, when they're in a restaurant, when they're sitting there watching TV, all this stuff when it's always thinking about economics, that's an unfair advantage that they have.",
+    "So for people out there, like find out what that is. And if you don't have it in school, I'm not doing anything related to what I got my degree in. Like you know, things change and all that. But like if you have a passion for something, just study that, do real good and you'll figure it out."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 3635,
+   "paragraphs": [
+    "That's great. Thank you. All right. So this is one last thing that I always ask my guests before we wrap up. So you're an innovator. So every innovator carries a piece of wisdom that can light the way for others. You said that to like our young generation. So if you could leave one if you could leave our listeners with one piece of advice about embracing your curiosity, failure, or AI in their own journey, what would it be?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3663,
+   "paragraphs": [
+    "I would say just don't be afraid of being weird. Like being weird is great and just you know, follow things on a slightly different path. I'm reading a book right now, I think it's called Warren and Bill. And it's about Warren Buffet and Bill Gates and their friendship. And it was it's fascinating to just see like how much of a weirdo both of those two people are. I mean, immensely successful by any measure obviously. And you know, but like just there's something about just being weird and just doing things the way that you see fit and you know, listen to criticism, don't you know, but you got to learn to kind of brush that stuff aside.",
+    "But just do your own thing, build that confidence in you as much as you possibly can. If you do that, you're going to be successful."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 3711,
+   "paragraphs": [
+    "You know, it sounds so simple, but yet it's powerful. Just you know, it's curiosity, it makes you curious. You know what I mean? Being weird also makes allows you to be curious and just do what you love to do without people pleasing, you know what I mean? I just feel like if you know, if you're at the point where being weirdo, that means you really don't care about what other people will think because in the end, it's you, it's your decision. Whatever happens, it's you. And if you know, and most people don't care about"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3740,
+   "paragraphs": [
+    "What you do. Like the amount we think other people think about us is so much less than the amount other people do think about us. Like there's studies around this. Like people are not obsessing like, oh my gosh, Candace did this or whatever. Like they might see it for a second and then they forget about it and move on to whatever the next thing is. So like just embrace your own life. It's the only one you got."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 3762,
+   "paragraphs": [
+    "And let's face it, the most weirdos that we've known are the most successful nowadays, like the scientists, like the you know, our you know, right? So yeah, I love that. Thank you. So Mike, first of all, I just want to say thank you for being here and for sharing your wisdom and experience with us. And let me tell us like how can they reach you? If they want to reach you, how can they find you?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3789,
+   "paragraphs": [
+    "I mean, look, LinkedIn is probably the one social network I actually use. So LinkedIn is great. You can direct message me there. If you made it to this far and you've listened to me, just send me an email, just Mike That's fine too."
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 3801,
+   "paragraphs": [
+    "Thank you. All right, no website. And then are you on Facebook also, your Instagram?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3807,
+   "paragraphs": [
+    "No, no, I'm not. I do have an Instagram account. I have not posted on Instagram since 2012. So it's 13 years. I think I have one picture on Instagram. I signed up before Facebook bought them and I have not posted since. But I think if you look at on Instagram, you can still"
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 3826,
+   "paragraphs": [
+    "Okay. All right. Well, they can reach out to me and I can send all the inquiries to you. All right. So I want to thank you again, Mike, for being here. Any you've been wonderful. Thank you so much for really"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3841,
+   "paragraphs": [
+    "You as well. This has been great. I love"
+   ]
+  },
+  {
+   "speaker": "Candice Ruggiero",
+   "start": 3843,
+   "paragraphs": [
+    "The conversation. Thank you. And again, for everyone tuning in, if you can find if you need to get more information, my website is www.candacewudjere.com. I speak on authenticity, intentionality, leadership, empowerment, and burnout. I speak at convention, conferences, professional development, and workshops as well. My live show every Tuesday and I'm also hosting a community, I'm also a community host. And you can find me on all social unlike Mike, I am all over social media. It's linktree/candacewudjere. All right. Mike, I just want to say thank you again. It has been a pleasure to have you on my show. And looking forward to good luck, good luck with your studies and everything.",
+    "And remember that leadership isn't just about titles or positions, it's about living with intentionality, choosing to build with purpose, and inspiring others to do the same. So when we lead with intention, we create excellence that lasts. Again, until the next time, keep leading, keep building, and keep living with intentional excellence. Take care everyone. Have a good night. Thank you, Mike. Take care."
+   ]
+  }
+ ],
+ "words": 11693
+}

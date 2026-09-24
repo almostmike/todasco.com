@@ -1,0 +1,26 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { transcripts, transcriptPath, clock } from '../../../lib/transcripts';
+---
+<Base
+  title="Interview transcripts — Mike Todasco"
+  description="Auto-generated text transcripts of Mike Todasco's podcast and video interviews about AI, innovation, patents and his career."
+>
+  <article class="tx">
+    <p class="tx-kicker">Auto-generated transcripts</p>
+    <h1>Interview transcripts</h1>
+    <p>Text versions of podcast and video interviews with Mike Todasco, made with speech recognition and lightly cleaned up. The original recordings are the authoritative versions; each transcript links to its episode. The full list of appearances is on the <a href="/media">Media</a> page.</p>
+    <ul>
+      {transcripts.map((t) => (
+        <li><a href={transcriptPath(t)}>{t.outlet}: {t.title}</a> ({t.published ?? t.date}{t.duration_sec ? `, ${clock(t.duration_sec)}` : ''})</li>
+      ))}
+    </ul>
+  </article>
+</Base>
+
+<style>
+  .tx { max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; line-height: 1.6; }
+  .tx h1 { font-size: 1.6rem; margin: 0.25rem 0 1rem; }
+  .tx-kicker { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.75rem; opacity: 0.7; margin: 0; }
+  .tx li { margin: 0 0 0.5rem; }
+</style>

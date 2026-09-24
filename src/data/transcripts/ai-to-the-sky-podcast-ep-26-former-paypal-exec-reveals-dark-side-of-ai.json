@@ -1,0 +1,211 @@
+{
+ "slug": "ai-to-the-sky-podcast-ep-26-former-paypal-exec-reveals-dark-side-of-ai",
+ "outlet": "AI to the Sky Podcast",
+ "title": "Ep. 26: Former PayPal Exec Reveals Dark Side of AI Revolution",
+ "date": "Aug-25",
+ "published": "2025-08-09",
+ "url": "https://podcasts.apple.com/us/podcast/ep-26-former-paypal-exec-reveals-dark-side-of-ai/id1828276475?i=1000721301448",
+ "duration_sec": 1603,
+ "host": "Joseph Vale",
+ "speakers": [
+  "Joseph Vale",
+  "Mike Todasco"
+ ],
+ "turns": [
+  {
+   "speaker": "Joseph Vale",
+   "start": 0,
+   "paragraphs": [
+    "Welcome to AI to the Sky podcast, where global AI leaders take off. Hosted by Joseph Vale. This episode is powered by Rocket AI. WhatsApp bans costing you sales? Rocket AI automates messaging legally with AI. Your competition's already using it. Rocketai.lat. Hey, imagine being part of PayPal's early days, a company that didn't just change online payments, but also became a breeding ground for innovators who later founded companies like Tesla, LinkedIn, and YouTube. One of those innovators is our guest. Yes, it is Michael Todasco. Michael played a key role in PayPal's growth at team, learning firsthand how to scale a global business with disruptive tech. But this story doesn't end there.",
+    "After PayPal, he dove into entrepreneurship and AI, helping business automate processes and make smarter decisions. Today, Michael is here to share how AI is democratizing tools once reserved for giants like PayPal, and how you, as an entrepreneur or business leader, can apply them starting now. Welcome, Michael."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 87,
+   "paragraphs": [
+    "Joseph, I'm doing good and excited to dive into this why what matters most in this"
+   ]
+  },
+  {
+   "speaker": "Joseph Vale",
+   "start": 98,
+   "paragraphs": [
+    "How did you start working on PayPal?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 102,
+   "paragraphs": [
+    "Sure. Yeah. 2009 I was at Berkeley finishing up my degree and everyone else is getting jobs as consultants or whatever else, and I'm like, I want to start a comic book business. It was just like a passion of mine doing that and so forth. And so I did that for a couple of years. It was my first time really doing anything in technology. I was building a website. It was a marketplace where people could buy and sell original comic book artwork. I frankly had no idea what I was doing. You know, I was hiring engineers and doing all this other kind of stuff. Yeah, I guess I had to dive in and code a little myself, but like this was before Stripe for the most part.",
+    "Like we didn't like when I launched it in 2009, I didn't even have secure checkouts on the page. Like I had no idea what I was doing. Did that for a couple of years and then never got to where I wanted it to be. Had, you know, some great successes but many more failures, you know, the entrepreneur's journey in many ways is what I was going through. Had the first kid in 2011 and when I had my first child, I was like, oh god, what am I going to do? I can't like have this money losing operation. I think I need to get a real job.",
+    "Many of my classmates at Berkeley, like a lot of them were working at PayPal at the time, and it just seemed to be a great opportunity to join the company. So I reached out to some of them. When I got to PayPal and interviewed, you know, it was through a friend of a friend that was there. I was able to kind of get connected. I was joined the mobile team at the time. So mobile was its own separate unit within PayPal. It was really small, but they brought on this team. They had just acquired a company called Zong, which did carrier payments on mobile. So like literally you would buy a sword for a video game and it would get billed on Verizon or Orange or whatever network that you were on at the time and whatever country.",
+    "And it was crazy expensive as well to do that, but that's what like mobile payments were back then. But I just was lucky enough to get the opportunity to join and my entire interview was talking about all the ways I failed as an entrepreneur and they liked that for whatever reason. I was dangerously unqualified for that, but that's what brought me into the company and I always like to say I was unqualified for every job I ever had at PayPal while I was there. But I was there for 11 years and had an amazing time. A big part of my job, so the second, my first half in PayPal was product, data science, doing a whole bunch of different things like that.",
+    "My second half at PayPal was after PayPal became independent, it was running innovation and part of what innovation was, your point, Joseph, was defining what innovation was going to be for the company and like basically finding ways and programs and defining all this stuff for not only like the innovation team, but for the other 30,000 employees at the company. How do we set things up so that they can be more creative, they can be more entrepreneurial, you know, they can build better products for our customers. So there was a lot of that like through structures and programs and things like that trying to create that for the company."
+   ]
+  },
+  {
+   "speaker": "Joseph Vale",
+   "start": 316,
+   "paragraphs": [
+    "So how do you feel to be in charge of that kind of department for a huge company?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 324,
+   "paragraphs": [
+    "It was the best job I could have had at PayPal. The reason I left was because I was in that job for six years and like that was the longest I've ever been in any job in my life. There's nothing else I wanted to do at the company, but like it was so much fun because like every day I was excited to go to work every Sunday night because if it was about, you know, either working with and using new technology because we kind of got all the leftovers, the things that other teams weren't looking at and doing and so forth. Like I got to play with quantum computing for a few months in my time there.",
+    "I still I never understood a single thing that we were working on or doing or looking at or any of the customers we were talking to, but like those were the kind of things that kind of got thrown to me in the innovation team. So it was always something exciting and interesting and I got to constantly run experiments. You know, for example, I remember one time we had this there's this company that came to literally driving a fuel truck onto the campus and would fuel up cars. Like this big truck with gasoline just like fueling up the different cars that were on the campus and I was like, how does this work?",
+    "It made no sense to me. There's not enough money. I'm like, how do those economics work? They're not really charging anything. And it led to, well, why don't I just ask the CEO to come on campus and I'll interview him. And that led one thing to another and then like 150 or so interviews later, I just made this whole series. I was bringing in authors and all this other stuff and it's just a way to encourage questioning and like all this other kind of stuff through that. And that just all came because we were like I was at a bunch of people and like, how do they make money?",
+    "Let's figure this out. So it was a lot of just questioning, trying stuff, failing a whole bunch. I will say, and I can talk about any of those that you want to, but that was the whole experience. So it was really wonderful being able to do that at a company like that."
+   ]
+  },
+  {
+   "speaker": "Joseph Vale",
+   "start": 459,
+   "paragraphs": [
+    "So Mike, if you had to let's talk maybe about some education and AI. If you reboot education like you did on PayPal's innovation culture, what's your one obsolete skill we should stop teaching in your opinion?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 479,
+   "paragraphs": [
+    "Oh, interesting. The one thing we should stop teaching in education. Look, the easy answer to that is probably cursive handwriting. That's the easy answer. That's not what you're looking for. So like, you know, printing like I learned cursive. I don't know how much time I spent doing that. Like I print to this day. I'm 47 years old and I still I still don't know how to do cursive even though we studied it all this time. But that's kind of the joke answer. But the real answer, the deep answer for what is it that in education we need to stop doing, we need to change and so forth.",
+    "Like look, I think it's a bigger thing than a subject or anything like that. I think teachers need to change their mindset of scarcity to one of abundant resources. And let me explain what I mean by that. I really believe that especially for younger kids, and this is true for older children as well, but like the more that you could customize the experience for them, the more they're going to understand things. The more you talk their language and so forth, the better that's going to be. So I live in the United States. I grew up and one of the things I grew up collecting was something called baseball cards.",
+    "So little cardboard cards of baseball players and so forth. And on the back they had all these statistics, all these numbers on there. And I would collect these things and I would study them. And on those numbers it was like a mathematical puzzle. I learned to do math by basically staring at baseball cards and figuring out like how are these statistics made and what makes one player better than another and all this other kind of stuff like and you know, in the 1980s this is what I did. Now, if I could have had my math teachers and I think they probably knew that. I mean, I bring these cards to school and all this like they would have known that or they could have easily asked.",
+    "If I could have had my math teachers actually double down on that and all my math assignments would have been, you know, somehow related to baseball in some way, like that would have been so impactful for me as a kid because like I would have been excited to do my math homework every night. I would have like loved it. I mean, I was a good student in math, but like I would have really gotten into it. I'm sure I would have been able to do much more advanced stuff because I would want to find that out. And here's the thing, every kid has that passion.",
+    "And back in the 1980s and '90s and even back in, you know, 2022 just a few years ago, you couldn't do that because no teacher would be able to create like 30 different lessons or 30 different assignments every day for each one of their students and grade that. But in the world of AI, you can do that. You can easily have, hey, here is what my students like and here is the thing that I am teaching them. Go out and spit 30 different worksheets out for my students and customize homework and do you want to give me an answer key for each and every one of them because I want to be easier to grade all these things.",
+    "Like you can do that. And you can even do it based on like, well, some of these students are struggling more with this concept, some are struggling more with this concept. It changes everything. And so for me, that's the big unlock that AI gives to education that, you know, can exist today, but I think even six, nine months from like I hope people build these products. I'm not going to build it myself. Like anybody out there who wants to build this, please build this for our teachers and so forth because like this is the type of tool that is going to unlock so much potential in education."
+   ]
+  },
+  {
+   "speaker": "Joseph Vale",
+   "start": 722,
+   "paragraphs": [
+    "So Mike, what do you think about AI recently with the whole movement, the whole disruption that it's creating and how do you feel about that? What do you think?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 738,
+   "paragraphs": [
+    "Look, I think AI and what I just described there about education, for example, is a wonderful gift to humanity. It is going to enable us to be able to do so much more, to unlock so much potential in each and every one of us. I really believe that. I also believe that there's a lot of dark patterns in this and I think, you know, especially for the youth, I actually had a professor of mine named Sam Apple. He just wrote a piece in Wired where he was he actually went on a retreat with people who had AI boyfriends and girlfriends. So like they considered their partners to be that.",
+    "And it was a really good piece that he wrote in Wired on this. And like that's the kind of thing we all kind of laugh about right now. Like, oh, that's silly, they did that. To Sam's credit, he actually wrote a very serious piece about that. I'm old enough. I was in school in the late 1990s in college and when I was at school, I remember one of my teacher's assistants telling the class he was getting married. This would have been 1997. And the class, you know, 100 people, 50 people, something like that. It was a pretty large class. We're like, oh, where did you meet your girlfriend, your spouse, your future spouse?",
+    "And he said to us, oh, I met her online. And Joseph, how do you think the class reacted? Like literally there was laughter in the class. The concept that like, oh my god, you met your spouse online? You are a weirdo. What is wrong with like that was the subtext behind that. Like couldn't believe that. I think that's people's exact same reaction today when they hear of people like with an AI boyfriend girlfriend. But I think that is like that is going to change things. We look at the skies, we look at the clouds and we see shapes, we see faces. We look at the moon and see a face.",
+    "We look at a grilled cheese sandwich and we see a face in there. We look at Cheetos and we see structure. We are wired in our brains to see human traits and things that are not human. And that is absolutely true for AI as well. And when the AI is being trained to, I say in quotes, to be our friend, what does that mean for us? Like I don't know the answers to this. I know that the intersection of an AI that wants to consume a lot of our time and wants us to use it and wants us to think that it's our friend and, you know, the companies that have incentives to do that and our natural inclination to move towards that as humans, that's the dark side of AI that I don't like.",
+    "So yes, there are tons of benefits to it. It's being the human replacements in relations and friendships and all this other kind of stuff. That's the part where we start to enter the matrix, if you will, and that's the part that kind of does really start to scare me with it."
+   ]
+  },
+  {
+   "speaker": "Joseph Vale",
+   "start": 942,
+   "paragraphs": [
+    "If you could leave one core idea for our listeners about how to lead with meaning, not just data in the AI age, what would it be?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 957,
+   "paragraphs": [
+    "Look, the first thing I always tell people is at least at a high level, understand what's going on. These models are incredibly complex, but they're just mathematical. And so like to me, step one is to just like the more you understand is how these models work and how they operate, the more you can kind of look past them to see them as being not magical, but just math. And math can be magical. I sometimes, Joseph, I sometimes just stop and think and like, you know, these philosophical questions like why does math work? Why? Like getting to like asking further questions and like you can kind of blow your mind like how is it that this mathematics works in the world?",
+    "Why is this the laws of the universe? Like what else could that look like and so forth? And like, you know, there is magic in that, but it's that same magic that enables all these things to happen. So for people who aren't as familiar with the tools, you can educate yourself on it like how they work pretty well. One way is just to talk to the tools and say, hey, I don't have a data science background, I'm not an engineer, I'm not whatever it might be. I'm an educator. Explain to me how you work and explain to me using an analogy or in these terms or whatever.",
+    "And you can just start to learn more from that. So to me, that's step one. And then I'm totally sorry, I got totally sidetracked there, Joseph. What was your actual question? Sorry about that. I went down a different path. I was going to get there and I'm like, wait a minute, what was I answering?"
+   ]
+  },
+  {
+   "speaker": "Joseph Vale",
+   "start": 1066,
+   "paragraphs": [
+    "So the question was if you could leave one core idea for our listeners about how to lead in this age, AI age."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1080,
+   "paragraphs": [
+    "So step one is you got to understand it, I think. But then like honestly, the core idea of this is I think in many ways these things are going to become ubiquitous in our lives. They're going to be like whether they are now or not, like people should be using them and so forth. The core idea is the Gen Zers say, go out and touch grass, leave your phone behind sometimes, like do all of that stuff that makes you human, that makes you special. AI is going to do amazing things. It's going to take jobs, it's going to improve jobs, it's going to improve lives.",
+    "It probably is going to take lives as well. Like it is going to do all these things that are going to change the world in front of us. But I think the core idea for me is understand these models, embrace these models, use these models, but don't let them overtake you. Like be human still, enjoy the world, enjoy other people's, enjoy the imperfections of the other humans around you. That's my core idea."
+   ]
+  },
+  {
+   "speaker": "Joseph Vale",
+   "start": 1160,
+   "paragraphs": [
+    "Oh yeah, pretty insightful core idea. I like it. So Mike, if Mike Todasco's parents could talk, which one would start a podcast and what would be the first episode?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1180,
+   "paragraphs": [
+    "Wow, holy cow, I got to give some background for people on that. That's a crazy question, Joseph. I like it. So for folks who don't know, let me at least start with this. So while I was at PayPal, I happened to file a lot of patents in my time there. And what a patent is for people who don't know, basically a patent is an idea. It's a technical idea that you have come up with and a company has filed a document with the US or any other global government that basically says, hey, we have claimed this idea. And I filed and had issued like hundreds of those in my time at PayPal.",
+    "It was actually quite an enjoyable experience to work on new technology and all that as part of the process. If the patents could talk, the patent that means the most to me is the one patent that actually have with my wife. So there was a time where PayPal was owned by eBay. My wife for a time was working at eBay and we filed a patent together. It's her only one and it came from an idea of hers we were talking about at the dinner table. And so I would start the podcast with that discussion at the dinner table. Oh, and that's actually what I would do.",
+    "I actually take this back like as I'm talking about this might be a real podcast here, Joseph. I would talk about what's the origin of the idea for all of these things. And for that one specifically, it came from the patent is all about using Bluetooth or other local based network technologies to better create social network connections, generally speaking. We filed this like 10 plus years ago. It was probably more novel at that time than it might seem now. But it all came from a dinner table conversation of her just saying like, yeah, I just started working at eBay. It's weird that I'm still getting all these recommendations from Johnson and Johnson that I used to be like, why isn't LinkedIn recommending all these people that are surrounding me and so forth?",
+    "And one thing led to another and that led to that actual patent filing. To me, the interesting thing is like every one of those 100 plus filings that I have is it came from either a conversation, a weird idea, that one thing led to another. And I would love to just kind of have that podcast talk about the root of ideas because you can kind of see what the end product was, but how did you get to that end product? And this would be a way to kind of tell stories around that."
+   ]
+  },
+  {
+   "speaker": "Joseph Vale",
+   "start": 1347,
+   "paragraphs": [
+    "I think it would be a great episode, Mike."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1352,
+   "paragraphs": [
+    "Really interesting. For sure, that's a great question. I've never been asked that, Joseph, needless to say. I've never thought of that. It's a great question."
+   ]
+  },
+  {
+   "speaker": "Joseph Vale",
+   "start": 1359,
+   "paragraphs": [
+    "So Mike, okay, before we wrap up, which is your AI favorite tool?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1371,
+   "paragraphs": [
+    "Honestly, right now it's Veo 3 by Google. So for folks who don't know, Veo 3 is a text to video tool. And I will even say it's very expensive to use. I'm now paying like 250 bucks a month to Google for access to this thing. Yeah, it's crazy expensive, but oh my god, I love playing with it. You get a bunch of other things with it, not just this. I think there might be cheaper levels too. The turbo version of it actually works really well, sometimes even better, and that's like a fifth of the price overall that the whatever the deluxe, the full version costs.",
+    "And turbo is very good. I just love making these short videos. I have some stupid idea in my head and I just want to make videos and I just want to see the result of it and use that. I think as this thing becomes cheaper and cheaper, you can do so many things with it. We were talking about education before. If I'm a teacher, I'm teaching say history, I could bring in, you know, AI representation of Gandhi to a class and have it kick off the class by referencing one of the students in the class and say to that student, hey, I want you to take the lead today in doing this in a little eight second clip.",
+    "And that would take the teacher, you know, a minute or so to think of an idea and generate that. But like that's a way to, you know, to engage the class using AI tools about like whatever the topic is of the day, you switch around to other people in the class or something. Like that's super fun, super interesting, super exciting and just a way to use, you know, a video tool that would never have been possible before. And so like in my own workflows, in my own mind, I'm constantly been playing with this, just developing other videos. Like I sent a birthday card using just a series of videos to a friend just over the weekend.",
+    "And I just edited all these videos. It was a bunch of Star Wars clips. He's in the Star Wars. I made it custom for him wishing him happy birthday and then send it off to him as a birthday card. Just all of these little things. And that just came from Veo 3, which, you know, just added audio to these videos. That was the one thing it added, but that opened up so much possibility by doing just that."
+   ]
+  },
+  {
+   "speaker": "Joseph Vale",
+   "start": 1527,
+   "paragraphs": [
+    "Oh, that's really interesting, really creative."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1533,
+   "paragraphs": [
+    "It's but that's the great thing with this. Like I hope it will unleash other people's creativity to do that. Like so maybe it's not a birthday video that you send to a friend or a thing you put in front of your class. You just like, okay, if I have this video tool, where else can I use that in my life? Who would I send this to make them happy, make them engaged, to better tell my story, to do whatever? I mean, why aren't people using this for resumes or something like that? So instead of sending in a resume, couldn't I send like a 30 second video with whatever it might be? Like whatever that thing you're trying to do, like now you have a video possibility to do that. And that's really interesting."
+   ]
+  },
+  {
+   "speaker": "Joseph Vale",
+   "start": 1574,
+   "paragraphs": [
+    "Yeah, yeah, I think so. So Mike, thank you so much for these minutes, for this time. And thank you for being a part of AI to the Sky with your creativity and everything."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1590,
+   "paragraphs": [
+    "So thank you for having me. It was a pleasure. Thank you."
+   ]
+  }
+ ],
+ "words": 4240
+}

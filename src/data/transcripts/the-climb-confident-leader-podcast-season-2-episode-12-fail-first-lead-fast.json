@@ -1,0 +1,335 @@
+{
+ "slug": "the-climb-confident-leader-podcast-season-2-episode-12-fail-first-lead-fast",
+ "outlet": "The Climb: Confident Leader Podcast",
+ "title": "Season 2 Episode 12: Fail First, Lead Fast: Building Innovation and Resilience with Mike Todasco",
+ "date": "Nov-25",
+ "published": "2025-11-25",
+ "url": "https://podcasts.apple.com/us/podcast/season-2-episode-12-fail-first-lead-fast-building-innovation/id1815388606?i=1000738321333",
+ "duration_sec": 2226,
+ "host": "Rahul Karan Sharma",
+ "speakers": [
+  "Mike Todasco",
+  "Rahul Karan Sharma"
+ ],
+ "turns": [
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 0,
+   "paragraphs": [
+    "My name is Rahul Sharma. I've been in the corporate America for 20 years, transforming people, transforming leaders, and ensuring that people who wants to move to the next level, they take steady steps. It's all about taking steps. We all may be great individuals, but if we have to do the next level, we have to work as one team. Before we get started, a quick note. The opinions expressed here are my own and those of my guest. This conversation is intended for informational and educational purposes only. Always seek expert guidance for your unique situation. And I'm also pleased to inform you that NESDA Global is a proud sponsor for this season's podcast.",
+    "Thank you, NESDA. Hello and welcome to another episode of The CLIMB, the Confident Leader Podcast, where we share stories of leaders moving from invisible to becoming an influencer. I'm your host, Rahul Karan Sharma, and today I have a guest coming in from California. He worked as an innovation leader at PayPal as well as had significant career changes after starting his career in finance and launching a failed startup venture. He currently serves as a visiting fellow at the AI Center at San Diego State University. But let me tell you, he does not stay in San Diego, just for a fact check. But he focuses on making artificial intelligence accessible and helping people use AI tools to enhance their career and life. Ladies and gentlemen, please welcome Mike Tosado to our show. How are you doing today, Mike?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 170,
+   "paragraphs": [
+    "Oh, Rahul, I'm doing great. Thank you for the very warm and welcoming intro. And yeah, I'm excited for a fun conversation with you today."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 178,
+   "paragraphs": [
+    "Awesome. So you are that AI guy that people are thinking and talking about it, AI. So you are you have been that person in the company as well as in the industry. Tell us how you lead to this AI. I know you started your career in finance. So give us a gist of your leadership journey, Mike. Sure, happy"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 200,
+   "paragraphs": [
+    "To. I started back in undergrad studying finance, largely because I was just interested in money and it just seemed to be like some connection to money there. And out of school, I got a job at GE because for no other reason, it was the most expensive company and the largest company in the world at the time. And Jack Welch was like the manager of the century or whatever back in '99. So I'm like, this seems like a good place to go. So I went to GE. I found very quickly finance and accounting weren't for me. Pivoted to the world of paper and then private equity, doing more strategy and M&A type work.",
+    "And after that, just was like, I need to do my own thing. So that was the failed startup, which I'm more than happy to talk about as part of it. It was a marketplace for original artwork basically, and I knew nothing about what I was doing. I mean, it was a disaster. Did that for two years, but that was able to get me a job at PayPal. And that's when I joined PayPal. That's really when I got introduced to the world of AI and machine learning because PayPal just by necessity has been really at the forefront, especially in the world of risk and security of machine learning for quite some time because basically you need to in that business you need to be a step ahead of the bad guys.",
+    "And if they are using their, you know, constantly is being attacked from various factors, you need to defend that. And you can do that through traditional computer programming. And so that's where the machine learning stuff comes in. So in many ways, PayPal was world class in certain areas of that. Got to learn about that. Eventually was running innovation for the company and got to play around with a lot of emerging technologies like augmented reality, started the first blockchain team there and things like that. But 2022, I'd been at PayPal for 11 years. My plan was to be there for one year. That was it was my rebound job and like it was way longer than I expected.",
+    "And that summer of 2022, I was so excited about what was happening with like DALL-E 2. Midjourney had just come out. It was mostly on the image side was the real exciting stuff. Was playing around with GPT-3 as well. This is before ChatGPT was launched and it was just really exciting. And so that's when I really just went all in about AI and then eventually got connected to San Diego State and do all things in the world of AI now."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 357,
+   "paragraphs": [
+    "Awesome. Wow. Amazing journey and a lot of twists and turns. And I'm sure that all these twists and turns would have come with those mindset shift. It would not be that easy to move to know that your business, you are in a failing business, then bounce back to get a job somewhere else. So I'm very sure it would not be easy. So tell us what kind of mindset shift you had to go through, Mike, to really do all these pivots and move from one place to another. And you, I think you had a cool job in PayPal as building innovation. That was a great job."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 396,
+   "paragraphs": [
+    "Yeah. Let me talk about startup first and then PayPal second, I think. So, Rahul, like when I was at with my startup, I was a solopreneur basically. Like I had engineers, but I was hiring them and I was paying them. Like, you know, solopreneurship wasn't really popular in 2009. And you know, I think in the world of AI, it's actually going to become much more popular today. I'm seeing more and more of that. So I think it's finally having it today, but it, you know, it really wasn't back then. And you know, the business became part of my own identity. So to admit 18 months, two years in, this just isn't getting to where I needed to be.",
+    "It was hard. It was really hard for me to do that because again, like the business was an extension of myself. I had a good job in private equity that I was leaving to get, you know, from going from getting paid a lot of money to zero money doing the startup thing, but it was something else I was passionate about, something I wanted to do. And to admit that that just wasn't getting to where I wanted it to go, it was tough. I think for me, I actually had my first kid and that was a little bit of an incentive. I do wonder if I didn't have that kid, you know, those life events and, you, know, that changes things.",
+    "It changes your perspective. It gives you a chance to like re-examine things. You know, I don't think there's any way that 15 years later I would have still been doing that business, but like I do wonder how much longer I would have lasted before finally admitting, hey, this isn't the right thing for me to do at this time. And then moving forward, it was 11 years at PayPal. It was six years in that same innovation job. I will say COVID made it a lot less fun for me. Like I had my own innovation lab there. It was fun. I got to bring in speakers. Like I literally every Sunday night, Rahul, like every night I was excited to come into work the next day.",
+    "Like I loved what I was doing there. But I also knew like it was getting a little bit, you know, it was just time to move on. There wasn't anything else I wanted to do at PayPal. My time had come. I was on my second sabbatical at the company. I'm like, I'm just going to explore some other things during my sabbatical and see if this is the right thing. And it was a good way for me to test that out. And it was pretty clear even though I didn't exactly know what I wanted to do next, I knew it wasn't, you know, doing what I was doing at PayPal."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 549,
+   "paragraphs": [
+    "So you mentioned about when you're failing a startup, your life changing event that happened in your life really made a difference in making you the person who you are. And at PayPal, I think yes, you mentioned about sabbatical, but at the same time that sabbatical allows you to take a pause, allows you to think rather than just taking a decision on the move. So that's a great thing. So sometimes just quitting the job is not always the option."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 583,
+   "paragraphs": [
+    "And I think sometimes like look, most companies don't offer sabbaticals. And so and again, it wasn't a super long. It was a four week sabbatical, but I took it off and it was just a way to hit pause and just see like, okay, do I want to explore other stuff? Did I need all that time? Probably not. I probably could have done it in, you know, four or five days or something like that just to kind of get away, get off the grid, you know, just get away, just really think about stuff what I want to do with the rest of my life. So it's, you, know, I don't want to think it's, you know, somebody listening to this is saying, oh well, I don't have sabbaticals.",
+    "I can't do that. Like as you could take a weekend and a day or two vacation, I think that's enough time for you to really just get away. But you do need to focus on yourself. Focus on time. Like so if you have a family, get a babysitter, get a aunt or uncle to take the kids for a while and just get away for three or four days. Get away from your phone. Just don't watch TikTok videos for those days. Just literally just sit in a room and think. It'll be painful, but like that's kind of what you need to do in those situations. Yes."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 643,
+   "paragraphs": [
+    "Thank you for giving that advice. You know, taking a pause and reset is important. Now from a PayPal, I know when we were chatting earlier, you led a very incredible innovation lab at the time of this change. And in corporate world, we always talk about innovation, have that innovation culture. So in your experience, where do you think companies, most of the companies go wrong when they are trying to build that innovation culture?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 672,
+   "paragraphs": [
+    "I think one area is embrace of failure and even just discussing failure. And I'll be very honest, I don't think we were necessarily that good at PayPal at it. Like it was something I pushed for. We could talk about various different ways, but like if I really wanted an innovative culture, I would just be as a CEO or a general manager or whatever at a company and I have a big team and I want them to be more innovative, I would just by start by just talking about the ways I'm trying to be innovative myself and the ways that I'm succeeding, the ways that I'm failing because like innovation, you have a lot of failures before you get that success and you just got to learn from them.",
+    "And if you're living in a culture where you just kind of sweep that under the rug, you don't talk about it, you act like it didn't happen, you're embarrassed by it, like it doesn't work. So I think that's a big thing. One thing I did, this was before I even had the innovation job at PayPal, I was just managing what was called a product launch function. So it was about a team of 10 people, but I thought that being innovative was an important part of their mission. One of the things I did, we had a weekly meeting where we just all met as a team for 30 or 60 minutes.",
+    "I said, okay, we're going to start every meeting with I'm going to cold call on somebody on the team and I want you to tell me about one thing you did that was innovative over the past week. And I never defined innovation. I didn't even say it's innovative at home or it could be anywhere. It didn't have to be in the workplace even. And at first they kind of hated it because I literally I'm cold calling on them. Like that's the most uncomfortable thing, especially if you don't think of yourself as an innovative person. You know, I was kinder in the first few weeks. I think I might have chosen, you know, prep somebody earlier on and say, hey, I'm going to be calling on you like, you know, coached them a little bit on that.",
+    "But as part of the process in doing that, people were just hearing how people were being innovative. One guy talked about and I remember these stories 10 plus years later. I remember these stories about one person who you know would cut through the airport. PayPal's headquarters are by the San Jose airport. He would cut through the airport to get to work faster. I'm like, what are you talking about? Like how do you? And it's like, oh, that's really creative. I'd never thought about that. And like that was a great thing to share. Somebody who wasn't getting somebody to show up for meetings. So he found out that this person liked a certain type of donut and he added that to the invite like, hey, I'm going to happen to have these donuts here.",
+    "And instead of having to like complain to his manager, blah, all this stuff, he just went out early and bought 20 bucks worth of donuts, which I was happy to expense, allow him to do that. And like low and behold, that person started showing up to those meetings. Like, you know, all of those kind of things and hearing those stories from your peers lets you think about, oh, innovation like, okay, I did something like that once or that's a great idea. I could do that too. It was a way for us to all learn about each other. And yeah, so it was just five minutes at the start of every meeting.",
+    "It was a way for us to share about that. And I think that made the team more innovative. And that could work with a team of like two people, 10 people or a thousand people. You could do things like that."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 874,
+   "paragraphs": [
+    "Awesome. I mean, that's a great start for setting up that culture. So people listening to us, don't think that innovation is a big jargon. Innovation is something that you were doing and if you are able to do it little better, maybe in terms of the timing, in terms of productivity, all that matters. So sometimes we feel innovation is too big or innovation is just I need to innovate a light bulb or something that something a product like a Tesla or things like those. But no, that is not only thing that we talk about innovation. So thank you for bringing that."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 913,
+   "paragraphs": [
+    "Rahul, if I may, I want to add on to that point because it's such a great point. One of the things I got to do at PayPal was all the new hires at our headquarters in San Jose, I got to give like a 30 minute innovation talk. And one of the things I talked about in that was like, and this was not just engineers, this was all functions. And one of the examples of innovation I would give at PayPal was from our legal team. We actually had a contract and we lost a pretty big account in part because we had like an 80 page contract they had to sign.",
+    "And I think one of the leaders said like, how do you get this down to two pages? And so the legal team was like, they took that on. And like making an 80 page document two pages, that's innovative. And like so I mean, that's why like it doesn't just imply to the designers and the engineers, it's across the company. Like how do you take the things that you have and not just blindly accept them? How do you make them better? And like you can function,"
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 969,
+   "paragraphs": [
+    "You could be more innovative. Absolutely. And I know I've worked with some of the people in the legal team. This was one of the big asks from our sales all the time that how we can reduce the contract. And yes, there are things you can do change and there are things you cannot. But thinking that how you can move from eight pages to two pages is important. And this is one thing I learned from my speaking coach, Mike. He told me that your contract has to be only one page. You don't want people to go over and over. So he gave us his copy of his contract. It's just one pagers, very easy for people to sign and is a quick and easy go. So"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1013,
+   "paragraphs": [
+    "Here's a great thing about that in this day and age. We didn't have this, you know, seven, eight years ago when I had that. But today, put your 40 page contract into a large language model like Claude or ChatGPT and put it in the smartest model and say, hey, what's a one page version of this? Like tell me like what are the most important things I need to have? And it can get you there. And I think I think it's funny. I think we were actually gunning for one page. We couldn't quite get one page, but we got two. But you know what? That was okay.",
+    "Like two pages, it was fine. I mean, you know, so this is the whole concept of 10x thinking that popularized in Google and places like this is like, you know, it's not asking how do we increase revenue by 10% next year. It would ask the question, how do we increase revenue by 10 times next year? And the goal isn't necessarily to reach that, but it's to force a different level of thinking that's going to get you out of incrementalism and get you somewhere else. So even if you don't get to one page and you got to two, well, you know what? That's okay in the end."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 1072,
+   "paragraphs": [
+    "Absolutely. You already touched based on this aspect on how to leverage AI and you gave a very good example about the legal team. People who are listeners who are not very much familiar with AI, maybe their use of AI is just merely the ChatGPT version. How an organization can leverage AI without basically losing that human touch? I understand that technology is changing, but what would be your thought process on that?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1104,
+   "paragraphs": [
+    "Rahul, the first thing I would say is I would actually follow something similar to that innovation thing that I've had with the team before. One of the best ways the AI tools that are being built today have infinite possibilities. And naturally as human beings, when we have something that has infinite possibilities, we freeze up. Instead of saying like, oh, this is great, like we don't know what to do in those circumstances. So one of the things we do is look at what other people do. We learn from others. We, you know, we take, we borrow, we use all that kind of stuff to find out how to use these tools ourselves.",
+    "Step one in a company is like frankly just allowing your employees to use these tools. So get an enterprise license for Claude or Gemini or ChatGPT or whatever. And like that is literally just step one. Make it okay for them to use these tools and frankly encourage them to do that. And how do you encourage them is to get into step two. Slack, teams, whatever it is that you use inside your company to communicate, create an AI channel. You and the leader as a leader in the company should be the first person to post in there and just say like, hey, here's a cool thing I was able to do with ChatGPT enterprise account.",
+    "Like look, I did this and this. Like I just want to share. I want to see what you all have to have. And like and then have other people share and learn from each other and see this because maybe you're, you know, if you're in the finance world, if you're on the accounts payable team and you see somebody from accounts receivable is doing this like, wait a minute, we could do that. We could do the inverse of that or whatever it might be and you can all learn together from that. The tools as they are today are for most functions are not going to be replacing work.",
+    "And if they are replacing work, I think, you know, probably very limiting in what you've defined your own job to be because a job is just a series of tasks. Those series of tasks are going to change for all of us. If you are doing accounts receivable today, that's not the same as what accounts receivable looked like 20 years ago. Like these things have evolved, the technology has evolved, even though we don't always recognize that. It's going to change a lot in the next few years. The human aspects of that are going to matter more. You know, speaking in front of a group, talking to customers directly or whatever it might be.",
+    "The non-human administrative stuff is probably the stuff that's going to be less important. So in anybody's job, that's the evolution we're all going to see. And frankly, if you're not embracing these tools today, it's just going to make more much more difficult for you and the vast majority of jobs to be able to be more effective. And that's whether you're in the business world or frankly even if you're like a teacher or even like a graphic designer or whatever it might be, this is going to change how we all operate. Yes, there's some people today who say, do you want? I'm not going to use a computer.",
+    "I'm going to write this novel longhand or whatever. And they can. It is much more limiting though. And the universe of people who write that way and say like, I'm never going to use a computer, it's really small today versus what it was. Like if you said, I'm not using computers, you're going to be left behind. It's the exact same thing with the world of AI."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 1302,
+   "paragraphs": [
+    "Absolutely. What I'm thinking right now is you made a very good point that the way technology has evolved over the last 20 years and the task that we are doing today and how it was done 20 years ago is also evolved. It's just we don't look back in time because we don't go back in time. So according to the history, every time when there has been a technological change, things has been for better. Yes, some jobs have been lost, but it's not that it has been redundant. You know, it's allowed people to do something more. It creates more bandwidth for us. If I am using AI today, I'm able to create more bandwidth for myself to do certain things.",
+    "So embrace AI. Don't just think that it is not to be used, but focus on how to effectively use. Very, very important. Yeah, I mean,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1353,
+   "paragraphs": [
+    "Look, I think something called the end of history illusion. And Dan Gabriel at Harvard, I think was the first psychologist who coin this. And it's basically saying that for whatever reason, we think that our who we are today as humans is our perfect self. We think that this is the right self and so forth. But if you ask people at any point in time and they use in the study, they use music. And they ask them, so it's 2015 and we say like, who is your favorite musician? Who is your favorite band? How much do you think you would pay to see that band in 10 years?",
+    "People are always like, well, it's going to be a lot of money because like they're my favorite band today. Of course they're going to be my favorite band in 10 years. They ask those same people, how much would you pay to see your favorite band from 10 years ago? And I was like, I don't know about that. Like, you know, but like we always have a hard time. We think that our self today is the right self, is the idealized self, is the stuff that has, you know, politically and socially has got everything right when in reality we're just a constant work in progress. And I think knowing that like little psychological trick that we have in our own minds will help people better understand like our jobs are going to change and that's okay because our jobs have changed and that's probably okay too.",
+    "And it is going to be just constantly evolving and getting more efficient and serving customers ultimately better in the end as part of it. Sure,"
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 1444,
+   "paragraphs": [
+    "Absolutely. Now you have done a lot of work with the innovation lab. You have done a lot of work in the change space as well. What would you say to a leader who is having a challenge when it comes to building that innovation culture? He is focusing or she is focusing that innovation burnout. What's what would be one grounding principle that you will share with them?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1474,
+   "paragraphs": [
+    "Well, first I would ask why. Like why is it important for you to be innovative? Like what is it that you're trying to achieve with this organizationally? Is it just because you think, you know, Wall Street or your bosses or your investors want to see or hear the word innovation or something? Or is there really something at its root that is critical and ultimately in service of your customers? And all of these things have to be in service of your customer. It needs to be we're innovating because our customers count on us and if we build these new products and experiences, we're going to serve them better as part of it.",
+    "Like so there needs to be some rooting in that. And if you have that good rationale and really got to ask because I don't think it is necessarily the right thing, the right focus. For some companies it's more about cost cutting or whatever. And yes, you could be innovative in that, but you know, there are different ways to focus your time and energy and maybe innovation isn't the right one. But if it is the right thing, you know, we talked about what you could do with your teams. I think recognition is a huge thing. So when I took on the innovation job, I remember one of the things that we needed to increase was the amount of patent idea submissions coming from across our company.",
+    "And when we did that, I remember saying to my boss at the time, I'm like, oh well, if we're going to do that, I'm going to need a bunch more money to do that. She's like, you don't got more money. Just figure it out. I'm like, oh crap. And that was the best thing she could have possibly have said to me because it forced me to think about more intrinsic things that would reward people. And look, one of the simplest things I did was I made a PowerPoint because I said like, hey, can we start actually not saying what the ideas were, but just can we want to increase the amount of ideas people are sending in.",
+    "Can I just publish that? Can I say, hey, Sally gave this many ideas, Joe gave this many ideas, and can we just publish that monthly? And they're like, I guess so. I'm like, great. So literally I just made a PowerPoint. I send it to all the comms teams at all the offices around the world. I even did it by office so to create a competition. This cost zero, but was a way because I literally remember one person who was from one of our offices in Israel who was in San Jose looking at this board, just standing outside the innovation lab and he's like, why is my name not on that board?",
+    "He literally said that. And I'm like, well, did you submit ideas? He's like, no. On the flight back to Tel Aviv, I think he submitted like 20 some ideas or something. I'm like, he became a machine. He's like, wait a minute, I'm innovative. And so it was just a way to create just some friendly like idea submissions and all that and create it like by office or by whatever. And that cost nothing to do. And that was also a fit for PayPal culture. I mean, you know, it's a little bit of type A personality. You think you're the best, most innovative. Like, you know, that was a little bit of a match for the culture that we had. Think about those kind of creative solutions for whatever your business is ultimately."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 1663,
+   "paragraphs": [
+    "Yeah, I think that's a great suggestion. So if you are listening and if you are having issue with bringing innovation, look at consider the idea that Mike has mentioned. And another thing is to your introspection, how are you showing up in those meetings? Because you may not be saying anything, but probably your body language is saying more to your people. So just look into that. Sometimes you always think of getting things from outside, but probably it could be within us only. So"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1696,
+   "paragraphs": [
+    "And if I could add to that, AI will help you with that. And here's what I mean by that. So if you're doing some Zoom meetings and you're like, my team's not being innovative, do you want? Use Fireflies, use Otter, use one of these things to record all your meetings, put them in a tool like NotebookLM and say, hey NotebookLM, I want you to be my coach and actually I want you to coach me and give me specific examples in the meeting where I may have been disrupting innovation or discouraging it in some way with my team in these one-on-one. And obviously get their permission to do that.",
+    "And you know, we want to at a corporate level and a personal level. But like that can be really helpful to do that because we all have blind spots. I have tons of blind spots. You know, I need a coach at all times with me as I'm like with my kids and how I'm treating them and like little micro things I might be saying. I'm like, oh god, why did I do that? Like we all do that kind of stuff. But to use AI as a way to help coach us with that, that's like one of the perfect use cases for this."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 1756,
+   "paragraphs": [
+    "Awesome. I think thank you for sharing. This was something that probably people may not be using it. Everybody is using to just more probably the 5% of the capability of AI as of today. There are very few of us who are really making the most of the AI. And I think Mike has been sharing some great inputs on that aspect. So Mike, before we move on to our final segment, the rapid fire segment, what next for you personally and professionally that excites you right now?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1787,
+   "paragraphs": [
+    "Oh, Rahul, I don't know. I mean, honest answer is I don't know. I still am excited every day I get to wake up, play with new tools, write about something, run an experiment, all that kind of stuff. Like I really enjoy that. I'm also enjoying being a dad and just spending more time with my kids, which my fellowship gives me a lot of flexibility to do as part of that as well. Beyond that, I don't know, man. Like that's the honest answer. I love I love working with startups. I'm not ready to jump back into one quite yet. So so we'll see. To be determined, I guess."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 1828,
+   "paragraphs": [
+    "Awesome. So if our listeners, I'm very certain that they must be very excited by the end of the episode to hear what you have mentioned so far. If they want to connect with you, if they want to take you as a guide, as a coach when they are putting up their innovation team or innovation culture, is that something that you are open?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1853,
+   "paragraphs": [
+    "I don't formally do consulting, but I'm happy to give people advice. I mean, and I really mean that. And I'll so LinkedIn or frankly miketodasdo@gmail.com. Just shoot me an email and if it's a well thought out email and all that, I will, you know, take the time to give a well thought out answer and hopefully help you out in any way. So you know, I'm more than happy to do that."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 1876,
+   "paragraphs": [
+    "Awesome. So we will include Mike's LinkedIn profile on our show notes."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1882,
+   "paragraphs": [
+    "If you made it this far in listening, you guys, so that's your bonus to you. Got it."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 1887,
+   "paragraphs": [
+    "You got my email now. All right. So now we are moving to the fun rapid fire round, Mike, where there will be five questions coming to you. Without thinking too much, we would like you to respond to these questions. I like not thinking. First one, a quotation you live by."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1907,
+   "paragraphs": [
+    "Quotation. It's funny. Literally the first thing that popped to my head was Stalin, which I don't know, a million, what is it? A million deaths. I don't know why Stalin. I'm really trying to do rapid fire, but what is it? A single death is a tragedy, a million deaths is a statistic. I hate that Stalin was the first one, but for whatever reason that popped up. Okay, that's fair enough."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 1935,
+   "paragraphs": [
+    "We're true rapid fire here. Are you a morning person or a night owl?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1941,
+   "paragraphs": [
+    "I am I think a night owl who had kids, which forced me to be a morning person."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 1947,
+   "paragraphs": [
+    "Okay, that's a good way to put it up. What's one daily routine you never escape, no matter how hectic your day is?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1954,
+   "paragraphs": [
+    "Exercise, first thing in the morning. Every seven days a week, exercise. I have a great routine. My kids and family know it is essential for dad being happy and all this other stuff. And like it happens no matter what."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 1968,
+   "paragraphs": [
+    "Awesome. What's one leadership skill you wish someone had taught you earlier?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1974,
+   "paragraphs": [
+    "Just listening more. I think just listening, you know, a lot more. You know, two ears, one mouth, you know, keep that ratio, like that kind of thing. Like I probably listen more than"
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 1987,
+   "paragraphs": [
+    "I had. Awesome. Final one. If your career were a Netflix series, what would the title of season one be?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1994,
+   "paragraphs": [
+    "Season one of my career as a Netflix series. That's an awesome question. Well, season one would just be boredom and finding love or something like that. Is that a good title? But like honestly, I sucked at finance and accounting, but I found my wife of 20, I have to look at that, 20, almost 22 years there. So like that was the one thing that came out of that. But yeah, that would be the first season. Which I guess boredom and finding love is probably not a lot of thing people will click on Netflix now that I think about it. So I'll have to workshop that"
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 2032,
+   "paragraphs": [
+    "Title. Yeah, probably, but it's not something very common too. So it's boredom and love. Yeah, that's true. It kind of spikes some interest in people. Yeah. All right. Before we let Mike go, so I just wanted to share my learnings from this episode and I will encourage you listeners to put in comments your learning. What has been the number one takeaway for you? So for me, the first one was for building innovation culture, one of the key thing for anyone of us is to embrace failure and not just in the words or in the walls. Truly you need to exhibit that and really make sure that it is not just on paper, but it really makes sense.",
+    "So embrace failure. Failure is something that you learn from rather than, you know, just you put things in the back burner. Number two, sabbatical. So in Mike's situation, he took a sabbatical. I understand everyone may not be able to take that, but just take a pause, take a reset, maybe three to four days, five days off from your devices, off from the people who brings negative energy to you, be around the positive people. Just take a pause and reset. That will really help you in taking the next step that if you are burnout or if you are having the symptoms of burnout. Leverage AI. Mike gave multiple examples that how to make things better with the help of AI.",
+    "I really like the idea of how a coach, we can use them as a coach, how I'm interrupting people, the meetings, minutes of the meetings or call recordings share with them and the AI will coach you. Last but not the least, the innovation is simple. Don't make it complicated. Don't make it like a rocket science. As Mike mentioned about the example of legal department, turning a eight page document to two page, now someone will say that that is not innovation, but that is what it is. It is not something new, but if you say a eight page document versus a two page document, it is a new document.",
+    "Maybe derived from that eight page document, but it is a new document. So that's also an innovation. So sometimes we think innovation to be too big or probably something that what the greatest Elon Musk has done, the Tesla or the green energy or any of those kind of things is what we think innovation is. But in general, innovation could be as simple as turning an eight page document to two page document. Before we let Mike go, Mike, any final words of wisdom for our listeners?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2195,
+   "paragraphs": [
+    "Look, I love your summary. I was like, man, I wish I could have been that concise in saying everything as part of this. No, look, it was a great time. I'd love to if you ever have me back or anything. Rahul, it was a fun conversation. And people, you got my info. If you really do want to reach out to me, don't hesitate."
+   ]
+  },
+  {
+   "speaker": "Rahul Karan Sharma",
+   "start": 2213,
+   "paragraphs": [
+    "Thank you everyone and have a great rest of the day."
+   ]
+  }
+ ],
+ "words": 6591
+}

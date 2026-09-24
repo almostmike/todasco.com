@@ -1,0 +1,45 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { transcripts, clock, NOTE, type Transcript } from '../../../lib/transcripts';
+
+export function getStaticPaths() {
+  return transcripts.map((t) => ({ params: { slug: t.slug }, props: { t } }));
+}
+const { t } = Astro.props as { t: Transcript };
+const others = t.speakers.filter((s) => s !== 'Mike Todasco');
+const withWho = others.length ? ` with ${others.join(' and ')}` : '';
+---
+<Base
+  title={`Transcript: ${t.outlet} — ${t.title} — Mike Todasco`}
+  description={`Auto-generated transcript of Mike Todasco on ${t.outlet}: "${t.title}"${withWho}.`}
+>
+  <article class="tx">
+    <p class="tx-kicker">Auto-generated transcript</p>
+    <h1>{t.outlet}: {t.title}</h1>
+    <p class="tx-meta">
+      Mike Todasco{withWho}{t.published ? ` · ${t.published}` : ` · ${t.date}`}{t.duration_sec ? ` · ${clock(t.duration_sec)}` : ''}
+      · <a href={t.url} rel="noopener">Original episode</a>
+    </p>
+    <p class="tx-note">{NOTE}</p>
+    {t.turns.map((u) => (
+      <section class="tx-turn">
+        <p class="tx-who"><b>{u.speaker}</b> <span>{clock(u.start)}</span></p>
+        {u.paragraphs.map((p) => <p>{p}</p>)}
+      </section>
+    ))}
+    <p class="tx-foot"><a href="/media/transcripts">All transcripts</a> · <a href="/media">Media appearances</a> · <a href="/">todasco.com</a></p>
+  </article>
+</Base>
+
+<style>
+  .tx { max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; line-height: 1.6; }
+  .tx h1 { font-size: 1.6rem; line-height: 1.25; margin: 0.25rem 0 0.5rem; }
+  .tx-kicker { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.75rem; opacity: 0.7; margin: 0; }
+  .tx-meta { font-size: 0.9rem; opacity: 0.8; margin: 0 0 1rem; }
+  .tx-note { font-size: 0.85rem; padding: 0.75rem 1rem; border-left: 3px solid currentColor; opacity: 0.85; margin: 0 0 2rem; }
+  .tx-turn { margin: 0 0 1.25rem; }
+  .tx-turn p { margin: 0 0 0.6rem; }
+  .tx-who { margin-bottom: 0.2rem !important; }
+  .tx-who span { font-size: 0.8rem; opacity: 0.6; margin-left: 0.4rem; }
+  .tx-foot { margin-top: 3rem; font-size: 0.9rem; }
+</style>
