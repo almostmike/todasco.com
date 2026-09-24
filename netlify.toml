@@ -194,8 +194,10 @@
 # ── Security headers ──────────────────────────────────────────────────────
 # Netlify served only HSTS by default. The CSP is built from what the site
 # actually loads: Google Fonts (stylesheet + font files), the Patent Leaderboard
-# iframe on /patents, and the Substack subscribe form. Everything else is
-# same-origin. Outbound <a href> links need no allowance.
+# iframe on /patents, the Substack subscribe form, and Google Analytics 4
+# (gtag.js from googletagmanager.com, beacons to *.google-analytics.com and
+# *.analytics.google.com, per Google's published GA4 CSP guidance). Everything
+# else is same-origin. Outbound <a href> links need no allowance.
 #
 # script-src needs 'unsafe-inline' because Astro inlines the featured-article
 # rotation script into newsletter.html rather than emitting a file. A hash would
@@ -205,8 +207,24 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; frame-src https://www.patentleaderboard.com; form-action 'self' https://todasco.substack.com; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; frame-src https://www.patentleaderboard.com; form-action 'self' https://todasco.substack.com; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+
+# ── Long Angle talk (29 Sep 2026) ─────────────────────────────────────────
+# The deck's QR code points at /longangle. These catch people typing it by
+# hand. /longangle/ needs no rule: Netlify already 301s the trailing-slash and
+# mixed-case forms of an existing page to /longangle (checked on /newsletter).
+# Netlify ignores a trailing slash when matching, so these also cover
+# /LongAngle/ and /long-angle/.
+[[redirects]]
+  from = "/LongAngle"
+  to = "/longangle"
+  status = 301
+
+[[redirects]]
+  from = "/long-angle"
+  to = "/longangle"
+  status = 301

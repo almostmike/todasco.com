@@ -32,7 +32,8 @@ const ogImage = new URL('/img/og-default.jpg', site).href;
   <title>{title}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonical} />
-  {noindex && <meta name="robots" content="noindex, follow" />}
+  {/* noindex={true} keeps links followable; a string sets the exact directive */}
+  {noindex && <meta name="robots" content={typeof noindex === 'string' ? noindex : 'noindex, follow'} />}
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Mike Todasco" />

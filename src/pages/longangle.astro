@@ -1,0 +1,304 @@
+---
+// Event page for the Long Angle talk, 29 September 2026. A QR code on slide 71
+// of the deck points at https://todasco.com/longangle, so the path is fixed.
+// Deliberately unlisted: noindex, kept out of the sitemap and the nav, because
+// it carries live invite codes. Built for phones on conference wifi, one column,
+// no images, one small script for the copy buttons.
+import Base from '../layouts/Base.astro';
+
+const steps = [
+  {
+    id: 'step-1', n: 'Step 1', name: 'Hire it', time: '5 min',
+    lead: 'Scan, sign up, and pick a name (in Muse, a look too). Then say:',
+    prompt: "Hi! You're my new chief of staff, and your name is ______. Over the next hour we're going to get to know each other.",
+    result: 'a chief of staff with a name.',
+    tips: [],
+  },
+  {
+    id: 'step-2', n: 'Step 2', name: 'The dump', time: '8 min',
+    prompt: "You are going to become my Chief of Staff, and I expect a high level of efficiency and trust from everyone who works for me. We'll start with a short onboarding. Part one: what do you know about me, personally and professionally? Search the web for anything public about me, and bring in other facts you're confident are true. Tell me everything you find, flag anything you're not sure about, and save what's right to your memory.",
+    result: 'a first draft of you. Read it, then fix what’s wrong.',
+    tips: ['Muse keeps memory files you can open and edit. In Instinct, text it: “What have you saved about me?”'],
+  },
+  {
+    id: 'step-3', n: 'Step 3', name: 'Goals and BHAGs', time: '8 min',
+    prompt: "Here's what I'm trying to do this year and beyond. Some are easy, some are audacious: [list three to five, and make two of them unreasonable]. Save these as my goals. Then tell me which ones you can help with most, exactly how, and which ones you can't help with at all. This is a living list. It will change.",
+    result: 'your goals, saved. Muse shows them in its Goals tab.',
+    tips: ['Be specific enough to be slightly embarrassed. Vague goals get you a vague assistant.'],
+  },
+  {
+    id: 'step-4', n: 'Step 4', name: 'The interview', time: '15 min',
+    prompt: "You're officially hired. Now interview me. First, list the five biggest gaps in what you know about me. Then ask me one question at a time, starting with the biggest gap: the people who matter, how I like things done, my routines, the places I go, and what you should never do without asking. Keep going until you're 95% confident you know how I work. Save everything you learn.",
+    result: 'a chief of staff that knows your people, priorities and preferences.',
+    tips: ['If it fires twenty questions at once, tell it: “One at a time.”'],
+  },
+  {
+    id: 'step-5', n: 'Step 5', name: 'First assignment', time: '10 min',
+    prompt: "Standing orders: never send, buy, book or delete anything without my OK. When you're unsure, ask. Now pick one thing from my goals you could finish in the next five minutes, and do it. Show me the result before anything leaves.",
+    result: 'one finished thing, checked by you.',
+    tips: ['Stuck for a first job? A thank-you note to draft, a dinner spot to research, a packing list for your next trip.'],
+  },
+  {
+    id: 'homework', n: 'Homework', name: 'Make it a habit', time: '1 min',
+    prompt: 'Every weekday at 7 a.m., text me my day in five lines, plus one thing you could take off my plate.',
+    result: 'a text from your chief of staff at 7:00 tomorrow morning.',
+    tips: [],
+  },
+];
+
+const claudeCode = [
+  "You are going to become my Chief of Staff and I demand a level of efficiency and trust with all the employees who work for me. I have a several step process I'm going to do with you to ensure we start off effectively and efficiently. Here's the first part. What do you know about me? Include everything in your memory, personal and professional. Read all the files in the folder. Search the web for anything public about me too. Do full-on data enrichment about the pieces you do know about me and bring in other facts that can be helpful and you're confident are likely true. Write it all down in markdown files in this folder for me to review, and flag anything you're not sure about.",
+  "Here is what I'm trying to do this year and beyond! Some of these are easy, some of these are audacious. Save them as goals.md. Then tell me which ones you can help with the most and exactly how you foresee yourself assisting. Note this will be a living document that will change over time.",
+  "Given everything you now have about me: what's missing? What do you still need to know? Don't ask me the questions yet. Write me the list of gaps you'd need filled to be genuinely useful, ranked by how much each one would better inform how you could work with me as your chief of staff. I'll address them inline.",
+  "Take everything you've gathered and now interview me. You are officially hired as my Chief of Staff. Ask questions, numbered, starting with the highest-value gap. Keep going until you have 95% confidence in how I work and what is most important. Ask questions of me so that you can be the world's most effective Chief of Staff. Save what you learn as you go.",
+  "Pick something from my goals that you could finish in the next five minutes, and let's tackle it.",
+];
+
+const menu = [
+  ['pick', 'Pick'],
+  ['allow', 'Before “Allow”'],
+  ...steps.map((s) => [s.id, s.n]),
+  ['after', 'Next'],
+  ['claude-code', 'Claude Code'],
+  ['slides', 'Slides'],
+];
+---
+<Base
+  title="Build your AI Chief of Staff — Long Angle"
+  description="Prompts and setup for the Long Angle AI chief of staff session, 29 September 2026."
+  noindex="noindex"
+>
+  <div class="crumb">
+    <div><a href="/">&larr; todasco.com</a> <span class="sep">/</span> <span class="accent">Long Angle</span></div>
+    <div class="right">29 September 2026</div>
+  </div>
+
+  <div class="la">
+    <header class="top" id="top">
+      <h1>Build your AI Chief of Staff</h1>
+      <p class="sub">Long Angle &middot; 29 September 2026 &middot; Mike Todasco</p>
+    </header>
+
+    <nav class="jump" aria-label="Jump to a step">
+      <div class="jlabel">Jump to</div>
+      <ul>
+        {menu.map(([id, label]) => <li><a href={`#${id}`}>{label}</a></li>)}
+      </ul>
+    </nav>
+
+    <section id="pick">
+      <h2>Pick your chief of staff</h2>
+      <p>Both are free, and every prompt below works in either.</p>
+
+      <div class="card">
+        <h3>Muse <span class="by">(by Meta)</span></h3>
+        <p>Phone, web and Mac. Free, with a weekly limit. US only, 18+.</p>
+        <a class="btn go" href="https://muse.ai/join" target="_blank" rel="noopener">muse.ai/join &rarr;</a>
+        <div class="block code">
+          <div class="blabel">Invite code</div>
+          <div class="ptext codetext">CAM621</div>
+          <button class="copy" type="button">Copy</button>
+        </div>
+        <p>Enter it under Settings &rsaquo; General &rsaquo; Redeem Invite Code within 48 hours of signing up. Each code works for about 20 people, so once you're in, share your own code with your neighbor.</p>
+      </div>
+
+      <div class="card">
+        <h3>Instinct <span class="by">(by Spear Street)</span></h3>
+        <p>No app. You text it or call it. Free, invite-only. It asks for your phone number and your email.</p>
+        <a class="btn go" href="https://app.instinct.com/invite?t=r7smacqhud5nfrvqo6s7c44grm" target="_blank" rel="noopener">Instinct invite link &rarr;</a>
+      </div>
+
+      <p>Not sure? Flip a coin. Or if you want to get rambunctious, do both.</p>
+    </section>
+
+    <section id="allow">
+      <h2>Before you tap &ldquo;Allow&rdquo;</h2>
+      <p>Connect what you'd give a new hire on day one. Nothing more.</p>
+      <ol class="rules">
+        <li><strong>Calendar first. Inbox next week.</strong> If it offers read-only access, take it.</li>
+        <li><strong>Nothing sends, books or buys without you.</strong> You'll put that in writing in step 5.</li>
+        <li><strong>Decide on training.</strong> Before you share anything personal, check whether your conversations can be used to train their models.</li>
+      </ol>
+      <details>
+        <summary>The fine print</summary>
+        <ul>
+          <li><strong>Muse:</strong> runs on its own sealed computer in Meta's cloud. A second agent reviews anything that leaves it. Meta says it isn't used for ads, and you can opt out of training. <a href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/" target="_blank" rel="noopener">Source</a></li>
+          <li><strong>Instinct:</strong> its terms grant a &ldquo;perpetual and irrevocable&rdquo; license to your data, including for training, and let it make agreements on your behalf. <a href="https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/" target="_blank" rel="noopener">Source</a></li>
+        </ul>
+      </details>
+    </section>
+
+    {steps.map((s) => (
+      <section id={s.id}>
+        <h2>{s.n} &middot; {s.name} <span class="time">({s.time})</span></h2>
+        {s.lead && <p>{s.lead}</p>}
+        <div class="block">
+          <div class="ptext">{s.prompt}</div>
+          <button class="copy" type="button">Copy</button>
+        </div>
+        <p class="result"><span>You should end up with:</span> {s.result}</p>
+        {s.tips.map((t) => <p class="tip">{t}</p>)}
+        <a class="up" href="#top">&uarr; Back to top</a>
+      </section>
+    ))}
+
+    <section id="after">
+      <h2>After you've mastered the basics</h2>
+      <ul class="next">
+        <li><strong>Talk to it.</strong> Voice notes on the go. Instinct will take a phone call.</li>
+        <li><strong>Send it anything.</strong> A screenshot, a flyer, an email thread. &ldquo;Handle this.&rdquo;</li>
+        <li><strong>One new connection a week.</strong> Calendar, inbox, or anything you're comfortable with that will help.</li>
+        <li><strong>Let it pitch you.</strong> Both suggest ideas from your goals. Say yes to one.</li>
+        <li><strong>Audit its memory monthly.</strong> Read what it knows, and tell it to change what it shouldn't know.</li>
+        <li><strong>Big project? Bring back the harness.</strong> Taxes, a website, a folder of K-1s: that's Claude Code's job.</li>
+      </ul>
+      <p class="kicker">The chief of staff runs your week. The harness runs your projects.</p>
+    </section>
+
+    <section id="claude-code">
+      <details>
+        <summary>Brought a laptop with Claude Code instead?</summary>
+        <p>Point Claude Code at a new empty folder called <code>chief-of-staff</code> and run these five prompts in order.</p>
+        {claudeCode.map((p, i) => (
+          <div class="block">
+            <div class="blabel">Prompt {i + 1}</div>
+            <div class="ptext">{p}</div>
+            <button class="copy" type="button">Copy</button>
+          </div>
+        ))}
+      </details>
+    </section>
+
+    <section id="slides">
+      <h2>Slides</h2>
+      {/* TODO(Mike): after the talk, add the slides PDF (e.g. public/longangle-slides.pdf)
+          and replace this paragraph with a link to it. */}
+      <p>The slides from today's session will be posted here.</p>
+    </section>
+  </div>
+
+  <div class="pfoot">
+    <span>Mike Todasco &middot; <a href="/">todasco.com</a> &middot; <a href="https://www.linkedin.com/in/todasco/" target="_blank" rel="noopener">linkedin.com/in/todasco</a></span>
+  </div>
+</Base>
+
+<style>
+  .accent { color: var(--news); }
+  .la { max-width: 720px; margin: 0 auto; padding: 8px 30px 32px; }
+  .la p, .la li { font-size: 17px; line-height: 1.55; color: var(--body); }
+  .la strong { color: var(--ink); }
+  .la a:not(.btn):not(.up) { color: var(--news); text-decoration: underline; text-underline-offset: 3px; }
+
+  .top { padding: 22px 0 18px; border-bottom: 3px solid var(--ink); }
+  .top h1 { font-family: var(--bv); font-weight: 400; font-size: 40px; line-height: 1.05; margin: 0 0 10px; }
+  .sub { margin: 0; font-family: var(--cd); font-weight: 600; font-size: 17px; letter-spacing: .06em; text-transform: uppercase; color: var(--news) !important; }
+
+  .jump { padding: 16px 0 6px; }
+  .jlabel { font-family: var(--cd); font-weight: 600; font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+  .jump ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+  .jump a {
+    display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px;
+    border: 2px solid var(--ink); background: var(--panel2);
+    font-family: var(--cd); font-weight: 600; font-size: 16px; letter-spacing: .04em; text-transform: uppercase;
+    color: var(--ink) !important; text-decoration: none !important;
+  }
+
+  section { padding: 22px 0 8px; border-bottom: 1px solid var(--rule); scroll-margin-top: 8px; }
+  section:last-child { border-bottom: 0; }
+  h2 { font-family: var(--bv); font-weight: 400; font-size: 26px; line-height: 1.15; margin: 0 0 12px; }
+  h2 .time { font-family: var(--cd); font-weight: 600; font-size: 17px; letter-spacing: .06em; color: var(--muted); white-space: nowrap; }
+  h3 { font-family: var(--cd); font-weight: 700; font-size: 24px; text-transform: uppercase; letter-spacing: .03em; margin: 0 0 4px; }
+  h3 .by { font-weight: 500; font-size: 18px; color: var(--muted); text-transform: none; letter-spacing: 0; }
+
+  .card { border: 3px solid var(--ink); background: var(--panel2); padding: 16px; margin: 0 0 14px; }
+  .card p { margin: 0 0 12px; }
+  .card p:last-child { margin-bottom: 0; }
+
+  .btn {
+    display: flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 16px;
+    font-family: var(--cd); font-weight: 700; font-size: 19px; letter-spacing: .05em; text-transform: uppercase;
+    border: 2px solid var(--ink); text-decoration: none; margin: 0 0 12px; text-align: center;
+  }
+  .btn.go { background: var(--ink); color: var(--paper); }
+  .btn.go:hover { color: var(--paper); background: var(--news); }
+
+  .block { border: 2px solid var(--ink); background: #FBF9F4; margin: 0 0 14px; }
+  .blabel { font-family: var(--cd); font-weight: 600; font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); padding: 10px 14px 0; }
+  .ptext { padding: 12px 14px 14px; font-size: 17px; line-height: 1.55; color: var(--ink); white-space: pre-wrap; overflow-wrap: anywhere; user-select: text; -webkit-user-select: text; }
+  .codetext { font-family: var(--cd); font-weight: 700; font-size: 34px; letter-spacing: .12em; padding-top: 4px; }
+  .copy {
+    display: block; width: 100%; min-height: 54px; border: 0; border-top: 2px solid var(--ink);
+    background: var(--news); color: #FFF8EA; cursor: pointer;
+    font-family: var(--cd); font-weight: 700; font-size: 20px; letter-spacing: .1em; text-transform: uppercase;
+    -webkit-tap-highlight-color: transparent; touch-action: manipulation;
+  }
+  .copy:active { filter: brightness(.9); }
+  .copy.done { background: var(--built); }
+
+  .result { margin: 0 0 10px; }
+  .result span { font-family: var(--cd); font-weight: 700; font-size: 17px; letter-spacing: .04em; text-transform: uppercase; color: var(--ink); }
+  .tip { margin: 0 0 10px; padding: 10px 14px; border-left: 4px solid var(--humor); background: var(--humor-pale); }
+  .up { display: inline-flex; align-items: center; min-height: 44px; font-family: var(--cd); font-weight: 600; font-size: 15px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+
+  .rules, .next { padding-left: 22px; margin: 0 0 14px; }
+  .rules li, .next li { margin-bottom: 10px; }
+  .kicker { font-family: var(--bv); font-size: 20px !important; line-height: 1.35 !important; color: var(--ink) !important; }
+
+  details { border: 2px solid var(--ink); background: var(--panel2); margin: 0 0 14px; }
+  summary {
+    min-height: 52px; display: flex; align-items: center; padding: 0 14px; cursor: pointer;
+    font-family: var(--cd); font-weight: 700; font-size: 19px; letter-spacing: .04em; text-transform: uppercase;
+  }
+  summary::marker { content: ''; }
+  summary::before { content: '+'; font-size: 24px; width: 22px; flex: none; }
+  details[open] summary::before { content: '\2212'; }
+  details > :not(summary) { margin-left: 14px; margin-right: 14px; }
+  details > ul { padding-left: 20px; }
+  details > ul li { margin-bottom: 10px; }
+  code { font-size: 15px; background: var(--panel); padding: 1px 5px; border: 1px solid var(--hair); }
+
+  @media (max-width: 900px) {
+    .la { padding: 4px 16px 24px; }
+    .top h1 { font-size: 32px; }
+    h2 { font-size: 24px; }
+  }
+</style>
+
+<script>
+  // Clipboard API first; if it's unavailable or refused (older in-app browsers,
+  // non-secure contexts), fall back to execCommand, and failing that leave the
+  // text selected so a long-press copy is one step away.
+  function selectText(el: Element) {
+    const range = document.createRange();
+    range.selectNodeContents(el);
+    const sel = window.getSelection();
+    sel?.removeAllRanges();
+    sel?.addRange(range);
+  }
+
+  async function copyFrom(el: Element): Promise<boolean> {
+    const text = (el.textContent ?? '').trim();
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch {
+      selectText(el);
+      try { return document.execCommand('copy'); } catch { return false; }
+    }
+  }
+
+  document.addEventListener('click', async (e) => {
+    const btn = (e.target as Element).closest('button.copy') as HTMLButtonElement | null;
+    if (!btn) return;
+    const text = btn.parentElement?.querySelector('.ptext');
+    if (!text) return;
+    const ok = await copyFrom(text);
+    btn.textContent = ok ? 'Copied ✓' : 'Text selected: tap and hold to copy';
+    btn.classList.toggle('done', ok);
+    clearTimeout(Number(btn.dataset.t));
+    btn.dataset.t = String(setTimeout(() => {
+      btn.textContent = 'Copy';
+      btn.classList.remove('done');
+    }, 2500));
+  });
+</script>
