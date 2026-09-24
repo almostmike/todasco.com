@@ -1,0 +1,366 @@
+{
+ "slug": "the-infinite-abilities-podcast-189-mike-todasco-on-leadership-ais-creative",
+ "outlet": "The Infinite Abilities Podcast",
+ "title": "#189: Mike Todasco on Leadership, AI's Creative Potential, and Embracing Infinite Abilities",
+ "date": "Aug-25",
+ "published": "2025-08-28",
+ "url": "https://podcasts.apple.com/us/podcast/189-mike-todasco-on-leadership-ais-creative-potential/id1742613803?i=1000723890910",
+ "duration_sec": 1958,
+ "host": "Nick Yerhart",
+ "speakers": [
+  "Mike Todasco",
+  "Nick Yerhart"
+ ],
+ "turns": [
+  {
+   "speaker": "Nick Yerhart",
+   "start": 0,
+   "paragraphs": [
+    "Hello everyone, welcome to the Infinite Abilities podcast. I am your host, Nick Uherhart, and we are here to encourage each other to find our own unique abilities. Let's go. All right everyone, so today we have Mike, and I've been looking forward to this one because he knows a lot about AI, and I think it's really cool. And I use AI a lot, so let's learn some things, all right guys? So Mike, can you tell us a little bit about your background, kind of where you came from?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 36,
+   "paragraphs": [
+    "Sure, and thanks for having me, Nick. I'm excited. Hopefully I'm going to learn some stuff here too. I'm excited about our conversation. Cool. Cool. My background is I am originally from Chicago. I'm now a father of two and married. I live in California. I started my working life in the world of finance and accounting and somehow moved over into technology, and now I'm at San Diego State's AI center where I write about AI, I teach, I mentor students, I do research, and all that fun stuff."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 72,
+   "paragraphs": [
+    "That's pretty awesome. How was that transition? How'd that go for you?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 80,
+   "paragraphs": [
+    "Well Nick, the transition, I would never have guessed when I started my career 25 years ago that this is where I'd be at and this is what I'd be doing today. I started my career in accounting, which is so far from what I'm doing now, and it's just been like one interesting pivot after the next, and I've always kind of been surprised with where my career trajectory has taken me. You know, the only thing that I've kind of learned through all that, and the one piece of advice I always give to people, is just follow really good bosses. If you're in a job and you can work somewhere, or even teachers, it's the exact same thing.",
+    "Great teachers, great bosses, follow them. Take whatever classes they have, take whatever jobs that they offer you. You will learn a lot, you will grow a lot in those opportunities, and that's what matters."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 136,
+   "paragraphs": [
+    "Yeah, it's so important to have great leaders. Back when I was in a boss position, I looked at myself as a leader, not a boss, and my guys always followed me, they were always there for me, we had fun working together. So yeah, that's very important."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 160,
+   "paragraphs": [
+    "It's so important to have that, and to be the boss that can be the boss or the leader, I keep using the phrase boss, but yes, be the leader who can create that environment. Not everyone can do that, yes."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 172,
+   "paragraphs": [
+    "So now, in what you do nowadays, you've been doing it for a while, technology changes a ton. How do we keep up?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 184,
+   "paragraphs": [
+    "Look, my job is basically paying me to keep up with the technology, and even I can't do it. So the first thing I would say is don't worry too much about keeping up on everything because it's overwhelming. You got a life to live, you have a family, you have your job, and all that other stuff. But what I would say is you need to be open to exploring new things and trying new things out. Not everything is going to work, some things are going to fail, and you just got to in life kind of give chances to things. If you hear a friend, if you listen to a podcast like this and you hear somebody talking about something that's cool or interesting and you haven't done it yourself, just try it.",
+    "Just try it, spend a decent amount of time with it. Don't just try it to then be able to say, well I tried it and it didn't work. Give it a real go, and I think that's the best that we can do at keeping up, whether this is AI or whatever new technology or whatever new thing, just explore these different things in life."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 260,
+   "paragraphs": [
+    "And when it comes to AI, that's been changing a lot recently, I feel like at least. When was, if you don't know that's cool, when did AI first get released to the public for use?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 276,
+   "paragraphs": [
+    "So let's go through this here. The term artificial intelligence dates back to the 1950s. There was a bunch of researchers at Dartmouth and they were looking for a term for this new emerging field, and I wrote about this recently because I was very curious myself, and AI was kind of the one that came up on top. The 1950s were a time of science, and there was a time of a lot of, we were, the Americans were racing against the Soviets at that time. Science was kind of at the forefront, the space race was just beginning, and so this whole futuristic thought of artificial intelligence stayed in the public consciousness.",
+    "There were some people that thought we would have artificial intelligence within 10 years. That obviously didn't happen, and so what has happened over the last 70 years is this concept of AI winters. There's all of this hype about AI and then it doesn't transpire and then all of a sudden nobody wants to be in the field. The last one we kind of went through was in the early 2010s. In the aughts, it was not a good time to be in the world of AI. It was not a very popular place, even things, a lot of the technologies we now use today were thought to be sort of afterthoughts.",
+    "Neural networks, things like that that language models are based on, they're like, that's never actually going to work. It did, and there are certain things that led to that. But you know, we're, and apologies, this is the teacher in me giving a history lesson. Keep going, I like it, keep going. The AI as we know it today probably would have started with OpenAI. OpenAI was a research group that was founded in 2015, 2016, somewhere around there. They were looking at a whole bunch, they were looking at robots and all this other stuff, and supposedly GPT-1 was 2018 or something when they built that. GPT-1, if you've heard of ChatGPT, this was kind of the first model of this.",
+    "It was built off of Twilight fan fiction, literally. The whole corpus of information it had was basically Twilight fan fiction and some other stuff like that. So it wasn't very good. I think it was like eight months later or something GPT-2 came out, that was sort of good. It really started GPT-3, which had been about 2020 or so. So this model existed, but it was a little bit janky, it was hard to access, there were a lot of waiting lists and things like that. But honestly, these things existed, they had DALL-E come out, which is a way to generate images, all this happened. But then fast forward to November 2022, they took the existing GPT-3 DaVinci model, was it DaVinci?",
+    "Yeah, I think it started with a D, I think it was DaVinci, and they took that model and they put a new wrapper on it, which was what became ChatGPT. And I was using GPT-3, other people were using it, we were amazed by it, but that was like the first time it kind of got into the public's hands and they made it sort of easy to access. You didn't have to deal with APIs, you didn't have to deal with the playground that they had set up, any of this kind of stuff. It was a design change that they made. So that would have been November 2022, and really if you ask most people now, the wave that we're on now for the last almost three years, that's pretty much when it started."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 507,
+   "paragraphs": [
+    "Yeah, I was going to say it was like early 2023 when I started using ChatGPT and all that. Now, I know that we all use AI and just don't know it either. I feel like people don't realize what all in this world is AI. Do you want to talk about that a"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 530,
+   "paragraphs": [
+    "Little bit? Absolutely, I'd love to. Yeah, and this is probably even a better way to answer your question from before, Nick. So when you say how have people been using AI, if you're doing things online, you're using AI, you're just using it in a different way. You're not kind of the director of it so to speak like you are in a ChatGPT or a Claude instance. It's running in the background, it's filtering the spam out of your email, it is helping you get from point A to point B in Google Maps. All of these things, it's letting your financial transactions go through. I used to work at PayPal, there was a lot of AI going on behind the scenes to be able to approve of your transactions.",
+    "So when people say AI is bad broadly, you know, basically most of what's being done on the internet is using or integrating AI some way into it. Some might be more traditional programming, but some could be more artificial intelligence. So it's very broad on what it is. Typically if people are talking about AI, it's the generative AI, which is where you actually have a hand in and you put in a prompt into a tool like Google's Veo 3 and you say, hey, make me a video that does this, and it'll make that video for you. Like that's two different types. But yeah, AI, we're using AI day in and day out even if we don't think we are."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 620,
+   "paragraphs": [
+    "Constantly, just like at home, you've got the Alexas and Google and all that. That's all AI, everything. The TV, how it says, hey, next up for you, this is what you should watch. Great example, great example. Yes."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 637,
+   "paragraphs": [
+    "Yes, exactly. If you're on Netflix or YouTube or anything that's a recommendation engine, if you have a Facebook or a Twitter feed that's given you or an Instagram feed or TikTok, my god, like there's a ton of AI in that of being what's generated and what's being served to you. These are not things you could traditionally code just to say, hey, show them the next thing, show them the next thing, like whatever it is. No, it's taking all of these preferences, it just would be inefficient with traditional coding to do that. That's why these AI models, machine learning type models, have been in place and very much being used for much longer than ChatGPT has been around."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 679,
+   "paragraphs": [
+    "Yeah, and I'm a big supporter of AI because it saves me a ton of time every week with everything I do, and I use it, I don't know how much I use it because it's so ingrained into my daily life that it's basically all day every day. So I love it. Now, what excites you the most about AI and the direction we're going right now?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 709,
+   "paragraphs": [
+    "I think Nick that it's going to really unleash more creativity. I mean, that's what really excites me about it. I mentioned Veo 3 before, and just to explain what that is for folks, this was a tool that Google released just a few months ago, and it for the first time allows you to do a text to video and that video has integrated sound. Now, they're only eight second clips, but it's incredible. So I can say whatever in this eight second clip and have it generate a video for me. And it was my friend's birthday a few weeks ago, he's very much into Star Wars, and so I went in there and I made a video birthday card for him with a bunch of stormtroopers saying birthday wishes and so forth to him, and I was able to edit this together and send it to him and make this video birthday card.",
+    "And it was a really cool special thing that we had. And so that was all, I mean, all the video was AI driven. I was telling it what to do, I was doing a lot of editing, but this is mostly AI doing that. But it was allowing me to express my love for my friend in a totally different way than I would have otherwise. And that's the kind of thing that really excites me about AI, is it just opens up possibilities, not even thinking like, okay, I'm going to make a Hollywood type movie out of this, but just something to share with your friends, something to express yourself in a different way, to allow you to be more of you to other people. That's what I like about these tools."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 811,
+   "paragraphs": [
+    "Dude, I like that. It's either go to the store and get your friend a boring birthday card or make them a quick video. That's way cooler."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 824,
+   "paragraphs": [
+    "And honestly, he appreciated it a ton and all that. I'm like, oh god, I've never even thought about doing that before. And this is just one of like literally infinite possibilities that you can do. And that's the cool thing, we're only limited by our own creativity and how we can use these tools. I use AI videos now in my lectures that I have. I will bring them in there and it's usually a way to kind of lighten things up or whatever, and maybe I could have a character saying something that I want to say or maybe something I don't want to say and have them, like there's these really interesting things that you can do.",
+    "And you don't have to be teaching AI to do this. You could be teaching second graders to do this and you could have a fuzzy bear come and teach part of the lesson or something like that or say something or call out one of the kids in the class during that. Like there's, it's only limited by your creativity and that's the thing that excites"
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 881,
+   "paragraphs": [
+    "Me. Yeah, that is really exciting. And I know that the stuff that we create with AI, it's so cool because it takes a boring video and makes it not so boring, which is really cool. Absolutely. Now, I think a lot of the listeners out there, the main reason they use AI is going to be for their business to get stuff done, make emails, create scripts, business blog posts and all that. What are some generic tips that you could give to someone using like GPT?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 925,
+   "paragraphs": [
+    "Sure. The biggest tip I would give now in 2025 is that the models are very different than even where they were in 2023 if you started using this a couple years ago. The concept of meta prompting is something I use a lot. Let me define what that is. So a meta prompt is you're almost asking the AI to give you the prompt that you want. So basically, and this is how I would structure it. First, you got to tell the AI, it's like an intern that is working for you that has infinite knowledge but just started at your job. They don't really know what you want, they don't know what your goals are, they don't know anything like that.",
+    "They're an intern, they just started, this world is new to them. You have to explain that. Certain tools like ChatGPT have this concept of infinite memory where it actually will know stuff. So when I ask ChatGPT to give me a recipe, I've done that so many times, I have told it what my family's likes and dislikes are, it will actually tailor around that when it's giving me a recipe, which is super helpful. And it could apply to so many things when it has this memory. But you almost assume especially in the beginning that an AI just knows nothing. So you just have to tell it like, hey, this is my business or let's just use a vacation example because I've done that before.",
+    "We were actually as a family we were going to go on a little European vacation and I'm like, hey, we're going to Europe, we're thinking about this, we like this and this, we don't like this. Now, before you give me anything, ask me a few more questions. And that's something I will always do. Don't have it give you an answer, just say, hey, just hold off a second, ask me some more questions that you have based upon this. I like for it to number them, that way I can just literally just like do a bulleted list and just like one, two, three, four, and sometimes I'm like, no, yes, so not applicable here or whatever.",
+    "And then I can expand if it's necessary. So numbering of those questions really helps. But then once it has enough information, say like, okay, either give me the answer or sometimes I'm asking for a prompt for another model. Like it might be, I do this all the time with videos, like hey, ChatGPT, I want a prompt Veo 3 for something with stormtroopers. What's a really good prompt I can put in there for stormtroopers for this person's birthday or whatever? I don't know if I actually did that, but I may have. So you can actually have models give you prompt to put in other models. But like that's the whole concept of meta prompting and that is the one universal tip I feel I can give people where people think the AI can read their mind, it can't.",
+    "You got to tell it stuff. Again, it's an intern that is working for you that is ridiculously smart but knows nothing about you, nothing about your business, nothing about your personal life. You got to tell it all."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 1110,
+   "paragraphs": [
+    "Yeah, and I tell people I think of AI as an employee, not as a tool. With employees, they can do 80% of the work, but you got to put in that extra 20% effort to make it right for you. That's how a lot of people, once they look at it, they're like, oh, because a lot of people just want AI to do everything. It can do a lot, but you should still add your own touch to everything. Yeah, I"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1149,
+   "paragraphs": [
+    "Mean, here's a test that I think people can use to just kind of see how close is AI. Wherever it is that you live, say, hey AI, somebody new is coming to my town, I'm about this age, I like to do this and this. Give an agenda for the things that we should do for the weekend. And it's going to spit out something for you. And just like you said, Nick, it's probably going to be 80% of the way there. Like there might even be a few things you're like, oh god, I didn't even know that was in the town, that actually sounds like fun or wait, that closed, like that's not open or whatever.",
+    "Like you will see stuff, it will get you 80% of the way there, it's not 100%. And the thing for you to keep in mind is it's kind of like that universally about stuff. It's going to be close, it's going to be directional. Often it's going to be better than a human being doing the exact same thing, but sometimes it's not going to be. And there's certain ways to do that. Like if, I'm not recommending this, but if I was asking AI for a medical diagnosis, I would first talk to your doctor before"
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 1218,
+   "paragraphs": [
+    "You do that."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1221,
+   "paragraphs": [
+    "But you could do second opinions and stuff in this and don't take it as gospel. And also put that exact same prompt into a few different AIs and see what the different results are. Or you can even put it into ChatGPT more than once. So the other thing for people to understand, these are probabilistic, which basically means if you put in the exact same prompt twice, you're not necessarily going to get, well you will never get the exact same answer, but the answer could vary a little. If you're consistently getting the same answer, that's probably a good sign that hey, this is legit. If you're getting different answers, well that's like you probably need to do a little bit more research, a little more caution with that."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 1260,
+   "paragraphs": [
+    "Yeah, I agree with that. And I like how you can have it get to know you. And I tell people like if you're using it for business or personal stuff, just tell your story. And the more of your story you can tell it, the better results you're going to get."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1281,
+   "paragraphs": [
+    "Absolutely. And do you know what? If you don't even know what, oh god, what do I even tell it? Say, hey, do you know what? ChatGPT, I'm new to you, I want you to interview me. And you can even do this in voice mode. That's a great little hack in ChatGPT. Just put on voice mode from your phone, that way it'll talk to you, it's very natural language, and just say, can you just interview me? Get all the questions, all the things that you think are pertinent to help me get more value out of you. And that's a great way to start."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 1311,
+   "paragraphs": [
+    "Yeah, and I guess it's really cool and fun when you have a big online presence like I do. You can go on somebody else's phone and have them ask their GPT about me. And like everything you get, because it varies from person to person on what is spit out. It's so interesting to see like what it pulls out. And I had one friend and he lives up in Canada and he asked about me, he said, give me 10 quotes from Nick Uherhart. And like most of them I was like, I said that? That's pretty good. Because I'm sure it pulls from the podcast and everything that I've done online. And I was like, that's really cool, you know?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1359,
+   "paragraphs": [
+    "But wait, did you see, if you did actually see those or do you know? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 1365,
+   "paragraphs": [
+    "I don't know if I actually said them, I guess, but it was all like, I'm sure I said it, you know?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1374,
+   "paragraphs": [
+    "It's close enough,"
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 1375,
+   "paragraphs": [
+    "Like you can see yourself saying it. There wasn't, yeah, there wasn't anything in there that was like, yeah, I know I didn't say that, you know? It was all, I think accurate. But yeah, I thought that was really cool."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1385,
+   "paragraphs": [
+    "Yeah, and one thing to recommend, because we've been talking mostly about the three main models that I probably use the most are Gemini, ChatGPT, Claude. They're all great models, you know? I wouldn't even worry like, oh, I heard this one is slightly better in this one. Like honestly, for most people, any of those are going to be just great. If your employer provides you with one, just use it's going to go great for you. One that is a little bit of a different technology that I want to flag is something called NotebookLM, which is also made by Google as is Gemini. NotebookLM is a slightly different technology where you will upload documents to it and it will cite and source those documents for that.",
+    "So I've been writing my blog for three years now, so I uploaded like all 70 plus articles that I've written over the last three years about AI stuff into a NotebookLM and I just ask it questions about it. Like, have I ever written about this? Did I already say this before? Like because there's sometimes I'm like, you know, I had a thought but I didn't actually hit publish on it or whatever. And it's a great way to do that. And that is one way where like if it is important to be accurate, you can use a tool like that. And I would say, you can use it will actually show you the source as well.",
+    "So you can actually even click on that and it'll give you the link in there. It is really close to like perfect accuracy, I would say with stuff like"
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 1477,
+   "paragraphs": [
+    "That. I'm going to start using that, that sounds very useful. It is. Awesome. So before we start to wrap this up, what are a few more takeaways that you would like to give the audience?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1494,
+   "paragraphs": [
+    "Look, I think the first thing for everybody is just use these tools. Use them to help you in your day-to-day. Find other friends that are using it and just share with each other how you're using it. Like prompts, tips, like my gosh, I did this, can you believe that? These tools have infinite capabilities. But again, because of the infinite capabilities, our natural reaction is just to do nothing because there's too many choices for our brains to handle with this. But the more you do that, the better off you're going to be. Don't worry at all about the horse race as I talked before about like which model is best.",
+    "Again, I think of those three that I mentioned like Gemini, Claude, ChatGPT from OpenAI, they're all great. Like you can use any of those models and you're going to have something really good. And just have it help you in your day-to-day. Start with wherever you're having a problem, start small and stick with it. This is new to all of us. I mean, we're less than three years into this AI journey as a society. So we're all learning here. And if you do this for I don't know, 20 minutes a day, after a month, you're going to start to become an expert in this field. Like you can't say that about all areas, but this is so new, it's so emerging right now, you'll be kind of learning at the same pace with the rest of us. That's really what I would recommend for people."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 1591,
+   "paragraphs": [
+    "And I want to ask something that I do frequently and it's all about your AI learning what you like, how you like to write and all that, which it does learn. I just got a new AI program so I'm trying to train that one. But one of the things like it'll spit something out that I want to use for like a post or something and then I'll say, make this sound less AI. And it's funny that it will, it'll take it, okay, you take out the long dash lines, what are those called? The long dash. Dash, there"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1629,
+   "paragraphs": [
+    "You go. I hate em dashes. I never use em dashes before and like yeah, yes. Nobody ever has. It's like take those out and yeah, you got to take those out. And it's funny too, Nick, so one of the features that Claude has, so made by Anthropic, you can actually, and it does a decent job, you can actually give it a sample of your own writing and then it will mimic that writing when it returns results to you kind of when you choose that. They have a few different styles, like one is more formal, informal, and then I have one that I use with them, I call it text storyteller, which is like, you know, I gave it a bunch of my blog posts and things like that and said, hey, this is how I like to write.",
+    "So even when I just use it as an editor, and I use it all the time as an editor, it kind of knows my style. It knows like, okay, we'll leave the humor in there, we won't use any em dashes because we can tell Mike doesn't like them or whatever it might be. So it kind of knows that style as well. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 1688,
+   "paragraphs": [
+    "And it's really fun when you get to start to learn things about you, what you like, because then you just use it and you don't have to do the extra BS to get what you want. It just starts to come naturally from it."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1708,
+   "paragraphs": [
+    "It's really cool. And that's what we should all be striving and hoping for. It should be natural and it's going to get there. I mean, these things are emerging, they're getting better, it'll take a little time, it'll get there. But until then, you got to work with it a bit more. Yep,"
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 1722,
+   "paragraphs": [
+    "You do. Yeah, just work with it's a lot of fun. Download GPT if you don't have it and just start typing and you can have a lot of fun with it, you can ask it for jokes and everything. So get out there and do it. Absolutely. Yes, get out there and do it. So my slogan is your abilities are infinite. What does that mean to you?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1751,
+   "paragraphs": [
+    "You know, the one thing in my life I think I've always appreciated, always tried to teach, always tried to just kind of bring out of others is creativity. If I could just tell a quick story, back when I was at PayPal, I remember having a team that I inherited, so I was managing a group of people, and one of the things I would always ask people like, do you find yourself to be a creative person, yes or no? And I remember on this team half of the people said yes, half of the people said no. And to me, it drove me crazy that they didn't think of themselves as creative.",
+    "And so one of the things I wanted to do like with this team and with many others that I've worked with over my career was get them to realize and recognize that they are creative people. They have these infinite abilities of creativity. Like there is no limit to what our mind can think of, what we can imagine and so forth for that. How I actually did that was a whole another story, but briefly I would literally start our staff meetings with having people talk about something creative they did over the past week. Could have been at home, could have been at work, I didn't care.",
+    "And this was just a way for them to share, to learn and just see like, oh, it's, and I'm not talking about rocket ships, I'm just talking about these little things. Like this is what we do as a human species. We have gotten and evolved to where we are as a species in this world that we've created today because of our creativity. So like to me, that's it. Like our infinite ability is creativity, that's something that AI is going to enhance and will never take away."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 1851,
+   "paragraphs": [
+    "Yep, I agree with that. I think that's really awesome. Well, I want to ask, down the road, would you be willing to be a guest on the show again? Oh my god, yes, absolutely, anytime, Nick. I think it'd be cool as AI progresses over the next even six months, I think we're going to see a big change. And I think it'd be cool to bring you back and have a chat again."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1879,
+   "paragraphs": [
+    "Nick, anytime you want to have me, I would love to, I could have spent hours with you here today talking about stuff. So anytime you want me back, I'd love to be back."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 1889,
+   "paragraphs": [
+    "I think it'd be awesome. I use AI a lot. I appreciate you, your knowledge, all the work that you put in helping people understand and helping people be creative and use AI to help them with that. I think that's really awesome."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1909,
+   "paragraphs": [
+    "Thank you, thank you, Nick. I'm trying my best to do it and hopefully folks will find this helpful."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 1915,
+   "paragraphs": [
+    "Yeah, you're doing great. Well, Mike, thank you again."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1920,
+   "paragraphs": [
+    "Thanks for having me, Nick, it was really fun."
+   ]
+  },
+  {
+   "speaker": "Nick Yerhart",
+   "start": 1924,
+   "paragraphs": [
+    "If you enjoyed this show, please go ahead and share it on your Instagram story and tag me here, the Nick Uherhart. Also, go ahead and share it anywhere else that you see fit because the only way that I can grow this is by you guys doing it. I don't sell anything on here, I don't have paid sponsors, so let's just get it out there by word of mouth and help more people. All right everyone, remember your abilities are infinite."
+   ]
+  }
+ ],
+ "words": 5438
+}
