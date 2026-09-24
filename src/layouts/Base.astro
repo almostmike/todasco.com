@@ -1,5 +1,12 @@
 ---
 import '../styles/global.css';
+import posts from '../data/newsletter.json';
+import humorItems from '../data/humor.json';
+import movieItems from '../data/movies.json';
+import researchItems from '../data/research.json';
+import mediaItems from '../data/media.json';
+import builtItems from '../data/built.json';
+import { ONE_LINE, PROFILES } from '../lib/llms';
 
 const {
   title,
@@ -15,6 +22,163 @@ const site = Astro.site ?? new URL('https://todasco.com');
 const path = Astro.url.pathname.replace(/(?:index)?\.html$/, '');
 const canonical = new URL(path, site).href;
 const ogImage = new URL('/img/og-default.jpg', site).href;
+
+// ── Structured data ────────────────────────────────────────────────────────
+// JSON-LD only: nothing below renders on the page. It gives search engines and
+// AI assistants a machine-readable version of what each page already shows,
+// built from the same data files, so it can't drift from the visible content.
+
+const ME = 'https://todasco.com/#mike';
+const WEBSITE = 'https://todasco.com/#website';
+const slug = path.replace(/^\//, '');
+
+const person = {
+  '@type': 'Person',
+  '@id': ME,
+  name: 'Mike Todasco',
+  alternateName: 'Michael Todasco',
+  url: 'https://todasco.com/',
+  image: ogImage,
+  email: 'mailto:miketodasco@gmail.com',
+  jobTitle: 'Author and Experimenter',
+  description: ONE_LINE,
+  knowsAbout: [
+    'Artificial intelligence',
+    'Generative AI',
+    'Innovation',
+    'Corporate innovation',
+    'Payments',
+    'Patents',
+    'AI and creativity',
+    'Humor writing',
+    "Children's science books",
+  ],
+  hasOccupation: [
+    { '@type': 'Occupation', name: 'Visiting Fellow', description: "Visiting Fellow at San Diego State University's James Silberrad Brown Center for Artificial Intelligence" },
+    { '@type': 'Occupation', name: 'Writer', description: 'Author of the weekly AI newsletter Artificially Intelligent Conversations, humor, and children\'s books' },
+  ],
+  affiliation: {
+    '@type': 'CollegeOrUniversity',
+    name: 'San Diego State University',
+    department: 'James Silberrad Brown Center for Artificial Intelligence',
+  },
+  alumniOf: [
+    { '@type': 'Organization', name: 'PayPal', description: 'Led innovation; 119 US patents from that work' },
+    { '@type': 'CollegeOrUniversity', name: 'Johns Hopkins University' },
+    { '@type': 'CollegeOrUniversity', name: 'University of California, Berkeley' },
+    { '@type': 'CollegeOrUniversity', name: 'University of Illinois Urbana-Champaign' },
+  ],
+  sameAs: PROFILES.map(([, u]) => u),
+};
+
+const website = {
+  '@type': 'WebSite',
+  '@id': WEBSITE,
+  url: 'https://todasco.com/',
+  name: 'Mike Todasco',
+  description,
+  inLanguage: 'en',
+  publisher: { '@id': ME },
+  author: { '@id': ME },
+};
+
+const cleanTitle = String(title).replace(/\s+—\s+Mike Todasco$/, '');
+const crumbs = slug
+  ? {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://todasco.com/' },
+        { '@type': 'ListItem', position: 2, name: cleanTitle, item: canonical },
+      ],
+    }
+  : null;
+
+const byMe = { '@id': ME };
+const itemList = (items) => ({
+  '@type': 'ItemList',
+  numberOfItems: items.length,
+  itemListElement: items.map((item, i) => ({ '@type': 'ListItem', position: i + 1, item })),
+});
+
+// Page-specific content, keyed by path. Anything not listed gets a plain WebPage.
+const pageExtras = {
+  newsletter: () => ({
+    '@type': 'Blog',
+    name: 'Artificially Intelligent Conversations',
+    description: "Mike Todasco's weekly AI newsletter.",
+    author: byMe,
+    blogPost: posts.map((p) => ({
+      '@type': 'BlogPosting',
+      headline: p.title,
+      url: p.url,
+      datePublished: p.date,
+      author: byMe,
+    })),
+  }),
+  research: () => itemList(researchItems.map((r) => ({
+    '@type': 'ScholarlyArticle', name: `${r.short}: ${r.sub}`, url: r.url, author: byMe,
+  }))),
+  humor: () => itemList(humorItems.map((h) => ({
+    '@type': 'CreativeWork', name: h.title, url: h.url, datePublished: h.date, author: byMe,
+    ...(h.outlet ? { publisher: { '@type': 'Organization', name: h.outlet } } : {}),
+  }))),
+  'ai-at-the-movies': () => itemList(movieItems.map((m) => ({
+    '@type': 'Article', name: `${m.film}: ${m.sub}`, url: m.url, author: byMe,
+    about: { '@type': 'Movie', name: m.film },
+  }))),
+  media: () => itemList(mediaItems.filter((m) => m.url).map((m) => ({
+    '@type': 'CreativeWork', name: m.title, url: m.url,
+    publisher: { '@type': 'Organization', name: m.outlet }, contributor: byMe,
+  }))),
+  built: () => itemList(builtItems.map((b) => ({
+    '@type': 'WebSite', name: b.name, url: b.url, description: b.desc, creator: byMe,
+  }))),
+  'periodic-fables': () => ({
+    '@type': 'BookSeries',
+    name: 'Periodic Fables',
+    description: 'A series of stand-alone graphic novels where atoms take readers on adventures through science.',
+    author: byMe,
+    publisher: { '@type': 'Organization', name: 'Paw Prints Publishing', url: 'https://pawprintspublishing.com' },
+    genre: ["Children's graphic novel", 'Science'],
+  }),
+};
+
+const graph = [];
+if (!noindex) {
+  if (page === 'home') {
+    graph.push(person, website);
+  } else if (page === 'about') {
+    graph.push({
+      '@type': 'ProfilePage',
+      '@id': canonical,
+      url: canonical,
+      name: cleanTitle,
+      description,
+      isPartOf: { '@id': WEBSITE },
+      mainEntity: person,
+    });
+  } else {
+    const extra = pageExtras[slug]?.();
+    graph.push({
+      '@type': slug === 'press' ? 'AboutPage' : extra && extra['@type'] === 'ItemList' ? 'CollectionPage' : 'WebPage',
+      '@id': canonical,
+      url: canonical,
+      name: cleanTitle,
+      description,
+      isPartOf: { '@id': WEBSITE },
+      about: slug === 'press' ? byMe : undefined,
+      author: byMe,
+      ...(extra ? { mainEntity: extra } : {}),
+    });
+  }
+  // Every page carries the full Person node so each one resolves on its own.
+  if (page !== 'home' && page !== 'about') graph.push(person);
+  if (crumbs) graph.push(crumbs);
+}
+// `<` is escaped so no string in the data can close the script tag early.
+const jsonLd = graph.length
+  ? JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c')
+  : '';
 ---
 <!doctype html>
 <html lang="en">
@@ -63,63 +227,7 @@ const ogImage = new URL('/img/og-default.jpg', site).href;
     href="https://fonts.googleapis.com/css2?family=Bevan&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@300;400;500;600&display=swap"
   />
 
-  {/* Person is the entity this whole site is about. Emitted on the home page and
-      on /about, which is the page that actually describes him — the two places a
-      search engine or an assistant would look to resolve "who is Mike Todasco". */}
-  {(page === 'home' || page === 'about') && (
-    <script type="application/ld+json" set:html={JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'Person',
-      '@id': 'https://todasco.com/#mike',
-      name: 'Mike Todasco',
-      alternateName: 'Michael Todasco',
-      url: 'https://todasco.com/',
-      mainEntityOfPage: canonical,
-      image: ogImage,
-      jobTitle: 'Author and Experimenter',
-      description,
-      knowsAbout: [
-        'Artificial intelligence',
-        'Generative AI',
-        'Innovation',
-        'Payments',
-        'Patents',
-        "Children's science books",
-      ],
-      affiliation: {
-        '@type': 'CollegeOrUniversity',
-        name: 'San Diego State University',
-        department: 'James Silberrad Brown Center for Artificial Intelligence',
-      },
-      alumniOf: [
-        { '@type': 'CollegeOrUniversity', name: 'Johns Hopkins University' },
-        { '@type': 'CollegeOrUniversity', name: 'University of California, Berkeley' },
-        { '@type': 'CollegeOrUniversity', name: 'University of Illinois Urbana-Champaign' },
-      ],
-      sameAs: [
-        'https://todasco.substack.com',
-        'https://medium.com/@todasco',
-        'https://www.linkedin.com/in/todasco/',
-        'https://bsky.app/profile/todasco.bsky.social',
-        'https://x.com/todasco',
-        'https://scholar.google.com/citations?user=LtLp_AoAAAAJ',
-        'https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=10493676',
-      ],
-    })} />
-  )}
-
-  {page === 'home' && (
-    <script type="application/ld+json" set:html={JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'WebSite',
-      '@id': 'https://todasco.com/#website',
-      url: 'https://todasco.com/',
-      name: 'Mike Todasco',
-      description,
-      inLanguage: 'en',
-      publisher: { '@id': 'https://todasco.com/#mike' },
-    })} />
-  )}
+  {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
