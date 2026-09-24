@@ -1,0 +1,489 @@
+{
+ "slug": "second-orders-podcast-the-golden-age-of-middle-management",
+ "outlet": "Second Orders Podcast",
+ "title": "The Golden Age of Middle Management",
+ "date": "Apr-26",
+ "published": "2026-04-11",
+ "url": "https://open.spotify.com/episode/7BgFHdav0wcckQvl3EKDVD?si=QvC1pgsiR-uXo2wfUm3CyA",
+ "duration_sec": 5476,
+ "host": "Shane",
+ "speakers": [
+  "Mike Todasco",
+  "Shane"
+ ],
+ "turns": [
+  {
+   "speaker": "Mike Todasco",
+   "start": 0,
+   "paragraphs": [
+    "I actually see in the future like we're going to have potentially more choice and probably less of the traditional brand loyalty because of that. I would never underestimate humans power to consume more and much more stuff. I'm coming up with this hot take right now. Shane, I think like this could be a golden age of middle managers here."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 22,
+   "paragraphs": [
+    "Today I'm speaking with Michael Todasco. Michael's done quite a bit of things, starting his career in finance before joining PayPal where he did analytics, product, marketing, and eventually led PayPal's Innovations Labs as the Senior Director of Innovation. Now he's a visiting fellow at the James Silberrad Brown Center for AI at San Diego State University. He also writes about AI on his own blog and you can find his work on Medium. Welcome Michael, it's good to have you."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 53,
+   "paragraphs": [
+    "Absolutely. Shane, good to be here, excited about chatting. It's going to be fun."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 58,
+   "paragraphs": [
+    "Now, if you're unlucky enough to occupy the same recesses of social media that I do, you'd be familiar with a lot of breathless chatter recently about solo founders and the rise of the one person billion dollar company. But what I'd like to start by asking is to figure out what really is the difference between this archetype, the solo founder or the phenomenon of the one person billion dollar company and the many professions that we've already had and that we already are familiar with that we would understand traditionally as one person businesses. For example, all manner of freelancers, investors and many sales professions could also be considered one person businesses.",
+    "So why this sudden interest and fascination with a one person billion dollar business? Is it just the dollar value of it? Is it the scale of the valuation of the company that that we see as coming in the age of AI?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 118,
+   "paragraphs": [
+    "I think so. I think that's the big thing. To tell a little story. So before I joined PayPal in 2009, I had finished my MBA, was leaving the corporate world and starting my own business. And when I was doing that, I was a solopreneur. I was trying to find a co founder, I couldn't. I'm like, you know what, I'm just going to go off and do it myself. It was building a marketplace for collectibles. So, you know, it could be, you know, trading cards, comic books, shoes, whatever it might be. You know, I was like, hey, there should be niche collectible websites for this to really serve that need.",
+    "I was doing this as a solopreneur who was not an engineer, who frankly had no idea what he was doing. And, you know, Shane, like I remember like the first time I did have an engineering team I was hiring on Upwork and all that kind of stuff and like, but I didn't know how to like literally they first gave me checkout. This is before Stripe was even around. And, you know, the first checkout wasn't even secure. Like you're putting like you're just putting your credit card information into the open web to buy on my web and so forth. And there's a million problems and like, you know, when you're building a business, a software business, the advantage it has over a consulting business, a landscaping business, whatever is the scalability.",
+    "Theoretically, if I built a marketplace for, you know, trading cards or whatever, anybody who collects Pokémon cards anywhere in the world would be able to transact on that and you could have, you know, millions or billions of dollars of transactions while being theoretically one person. When you're a consultant, when you're a landscaper, you can't really do that. You're limited by as much as what your hands can do. And this has always been the magic of magic of software. But it was just never practical to do that like until the last few years. And now you're seeing where you can even if you're not a coder, it is amazing what you can do in Codex or Claude Code to be able to build.",
+    "And, you know, we're at a point now where effectively everyone as a coder can use these tools. And when there probably will always need to be a human in the loop, at the very least, you know, somebody to collect taxes from, somebody to blame when things go wrong and so forth. So like I think there is going to be a need for a human in the loop at some level. And even if the AI can code better, can think more strategically, can do any of these things as they continue to evolve, that's why I think there is such an appeal of the solopreneur and the one person business that's out there.",
+    "You know, we're starting to see inklings of that. What you can do with OpenClaw. I've seen some people create some amazing things in 48 hours of using that tool. And so like we're we're starting down that path. But that's why people are so excited because it's not limited by what you can do with your own two hands. It is literally saying, hey, 8 billion people in the world, if you like what I built, you can use that."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 305,
+   "paragraphs": [
+    "That's interesting. So maybe the funny little paradox here is that on the one hand, tech has always had the privilege of greater scalability because of the nature of its product. It's inherently scalable. It's software. The marginal cost of servicing an additional customer is not as high. The same ideas of trading time for money does not really apply the same way if you are a software founder as it would if say you ran a landscaping company or ran a HVAC company. But at the same time, while these this new unlock is happening for these non tech businesses, the ways that it would unlock these new tech businesses sounds like it would be confined to all their tech or at least all their software workflows.",
+    "That is like maybe their accounting, their payroll, managing inboxes, correspondence with customers, with vendors, etc. But the real core of the service or the provide or the products that they provide, for example, if you're a gardener, no matter how good Codex gets, at least in it in its current modality, that is not going to water the plants for you. It's not going to fix the air conditioning for you. So while it while it will unlock these non tech traditional businesses that that we have understood for long time to be predominantly one or two or three man businesses, it really only will make a difference in the tech side of things."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 390,
+   "paragraphs": [
+    "Well, I think it will improve these businesses as well. I think it will help them become more efficient. And frankly, I think in some ways there's almost more benefits to accrue to the one person handyman who, you know, is on a job, having to answer their phone, doesn't really have a presence on the web and all this other kind of stuff where, you know, they might be able to spin up their own thing or more likely somebody is going to build a software stack that says, hey, all handy people, handymen of California, like here is a stack. We will get you on Yelp. We will we will answer the phone for you using a voice based AI so you don't have to be interrupted.",
+    "We will manage a calendar for you. We will share that calendar with other people. We will tweak your schedule. We will even be the resource so you can just take a picture of an air conditioning unit that you're working on and then we're going to give you all the documentation and help you more robustly with that than you would otherwise have had. So and you know, they didn't have any of that before. And so like that is a step change. I was actually at an OpenClaw event in fact where they were showcasing for local small businesses the ability to make a website via phone. And when I'm saying phone, I actually don't mean smartphone, I meant like via voice.",
+    "So you call a phone number, you tell them what your business is and you literally just talk to the agent through a traditional phone number and it's building a website in real time. And at the end of the five minute conversation, it will text you the URL and you could go to that and decide if you want to change or keep the website. Like that's a completely different flow that's might be meeting that customer a little bit closer to where they're at versus set up a GoDaddy account and do this and you know, do all this other kind of stuff. It's just, yeah, just call a phone number and talk to an AI which sounds a lot like a real person and will set up a website for you.",
+    "Like so I actually do see it lifting up those companies a lot. And frankly, I think in some ways those companies are going to be better off than some of the other like if your job is in front of a screen all day, there's a pretty good chance that the AI is going to be able to do that better in, you know, 12 to 18 months than what you can do as a human being. And that's almost no matter almost what it is in front of the screen. The people who are actually out there, the landscapers, like the robots, you know, I live very close to the Figure and you know, and like their headquarters is just right down the street from where I live and so I see these things and I see the videos online like humanoid robots, they got a ways to go still. So those jobs are safer. We're not going to have robots doing HVAC for quite some time."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 567,
+   "paragraphs": [
+    "So it still sounds like and correct me if I'm wrong, but it still sounds like it's a cost of productivity story for you. And if we if we were to think about the services or products that these businesses would provide, the limiting factor there still is that the gardener has one pair of hands. And if he wants another pair of hands working on a customer's garden, he needs to hire an individual. Whereas what AI would do or could do for him in theory is in lowering the friction of say starting up the setup of a business where that tends to be a lot of inertia, figuring out domain names, figuring out incorporation, etc.",
+    "And afterwards the maintenance of that business, say your administrative correspondence with customers, with vendors. But the real the real value prop of these businesses, they are still going to be limited by like atoms."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 623,
+   "paragraphs": [
+    "I think that's exactly right, Shane. Like the key to all these businesses is, you know, something from the consulting world and the world of law and so forth known as billable hours. So how much of your time can you actually charge to a customer? So when you're in transit, you can't really charge that to the customer. When you're answering phone calls, when you're filling out your taxes, when you're doing all these things, you can't bill that to a customer. And again, we typically think of that in like law and consulting, but like that is even more applicable to small businesses who are doing HVAC and all these other things that we've talked about.",
+    "So if an AI can do all of those things for them more effectively, it gives them more hours in a day that they can actually work with their hands. You know, you can even have an AI figure out the traveling salesman problem. So the concept of traveling salesman problem for folks who don't know is, you know, you have all of these places that the salesperson has to go to. How do you optimize this route to make it most effective and they're driving the least and so forth? And it's a really difficult problem that has, you know, existed for years and years and years. And Google Maps can help with that and so forth.",
+    "But like even that's difficult. But like you could have your AI saying, okay, I see you're going to be in this part of the city and you know, on the north side of the city and the next day you're on the south side of the city. If I have somebody else on the south side of the city looking for, if they have you come to do the work, I'm just going to recommend that on the next day. And like you might not even know that's happening, but that could just be a, you know, a feature that you turn on in whatever software that you have that says, hey, minimize my driving.",
+    "I don't want to spend the gas and I don't want to spend the time doing that. And those are things that you could really efficiently do that would be super hard, super time consuming for an individual person running a business like that to be able to do."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 747,
+   "paragraphs": [
+    "What kinds of industries, whether you're approaching them by like the certain qualities that attach themselves to certain maybe services or products or certain verticals that make them more likely to be the space where we see solo founders emerging on mass earlier? Which industries would you be able to identify? Or if not particular industries, then what are the qualities or traits of an industry that would be most likely to have this phenomenon occur within it?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 778,
+   "paragraphs": [
+    "I mean, my life is mostly in the world of technology, so I can, you know, mostly talk to the tech world. I would say that you're seeing you're really seeing this across the board. I think people are trying some really ambitious things from, you know, services that will let you spin out your own business with full legal and all this other kind of stuff. And that's being it's actually software being done by a solo founder. And you know, there's so there is legal and compliance and all this stuff that goes in that to other things. I think the hard things for solo founders to do are the ones that really require some sort of network effects.",
+    "And this could be, you know, social networks obviously is one way, but like even more than that, I can I come from the payments world. I don't know how a solo founder is going to disrupt like the MasterCard, Visa card duopoly that we have around the world. You know, you could build the software to do that, you could build the security, you could build the compliance, but the network effects themselves are really hard to overtake. You know, I take the example of Craigslist. Like in the United States, Craigslist for people who don't know is is an application where people can post things, you know, jobs, things they're looking to sell, all this other kind of stuff.",
+    "It was founded in the late 1990s and the website design frankly hasn't changed much in the last 25 years. It looks like it did back then. I think famously there's like less than 20 people that work at this company that is probably at least has been like top 20 trafficked website in the US. Anybody using OpenClaw, I bet you could build a clone of Craigslist within an hour, probably even less than that, and probably even have better design and everything else. But it's the network effects that really matter in that type of business. Like cloning the code not hard. Getting tens of millions of people to use your product, that becomes really hard. Right."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 900,
+   "paragraphs": [
+    "So what we're really talking about here is moats, right? And I have a theory here, so I'd love to hear your thoughts on this. But let's say we take the point of view of an incumbent. Say we are one of the large like multinationals or conglomerates that used to be the dominant player in a particular vertical. How we understood our moats against say a startup would be we have credibility and legitimacy and history and this explains a lot of a lot of the pride of being able to attach circa, you know, 19 something to your company's name because the sheer number of years you've been in business is is proof of your credibility, is proof of your legitimacy.",
+    "And also a big part of your brand story is your size. So your head count, how many geographies you're in, how many offices you have, all of these come together to build out your defenses against why someone else should use your services instead of this startup who has no name and just came out of nowhere, started by a bunch of guys in a garage. And the story there has always been what the startups had as an advantage early on was they were nimble, they were fast, they could do things that incumbents could not do, like cannibalize their own business, etc. And what changed I think was firstly startups gained a prestige in I think this was this is especially pertinent to tech, but also now broadly in other industries, startups gained a certain prestige.",
+    "And so they weren't derided as much or at least they weren't automatically laughed out of the room. They were still allowed to make their sales pitch. And then came on the VCs which lend an additional layer of credibility because yeah, well we might be five guys who started this in a garage, but we have Sequoia and we have Benchmark and we have A6Z on our cap table. And these guys will come into the meetings with us and they will they will make the necessary phone calls and send the necessary emails to lend us that credibility. So between incumbents and startups, that's how the story has been playing.",
+    "Do you see any parallel in how the story will play between say in this new paradigm the one person one billion dollar company and whoever the incumbents are, both startups and multinational conglomerates?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1039,
+   "paragraphs": [
+    "Yeah, it's a great question, Shane. When I think of moats, immediately there's three buckets that I put them into. Like one is, as you alluded to, kind of there's brand and trust. If you have been using a product, you trust that product, you think that there's credibility, you know, you're happy with that. So unless somebody comes with something that's next better, you know, is the kind of the startup lingo of how we typically think about that, you're probably not even going to worry about that. You know, for people who are, well, and this actually ties into the second one, you know, and the next one is like switching costs.",
+    "What does it actually cost you to switch from that? And you know, for me, think of an ecosystem like the Apple ecosystem. Look, in many ways, you know, iOS is not the best product in everything. Like Siri's a disaster. And people on Android like myself are always like, wait, why you can't do that? Like we've been doing that like for five years. Like, you know, there's all that. But like it ain't easy to switch. You know, like for one, your bubble color is going to change and there's like that whole lock in that they've kind of predetermined, their status, there's all these other switching costs.",
+    "Like, you know, even our cell phone carrier, I think we're paying way too much money right now with our cell phone, but we've been with the carrier for the same certain amount of time. Do we really want to switch all these networks over? Got to go to the store, there's pain to doing these things. There's switching costs to do that kind of stuff. And the last one, you know, to me is is compliance. And that's one where when you are an incumbent, you have the resources. If I'm an insurance company, I want to make it as difficult as possible for somebody with an AI to be able to sell insurance directly to people.",
+    "I'm going to lobby like crazy to say, well, no, you can't do that. Of course you need to have an insurance license. If I'm a car company, this happened in New Jersey, Tesla would only sell direct, they wouldn't sell through dealerships. You know, in New Jersey, they're like, well, you know, there's lobbying and so forth for all the legacy companies saying, do you know what, Tesla, you can't sell here because you don't sell through a dealership. And Tesla's like, well, that's not our model. And so like I think to this day you can't actually buy Teslas within the state of New Jersey. You know, never underestimate like organizations across all spectrums have compliance teams, government relations teams, all of these things that are there to protect them.",
+    "And they're in many ways not adding any value to the product or customer experience, they're detracting that. But frankly, that is an advantage that big companies have. OpenAI goes to Congress and says, hey, do you know what, you should require any model maker to do X, Y and Z or whatever it is. What that is probably doing is it's also making it so, and again, it's a little bit hard to make a model with just two people in a garage these days, but it also makes it so that, you know, OpenAI and only a few of like the incumbents who have met a certain level of scale are going to be able to meet that.",
+    "So even if tomorrow we reached AGI, artificial general intelligence, and even if tomorrow like you could spin out a business that could do any of these things better and more effectively than the existing players, even if you had that 10X experience, again, there's a whole compliance and this is not just in the US, this is all across the world these exist. It might even be something like, well, you're not natively domiciled in our country, we want the data stored here. There's there's a whole bunch of things that again don't really add to the effectiveness but just add to protectionism. And that's something that for a startup you have to keep that in mind."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 1275,
+   "paragraphs": [
+    "Right. So in other words, what the startup was or is to the incumbent multinational conglomerate corporation is not the same as what the one person business or solo founder is to the startup or to the corporation. The one person business is qualitatively different because what we could do is place the startup on the same spectrum as a corporation. A startup is just maybe a smaller scaled down version of a corporation which grants it certain privileges but also certain disadvantages. The idea however being that the ideal state for the startup is to one day grow to the size of the corporation or at least the reach of the corporation with the same ideally the same if not greater reservoirs of resources and talent, accessibility and regulatory influence or capture.",
+    "We could still place them on the same spectrum. What we're talking about with solo founders, in other words, if I'm understanding you correctly, is it's a paradigm shift, right? Like it's the one person business or the solo founder that insists on staying a solo founder is going to find it very difficult to, you know, enter any meeting room with a bunch of regulators and be like, yeah, it's just me and 10 agents running this insurance tech company or this fintech company, but don't worry, you can trust us as we can be custodians of consumer money. And that's that's not something that's going to happen."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1359,
+   "paragraphs": [
+    "Yeah. Yeah, look, if I'm again, I used to work at PayPal, so if I'm a solo founder and starting up a business to compete directly with PayPal and I'm going to make my own payments button and it's just me working at it and I make a product that's just as good, more robust security, lower cost, blah, and I die tomorrow, what happens to that business? Now, if PayPal, if the CEO dies tomorrow, there's succession plans, there's all these things in place. This is one of the advantages of a corporation and the founding of a corporation that it will exist beyond the life of the people who are creating that.",
+    "That's the downside with solopreneurs. And so like if I'm building a website and I want to have a button on there, oh my god, you know, that's one of the concerns. And I'm kind of using an extreme example to look at the difference, but like that is a real concern that a merchant would have about like, okay, which button am I going to put on my website? The one that's just a person or the one that has like, yeah, it's going to be around tomorrow. It actually makes me think, I heard a pitch recently, I talked to a lot of startups and it was from a cryogenic freezing company.",
+    "So like literally like when you die, they like freeze your body and then they put in a thing to potentially reanimate you somewhere in the future. Like that's the ultimate one if you really think about like so if you're thinking you're going to be reanimated in the future at some point because they figured out you died of cancer and the solution to cancer is found or whatever that might be, you want to make sure that that company is going to exist in 50, 100, whatever amount of years down the road because if it was just a solopreneur and he lost the keys or gave up on the business and decided to do something else, well, you're just going to be frozen for the rest of eternity and there or probably thaw out and just become part of the earth.",
+    "So like, you know, so that is one thing you need to prove that. So if I am a solopreneur starting business, you need to think about that. You know, if it's more transactional, you know, New York Times recently had an article about a GLP1 business that supposedly is doing a billion dollars, a lot of shady stuff that they didn't talk about in the article that seems to be coming out now. But effectively a GLP1 business, one and a half people working at this and they could do like a billion dollars in sales this year. That's more transactional. As long as you're kind of comfortable with like the safety and efficacy of the product, you know, if they disappear tomorrow, okay, I'll just go get my GLP1 drugs from someone else.",
+    "Like not a huge deal in that versus, you know, again, something that might be a little bit more disruptive, permanent, you know, something like that. You got 30 days to figure it out probably if you're on a GLP1 drug versus, you know, god, my business ceases the next day because the guy who built the PayPal clone has died or gave up on the business."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 1539,
+   "paragraphs": [
+    "Okay, that's good. So I think now we coming closer to triangulating what particular types of industries we are likely to see solo founders emerge in the most successfully at first because on the one hand, we have we have always had say really boutique white glove bespoke service experiences. Like the guy who does your taxes, your doctor, succession planning, what happens if any of these guys die? These have always been concerns, so those don't change. And on the other hand, you have say commodity products that if you lost your provider today, you could find another tomorrow. So there aren't any concerns there. What we see solo founders, the space that's remaining for solo founders to really then be successful is probably somewhere in the middle.",
+    "Is it? Are we thinking of not so precious that if we lost them, well then that there would be a travesty, but if we if we wanted to find an alternative, it shouldn't they shouldn't be too fungible."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1602,
+   "paragraphs": [
+    "Yeah, if I were if I wanted to be a solo founder and the first thing I would look at is like where is my passion? Because like when this is only you creating this thing, like you need to love this. And here the wonderful thing, this gets to if folks have read Kevin Kelly's 1000 True Fans, great article from 15, 20 years ago I think, basically saying like, hey, in the world of the future, you just need to have a thousand people that love you and that's enough for your own business. If you want to become a solopreneur, like you can really niche down to building a business that is going to satisfy a thousand people and you might be able to have a pretty good livelihood doing something like that.",
+    "So first thing to me is passion, then I would say like expertise and you know, maybe credibility come in there as well. And when you see the intersection of those things, to me like that's where I would start my journey and then I would frankly just start talking to customers. Because when you're building a product, the most important thing that you can be doing is just like talk to people about that. Don't talk to I mean, you can talk to an AI, but you need to talk to real people who have real problems and see like, hey, you know, what are your problems? And then, you know, what do you think a solution is going to look like and so forth.",
+    "This is design thinking if folks are familiar with that. I used to be a product manager back in the day, know this stuff well. And also as a former founder, I also know that typically you think that you have the right solution and you fall in love with your own solution versus falling in love with the problem, fixing the problem of your customers. And like that's something I think every entrepreneur figures out that like, yeah, no, this is the right thing, this is the right thing. When in reality like you need to talk to customers. So look, step one, passion, you know, ideally something in your field.",
+    "It doesn't have to be in your field or where we have expertise. It's okay if it's out if it's outside of that. You might just have to work a little bit harder. But if you've got that passion, that driving desire, you're going to do that. And you're frankly going to be able to willing to do the work to talk to those customers and get out there. It's it's product management 101."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 1737,
+   "paragraphs": [
+    "All right, indulge me a little bit in some speculation and this is going to be a request I make quite frequently. Let's think about what happens after an industry sees an influx of solo founders. How do incumbents react? How do regulators react? And what I'm really interested in is also how consumers do. I think I think this is like an intuitive point to make, but it gets really complex really quickly because for example, if we just think about our own buying habits as consumers, how much of them are informed by brand and also a bit more obliquely like the thing behind brand is this knowledge that this vague sense that there is a whole system beyond my comprehension that's really complex of like supply chain and logistics and QA and product development, all of which have come together to put this product on the supermarket shelf in front of me.",
+    "And there is some sense of reassurance maybe, but also this idea that if so much has gone into the making of this thing, surely it can't be too unwise a decision for me to spend some money to buy this. How does the nature of demand change from consumers like you and me when an influx of solo founders makes it such that a lot of the products that we see starts to become supplied by solo founders?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1818,
+   "paragraphs": [
+    "Yeah, that's a great question. Look, let's walk through the history of brand a little bit. I'm not an expert in brand, but I'll do my best here. Like the concept of brands are like 150 years old or something like that. It's not like brands have existed forever or for all time. From my understanding, like it was something that was related to the general store and a way to actually mark quality for all the different products that they had in there. And for certain products, I don't know how much it matters. If you look at ads on TikTok and Instagram and things like that, like people buying a whole bunch of crap just because it looks good in a video and they might not know what the hell that brand is.",
+    "And that's okay because they just see like, oh, this is satisfying a need that I have. I'm looking for a better knife and this influencer says it's better and I trust that person. I don't even know what the name of the product is. So my trust is through the influencer. My trust is through how the commercial was presented or the ad was presented or whatever it might be. Like trust comes in many different ways. You know, in some ways also like trust is transferred to the grocery store in your example. Like if I go to shop at something, you know, probably at a Safeway or a Whole Foods, I'm assuming they actually did do the diligence themselves, especially with Whole Foods.",
+    "They kind of list like, hey, we don't accept things with these ingredients or whatever kind of things as part of that. And if it's on the shelf there, I might just be buying it because okay, Whole Foods trust it. I don't know what the hell this brand is, but therefore I trust it. And it might be a solopreneur. It who knows what this thing is. But because Costco or Whole Foods or whatever has given it its shelving, which is a badge of approval, I'm okay with that. So what's that going to mean in the future? I don't know. Like Shane, this is a completely new paradigm that we're going to be entering.",
+    "But I do think it's going to enable us to do things that are much more unique than we would have been able to do otherwise, even for physical products. I'm semi-obsessed. Like every day I balance on one foot with my eyes closed. That's like part of my morning workout routine. And I have found out it's really hard to track progress in that. Well, I've like been actually building a product myself and just like really hacking it together using Claude code and other tools to build the software of like, okay, can I make a balance scale that's going to be useful? That's going to actually allow me to do this and track my progress over time.",
+    "And then would other people want that? Maybe. I don't know. Like we'll see what actually happens with that. I'm excited to actually see like but you know, even while that's probably not going to be a business that would ever like replace my income, you know, you might be able to build these things in a quarter of your time or whatever it might be. And if you're doing that, you might have four different solopreneur businesses. And like so if you have people creating multiple businesses instead of one because you have that like what is that going to mean? That is going to mean there's going to be a lot more slop in the world.",
+    "That is going to mean we're going to rely a lot more on others to help us filter through that. Whether it's Google, whether it's influencers we trust, you know, it's probably going to be a lot of algorithms to be honest. But like we're going to have all these tools like there is going to be an abundance of stuff on the other side of this. That is for sure. How we sift through it, that's something we, you know, will kind of see in the coming years and how that works. But this is something that's old as time. Another thing I wrote about recently was like, you know, how when the printing press came out, like the church was against it.",
+    "Like there's a lot of animosity of that. And instead of, you know, creating a Bible, you know, a monk taking two years to write a Bible by hand, you had the Gutenberg press that could do this in a relatively short amount of time, hours or something like that. But it could also make all this other stuff, all these other pamphlets, these things the church didn't want out there. And it created a lot of slop in the world. And there was so much concern, so much worry about it. But you know what? We figured it out. And nobody today is like, oh god, there's so many books in the world.",
+    "Like this is a real problem. There's too many books out there. Like no, we figured it out. We figured out a way and that's okay that there's a lot of books. I don't need to read every book that's out there. No one does that."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 2087,
+   "paragraphs": [
+    "So startup slop is definitely slop businesses. It's something that you've written about and it's definitely something I wanted to get to at some point. But just before that though, staying on the idea of what how the nature of demand might change, I like to think about the inverse of brand loyalty or brand love. If we think about how boycotts have worked or how really they haven't worked, like there are many examples of for some political or apolitical reason or another, there's a call for consumers to use their purchasing power to vote with their wallets against a certain company and not purchase products from that company.",
+    "Those tend to not have really worked, I think for various reasons. But it's interesting how this will if we apply it to the solo founder, this converges with this idea of cancellation. Because the idea of canceling someone applies to an individual. And if solo businesses are just individuals with 10 agents and a domain name slapped onto them, then does it make boycotting a business, solo founder business, does it make it a lot more common and therefore more effective or more effective and therefore more common? What do you think?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2161,
+   "paragraphs": [
+    "That's really interesting. So is boycotting going to be more common in this world? I don't know. I don't know. I think it could be a completely different tactic that businesses will use. I think you could probably see a lot more of that. I do somewhat question, I mentioned before that New York Times piece about the DLP1 solopreneur company. I do wonder, like in reading that, I was, the one question I had in my mind the entire time was like, why are they talking about this? Like if I had something that was generating $70 million a year in business, like I'd probably shut up about it. I'd probably just sit to the side. Yeah, let this thing run its course."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 2202,
+   "paragraphs": [
+    "Do you think he's looking for an exit?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2206,
+   "paragraphs": [
+    "It could be looking for an exit or it could be I'm somebody at Hims and I know they're doing shady crap. And I'm like, hey New York Times, why don't you go look at these people over there? And I will say the Times didn't do that, but I think others since have kind of dug under the covers and seemed like there's a lot of stuff that's gone wrong with that business. I'm surprised at how positive the Times wrote about it. So maybe, you know, it might have slightly backfired with that. But you know, if I was a competitor, like I would have get that lead.",
+    "And then at that point, you know, and this is pure conspiracy theory. I have no basis in truth in this. But I could see those kind of things happening where you would say like, hey journalist, this is a really cool article. You might want to just look at that. They're going to write something up. And then the person's like, well, I'm going to participate versus not participate because it looks better if I do. But now I have no choice in doing that. I don't know. I think we're going to start to see a whole lot of weird and I mean, because look, you could have a whole agent of bots focused on spamming your competitors HVAC businesses.",
+    "And you know, so there's a lot of like shady gray hat or black hat type things that you could be doing to your competition and doing at scale these days. And for some people, like I mean ethically, they probably would be like, hey, I'm doing what's best for my business, my family, my customers, whatever. And I'm going to look past that even if the vast majority of us would say, well, no, you shouldn't do that. It is going to be much easier to do those kind of things in the future. And yeah, like I think that's something that is reality. We might, but we almost so might get fatigue from all these boycotts.",
+    "Like, oh god, what do I have to boycott this week? Like what's the problem now? They don't always stick. You know, I had written about Peter Atia who was, you know, in January came out that he was in the Epstein files. And I wrote a whole little research paper on this so people can go out and read if they want to. Because I was really curious like what happens when, I mean, he had literally no public association with Epstein before that. Nobody associated Peter Atia the doctor with Epstein the dead convicted pedophile. But after that, that changed. So I actually did a little analysis of just like downloading the next month of reviews of his book, which was written well before this called Outlive to see like, okay, how did the reviews change?",
+    "And you definitely see like, you know, it dropped like 1.6 points, which is really significant from a star rating on Goodreads. But and again, I haven't looked at it again, but like my inkling is like you're actually going to start to see that stuff come back up. I mean, people's attention shifts really fast. They are focused on the next thing. Like for a while he stopped doing his podcast, but he's actually started his podcast back up again. And you know, there's all these, I'm not saying we should or should not ban them. Like this is something I'm just kind of reporting it like what is actually out there.",
+    "But like in reality, I think people's attention span might only last so long. So boycott might have a big short-term impact, but it might fizzle out much quicker than they have in the past."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 2411,
+   "paragraphs": [
+    "Speaking of shifting attentions, I'd like to change gears and let's move from like a market-based or industry-based analysis of the solo founder phenomenon and look at how within an organization things will change at an individual and also like a organizational psychology level. How will people think and behave differently when teams are a lot smaller? So I think we started with a strong position of a solo founder or a one-person billion dollar company. And say we take it strictly as this is just one person running an entire operation that would otherwise have required the size of a modern corporation to run. Let's take the weaker version of that.",
+    "Say it's not strictly a one-person business. Say maybe instead of it's an order of magnitude or two less. So say it's like a 50,000 strong and see used to do this work can now do this work with 50 or 500 people and an army of agents. What happens to the way the people who remain in that company, those 50 people, what happens to the way they think about work and how they relate to one another? So a more concrete question I have for example is there's a lot of talk about how middle management will be the first to get hollowed out. And you've been a product manager.",
+    "I've been a middle manager too. Yes. But let's, I guess the way middle management is often derided is well, they don't do much in terms of execution. They don't do much in terms of high levels like leadership and goal setting, strategy setting. What they really are is a coordination layer or information diffusion layer or mechanism. And Jack Dorsey recently wrote about this in his essay from hierarchy to intelligence which he co-authored with Roll of Botha from Sequoia. He's changing blob around at least at an organizational structural layer around AI. And we don't have to get into that, but one of the main takeaways there is that middle management has to change.",
+    "I don't know about that. And it's a common view to take which is well, like whatever exists in as bits or as pixels in your computer can be abstracted away by AI. But and it does seem like a lot of the middle managers work that's done over email and Slack and endless pitch decks can be replaced that way. But how much of for example the human qualities of like trust and implicit or explicit authority, confidence, how much of that is critical to the core functions of middle management writ large and how realistic or feasible is it that we'll see this entire class as a profession get replaced?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2593,
+   "paragraphs": [
+    "Look, I'm going to try and take a hot take on this one as I'm coming up with this hot take right now. So Shane, I think this could be a golden age of middle managers here. And let me explain what I mean by that. So I think in some ways middle management is derided because it is seen as ineffective. It is seen as inefficient. It is seen as not needed. It's seen being disconnected from what's, you know, actually producing something for that's going to be what your customer wants. It's just bureaucracy. It's pushing papers. It's communicating information just from one person to another and all this other kind of stuff that like ultimately you kind of need in a corporation, but maybe AI is going to make all that move.",
+    "But you know, middle managers also, you know, are there as mentors, as, you know, we're going to need the human being in these companies now. And so if we take your example of the maybe it was 50,000 people before and let's just say it's 500 now. Like we've literally made 100x change in employment with the same kind of output. I can, you know, what those people and their agents are going to be working on is going to be presumably way more, what the human beings are working on is going to be presumably way more closer to the customer, way more value-added time that they're going to have there.",
+    "It is all going to be about improving the product, improving the customer experience, improving all of these things that really matter in the business versus, you know, I don't know if you ever read the book BS Jobs. It actually spells out the whole word in the title there. But like, you know, it was a book from 10 years ago and basically talking about like how so much of our lives it's just ungratifying because we see that in corporations like what am I actually doing here? What have I achieved? I'm in meetings all day. I'm spending all this time on email. What am I actually achieving?",
+    "The promise of AI and the promise of where we can go with these tools is like that's going to be taken away. And the decision making, the human elements, the whatever, going to conferences and talking to people face to face, the things that an AI cannot do where you need that human touch, that is what's going to matter. And you know, and hopefully if that does, this could actually, you know, there might not be as many middle management jobs, but at the very least I think middle managers aren't going to be derided like they've been in the past. Look, I mean office space came out just, the movie just as I was entering the workforce.",
+    "And this was a movie that just kind of lambasted middle management and TPS reports and all these things were just so unbelievably ineffective. Like we could get to a point where it's like, well, they're actually helping to champion effectiveness and like they're closer to the customer. So like I could see that as a future. But you've got to get rid of all the crap. And that's hard. That's the really hard part of the process, the bureaucracy, all of those things. And you know, I actually haven't read Dorsey's piece. I'd actually be excited to read that. But like I think that's something we should all strive for to get rid of the junk, the BS work and actually work on things that are going to improve the customer experience."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 2798,
+   "paragraphs": [
+    "I think it's fair to say that one of the key units of measurement for the value of middle management or at least the value that a middle manager would like to be able to demonstrate has always been head count or number of subordinates under me. And there's a whole discussion here about misaligned incentives etc. And it's leading to bloat in companies. But if we take these two phenomena, on the one hand just drastically smaller companies and smaller teams and on the other hand a much thinner layer of middle management, what do we, how would you see this particular way of a middle manager trying to prove their worth?",
+    "How does this change? And if not head count, if not how many people are reporting into me and how many people are reporting to the people who are reporting into me, then how else would a middle manager be able to justify their existence in a much smaller team?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2859,
+   "paragraphs": [
+    "Yeah, look, I mean it all comes down to outcomes. I think it is a very primitive thing that we all have where we looked at our, America especially, I think when people ask like, you know, when people meet somebody, one of the first questions they ask is what you do. Your identity of yourself is very much tied into your job. And that's there I say something kind of poisonous about American culture. And the job that you have has become very much tied into the amount of people who work for you and how big your empire is. This is, I mean, this is like going back to having armies and like how many people are in your army, how many bodies are at your beck and call is basically what this is implying.",
+    "And that's not the right thing. Again, if the end goal is to build, you know, better, more robust products for your customers, like how many people you have in your organization is completely immaterial to that. That has nothing to do with that. And you know, frankly, if you could do the same amount of work with two people versus 20 people, that's probably even better for your customers because you're able to take off costs and reduce costs for them as part of that. This is hard. Most organizations do not do this. You do see, you know, like big tech companies have fellowship programs and things like that where they'll actually identify individual contributors who contribute a lot to the company, bestow them with the title of a fellow.",
+    "And becoming a fellow, then they're elevated to kind of the same level as people who are vice presidents who have hundreds of people in their organizations and all that. But it's a way to kind of just say like, hey, you are important. Like you do so much as an IC that you are on the same level as all this. But that's still not getting to true outcome-based results. And that's where we need to go with this. I mean, to be most effective, it's getting down to, you know, what is it that you are able to drive and effect with the results that we're wanting to drive as a company.",
+    "It always, you know, once you start measuring something, it becomes, you know, it becomes an issue that you start to kind of move towards that measurement. So this is going to be a constant moving target. But looking more at, you know, outcomes, NPS scores, whatever it might be that you're using to measure that depending on your organization, depending on your type of product, that's where I think we need to get to. And here's the great thing. Like in the past, it's like, god, that's probably really hard to do. Well, like now we have a whole fleet of AIs and we can work on a whole HR-based token maxing project that is going to just change how we look at incentives within the company.",
+    "And while, you know, the CEO might be measured on, you know, does the stock price, does the number go up into the right and all these other things, the person who's the 495th person in that 500 person company, yeah, they can't impact it as much. But like what is it that they can impact that we know is going to map? We've, I think we've tried to do that in companies in the past, has never succeeded. But I do, I am pretty optimistic that like we could start to find new paths to that because it's going to take a lot of data, a lot of churning. And luckily that's what these systems do really well."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 3072,
+   "paragraphs": [
+    "What's really interesting to me about imagining these future paradigms is well, on the one hand, if you extend your time horizon far enough and think laterally enough, possibilities become almost infinite. And it can get really fun to speculate on the sheer number of variables that present themselves. But what's more interesting to me is thinking about the transitions from here to there because the constraints become very interesting in revealing and exposing like certain existing fault lines or misconceptions or just like pure inefficiencies and irrationalities that we operate with. Let's take the assumption that middle management is a layer that's the first to go. If what we're then left with is a kind of like a barbell or like an hourglass, right?",
+    "So you have ICs or people who execute at the bottom, it's still a nice chunky layer. And at the top you still have your senior management who still wants their cushy jobs and good salaries and equity. But you have a hollowed out middle management layer. There are many downstream impacts, but one of them that I'm interested in is how middle management is part of the pipeline for senior leadership, right? It's where future senior leaders are trained, groomed, selected, sifted. If middle management is the layer that thins out first, then what happens to the senior leadership pipeline and how does that affect how future aspirants to senior leadership operate?",
+    "Do they then stop thinking about, all right, I'm not going to grind at this company because it's a very tight middle and very few people get in and it's going to be increasingly thin. Do I jump around to other places and then hope to get parachuted back in at the top? How do you think this shifts the way people will operate based on what they think is the most optimal thing to do in this new paradigm?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3191,
+   "paragraphs": [
+    "Look, I think middle management could still be, I'm still going with my golden age of middle management hot take here. So I'm going to double down on that. I think middle management in this future, I think Google actually does this well. They used to. I don't know if they still do. Like they would say, you know, the managers of engineers at Google typically would have like 10 or so engineers that they would have. And a large part of what their job was to just remove blockers, to just set them up for success as part of that. I think if you're a middle manager in this world and you have like three people reporting to you, like that doesn't make sense.",
+    "I think middle managers in the world that we're describing should have 10 to 15 people reporting to them on their team. And effectively they got two tasks. One is, you know, think and work strategically. And that might mean, you know, meeting with customers, meeting with people at other partnerships, whatever it is, thinking through strategic plans, blah, representing their function, all this kind of stuff. Let's just call that 50% of the job. The other 50% is that Google thing I mentioned before, just making sure the 10 to 15 people on your team are set up for success. This world's probably going to be a lot lonelier than it was otherwise.",
+    "Like you're going to be a lot more solo than otherwise. If you have, let's just say you got a 40-hour work week for argument's sake and say you got 10 people on your team, that means you're spending two hours a week with every one of your employees. In this future, that actually feels right to me. That you're probably spent, now you might just do a typical 30-minute one-on-one in part because you got so many other damn meetings or whatever else. Like I would actually see in this future that managers are spending more time grooming, guiding, frankly being there for moral support from a company perspective, testing like, okay, is this person a flight risk or anything else?",
+    "Like all of these things and just constantly be there to make sure that those 10, 15, whatever people are just completely set up for success. Because that is where the value is going to come in. And that's half their job and the other half is strategic. If you're doing that sort of a mix, in my mind, that is actually going to set you up for senior, more senior roles at that company. You know, while you might be focused on a product or a specific feature within a larger product, you know, overseeing a team there, you know, maybe that next level is that whole product or a whole product suite or all the products across the company or whatever it might be.",
+    "But like that's how we look at the pyramid is going to change. And I think in many ways when middle management gets derided, it is like, oh good god, I actually remember when I was at PayPal at one point, I got so frustrated because I was on a team and I was going to meetings where the manager and the employee were always there. They were representing in a function, but they always had to be there together. And at some point I was like, why like one of you is not useful here. Like if you always have to both be here at these meetings, like this is just duplication.",
+    "Like either the manager doesn't trust or whatever, there is something wrong, something broken in that situation. And like to me that was always one of the telltale signs. Like how many meetings do you have to attend with your manager of like, okay, things are not going well, things are not efficient, not how they should actually be. You need to empower your teams to do that. And again, that's totally different from what I said with the manager spending time with their employees. You know, I'm hoping in this future maybe there are less meetings, there should be less email and things like that as well. I really hope.",
+    "But you know, I think human side, strategic side, that will set you up and build that pipeline for those more senior roles. Okay, good"
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 3420,
+   "paragraphs": [
+    "For you. I notice you didn't take the bait and assume that middle management would be the first to get thinned out. But say I had to pin you to it, you have to choose one. Which one thins out first at least? Let's not be too apocalyptic about the state of these professions. But say we broke them down very crudely into senior management, middle management and the people who execute/ICs, individual contributors, which one is the first to get thinned out?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3449,
+   "paragraphs": [
+    "I'm going to twist it a little bit then I will get to that. Like the first thing to thin out is the people who don't know how to use AI. Like that is the first thing that is going to thin out here. And that's going to be at most levels maybe outside of the C-suite. They'll probably give themselves a pass on that. But for most other levels in the organization like, you know, if you're an IC and you're not good and just masterful with these tools, then you're going to be completely ineffective compared to somebody else and you're going to be thinned out in those situations.",
+    "So that's the first thing I would say. It's like the old adage of it's not, it's not AI that's going to take your job, but somebody who knows AI is going to take your job. Like there's something to that. Like our definition of what these jobs are going to continue to change, continue to evolve and you need to evolve with that is the first thing I would say. Beyond that, I think it's somewhat organizationally independent. Like if you are an organization that middle management means that you have like two or three people reporting to you, that ain't going to fly in this world. And then so I will see, I think then you'll see a great hollow out.",
+    "I actually, I don't know the statistics, I don't know the numbers. I would actually, I'm sure somebody has done research on like how many people does the average middle manager have reporting to them. I only know based on the companies I've been in, like what I've seen from that. But like so look, if the average is like two or three people, you're going to see 50, 60% of those people go away just to make it so like middle managers are going to have more people underneath them. But like that's kind of how I would see it. Like you're going to be moving towards a more efficient hierarchy.",
+    "It's going to be largely company dependent. But the biggest driver is just you got to know, you got to understand these tools. Just last night I was at Santa Clara University. I was guest lecturing in a product management class. And I was telling everybody in this class like what you've learned and what you've been taught in product management, like this is going to be vastly different. And for anybody who's aspiring to be a product manager in there, I said like, look, the first thing you got to do is just go into Claude code, just create something you're excited and passion about, be a solopreneur just at nights, work on this to 60 minutes a day and just build something, start to finish, the design, do all that, talk to customers. It doesn't matter if it needs even be successful. But like that is the flow that you are going to start seeing."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 3590,
+   "paragraphs": [
+    "Now let's come to startup slop and agentic companies and this is something that you've written about. So I'm really excited to hear your thoughts in this. First, what is the line between startup slop as you understand it and the modern tech startup with its built fast, break things, MVP, always ready to pivot, seems to always be pivoting approach?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3616,
+   "paragraphs": [
+    "Yeah, look, I think I don't think we're at the point of startup slop yet. And when I wrote that piece on Pulsi, it was more of a warning of what I think is probably going to be coming. So for folks who don't know, there's a startup called Pulsia. And again, I don't say this to pick on them at all. I really don't. They're just kind of the leaders in being able to effectively make a website with just a simple prompt. And not only make a website, a business, a marketing plan, they could do consumer outreach, all that. And the fun fact about Pulsia is actually I mean, this was intentional, obviously.",
+    "Pulsia spelled backwards is AI slop. So like literally they put that in the name of the company in fact. So they're somewhat promoting that. I was able to play around with the tool. I think anybody can for like three free days. It's worth it. Give it a try. And look, I didn't do anything and it created this at least credible looking website for some fintech thing that I didn't even know or fully understand. And because it looked at my background, looked at all this, it tried to find founder product fits in doing that. And I think it probably did a decent job even though I didn't fully understand it.",
+    "But I was just clicking yes. I was just being a pure meat puppet clicking this and letting the AI do all of the work for me as an experiment. And again, it looked credible. Thank God I didn't get any customers or anything like that. I don't know how many tokens they burned to do this. It was probably sizable. But again, like if you look at token costs, what it takes to do this now and so forth, let's just say they burn $10 $20 worth of tokens today. Might be a $2 $3. Take it out another 18 months from there, we're getting into cents. Then we're getting into the point where, you know, two three years from now, you could be creating 100 businesses at a time and just putting it out there and having your agents test stuff on product hunt and putting this all out in the world and buying URLs and then canceling them because I think you got like three days to do that or something.",
+    "I think there's some hack where you can actually like claim a URL for a while and not actually have to pay for it if I remember right. Might not be for all domains, but it might be for some. Like, you know, exploiting things like that to just see like, okay, I'm just going to put a million, you know, a thousand tests into the world and see what blooms. This is just as a founder, this is actually a good thing to do at the scale for what a human being can do. Like you want to test, you want to iterate, you want to like AB test these ideas and these concepts and see which one sticks.",
+    "This is the whole concept of putting out Google AdWords ads or Facebook ads for your idea before you even have an idea. Just have it to attach to a landing page and see, okay, of these 10 different ideas, which one is going to get me the most email addresses and that's the one I'm going to explore. So these hacks aren't new, but like you can actually build, you know, semi scalable businesses or you will be able to do them very soon. And that's the world of startup slop that we could be entering in a couple of years."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 3806,
+   "paragraphs": [
+    "So what I'm sharing, the main distinction, if we were to try to juxtapose this to the solo founder, the main difference between a solo founder business and a startup slop or an agentic company is is a matter of agency where with the startup founder, we still feel like they're sorry, with the solo founder or with the one person billion dollar company, we imagine this person as still having a lot of agency, in fact, a lot more agency than they would otherwise have if they were embedded within a large organization. But with startup slop or agentic companies, what we're imagining is to borrow your term like a meat puppet, someone whose output is minimal, even negligible, and really maybe at some undefined point in the future, maybe just confined to the things that very strictly a human in their capacity as a legal entity can do, like make certain signatures or declarations that are legally required.",
+    "But besides that, anything that doesn't interface with the law or doesn't require an ID or passport, the agent can do. And so is it a matter of agency when we think about startup slop? It is slop because there isn't any meaningful human attention being paid to the businesses that are being created in this manner."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3884,
+   "paragraphs": [
+    "100%. That's the differentiation between that. And that's why I took on that meat puppet role. I wanted to create slop. I literally wanted to just put that out there in the world without me like burning one calorie of brain matter by actually doing this thing. Let me bring it back to an experiment I started in 2022. So about four years ago, I started publishing AI written books on Amazon. And I did this under a pen name, Alex Irons. So any of you, if you go to Amazon, type in Alex Irons, you will see the books there. And I think, I don't know, 20 books or so.",
+    "And I would do this. In part, this was an experiment for me. Starting with GPT-3 and then going to 3.5 and then Claude 2 and all these different models, I'm like, how well could this thing write a book? And I was very transparent. Alex Irons, actually abbreviations for AI. And like, you know, I made very upfront that this is not a human being. I gave all the money to charity of anything if people are crazy enough to buy these books. But like, they're slop. They're absolutely slop. They're not good. There's no intention in there or anything like that. But like, here's the reality. I think and I know books are a little bit more of a creative endeavor than startups, but startups are still plenty creative.",
+    "But like, when you're taking the time out of your life to read a book, you're going on a journey. And there's a promise and a trust that you're going on a journey with that author. And when that author is somebody who hasn't actually experienced anything in the world, like honestly, you feel a little burnt, a little cheated. And this is some of the research I do at the university. If you give people very short passages that are written by AI, people don't care. And in some ways, they might even prefer the short AI passages. But the longer that gets, the more of a vested interest they have, the more of a human connection is expected within there.",
+    "So that's how it works on like the pure media creative side with books. Like if you were to apply this with startups, I don't know where this is going to go because like for my T-Mobile account, which is my cell phone carrier in the US, like if it was all run by AIs, would I actually care? And I think the answer is no because the lease for that, like if there wasn't a single employee and it was all run by AIs, I just get my cell phone service and that's it. There's no emotional attachment that I have to that. If I went to a fine restaurant and it was all AI, I think I would care because I actually want the human touch.",
+    "I want the human connection there. So look, I actually do think for certain, again, we're not at the point yet, but we will be at the point where I think it might be that humans just aren't able to compete for certain businesses with slop businesses that are just being churned out like that because I think in some ways like the customers on the other side might not care. It's good enough, it's cheap enough, it gets what I need to have done, it's meeting all of my needs in some way. And if it isn't meeting my needs, I send an email or a text message. And you know what?",
+    "The AI on the other side is able to change the product immediately and make it so it does meet my needs. That's a weird future. And so I don't think it's going to be for all businesses, but I do think that this is going to be a problem for founders in the near future of like you're going to have to compete with some of these slop businesses. And I don't know what that's going to look like."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 4104,
+   "paragraphs": [
+    "One way I think of understanding this future, and maybe it's a naive way because it might not map very directly onto reality, which is often a lot more messy, but I think one way we can naively and also crudely bucket the three possible kinds of business interactions is first you have what we are most familiar with, which is human business, human customer. Then in the second bucket, we have AI business or AI enabled business, human customer. If we are talking about agentic companies and a lot of the discomfort or unease or like more perplexing economic questions arise out of our dissonance regarding would a human customer feel comfortable being served by a completely AI run business, then I think that's that's that's an interesting thread to pursue.",
+    "But if we were to extend our time horizons just a little bit longer and consider what would happen if it's not a human customer interacting with an AI business, but AI acting as a proxy of a human customer. So same, I as a customer have an agent and my agent interacts with agentic business. Of course, maybe this won't work with restaurants because we are not substituting our stomachs with codex anytime soon. But say someone who does my taxes or something that easily lends itself to a consumer using AI as a proxy. If they interact with a completely agent run company, would any of these questions that you brought up still arise?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 4203,
+   "paragraphs": [
+    "You would have to direct the AI itself, your agent to say, hey agents, I only want you to interact with human beings. And so I want you to capture these people, the person on the other side whenever you're interacting to make sure it's a human and not another bot at the other end. I think for the most part, people aren't going to care about that. They're just going to want their agent to complete a task in the most efficient and most effective way possible. So I do think it's really interesting. And I actually do think that there is an opportunity for more agent to agent businesses out there.",
+    "I think that is going to be a huge opportunity. Like one of the things I was working on the other week and I'm like, I abandoned it, but I'll just throw it out here. Like I literally was thinking about like multbook, which was kind of the social network so to speak for AI agents. And I was like, okay, so that's supposed to be Facebook. But what is Facebook really? Facebook is an advertising platform that is disguised as, you know, with messages from friends in between. What if you just got rid of the messages from friends in between? What if it was like literally an all AI ad platform that was just made for agents?",
+    "And I started to actually explore this idea and so forth. And you know, I gave up after a little while. But like by all means, if somebody wants to do this, just send me an email after this and I would love to see what you actually build. But like I see something like that actually being effective in the future. Like okay, you want to advertise, you want to advertise, go here, just advertise to each other, blah and all this other kind of stuff. And there's credits or tokens or whatever the hell you're doing. There's different ways to do that. But like effectively, you know, agents can read infinite things, you know, in a very short amount of time.",
+    "So like it doesn't need to deal with everything else. It can just get right to the point of whatever it is it's trying to accomplish and do that much more effectively and efficiently. So look, I think that there is going to be like many more agent to agent businesses. I don't think anybody is going to care if their agent is interacting with a human or another agent. They're just going to be looking at like how do you burn the least amount of tokens and how do you do this in the most efficient and effective like the least amount of time."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 4335,
+   "paragraphs": [
+    "One of the main themes of what we've been discussing so far is just the barriers to entry of entering a market both as a producer, that means both as a business and as a consumer, are going to be drastically lower. It's going to be a lot more easier to start a business in many verticals and it's going to be a lot easier to consume the products and services of these businesses when we are augmented with AI. There's an abundance of more competition to you, more businesses operating in a vertical. Does that lead to an corresponding abundance of goods and services both in terms of variety, in terms of type and also quantity?",
+    "Or to put it a simpler way maybe, does it mean that just because we have a lot more businesses, we're going to create a lot more new types of goods and"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 4386,
+   "paragraphs": [
+    "Services? You know, I always think about the quote from John Maynard Keynes from, you know, 100 years ago when he was saying, you know, hey, in the future, we're going to have productivity increases that go like this. And what that's going to lead to is like we're just going to be working a hell of a lot less in society. That's part of that. I said that 100 years ago. And like by God, like productivity did go like that. Like it was crazy. But the thing he never imagined in his world was how much more we would consume as a society. If you know, in America specifically, if you look at like what the average house size was in the 1950s versus today, it's like doubled in size even though families are even smaller.",
+    "You know, there's so many metrics to look at. Like we tend to glamorize the past, but really today is like the best time to be living and alive. If I want to like take it out further into the future, you know, I don't know, what's per capita income in the United States? 75,000, something like that these days. If we're saying, you know, I think Elon might have said like we're going to 10x GDP or something in the next 10 years. Like it was something like that I believe I heard. So let's just say like we increase per capita income to like $500,000. Half a million dollars is the average or the median income, I should say, in the United States for people in 10 years.",
+    "If we actually reach that, like what the hell is that going to look like? I don't know. I mean, but like I never would underestimate our power and demand and desire for stuff. You know, just when I think like it's satiated, we get on this hedonic treadmill and we're always like, well, our neighbor has this. Like there's a little bit more that I want in my life or whatever. I'm not happy until I get this. You know, we keep on foolishly thinking that, you know, the next purchase, the next vacation, the next whatever is going to make us happy. And we keep doing that. We make these mistakes like all throughout time.",
+    "And I'm totally talking like old man Todasco here, but I've seen it, I've felt it, I've lived it myself in so many ways. I would never underestimate humans power to consume more and much more stuff. And Yeah,"
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 4533,
+   "paragraphs": [
+    "It's a well-known theory called Jevons paradox. It's often touted by BCs because it's definitely very very convenient to the pro business techno optimist view of things. Related to this and final question on this topic is does this lead to an increase in competition? I think the intuitive answer is yes, but what I'm toying with is this idea of when, and I've seen this play out in e-commerce a lot, so say an Amazon or in Asia, we have a lot of marketplaces for a variety of different goods. When a platform has a sudden rise in listings and a sudden rise in businesses listing stuff, there tends to be disproportionate return towards it's like a power law.",
+    "So people go back to the businesses who have been there for a long time, basically to the incumbents who have a lot of reviews and have a lot of clear track record of having sold many units of their product because in the face of so much optionality, so much choice and so little information about any particular option, we retreat into what makes us feel psychologically more safe, which is all right, let's look out for the common identifiers of trust and credibility, which is your brand name, your number of stars, your ratings, your reviews, comments, etc. In a paradigm in which we get a lot more businesses from solo founders, from agentic companies, do we see in fact a return to the incumbents and a retreat to buying the same brand names that have been with us circa 1700 instead of trying out the new gizmo or gadget from the latest agentic company? What do you think?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 4644,
+   "paragraphs": [
+    "I mean, look, I think it depends on what the downsides are for all of those things. Like certain things are habituated and they're good enough. Like, and you know, this is the whole reason why Proctor and Gamble wants to reach out to people when they're at certain life events and basically hit them up with like, hey, you're having a baby, you might be switching your detergent. Now is the time we have to hit you because you're going to be using that same damn detergent for the next 20 years. And that's in the boat I'm in. Like we just buy Tide. We don't even think about anything else.",
+    "It's just habitual that we do this. We don't think about it. It's low pressure. We know it's going to be good enough. It's going to happily meet our needs. For, you know, how much is that going to change in the future because we're going to have so many more products? Like am I going to look at a, you know, a solo preneur startup for laundry detergent, something like that? Look, I mean, the reality is if they were a laundry detergent that is ideally manufactured for 48 year old Silicon Valley X tax people who do this and literally tailored to my own needs and like, you know, filling such a small narrow niche, I'm probably going to actually try that because I'm like, oh my God, they're actually selling Todasco detergent or something like that.",
+    "Like I mean, it's just so reflecting me versus Tide which is sold to millions and millions of people. So from that standpoint, like I think solopreneurs can narrowcast so much and get so niche that's the one way for them to be effective. You need to do that. You shouldn't try and compete. You shouldn't try and be Tide, but you should try and be like the detergent for 50,000 people or something like that and then target those 50,000 people. So I actually do see there probably will be more switching in the future because there will be more customization. And in many ways, it's just not going to be economical, I think, for like a Proctor and Gamble to do that.",
+    "Having worked at big companies in the past, I can tell you like often, you know, to a fault, like if it's not a $100 million business, we're not going to worry about this. We're not even going to think about this kind of thing. You're targeting 50,000 people with your detergent? No, we can't do that. And a lot of companies think that way because again, it doesn't move their bottom line at all. But to a single person, that could be huge. That could be an amazing business. So there's going to kind of be a little bit of a battle between the two. But I actually see in the future like we're going to have potentially more choice and probably less of the traditional brand loyalty because of that."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 4813,
+   "paragraphs": [
+    "You used to be involved in like the buying and selling of companies, like acquiring companies. Maybe you're familiar with like acquihires and acquisitions in tech when you were at PayPal. Sure. Right now, when a company buys another company, the common way of understanding what they're buying is often right, like their rolodex, right? Like their network of customers, probably their product, like in many cases, but not all, their product itself. Like if there's some genuine product innovation and that's what this incumbent really wants to buy. What does an acquisition look like in this future state between an incumbent and a solo founder? What are they buying?",
+    "Are they buying the tech stack that the agents? Because if your agents made them, then probably my agents could have made the same thing too. So am I in this future state, am I really just buying your network of customers? Am I, what really, am I trying to hire you? And is this really just a different variant of an acquihire?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 4874,
+   "paragraphs": [
+    "Yeah, I mean, look, the short answer is it's going to totally depend. But I think when I was doing, this was 20 years ago, I was in the forest products industry and doing mergers and acquisitions back then. Like a lot of what we were buying, we were buying other companies. They had manufacturing assets, but frankly, in many ways, the real value was the book of business. It was the existing customer relationships and things like that that we could buy for a lot of these assets. And so that was even in, you know, in acquisitions where thousands of people were employed, you would be like the book of business and how much of that we could retain and how much we believed we could retain and how many are going to want to jump ship and all that.",
+    "Like that was a pretty big part of the acquisition strategy. So I can see that. The only thing is like there needs to be some sort of probably roll up or something. Again, to use my ridiculous example of like the, you know, laundry detergent. If you're selling 10,000 units a month of laundry detergent, again, that's not even a rounding error for somebody like Proctor and Gamble. They would literally, I'm sure they would just cancel whatever products that had sales at low. But if there's enough of them, maybe they do some sort of roll up or maybe these get rolled up into a separate company of all these solopreneur detergent companies and then it becomes attractive enough for P&G.",
+    "I don't know. Again, I mean, this comes back to one of the things I think I said in the beginning, Shane, like I don't envy big companies in this future. I think it is really tough for them. You know, even though they will have access to these tools as well, it's going to be really tough for them to be able to be as nimble, to be able to use agile, change their organizational structure to be able to compete in many of these industries. And that's why they are going to rely on, you know, compliance and all and, you know, and branding is one of them.",
+    "But all these other things that are out there for protectionism and all these other things to be able to stay relevant for a lot of"
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 5005,
+   "paragraphs": [
+    "Companies. You're now in academia after a life in the private sector. Do you have any thoughts about how AI will affect the relationship between the private sector and academia? Does it blur the lines between them in any way or does it in fact make it even more distinct because of how either side reacts to what they see as maybe an encroaching threat?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 5029,
+   "paragraphs": [
+    "So one of the first things that I did when I was at PayPal, I took on this innovation job in 2016. And literally the Sunday night before I started that job, I remember I emailed anybody who was at a bay area university that had innovation in their title. Stanford, Berkeley, Santa Clara University, San Jose State, just right down the line. Because and I literally said to them in a note, I'm like, hey, I know nothing about innovation, but I'm starting this innovation job. Is there any way we could partner? And I'll be completely honest, I think every single one of those people responded. Not because, you know, PayPal is so great or so known or whatever, it's actually was because I think academia and the business world really don't talk to each other.",
+    "And that's something I was very shocked about. Like I kind of assumed always that there was much more going on between them. It is very little. It really is and it doesn't need to be that way. They, you know, they use some companies will use academia for recruiting. You know, they'll read some research, whatever. Occasionally they'll bring in some professors who might be an expert in game theory or something to do a little work here or there. There's consulting. But like the deeper relationships, you know, there might be some headlines, but to be completely honest, they don't exist. And so that was something that was just surprising to me because kind of always being in businesses, like I just kind of assumed like, oh yeah, Stanford's down the street.",
+    "They're going to be doing tons of stuff. Like it's, you know, Stanford's probably at one end of the spectrum. So, you know, maybe they are doing some. But like really there is not much of that's going on. And I think there's an opportunity for so much more. So to answer your question, is AI going to help to bridge that gap? I hope so. You know, Bordy is something, Bordy.ai is a great website. I've been using a lot over the last week or so. I'm just like being introduced to people that I find to be really interesting. And, you0 you know, to have your AI agent out there saying like, hey, it seems like you're working on this pricing project.",
+    "Did you know that right down the street from you is a expert at this university who's done all this research in pricing? And I know they kind of do some stuff. Like you might want to have lunch with them. Like just have an AI agent scouring to do that. Like I think that could be super valuable. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 5176,
+   "paragraphs": [
+    "I think a lot of the problems of modern business and perhaps maybe even modern life belong in the class of matching problems. And a lot of money gets left on the table and a lot of money is actively lost because we lack the systems and mechanisms to effectively match any two parties or any two entities that really need and should be matched at a particular juncture. So yeah, that's interesting. Writing in business, any parallels, where do they diverge? What's fun? What do you enjoy more now?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 5208,
+   "paragraphs": [
+    "I love writing. It's fun. I am an introvert, a rabid introvert. I love to be with my own thoughts. I love to occasionally crack myself up with thoughts I might be having. So I love to write. I write all different types of stuff. I have an AI blog. I write humor for different publications. Like I'm working on early stages of a sci-fi book right now. I'm also finishing some children's books that will hopefully go to press later this year. I write a whole bunch of different stuff. It gets me to scratch my itch in so many different ways. But that said, like frankly, most of my time, like you can only write so much in a day, at least for me.",
+    "Like couple of hours, something like that, my mind is done. Most of my time is probably still in the business world or AI or academia and kind of bridging those worlds, working with founders, all that other kind of stuff. So I think, you know, writing really helps me think, it helps me learn, it continually challenges me. And I love that about it. But like, you know, I can never escape the business world. I mean, I think that's kind of like what I am at my core in many ways too. And"
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 5274,
+   "paragraphs": [
+    "It's interesting like I think this might be a gentle paradox or so, but our stamina for creative work is a lot less than our stamina for interacting with the real world or like dealing with like, you know, messy complex real world atom level problems. And it's funny because maybe that's something that if we're talking about complementarity with AI, maybe that's something that's a gap that AI fills because maybe AI isn't very effective at negotiating a deal and reading the room, but it can sit down and write for 12 hours longer than you can."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 5304,
+   "paragraphs": [
+    "Oh yes, yeah. And I will say AI is an excellent editor. I mean, I work with human editors. I would always prefer to have a human editor. But like for, you know, my AI blog posts, I don't have a human editor. And to have a pre-trained like Claude Sonnet model go through my posts and give me feedback and, you know, recommendation like, hey, you might be dragging a little bit here and, you know, it's wonderfully candid with me. I think it's really important to have. So look, many of my writing friends hate AI and hate these tools and just see them like destroying the business that they love.",
+    "I don't see it that way. I actually see it as enabling us to be able to do and write and work on a lot more than we could have done otherwise."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 5347,
+   "paragraphs": [
+    "Okay, final question, Michael. What excites you about the future?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 5351,
+   "paragraphs": [
+    "The future just excites me. I remember when I was in my MBA, I got to go to Omaha and several schools. So it was like, you know, probably 200 people in the room. We got to meet with Warren Buffett. This was in the financial crisis. And, you know, this guy, like literally the economic world was collapsing and he was just taking time to meet with students from a bunch of different schools and talk about the future. And that guy was so optimistic and so wanting to see like just what is going to play out in like not only the next year, the next 10 years, 100 years and so forth.",
+    "Like I'm fascinated by that. I want to see where this experiment takes us. Like I want to play a small role in that as well in directing it. But I can't wait to see what's going to happen in fields of medicine and education and all of this where AI is in business. Like where AI is going to take us. Like it's going to be a bumpy road. Every single day I wake up and I'm just kind of like infinitely curious about like what's happening out there, what's changing and it's just going to keep accelerating out there. So like this is constantly feeding my curiosity and I am excited each and every day for the new things that are yet to come."
+   ]
+  },
+  {
+   "speaker": "Shane",
+   "start": 5433,
+   "paragraphs": [
+    "That's good to hear. If any of the listeners want to find your work online or your social medias if you want to share, where can they find you?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 5441,
+   "paragraphs": [
+    "Yeah, todasco.com, just my last name, has all my links to socials, mostly on LinkedIn. And frankly, if you've made it this far and want to reach out to me, just miketodasco@gmail to say hi, to say you made it to this point and I'd love to give you a shout out back. All right, thanks Michael. Shane, it was a pleasure. Thanks for having me. You had some great thoughtful questions. I really enjoyed it."
+   ]
+  }
+ ],
+ "words": 16494
+}
