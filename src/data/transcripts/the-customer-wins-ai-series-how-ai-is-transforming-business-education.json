@@ -1,0 +1,311 @@
+{
+ "slug": "the-customer-wins-ai-series-how-ai-is-transforming-business-education",
+ "outlet": "The Customer Wins",
+ "title": "AI Series: How AI Is Transforming Business & Education With Michael Todasco",
+ "date": "Oct-25",
+ "published": "2025-03-10",
+ "url": "https://podcasts.apple.com/za/podcast/ai-series-how-ai-is-transforming-business-education/id1670197636?i=1000698542801",
+ "duration_sec": 2263,
+ "host": "Richard Walker",
+ "speakers": [
+  "Mike Todasco",
+  "Richard Walker"
+ ],
+ "turns": [
+  {
+   "speaker": "Richard Walker",
+   "start": 0,
+   "paragraphs": [
+    "Welcome to the Customer Wins podcast, where business leaders discuss their secrets and techniques for helping their customers succeed and in turn grow their business. Hi, I'm Rich Walker, the host of the Customer Wins, where I talk to business leaders about how they help their customers win and how their focus on customer experience leads to growth. Today is a special episode in my series on artificial intelligence and today's guest is Mike Todasco, a visiting fellow at San Diego State University. Some of our past guests in this series have included Babu Sivadasan of Jiffy AI, Farbod Nozod of Hajmir AI, and Jeff Woods of AI Leadership. And today's episode is brought to you by Formstack, the leader in enterprise forms processing.",
+    "When your business relies upon processing forms, don't waste your team's valuable time manually reviewing the forms. Instead, get Formstack. Using our form extract API, simply submit your completed forms and get back clean, context-rich data that reduces manual reviews to only one out of a thousand submissions. Visit formstack.com to get started. All right, I'm excited for today's guest. Mike Todasco is a visiting fellow at the James Silverwood Brown Center for Artificial Intelligence at San Diego State University and former head of innovation at PayPal. Mike, welcome to the Customer Wins."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 89,
+   "paragraphs": [
+    "Rich, thanks for having me or should I refer to you as brah? Brah, yeah, let's"
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 95,
+   "paragraphs": [
+    "Do that. All right, so for those of you who haven't heard this podcast before, I talk with business leaders about what they're doing to help their customers win, how they build and deliver a great customer experience, and challenges to growing their own company. Mike, let's understand what you do a little bit better. How do you help people?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 112,
+   "paragraphs": [
+    "Yeah, no, thanks Rich. Yeah, and for folks who like we were talking beforehand about how our kids often refer to each of us as brah, so that's why. How do you help people? Look, honestly, part of it is I do podcasts to talk to people about probably the most impactful technology we will ever see in our lifetime. I love doing this. I'm not here selling anything. I want to get the word out because I want people to embrace and understand and get into the conversation about be informed when they get into the conversation about where is AI going to take us because it is already having meaningful impacts in how I work, how I write, how I interact, how I plan family vacations, how I cook, how I drive my car, how I do all of these things, and it's just getting started.",
+    "And so it's an amazing technology that I try to just have nice conversations where people so people aren't afraid of it and people are just willing to just try it and experiment and learn about it for themselves."
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 186,
+   "paragraphs": [
+    "You know, I love that mission, Mike, because look, I'm 50 years old at this point and I saw the Mosaic browser in college and said, what the heck is this thing? I missed the boat. I really didn't understand it. And then blockchain came out and you're like, oh, blockchain is going to be everything. I think it's important, but not like this. AI is a fundamental change in how we do everything that's coming towards us. So what brought you into this world of AI? Is this something you studied? Are you a physicist, a PhD in this stuff? What's your background? I'm an accountant,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 219,
+   "paragraphs": [
+    "So that's how it is. This is true actually. No, Rich, my background's very similar. Look, I we're about the same age. I started college in 95. I never used the internet before I got to college and I went to school at University of Illinois, which is where they were just happening to be building Mosaic browser and so forth. So I get to school and I'm like, oh my god, what is this thing? Like there's these blue links you're clicking on and it takes you to these magical places and all this. I've never seen that in my life and I was just completely blown away by it.",
+    "I'm like, my god. And then I come back and talk to my friends who aren't going to Illinois like over Thanksgiving and you know, Christmas break and they're not experiencing this. I'm like, oh crap, I'm living in the future. Like it's just by chance that I happen to be going to school where Andresen and team built this amazing browser that changed all this stuff. So I was very lucky. So look, I've always been into technology. I've always like one of the back in 2003, we were living in Ohio and we actually had a robotic lawnmower that we had on our 2003? 2003. Wow, I didn't know that happened.",
+    "And I know this, I know it was a company called Friendly Robotics. It was out of Israel. I'm sure they don't exist anymore today. It didn't necessarily do a good job. So I was always trying to do work to try and figure this out and all that. But it was, I will say if you're ever trying to sell a house, we sold our house in 2006. I think that's when we moved out to California. We actually included the robotic lawnmower in the house. It was the best line item you could possibly imagine when you're actually looking at like, well, which one should I buy? Wait, this one has a robot lawnmower?",
+    "What is this thing? So yeah, but I've always been into tech and I've just been fascinated by it. Fast forward to when I'm at PayPal, machine learning was a huge thing just part of what teams at PayPal did. Because if we didn't have world-class machine learning teams, PayPal wouldn't survive as a company because of the security Right, you had fraud detection, right? Fraud exactly. And that's where it was world-class with PayPal. Not as much on the consumer side like targeting you with ads or something or emails, like not as much, but on the fraud side, huge. And so I got to know all these machine learning engineers and they would build these amazing things and I was eventually running innovation at PayPal.",
+    "We can talk about that whole path. But you know, so but I was an accountant by trade, just somebody who loved tech and was interested in it, but never was able to build stuff. And then fast forward to 2021, which was the first time I really got my hands on GPT-3 and I found I could do all these amazing things in GPT-3 and I don't actually need to code. I don't need to know how to code. I don't know how to code and I'm like doing this in just plain English and seeing these incredible outputs and that was so eye-opening to me of like, oh my god, this is a paradigm shift.",
+    "Whereas if I think if I was actually an engineer, it wouldn't have been as clear to me how different, how amazingly special this was."
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 423,
+   "paragraphs": [
+    "Yeah. Yeah, it's eye-opening. I remember getting it, what was that, December 1st of '22 and just blew my mind with what it was capable of doing. And here we are years later. So I admitted to somebody my energy vampire is ChatGPT because I can't put enough time into it. There's so many things I want to do with it. Your energy vampire? It's just sucking the life out of me."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 446,
+   "paragraphs": [
+    "It's all going into ChatGPT. It sucks"
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 449,
+   "paragraphs": [
+    "Your energy from you? Is that it? No, in a positive way. Like I just can't get enough. I want to do more and more. There's so many things I want to accomplish with it because it's this great enabler of speed and thought and automation and I'm still putting all the pieces together. What is it you do you teach? You have a course you're teaching at San Diego State?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 469,
+   "paragraphs": [
+    "On and off. I do a lot of guest lecturing at the school. I am very much focused more on the application side, which is great for podcasts like this. So it's not as much about the architecture, how these things are built. It's more like what you can do with these models. So that's mostly what I write about for the school and I will usually jump into other AI classes and things like that and kind of, you know, show the application layer side of it. We don't have a full application class. I don't know if that's really necessary because one of the things I always tell people is like, you don't need to go to school to learn how to use these tools.",
+    "It's, you know, you don't even need to take a class online. You don't need to say like, oh, is there whatever. Like literally just play with them. Just play with these tools is the best way to do it. Find a real problem that you have in your life and see how this tool might be able to just help you think through that. And these are just tools and they are super simple for you to use. You just got to be comfortable with finding out what it's going to take to actually make it work."
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 534,
+   "paragraphs": [
+    "Yeah. Okay, so you want to help get the word out there that people should have awareness of this. So what is it you want them to do? Do you want them to play with it or do you want them to observe it and understand it or learn how to I mean, because lots of software providers are building AI into their products. So many of us are going to experience AI whether we know it or not. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 554,
+   "paragraphs": [
+    "100%. Look, we all have been for long before everybody even knew about ChatGPT or was worried about AI or anything like that. I mean, you know, if you're using Google Maps, if you're using a social media feed that has an algorithmically generated timeline that it's showing you, there is AI running behind the scenes to do that and it just wasn't up in front. You know, this was, if you're making a payment on PayPal or anything like that, like there's tons of algorithmic machine learning and AI models that we had on the back end that was doing this. But the difference now is it's in the front end and you can actually manipulate these world-class models today.",
+    "So yeah, my recommendation for people is honestly just make it so that it is your default. If you tried ChatGPT back in November 2022, right when it launched at the end of the month and all that, like you can and you're like, it didn't do this well. Like you know what, it's totally different today. That was two years ago for goodness sake. Like that was an eternity in AI life. You just have to play with these models and find out what it is good at and what it isn't good at. If models stopped improving today, we would continue to see the benefits for a long time from these models because I'm finding out stuff constantly like, oh my gosh, I didn't know it could do that.",
+    "And you know, like there's always just finding these little things, these little ways to help and so forth. And so what I would say to people is just make it your default. Start, you know, so if you have Google as your search, go into your browser, switch it to ChatGPT search or Perplexity or whatever it might be. Just start using these as a default and you'll start to realize what they're capable of and also what they're not capable of. Yeah."
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 667,
+   "paragraphs": [
+    "So one of the things, let's turn this towards leadership a little bit because one of the things I've noticed, I went to recently I went to an AI round table and it was leaders from my industry and I discovered, I went in there thinking, oh my gosh, I'm going to be behind everybody else. And what I discovered is I'm not actually behind everybody else. Most of the people in the room really are not touching it themselves. They're all, yeah, my teams are looking at it. It's definitely something we want to do this year, etc. So I think a lot of people are coming into this with we know we have to do it.",
+    "There's a fear of missing out because we just talked about that as we started this podcast, but there's also hands-on. So what should leaders of organizations do? What should be their first thing they try to do with these large language models or AI?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 713,
+   "paragraphs": [
+    "Yeah, so if you're a leader of an org, first thing to do is use it yourself. Like honestly, just find out ways to use it yourself and set an example for the rest of your organization because this is going to be the way that business is going to be done. Like if you're doing things on a computer, like you are going to be interacting with these tools going forward. It might be more integrated, it's going to be smarter, whatever, but like do it today. Think, you know, this is the internet in 1998 or something like that. Like you know it's there, you know it's on the horizon, but you kind of don't know what to do with it sometimes.",
+    "And that's okay. So, you know, thing one is just use it yourself. Buy everybody on your team a subscription. So do it in the right way. Get, you know, Claude, Google, OpenAI, they all have corporate subscriptions to these things and spend the 20 bucks a month per person on your team and you could cancel it after a few months if you find out it's totally useless, but give it a fair shot. And just spend for that corporate license so everybody has access and everyone has access to do it in the right way because you don't want somebody putting a bunch of social security numbers into their own personal ChatGPT account to do that.",
+    "Like they shouldn't be doing that anyway, but like, you know, make it as easy for your employees as possible. So use it, get that license and then open up communications and two ways to do that. So one is if you use Slack, if you use Teams or whatever, create a specific channel just for people to share AI prompts and things that they find and discover with AI. Just have people share this because again, it's possible you are doing something in AI and you're finding something out that nobody in the world has ever discovered before. Rich, as you said, like we are so early in this game.",
+    "And this is one of the few times that people are building products not even knowing what they're completely capable of. They're constantly finding this out. So share that within your organization because that's going to spark and spur on other ideas within the group. And then finally, this is where it gets a little bit more controversial, but if you got a staff, here's what I'd do. I did something very similar with a team I managed once. If you got a weekly meeting, you know what, start the first week and say, hey, do you know what, every week I'm going to cold call on one person at the beginning of our staff meeting.",
+    "I'm going to ask them, what did you use, what did you do with AI that was interesting over the past week? Just one, simply answer. And it could be personal, it could be professional, it actually doesn't matter. It could be either way. And you set the example yourself the first week and say like, hey, I used it to plan out what we were going to do with my family when they came over the holidays or something this year, something like that. Like great, and show them a little bit, just show the prompt and that's it. Then next week you actually cold call on somebody to do that again and again.",
+    "You do this for a few weeks. Your team might hate you a little bit at first, but here's the thing, they're going to start thinking about it and then within a couple weeks they're actually going to start to see like, oh, wait, they're going to be constantly in the back of their mind thinking about how to use these tools. And then they're going to say like, oh, well maybe I could use it for that. They're going to be looking for ways to use it during their week because they don't want to be called out by the boss and not have anything. So it's a little bit more of a stiff arm way to do that, put a little bit of pressure on your team, but within a few weeks I think they'll move past that and I think they will all discover and like you'll actually by then have people raising their hands in your meeting and saying like, hey, actually I did this really cool thing. Even if you're not calling me, I really want to share it with everybody."
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 948,
+   "paragraphs": [
+    "And that's what you want to get to. That is great advice because we have a weekly meeting and I talk about AI all the time and periodically somebody will volunteer something cool they did, but I have not decided to make it a facet of the meeting every week and to call on people. I'm going to start doing that, Mike."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 963,
+   "paragraphs": [
+    "So I did this. It wasn't about AI. So I was managing a team and it was a very, it was a mixed team. It was called product launch and it's sort of program management but product management put together. It was a weird hybrid and I was very keen on creativity. I was eventually running innovation at PayPal. So hence that was just how my brain worked. So I actually did the same things basically saying, hey, I want you to talk about something creative you done in the past week. And I went through this whole thing with my team and yeah, they hated me at first. But like I still remember the stories and I know they remember the stories about like one was talking, one person talked about how he like snuck through the airport that is by the PayPal office to get to work or something.",
+    "I'm like, what, how did you, like I'm like, you snuck through the airport to get here? Like he's like, yeah, it was way faster. This is how I did it. Like and like I was just all of these things and it led to so much great conversation, honestly. And yeah, they'll hate you at first, but like within a month they'll be loving these tools. So"
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 1026,
+   "paragraphs": [
+    "I want to give some leaders who listen to this call the incentive to move forward with a ChatGPT or Claude or whatever. And you had actually given an example of this already, but do something personal that's simple. Create a recipe. Like I have these four items in my fridge, what can I make? Or plan a trip. We planned a trip last summer to go to Utah and from Austin, Texas to Salt Lake City, Utah is a very long way. So I put in parameters and I said, help me plan my trip. I don't want to drive anymore than six hours in one day. I want three stops along the way.",
+    "I have little kids, they need things to do at these cities. Where should I go? What should I do? Do you know how much time that would take to do manually? Oh, and ChatGPT is like, here's your trip. And I'm like, okay, route it backwards now but take a different path through a different state. Okay, here's your trip. That was amazing. But I want people to try personal things like you've done because you get that feeling for yourself. You see, oh my gosh, this is powerful and that sparks more ideas of what else you could do."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1086,
+   "paragraphs": [
+    "Absolutely. I mean, let me give you one that I had done, which was really one of the more eye-opening ones for me. So I make, I work from home so I make most of the meals and stuff like that. I have two smaller kids and look, between the four of us in our family, everybody's got different dietary restrictions. It's ridiculous. I basically don't want to eat carbs, my wife won't eat this, my kids won't eat that. But like the rule in our house is we're cooking one meal and like you're going to do whatever. I will try and accommodate as best as I can, but you know, we are not making multiple meals in the Todasco household.",
+    "So what I did was I created a basically, it wasn't even before GPTs, it was just like one thread within ChatGPT. I'm like, hey, here are the requirements for the four people. Here's what we want. I want you to make this easy so I want it to be less than 45 minutes. I want you to, you know, I put a bunch of other requirements like one pan maximum so I don't want a lot of cleanup, all this other kind of stuff. And I want you to meal plan for me and then give me a shopping list of what I need to actually buy for the week.",
+    "And it would do it. And then this is called reinforcement learning with human feedback or a version of that. I would then have the family rate what they ate after every meal like five point scale like, hey, my daughter thought this was a three, my son thought this was a five. And then it actually starts to get better with that. So it'll tweak the other ones. But I would do this and like it got better and better and better in doing this. And so frankly, all this is in OpenAI now and ChatGPT so it knows my family pretty darn well with this. But one of the best parts about it, especially if you are horrible at following directions like me, if you screw things up, which inevitably I'm like, wait a minute, I have a box of cornstarch, I'm almost at the end, I didn't add it, I screwed something up here.",
+    "I will often either take a picture or say like, oh jeez, I did that. And you know what it will do? In the recipe it'll say, oh yeah, well you could do this instead or you should do this. I've also like taken a picture. I'm like, hey, are these green beans done? And just put it in there and it'll actually respond to you with that. I mean, that's the beauty of these tools that they can take visual inputs, they can adjust it and if you screw things up it'll say, okay, here's how we're going to fix it. You can't do that if you're just doing a Google search. So that's one way I love using these tools."
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 1233,
+   "paragraphs": [
+    "Yeah, I love that. I'm going to share another example with you from a business standpoint. It's one of the more powerful ways I've used AI. So I wanted my own sales consultant. So I asked ChatGPT, how could you become my sales consultant given that you know all this information, my type of company, my industry, etc.? It said, here's 21 questions to answer. So I recorded myself answering all these questions. It honestly took around four hours of talking to answer these questions. Took the transcript, fed it back in, asked me two more questions, fed that back in, and then it said, let me write a prompt for you to create your own custom GPT so you can have your own template if you will of your prompt.",
+    "And then I fed it into that custom GPT all that transcript again, everything we had talked about in the prior chat. I gave it sorry, two interviews from podcasts where I talked about sales, our philosophies, etc. And I gave it like 30 recordings that customers allowed me to record in sales demos. So now this custom GPT knows everything about my industry, my company, where my origins are, my competitors, all that kind of thing. It is so powerful, Mike. The other day I had a customer say, hey, in the 11th hour we're looking at one of your competitors. Tell me, give me a comparison of you versus them.",
+    "I'd never heard of this company before. So suddenly I've got to figure out how do I compare these two. Hey Perplexity, tell me everything about this company. Now compare it to my company. I did the same thing with ChatGPT to see which one's better. I fed that information into my custom sales consultant and I said, now write up a write-up from my perspective using my voice because it heard me talk for four hours in a way that I would respond to this and position us really well, but be truthful, right? Show good and bad, but position us well to solve this problem. It spun out the perfect email response. I really didn't have to change a word because it speaks like me. I love that."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1344,
+   "paragraphs": [
+    "I love that. And that's what, so the voice mode in ChatGPT is highly underrated. So I have actually used, I was working on a children's book and one of the things that I did was I actually, I talked, I had voice mode, I just put the phone in my pocket, I put in ChatGPT voice mode, I had an earbud in and I just went for like an hour walk and said like, hey, I'm working on a book. I'm going to just start talking. I need you to transcribe all this. Occasionally I'm going to ask you questions. It's a science-based book and I don't know the science on this well.",
+    "And then at the end, summarize this, transcribe this. Like it is already transcribing everything and doing an amazing job of it. So like, you know, if I was just driving into work in the morning, I would be like banging out emails and to-do lists and all this other kind of stuff. And then like when you get in there you could just start sending stuff out or whatever. Like there's so much you can do with that. We use it to quiz our kids in the car sometimes. So like, you know, if they got a test on US history coming up, we could say, hey ChatGPT, and just put it on the car speaker system through Bluetooth, let's ask questions about US history at a fifth grade level and get increasingly more complicated as they answer them correctly or something like that. And it'll do that. It's amazing what you can do with voice mode and I love your example, Rich."
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 1433,
+   "paragraphs": [
+    "I love your example. I'm learning here. Man, like we could talk about examples all day long, but there's something you and I talked about offline that I want to bring into this conversation. You said you had a really strong focus on education and how it's going to change and morph to be customized to the student, to their specific needs. And I want you to talk a little bit about how you see the future unfolding because I think overall we're going to see mass customization of all sorts of things. So what is your view on this? What do you think's going to happen? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1461,
+   "paragraphs": [
+    "I'm a child of the '90s. So just as you're talking there I'm like, what do you call this thing? And I'm like, oh, extreme customization is really what this is with like a big X like that. That was a very '90s way of branding that. But look, I think you're going to get to the point where, I hope three, four years, this could happen today. It's a little bit of work, but it can really happen three, four years from now. If I were a math teacher for like third, fourth graders, what I would probably do is at the beginning of the year I would ask all the students in the class, hey, I want you to fill out this piece of paper and on this piece of paper give me your dog's name, give me what TV shows you like, what are your favorite video games, who are some of your favorite friends, are there family members, and you know, I probably have them like give a nickname or something so it's anonymous so I can't tie it back at the end.",
+    "So like, you know, you're Jazz or whatever, like some crazy nickname that you can't tie back. I would take all these things, I would feed into a large language model and then anytime I'm doing a math assignment I would basically give each kid custom questions. And maybe it's a 75/25 split. So maybe like 25, I'm going to give everybody the same one. Those will be the ones we discuss in class, but the other ones are going to be about things you enjoy. Because here is the reality, especially with kids, and this is true with adults too, you got to meet them where they're at. Talk to them in the language that they understand.",
+    "I learned math and I learned to love math because as a kid I loved baseball and on the back of all these baseball cards that I collected were all these numbers. I didn't know what the hell these numbers were, but like to me it was like almost figuring out a puzzle. Like what was this? And like, oh, batting average is this, slugging percentage, what is that? Like, you know, and just figuring all these things out and like just being able to do basic math from that and understanding these concepts and why it's important. If I didn't have that, I may not have got the same love of math I got otherwise.",
+    "And like this is true for everyone. There is something that you are passionate about and to be able to talk to 30 different kids effectively in their own language and the way that's going to emphasize their passions. You know, whenever I'm making problems for my daughter, I don't make them generic. I'm like, hey, you and your best friends are going out and doing this. You know, but for a teacher in 2020, that would have been impossible to do that for 30 kids in a class. With AI that is totally, that is not only possible, like at some point it's going to almost be criminal not to do that for your kids, to just think like, oh, I'm just going to give all the kids the exact same thing for their homework.",
+    "No, because these kids all have different interests. And so like that's where I think education is going. And I think like the biggest benefit is going to be elementary, but this could go all the way up."
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 1644,
+   "paragraphs": [
+    "I love that idea, but I also think that it's going to help challenge students who need more challenge and help students who are over-challenged to get the right level of challenge so they can grow effectively and not be left behind. Because look, my oldest son, he taught himself third grade level math in his head in first grade. That's great. I had to ask his teacher, like are you teaching negative numbers? Are you teaching division? She's like, no. Like how does he know these things? And so he was frustrated and bored and acting out. So I think that being able to challenge kids at the level they're at, on the strengths they have, but also to augment their weaknesses by helping them learn those things in the way that you just described, by making it relevant to them, I think that is so special. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1689,
+   "paragraphs": [
+    "And look, there are things like Khan Academy does this, right? There are software things out there that do do this concept. That isn't entirely new, but it is entirely new to do this in the classroom and that's the difference now. And look, so this doesn't actually even mean that the teachers have 30 times more things to grade. Like they can have an answer key for every darn one of these things. It could effectively just be a fine, I mean, there's many ways to do this that is not actually creating more work for the teachers. In many ways it's creating less work for the teachers, but giving a much more personalized experience for the students. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 1727,
+   "paragraphs": [
+    "I wonder how well these large language models will actually grade the work for the teachers. So for"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1734,
+   "paragraphs": [
+    "Basic math I think it's going to do actually a really good job. I did an experiment a couple months ago where I had all the language models generate a math problem. I had the other language models generate an answer and then I put it back in the first one, the original one, and had it graded. And I will say like some of them like ChatGPT-01, which is like more advanced, it's damn good. Like it was actually having the other ones do math problems I couldn't imagine. The old Gemini, which I think they've updated, it was historically like comically bad. Like I mean, so I mean like there are gaps in there, but you can see where all of this stuff is going.",
+    "And that's why like, okay, if it's not there today, you know, wait a few months and we're going to get to the point where, you know, I think basic math at least like that we're going to have no problem with. You know, supposedly you can actually do PhD level math in the latest $200 a month version of ChatGPT. I don't know PhD level math so I can't vouch for whether it is or not, but supposedly you can do like much higher level math than that."
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 1808,
+   "paragraphs": [
+    "You know, this brings up something else I want to relate and then we're going to have to wrap this up, which is these large language models fail. They're not perfect. And so when you're playing with this, you may not get the result you want and you have to accept that this is part of the learning. You'll find out what it's good at, what it's not good at. So as an example, I used ChatGPT-01 as a preview to write a very complex set of equations for an ROI calculator. Now I don't mean calculus equations, just a lot of inputs and parameters and re-additions, etc. And the problem I found was, especially going back to 4.0 version of ChatGPT, it cannot actually calculate the math.",
+    "It's not a math machine. It writes it out, it understands the premise of it, but it can't keep all the variables in its memory to plug them all in. So it kept dropping things and having inconsistent answers. And then I go back to 01 and I'm like, you run the model and it did a much better job. Like 99% of the time it was right, but not 100%. I can't use it if it's not 100%. Excel does that super well, right? So I just want to reiterate, you have to kind of go through this learning curve problem and accept some of these failures to figure out what is the best use case for these models. They're not for everything."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1878,
+   "paragraphs": [
+    "Absolutely. Look, in some ways hallucinations are a feature. If you're writing a fiction book, like you want it to kind of get a little crazy, get a little bit out there. You know, the temperature when you adjust these models is called temperature. So like, you know, if you adjust the temperature higher, it's going to have more like craziness. If you adjust it lower, it's going to be like more predictable in what it's putting out. So, you know, effectively you need to do these with these models or the models at least need to understand when they need to turn it up or down themselves based on the type of question you're being asked.",
+    "But it is really important to know what the models are good at and what the models are not good at and which models are better for different things. You know, if I were to say performance reviews using a model, I think you could do a pretty good job of having the models aggregate stuff. But you know, the best tool for that might be something like Google's NotebookLM because that is called RAG, retrieval augmented generation. So effectively what it's doing is it's prioritizing the information you're feeding it above and beyond anything else that's in there. It will kind of go outside, but basically this is limiting itself to the training set that you have.",
+    "And you know, if I'm taking, if I have a big team, if I have all this, you know, all this feedback and I want to aggregate it and all that in there, you know, you could do a pretty good job in NotebookLM and you don't want hallucinations when that's happening. You don't want to misquote somebody about somebody on your team or anything like that. But there's a lot. Ultimately you got to, one, you got to just try these things out, play with the tools. That's what we were talking about in the very beginning of this. And then yeah, also know that they're not perfect. These are not god machines or anything like that that are just going to be always right, all knowing.",
+    "I was somewhere and I was actually talking up at my alma mater, Berkeley, and there was a professor in the audience of the class that I was teaching. I was kind of guest lecturing and he said like, yeah, I don't trust these models. I'm like, whoa, why? And he said, well, it doesn't know who I'm married to. And I was like, okay, say more about that. Like I'm confused. It's like, yeah, I put it in there, I put in my name. I'm like, hey, who am I married to? It doesn't know that. And I'm like, well, how would it know that? And no offense, it turned out I was very offensive.",
+    "I'm like, are you in Wikipedia or something? Like do you have an entry? Like no. And I'm like, well then how would it know? Like these models are not like these all knowing, omniscient, reading your mind type of thing. And if you're not a famous person who has a Wikipedia page, it's not going to know who your spouse is for something like that. And those are just the things that we all need to kind of get grounded on, like where it's good, where it's not"
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 2067,
+   "paragraphs": [
+    "Good. Yeah, for sure. Man, I want to keep talking to you, but I got to wrap this up. And before I get to my last question, what is the best way for people to find you and connect with you if they want to reach out?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2078,
+   "paragraphs": [
+    "I would say LinkedIn is probably the social network I'm most active on. I'm actually a little bit active on Blue Sky. So just Todasco, my last name on both of those best way. And I have a newsletter on LinkedIn. It's totally free. It's more of these ramblings that I have about AI stuff. I'm not selling anything. If you want to learn about that, you know, you can just find me and my newsletter over there on LinkedIn."
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 2103,
+   "paragraphs": [
+    "And go find his LinkedIn because he's got a really, really cool profile image background header thing. I love it."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2109,
+   "paragraphs": [
+    "Yeah, that was generated by an AI based off of a poll that my followers answered upon. Yes."
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 2116,
+   "paragraphs": [
+    "All right, so here's my last question. Who has had the biggest impact on your leadership style and how you approach your work and the role that you play?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2126,
+   "paragraphs": [
+    "I've had some really, I've had some great bosses and I've had some pretty bad bosses in my life. I think luckily more good than bad. If I were to say who has had the biggest impact, I don't think he would know that I would say him, but it was Macramata is his name. He's now at Chase. He was one of my bosses at PayPal. He put a lot of faith in me about being able to have a team. I was so different and so weird, but he just kind of embrace that. And he was so good with his organization. Like I actually remember, and one of the reason I'm probably think about him is because he did this over the holidays.",
+    "Matt had like a 50 person org. He wrote every damn person in his organization a customized, personalized Christmas card every year. And not just like signing his name, like front and back, specifics, all that for 50 people in his organization and then sent these out. You know, and I'm like, god, if I could be like a fraction of who Matt is, I'd be lucky to be a leader like that. So Matt was a very, and is still, I don't work with them directly. He's still out there. If anybody wants a job at Chase, go work for Macramata. He's an amazing leader."
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 2210,
+   "paragraphs": [
+    "Oh, that is awesome. I love hearing that. Thank you for sharing that. Yeah, thanks for asking that. Yeah, one of my favorite parts of the show. All right, I want to give a big thanks to Mike Todasco, visiting fellow at San Diego State University for being on this episode of the Customer Wins. Go, like I said, go find Mike and don't forget to check out Formstack at formstack.com where we make processing forms easy. I hope you enjoyed this discussion. We'll click the like button, share this with someone and subscribe to our channels for future episodes of the Customer Wins. Mike, thank you so much for joining me today."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2241,
+   "paragraphs": [
+    "Rich, it's been a pleasure. Thanks for having me."
+   ]
+  },
+  {
+   "speaker": "Richard Walker",
+   "start": 2244,
+   "paragraphs": [
+    "Thanks for listening to the Customer Wins podcast. We'll see you again next time and be sure to click subscribe to get future episodes."
+   ]
+  }
+ ],
+ "words": 7178
+}
