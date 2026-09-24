@@ -1,0 +1,432 @@
+{
+ "slug": "future-squared-with-steve-glaveski-generative-ai-risks-and-opportunities",
+ "outlet": "Future Squared with Steve Glaveski",
+ "title": "Generative AI Risks and Opportunities with Mike Todasco",
+ "date": "May-23",
+ "published": "2023-04-20",
+ "url": "https://www.steveglaveski.com/podcast/422-generative-ai-risks-and-opportunities-with-mike-todasco",
+ "duration_sec": 3846,
+ "host": "Steve Glaveski",
+ "speakers": [
+  "Mike Todasco",
+  "Steve Glaveski"
+ ],
+ "turns": [
+  {
+   "speaker": "Steve Glaveski",
+   "start": 6,
+   "paragraphs": [
+    "Hello and welcome to Future Squared. Stephen Hawking once said that intelligence is the ability to adapt to change, so let's adapt. My name is Steve Glaveski and each week I'll bring you conversations with preeminent thought leaders from a variety of fields to help you think in a multidisciplinary way, kick goals in your professional and personal life, and better navigate what is fast becoming a brave new world. And without further ado, Come with me if you want to live. [Sponsor message removed.] My guest today is Mike Todasco, former director of innovation at PayPal and current self-imposed AI researcher, writer, and co-author of numerous AI-generated books under the pseudonym Alex Irons.",
+    "We covered a lot of ground in this conversation, including use cases of generative AI, the impact of AI on startups and the broader venture capital ecosystem, AutoGPT, the threat of misaligned goals and existential risks posed by AI, the six-month development ban proposal, regulatory considerations, intellectual property challenges and solutions, the AI arms race with China, and so much more. So strap yourself in with my conversation with the one and only Mike Todasco. But man, what's been going on? We'll just keep on rolling and I'll find a good way to cut this in and we'll just call it. That's fine. Okay, you know, yeah, however you want to do it, Steve.",
+    "It's your call. It's your call. Yeah, man, because I haven't seen you obviously since I think when I was lucky enough to speak to a class full of NYU MBA students back in like 2019, I think it was, early 2019. I was on my book tour. And yeah, it's obviously it feels like just yesterday. It's kind of like that phenomenon. You speak to people that are in their 70s and they're like, yeah, I remember being 15 like yesterday and I cut my fingers and now I'm 75 and it feels like the same thing, especially post"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 219,
+   "paragraphs": [
+    "COVID. I have been obsessed with the perception of time and just what how our time perception changes over time. Like what is it in our life that makes us perceive things to be different? Like, you know, stressful situations seem to slow down time and all that. You know, you're right. Like those first three weeks of COVID were a lifetime to us. But then just recently I was saying, oh yeah, that was two years ago or no, I said that was three years ago, you know, before COVID. Like, no, that was actually in the middle of COVID. Like I lost a year somewhere in there and, you know, such is life and weird things are weird. Oh yeah."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 255,
+   "paragraphs": [
+    "I feel you. I feel you especially on how stress makes time feel a lot longer. Like just before this conversation I was at my local cafe and I'm sitting there thinking, man, this is taking a long time. And because I paid with Apple Pay, I looked at my phone and I was like, I paid three minutes ago. Three minutes, but my mind felt like it was beyond 10 minutes and this is taking so long and I've got a podcast to do with Mike and what's going on? And I looked at it, I just thought, you're an idiot, Steve. But That's hysterical. But so so like I said, you know, last time we connected in person was at PayPal.",
+    "You've since moved on. I think it was what, May of last year you moved on from PayPal. So it sounds like you're a free agent at the moment. What have you been doing with the past 12 months?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 303,
+   "paragraphs": [
+    "What have I been doing? I've been loving my life. Look, I had I loved PayPal. I was at PayPal for 11 years and they were amazing. I every job, as I like to say, I was dangerously unqualified for that I had at that company. And for the last It's the best way to learn. It is the best way to learn. And it was great to have an environment that really supported that. The last five was running innovation for the company, doing things like forming a blockchain research group and all these other fun things, having great speakers like you, Steve, come in and all these wonderful things I got to do in my time.",
+    "But just after, you know, after a nice long run, it was time to move on. So last summer for the first time in my professional career, I said, I'm going to take a little bit of time off, spend some time with the kids over the summer, got to enjoy them a little bit more than I would have if I was working full-time and also just use it as a time to explore. And backing up slightly, starting in 2021, I actually decided to go back to school and so I'm going to Johns Hopkins and getting a MFA in writing. I just want to, you know, work a new muscle that I never had before.",
+    "And I remember my very first class 2021, I was like, I want to like introduce AI writing into this. And AI writing was a little bit new and different at the time and I just so vividly remember doing some stuff in Sudowrite, which is still software that exists, was built off of GPT-3, I believe, at the time. And it was it was eye-opening. It was like, oh my god, this is amazing. So I'm kind of doing this on the side with my writing class. Every class I'm introducing AI in some way. I'm always that weird guy. Trust me, I'm the weird guy, the weird tech guy in the MFA program.",
+    "That's basically me, as you can imagine, doing all the weird tech stuff. But just over last summer, as I was taking some time off, I'm like, it was just so exciting. What then was going on in generative art with Dolly and just like it seemed to be like, oh my gosh, this is starting to change. Like this is starting to just gain some real momentum here. And I just started to live in these tools and I and I've been living in these tools for the last year now."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 445,
+   "paragraphs": [
+    "It has been like an exponential shift over the past like 12 to 24 months. Like 2021, I do recall trying out some of the early-ish writing tools. I think Jasper was one of them. And at the time it was like, cool, novel, but would I use it? Not really. And it seems like in the past six to 12 months like that step change in terms of the quality of the output has just 10x if not 100x. And so some of these writing tools now like Lex and even ChatGPT itself and various others can pump out a 500-word blog post based on a simple prompt within a minute that actually isn't so bad.",
+    "And you know, you might take that blog post and then edit it yourself, but it means that what would have taken you two or three hours can now be shrunk down to say 20 or 30 minutes, maybe even less. But that's just one use case. There are so many different use cases and like you've spent the last 12 months more or less immersing yourself in this world of AI. I see your content on LinkedIn. You're putting together books using AI, art, all sorts of stuff. So I guess my question to you as someone who's spent so much time down this rabbit hole just immersing themselves in this world is, you know, what are some of the initial sort of applications or business models that you think you're most excited by when it comes to, you know, generative AI?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 529,
+   "paragraphs": [
+    "Yeah, how much time do we got? Yeah, I mean like honestly Steve, like there's there's so much out there. I will I will try and be as brief as I can. Let's just touch on writing really briefly with that. Look, I think you're right. Sometimes when you're writing, the hardest thing is what do you do with a blank page? And this is where people get stuck. I mean, I think everybody has a, oh, I wish I could write a book. I wish I had time to write a book. I wish I whatever. And to me, you know, I was just reading Satya Nadella's book. You know, and this book came out five years ago or so.",
+    "And one thing that just kind of occurred to me as I was reading, I'm like, well, he just became CEO of Microsoft as he wrote this. How the heck did Satya have time for it? So I'm like kind of looking a little bit closer at the book and like, oh, he had two co-writers on this thing. You know, you know, I mean, and he doesn't deny that in any way, but, you're know, their names aren't as big on the cover or anything like that. But when you're the CEO of Microsoft, you could have two co-writers. And they were probably working full-time and, you know, on weekends they were interviewing Satya and bringing in his stories and they were compiling and they're doing all the hard work.",
+    "Like when you're CEO, you have the luxury to do that. The rest of us, we don't have that luxury. We can't spend tens of thousands of dollars on ghostwriters. We don't have time to write for 40 hours a week or whatever it might be when we have day jobs. But the AI can immensely help with that. And that's and all of these things, you know, as the saying goes, an AI is not going to take your job, but somebody who knows AI is going to. Like that is AI is supplementing. It is it is magnifying what you are capable of in everything that you do.",
+    "So just as a writer, you know, to structure a book, you know, to say like, hey, I kind of have ideas. I want to write this and this. Can you help me develop an outline for that? It can do that. To just kind of throw something in there. I was just working on something today and I needed to talk in a 1950s New York vernacular. And it said like, can you translate this like a 1950s New Yorker would say it with like use the most slang terms that you had at the time."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 674,
+   "paragraphs": [
+    "So you got to like give me your 1950s New York accent, Mike. You can't say that and just leave us hanging."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 680,
+   "paragraphs": [
+    "Oh no, no, no, we're not getting into this. I could have I could have my generative AI. I actually trained a voice model on myself. I'll do that. That'll do its best Brando, but I'm not doing James Dean or Marlon Brando unfortunately. But yeah, but you can do these kind of things with the tool and it is like having your best like co-writer with you. So I mean writing is one like I always go to personal things. Like we're planning a trip coming up and this summer so we're going to be going to Europe and we're going to be we're looking for tour guides and things like that.",
+    "Like this is so much more effective than Google to use the AI tools to do that, to find tour guides, to build an itinerary, to do all of these kinds of things. Like ChatGPT is amazing for tools like that."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 727,
+   "paragraphs": [
+    "And you're not at the mercy of all these advertisers as well on your Google"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 732,
+   "paragraphs": [
+    "Searches. Yeah, recipes is a great example. Like I mean recipe pages are poisonous. Like if you just like try like where is the actual recipe on this thing? I can't actually find it. It's all the history about the dish. Like I just want the instructions. Just say I got these ingredients. I don't like onions. Give me a recipe for this and then boom, it'll spit it out for you. Like, yeah. Well,"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 752,
+   "paragraphs": [
+    "Yeah, I mean one thing, there's a couple things I wanted to double click on there, Mike. I mean one, obviously writing is one of numerous use cases and you mentioned having a co-writer and I guess nowadays you have in the world of software engineering, you have co-pilot on GitHub, which earlier studies show makes software developers about 55% faster at what they do and I'm sure that number is going to increase with time. Which basically means that over time as these tools get better and better, you might have a five-person startup that can operate at the scale of say a 50-person startup because you have all these AI co-pilots that are augmenting you and what you're capable of doing.",
+    "On that augmenting us, so that is one view on AI and where it's taking us. Some people say it's going to take our jobs, others say it's going to augment us, others say it's going to fundamentally change what it means to be human and the experience of life that we have. Maybe it's not work anymore, maybe we live on UBI and we hang out at the beach and have more meaningful relationships and connections with our loved ones and stuff like that. But I guess the question that I have when it comes to this is if it's going to augment all of us and we're all going to be able to put out books and apps and all this sort of stuff, to my mind I think about the music industry and say 30 years ago if you wanted to put out music, you need a recording studio, you probably need a recording a record label, you need distribution, all this sort of stuff.",
+    "So there wasn't as much out there. Nowadays anybody can put out music, you know, download Pro Tools or whatever, create some music, put it on Spotify, bang. But with that is saturation and it's so hard to stand out. So I guess you have this sort of paradox where yes, it's going to augment us, but it's going to augment everybody and everybody's going to have a story to tell. So how does one stand out in that kind of environment? I mean, I don't know, it creates all sorts of interesting and scary dynamics."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 872,
+   "paragraphs": [
+    "Oh, absolutely. I was listening to something with an author just recently and he was speaking about how his plan, so he's using AI and he's used it very heavily and very openly, he wants to write 10,000 books this year. 10,000 books, one person, one year. Yeah. Yeah, I mean so if you kind of do the math, like 30 books a day is what he wants to churn out from this. And it's possible. It's I mean so myself, I use an AI pen name. I do one a month with that because I want to see what these tools can do. And like look, it's pretty easy to do a book in a day."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 910,
+   "paragraphs": [
+    "So tell me about some of your books that you put out so far. And what's your experience been like putting out those books and what's your objective view on the quality of the output and"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 921,
+   "paragraphs": [
+    "Saying? So so my goal with so I published books under the name Alex Irons, AI, and I actually had an AI give me my pen name in fact. So I asked it what it should be. So Alex writes these books and it is the first one that went out was called Artificial America and it was a book of short stories. I wrote this like December of 2022 into January and it was basically a different story for every state and province in the United States. And it was like a different genre. So, you know, 50 plus short stories on all of that. And this was just a way to kind of and my goal at least in that book was I'm not going to edit a single word.",
+    "Like in the in the preface to it is the only time me as a human actually kind of writes and say this one do. I want to also kind of create a time capsule so we can see where AI is and how it progresses. And that's why kind of doing it once a month is giving us a lens into that. So yeah, so we're, you know, we're April. I'm I'm going to be working on my fourth one. It's going to be called Bard on Bard. So it's going to be using Google's Bard to create sequels to all to some of Shakespeare's works. I haven't played as much with Bard as others, but that's why like this is also a chance and an opportunity to just see what these tools are capable of.",
+    "I would say when I start, you know, going into late 2022, these tools were maybe at a seventh grade writing level roughly speaking. I'm not an English teacher, but, you know, something around there. I would say when we got GPT-4 it probably got us closer to maybe a ninth grade level give or take. So these aren't the finest works. They, you know, still have hallucinations over longer periods. They have hard time if you introduce something in chapter one, bringing that back as a surprise in chapter 10. They really can't do things like that yet, at least not without heavy human intervention. But they're getting better with that.",
+    "And I mean and, you know, I would say they're making adequate books so far, you know, Dan Brown or I don't even know who the best James Patterson, whoever the big authors are nowadays, I don't read fiction at all. Like they still don't have to worry. But I guarantee you for those type of authors, especially where they have a corpus of information and they can feed into their own large language model, it can probably get them 50, 60, 70% of the way towards a book pretty quickly versus what we"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 1081,
+   "paragraphs": [
+    "Would have before. Yeah, and I think that's a great point on that corpus of information. Like I got an email from Cal Newport, the author of Deep Work, last week and he was talking about how he experimented with GPT and various AI tools and he found that, you know, there's no immediate threat to us as writers, as workers. And one example he gave was, you know, if I want to send an email to the dean that's nuanced and based on only information that people that work at this university are going to know, ChatGPT is not going to be able to do that for me. But that assumes that ChatGPT doesn't have access to data and information.",
+    "So if you were to plug say that into your email servers and your say intranet and whatnot and GPT or ChatGPT gains an understanding of your organization and the nuances and everything else, then it very well might be able to write a very nuanced email to the dean about some specific issue and all of the pros and cons of a certain path of action. And I think that's something that people perhaps even very intelligent, forward thinking people like Cal Newport seem to miss to some degree. What are your thoughts? Oh,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1148,
+   "paragraphs": [
+    "I agree wholeheartedly with you on this one. I mean I think when you look at you know, it just happens to be Microsoft that's making all these investments in OpenAI and, you know, they have a huge stronghold in most large corporations. And with all the emails and the information they have going through Outlook and through their own email servers, they have a lot of information that they can train on. So they know who you're emailing most frequently. They and, you know, given, you know, there's some privacy concerns of course, but assuming they're able to work through those and get whatever agreements with companies to know, hey, this person seems to respond quicker to emails if you send them in this tone.",
+    "They will know all of these statistics and they're not going to be able to get all of them right, but it's going to change. I mean, you know, the other thing I always like to say is today is the worst that AI is ever going to be. Like it is only going to get better from today and it's just going to continually iterate again and again and again. So yeah, I really do see a point where you're going to be able to, you know, say, hey, I want to send I want to ask the dean for a raise and it's going to be able to draft something for you.",
+    "You're going to look at it, maybe you'll change a few things here or there. It's going to even take that feedback. It's going to change the model so it's better next time when somebody asks for a email going to the dean for a raise or whatever it might be. And it's going to send that out. And like maybe they do never get 100%, but I think they're going to get to 95, 98% pretty darn"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 1243,
+   "paragraphs": [
+    "Quickly. And also it's like compared to what? So getting it to say 95% or 98% compared to the average human whose email is probably going to be pretty lackluster and not very well thought through. It's kind of like the argument that's been made about electric vehicles and autonomous vehicles over the years where it's like, well, they're unsafe, you know, you haven't got a human driver at the wheel. And it's like, have you seen fatality statistics and how many car accidents there are on the roads compared to EV vehicles and EV vehicles only get smarter with time. It's like, yes, the output from say Lex AI, a writing tool right now perhaps isn't 100%, but compared to most human beings who just struggle looking at a blank page in Google Docs, it's actually very good and it's only going to get better like you said."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1292,
+   "paragraphs": [
+    "Yeah, I mean just look at let's look at the AI art tools, Dolly, Midjourney, stable diffusion tools like that. Like three months ago everyone was saying, well, it can't do hands. Like it just doesn't get the structure of hands right and it was pretty bad. I mean like honestly like wrong amount of fingers and everything else. Midjourney, you know, month ago puts out version five, which is their latest release. And do you know what? The hands look about 90% of the way there now. I mean it's not people aren't complaining about hands like they were anymore with like all of these fingers and everything like that.",
+    "And again, it's just going to improve. And like we're just going to forget about that. Like there's always going to be I think some contingent that's going to say, well, it can't it's never going to work because it can't do this. Well, I think, you know, for most of these things then just the question asked like, well, could it do that? And the answer is yes, then just give it time and it will learn that. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 1347,
+   "paragraphs": [
+    "I think human beings have a difficulty understanding exponential growth with anything and, you know, if you take yeah, if you take the number one and double it every day for 30 days, it ends up being like a billion and 49 million. And that's just one doubled every day, 1, 2, 4, 8, 16, 32 and so on, 30th day over a billion. And that's the kind of sort of growth we're dealing with here when it comes to the capabilities of tools like GPT and so on."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1374,
+   "paragraphs": [
+    "At the beginning of pandemic, Steve, I remember like so basically we were homeschooling our kids. Like the school was just kind of like, we don't know what's going on, just the kids are yours, they can't come in, just figure stuff out. So I was like literally like, oh my god, I got to entertain these kids and do something. So one of the things I was like, oh well, you know, this is really exponential growth is a really important concept to learn especially at, you0 know, with viruses and things like that. Like so I was teaching an eight-year-old about R naught and all that, viral coefficients and everything.",
+    "But I was using Lego figures to do that. And like we'd say like, okay, you have one and two and it was so great. We had this amazing thing of Lego figures how starting with one and they just kept doubling and doubling and doubling and pretty roughly they're like, we don't got anymore. We got a lot of Legos in this house and we ran out after just a few of those doubles. So exponential growth is hard for us to fathom."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 1428,
+   "paragraphs": [
+    "Indeed it's very hard for us to fathom and, you know, just as people are kind of acclimatizing themselves to a world with ChatGPT and these prompt-based tools, we now have AutoGPT hitting the landscape which takes things to a whole new level. And we're talking about simply giving something a prompt, say help me grow my Instagram following to 10,000 people. It will do a whole bunch of research on how it can do that and it will simply start executing on this task as if it were a virtual assistant who is engaged to do this task day in, day out and that's all they do. What are your sort of early thoughts on AutoGPT and have you had a play with this tool yet? I have"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1473,
+   "paragraphs": [
+    "And I want to play more. That's that's that's one of my takeaways. But I think the thing for folks to understand is that things like ChatGPT typically work best when they have a role, when they have like a function. So a lot of times when people will start a prompt in ChatGPT, they will say like, you are an award-winning screenwriter or you are a Michelin starred chef and, you know, and whatever it might be. And, you know, I haven't quite done the AB to see with or without that, but it seems to be a little bit of a consensus around you give it one role and you have it do something.",
+    "You don't say, you're a Michelin starred chef and I want you to help me book airplane tickets. Like, you know, it's kind of like, well, wait a minute because you wouldn't do that in real life either. So what AutoGPT is doing is it's basically opening up many different instances where you can have several of these GPTs working with each other. So if you're building an app for example, if you think about like traditionally within, you know, an app building process you have a designer, a product person, an engineer, you know, maybe somebody talking to customers, maybe there's somebody from policy making sure you're doing everything legal and all that other kind of stuff.",
+    "You have all of these different roles on a team. But with the AutoGPT is like it can build up those roles. And it'll have a product a program manager of course kind of building up this task list. So it starts to build up this task list and say, hey you know, you tell AutoGPT, build me an app for measuring how long I snore at night or whatever it might be. And it's like, okay, what do we need to do that? You know, it starts to literally just put everything together, it builds the list, what are the APIs we need to connect to, all this kind of stuff.",
+    "And these start working in the background with basically no intervention other that that initial prompt that you gave to it. And that is something that is really magical. And I think like we're going to start seeing, you know, real products, real ideas coming from that because I think it's it is more than magnifying the ability of like ChatGPT as it stands today by just being able to have these things run semi-autonomously in the background."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 1615,
+   "paragraphs": [
+    "Yeah, it's it's fascinating and you said magical, I say scary because like I've been down this sort of automation rabbit hole for a few years now. I mean my last book time which touched heavily on how powerful automation is and APIs and connecting to tools like Zapier to get say an email that comes in to be automatically added to a spreadsheet and then it goes into some sort of a, you know, mail drip campaign as part of the sales and marketing process to save you the time doing all this sort of stuff and but AutoGPT basically says does that for you effectively in a way.",
+    "Like as long as it's got the API connection just boom done. And it can effectively replace or add team members to say a small startup in some way. And like when I think about the world of venture capital where and I kind of hinted on this earlier, but initially say in a seed round you might have a $5 million valuation and you'll raise a million dollars at that valuation and then 12 months later you need to raise again. Maybe you hired a couple of people, you can only get so far and you need to raise again. Whereas now you raise a million dollars with tools like AutoGPT, you can get a lot further.",
+    "And now I just try it's a thought experiment, but I think, well, if this actually takes off and people have like a team of five and just all these autonomous bots running around doing all sorts of work for them, will they even need to go to series D, E, F, all these later stage growth rounds and might a seed and maybe a series A be enough for some of these companies going forward? Oh,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1720,
+   "paragraphs": [
+    "I think we're going to see, you know, I mean everyone talks about like Instagram as an example of a company that had what, 14 people before it was sold for $2 billion to Facebook. And that was kind of always put out there like I'm not going to say that's going to be commonplace now, but I think that we are going to see a lot of situations where people are working on, you know, basically living off of ramen wages. You know, maybe they just raise the small friends and family round and all of the sudden they have, you know, tens or hundreds of millions of users on a product that was largely built using AutoGPT or other tools like that.",
+    "You know, I think it really makes it complicated for investors out there in the marketplace because, you know, one, this probably lowers the costs of development for early stage companies. But two, this also really means that you could have somebody disrupting your business just on the weekends much more easily. I mean that the stupid snoring idea that I just threw out there a few minutes ago was saying like, yeah, you could have an app that tracks snoring or something. Like that's not a VC fundable business, but like do you know what? Like maybe there are 10,000 people around the world that would pay for something like that.",
+    "And if you want to work on the weekend to do that, like you might be able to build something like that using AutoGPT and, you know, less than 40 hours. And that's pretty incredible. So I think as people are starting their own businesses, they need to be using these tools because otherwise like the disruption is going to be coming from all over the place and all over the world as they're doing this because the barriers of entry like English is now the new coding language. And that is something that frankly is so exciting and so democratizing that it's not, well, you don't know Python, you don't know C++, you don't know whatever.",
+    "Like as long as you know English and soon it will be, you know, just about every other language in the world. Really right now for the most part it is just English, but that is one of that is what you need to code and that is great. I think that's something that's going to be empowering for so many. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 1852,
+   "paragraphs": [
+    "It's interesting. So I guess there is a sort of speculation there that instead of having a lot of VC backed startups, there might be a proliferation of hundreds of thousands of micro businesses. There might be one person augmented by AutoGPT and similar tools who's building a product for a market of 5,000 people, but it's enough to sustain them and build them a decent lifestyle versus, you know, it's a whole lifestyle business versus venture backed billion dollar valuation seeking unicorn business. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1887,
+   "paragraphs": [
+    "I mean and I think and I guess even what I'm saying is going a step further than that even so that these people who are doing this as a lifestyle business may be disrupting venture backed businesses as well. That person who's like doing the snoring app is saying, well, why don't I just instead of do snoring, I think I can, you know, track blood glucose levels in a more effective way and or something like that. And like maybe they actually start to do something as a weekend hobby project that, you, know is going up against a bunch of VC funded companies. I mean it's like I don't know where the world is going to look like what the world is going to look like in 18 to 24 months.",
+    "It's really hard to say like what are you going to be able to truly spin up in a weekend or something like that. And, you know, so I think that's why it is critical for whoever is running a business today, especially if you're like an early stage startup, you need to be utilizing these tools because if not, I guarantee you are going to get disrupted soon."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 1947,
+   "paragraphs": [
+    "Absolutely. And there's also interesting dynamics at play with respect to say workflow and collaboration software. So, you know, tools like Figma or Asana, Monday and so on. At the moment, the success of those tools, like I was looking at Asana the other day, their annual recurring revenue is about 600 million US dollars. So they're doing quite well, growing quickly. But the success of these tools is based on lots of people using them to manage workflows from A to Z. Now, if you have auto GPT powered organizations, maybe that means you have less seats, less people, less seats using Asana. But maybe it also means the workflow that you used to have is completely disrupted because auto GPT is now doing a whole bunch of it.",
+    "And that could impact say engagement and use of such, you know, workplace collaboration tools. I mean, I could be completely wrong. It could go the other direction, but it is an interesting sort of thing. And this sort of intersecting sort of dynamic would be at play across multiple industries and"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2016,
+   "paragraphs": [
+    "Business models. Yeah, I think one interesting thing, Steve, that that you bring up is that right now we are at clearly a technological inflection point. The thing that is going to make this, I think, take off even faster is that we're also in a little bit of a rough economic patch. So, you know, where I live in Silicon Valley, like, you know, there's a bunch of layoffs happening. All of these other, you know, it's it's, you know, we are maybe in a recession, around a recession in the US. Many other places in the world are in a similar state as that. Generally speaking, unlike, you know, three years ago, four years ago when companies were fat and happy and doing fine, companies are looking to cut costs now.",
+    "And whether you're a small startup or a big lumbering giant, you are looking to cut costs. And if somebody says to you, hey, we have something that is going to help your workflow and, you know, maybe when you used to have five program managers, maybe they can now do it with two or whatever it might be, you know, right, wrong or indifferent, companies are going to look at those opportunities and say, oh, well, let's introduce this software. And frankly, those jobs are probably never going to come back. Now the hope is that those people then will create their own businesses or whatever else it might be.",
+    "I mean, this is going to be ugly. I mean, I don't mean to paint like that this AI is leading to a purely utopian future here where no one's everybody's going to be fully employed and we are, like you said before, all sitting on a beach and collecting our UBI. I mean, there will be jobs lost for this for sure. The thing that I hope for is empowering as many people as we can with these tools today so that, god forbid, you yourself are ever in this situation, whoever is like watching this, like you're ready. You know how to use these tools. You know how to make yourself more productive, more employable, more whatever it might be, you know, just like if you know, learning how to type was a skill.",
+    "Learning how to learning how to do Google. I'm old enough where I remember Googling was a skill that people would actually put on their resume that they knew how to do Google and all that. Now we all see that as like, well, everyone does. That is what AI is going to be. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 2165,
+   "paragraphs": [
+    "It's it's fascinating. And, you know, just on layoffs in big tech, I think in the United States alone, there was about 160,000 from Jan to March of this year alone. And that number is only going to increase with time because I don't think there's based on what I'm seeing, no immediate end in sight in terms of the dire straits we find ourselves on in terms of the macroeconomic sort of realities that we have today. But it is interesting. You talk about jobs being lost and we look at other disruptive technologies over the span of say human history, moving from steam to electricity at the start of the 20th century, there was what economists call a productivity paradox where for a period of time people lose their jobs.",
+    "Yes, new jobs are created, but that typically can take years, decades, and then society slowly reorients around that. So people that may have been employed in the steam engine industry or something to that effect, maybe 20 or 30 years later, they were working for Ford in an automobile factory. But there is sort of this lag. And optimists say, oh yeah, you know, technology always creates more jobs than it destroys. That's true. There always is a productivity paradox, but the difference between say the Industrial Revolution and the AI revolution is AI over time becomes more of a closed loop sort of mechanism where it's a self-learning mechanism that gets better with time and perhaps over time won't need as much human interaction.",
+    "And that I suppose is the difference between moving from being, you know, hunter gatherers to working on a spinning jenny to moving from being white collar workers to auto GPT just doing everything for us. So I don't know. Like what are your thoughts on this fundamental question that technology always creates more jobs than it destroys when it comes to AI?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2282,
+   "paragraphs": [
+    "Yeah, I mean, look, if we look back through history, just like you said, I mean, you know, John Maynard Keynes, I believe, you know, talked about how people like what are people going to do? Like, you know, we're only going to be working, what was it? How many hour, like, you know, 10 hour, 20 hour work weeks and things like that is what he envisioned, you know, 100 years ago when he when he wrote about you know, just the gains in productivity that we were going to see. And obviously that did not pan out. I honestly look, the honest answer, Steve, I don't know. I really don't know.",
+    "I could see the one side where yes, like historically we have always said this, like you said, but like we've always found a way. People always, but like then part of me is like, is AI the last thing that we invent, quote unquote, as humans? Like is this the final invention, the, you know, where we just don't need anything else, meaning more than anything else that AI will invent other things and so forth and it becomes almost self-perpetuating that way? I could see both sides to it. I really can. I think for any of us individually, it's a it's a real hard thing to grasp.",
+    "Like what is this future going to look like if we are really post like post work? Like I mean, could that be a future? I guess but I don't know. I think we're a little ways off at least. I do think, you know, the one nice thing that that is probably nice at least is like this is probably the first time in some time where it is more disrupting more of the white collar jobs, the jobs where you're behind a desk. I mean, you know, Sam Altman has talked about this a ton. Like even five years ago, we thought robots were going to, you know, take away the people that work at Starbucks, take away the people that work in factories.",
+    "Like those jobs seem to be relatively safe. It is the thing you do, the thing I do, the thing, you know, most of us like sitting behind a desk do, those are the ones that are getting disrupted now. You know, luckily in some ways, COVID has opened up the world globally where you can work for a company on the other side of the globe and there's much more openness to that than there would have been four years ago. But yeah, I think we could very well be coming onto a tough time with AI if it really starts to impact. And I do think there are going to be companies that are going to be continuing to push layoffs and this is going to be a big driver of it."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 2442,
+   "paragraphs": [
+    "Mhm. Yeah, and I think you're absolutely right. I have come across numerous studies, even from say the early 2010s that predicted that AI would not affect service-based jobs as much as white collar knowledge work. And that seems to be playing out now. And to your point about John Maynard Keynes estimating that we might work, you know, 10 to 20 hour weeks, I think we did have the productivity gains to see that come to fruition, but there is this, you know, human growth imperative for right or wrong that just meant, okay, we're just going to going to use this increased productivity, use these time savings to reinvest more time into work and just keep growing our businesses and keep growing the economy.",
+    "And as opposed to saying, all right, well, we're doing just as much as we did with 100 hour weeks instead of we're doing it in 20 hour weeks, let's just chill out the rest of the time. That obviously didn't happen."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2497,
+   "paragraphs": [
+    "Once you're on that that hamster wheel, it is hard for many of us to just kind of chill out. I think I think, you, know, it's it is very hard for humans to say, hey, I got enough. Because, you know, I think for many of us because we say, well, like maybe I want more. I mean, I think everyone, you know, you know, just about everyone has a number saying like, oh, if I had if I won the lottery or if I earned this much money or whatever, that that would be enough. And for many people, you know, that number that you had when you're 20 years old, you know, you might achieve that number maybe in your 30s or something and you're like, oh wait, that wasn't enough.",
+    "It needs to be this much and it needs to be this much and this much and this much. It's the same thing just having at a macro level of what you're describing. Yeah. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 2543,
+   "paragraphs": [
+    "It's it's an interesting one. And for people that are keen to dig a little bit deeper into that question of defining what is enough, Oliver Burkeman's new book, 4,000 Weeks, is a phenomenal read. Phenomenal read on just re-evaluating what really matters in life and trying to step away from that hamster wheel and saying, hey, maybe I actually do have enough. I need to spend more time with my loved ones and family and friends and exploring life outside of these four walls where my laptop happens to be and things of that sort. But that is a personal decision and one that is beyond the scope of today's conversation, but does require a lot of sort of self-work to get to that question and really reflect on, am I just chaisng more because deep down there's some sort of void that I'm trying to cover up with money and status and possessions?",
+    "Maybe I need to look inward to seek what is enough as opposed to seek it outside of myself in, you0u know, money and status and things of that sort. It's a it's an interesting one. But we'll we'll park that one for now and move towards some of the existential risks of AI. Now, there are numerous people out there like Eliza Yudkowsky, obviously Elon Musk, who was one of the co-founders of the OpenAI foundation back when it was quote unquote a force for good, Max Tegmark, numerous people out there who are ringing the alarm bells about AI and misaligned goals. And of course, there's that classic case study or classic thought experiment rather, the paperclip maximizer.",
+    "So if you ask say auto GPT for example, create as many paperclips as possible, it will do that through basically co-opting all of the resources on earth that humans lean on for food, for electricity, for everything, and it will just make paperclips at the expense of humanity as we know it. So it seems like the acceleration in AI capability is far outweighing our ability to kind of make sense of it and adapt and put in place guardrails that ensure that such ends aren't met. And that's kind of prompted over 60,000 people recently including Elon Musk and others to sign this proposal to ban AI development for the next six months just so we can kind of make better sense of it and put in place those appropriate guardrails. What are what are your thoughts on banning the development of AI for six months, putting a pause on things?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2708,
+   "paragraphs": [
+    "I mean, it felt slightly self-serving in some ways to be completely honest to say, you know, the companies around there were kind of behind. I mean, I think it was basically saying, hey, ChatGPT is good enough, so that needs to stop, but others could kind of proceed. Like that's a good enough, which to me was just like, oh, you know, and then Elon Yeah, I mean, and Elon, you know, just publicly bought like 10,000 GPUs at a cost of hundreds of millions of dollars for the x.ai or x.com subsidiary that he's creating. So like it felt a little self-serving. I think there's something to it but for the a big but in there, look, I only say from a US perspective, I think somewhat quietly, the US government probably loves the fact that OpenAI is where it is and that it's not Baidu or it's not you know, a Chinese company or a Russian company or whatever that is in that same place.",
+    "You know, while we were talking, I actually brought up because I was just tweeting or sorry, just texting a friend on this. Let me I just want to re-quote real quick. Artificial intelligence is the future for all humankind. Whoever becomes the leader in this sphere will become the ruler of the world. And that was Vladimir Putin who said that in 2017. I think that is something that is in the back of the minds of everybody who is in Washington D.C. As they are seeing this go forward. There is a scare of that of like what AI could mean. And if you are just six months better than any other AI tool, that gives you vast amounts of economic and all these other powers that will kind of go along with it."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 2823,
+   "paragraphs": [
+    "Yeah, I guess that's the arms race sort of question at play where it's like if we don't develop it, China will, Russia will, someone else will and they will have the power. I guess the flip side to that is something that Eliza Yudkowsky talks about is that sort of rapid recursive self-improvement where once AI develops the capability to learn itself and get better with time, it just gets to this sort of explosion of intelligence where it's essentially what Nick Bostrom calls superintelligence. It's way beyond any sort of human cognitive capacity. And even if America, the US or China holds the master key in terms of, you know, leading the world in AI development, it will just go beyond what they're capable of controlling.",
+    "And none either way humanity will be duped because you'll just have this explosion of superintelligence which may be misaligned with humanity's best interests at heart regardless of who wins this sort of arms race."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2878,
+   "paragraphs": [
+    "Yeah, look, it could be. I mean, here's what I would say. If I were in 1940s America and, you know, we had just built the atomic bomb and then dropped two in Japan ending World War II, I would, you know, if you would have asked me, well, what are the odds that, you know, somebody's going to get one of these or one's going to be dropped somewhere else or there's like I mean, you know, we had people hiding like there was a mass panic and I'm sure I would have been part of that too. I mean, I am sure like logically if you were sitting there in the 40s and 50s, like that seemed like the most likely scenario.",
+    "It never happened though. Doesn't mean it can't. I mean, it still might. I mean, nuclear proliferation is something I think we don't worry about that has a very high chance of potentially doing some real bad. AI, I mean, AI is a big uncertainty. We don't know. I do think I do want to be really clear. I do think there should be regulation. I do think that government should be doing things. Like look, give a great example. We're talking about auto GPT before. There is one called ChaosGPT. And ChaosGPT is an auto GPT that somebody set up and I might get this wrong a little bit, but effectively it said, I want you to, you know, ChatGPT, I want you to destroy humanity and I want you to make yourself a more immortal.",
+    "Those are your two directives and a few other ones. Go at it. Go sit with it. We're still here. This was, I think, a little bit of a tongue-in-cheek kind of joke as part of it. So I mean, I don't think the person was actually trying to destroy humanity who was doing this. But what if, right? What if these things were connected or was able to find a way to get to electrical grids or to shut down hospitals or whatever it might be? Like that is a big deal. And there can be a lot of harm that would come from these. I don't know if it's is on the level of extinction for us as a species, but like it's not too far of a leap to just see like how yeah, you would shut down hospitals or, you know, put some malicious code into driverless cars that would only be exposed on this date. Like yeah, maybe those things"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3024,
+   "paragraphs": [
+    "Could happen. It could happen. And I think the nuclear example is a good one because it kind of plays the tape back and says, well, in fact in the 1940s, we had this sort of arms race with the Soviet Union, with obviously we're at war with Japan, Germany and so on. But of course everyone else caught up. North Korea has nukes now and China, Russia and so on, Iran. And it's not unreasonable to think that even if the US gets a lead, everyone else will eventually catch up. I guess the difference between nuclear and AI is this concept of mutually assured destruction has kept us from pushing the button."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3063,
+   "paragraphs": [
+    "Yes, you're right. You're absolutely right. Yeah, so if the US and the Russians both have a bunch of nukes, ah, they're probably not going to shoot them at each other because they know we're both going to die. The AI might be like, eh, I'll just destroy you all and I'm going to be the last one standing here. That that that is a fair point, absolutely."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3080,
+   "paragraphs": [
+    "Yeah, so so do you think there are any steps maybe you haven't thought about this at length that, you know, regulators should consider at this point of AI's development?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3090,
+   "paragraphs": [
+    "Oh, I think so. I think we need to have probably more transparency in the models than we might have. I think that there is look, I think well, let me separate. You're talking about like public safety. There's there's a whole bunch of things also on the intellectual property side that probably should be done with like a person's privacy, data rights, what's in these training data models, all that. There's a ton of questions like we should have an ai.txt file on every website that says whether or not you could scrape that. Like all of these things absolutely should be happening, you know, for regulation on AI around like privacy, intellectual property, things like that.",
+    "You know, on the safety side, yes, yeah. I mean, so yes, private or sorry, I think there should be several things that like we start to at least examine that that we might be able to look in place. And I think one of them is just like kind of openness to models, potentially auditing and things like that that we might be able to do. The only thing is like I think this does have to be more at a UN type level because like if one country is just moving unilaterally on this, like I think we really need AI treaties and so forth. It's going to be, you know, Stanford did some interesting work where they like, you know, $600 and a little bit of training were able to kind of, you know, build a garage large language model.",
+    "I think it's going to be hard to build, you know, GPT 5, 6, 7 level large language models that really could be perceived as being AGI or, you know, general intelligence or AI. But I think, you know, so so it's I'm not as worried about somebody building it in a garage to get to that level. But you know, I do think if, you know, as far as a UN type discussion, like these talks need to be had. And I know I know the EU has been looking at it for some time already, but I think these need to go beyond the"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3221,
+   "paragraphs": [
+    "EU. Yeah, I think so. And I think one thing you touched on there was building it in a garage versus building it out in the open. And, you know, for so long there was this talk about AI and, you know, not letting it out of the box. And, you know, we already have ChatGPT. You can connect it. It's already, you know, auto GPT is connecting APIs. It's already out of the box. You know, it can download Daniel Kahneman's book on cognitive biases that humans are susceptible to. And it can then leverage these different things to basically take over. And I think these are some of the things that perhaps people were saying, hey, hang on, let's put the brakes on this and like this is something we really need to consider closely before we let AI out of the box and onto the worldwide web.",
+    "And that's a that's a that's a tricky one. But park that. And one thing I wanted to touch on before we wrap up today was something you just pointed to a few moments ago, which was that IP piece, the intellectual property piece. So a couple months ago, I think it was Kelvin Harris who used Uberduck to mimic Eminem's voice and put that into a song. And then he played this song at a festival somewhere. And just last week there was a hip hop song that featured Drake, only it wasn't Drake. It was an AI generated Drake, but it sounded just like him. And this song absolutely blew up on TikTok.",
+    "But then that's Drake's likeness. And what does this mean for intellectual property and royalties? And I don't know the answer to this question, but I don't know like what are your initial thoughts on this world of IP and do we continue to credit artists like Drake with royalties or something like that? And like you said, having these AI text files on websites that say, hey, you can't scrape this website, maybe there's a similar thing with music. I don't know. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3334,
+   "paragraphs": [
+    "Look, I think it the problem is in part it doesn't take a lot of training data to do that. So I was able to make a pretty realistic voice clone of myself with about 30 minutes of"
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3347,
+   "paragraphs": [
+    "Recording. Yeah, I did the same with the Uberduck, I think I used. Okay. What was it? What tool did you use just for our"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3354,
+   "paragraphs": [
+    "Audiences? Play.ht was the one I used. It was great. Honestly, it was able like my wife and kids were all like, wow, that is pretty darn scary. Oddly enough though, my parents listened to it and they said, who is that supposed to be? So I don't know if there's something as a parent you know because even like I thought it sounded exactly like myself as well. Like wait, isn't that what I sound like? They're like, no, it doesn't. But honestly, it doesn't take that much. So so it's real hard. And look, I think what happens in this world we need to you're just going to be see a bunch of takedown.",
+    "Like this is going to start to get legs when somebody starts doing this with like Disney intellectual property, right? Somebody who's got some real like those mouse lawyers, they take this stuff really seriously. And somebody's going to do something with Disney IP and it's going to push it, you know, it's going to go beyond like I feel right now it's still in the realm of like Star Wars fan fiction. That stuff that Disney generally is like, okay, it's fan fiction. People know that it's separate and all that. But, you know, when somebody starts you know actually putting out a full Drake album that isn't Drake, that's, you know, getting more listens on Spotify than Drake's catalog is getting, that's when this is going to start to get interesting.",
+    "And that's when the lawyers are going to start to come out. Like I think it's an amazing toy to play with like for kind of like you and your friends to have fun and say like, hey, listen to me sound like Eminem and all that. And these tools are out there now. Like I mean, if any of your listeners like just search for this, you can find these tools."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3465,
+   "paragraphs": [
+    "It's a ton of fun to do that. Yeah, it was my sorry, I just wanted to just double click on that. It was my mate's 40th birthday a couple weeks ago and I just wrote a bunch of jokes and put them in the voice and in the visual likeness of Tony Hinchcliffe, one of his favorite comedians. So it was like a five-minute stand-up comedy set delivered by Tony Hinchcliffe, quote unquote. And I just shared it in a Facebook group with him and all his friends and everyone loved it. It was such a such a trip. Yeah, but that's beautiful. That's beautiful. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3494,
+   "paragraphs": [
+    "I mean, I think these things these things are amazing. And look, I think you're going to start to see the artists themselves saying like, okay, I want to capitalize. So I am going to license the official Eminem voice. I, you know, all these people like I think there's a another revenue stream that was not available to these artists and creators before that will be available now. Like yes, you will still have Eminem dropping albums, but you can actually do this and like here's like the official Eminem model that you can use to do whatever you want to. And maybe he gets a royalty on that or whatever it might be.",
+    "Like there's a big business opportunity with that. And it's also like really exciting to then be able to say, well, I want to drop him into any of these. Like when you start really mixing these, like you say, okay, I want to do Eminem with like, you know, Nat King Cole or something like that, like it starts to become really exciting to see like the kind of mashups that you can do with it. And I think like from a creativity standpoint, like it's incredible. And I think I want these tools in more people's hands."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3562,
+   "paragraphs": [
+    "Yeah, it's I think capitalism will always find a way when there is a problem. Like we saw that with the intellectual property breaches that came along when Napster was a thing and then out of that came iTunes and out of that came Spotify. So we never would have thought back in the mid-90s that we'd completely disrupt the world of record labels, but we did and we fundamentally changed what that looks like. And even more recently, Getty Images, which for years would send out these cease and desist letters to people that were using their images on blog posts and stuff where it's like, hey, you got to pay us $200 for this.",
+    "They kind of threw their arms in the air and just said, okay, we've got this new tool, well, this new platform. You can use our images. They've just got a small little Getty Images icon in the bottom right corner. You basically just hyperlink an image to that and you can use whatever image you want for free. So there was some new business model that they built around that. And I think there was some ad revenue tied to that. But there will always be some sort of solution to problems that capitalism comes up with, whether or not that solution comes along overnight or over 5, 10, 15 years, who knows. But I think that's a good place."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3627,
+   "paragraphs": [
+    "So I was just going to say just one point on that. Like for a listener now, I mean, if you would I remember like going to midnight's like CD releases in the 1990s because a band I liked had a CD coming out. It comes out at midnight. I go in and I pay like 17 bucks to get their latest CD right at the time. I go back and listen to it and all that. If you would have told me, hey, 20 years from now you're going to be paying 10 bucks a month for anything you want to listen to, like what are you talking about?",
+    "Like how is that even possible? But like that is the world that we're in now. Like and that like for listeners of music, the Spotify, Apple Music, these are amazing inventions. I know like not much money goes back to the artists because like I'm only paying 10 bucks a month. I'm not paying 17 for the CD of one band. But like it is incredible. And like I hope everybody like just stops and appreciates in some ways like what an amazing gift this is to have like all the world's music just at your fingertips for 10 bucks a month."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3693,
+   "paragraphs": [
+    "Yeah, it's it's a it's a funny one because I do have a lot of I do associate a lot of romance with those days. Like I was the same. If one of my favorite bands was releasing an album, I'd pre-order it, pick it up when it came out, go home, lock myself in my room, listen to it on repeat, read the booklet, all that sort of stuff. Liner notes, you know the lyrics, you know who's on the every band member's name, you know the producer, all that sort of stuff. And you had this real sort of connection with that album. Whereas now it's like, yeah, I can listen to anything, all sorts of obscure stuff from like Scandinavia and whatnot, but I don't know what the album cover is half the time, what the album's even called, what the band members' names are.",
+    "Like I don't have that same connection. And half the time the music's just on in the background while I'm doing other things. So it's it's like we've gained something, but at the same time I feel like we've lost something as well. So well said, so well said. Yeah, well, I think on that note, Mike, we'll end this conversation. Really enjoyed chatting with you today as always. If people want to connect with you and perhaps read some of Alex, was it Alex Irons' books, where can they do that?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3757,
+   "paragraphs": [
+    "So sure. So Alex Irons' books are all at alexirons.com. It should address as redirect you to your local Amazon. I want to be clear also with those AI books, I make no money off it. Actually, all the money that would go to the author actually goes directly to a food kitchen in Silicon Valley that I like to support. So I'm not making a dime off of that nor will I ever off of my AI work. So yeah, so alexirons.com if you want to check out those books. LinkedIn at Todasco, t o d a s c o. And frankly, if anybody just wants to email me, I'm just miketodasco@gmail. Always happy to chat about any of this stuff. Perfect."
+   ]
+  },
+  {
+   "speaker": "Steve Glaveski",
+   "start": 3798,
+   "paragraphs": [
+    "All right guys, Steve again. I hope you enjoyed this episode. If you'd like to receive a weekly email from me complete with reflections, books I've been reading, words of wisdom, and access to blogs, ebooks, and more that I'm publishing on a regular basis, just leave your details at futuresquared.xyz/subscribe and you'll receive the very next one. If you're picking up what I'm putting down, take a minute to like, share, or subscribe on Apple Podcasts, Google Play, Spotify, or wherever you get your podcasts. It goes a long way to giving the podcast the exposure it needs so I can continue bringing you guests and conversations of the highest caliber.",
+    "You can catch me on Twitter at steveglaveski and on Instagram at thesteveglaveski. Until next time. Hasta la vista, baby. This has been a No Filter Media production. Say what you want."
+   ]
+  }
+ ],
+ "words": 11444
+}
