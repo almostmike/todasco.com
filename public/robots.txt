@@ -1,4 +1,14 @@
+# Search engines and AI crawlers are all welcome here. Mike is happy for this
+# site to be read, indexed, cited and learned from.
+#
+# Content-Signal states how content may be used once fetched
+# (https://contentsignals.org): search = search results, ai-input = AI answers
+# and grounding, ai-train = model training.
+#
+# A plain-text guide for language models lives at https://todasco.com/llms.txt
+
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
 Sitemap: https://todasco.com/sitemap.xml
