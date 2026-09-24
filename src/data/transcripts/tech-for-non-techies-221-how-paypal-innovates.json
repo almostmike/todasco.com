@@ -1,0 +1,256 @@
+{
+ "slug": "tech-for-non-techies-221-how-paypal-innovates",
+ "outlet": "Tech for Non-Techies",
+ "title": "221. How PayPal Innovates",
+ "date": "Sep-24",
+ "published": "2024-09-25",
+ "url": "https://podcasts.apple.com/us/podcast/221-how-paypal-innovates/id1516475320?i=1000670615543",
+ "duration_sec": 2186,
+ "host": "Sophia Matveeva",
+ "speakers": [
+  "Mike Todasco",
+  "Sophia Matveeva"
+ ],
+ "turns": [
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 0,
+   "paragraphs": [
+    "Do you want to know how one of the world's largest fintech companies stays on top? PayPal's innovation strategy is actually simpler and cheaper than you probably think. You weren't expecting that, were you? Listen to this episode to learn how this $78 billion business keeps coming up with new ideas so you can steal their strategies for yourself. Welcome to the Tech Entrepreneur's Podcast. I'm your host, tech entrepreneur, executive coach, and Chicago Booth MBA, Sophia Matveeva. My aim here is to help you have a great career in the digital age. In a time when even your coffee shop has an app, you simply have to speak tech.",
+    "On this podcast, I share core technology concepts, help you relate them to business outcomes, and most importantly, share practical advice on what you can do to become a digital leader today. If you want to have a great career in the digital age, this podcast is for you. Hello, smart people. How are you today? I'm super excited about today's episode because you are going to learn from someone who had a real impact at a company I bet that you used really recently. You'll hear from Mike Todasco, who led global innovation at PayPal and is now a visiting fellow studying AI at the San Diego State University.",
+    "And you know, I think most people assume that the budget at these large tech companies are always huge no matter what they do. And they assume that you basically just can't compete with them unless you are able to spend a fortune, and that's why lots of businesses don't even try. And in this episode, you will learn that you actually can make a meaningful difference to the bottom line and to the company culture without massive investment or without having to win huge corporate battles. You're also going to learn how to think about these different types of innovation, and this is super useful because what works for a biotech company like Moderna is just not going to work for a business like JP Morgan or Walmart.",
+    "And also, at the end of this episode, Mike and I talk about a simple thing that we both do to come up with new ideas. So make sure to listen to the end to get this hack. And if you're listening to this, you're obviously interested in innovation, and so you are going to want the report that I created with the legendary University of Chicago and how the largest companies in the world innovate. In our report, we uncovered six strategies and showed how companies use them. And this is really important because what works for one company should not be applied to another. And you can get a free summary of this guide at techfornontechies.co/innovation-guide or via the link in the show notes.",
+    "It is very high quality, made by very clever people, so I highly recommend that you get this guide. Again, get it free at techfornontechies.co/innovation-guide or via the link in the show notes. And now, let's learn from Mike. So, you used to be the head of innovation at PayPal, and I'm curious, what was your budget as the head of innovation? Because I would imagine such a huge company, loads of money, innovation is the core of the company, so what, it's billions of dollars, many millions?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 225,
+   "paragraphs": [
+    "I love that you're starting off there, Sophia. Yeah, I mean, put it in perspective, PayPal is a company that probably does over a trillion dollars in payment volume with a T in a given year. And I was the head of global innovation, which meant we were putting up labs all over the place and kind of putting together the culture of innovation for a 30,000 plus employee company and all that. Budget-wise, you know, outside of like the couple people I had, it was probably in the tens of thousands of dollars. It was not much."
+   ]
+  },
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 255,
+   "paragraphs": [
+    "And I remember when we talked, you mentioned that there was also some theft involved to set up the innovation department."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 263,
+   "paragraphs": [
+    "Look, I mean, so so much of innovation just comes from constraints. And when I took on this job, this would have been back in 2016, PayPal had just separated from eBay, and I remember talking to my boss and like, oh wow, we need to do this, I'm going to need a lot of money. And her response to me was like, you don't got money, just figure it out. And that was the best thing she could have possibly said to me because it just forced me, it forced everybody in the company to just be more creative. And so we were able to get an innovation lab, which basically meant we took a conference room that used to be available for booking, and we convinced facilities to make it so no one could book it, and I could just stay in there all day.",
+    "But we had no furniture, we wanted to make it look different, and all this stuff. So what I did, and PayPal has a beautiful campus where I was based in San Jose, and there's TVs laying around, there's stuff if you just go looking. And I just went around at nights, kind of scoped out things, and I just started wheeling stuff to the conference room that I didn't think was being used. And there was a huge monitor I was able to claim, some really nice couches, all this, it was all the hand-me-down stuff or dare I say stolen stuff that we were able to find that we were able to put to good use in there."
+   ]
+  },
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 341,
+   "paragraphs": [
+    "You know, this actually reminds me of how I was at my third company. I would literally email people and I would say to them like, you know, do you have a lamp? Do you have pens? Like we will take stationary, furniture, like what you got. And you know, especially people who are working in really large corporates will be like, yeah sure, like we're about to get rid of these really fancy new chairs because you know, they're now six months old. But you know, we're, I don't know, Goldman Sachs, we don't care, do you want them? We will take them. And I think, you know, obviously at the time I was kind of like, oh it's so humiliating that I have to do this, but innovation only thrives when you have a constraint.",
+    "And I think, you know, I wanted to start here because I know that there are founders and there are corporate innovators listening to this, and I know that everybody thinks if we just had more money, then this problem wouldn't be solved. If we just had more money, then everything would be okay. And I think sometimes that's the case, but less often than people think. So what's your experience?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 409,
+   "paragraphs": [
+    "Oh, absolutely. I mean, look, I think money makes things easier, at least in your mind it makes things easier, like only if I had it. Because look, I was saying the exact same thing when I started as well. I'm like, hey, I need money to do this. But in reality, especially in the world of innovation, you're right, like constraints breed creativity. And with what you can do with limited resources and frankly setting an example for the company and just showing what we can do with the little that we have in buildings, it's about community, it's about culture. And money helps with a few things, and we can get into like where I did spend the whopping tens of thousands of dollars I had to spend, you know, very strategically.",
+    "There were some areas, but for the most part, it's using tools, using your personality, using your time to do whatever you can to just breed that culture of innovation and, you know, find like-minded people within the company that will be your evangelists. We actually had an ambassador program in fact, where at all the other offices we would kind of anoint someone as the innovation ambassador. And you know what, they even got less budget than me, but they were able to do a whole bunch of creative stuff. They were able to figure out a whole bunch of things out. And you know what, they got to wear the badge of innovation ambassador, and that actually meant something to them.",
+    "And so like, you know, there's all these little hacks that you can do that are free to play into psychology, to play into all these other things that are way more important, way more effective than just throwing money at something."
+   ]
+  },
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 510,
+   "paragraphs": [
+    "It's a bit like when startups have an advisory board and, you know, sometimes these people have options, but a lot of the time they don't. And I actually tell startup founders, don't give away advisory options too easily. You know, somebody's basically got to really give you some value before you even give them vested, like a vesting schedule for options. And people still do it because, you know, maybe they're looking for a reward eventually. But I think a lot of people do it because it's interesting, because also people want to transition careers, for example. And so actually, I've managed to get quite a lot of free labor from really expensive people by incentivizing them in these kind of interesting ways.",
+    "But I really want to cover the culture innovation and what that means. But before we get there, I'm really curious, where did you spend the limited resources that you had? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 567,
+   "paragraphs": [
+    "These are, so a few things. One, if anybody in the company had an idea for a project, something that they wanted to work on that had nothing to do with their day job, that they wanted to do in their free time, like I was kind of the one place to go to. Most of those things that they wanted to build were software related. PayPal was a software company and so forth. But occasionally there would be some hardware. We would have to buy some devices, we would have to buy like an Arduino board or whatever. Like those kind of things we would do. So there was that.",
+    "So it's just kind of buying the hardware or whatever was needed to support people with projects. Another thing, which is getting into another great hack, again, we're trying to teach about innovation and leadership and all these things like throughout the company, even though we weren't part of a training organization, we sort of stood by itself. At one point I discovered this great little hack where if you wanted to get like a top-tier speaker, it could easily cost $10,000, $25,000, $50,000 to have that person come to your company. At some point, I don't know how I came across this, I realized if that same person is coming out with a book and they're doing a book tour and you're willing to pre-order 100 copies of their book sometimes, I mean, sometimes 100, maybe it was 200 sometimes, they'll often come to your offices, whatever, because the hack in that is like all the pre-orders for book sales go into day one, which is what helps put them on the bestseller list in the first week.",
+    "I didn't know this, I figured this thing out. So a lot of what we did was just to bring in authors. And it was a vast array of authors. So it was everything talking about, you know, from comedy and humor to things more formal like leadership to, you know, a ran a whole gambit. And so I hosted the speaker series and we would buy the books, we would give out the books to the audience. So that was almost a win-win because then like people hear the talk, we record the talk, we send that out across the company, and a bunch of people get to read about whatever it is related to innovation or whatever it might be associated with that.",
+    "Because then for, you know, the $1,500 or the $2,000 that we would spend on that, that was a way to be just really effective. And in pandemic we continue to do that. We just did it over Zoom instead of in person and would send people like Kindle codes that they can download the book from. So there's many different ways to do that."
+   ]
+  },
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 725,
+   "paragraphs": [
+    "I really love that example because it's mutual benefit. Because sometimes people hear, oh you have to not spend money, which means that we are going to really beat people down on price or shortchange people and try to get as much labor as we can out of somebody and not pay them very well. And I don't think that's a good way to live and to work, but also it's not really effective. Because, you know, if we feel like we're being taken advantage of, we are not going to do our best work. But what I like about this example is kind of learning about the system. So finding out what can we do where, well, we don't have the resources to give them 50 grand, but what can we do where they don't hate us, where, you know, they're not being kidnapped and taken to our basement to give this talk.",
+    "But actually it's a win for them and it's a win for us. And to create this win-win scenario, you had to basically get to know the incentives. And this is what I love. Once you get to know the incentives, then you can give people what they want, which you can also afford. So any other examples?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 792,
+   "paragraphs": [
+    "I want to build off your concept of incentives there, Sophia, because I think that's, well, first, so like one thing I will say is like, I will say some authors came to us and said, you need to buy 1,000 copies. And I'm like, okay, that's actually out of my budget, I can't do that. And like we respectfully go our own ways. But it was amazing just the class of authors just buying 100 copies of their book, what they would do. It was just amazing little experience. But incentives do matter. And one of the things that we would do within the organization is we would really, we would try to put, so one of the first things that we had within, one of the first mandates was actually to rebuild PayPal's patent portfolio.",
+    "Because we had split from eBay, half of the patents went to eBay, half of them stayed with PayPal. This was a time where like Google and Samsung and, oh I'm sorry, Apple and Samsung, there's a whole lot of patent dispute going on and so forth. And you know, so kind of naturally within innovation that concept stayed in. So, you know, how do you get more patents? You increase the top of the funnel, you get more ideas coming in. The simplest hack that we did that probably had the most impact, which literally cost us $0, was when I got in there, we had this internal tool where we would track all the people who were submitting ideas and all the people who were filing patents.",
+    "Every company would have some idea submission portal like that. The thing that we did was we actually started to publicly post that. So on that big TV I was talking about before on the innovation lab, we would actually put like a leaderboard up there for the most idea submissions to start and eventually the most patents. And again, it all started with that. And then we would send that to our other locations. And I had talked to, you know, the other, because all offices had TV screens where they just show stuff. I said, hey, if I sent you a JPEG once a month, can you throw that on that screen in this office?",
+    "And the response was almost always yes. So we're advertising this. And I remember one story very distinctly. It was somebody from one of our offices in Israel, brilliant guy came into the office, stopped by the innovation lab, was just staring at the screen, and he said to me, why is my name not on there? And I'm like, oh well, you know, it's because you submit ideas and all that, you just have to do that, here's how to do it and all that. He is like, okay, long story short with that, 48 hours later he flies back. He spent the entire trip from San Jose back to Tel Aviv just writing ideas.",
+    "And all of a sudden he got on the board and he just stuck with it. Because he was kind of, this was feeding a little bit of the ego. He's an innovative person, he's creative. He's like, why not on there? And it was just a way to freely do that and to freely advertise. There's nothing wrong in any stretch about creating some healthy competition within the company and promoting people who do the things that you want to encourage. And you know, I would use people as an example. I would try and get like, can I get two minutes in your all hands so we could talk about what's an innovation project that someone in your organization had done and put them on stage and do things like that.",
+    "And those are all things that are free. And then the people in the audience will actually hear and see that person who maybe is organizationally underneath them or whatever and like, wow, they're at the all hands, they're talking about this thing. I want to do that or I should be up there too. And it creates more of that within the culture. So like those are all ways to just kind of lean on people. Because we didn't have an innovation org. Innovation was the responsibility for every employee and we just wanted to tap into that as effectively as we could."
+   ]
+  },
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 1026,
+   "paragraphs": [
+    "So this is a really interesting approach and actually talks really about the culture. Because there are innovation departments that are literally just in the separate buildings. I'm thinking of a particular kind of very large traditional company and I know where their innovation lab is and it's in a different part of London to where their European HQ is. And you know, the European HQ is, you know, people in suits and people who look very, very professional. And then the innovation lab is like very hipstery in a hipster part of town. And I wonder whether that's a good model. Because if the innovation people are so far away from the culture of the company that they even have to be physically far away, will that actually change the culture of the entire organization to be more innovative?",
+    "Will that have an impact? I don't know. But I do know that the Skunk Works approach is quite popular, but it's very different to what you were doing. So what do you think?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1091,
+   "paragraphs": [
+    "So I think it depends on what the end goal is. So for PayPal as a company, we were trying to encourage what we would call level two innovation. And let me just walk through that real quickly just so everybody understands. Yeah, the levels. So level one would be like incremental improvements. You're building an app, you make that app better. You do what, you listen to customers and so forth. Like that's mostly your maintenance, your day in and day out, how you're constantly improving. That would be your level one innovation. Level two is going a little bit further. It's, you know, new products, maybe existing type features but in a new technology stack.",
+    "So it'd be things like, well, how do we apply payments using an augmented reality device or how do we do some database work and do that in the blockchain instead. So kind of existing new technologies. Level three innovation would be your Bell Labs, your Microsoft research, your, you know, thinking five, 10 years out in the future. What is the world going to look like? New markets, new technology, sure, research and developments, that kind of stuff. At PayPal we didn't really do the level three, to be clear. We're a technology company, but frankly not every technology company needs to or has to do that. And we kind of made a strategic decision, that's really not where we're going to be.",
+    "And why was that? What's that? Why was that? Because honestly, I think most companies, I don't think it's really necessary to do that. Like if you are Microsoft or something like that or if you are Meta and you're trying to build the next computing platform, it probably makes sense to do that and to have that Skunk Works operation. Or if you're Lockheed Martin doing Skunk Works or whatever and you need to build that next platform and these things take years and years and years. And I don't mean to undersell it, but PayPal is a tech company but was a software company. And while yeah, we would do some really creative ground-breaking stuff, the kind of like major innovations PayPal has done over time would have been things like, you know, some captcha technologies came out of PayPal and doing that.",
+    "Or the concept in the US of confirming a bank account, this was a PayPal thing before my days there. But it's a great little story. Back in the day it was a real difficult problem at PayPal to be able to confirm somebody's bank. You know, and we'd have to have a mail in a check and like we'd have to scan the check. Like 20 years ago this was a pain. Somebody came up with the concept of like, well, what if we had a pin number? What would a pin number look like for a checking account? How would we know we give them that pin and how would they know it?",
+    "Because we don't own the checking account. They came up the concept of micro deposits. We just deposit like 13 cents and 42 cents and then come back and say, hey, how much money did we just put in your account? If they give us those two random two-digit numbers, that kind of acts like a pin. And that was something that PayPal invented. But like every bank in the United States, in many places where they still had checking account concepts for the next 20 years, we're using that same thing. You don't need a Skunk Works lab to do that. And so the bigger thing though within the culture is like if you do decide we do need that, we do need Skunk Works because we are trying to build something for 10 years out or whatever it might be.",
+    "I think you just need to be aware in your company that you are building a dual class structure and that the cool kids are going to work at Skunk Works and the non-cool kids are going to be doing the maintenance, the level one or maybe the level two type innovation. And that's not something we wanted to have in our company. That was a very strategic decision. Like, you know, anything we might lose by potentially looking at quantum computing or whatever it is that you might be doing in level three, we would lose more from our culture of making it like, oh innovation is someone else's responsibility, not mine."
+   ]
+  },
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 1353,
+   "paragraphs": [
+    "Interesting. And so are there other levels or is this it? Is there"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1357,
+   "paragraphs": [
+    "Anything about, and we did not come up with that. I think this is a McKinsey or Bain or somebody came up with this. So I think folks can Google it and see the formal definitions for that. But that's how we thought of it. It was really level one, two, three and that's how we would talk internally."
+   ]
+  },
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 1371,
+   "paragraphs": [
+    "Interesting. And so tell me about what is a culture of innovation? Because I hear that term everywhere and I've definitely seen and heard companies talk about their culture of innovation when I know that ideas go to die there. So what does a real culture of innovation look like?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1394,
+   "paragraphs": [
+    "Yeah, and to be clear, I don't think we ever achieved it. I think we were moving in the direction of achieving it and I don't think it's ever fully achievable. It's almost like a destination for you to continually work towards, but you'll never quite fully get there. But what the ideal state looks like is where everybody is empowered to, you know, to do their work but to also constantly think about how do I make this experience better for my customer, how do I make this experience better for myself. And they're empowered to work on that themselves with teams, with others to actually do that or even, you know, outside of their day-to-day domain.",
+    "One of my favorite stories at PayPal was somebody on the finance team who was really into robots. And we bought a bunch of robots and put them in the different labs and he led the robotics project in San Jose. And most days he would get into the office before I was there. He would just be in the innovation lab. He'd be like working on stuff, trying to figure this out, assembling a team of other people within the company. But his day job was doing cost accounting or whatever it is in his traditional role at the company. And those were the kind of things that we wanted to encourage.",
+    "Because again, you don't know, I do strongly believe in a broad liberal arts type education where you don't know where the best ideas are going to come from. They could come from anyone and they could come from anywhere. And the more that you're encouraging that and giving this much broader perspective instead of just a pure siloed perspective for the employees within your company, like that is really what starts to build that culture of innovation."
+   ]
+  },
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 1501,
+   "paragraphs": [
+    "And so how do you measure success? You know, at the end of the year, how do you measure whether what you've been doing has worked out?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1512,
+   "paragraphs": [
+    "So in my early days, so organizationally we started as part of the IP team, which is actually part of legal. So the major way for me to measure success in the beginning was patent filings, was patent ideas and patent filings and all that that went there. And really it was actually the top of the funnel, like how many more ideas did we have coming through. Because again, the belief is the more ideas you have, the better ideas initially at the top of the funnel, the better the quality of ideas is going to be at the bottom. And that was something we pushed for. So when I was part of that org, that's what we were very focused on and that was extremely measurable.",
+    "But at some point in my journey I switched over to technology just because it was like, what's this guy doing in legal? I'm not a lawyer, I'm not even an engineer. You know, it was one of those things that like, okay, keep doing that patent stuff, that's fine, but there's a whole bunch of other stuff to focus on and do. So how we would measure success was engagement because here's the reality, we didn't have to worry about ROI because when your spending is in the tens of thousands of dollars, it's not worth it. Like we're not going to do a 3M like calculation to say, well, what percentage of our revenue from the last X years comes from our innovation lab.",
+    "Like it kind doesn't matter from an ROI perspective at all because we weren't spending much money there. But what we would look at is how many employees do we have engaged. We hosted a thing called the, we would have this annual innovation tournament. We created this thing in house. Thousands of people would participate, everyone from, you know, executive assistants in the company to designers to whatever. It was built internally, done all this wonderful work on it. And we would use that and other events to just see, okay, how many people are we touching across the company. And for us that was our measure of success. Okay,"
+   ]
+  },
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 1636,
+   "paragraphs": [
+    "Interesting. So that's kind of borrowing almost from social media, which is engagement. So engagement and, well, in social media they basically look at engagement because they know that that leads to revenue. But they don't necessarily exactly know how or when. Interesting. So what are you doing now, Mike?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1659,
+   "paragraphs": [
+    "So now, actually one last thought on that, Sophia, and then we'll get into now. If we did have a bigger budget, it wouldn't have been that easy. I mean, and that is one thing like to really want to focus and make sure people know and understand as part of that. But like if we did have like millions of dollars we were spending, we would have had to generate an ROI. But again, just because we didn't have that to get the whole company engaged, for people to see that, for leaders at all levels of the organization to physically see the things that we were doing and all of these kind of points, that was proof enough I think for upper management to like, yeah, yeah, keep doing what you're doing, don't worry about it, you're fine, just keep going."
+   ]
+  },
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 1700,
+   "paragraphs": [
+    "So money is a blessing and a curse because I remember we had the head of innovation at Intel China on here and this was a few, quite a few episodes ago. And I asked him the same question, but he had a big budget and they actually had really big training initiatives and innovation labs where lots of engineers would participate and so on. And they kind of created almost like an internal business school for engineers. And he said, well, you know, we didn't make money for the, we were losing money for the first two years, but in the third year we actually had a really meaningful impact on revenue.",
+    "And now, I forgot the figure, but essentially he said the figure and it was something insanely big that now this CFO leaves him alone because the ROI is really evident. But he was saying that yeah, people were asking, you know, in the first two years like, what are you doing? And two years is actually quite a lot of time to keep on squeezing money out of the CFO. So you've got to really understand"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1765,
+   "paragraphs": [
+    "Corporate politics. That's one of the hard things with innovation, with R&D, you're not going to see the results of it immediately. It is going to take time to do that. And in a company like Intel, they need to be building the next generation of chips. They need to be, you know, Intel needs to be doing level three type innovation to, per what we were talking about before. So they will need to do that. So I think that is a difference between, you know, a software company versus a hardware company that needs to make sure that they are, you know, in front of the trends in the market.",
+    "Intel struggling a little bit right now, I will say. But yes, I mean, but they still need that. And maybe in some ways they need more of that and they should have had more of it too."
+   ]
+  },
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 1809,
+   "paragraphs": [
+    "Excellent, awesome. So now let's move on. What are you doing now?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1813,
+   "paragraphs": [
+    "Yeah, so PayPal 2022, I had 11 amazing years at the company and I really got to, starting to get so excited about what is now called generative AI. So really that summer I started to write about it a lot just because I was, I'm a non-engineer and I would have machine learning engineers come and give demos to me and see these products in other companies. I would see these things all the time and I'd just be jealous. I would just be looking at them and be like, man, I wish I could do that stuff. And I remember when I first got to play with like GPT-3, like wow, this is kind of incredible.",
+    "Like I can do this. It wasn't always working, but like it was a very clear path that like this is an amazing tool for the 99% of people in the world like myself who are not coders, who are not traditional engineers. And so I just got really excited about it. So I'm now at a university. San Diego State University has had an AI center for about seven years there. I'm a visiting fellow there so I get to study and mentor students. I get to teach, I get to write and do all these things about where we are headed with AI because it is the most, you know, I never used the internet before college and I went to University of Illinois and 1995, first year at Illinois, like literally just stuffs online.",
+    "Because, you know, Andreessen and the team, like they made Mosaic and the Netscape browser and all this was kind of at Illinois and in Urbana where it was, and it was like, oh my god, this is revolutionary. This is it. It was so exciting, such an exciting time and to see how that played out over the next five years and really the next 25 years has been incredible. This feels the same if not more. So these tools will change how all of us interact. And I'm just hoping to have some sway in helping people understand these tools today and frankly having us understand them because the people who create them, this is the first time really building software that the creators don't even fully know what they're capable of.",
+    "And it's just such an exciting time and so I'm kind of glad to be working on that and very much in the center of what's going on in AI"
+   ]
+  },
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 1969,
+   "paragraphs": [
+    "Today. Awesome. Well, thank you, Mike. And so my last question is for people who want to innovate at this level two level, what are the books or podcasts or materials that you can suggest that they read or listen to?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1987,
+   "paragraphs": [
+    "Yeah, I'm actually going to give a class in fact for people. And it's not a floral, but Adobe had created a concept called Kickbox. And Kickbox is something that they offered to their employees. Anybody could get this. They have open sourced it. So if you go to kickbox.org, I believe is the URL, anybody can access this. It's out there for anyone in the world. At PayPal we actually took that. So instead of paying for like innovation training, I kind of said like, oh, what Adobe has is like 80% of what I want to teach anyway. Kind of customized it, made it specific for PayPal and that's how we would teach innovation and the whole process there.",
+    "A couple of the big takeaways from that is you should always fall in love with your customer, you should never fall in love with your idea. It takes a lot of ideas. Like one of the best things about it is you make yourself a little journal and you call the journal Bad Ideas and that's your bad idea notebook. And I use this to this day. I come up with hundreds and thousands of ideas for god knows what and I just write it down. And when you just, if you're worried about only writing down the good ones, you're never going to write down."
+   ]
+  },
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 2058,
+   "paragraphs": [
+    "Don't be a critic. I always make lists of 10 bad ideas because then it can almost be funny when you just come up with ridiculous things. And then somehow behind the ridiculous things there's actually a good idea and you're like, oh, I didn't know that was in my head. That's interesting."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2073,
+   "paragraphs": [
+    "Sophia, that has happened so many times where we're doing brainstorm sessions or what else. I would literally often give out a prize, maybe it was a candy bar or something for whoever had the worst idea in the session. And it would be kind of a running joke and all that. But those worst ideas, one, it opens people up to not be afraid, allows them to throw stuff out there and they can say, yeah, I was just doing that to get the Snickers bar. But more so with that, it can lead to something. Somebody will say something so ridiculous that like, wait a minute, but if you actually did list this and this, that might actually lead to something and you never would have thought of it otherwise.",
+    "So again, Kickbox originally created by Adobe, open source. If you want to be a great innovator, go through the steps of that and you will learn how to make an amazing product in a great way and it's all free."
+   ]
+  },
+  {
+   "speaker": "Sophia Matveeva",
+   "start": 2124,
+   "paragraphs": [
+    "Awesome. Well, thank you so much, Mike. Loved having you on the show. It's a pleasure. Thanks, Sophia. Wasn't that interesting? Now, how are you going to use my favorite idea hack? What are you going to have 10 bad ideas about? Honestly, try this hack today and see what happens. You might be surprised. And if you found this episode useful and if you've learned from it, then please do leave this show a rating and a review. Your reviews honestly do help other smart people like you discover this free education. And also getting your reviews is just so meaningful to me. I really do read each one and they make me so happy.",
+    "So make me happy. I really love hearing from you. And on that note, I wish you a wonderful day and I shall be back in your delightful smart ears next week. Ciao."
+   ]
+  }
+ ],
+ "words": 6401
+}

@@ -1,0 +1,283 @@
+{
+ "slug": "the-innovation-conversation-mike-todasco-the-future-of-innovation",
+ "outlet": "The Innovation Conversation",
+ "title": "Mike Todasco - The Future of Innovation",
+ "date": "Dec-24",
+ "published": "2024-12-12",
+ "url": "https://podcasts.apple.com/br/podcast/mike-todasco-the-future-of-innovation/id1698345143?i=1000680207757",
+ "duration_sec": 2274,
+ "host": "Ricardo Pascual",
+ "speakers": [
+  "Mike Todasco",
+  "Ricardo Pascual"
+ ],
+ "turns": [
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 0,
+   "paragraphs": [
+    "Welcome to the Innovation Conversation, a podcast about innovators, both in business and real life, hosted by myself, Ricardo Pascual, and Harry McGonna. This podcast is also sponsored by Odev Tech. Odev Tech is your premier software development partner. Make sure you check them out at odev.tech. The podcast is also sponsored by notion.so. Notion is offering six months for free for new users. Make sure you check out our website at startup events.co.uk to read more about the software. Hi, and welcome to another episode of the Innovation Conversation. Today we are joined by Mike Todasco. Mike, welcome to the podcast. Ricardo,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 39,
+   "paragraphs": [
+    "Thanks for having me. I'm excited about the conversation we're going to have."
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 42,
+   "paragraphs": [
+    "Pleasure having you here, Mike. Would you like to introduce yourself to the audience, please?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 45,
+   "paragraphs": [
+    "Yeah, I'd love to. Hello everyone, Mike Todasco. My background is varied. I started off my career in the world of finance and accounting. I ran my own business for a few years. I joined PayPal, was in products there, worked on some really cool, exciting products in my time there. But then in my second half of my career within PayPal, I ran the innovation group there after we had separated from eBay. Did that for about six years, and then most recently left that to work at a university at an AI center at San Diego State University."
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 83,
+   "paragraphs": [
+    "Quite an impressive career. It seems like you're the right guy to talk about anything to do with innovation, but also AI, because I was having a look. I'm ready for it, Ricardo. Yeah. Okay, all right. So I think, having that background and coming from PayPal, one of the first questions is, how important is it for a tech company, or something that started as a startup and grew into this tech company like PayPal, to continue to focus on innovation? Look,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 110,
+   "paragraphs": [
+    "I think for a technology company, you need to be ahead of the curve. I live very close to where Intel's headquarters are. For anybody who might be following the news on Intel, it was a technology company that birthed so much of what we have today, but they missed mobile, they missed GPUs, they missed so many things. Now it has an ousted CEO, it's a shell of its former self, and that's what happens in technology. If you're not innovating, if you're not up on what the next new thing is going to be, you can still survive, but you're not going to thrive. So for any company in the technology space, you need to be thinking about what are the next platforms, and ultimately, what are the better ways that I can use technology to better serve the customers who I have now or who I want to be my future customers. These are questions that everybody in tech companies, or just about any company, should be asking themselves."
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 177,
+   "paragraphs": [
+    "What do you think makes companies continue to innovate? Is it leadership, culture? What are the defining things that actually help them?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 186,
+   "paragraphs": [
+    "PayPal had a culture of innovation because it was forced into it. Yes, there were some extremely innovative, creative people at the top, like Reed Hoffman and Elon Musk and David Sacks. All these people were founders of PayPal or very early employees, but they definitely created a culture that permeated. There were many things on the risk and security side of PayPal that were being forced into because PayPal as a company in 2000 was doing things that the world had not seen before. One example that I think was an amazing innovation, which sounds so simplistic nowadays, but back in the days when people were trying to add their bank accounts to PayPal, they had to send in to PayPal a paper check that somebody had to actually look at and type in and all this stuff.",
+    "It was a total archaic, really difficult process. Somebody suggested, an engineer I believe suggested, what if we had a pin number instead? This led to a thing that's actually still used today in banks in the United States, where often if you want to confirm your bank account, you will get a micro payment. They will send you 16 cents and 34 cents, two random amounts. You type those in, and that's a way that they can actually confirm a bank account. It's way less costly to send a few cents to somebody than it is to have a paper check and this whole process. That was just something that was birthed out of necessity.",
+    "So I think a lot of innovation comes down to what's the need, what are you trying to serve, and also having a culture that's going to encourage that. Of course, I'm sure we'll talk more about failure and things like that at some point, but a culture that is not going to, when you screw up, when it doesn't work, when you gave it a good faith effort and tried something, that's not the end of your career. You need to pivot and shake yourself off and learn from that and just move on to something else. How you create a culture that really emphasizes on those types of things, that's pivotal in making an innovative company. Well, I think"
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 318,
+   "paragraphs": [
+    "It just leads to my next question, which is exactly that. How do you manage to create that? Because a lot of people when they're working, they're quite afraid of making mistakes, and then they don't risk, they don't try to do anything new. It's more, okay, I know this works, I'll keep on doing this until it might die in days. But in reality, we all need to adapt, we actually need to grow very quickly. So how do you foster that within the company itself, and how do you promote that sense of it's okay to make mistakes, and actually expect you to make mistakes because that means you're creating something new?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 349,
+   "paragraphs": [
+    "Every company is different, and every company needs to find their own way to do that. I think leading by example is a great way to do that for senior leadership. If you only talk to employees about your successes, that is going to be a tell for them that they're not allowed to fail either. When you are a leader and you're very open in your own shortcomings, and you get up on stage and say, hey, we screwed this up, or when you say, I screwed this up as a leader, that's a tell to make it known that hey, it's okay to try stuff. We want to learn from that.",
+    "One company that actually inspired us a lot at PayPal was a company called Ben and Jerry's, which for people who might not know, is an ice cream company. One of the things they have at Ben and Jerry's is they have something called a flavor graveyard. At their corporate headquarters, they actually have tombstones for ice cream flavors that have not succeeded, the things that went away and so forth. That's something that their employees can see all the time when they're there as part of that. At PayPal, this was right before COVID, we never actually got to get back to the office and finish it unfortunately, we were actually making a product graveyard.",
+    "We were, and it was so great. We had a little model train set with trees and all that. We were kind of recreating the PayPal campus on this scaled down version with little PayPal products or representations of PayPal products with QR codes that you could scan and learn about that. We were interviewing the people who created these things that did not succeed and what they learned from them. Because again, it's not that, look, it's not that you're saying, oh, well, we should just keep failing. No, that's not the point. But failure is a stepping stone to success. You don't go to school or learn a foreign language just expecting, well, yeah, I'm just going to hear it once and I'm going to speak it fluently right back to you and understand.",
+    "No, it's an iterative process in how we learn as an individual or as a group. You have to learn from each step, and you're going to get better and better and better as you do that. To just say, I think a lot of companies' natural reaction is, that's a failure, we're never going to talk about that again. That is by far the worst thing that you could possibly be doing."
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 491,
+   "paragraphs": [
+    "It's interesting you're saying that because I talk to a lot of startups and those investors, and one of the key things that I think investors always look at is, have they been able to pivot? Because they know the first idea is not going to work out, so they're actually looking for the ability to pivot more than anything else. It just goes to show, exactly like you said, you need to continue to innovate, you need to continue making not just mistakes, but being able to take the risk and embrace that risk. It's part of the game, isn't it?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 519,
+   "paragraphs": [
+    "There's not been a successful company that exists today that didn't have horror stories, they thought they were going to die, and that didn't have to pivot. Again, to bring up PayPal again, PayPal was a company for wiring money between Palm Pilots. They were using the infrared technology between two Palm Pilot devices to send money, and that's what they were making the whole business about. It just happened to be that Max Levchin, one of the founders, made something as a test where people could send money to an email address. Frankly, from the stories I've heard, the company fought against that. They were kind of like, no, no, that's not what we're about, we're about sending money between Palm Pilots.",
+    "All of a sudden, these people started to use this testing thing that Max had set up for sending money to an email address. Then finally, as a company, they had to realize, actually, I guess that's the business. Then it caught on eBay and expanded to all these other things. That was a huge pivot for the company. Again, I don't care what company you are, you have had these stories. It's not always just up and to the right for growth. You are going to have to pivot, you're going to have to, and frankly, you have to listen to your customers. That is the big thing. 99.9% of the time, what you envision as what your customers want is not what they actually need.",
+    "You need to really talk to them, understand that, iterate again and again and again until you start to really find that product market fit."
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 607,
+   "paragraphs": [
+    "When you're leading innovation in such a big company, how do you get that feedback from customers? Sometimes, let's take for example a very recent case, Jaguar, the car company. They completely changed their branding and everyone's kind of against it. The product market fit still remains to be seen, I would say, at this stage. How do you find, within your company, how do you manage to find that?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 628,
+   "paragraphs": [
+    "Jaguar's interest, to me, I feel that this is kind of just like a ruse. Again, not to go too far down that path, but it's been fascinating, the rebranding that they've been doing. Because nobody cared about Jaguar before. I don't know what percentage of global car sales they were before this. They were definitely not top of mind. I bet you they weren't in the top 15 car companies. Most people would kind of rattle off or anything. So it's really interesting to generate this and to say, well, we're actually all electric, we're all this now, and we're not about the car anymore, whatever this is. Sometimes, if you were Toyota, you probably would have made that because they're the number one car maker in the world.",
+    "But when you're number 15 or whatever Jaguar is, you can take a risk and do something innovative and creative. That was not your question though. Your question, Ricardo, was actually about how do you talk to the customers, how do you get that feedback loop and so forth. I think you need to empower your individual teams more than anything. At PayPal again, we had one team that was focused on charities. The needs of a charity for money and collecting funds and so forth are very different than the needs of a small business that's just an individual, a medium sized business who might have more sophisticated integrations, versus a large business who like a large enterprise.",
+    "All of these had different teams focused on them. You need to empower the people in the field to be able to do and build what is best for their own customers. That is the one truth. As a CEO, you can't dictate those things. If you're a five person startup, well, okay, but then you should be the person that's out there talking to the customers, listening, asking questions, and getting to what their problems are. You really want to solve those problems in a way that is innovative, unique, dare I say 10 times better than the way that they're solving their problems today. If you can do those things, then you're going to have a successful product.",
+    "The one question to always ask a customer, and this could be as you're investing in a company or whatever else, if your product disappeared today, how would your customers react? If it's not like outright horror and shock, I mean like, oh my gosh, what am I going to do now? Listen to Spotify on the way here. I just got my year in review, my Spotify wrapped. Yeah, there's competing products out there. I love my Spotify. The 20 bucks a month we spend as a family plan, we probably spend 100 bucks a month for easy. I also grew up in the 1990s where CDs used to cost like $17, so it's ridiculous to me how cheap music is nowadays.",
+    "But given all that, that's a product that has clearly found fit with their customers, they've built a loyalty and so forth as part of that, even though there are Apple Music and other competing services out there. They do it much more elegantly, and they know your customer. Those are the type of experiences that you need to be able to strive for."
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 822,
+   "paragraphs": [
+    "We kind of touched upon something interesting, which is getting feedback and therefore learning from your customers. Now I want to make the jump to AI, to AI, because I know you're very passionate and vocal about it. How do you see this whole AI evolution? Is it like a massive threat that we should all hide underneath our beds or something, or actually should embrace it and just stick it to"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 843,
+   "paragraphs": [
+    "The end? I think the answer is we need to embrace it. Maybe we should be hiding under our beds, I don't know actually. I actually don't know how this is all going to play out. Again, I've already kind of teased my age here, but I started school in the 90s in college, and I had never used the internet before getting to school. I happened to be lucky enough to go to University of Illinois, and the first time I went to school there as a freshman, day one, in the computer labs, there are these browsers and these blue links, and you click on things and it takes you places.",
+    "I felt like I just had entered the future when I was there. I went back home to tell my friends about it over the holidays and everything, and they were like, what are you talking about? It wasn't, and of course that played out and that's very much the world we're living in now. What we're seeing in AI is so much bigger than the connectivity I think that we've had from the internet. For so many years when I was at PayPal, there were brilliant machine learning engineers there. They were doing amazing things with the amount of data that we have, with natural language processing, with all these different aspects of the broader world of artificial intelligence.",
+    "I'm not an engineer by trade, as I started, I was a finance and accounting guy going way back when, so I could never do the things that they did. But fast forward to today, and you have the most powerful models in the world that the world has ever seen that you can talk to in natural language, either by typing or literally by voice, and you can use these tools for 20 bucks a month. It is just mind blowing at the amount of power that we have. I think people who are really into it, like myself, are seeing how it changes our workflows, things that we do with our families, and just our lives in general.",
+    "The rest of the world hasn't fully caught on. I mean, I think ChatGPT or OpenAI has said ChatGPT is like up to 300 million users now on there, but that still is what, 4% of the world's population or something like that? It's still a tiny number if you consider over half of the world is online. So most people are not using these tools. I think you are going to see the tools continue to improve, I do believe that's going to happen. And I do think even more than that, we're going to figure out even more how we could use these tools more effectively. We're going to learn from each other.",
+    "Even if the tools didn't improve today, there's so much more gain that we have in front of us. So what that means is, they're not taking our jobs yet. Could they? Possibly, yeah. More likely though is our jobs are going to evolve, and they're going to greatly evolve and greatly change. Just like if you are doing things, if you're a salesperson and it's 1996, let's say, and you've said, oh, my job's not going to change at all over the next 10 years, well, you would have been very wrong about that. Because you're probably doing a lot more email, you're probably doing a lot more this, or whatever else as part of that process.",
+    "If you're in sales today, I think the human experience, the one-on-one connection, does matter. But you can have an AI that's listening in on your sales calls and evaluating you on how you're doing your performance so you can improve that. You can have it updating your CRM automatically based on the notes for those calls or whatever it might be. There's just so many different use cases. I think what's important for all of us is to stay on top of this within our personal lives, within our business lives, to just really embrace the tools that are out there. Know that they're going to change, know that they're going to improve.",
+    "Even today, I think no matter what your job is, if you just spent three, four, five hours with these tools, you could really start to uncover, oh my gosh, I didn't know that that was possible. I used to do things this way, now I can do things this way. That is going to be essential for anybody who's out there to really stay on top of this, to make sure, yeah, my job is going to evolve, my job is not going to just go away when these models."
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 1107,
+   "paragraphs": [
+    "I read somewhere about a comparison, and that was when cars were invented, and how in 20 years, again, it was a slower adoption, everyone went from having a horse and carriage to having a car, or thinking about having a car. Of course, with the move from one industry to the other, you had a lot of jobs that just disappeared. You don't have that many saddle makers, you don't have that many people putting horseshoes onto horses because you don't have the need. But you do have the transformation of those industries into becoming mechanics. Maybe now they're selling tires instead of selling horseshoes. I agree with you, I think that's probably what's going to happen. We're going to have a lot of transformation, but positive transformation. People will continue being people, so that's probably not going to change."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1150,
+   "paragraphs": [
+    "I mean, I was talking to somebody about this just recently, or using the example of McDonald's. In most McDonald's, there's a self-service kiosk where you just punch in your order versus a person you're talking to. So that job has been eliminated. Keep playing this out and then, okay, well, are they going to eventually, if you're flipping burgers over, if you're cleaning the tables, all of these things could become robotic. So what does McDonald's look like 20, 30 years from now? Who's employed at a McDonald's? Is it nobody? I don't think it's nobody. I think it might just be people repairing the robots and fixing these things and restocking and doing the things that actually are really hard for robots to do potentially.",
+    "Is that going to be more or less employees than today? I don't know. It might mean, just look at the parallel to the ATM. The concept of ATM machines, which was introduced in the 1970s, people thought bank tellers' jobs are done. Of course, there are more, in the United States at least, there are more bank tellers than there were today. There are more bank tellers today than there were in the 1970s. Why is that? If the ATM existed, their jobs changed, they morphed, they became something new. Also, it enabled banks to open up more and smaller bank branches where they don't need as many people.",
+    "Maybe that's true for McDonald's. They're going to have a bunch more McDonald's on there because they only need to have three employees instead of eight or 10 or whatever it might be. Is that a good thing? I don't know. But these are the types of changes I think we're going to be seeing."
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 1241,
+   "paragraphs": [
+    "It's just about the knowledge and access to it, not just access to information, but the ability to process information and actually action information as well. Because when the internet first started, we can now find things online, we can now interact with people. But all of a sudden, it's like, actually, I can take all this information, I can take all this knowledge, and actually make my computer do something for me based on that and do exactly what I needed to do. That is incredibly powerful, isn't it? From my working day, it's like I do so much stuff with AI that would take me hours and probably weeks to do before. Now it's like, click a button, here you go, awesome. So my ability to work just went 1,000 times bigger, so it's quite powerful."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1281,
+   "paragraphs": [
+    "In my workflow, I write a lot and I constantly am using it for writing. I'll use tools like Perplexity to find information, but then I will use the AI tools to edit my writing all the time. One of the first things I do whenever I'm done writing something is I'll throw it in Claude and I'll be like, hey Claude, fact check this for me. Which I know seems crazy to have an AI model do that, but if it sees something wrong, if I'm misquoting something, it'll usually lay out, these are what I think the facts are, these are the things that might be wrong. I'm like, okay, well, maybe I did get that quote wrong, I should probably go look into that a little bit more.",
+    "Then it's just turn after turn after turn that I do on this. If I could afford to have a full-time human editor at all times doing this, I would, like just have three newsletters. I'm not going to do that, but this enables so much more to happen just with really quick and rapid iterations. That's just for writing, you're right. Apply this to any function, any type of knowledge worker function that is out there, you're going to find so many different use cases just once you start to open your eyes and become familiar with what these tools can do."
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 1352,
+   "paragraphs": [
+    "I have an interesting question for you because I know you also teach here. Now students traditionally were taught to memorize this to an exam and kind of show us what you managed to memorize. Obviously that's not the right way to do things anymore. Now with ChatGPT and a bunch of AI models, that massively changed. Has education started to embrace that, the fact that people are more upgraders instead of just holders of information, or is it still very traditional from your perspective?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1382,
+   "paragraphs": [
+    "I'd like to take the historical perspective. If you would say, what was an intelligent person 500 years ago or whenever it might be, often it would be something like, it's the person who's memorized the Bible. Memorization was that because 500 plus years ago, around the time of the printing press, books were not common, they're extremely expensive. Oh my gosh, the person memorized the Bible, that's great. If you memorized the Bible or whatever, more power to you, but nobody would say, my god, you're the smartest person around. You might be, but it's more of a parlor trick today. There's a book called Moonwalking with Einstein, and it's actually all about memory competitions.",
+    "It's a great book, came out 10 plus years ago. Again, it's a sideshow because we as a society used to think that memory and memorizing the things was the mark of true intelligence. Now, again, not so much because we have devices that will memorize things for us, we have books that are readily available. We get to search whatever we want to whenever we want to on the internet. So access to information isn't the problem it used to be. Looking at where schools are at today and where this is going to go and how we think about that, I think, let's just take computer science for example.",
+    "A lot of what a university would do in the past and even somewhat today is teaching you how to build programs, teaching you Python or teaching you C++ or computer languages and all this other kind of stuff as part of that. I think it's great to learn a computer language, but when you have a model like Claude or Cursor or whatever, Bolt, which is a new product that a lot of people are talking about, they can code extremely well. So the skill that will matter going forward isn't necessarily, I know how to manipulate Excel and all the formulas in Excel, or I know how to do this, whatever it might be.",
+    "I think it's going to be much more like, I know how to think like an engineer, I know how to have a logical thought process like an engineer, like an economist, like an accountant, like a lawyer. Take whatever discipline you want, and I think what is going to matter the most going forward is really the thought process that you have behind these things. Because the grunt work isn't going to be what we today look at grunt work, this is going to be stuff that's easily done by computers. We're going to be much more directors of whatever experiences we have. It could be literally director of a film that you're having an AI develop and you say, well, let's move the camera here, let's do this, and you're adding your taste from that perspective.",
+    "Or it could even be, hey ChatGPT, here are five different companies I want you to evaluate, I want to buy one of their stocks. It's going to give you that and you're going to have to ask the right questions and really think through that process. Yes, it could say, well, this is the best stock to buy, but in reality, it's never going to be able to fully get into your head to know your true motivations and all this other stuff as part of that. So I think it's really important for us to learn how to think logically or whatever is the most important thought process, that is what should be taught in schools. That is really what's going to."
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 1600,
+   "paragraphs": [
+    "Cultivate that, not just from schools, but in your professional career. How do you cultivate the thinking, the ability to actually think about a problem and manage to fix it without just saying, this is what I was taught in school so it always works?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1614,
+   "paragraphs": [
+    "If I was a teacher, I would start the year with giving my students a questionnaire. I would say, hey, who are your three best friends? What are your, and this could be true for any grade level, mind you. Your three best friends, where do you grow up? What do you aspire to do in your life? What do you like to do in your free time? Blah. Let's just say I'm teaching math. I would then have a large language model basically input all of that information about the students, and every time I'm handing out homework, I would actually do homework that is customized for their own experience.",
+    "So if my daughter is into stage acting, which she is, I would be asking a whole bunch of math questions to her uniquely that would be bringing in aspects of acting and all of these things that are really things that excite her. When you are tapping into somebody's personal passion, that is what matters more than anything. That's one thing for teachers, these large language models enable us to do. There's no reason why you have to give 30 students in your class the exact same questions. You can give them all individualized tests or quizzes or whatever that are tailored to them about what it is. Now, of course, you have to figure out what's going to be fair, whatever, we can figure that stuff out.",
+    "But more importantly, it's like, can you get these students to learn better, more effectively by literally talking to them in their own language? It might even literally be in their own language. Let's say they're a non-native English speaker and in school that is primarily English. Is it more important in that math class that they focus on their English skills, or is it you could actually give them math problems in Portuguese or in Mandarin or in whatever? I as a teacher don't speak that, but I could have a large language model actually churn that out for them. Amazing, let's do that. That will help them, they can still have English class.",
+    "But in math, I just care about the principles, I care about the thought process, and let's use that as much as we possibly can. Those are things that are really enabling today people to grow more and to find passion in places. A great teacher matters more than just about anything that you could have to give you that passion to learn about that and learn those thought processes. Again, I think these language models for the right teachers can be the unlock to enable those kind of things to happen."
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 1764,
+   "paragraphs": [
+    "I always like asking this question, which is, what excites you about the future? Because we have so much going on right now, so what's that one thing that makes you get out of bed every morning apart from the alarm?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1776,
+   "paragraphs": [
+    "Yeah, look, I mean, it is AI, it's where these models are taking us, specifically the area of health and wellness. That's actually what excites me the most. I have a custom GPT set up just for myself with ChatGPT. I actually got a Dexa scan, this thing you lay out on a table, they scan your entire body, it says how much fat, how much bone, how much muscle, all this other kind of stuff. I get these every three months, I load it into ChatGPT, I get all these other things in there. It knows so much, it knows more about me than my doctor ever could, realistically.",
+    "A doctor in the United States has probably three, 400 patients in most offices, they don't have time to know all of this about you. I see my regular doctor 15 minutes a year, but my AI has infinite patients and infinite focus towards me, and I could ask it any question I want about my diet. I could take a picture of a menu and say, hey, given this, what's the best thing that I should eat on here, or what are the top three things? It kind of narrows things down for me and says, based on your goals, based on your diet, based on your latest blood tests, this is what you should focus on.",
+    "There's so many ways you could do that. This is just me working with a $20 a month off the shelf ChatGPT model that I kind of created for myself. You could have whole companies built off this, and people are starting to, but I think we're just at the very earliest phases of this really customized experience. In the United States, we spend almost 20% of our GDP on medical related expenses, and we're just so inefficient. We don't have the outcomes that here, and now you have at least a decent doctor in your pocket and potentially a doctor that could almost be world class. I'm not saying doctors are going away, they're not.",
+    "The human element really matters. But from traveling to the other side of the world, I can't just have my doctor on call 24/7, that's not realistic. Any little thing that appears on my skin, I'm like, what is this thing? I can literally just snap a picture and ask an AI, and it's going to give me a pretty accurate answer. Again, this is not medical advice, people still need to see their doctor, but the direction that we're going for this thing, oh my gosh, it's"
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 1920,
+   "paragraphs": [
+    "Incredibly incredible. I was reading somewhere that it came down to nutrition, and the conversation was about nutrition at the end, and they said that whatever you're learning in medical school and when you actually start seeing your doctor, that's knowledge that's 50 years old. Yeah. When you ask a doctor for nutritional advice, they'll tell you the basics that they learned and it was taught to them by teachers who were quite old at the time. You're learning something from 50 years ago without actually encompassing everything that has actually massively changed. People actually found a lot of research on it, then a lot of research on it. When you talk about that model, you just talked about it, and you incorporate that into ChatGPT or whatever it might be, it's transformative.",
+    "They can just say, look, the latest research actually shows that you shouldn't eat frozen food all the time and fast food is actually not that good for you. Try eating some more vegetables and stuff like that, and here is why. It's actually quite powerful that, isn't it?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1971,
+   "paragraphs": [
+    "Absolutely. I grew up in the 1990s and the 80s and 90s, it was a time of the Snackwell generation. I don't know if you know what these were, but basically, this was a time where fat was evil, fat would make you fat. There were cookies that they would remove all of the fat and just throw more sugar into these things, more and more sugar. It's fat free this, fat free this, whatever else. These things get locked, even if you're not in medical school, just as a citizen, to just be able to say, hey, based on the latest research, based on what we know today, what do you think about my diet?",
+    "I'm going to just log what I eat for a week, what could I be doing better on that? There's so much value in that, just to have, and for a doctor, it's impossible to keep up with all of the latest research and publications. Physically, no one would have the time to read through all that, but an AI could. If I'm a doctor that just has an AI in my ear or in the room and I'm talking to a patient and after that or at the end of the day I might say, hey, anything I can improve on what I'm saying? Well, you actually told Mike that most of the research today is actually pointing in a different direction.",
+    "Do you want me to tell you more about that? Those are amazing types of tools that would be available. Again, some people might find that threatening, like what does this computer know that I don't? The computer has access to all the world's knowledge, where we as humans would never be able to access that. So I hope we can use this for good in medicine just like we're"
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 2073,
+   "paragraphs": [
+    "Striving. It's funny, I was thinking about Tic Tacs, right, those little small mints. Apparently they classified as zero calories because anything in the US that has less than two calories is literally fine, you can eat it because they don't classify it as a calorie. But if you eat the whole package of Tic Tacs, it has a lot of sugar, but it's technically zero calories, it is as you want. Is that 100% accurate? Probably not."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2097,
+   "paragraphs": [
+    "No, that's hilarious. You round down and it's zero and the serving size is one, which of course nobody does, and then you just eat the whole package of them and you're like, oh yeah, it was free calories. That's hilarious."
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 2109,
+   "paragraphs": [
+    "I wonder if I'm putting on weight every day. It's basic things like that that actually make a big difference. I always enjoy asking this question, which is, what's the latest book you read or the most impactful book you"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2122,
+   "paragraphs": [
+    "Read? It's actually really funny you said that because I'm going to give two, an AI one and a non-AI one. For AI, I'm actually writing an article right now which I'll release next week on my favorite AI books of 2024. I actually got one right here. So I have a visual aid, you didn't know I was going to have that, but I happen to have it handy. Co-Intelligence by Ethan does the best blog I think out there. He's a professor at Wharton, does the best blog on AI. If you're in the world of AI like me, I took a lot out of his book, there's so much great information.",
+    "But he also explains things in very readable, human, simple terms. So just really powerful, impactful. If you're to read one AI book, Co-Intelligence by Ethan is just phenomenal. The other one I'll recommend, totally not related to AI, is called Same as Ever by Morgan Housel. It came out last year, and I've just decided, so I read it again recently, I'm just going to read this book every year just because there's so much in it. The stories he tells are amazing. Effectively, the story of the book and the thesis of the book is people don't change. What we do, our motivations, all of these things that we think are new, the desires we have, all of these things just been around forever.",
+    "As you start to kind of look at the patterns of this, the world and especially the future makes more sense. He always says, if you want to be able to predict the future, you should read history. These are the kind of things, and Same as Ever is an amazing book. He's a great writer as well. Really great stories."
+   ]
+  },
+  {
+   "speaker": "Ricardo Pascual",
+   "start": 2229,
+   "paragraphs": [
+    "Thank you so much for your time and for these wonderful recommendations. It's been a pleasure having you here on the podcast. Ricardo, this was a lot of fun. Thanks for having me. Thank you. The podcast is also sponsored by notion.so. Notion is offering six months for free for new users. Make sure you check out our website at startup events.co.uk to read more about the software. This podcast is also sponsored by startupnetworks.co.uk. Startup Networks is an online forum where you can find all the resources you need to run your startup, from grants to investors to tips and tricks on how to be successful in your startup. This podcast is also sponsored by Odev Tech. Odev Tech is your premier software development partner. Make sure you check them out at odev.tech."
+   ]
+  }
+ ],
+ "words": 6847
+}

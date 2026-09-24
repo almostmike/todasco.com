@@ -1,0 +1,301 @@
+{
+ "slug": "the-cto-show-with-mehmet-409-from-product-to-innovation-mike-todasco-on-ai",
+ "outlet": "The CTO Show with Mehmet",
+ "title": "#409 From Product to Innovation: Mike Todasco on AI, Automation, and the Future of Technology",
+ "date": "Nov-24",
+ "published": "2024-11-04",
+ "url": "https://podcasts.apple.com/kz/podcast/409-from-product-to-innovation-mike-todasco-on-ai-automation/id1664662565?i=1000675618416",
+ "duration_sec": 3339,
+ "host": "Mehmet Gonullu",
+ "speakers": [
+  "Mehmet Gonullu",
+  "Mike Todasco"
+ ],
+ "turns": [
+  {
+   "speaker": "Announcer",
+   "start": 0,
+   "paragraphs": [
+    "From the heart of Dubai where tomorrow is being built today to the world. Welcome to the CTO show with Mehmet. Here we redefine technology and reimagine possibilities. With Mehmet, delve into the riveting realms of AI, cybersecurity, and digital technology. Experience the thrilling highs and lows of startups. Immerse yourself in the spirit of entrepreneurship and witness the future of business innovation being written in real time. Now, without further ado, let's tune in and explore the future."
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 42,
+   "paragraphs": [
+    "Hello and welcome back to a new episode of the CTO show with Mehmet. Today I'm very pleased joining me Mike Todasco. Mike, the way I love to do it is I keep it to my guests to choose themselves, but for you know, it's like a great mix. We're going to talk about a lot of things, innovation, AI and Gen AI and, you0 know, also about startups and investments. So I'm going to keep the floor to you now and then we're going to take it from there."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 74,
+   "paragraphs": [
+    "Oh, all right. I'm at. Well, first, thanks for having me. I'd love to be here. I'm really excited about the conversation. So my background is I started my career as an accountant way back in the days and I know you have tons of accountants on the CTO show, I'm sure. But it's actually how we started way back when I moved in. I started a business. I moved into PayPal, was doing product there for about six years and then running innovation for PayPal more broadly. Went to a bunch of schools in that time and most recently I'm the last couple years been at the AI center at San Diego States working on teaching, research and many things in the in the ever changing world of AI."
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 122,
+   "paragraphs": [
+    "That's fantastic. And again, thank you Mike for and I'm very thankful that the audience they know about it. So it's very early for you on the west coast now in the US. So thank you for making it that early to just record this episode with me today. No problem. Yeah, so usually what I like and personally I'm very curious to know is what you know, attracted you from, you know, doing this shift in your career from, you know, kind of finance to product management and then to innovation. So was there anything that, you know, drove you to take these decisions or like it was like all happened, you know, as I would say out of destiny or I don't know, luck. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 177,
+   "paragraphs": [
+    "No, I would say what really I first of all, I was a really bad accountant. I think that's the first thing. I think right in the beginning I didn't even know what debits and credits were. Like when I got in there, I could remember which one was which. And if you don't know that as an accountant, you're not going to be very good at it. So that was part of it. But look, I was always a very curious person. I was very into technology. I remember I was living in Ohio, which is kind of central in the middle of the United States. And in 2004, so this had been, yeah, 20 years ago, we actually had a robot lawnmower, which was this company called Friendly Robotics.",
+    "I found it and like I was just always into technology stuff. So, so yeah, 20 years ago literally had a robot cutting our lawn. It didn't necessarily do a good job, but I love tinkering, I love playing with stuff and so forth. Was always just very curious and very excited about technology, emerging technologies, the history of technology, all that stuff. So I was doing, you know, finance, accounting, corporate strategy, private equity type stuff, but then moved to Silicon Valley. And when you're out here, it's kind of hard to like avoid all that. I mean, to me it was, I remember just driving around like, oh my god, there's there's eBay's headquarters, there's Yahoo's headquarters, you know, because in 2006 that was really exciting to see those type of marquee names are out here and just became part of the culture here very much.",
+    "And when I had an opportunity to take a job at PayPal, I just jumped on it. It was doing product analytics at the time, so just introduced me to the world of products. So it was sort of adjacent to finance kind of a little bit. I was least able to make a case so they would hire me. But like the whole world of product excited me because it was just about, you know, how do you service your customers? And that's something I've always been just very passionate about. So you take your customer's wants and needs and translate them into something that you and your team can actually build.",
+    "And I love doing that. And again, did that for the first half of PayPal and then we worked on some next generation type stuff which brought me into the world of innovation."
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 311,
+   "paragraphs": [
+    "That's fantastic. Now, you know, within PayPal you moved from, you know, product and by the way, I'm very product biased person because I believe product people and I've repeated it every time I had someone with the product management background because you are a very centric person, you know, talking to marketing, talking to sales, talking to engineering, like you get talking to customers also as well. So but PayPal is a specialist, a giant of course. So during that tenure for you, Mike, what was like one of the main, I would say, exciting things for you, especially because it was kind of, you know, the new thing and at the same time, you know, not many people were like, okay, if you ask someone, you know, probably I don't know, like 10 years ago, like do you think this is going to become mainstream and you think like these online payments will become mainstream?",
+    "Maybe they will have some doubts like any other new technology, but you did it with something which was kind of, you know, conceivably new. It wasn't new, I know, but I mean having, you know, this in something which's kind of emerging, you know, talking to customers like what I'm curious about honestly, the feedback from customers, especially if someone is like kind of, okay, will this really work? Like will this become really mainstream? So if you can share this experience of, you know, being a product manager for an emerging kind of new technology or a new thing in the market. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 419,
+   "paragraphs": [
+    "I want to get back to two examples. The first one kind of went exceeded our expectations. The first the second one did not. So the first one was when I joined PayPal, I joined in 2011 what was the mobile team. So mobile was its own separate kind of weird group within PayPal. They had just acquired a company called Song that David Marcus who later went on to become president of PayPal. He it was his team and they were kind of taking over mobile. Mobile was a tiny sliver of PayPal's business. I think in 2010 if I'm remembering the numbers right, it was like less than a billion dollars of payment value.",
+    "So less than a billion. PayPal today does over a trillion total. So it was tiny. And I think they were including iPads in there as mobile to be honest. So it was like really kind of swirly as to what was a true mobile payment. But I remember one time we put up a slide saying something like, this was internal, but like it's going to grow 50x in the next four years or something or something like that. And it was like, are you kidding me? How's this going to grow 50x where we're at today? This just doesn't make any sense. And we kind of did like, okay, we're we're going, I don't get it.",
+    "And then I actually remember years later looking back, I'm like, oh, we were we were underestimating how big mobile was going to be. And so to be kind of at the epicenter of that when it's just a weird part of the business to actually becoming the entire business essentially is mobile payments now. That was super exciting to be part of and to be in the middle of. Another one which is mobile related, which I was more closely involved with, is something called PayPal Beacon. And this was in 2013. We had a really a brilliant engineer who was kind of doing this as a side project.",
+    "He was looking at the new Bluetooth 4.0 specs that were coming out. Kind of came to the realization that, huh, this little, you know, we could take a little piece of hardware as represented by the pen here and this could actually talk to a mobile device. And you could actually have these two things passively talking to each other. What does that mean? That was kind of the fun stuff that the rest of us on the team got to figure out. Like if you have hardware that's in a retailer store talking with the mobile device that the customer has on their person, well, what can you do in those circumstances?",
+    "So it was super exciting building that out. And that was a circumstance where the merchants, the retailers, they loved it. I mean, I will say we talked to a very large coffee retailer for one. And that coffee retailer was like, well, does this mean that if somebody pulls up in the parking lot that this little device can actually know that this person has actually pulled up and is talking to that passively and we could start making their coffee the second they pull in because we know what their favorite is or whatever. Like yeah, that's the kind of stuff that you could do here. So I don't think there was a large retailer in America, potentially the world that we were talking to about this product.",
+    "The flip side of that is consumers hated it. And it's not for the reasons that you would think that they would hate it today. So we actually had so where PayPal's headquarters is in San Jose, right up the highway 101 is Palo Alto, which is where Stanford University is headquartered. There's University Avenue there which has all these little retail shops and we had relationships with many of them. So we put a few of these in stores, pushed out some app updates and just if you were in those three stores you would actually see it. And once a week I would spend a day there just talking to people, using the PayPal app, sometimes giving them money to do that.",
+    "And look, these were Stanford mostly Stanford University undergrads going to stores. They used PayPal to send money back and forth, whatever. But the feedback that we were getting from all the students was why would I use my phone to buy something in a store? That was like the universally the feedback that we got from them. And they're just like, why? I have a credit card. I don't need that. And look, these were as tech savvy as you could possibly be. But in 2013 it was not the right. And look, here's the reality. Merchants loved it. Consumers did not love it. They just did not see the use of that.",
+    "And this was a great way. We tried some tweaks to the product, we tried to do some value add. Like, you know, you can only do so many offers and a new payment product because the margins and payments, you know, like if somebody spends $10, like 30 cents of that is going to PayPal roughly. And then, you0 know, out of that the actual profit PayPal keeps is pretty small. So there's not like you could just start throwing money at these things. There just wasn't the energy within the company to like create this entirely new business because we're frankly too early. So that was a time where I mean, and thank goodness we did talk to customers and did do this small sample because the world really wasn't ready for it.",
+    "Now pandemic comes around, all these other things change and then like the world was ready for it then, but in 2013 not at all."
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 733,
+   "paragraphs": [
+    "Right. And then later on you moved to innovation and you did things, you know, and you mentioned in the intro like, you know, you like also emerging technologies. So at PayPal like what were really the some of these emerging technologies that, you know, really, you know, you bet on them and then later on, you know, they really became something, you know, mainstream. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 765,
+   "paragraphs": [
+    "Well let me start with a failure because I really like to start with those because I do like that both sides of the point. Like I mean that is part of innovation. If you're not failing, you're not trying hard enough as I would always say. So I mean look, we would explore things like we were doing a lot in like exploration of augmented reality. We were using like Microsoft HoloLens, Magic Leap. I even remember Epson, the computer company had some weird AR thing. We actually had some Epson people give us demos, did a whole presentation for a bunch of innovators in the company. We had those.",
+    "We were building all of these experiences on there. And this is, you0 know, 2016 around that time frame. I'm thinking that hey, we're moving to a future where this is not going to be the standard, but it might be something like a glass or something like that. Again, like probably the right thing for an innovation group to work on, but for bringing that to market it was it was not the right time though. And yeah, there were some like phone based AR innovations we did, the kind of prototypes we put out there, but for the most part like this was just these were experiments, this was trying stuff.",
+    "One thing that that did work really well was on the blockchain side. So I'd say probably around 2016 as well, that's when I really started the role. We were exploring with blockchain technology for amongst like the first times within the company. A lot of just internal tests and pilots and so forth, but we're just building those muscles. And you know, fast forward a few years, we actually built out a full blockchain research group within innovation. And that was looking at things and among them was like what would a PayPal stable coin look like? And for folks who don't know, so what a stable coin is, is it is a cryptocurrency just like Bitcoin or something like that on a certain network.",
+    "But unlike Bitcoin or Ethereum, it's actually pegged to something. And in this case, most stable coins are usually pegged to the US dollar. So it's an easy way to exchange dollars, but you know, if you have this stable coin, there is an actual dollar that you could get back at some point. So there's a lot of advantages of just like lowering transaction cost, especially across borders and things like that. So I was doing a lot of the work on that and while I no longer at the company and no longer on the team, I think I just saw something posted within the last month that they've done over a billion dollars in market cap.",
+    "Yeah, yeah, I think a billion dollar market cap now for what they call PYUSD, which is the PayPal stable coin that they launched last year. And so like, you know, that was exciting to see that. And, you know, while we started in 2019, it was almost like, you know, three, four, five years later that that really starts to become a reality."
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 938,
+   "paragraphs": [
+    "And now like further like I mean beside or let's say putting, you know, what you've done at PayPal aside, I want you know, Mike in general like because you run, you know, the innovation lab over there, right? So to and I'm asking this question maybe for corporate or maybe like even some big companies who are thinking to start their innovation labs, right? So what are like the main things really they need to focus on, right? So do they need for example to follow the trends? Let's say now AI, right? So everyone talks about AI. So they want to put everything in the AI or they want really to go and see okay, what are like the problems that us as a company, you know, we play in this sector and let's go and see what new innovation we can bring there.",
+    "Like and you've done this for a long time, so I'm sure like you can share a lot of experience around running innovation labs. 100%."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 999,
+   "paragraphs": [
+    "And I would say for starters, the first thing I would ask if you're looking to start an innovation lab, like it is what you're alluding to here is like what's the goal? Like why are you doing this? Are you doing this because you want to tell shareholders or employees that you're doing innovative stuff? I mean, maybe that's it. Maybe that is a good reason to just say like, hey, yeah, we got we got innovation, we're checking a box there. Is there some competitive threats in the short, medium or long term that you think you're facing? Are there other things that are happening where, you know, you just need that or you need to build up the culture and work these muscles or whatever it might be?",
+    "Like I think the first step in it is to prospectively see what it is that you're actually trying to achieve. Then what I would actually do with that alongside, I would then kind of take a look at the I think this was McKinsey put out like the innovation horizons. There's like horizon one innovation, horizon two and horizon three. And horizon one is like and again, none of the this is not said disparagingly for horizon one specifically, but like it's incremental innovation. It's existing products, existing markets, but improving, constant improvements, you know, just like how are you building out better, kind of what's going on in the next six to 12 months almost.",
+    "Horizon two would be like new technologies for existing customers or existing technologies for new customers. That would be that. And that's a lot of what we focused on at the innovation lab at PayPal was horizon two. Horizon three is also going way further out there. That is much more like new technologies, new markets done in a completely different way, different time frame. This is Microsoft research, you know, or Bell Labs. This is looking at quantum computing. This is this is much further out there. We strategically said we were not going to be playing in that game. The focus was going to be on horizon two innovation.",
+    "So once you sort of have that defined, the next thing I would say and look, just because you define it now also doesn't mean that it can't change. One of the things about innovation is like you need to be flexible. For us at PayPal, the focus was really it really wasn't about the products as much as permeating the innovation culture that we had as a company that really was at the company's core from its starting. There's so many, you know, both little and big innovations that just came out of necessity from the very early days at PayPal. A guy named Jimmy Sony wrote a book recently called The Founders that kind of walks through a lot of that.",
+    "He talked to Elon Musk and Reed Hoffman and everyone like Peter Thiel, the original kind of founding group to pull together this book and I highly recommend it. Jimmy's great. And if you're interested in that, you can kind of see that. And that's the history we were sort of building on. Well, that was when we were 200 people, 300 people. How do you make that work for 20,000, 30,000 people? And so a lot of that was the focus that we had at the company just within PayPal. And the last step that I will actually give on that was do it with not much money. Start low.",
+    "Like basically I when I started that job, I said to my boss, hey boss, I need this and this and this because I got to spend for this and this and this. And her response is the best thing that could have ever happened. She basically said, like you don't got it. You just figure it out. Like these are the goals that you need to achieve. Figure it out, go do it. You really don't got money for it, find a way. That was the best advice I could possibly have because one, it gave me much more freedom to experiment, enforced me to experiment as well. And two, it also kind of there was never corporate rigor like from the CFO or for the finance team.",
+    "I'm like, hey, what's what's Todasco doing over there? Because we had no money. We had we were begging like almost all the resources unless it was a specific project like the blockchain group which was always had a corporate sponsor that was funding it directly. All of these things basically came down to it was me begging, borrowing and stealing and getting volunteers from across the company to say, hey, do you want to work on some AR stuff? I know you got a few hours a week, why don't you come over here and do that? And like finding dozens and hundreds of people to do that across the company."
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 1268,
+   "paragraphs": [
+    "You know, this is really exciting. It's like, you know, a startup within a corporate, I would say because you need to pivot sometimes, you need to, you know, you're always looking for the next challenge or the next problem you want to solve and you keep looking and looking. And once you solve one, you just go and, you know, get the other one. Here I remember one of my guests like Dr. Andre Laprim and, you know, we're discussing, you know, he has a theory that majority of the startups they don't come out from garage as we see in the literature of the Silicon Valley and, you know, he has this, you know, like usually they come out from these innovation labs or like, you know, when a corporate decides to have a such dedicated maybe department, maybe they don't call it innovation lab necessarily, but, you know, kind of a place where people get out new ideas and they spawn out startups from there.",
+    "Like have you seen someone, you know, or any company that comes to mind when it comes to spawning the most, I don't know, the biggest amount of startups out of their innovation labs or, you know, R&D, whatever we want to call it."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1347,
+   "paragraphs": [
+    "Out of I mean, out of company, look, out of companies it would have probably be PayPal and Google and so forth. I would say like, you know, but out of the innovation lab, I don't know specifically, but I will answer it this way though, Mehmet, which I think gets to your question. I have I have pretty incredible deal flow where there's at least a dozen people that worked in the innovation lab that if they came to me and said, hey Mike, I'm starting something, I would without a doubt just cut them a check before they even explained the business to me. I'm just like, here, take my money.",
+    "That's great, you're starting something, there you go. That'd be first check in or for the first five checks in. And I am not a professional angel investor. I want to make that very clear also. So it's not like my full-time job doing that. But the people that are attracted to doing something like the innovation lab, again, these were people who were doing stuff part-time. They were they had day jobs, they had to perform in their day jobs. And this is something that I really liked about PayPal's culture overall was that if you could do your job, then you do your job and you do that well.",
+    "But if you got time left over and you want to go work on a robot, you want to go work on an AR project, you want to go work on blockchain or whatever else or, you know, like you do that. And that was just part of the culture that we did whatever we possibly could to just like emphasize. And if you're that type of person who finishes your day job, does that well and they're like, okay boss, what else you got for me? Like give me some more stuff. Give me I want to work on something new and challenging. You know, I had finance in San Jose here.",
+    "We actually had a robot and the person leading that project was actually on the finance team at PayPal. And he would get in the office at like 7:00 in the morning, like couple hours before anybody else in finance. He would be hacking away in the innovation lab, working on this robot, trying to get things to work, just figuring stuff out. Like and those are the people where like, yeah, I will fund that person without any hesitation at all because like they have shown in a corporate environments that they have this grand ambition, that they won't take no for an answer. They're ultimately curious, they want to find stuff, they want to figure stuff out. They will hit barriers and they'll move past them. Those are the exact same kind of things you want to find an entrepreneur."
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 1490,
+   "paragraphs": [
+    "Absolutely. Yeah, like the people who are always on the edge to solve problems and, you know, like they don't accept the status quo and, you know, like they and this kinds of founders that, you know, usually when someone show me idea, okay, I'm working on this. So the guy who really, you know, managed to, I would say, I'm curious person by nature, don't get me wrong, but there are like these pitches where the guy really throw the problem in a way that is very thought provoking. Oh, hold on one second. This guy is really up to something because he knows or she knows what they are doing, right?",
+    "And then once they start to talk, they spend time explaining the problem more than they spend time talking about the solution because they want to make sure that okay, we are really solving something big. It's not like just yeah, we're building another, I don't know, like I see this a lot unfortunately or fortunately, I don't know, in the web three space. I'm building this web three, I don't know, AI now, right? So I'm building this AI application. Okay, what do you do? Yeah, now mentioning AI, Mike, and I know like you're focusing a lot currently on AI and, you know, especially generative AI part of that branch, you know, of AI.",
+    "And from innovation perspective, like what first, let me dissect the question. What was your reaction when you start to see these Gen AI tools coming out as someone who, you know, was working in innovation?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1593,
+   "paragraphs": [
+    "Yeah. I would say, Mehmet, like one of the reasons why I think I embraced the generative AI tools so wholeheartedly was because by nature I was I was not an engineer. My background did not come from engineering. So I remember being in the innovation lab, having these machine learning and deep learning engineers come in, show these demos, show the things that they're doing with data within the company, all these different experiences, and just kind of being in awe, but then also being like, God, I can't do that. Like, hey, that's really impressive, but like I'm not a machine learning engineer getting paid $600,000 a year to do this.",
+    "We have teams of those at PayPal and so forth. Like that ain't me. So, you know, the very first time I remember so distinctly playing with GPT-3 and I was working on a just a little side project where I was like, well, it was a little writing project I was doing that was asking if the president of the United States was an AI, what would their inaugural speech be like? So like, you know, when they kind of introduce themselves to the nation and so forth. So I was writing this. I kind of wrote some of it and so forth. And then I put the piece that I had.",
+    "I also stole some from Barack Obama to be honest. And like I put all that in there. And that basically threw that in there and I like said, okay, GPT-3, go. And it went. And like honestly, Mehmet, like it was it was magical because like I was literally seeing from the prompt that I gave, it was giving semi-coherent, semi-rambling responses of like, okay, well, what would the rest of that look like? And look, this was 2021, I think. Yeah, it was 2021. And but like I was so excited. I was like literally like my heart was racing. I was just giddy because I'd never seen a computer do something like this before where it's actually putting something out there that like as a human was perceived to be cohesive thoughts, at least semi-cohesive thought.",
+    "Like it was stuttering at one at one point like and it just got in this weird loop and like all this stuff. But like it was magical. And I think from that point because I mean I was hearing rumblings of GPT-2 and so forth and like heard like I mean GPT-3 is really awesome. But like then actually playing with it though, that became something special. And so for me, just kind of seeing the evolution of that, you know, the other things like that product improved, you know, things like DALL-E 2 were released where you could do image generation and Midjourney and all that. That's why I fight, you know, I left PayPal and then summer of summer of 2022, that's when I was like, I'm all in on this.",
+    "And I think the very first thing that I publicly wrote about was called the one technology that everyone should be freaking out about because and I meant it both in a positive and a negative way, freaking out. Like freaking out like, oh my gosh, this is the most amazing. You need to be running up the stairs of your house screaming about this thing because it is that amazing. But like this is also world changing. And so like I think ultimately not being an engineer was an advantage for me because I think the people who were most excited about GPT-3 were not the machine learning engineers because they were like, yeah, I can do that.",
+    "I can see that. It was if you will, normies like me who don't have that deep expertise and then could actually do it themselves for the first time."
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 1810,
+   "paragraphs": [
+    "You know, I remember the first time I saw ChatGPT, I mean once they released it. So so you know, there was a lot of tools because they were built on GPT-2, right? So there was like the Jasper of the world and you know, like other tools."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1831,
+   "paragraphs": [
+    "Pseudo lights, there's a whole bunch of different tools out there. Yeah. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 1834,
+   "paragraphs": [
+    "And you know, honestly, I tried them couple of times but okay, they're good but I'm not impressed. And I think it was November 2022 and I saw a guy tweeted about ChatGPT and I said, okay, let's see this. What's that talking about? And you know, once I typed maybe the first two prompts, they were not called prompts even that time, and I see the way it's it's answering and you know, like the interaction, I said, wow, I was mind blown. And I know I knew like that moment that you know, this is just a new era in humanity, not only in technology because at your point, Mike, and I think you know, coming from a non-technical background, the biggest advantage is for the first time like it's like kind of democratizing you know the use of technology in a sense because you know usually we always see okay they invent a technology and in the US maybe this happened a lot of times so the internet was used in military and you know in such use cases before it goes to the public and then you know the same thing happened to the mobile phones and the GSM and all of you know the great things we saw but with the AI so the first time you know before even to going to I would say B2B or like enterprise so the consumer was able to try it and this was like really mind blowing.",
+    "But I know also Mike you talk about like so so other than writing and all these things and I believe you kind of have a prediction that you know a lot of industries they're going to change with AI. And of course I think maybe you agree with me we are still on the early days. So what do you think the AI is hiding for us and like how long it going to take before like we really see like already we are living the shock. I mean not me but I mean the people still oh wow AI can do this. But when are we going I mean to see like the AI becoming really like more dominant in the marketplace. And then what do you think people should worry about it is taking our jobs or like what's your point of view on that?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1990,
+   "paragraphs": [
+    "No, it's it's a great question, Mehmet. And I do I will say this like public perception about the AI and understanding what it really can do is always going to lag vastly the actual capabilities of the AI. Like if OpenAI announces tomorrow that they have AGI and it's out there, the world doesn't change the day after. And I'm not the first person to say that like. But is it six months? Is it 12 months? Is it is it is it weeks before the world really changes? Like I don't know because bureaucracy, because habits, because all these things take time. And I remember seeing this with the Internet.",
+    "Like so I started college in 1995 and I just happened to be going to the University of Illinois. I'd love to say that was strategic, but I actually happened to live in the state of Illinois and it was cheap among other things. And when I got there, like all of a sudden like they got these computer labs because they had that back in the day. And there's online, there's internet, there's all this stuff. And then Netscape, I guess it was Netscape browser or I can't even remember at the time. But like because it was basically founded at the university there, Netscape was. And it was it was completely blowing me away to this.",
+    "Now then I remember like coming home over like Christmas break, talking to other friends who I went to high school with who didn't have that same experience. And they're kind of like, why do I need to send these messages? Why that like I can look up stuff. I don't fully get it. But you know, within three or four years like yeah, everyone got it. I remember my father even saying like, why would I ever use email? Like I would I would never use email. And believe me, my dad is constantly on email now. Like I mean like it, you know, and it people's perceptions of what they need and the utility of things, you know, did we ever think we would be addicted to these devices, the phones that we have that we currently are?",
+    "I mean like these are all things like they will change. And the power that you see, I see it on a case-by-case basis actually of just like how powerful AI is going to be, how much it's going to influence and change our world. But you could see pockets of this for sure. And for anybody who's trying to, you know, think like a futurist if you will, like you know, look for that. What is out there? Like I give actually another example of my family. I was going to hospital with my parents, you know, getting a procedure done. They're kind of sitting around forever waiting for the doctor to come back.",
+    "You know, and none of us are doctors. I don't understand any of this stuff that they're getting done. But like in the app, it's actually giving us test results. So I'm like, oh, cool. Well, why don't you actually show me what you have for test results? Let me open ChatGPT. Let me just screenshot all these and let's have ChatGPT kind of just tell us what's going on. So that was like, oh, this looks normal. This might be a little bit high. And then also ChatGPT, what question should we be asking the doctor? Can you help inform us a little bit more of like how to think about this?",
+    "Like what should like what are the things you think we should emphasize? What are the things we should ask? And like my gosh, Mehmet, this was like it was so like I like I think my parents saw. They're in their 70s and 80s. But like they're they're like, oh my gosh, like you can do this stuff? Like and how 20 bucks a month and you could do this and you could do this? Like they got it. And people will start to see that. And there's going to be different applications. Like in the business world, all of our jobs are going to change. Period, full stop.",
+    "All of our jobs changed because of the Internet. All of our jobs changed because computers. All of our jobs changed because of phones. You could go and trace it back to any big technology out there. Our jobs will change, period. The thing is the thing you need to ask is like, well, what will your job evolve into? You know, are all customer service jobs going to go away? No way. There is absolutely no way that they are all going to go away. Why? Because sometimes you just want to talk to a human. Sometimes it doesn't even matter the answer. Sometimes it's just reassuring. Sometimes you just want to know that the company on the other side cares.",
+    "Now, what percentage of the queries going into a customer service are going to be run by humans versus an AI? That I don't know. Is it going to be a minority? Possibly. But like so with all of this, we need to look at the tasks that we have in our jobs, the things that we're trying to accomplish as a business, and then just kind of start to look at, well, what goes away? How does it evolve? How does this allow us to do better? The piece I'm writing right now for my blog is looking at how poisoned the term artificial intelligence is. It's going way back to the 1950s at Dartmouth when they kind of chose that moniker of artificial intelligence, taking us all through the present where actually surveyed a couple hundred people and I would basically ask them, hey, what do you think about taxi drivers using Google Maps?",
+    "And then I would ask the next 100 people, what do you think about taxi drivers using AI navigation tools? And just kind of looking at the difference between the two because what is Google Maps? It's an AI navigation tool. But like it doesn't have the word AI in it. And we don't think about that as being artificial intelligence when that's what's driving it. Like you can do traveling salesman problem and all that without the AI and machine learning that's required. And just people are so much more negative on just when the term AI is used. You know, I think what we just we need to look at this is augmenting ourselves.",
+    "Like this is augmented intelligence. This is making us better. This is not a new thing. And that's like that's one of the big things I wish for all of us to just focus on."
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 2343,
+   "paragraphs": [
+    "You know, sometimes what I think on the term artificial intelligence, I think what we are missing because people you know I ask people this question how do you define intelligence or how why you say someone is more intelligent than someone right? And of course I know like computer scientists will not agree with me because you know we have the AI or the artificial intelligence and then we have like these sub things so you have the vision and then you have the machine learning and then you have plenty of things. To me it's like it's like machine learning right? So actually you're teaching the machine to act in a way that looks like a human to me right?",
+    "Because the other day I saw like a post on LinkedIn and you know like people were arguing about AI you know and then you know I was like very kind of I did like this reaction. I said guys what are you talking about? Because when you talk about LLMs so you need to understand what LLMs are. Of course I'm not a technical guy in the AI field but of course I can understand. And they said like the best thing you need to understand is what these tools you see today they are trained machines so they do you know training for the LLM to go so they feed them with data and then they need to get out.",
+    "So think about a black box right? And then you have an input and then you get an output from this box. And whatever you program this box to act like, this is what the results that you will get. And you know, this is why, you know, I'm like you, Mike, like when people start to exaggerate about the AI and you know, and then they say, hey, like there's the AI and there's the gen AI. Hey, come on. Like yeah, it's it's it's machine learning dude, right? So yeah, it's machine"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2463,
+   "paragraphs": [
+    "Learning. And they're all tools. These are just all tools for us to use no matter what we call it. The thing that freaks me out is just like sometimes these tools are getting a bad rap because I think some of this is just to be clear, I'm not saying like I'm not a AI maximalist that's just saying like yes, AI should be doing everything. No, I'm actually saying it should be augmenting us. It needs to be there in service to humans to make our lives better. Like and that's what we need to focus on with these tools. Yeah."
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 2492,
+   "paragraphs": [
+    "No, no, 100%. And you know like also Mike like I never bet on a technology in my life and I was wrong and AI is one of them so far or let's call it machine learning and whatever AI, artificial intelligence because I look at the problem solution kind of what this technology is trying to do or people trying to do with the technology because AI whether like it's ChatGPT or like the API of all these AI companies like OpenAI, Google, Anthropic and all these companies so they solve actually real problems. I was just talking today to a founder and he was describing me an application he built for the insurance company.",
+    "Hopefully he going to be on the podcast soon. So he said like what used to be done in two weeks, it can be done now in 30 minutes. So this is the real use case, right? And this is why I tell people sometime you don't need AI to solve a problem. Maybe you need just automation, right? It's just this is the form of automation."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2565,
+   "paragraphs": [
+    "Well, and I think that is something that is actually hard for larger companies to do. And that's why like in this future like companies that are, you know, for lack of a better term, AI first. But if you're building this thing from the ground up and you're using, you know, make.com to automate processes in, you know, that are piggybacking on top of, you know, Anthropic and OpenAI and all of these other large language models and as new models come, you swap them in and out. And you're always focused on efficiency and doing things better with these models. I think you are so much more nimble and will be able to do so much more that like sometimes like these big legacy companies, that's going to be the big challenge.",
+    "Like how do we make it that we take these processes, these to quote a movie called Office Space from the about 25 years ago in the US like they had this concept of TPS reports. No one knew what a TPS report was, but everybody had to generate it. And like it was just like what was it for? No one knew. All this like there's so much of that in business today. There is so much bloat. There's so much of a focus of like, you know, every manager's importance is identified by the number of people on his or her team. And you know, I mean like that's not an efficient way to run a business at all.",
+    "If you're just saying, well, the more people I have, like the more the better leader I am. It's kind of ridiculous. Like in some ways maybe the opposite should be true. I don't know. But like that's not how you're compensated out here. And people will follow the path of compensation. So like I think for big businesses like all of those things need to be reconsidered, re-evaluated, changed because look, it's going to be hard to compete with a lot of smaller companies who might be doing things adjacent to what you're doing, who can be nimble. Sam Altman I think is no, I think it was Sam Altman talked about like, you know, there's going to be a company worth a billion dollars started by two people.",
+    "Do you say two people or one person? I can't remember. But like, you know, we're starting to see like glimmers of agents that can do stuff and you just have effectively one person directing that. Like that becomes a real possibility now. And I mean it's an exciting future. But for existing businesses, you got to kind of look at that path and to say like, okay, how do we compete in this world? And what are the big changes we need to make? Sometimes it's hard to do that because again, the financial structure to make those big changes, especially if they lead to some short-term pain, they're not always aligned that way.",
+    "Like if you have to spend a bunch of money this year, you might not get a bonus. Employees might like and those are the really hard things for, you know, for larger businesses to think through."
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 2733,
+   "paragraphs": [
+    "Yeah, I think the big the big thing that people should be prepared for is first to change their mindset first. And the second thing because you mentioned about like how we can compete and with all what we are seeing now with single founder being able to do a lot of things using these agents so I believe people should try to see how we can collaborate not only you know compete because and this is the nice thing because you mentioned something Mike about like people need to speak to each other also right so we can just be like on machine and I think this is an opportunity for you know people to start to talk to each other again because hey for example Mike I'm working on this and I know you are working on that so probably we can like you know you do your stuff so you have your own startup I have my own startup but we can find a way where we can complement each others and again we have you know these agents working for us so this is why we're having imagining things going forward but of course this requires you know a change in the mindset and you know the founders would need to be more open-minded for big corporate.",
+    "You know, as they say, sorry but not sorry, right? So like you need you need to move fast. You need to be you need to be really agile like more than any time before. So Mike what is like what you currently up to and what's like other than AI what's exciting you at the time moment?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2828,
+   "paragraphs": [
+    "My daughter is in a play right now. That excites me. So but I don't know if your listeners want to hear about my daughter. No look other than AI so what other technologies other than AI excite me out there? Is that is that the actual question or? Yeah, yeah. Okay. Boy, actually Mehmet, that's a that's a great look. I think look, I think getting rid of these things does excite me. I think like I keep my phone in grayscale mode. I try and make this thing as boring as possible that I possibly can on these things. And I still find myself just habitually just grabbing these darn things and looking at them and getting sucked into these worlds and so forth.",
+    "Like and it's only going to get worse. I mean the AI is only going to give you more customized, more tailored information that is potentially you're going to be seeing a whole lot of videos and images and sound clips and posts that are made just for you. In fact, there is that one AI social network. I can't think of the name right now. But like literally it is a social network of one. It is you and just all bots on there. So when you post something, it is just bots responding. I can't think of the name of it. But like is that going to be more like our future?",
+    "Possibly. That sounds awful in so many ways. So look, the things that get me excited like I do love what's coming in AI, but like I also love going for a walk with no device. I live in Silicon Valley. I live in a beautiful place like where I love to go out and get outside. I walk a lot. I love to think. I love to just be away from devices, spend time with friends and family. Like honestly Mehmet, that's that's the stuff that excites me. Yes, I do love the technology, but I also I know like this is powerful stuff and it could be used for evil in many ways.",
+    "And I use evil sort of loosely there. I don't actually think the Apples and Googles and so forth are actually evil. But their incentives are to keep you tied to these devices and using these devices as much as you possibly can. And given that incentive, I try and do what I can to not succumb to it as best as I can."
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 2971,
+   "paragraphs": [
+    "Absolutely. So to your point, I think I need to find time because what excites me is I can train an avatar, you know, on my character, kind of a digital twin, right? Of course, not for recording podcasts, no way on my dead body. I want to do this because I enjoy it. But I mean, yeah, for to your point like to have this time to go and connect with nature, have a walk, socialize more. You know, sometime I wish like I can have, you know, an agent that has the same traits, characters as me, you know, when it comes to business and answer my emails, answer my phone calls and just, you, have the device far from me. So so for me it's the same thing actually Mike. So"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3021,
+   "paragraphs": [
+    "If I can comment on that, one of the things I did this summer was I said I was going to, you know, kind of take a little bit of a pause from my AI writing and actually focus on AI movies. So I was just writing about nothing but movies that had AI as a central premise this summer. And of course, one of the most famous movies about that is Her. And in the movie Her, in some ways it's dark because spoiler alert, but at the end of the movie like the AI gets bored with the humans and kind of moves on as part of that.",
+    "But it's also beautiful in so many ways because like when you really look at what the humans do for work and those, it's fascinating. Like Joaquin Phoenix's character, he's a writer and he will write greeting cards and he dictates these cards then they're actually written in by a computer doing human handwriting and all that. But like the creative part of that, the creative part still exists. And it is with those creativity where you find passion. Like I love to write. I love to weave a story. I actually have an AI alter eagle alter ego called Alex Irons which I actually I publish entirely AI written works by just as an experiment.",
+    "I throw them up on Amazon and give all the money to charity. But those books suck. Like they just do. There's there's like nothing to them. They're very average like all that. But it's an experiment for me to play with tools. But like I take zero in enjoyment in building those things. But for me to, you, write a thousand words for a blog post and go through it again and again and again and coalesce my thoughts and think of a good quote and all that and to do that with an AI by my side, I love doing that because like that AI I'll say like hey can you help edit this for me?",
+    "Like what's a good example of this? Whatever it might be. And it makes me a better writer. But again, it's making me more human. It's it's taking the creative stuff like what you're saying like you would never give up this podcast even if an AI could do it. Even if an AI could do it better, you still want to do it. And like that is the kind of choice I want us to be able to make to just say like hey there's certain thing like one more thing like Seth Curry a basketball player in San Francisco one of the greatest players of all time he is renowned for being able to shoot and from large from very far distances he can shoot a ball into a small hole.",
+    "We can do that very easily with machines that could do that much better than Seth Curry. Nobody cares to see that. Nobody cares. And because like look because it's human. We have some sort of human connection. We want to see the potential of humans and so forth. So like humans have a future in this AI world. We have a very big future. And like I hope the future is that we become we have an opportunity to write less TPS reports, the meaningless, the tactical, the mundane, do less of that stuff and more of the hosting podcasts, the shooting the basketball, the writing the blog posts, that are the things that we loved. Like that's that's my hope through all of this."
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 3212,
+   "paragraphs": [
+    "Same here, same here Mike. Mike really you know the time flew honestly and I think we will definitely do another episode but yeah so as final words to the audience and where they can you know connect with you."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3231,
+   "paragraphs": [
+    "Yeah, look I love to write about this stuff. I try and write also in very practical terms. I try and make it fun, funny if I can whenever possible. So just look up Mike Todasco and Medium or on LinkedIn. I post all my stuff. It's all free. I'm not trying to monetize stuff. And look, if folks have a question, just, you know, send me a message on LinkedIn or something. Always happy to chat about all things AI or about good places to go for a hike in Silicon Valley. So either"
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 3262,
+   "paragraphs": [
+    "One. Yeah, we need to take that offline about hiking definitely Mike. Mike thank you very much for you know being with me here today. I really enjoyed the discussion with you and you know I believe the audience will enjoy it also as well. So thank you very much. And of course I will make sure the links are in the show notes. So if you are listening this to this episode on your favorite podcasting platform, you find them on the show notes. If you are watching this on YouTube, of course you can find them on the descriptions. And as I say as usual, if you enjoyed this podcast, you discovered us just now, thank you for passing by.",
+    "And I hope you can give us a thumbs up and subscribe. And if you are one of the people who come always again and again, thank you for doing so and thank you for being loyal to the show. I really appreciate this. And thank you for tuning in. We'll meet again very soon. Thank you. Bye-bye. Hit that subscribe button,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 3324,
+   "paragraphs": [
+    "Share the show with your tech-savvy friends and fellow entrepreneurs, and leave us a review on your favorite podcast app."
+   ]
+  },
+  {
+   "speaker": "Mehmet Gonullu",
+   "start": 3331,
+   "paragraphs": [
+    "Your support means the world to us."
+   ]
+  }
+ ],
+ "words": 9844
+}
