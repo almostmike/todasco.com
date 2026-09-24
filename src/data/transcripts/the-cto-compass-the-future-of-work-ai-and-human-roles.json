@@ -1,0 +1,344 @@
+{
+ "slug": "the-cto-compass-the-future-of-work-ai-and-human-roles",
+ "outlet": "The CTO Compass",
+ "title": "The Future of Work: AI and Human Roles",
+ "date": "Nov-25",
+ "published": "2025-11-21",
+ "url": "https://podcasts.apple.com/us/podcast/the-future-of-work-ai-and-human-roles-ft-mike-todasdo/id1837866336?i=1000737743129",
+ "duration_sec": 2731,
+ "host": "Mark Wormgoor",
+ "speakers": [
+  "Mark Wormgoor",
+  "Mike Todasco"
+ ],
+ "turns": [
+  {
+   "speaker": "Mike Todasco",
+   "start": 0,
+   "paragraphs": [
+    "So there's only one job that I know that will exist in the future. Now, to be clear, there are going to be many jobs, but the only job that I know is going to exist is the is a solopreneur, a person who has tens, hundreds, thousands of AI bots working for them, doing things that they need to do, but ultimately they're the human in the loop, the person who's signing the tax forms, the person who's doing whatever."
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 23,
+   "paragraphs": [
+    "Welcome to the CTO Compass podcast. I'm your host, Mark Womport, tech strategist and executive coach. In every episode, we meet tech leaders, from startup CTOs to enterprise CIOs, to explore what it means to lead in tech today. They share their stories and their lessons so that you can navigate your own journey in tech. Let's dive into today's episode. Today's guest, Mike Todasco, former Senior Director of Innovation at PayPal, where he spent over a decade designing and scaling disruptive ideas across the company. These days, he's a visiting fellow at San Diego State University AI Lab, where he explores the intersection of AI, creativity, and the future of work.",
+    "So what's really fascinating about Mike and what I love is that he bridges a lot of different roles. He's an inventor, he holds over 100 patents, he's worked in big tech at PayPal. He is pursuing or he's already achieved a Master of Fine Arts in Creative Writing. He writes a lot about AI tech leadership, and he also works with, well, as part of his visiting fellow right now with tech leadership and entrepreneurs on basically integrating AI for innovation and growth, which I love as well. Mike, welcome. So tell us a little bit more about Thank you, Mark. Thank you. Thank you. Very kind of you. Where you came from and where you are right now."
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 97,
+   "paragraphs": [
+    "Where am I? I'm in California right now."
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 100,
+   "paragraphs": [
+    "So Okay, cool. But what's your role at SDSU? What do you do exactly there? Yeah, so at"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 106,
+   "paragraphs": [
+    "SDSU, it's a visiting fellow, which is a very cool and kind of weird position where I kind of get to do whatever I want, whatever interests me. So what that means is I do I work with students a lot. We're doing some robotics, we're doing some very interesting things. I was down in the lab just last week. San Diego is beautiful, even though I don't live in San Diego. I get to fly down there every so often and it's a wonderful place to be. And so I get to mentor students, I get to teach, I get to do research and writing on things that interest me, and I get to go on podcasts and talk about AI stuff to try and explain these complex things to normal folk."
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 144,
+   "paragraphs": [
+    "Cool. So our audience is is CTOs, CIOs, tech leaders in general. I think they sort of get what AI is and what it does. I think the main challenges are, and I think you talk about a lot about that, is the future of work, the softer stuff of AI, and I would love to get into that. So and starting with that, you said that companies need to redesign for AI operations and not just layer some AI on top of all systems. What does that actually look like and where should people start?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 172,
+   "paragraphs": [
+    "You know, it's funny. I think this is a time where small companies have a huge advantage over big companies because they're they're nimbler, they can move fast, and they just the things that are normal. Just this week I wrote a blog post and I called it the Borg chart, B O R G. And what I was trying to do was just kind of coin a phrase of like for myself, you know, I was just doing an inventory of like what are all the roles and functions that I have in my kind of end of one business that is me, and we all have these businesses.",
+    "And what are the ways I'm using AI? And I counted a dozen different ways, from being a designer to being an administrative assistant, to being all this other kind of stuff that I use AI to do that. That's really easy for an individual or a small company or a startup that is just getting started. It's much harder when you're a company of five or 50,000 people to change the ways that you've been doing stuff, change your processes, and all that kind of stuff. And this is something that I see day in and day out. It's something that startups are easy to embrace because they have no other choice.",
+    "Like I can either spend $20 on using ChatGPT to help me like do legal stuff, or I could spend $500 an hour on a lawyer. And yes, the lawyer is going to be better, but when you're just starting and you have limited resources, you're just going to use the $20 a month solution to do that. And it's a way of just kind of it's a new way of thinking, and this is going to percolate through and bigger businesses eventually are going to get it,"
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 271,
+   "paragraphs": [
+    "But it's harder. And I think those bigger businesses, I was having a strategy session as late as last week with a semi-larger business, not too large, and basically they were looking at the budget for next year. There was a lot of additional spend on AI stuff, and the CFO said, let's just let's just cut it out, right? Because we can't afford to spend on AI there. So what can CTOs or CIOs or what can we do to actually drive the change in those semi-medium-sized or even bigger companies still? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 303,
+   "paragraphs": [
+    "I love this question. This is something that it's not going to give you ROI overnight. And it's going to give you have to realize there's going to be a lot of experiments and there's going to be a lot of failures along the way. It's not that you're just going to take a, you know, a thousand-person company and be AI first the next day. But if that is a goal that you want, if you think that this is a strategic imperative years from now, you need to do things today that are going to put you in that direction. So first thing above all else is you need to let your employees know it's okay to use these tools because, you know, even for companies that don't allow it, your employees are still using these.",
+    "And I'd much rather have them putting information into the enterprise version of Claude than going into DeepSeek or something like that online, putting all my customer information in there, and who knows what's happening to it at some point. I think so. The first thing you do is you just say you're in and honestly, between ChatGPT from Open AI, Anthropic's Claude, Google's Gemini, like all three of those are pretty much world-class. I feel you can't go wrong with any of those. Just sort of pick one and go with it and say, hey employees, we're doing this. Then as a leader, I think one of the things you need to do is you need to be visible that you're using it yourself.",
+    "So what I always advise companies is, you know, start a whatever you use, Slack, Teams, Zoom, whatever kind of messaging channel you have, create an AI channel in there. You as a leader in that company should be the first person that posts in that channel. And this should just be a way for you to just share what you're learning about it. Like how are you using it not only professionally, but show something in your personal life you've done. Because with these tools, there are infinite possibilities of what you can do with these tools. And whenever we have infinite possibilities, we tend to freeze up. It's the paradox of choice.",
+    "And with the paradox of choice, it makes it really hard to get started. So people need to see examples and things like that. And when that's coming from on top, everybody else is going to see like, oh, if the big boss is doing this is something that we should be doing. And again, it's something you should encourage. If you have all hands meeting, start it off with like, hey, I'm going to pick somebody and I'm going to say, you know, hey, show me what you're doing in AI or something like that. Get them to come on stage and show a cool thing. Like that's how you can start to create that organization."
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 462,
+   "paragraphs": [
+    "Okay, I like that. So give people access to the tools and then lead by example, show them what's possible, and just start up that whole conversation about what we're using, the little things we're even doing with AI with that that chat. Okay, so let's take it back a bit a bit to PayPal. You were leading innovation at PayPal and running experiments. What did that look like?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 484,
+   "paragraphs": [
+    "It was it was a beautiful mess is what it looked like. That's kind of what innovation is in so many ways. Like I got the whole job. I did very something very similar. It's funny. I before I was running the innovation group, I was just leading a product team with like 10 people. And one of the things that and I inherited many of the people on the team, and I found that many of the people I just asked them a question, do you find yourself to be creative? And they half of them said yes, half of them said no. And it drove me crazy, the people that said some like, you're wrong.",
+    "You are creative. And I just and like my goal as a manager was to get them to see that. So one of the things I did, which kind of ties back to what I was doing before, is we started every staff meeting, I told them, I want you to talk about something creative you did in the past week. I would cold call on people in that meeting. And what that did was it forced them to kind of during the week think about creative solutions. Oh god, what am I going to talk about if Mike cold calls me? I mean, like they hated me for this, at least in the beginning.",
+    "But I think it also pointed out that they are creative people. And because I remember I remember the stories 15 or yeah, probably 15 years later or something like that to this day, one of the people in the group would sneak through the airport to avoid traffic, which was a crazy thing. I'm like, what? You're on the highway, he goes through the airport and all this other kind of stuff. Another person talked about how they couldn't get somebody to come to a meeting and they would literally found out what donuts they liked and then they bought those donuts and then they put that in the meeting invite and they did that.",
+    "I mean, and to me, it's the little innovations like that that lead to that more innovative culture. So like that's kind of what I did at a micro scale. And again, you could take what I did for innovation, apply that to AI, just as we were talking about before. But doing those things at a micro scale were the kind of things I tried to do at a macro scale then. When, you know, not everybody in the company was reporting to me. I actually had an extremely small team. But how do you create that culture of innovation at PayPal? And a lot of it was just leading by example.",
+    "It was holding an event to I would bring in speakers, I would I would just try things. I remember I had coloring sessions in our innovation lab. And I literally remember nobody showed up. Not a single person showed up to that. Like there's hundreds of people on these list, nobody showed up. And that was a chance for me to just talk about that to on their Slack channel and then I would be like, hey, looks like I screwed up something. Let me tell you what I learned from this. And just being very open and transparent, like that was the innovation type of culture we tried to do.",
+    "And you know, I got all the leftover products, so like blockchain and augmented reality and all this other stuff. So I got to do that, but the favorite part of it was more broadly just like spreading innovation throughout the company. That's that's what, you know, I did that for like six years there and that's what always got me super excited."
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 678,
+   "paragraphs": [
+    "And I think I understand how you did that within your group, right? How you also do that in the weekly meetings and everything. So how did that gradually spread across? Because PayPal is not a small organization, it's a big international organization. You had innovation labs in multiple countries. How did that spread from this really small team that you had to the whole company? Like how did that work?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 699,
+   "paragraphs": [
+    "Yeah, I mean, two specific examples I'll give. Like one was we really didn't have innovation labs all over the company. So this whole started when we split from eBay and it was so we became our own independent company back in 2015. And it was, okay, how do we define, you know, innovation and what that's going to mean for us? So one of the things we did was we followed the franchise. So, you know, companies like McDonald's and so forth, like most of those are not owned by McDonald's itself. It is owned by local people or local companies more likely that own a bunch of that.",
+    "Like, you know, and they kind of run things locally and everything. That was one model that we followed was I would, you know, PayPal had offices all over the globe and I would travel to these offices and try and recruit people to say, hey, part-time, do you want to start an innovation lab here? We'll give you a little bit of money, we'll get you started, we'll give you the recognition, but you define innovation however it is you want. Because in Bangalore, you know, versus an office in Dublin versus something in Austin, Texas, they all had different functions and defined innovation in a different way. And that was something we very much encouraged, was that these labs would be very different.",
+    "They were all part-time, they're people who wanted to be there and wanted to spread innovation. And you know, to use an Indian phrase, jugad innovation, it was like innovation through constraints. That was a lot of what we practiced. Like we didn't give them a ton of money, I didn't have a ton of money. It's funny, I would go to other fintech companies that had much bigger innovation teams and we were a much bigger company, but like at max, outside of some developments, like I would have three people including myself working on just the pure innovation side. You know, for a 30,000-person company, like you didn't need a lot.",
+    "It was all about just kind of building that from the ground up. So that was one way, franchise model. Another way is we would actually hold something called the innovation tournament every year. And there's actually a great HBR article that was written up about this stuff that we did on this. And it would it actually came from an intern. It's just somebody intern was in our innovation lab. She's like, hey, you should do this, and this. And it's so funny, you know, we just kind of took that idea. She left because her internship was done. We continued. She actually came back full-time like nine months later and was like, oh, you guys are doing this now.",
+    "And it was crazy. I'm like, yeah, and I give you like we give you credit. Like this was an idea that was sparked from you. But that was a way for we would just have executives put out problem statements and then we just kind of built this system where then anybody in the company, whether you're an administrative assistant, you could work in the mailroom, it didn't matter. We wanted all of ideas out there on how to do this. And it was just how to build up those ideas. And you know, we had thousands and thousands of people submit ideas, vote on the ideas because then it got your other teammates to do like it was a whole very entrepreneurial type process which led to a quote-unquote big event where we got the CEO, we got an hour of his time and a few other senior leaders.",
+    "And like, okay, now after three months you get to pitch the idea to the CEO. And like cameras, all this stuff there. That whole thing cost us like $50,000. Most of it was the cameras and stuff that we needed for the big event and, you know, some of the all that. But like you could do that for $500 within a company. Like it innovation does not need money, it just needs passion, effort, and focused attention."
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 930,
+   "paragraphs": [
+    "Yeah, and even then I think that's my question right. You had you were leading innovation and you were very passionate for it. How did you convince maybe like a CEO or a board to go along with all of that? Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 942,
+   "paragraphs": [
+    "I love that. So I remember the CFO talking to me once about something innovation related and I'm like, do you know how small my budget is? Like that was like that was always the CFO argument. It was like, how are you going to get your return on investment? I'm like, we're we're like a rounding error. Like we're nothing here in this. Now, when we would bring on like I remember when we had our blockchain team, that was specifically allocated money that did have goals, that did have ROI, that did have all that stuff. But just innovation writ large, I knew if we kept it small that it wouldn't really matter.",
+    "And they're just like, okay, you're doing cool stuff, just keep doing cool stuff. And you know, of the 30,000 people we have, you know, just keep doing the press, keep doing the culture stuff, and we're fine. So that was kind of the CFO. Now, how did we get the CEO involved? It was like literally, honestly Mark, it was just working up the hierarchy for this. Like that I remember this so well because this started from an idea, this innovation tournament started with an idea by an intern. She had that idea and then we were just kind of building it out. We're like, okay, who are we going to have develop these problem statements?",
+    "I just reached out to kind of the most innovative VP-level person that I knew and I'm like, can you do me a favor here? Like just give me a problem statement for something, put your name on it, record a little video. He's like, okay. And then I would take that person's and then I would say like, hey his name was Guru. Guru is doing this. Can we have the other people do this too? Like he's doing it, you should do it too. And it was a little bit of peer pressure. And then eventually once we had all these people with the problem statements and it was like a kind of we sort of handpicked, then we were able to go to senior leadership and say like, do you see the problem statements your people on your team?",
+    "They didn't even know about this. And that's how we got the senior leaders to say, hey, do you want to be on stage? And once we get that, I said to like the CEO's communication people like, hey, we're going to have this. Like it'd be really important to have Dan, our CEO, there to do it. And they're like, yeah, yeah, we can arrange that. Like let's work out schedules. And that was it. And so I mean, it just kind of starts with like one favor, using that. It's a lot of it is Dale Carnegie, How to Win Friends and Influence People. Like that is a book I've read many times.",
+    "That is something I'd recommend everybody read if you haven't. It's the best book with the worst title. And you just need to understand what is it that people want. And frankly, for our CEO in the end, he got to take some amazing photos that he literally had in his office because we had one of the guys in the communications team was like, we need a confetti cannon. I'm like, what are you talking about, confetti cannon? He's like, trust me, confetti cannon. I'm like, it's like a thousand bucks. Like this was a significant part of our total budget was confetti cannon. He's like, no, just do it.",
+    "And he was right because you had confetti flowing out of there when we announced the winner and the shots that you got and the camera people and everything. It was amazing. And that goes on the CEO's desk. So next year when we want to do something, the CEO has a picture of his family and him with the confetti cannon. It makes it an easy choice for him to say like, okay, yeah, I'll do that for you guys. So again, it's all it's all about just kind of building up those relationships and doing"
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 1146,
+   "paragraphs": [
+    "Those kind of. So and I'll take that to AI of course. How would you do that today, right? 2025 in a corporate? What approach would you take doing the exact same thing but then for AI?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1158,
+   "paragraphs": [
+    "Oh my gosh, I if I was still in a big company, if I was still in PayPal or whatever and you're trying to encourage AI, that is literally what I would do. I would have AI hackathons where I would say, you know, maybe you have an engineering cohort and a non-engineering cohort, but have both sides build stuff. You know, lead with a few weeks of, you know, record these sessions where you can actually show people like how to vibe code or something like that. Have problem statements put out by people and maybe they could be data science related, maybe they could be customer related, maybe they could be whatever.",
+    "Give access to these tools with these problem statements and say, okay, now form teams and go out there and just like be able to develop these ideas, develop these concepts, and build out some sort of like innovation process. And at the end of it, at the end of this global AI hackathon, you get in front of the CEO and you have a confetti cannon and you do this. And again, the whole point of that it's like the concept of the X Prize. So Peter Diamandis is somebody who created something called the X Prize, which is based on like what happened with Charles Lindbergh crossing the Atlantic way back in the day.",
+    "It's not actually about like the winning idea. The winning idea almost doesn't even matter. It's about training your whole organization how to use these tools. Like the winning idea is it's almost an afterthought. Like great, yeah, we'll be able to use apps for something. But the tens or hundreds or thousands of people that are learning AI, that are doing this stuff, a long part of the process that, you know, are like realizing, oh, I'm doing this, now I could do that. That's where the value is going to."
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 1266,
+   "paragraphs": [
+    "I love that. So that leads me to I want to move on a bit to leadership, which is also something that you talk about a lot, especially in the era of AI, the real leadership. Talk about creativity, I think you already mentioned that, but also curiosity, adaptability. So why are those according to you the most important leadership skills?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1285,
+   "paragraphs": [
+    "Let's just take curiosity. Look, I think, you know, leadership is I don't know. Well, let me just say like as we're going into this future, it is like those kind of soft skills that are really going to matter. When you think about, you know, curiosity in this world of AI where, you know, we may be years away or months, I don't even know, away from artificial general intelligence, which, you know, theoretically means that an AI is going to be able to do any job a human can do even better. And like, well, what does that future mean for us as humans and the roles that we're going to have and so forth?",
+    "Like that is something where you know, to be a scrappy, curious person who is, you know, up on technology, willing to try new things and doing that like within your teams and organizations that you're leading by example with that, like that's setting the right example for the teams that you have. I don't know what companies are going to look like five years from now, 10 years from now, you know, the other side of AGI assuming we do reach that at some point. I really don't know what things will look like, but I do know that those are traits that are sort of timeless and really even become more important in this future.",
+    "And the more as a leader that you have those and display those, the more that you encourage others in your organization to have those, the stronger you and your team are"
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 1383,
+   "paragraphs": [
+    "Going to ultimately be. And if you're listening to this, right, I work with a lot of CTOs and tech leaders and CIOs and they're very often tech oriented, and maybe less human centered or creative. And you said you believe that everyone's creative. If I'm listening to this, how should I think about developing those skills for myself? Like being more creative, curious, human centered, where do I start?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1408,
+   "paragraphs": [
+    "Yeah, I think a lot of it comes down to just being willing to take risks and try new things. I think following a passion is a good way to start with that. Look, think about what your 8, 10-year-old self used to do, used to think about. Like I as a young kid, I remember I would videotape Saturday Night Live because I couldn't stay up late enough for it. So with my VCR, I would videotape it and then I would kind of watch it and study it the next day on that Sunday. And I loved it. I loved comedy and all that kind of stuff. And you know, it's funny, a couple of years ago I, you know, I've done all these other things.",
+    "I decided I want to get into humor writing. Like this is like what would my 8-year-old self love? Like, oh my god, you're just like telling jokes and publishing articles and all that. And this is something that I started doing. And it was I really sucked in the beginning. I would just get rejected time and time again because I'm submitting to all these publications. And the great thing about human humor writing is all these publications are very open that you can submit, anybody can submit stuff, but they are pretty stringent on what they actually accept. But I would learn, I would try and ask for feedback, I would iterate.",
+    "I found that other people who are interested in this, I would get their feedback. I would frankly even use language models and train they're not quite funny, I would say, but they can understand elements of humor, which can actually be helpful in evaluating something. So, you know, I would use all of these tools to get better. And, you know, after getting rejected 10, 11 times, I think probably by the 12th time I actually got accepted one of them. And I'm like, oh my god, this is amazing. And, you know, I still do it to this day. I actually just got rejected the other day for something.",
+    "But I every rejection I take that, I iterate and so forth and do that. And like that's just working a totally different muscle. And like, okay, you're like, well Mike, what are you going to do with that humor writer? I don't know, I'll inject more humor into other things, into presentations, into whatever. I mean, you never know these skills that you're acquiring how they're going to pay off in different ways. And I think that's something that folks should tap into. Like, you know, find whatever that passion is that you had when you're that age. It could be playing the piano, it could be, you know, learning languages.",
+    "Maybe you would make up your own language with friends or something like that. Like go then learn Indonesian or something like that. Learn something that is out there that isn't part of your job. And that just creates different synaptic points in your brain to connect different things that is ultimately making you more creative and also more resilient. Because like again, a big part of creativity is just knowing, hey, a bunch of the stuff I do is going to fail. And if you're not failing every day, then you're not being creative. Nice,"
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 1590,
+   "paragraphs": [
+    "Makes sense. So and then another leadership skill that you talk about quite a bit, which I also love, it's decoupling rewards from results. So rewarding actually the quality of the decision making instead of just the outcomes or the results. Because as you said, well, you just said even in humor writing, you may put in all the effort and still get rejected. So what does that mean for leadership?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1613,
+   "paragraphs": [
+    "It's hard to do this first of all because I mean, we're so results oriented. We think that if a project goes well, that it went well because of us. If a project goes wrong, we find external things out there to do that. I look, I think I watch a lot of basketball. I love basketball. And, you know, I think there's a lot we can learn from about leadership from the coaches. The best coaches out there will, you know, flip the script. If they win the game, their team did great, right? They did this, and this. If they lost the game, they say, well, that was on me.",
+    "I should have done this, and this. And that's I know that's not exactly what you're referring to Mark, but that's like first thing that jumped in my head is like one, you know, for when your team succeeds, you know, give praise to your team. When the team fails, you take it upon yourself. You can be very visible and very open with that. And that sort of creates that environment where you do have that team level camaraderie. And the best coaches do that. They will always take the blame when things don't go according to plan. And so like when I think of leadership, that that to me is like, you know, thing number one that a leader should do.",
+    "And if a manager, sorry, little sidebar here, the manager test, how do you know that your manager is great? So if you're working for somebody else, I love this and I have to share it, sorry. This is something I came up with years ago. Ask yourself the question, if you would go up to your manager and said, hey boss, I have this amazing job, this job offer outside of the company, it's with a different company. It's going to pay me this, it's going to do this, it's going to lead to all this stuff, what should I do? The great managers out there can give you an honest answer that's actually going to be detrimental to themselves.",
+    "You know, if you have a great manager, they will literally say to you, do you know what, you should take that job. Like yes, I would do anything to keep you here, but like that sounds amazing, you need to take that. And it's going to suck because I can't backfill you, it's going to make things worse for me. Like they are going to put you first over your team, over the company in fact. Like a great manager will put you over the company. They're not supposed to do that. That's, you know, theoretically we're supposed to put the company first as a manager and employees second, but they will actually say, hey do you want, you should leave the company, you should do this great thing.",
+    "It's going to suck for me, it's going to suck for our company, but it's the right thing for you. Those are the kind of managers you need to follow and embrace those managers. Anytime they have a job for you, anytime anywhere, like you follow that person because they are very rare. Most managers I had were never like that. They're a very unique bunch if you could ever find them."
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 1796,
+   "paragraphs": [
+    "Cool. Now, so I love that answer. But so how do you become a manager like that?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1800,
+   "paragraphs": [
+    "Oh, how do you become that manager? That look, I think you need to become that man look, we should all strive to become that manager. I don't know if I actually ever became that manager who truly do that. I think part of it at least is to have confidence in yourself, to know that like you can do more. And I think people who are self-confident versus, you know, people who are less so, let's say, like there's a vast difference in just how they act. And I'm not talking about arrogance, but I'm just saying like have enough confidence in you and yourself that like, yeah, you'll be able to figure it out.",
+    "And I think it's just servant leadership. I mean, you as a manager are there to serve your employees. You are there to remove barriers so they can be successful in their jobs, be successful in their careers. And if you take that servant leadership mentality further, it might mean that your employees are going to be successful despite you. And are you okay with that? You know, like their success might not necessarily lead to your success. It should, but it might not. And are you okay with those kind of things? This is when I taught so I taught a leadership class and a big part of that leadership class was teaching just different management and leadership styles for everyone defining who the leader that resonates most with them.",
+    "And, you know, for me, you know, it's funny, I actually have a custom GPT set up on ChatGPT that I taught with Abraham Lincoln leadership quotes, writings about him, all this stuff about Lincoln's leadership style. And I will use that to ask questions because look, I'm not Abraham Lincoln, but if I can emulate just a little piece of like who he is, like that is somebody who I might aspire to be. So if you ask like who is it that I actually aspire to be, ask that question and that will start to guide you on what leadership style you might have. And, you know, I do think servant leaders to me are kind of like the ultimate to achieve in kind of that leadership hierarchy."
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 1944,
+   "paragraphs": [
+    "Nice. No, makes sense. And then striving for that and it's it's a hard thing to do. Yeah, absolutely. So and then talk about the future of work. You've said you don't really know what companies are going to look like in five or 10 years, if AGI is going to happen or not going to happen. I understand that. Still a lot of things are changing. We're putting AI into productivity. So what do you think in a in a new, right? When we get AI into what we're doing now as maybe small companies, small businesses, startups, and individuals, if we do the same in big corporates, what are the real jobs that we're going to need?",
+    "The jobs that are going to be growing and maybe not disappear versus what are the roles that maybe over time are going to be less important?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 1989,
+   "paragraphs": [
+    "So there's only one job that I know that will exist in the future. Now, to be clear, there are going to be many jobs, but the only job that I know is going to exist is the is a solopreneur, a person who has tens, hundreds, thousands of AI bots working for them, doing things that they need to do, but ultimately they're the human in the loop, the person who's signing the tax forms, the person who's doing whatever that is actually there with customers when they want to talk to a human being. And people will still want to talk to a human being as good as AIs are.",
+    "There is something about that. So I do see that as being the one job of the future which I know will exist, which then pivots to what are the traits of that person? And we've already talked about a lot of these Mark, like to be infinitely curious, willing to try new things, willing to fail, willing to run experiments. All of these things are going to be even more important when you start to look at what are the traits of a person that is going to be successful in the future. If you're, you know, I think I don't think I ever actually wrote about this. I was starting to write a piece on it and it was looking at the different personality types and how people use language models.",
+    "What you don't want to be is the person who like first time using ChatGPT, you ask it a question, it gives you an answer, you read through the answer and like, this isn't very good. And then you're done using ChatGPT or whatever language model. There's a lot of people like that. They just kind of tried once and they're like, they're done. What you want to be is you want to be the person who puts that thing into ChatGPT, it doesn't give you the right answer, oh, that didn't work, let me try this, let me try this. To be resilient, to be scrappy, to iterate, to try all these different things.",
+    "Like that is how we're going to work with these models in the future. And that is, you know, one of the few roles I see humans playing. And so if you look at yourself and you may have done what I kind of described in the first group, it's not to say you can't become the second group. You totally can. You just have to kind of rethink your own thinking of like, oh you know, it's always easy to find reasons for something to go wrong. It's always easy like, oh, this doesn't work because of this. It's so easy to be negative, it's hard to be positive on stuff.",
+    "And I think to just kind of shift your thinking more to that direction, to force yourself to say, okay, it has the answer I'm looking for in here somewhere. And it does because there's infinite outputs it can make. The answer exists somewhere inside of the model. How is it that I can get it to give me the answer I want? And like looking at it through that lens and just taking on that responsibility will completely change how you interact with these models and frankly how you interact with the world. If you look at everything from like there is an answer in there, I just need to, you know, do it.",
+    "It's it's sort of like what is it, the Da Vinci or Michelangelo quote of like, you know, the in the rock I just I just removed all the parts to reveal the statue of David or whatever it was. I'm totally butchering the quote. I'm sure somebody knows way more about art would get it right. But like that's kind of what you're doing with these language models. Like the answer is in there. You just got to frankly go through all the steps, removing all the junk until you actually get the answer that you"
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 2193,
+   "paragraphs": [
+    "Want. And I think that's really up to us as humans right now. And you said before that AI really isn't that creative writing humor yet, but the models go really really quickly, right? If you look at the coding skills now versus the coding skills two years ago, it's it's night and day. So at some point these models are probably going to be a lot better at humor, at creativity, at curiosity. What do you think that's going to look like?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2218,
+   "paragraphs": [
+    "Look, I don't think it's that far from where we're at today. I think the models are already close with that. I wrote a piece last year where I fed it different clips from the Simpsons and I gave it to different models and I kind of grouped it of like a simple joke and like a three levels of joke getting more complex with each of the jokes. And some of the models had a perspective on the joke that I didn't even look at. I was like, oh crap. It understood like deeper levels of the joke than even I was able to comprehend initially. And you know, to me step one of like getting humor is this understanding humor, being able to dissect it.",
+    "Once you're able to understand why something is funny, you could then start to recreate, well, I'm going to make something new and original so to speak that is funny. So I think models can and will get there. I think, you know, by just very nature of itself like, you know, how do you tell a good joke? You know, you tell 100 bad ones first. Like models are very good at making mass quantities of ideas. They are they never get tired, they never get bored. And especially if there's a human in the loop kind of guiding them on that, they're getting better. I think what you're going to start to see is the models are going to be able to be more selective with their own outputs and say like, hey, out of these 100 ideas, these five are actually funny.",
+    "And we're starting to get there already today. I haven't seen and frankly I haven't tried to have a model like write a humor piece for me start to finish. Frankly I want to be as interested in doing that as versus sharing my own ideas. But I can always feed it in there and just say like, can you give me 10 ideas to punch this up? Like this doesn't work here. Like what are other things I could be thinking about? And occasionally I'll be like, oh god, that's I never thought of that. And so the human interaction is there. If it's human model interaction today, a few years from now that that could all be in the model itself."
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 2346,
+   "paragraphs": [
+    "Yeah, makes sense. It's going to be a different role then. Think you could even let it write 100 pieces and then judge them all and just say, how's the humor in this one? How's the humor in this one? And just take the best one and let it improve based on the other 99. Yeah,"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2361,
+   "paragraphs": [
+    "I mean, and you could do this with multiple AIs. So I have one AI, you know, generating that, you have another AI evaluating that. And, you know, this is this is very old machine learning processes that we're talking about like adversarial general adversarial networks where you basically have multiple AIs doing that. That is totally doable even today."
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 2382,
+   "paragraphs": [
+    "And still I think you and are talking about this, you're comfortable in this world. There's a lot of people that are feeling absolutely overwhelmed by the amount of things that are now possible, by the pace of change, by how fast it's all going. What would your advice to those people be?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2399,
+   "paragraphs": [
+    "I would advise people by saying like we've been through big transitions before. Like this has happened and it's not to say that it's we will get through this. It's not to say it's not going to be a bumpy ride. It's not going to say that there won't be job displacement. It's not going to say any of that kind of stuff. It will be. How do you personally best prepare for that though? Look, the first thing I would say is learn these models, use these models, use them for personal things. Use them and, you know, I always start off with the personal side like vacation planning, meal planning, whatever it might be.",
+    "Like it's wonderful for that kind of stuff. Start there and then find out how to bring that into your work. Find how to bring it in other places. Have a little WhatsApp group where you can just share ideas and things like that. If you are just saying like in this day and age like, I'm just going to ignore the models and I'm not going to play with AI or anything like that and just kind of hope that it doesn't happen, it's you're just burying your head in the sand. Like this is it is going to happen, like it is going to change things. I worry for the people who are just saying like, no, I'm never going to touch it.",
+    "You know, there will be certain jobs. Like look, if I'm an actor at Broadway, great. Like I think people will be more attracted to, you know, as more and more of our life is online on phone, like I hope that we do more in-person stuff. So there are some professions where like it is going to have a very minimal impact. But probably for most of the people watching this where you if you're working on a computer all day or most of your day, then you need to learn and you need to understand these tools. And I think that becomes critically important for you in the success of your job to just find out ways that you could be more effective and again, do more of the human stuff.",
+    "So if you get energy, if you find value for your company in talking to customers, then you should talk to more customers. But then you should take some of the back, you know, maybe the note taking related to that or sharing that, whatever that is, like have AI automate those things. You do the human stuff, let the AI do the AI stuff. And like hopefully in the end it's going to let you do more human stuff which will make you even more effective and whatever it is your job is. And more humans. Nice. And more humans. Yes. Yes,"
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 2554,
+   "paragraphs": [
+    "Mark. So and then if we go back, you've been I mean, you were at PayPal about 10 years ago and you've had a long road since. We've had AI in the beginning or in the past five years. If you look back at innovation 10 years ago, are there areas where you've completely changed your mind about how to do it or how to do things in the past 10 years with the advent of AI?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2577,
+   "paragraphs": [
+    "Well, look, one of the things I would have killed for this like we used to run these brainstorming sessions. We would have them all the time in our various innovation labs. And, you, they would lead to patents, they would lead to ideas, they would lead to whatever. I wish I could have just had an AI running one transcribing everything because often it was me. I was I was having to transcribe ideas and stuff like that and pull all this stuff out. But even just an AI in there to be a devil's advocate, to connect two ideas that we might not have seen otherwise as part of these sessions.",
+    "Like, you know, for just a pure innovation creativity standpoint, like if I were doing those things today, I would have an AI running like 24/7 in those sessions literally just documenting every word being spoken, putting that into something like NotebookLM where I could then query that and get feedback and again, make connections, do all these other kind of things. One, it would save me note taking time and two, it would be just an amazing thought partner where it's just being able to maybe connect a few ideas that I might not have seen. And that is so much of creativity, that is so much of innovation is just saying, huh, these people do this, we could apply that in some unique way to the things that we do. That's a lot of what innovation is."
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 2658,
+   "paragraphs": [
+    "Nice. So would have been very useful 10 years ago. Think that goes for a lot of people. Would have been so"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2664,
+   "paragraphs": [
+    "Oh my gosh, could have been so much more if I had it back then."
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 2666,
+   "paragraphs": [
+    "I know, same. So Mike, thank you very much. It's been absolutely incredible. If people want to know more about you or where can they find you?"
+   ]
+  },
+  {
+   "speaker": "Mike Todasco",
+   "start": 2674,
+   "paragraphs": [
+    "Yeah, probably the best place is just todasco.com, my last name. That's my website and I have links to socials there. People can always direct message me on LinkedIn or anything like that as well. So pretty easy to find me. Cool."
+   ]
+  },
+  {
+   "speaker": "Mark Wormgoor",
+   "start": 2687,
+   "paragraphs": [
+    "And we'll put that in the show notes for sure. Mike, it's been absolutely incredible having you. Thank you so much. Been a pleasure. Thanks Mark. As we wrap up another episode of the CTO Compass, thank you for taking the time to invest in you. The speed at which tech and AI develop is increasing, demanding a new era of leaders in tech, leaders that can juggle team and culture, code and infra, cyber and compliance, all whilst working closely with board members and stakeholders. We're here to help you learn from others, set your own goals, and navigate your own journey. And until next time, keep learning, keep pushing, and never stop growing."
+   ]
+  }
+ ],
+ "words": 8526
+}
