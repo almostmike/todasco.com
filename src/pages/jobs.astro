@@ -69,7 +69,7 @@ Astro.response.headers.set(
         <span class="dt">{j.date}</span>
         <span class="ro">{j.role}</span>
         <span class="co">{j.company}</span>
-        <span class="lo">{j.location}</span>
+        <span class="lo" data-empty={(!j.location || j.location === '—') || undefined}>{j.location}</span>
         <span class="by">{j.url ? <a href={j.url} target="_blank" rel="noopener">{j.by} →</a> : j.by}</span>
       </div>
     ))}
@@ -104,11 +104,30 @@ Astro.response.headers.set(
   .openin { margin: 18px 30px 26px; font-family: var(--cd); font-size: 13.5px; letter-spacing: .06em; color: var(--muted); }
   .openin a { color: var(--news); border-bottom: 2px solid var(--news); }
 
-  @media (max-width: 1100px) { .jobrow { grid-template-columns: 66px 1fr 170px 150px; } .tbl .row .by, .head span:last-child { display: none; } }
+  /* <=1100px: location is the least load-bearing column, so it goes first.
+     The referral link stays: it is the only way to act on a job. */
+  @media (max-width: 1100px) {
+    .jobrow { grid-template-columns: 66px 1fr 170px 140px; }
+    .tbl .row .lo, .head span:nth-child(4) { display: none; }
+  }
+  /* <=700px: stop pretending this is a table. Each job becomes a stacked card
+     so role, company, location and the referral link all stay on screen. */
   @media (max-width: 700px) {
     .searchbar { padding: 14px; flex-direction: column; align-items: stretch; }
-    .jobrow { grid-template-columns: 60px 1fr; gap: 8px; }
-    .tbl .row .co, .tbl .row .lo { display: none; }
+    .jobrow {
+      grid-template-columns: 1fr auto;
+      grid-template-areas: "ro dt" "co co" "lo lo" "by by";
+      align-items: start;
+      gap: 3px 12px;
+      padding: 14px 0;
+    }
+    .tbl .row .ro { grid-area: ro; font-size: 18px; font-weight: 600; line-height: 1.25; }
+    .tbl .row .dt { grid-area: dt; font-size: 12px; padding-left: 0; white-space: nowrap; }
+    .tbl .row .co { grid-area: co; display: block; font-size: 13.5px; }
+    .tbl .row .lo { grid-area: lo; display: block; font-size: 13.5px; color: var(--muted); }
+    .tbl .row .lo[data-empty] { display: none; }
+    .tbl .row .by { grid-area: by; display: block; margin-top: 7px; }
+    .tbl .row .by a { color: var(--news); border-bottom: 2px solid var(--news); padding-bottom: 1px; }
     .tbl .head { display: none; }
     .openin { margin: 14px; }
   }
