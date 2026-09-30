@@ -35,13 +35,25 @@ import tags from '../data/media_tags.json';
       <span>Date</span><span>Outlet</span><span>Title</span><span>Subjects</span>
     </div>
     {rows.map((r) => (
-      <a class="row mediarow" href={r.url || '#'} data-tags={r.tags.join('|')} target="_blank" rel="noopener">
+ <>
+
+<a class="row mediarow" href={r.url || '#'} data-tags={r.tags.join('|')} target="_blank" rel="noopener">
         <span class="dt">{r.date}</span>
         <span class="ot">{r.outlet}</span>
         <span class="ti">{r.title}</span>
         <span class="tg">{r.tags.join(' · ')}</span>
       </a>
-    ))}
+
+      {r.clips?.length > 0 && (
+
+        <div class="clips" aria-label="Related clips and posts">
+
+          {r.clips.map((clip) => <a href={clip.url} target="_blank" rel="noopener">{clip.label} ↗</a>)}
+
+        </div>
+
+      )}
+ </>   ))}
   </div>
 
   <PageFooter
