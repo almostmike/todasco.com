@@ -85,7 +85,7 @@ const pick = featured[dayIndex(todayKey, featured.length)];
       <aside class="featured" id="featured" data-pool={JSON.stringify(featured)}>
         <div class="flabel">Featured article</div>
         <a class="fcard" id="fcard" href={pick.url} target="_blank" rel="noopener">
-          <div class="fart"><img id="fimg" src={`/img/${pick.art}.webp`} alt="" width="760" height="430" /></div>
+          <div class="fart"><img id="fimg" src={pick.art.startsWith('https://') ? pick.art : `/img/${pick.art}.webp`} alt="" width="760" height="430" /></div>
           <div class="fmeta">
             <span class="fnum" id="fnum">#{pick.n}</span>
             <span class="ftitle" id="ftitle">{pick.title}</span>
@@ -217,7 +217,7 @@ const pick = featured[dayIndex(todayKey, featured.length)];
         const title = document.getElementById('ftitle');
         if (card && img && num && title) {
           card.href = p.url;
-          img.src = `/img/${p.art}.webp`;
+          img.src = p.art.startsWith('https://') ? p.art : `/img/${p.art}.webp`;
           img.alt = '';
           num.textContent = `#${p.n}`;
           title.textContent = p.title;
