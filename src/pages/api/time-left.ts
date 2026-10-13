@@ -39,9 +39,10 @@ function bucketFor(rule: Rule): 'internet' | 'youtube' | 'gaming' | null {
 function profileFor(rule: Rule): 'Connor' | 'Sydney' | null {
   if (rule.scope?.type?.toLowerCase() !== 'user') return null;
   const id = rule.scope.value ?? '';
+  const configuredIdMatches = (configuredId: string) => id === configuredId || id === configuredId.split(':').at(-1);
   const text = `${rule.scope.name ?? ''} ${rule.name ?? ''} ${rule.notes ?? ''}`.toLowerCase();
-  if ((FIREWALLA_CONNOR_USER_ID && id === FIREWALLA_CONNOR_USER_ID) || text.includes('connor')) return 'Connor';
-  if ((FIREWALLA_SYDNEY_USER_ID && id === FIREWALLA_SYDNEY_USER_ID) || text.includes('sydney')) return 'Sydney';
+  if ((FIREWALLA_CONNOR_USER_ID && configuredIdMatches(FIREWALLA_CONNOR_USER_ID)) || text.includes('connor')) return 'Connor';
+  if ((FIREWALLA_SYDNEY_USER_ID && configuredIdMatches(FIREWALLA_SYDNEY_USER_ID)) || text.includes('sydney')) return 'Sydney';
   return null;
 }
 
@@ -57,7 +58,7 @@ function summarize(rules: Rule[]) {
   const people = ['Connor', 'Sydney'] as const;
   const buckets = ['internet', 'youtube', 'gaming'] as const;
   return Object.fromEntries(people.map((name) => [name, Object.fromEntries(buckets.map((bucket) => {
-    const matching = rules.filter((rule) => profileFor(rule) === name && rule.action?.toLowerCase() === 'timelimit' && bucketFor(rule) === bucket && rule.timeUsage);
+    const matching = rules.filter((rule) => profileFor(rule) === name && bucketFor(rule) === bucket && rule.timeUsage);
     if (!matching.length) return [bucket, null];
     const quotaMinutes = matching.reduce((sum, rule) => sum + Number(rule.timeUsage?.quota ?? 0), 0);
     const usedMinutes = matching.reduce((sum, rule) => sum + Number(rule.timeUsage?.used ?? 0), 0);
@@ -97,14 +98,7 @@ export async function GET() {
     const snapshot = await getStore({ name: 'family-time-left', region: 'us-east-2' }).get('active-sessions', { type: 'json' }) as { updatedAt?: string; sessions?: unknown[] } | null;
     const isFresh = Boolean(snapshot?.updatedAt && Date.now() - Date.parse(snapshot.updatedAt) < 120_000);
     const sessions = isFresh ? snapshot : emptySessions;
-    const diagnostics = {
-      rules: rules.length,
-      timeLimitRules: rules.filter((rule) => rule.action?.toLowerCase() === 'timelimit').length,
-      scopedTypes: [...new Set(rules.map((rule) => rule.scope?.type ?? 'all'))],
-      targetTypes: [...new Set(rules.map((rule) => rule.target?.type ?? 'unknown'))],
-      usageFields: rules.filter((rule) => rule.timeUsage).length
-    };
-    return Response.json({ updatedAt: new Date().toISOString(), profiles: summarize(rules), sessions, diagnostics }, { headers });
+    return Response.json({ updatedAt: new Date().toISOString(), profiles: summarize(rules), sessions }, { headers });
   } catch (error) {
     console.error('[time-left] Failed to load data:', error instanceof Error ? error.message : 'unknown error');
     return Response.json({ error: 'Could not load the time-left dashboard.', profiles: null, sessions: emptySessions }, { status: 502, headers });
