@@ -98,7 +98,20 @@ export async function GET() {
     const snapshot = await getStore({ name: 'family-time-left', region: 'us-east-2' }).get('active-sessions', { type: 'json' }) as { updatedAt?: string; sessions?: unknown[] } | null;
     const isFresh = Boolean(snapshot?.updatedAt && Date.now() - Date.parse(snapshot.updatedAt) < 120_000);
     const sessions = isFresh ? snapshot : emptySessions;
-    return Response.json({ updatedAt: new Date().toISOString(), profiles: summarize(rules), sessions }, { headers });
+    return Response.json({
+      updatedAt: new Date().toISOString(),
+      profiles: summarize(rules),
+      sessions,
+      usageRules: rules.filter((rule) => rule.timeUsage).map((rule) => ({
+        action: rule.action,
+        scopeType: rule.scope?.type ?? 'all',
+        scopeTail: rule.scope?.value?.slice(-4) ?? '',
+        targetType: rule.target?.type,
+        targetValue: rule.target?.value,
+        quotaMinutes: rule.timeUsage?.quota,
+        usedMinutes: rule.timeUsage?.used
+      }))
+    }, { headers });
   } catch (error) {
     console.error('[time-left] Failed to load data:', error instanceof Error ? error.message : 'unknown error');
     return Response.json({ error: 'Could not load the time-left dashboard.', profiles: null, sessions: emptySessions }, { status: 502, headers });
