@@ -37,7 +37,7 @@ function bucketFor(rule: Rule): 'internet' | 'youtube' | 'gaming' | null {
 }
 
 function profileFor(rule: Rule): 'Connor' | 'Sydney' | null {
-  if (rule.scope?.type?.toLowerCase() !== 'user') return null;
+  if (!['user', 'group'].includes(rule.scope?.type?.toLowerCase() ?? '')) return null;
   const id = rule.scope.value ?? '';
   const configuredIdMatches = (configuredId: string) => id === configuredId || id === configuredId.split(':').at(-1);
   const text = `${rule.scope.name ?? ''} ${rule.name ?? ''} ${rule.notes ?? ''}`.toLowerCase();
