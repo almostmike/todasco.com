@@ -1,0 +1,185 @@
+---
+import Base from '../layouts/Base.astro';
+
+export const prerender = true;
+---
+
+<Base
+  title="Today’s internet time — Todosco"
+  description="See today’s remaining internet, YouTube, gaming, and activity time."
+  noindex="noindex, nofollow"
+>
+  <main class="dashboard">
+    <header class="top">
+      <a href="/" class="back">← Todosco</a>
+      <div class="eyebrow">THE DAILY TIME BOARD</div>
+      <h1>What’s <em>left</em> today?</h1>
+      <p>Time remaining resets with Firewalla’s daily limits.</p>
+    </header>
+
+    <div id="status" class="status" aria-live="polite">Connecting to Firewalla…</div>
+    <section id="kids" class="kids" aria-label="Time remaining by person">
+      {['Connor', 'Sydney'].map((name, index) => (
+        <article class={`kid kid-${index === 0 ? 'connor' : 'sydney'}`} data-kid={name}>
+          <div class="kid-head">
+            <div>
+              <div class="eyebrow">TODAY’S TIME</div>
+              <h2>{name}</h2>
+            </div>
+            <div class="spark" aria-hidden="true">{index === 0 ? '✦' : '✿'}</div>
+          </div>
+          <div class="limits">
+            <div class="limit" data-limit="internet">
+              <span class="label">Internet</span>
+              <strong class="value">—</strong>
+              <span class="detail">remaining today</span>
+            </div>
+            <div class="limit" data-limit="youtube">
+              <span class="label">YouTube</span>
+              <strong class="value">—</strong>
+              <span class="detail">remaining today</span>
+            </div>
+            <div class="limit" data-limit="gaming">
+              <span class="label">Gaming</span>
+              <strong class="value">—</strong>
+              <span class="detail">remaining today</span>
+            </div>
+          </div>
+          <div class="activity" data-activity>
+            <div class="activity-icon" aria-hidden="true">◷</div>
+            <div class="activity-copy">
+              <span class="label">Kiosk activity</span>
+              <strong class="activity-name">No activity running</strong>
+            </div>
+            <div class="activity-time">—</div>
+          </div>
+        </article>
+      ))}
+    </section>
+    <footer>
+      <span id="refreshed">Waiting for the first update</span>
+      <span>Firewalla usage is an estimate.</span>
+    </footer>
+  </main>
+</Base>
+
+<script>
+  type Limit = { remainingMinutes: number; quotaMinutes: number; usedMinutes: number; limitNames?: string[] } | null;
+  type Session = { profileName: string; activityName: string; declaredDescription: string; scheduledEndAt: string };
+  type Payload = {
+    updatedAt?: string;
+    error?: string;
+    profiles?: Record<string, Record<string, Limit>>;
+    sessions?: { updatedAt?: string | null; sessions?: Session[] };
+  };
+
+  const status = document.getElementById('status');
+  const refreshed = document.getElementById('refreshed');
+  let snapshot: Payload | null = null;
+
+  const formatMinutes = (value: number) => {
+    const minutes = Math.max(0, Math.floor(value));
+    const hours = Math.floor(minutes / 60);
+    const remaining = minutes % 60;
+    if (hours && remaining) return `${hours}h ${remaining}m`;
+    if (hours) return `${hours}h`;
+    return `${remaining}m`;
+  };
+
+  function renderLimits(data: Payload) {
+    document.querySelectorAll<HTMLElement>('[data-kid]').forEach((card) => {
+      const name = card.dataset.kid ?? '';
+      const limits = data.profiles?.[name];
+      card.querySelectorAll<HTMLElement>('[data-limit]').forEach((item) => {
+        const key = item.dataset.limit ?? '';
+        const value = limits?.[key];
+        const output = item.querySelector<HTMLElement>('.value');
+        const detail = item.querySelector<HTMLElement>('.detail');
+        if (output) output.textContent = value ? formatMinutes(value.remainingMinutes) : 'No limit';
+        if (detail) detail.textContent = value
+          ? `${value.limitNames?.join(' + ') ?? 'Limit'} · ${formatMinutes(value.usedMinutes)} used today`
+          : 'not set in Firewalla';
+      });
+    });
+  }
+
+  function renderActivities(data: Payload) {
+    const sessions = data.sessions?.sessions ?? [];
+    document.querySelectorAll<HTMLElement>('[data-kid]').forEach((card) => {
+      const name = card.dataset.kid ?? '';
+      const session = sessions.find((item) => item.profileName.toLowerCase() === name.toLowerCase());
+      const label = card.querySelector<HTMLElement>('.activity-name');
+      const time = card.querySelector<HTMLElement>('.activity-time');
+      if (label) label.textContent = session ? `${session.activityName}${session.declaredDescription ? ` · ${session.declaredDescription}` : ''}` : 'No activity running';
+      if (time) {
+        time.dataset.end = session?.scheduledEndAt ?? '';
+        time.textContent = session ? formatMinutes((Date.parse(session.scheduledEndAt) - Date.now()) / 60_000) : '—';
+      }
+    });
+  }
+
+  function tickActivities() {
+    document.querySelectorAll<HTMLElement>('.activity-time[data-end]').forEach((time) => {
+      const end = Date.parse(time.dataset.end ?? '');
+      if (Number.isFinite(end)) time.textContent = formatMinutes(Math.max(0, (end - Date.now()) / 60_000));
+    });
+  }
+
+  async function load() {
+    try {
+      const response = await fetch('/api/time-left', { cache: 'no-store' });
+      const data = await response.json() as Payload;
+      if (!response.ok) throw new Error(data.error ?? 'Could not load today’s time.');
+      snapshot = data;
+      renderLimits(data);
+      renderActivities(data);
+      if (status) status.textContent = '';
+      if (refreshed) refreshed.textContent = `Updated ${new Date(data.updatedAt ?? Date.now()).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}`;
+    } catch (error) {
+      if (status) status.textContent = error instanceof Error ? error.message : 'Could not load today’s time.';
+    }
+  }
+
+  void load();
+  window.setInterval(load, 60_000);
+  window.setInterval(() => { if (snapshot) tickActivities(); }, 1_000);
+</script>
+
+<style>
+  .dashboard { min-height: 100vh; padding: 28px clamp(18px, 5vw, 64px) 24px; background: #f7f2e8; }
+  .top { max-width: 1100px; margin: 0 auto 26px; position: relative; text-align: center; }
+  .back { position: absolute; left: 0; top: 0; font: 600 13px var(--cd); text-transform: uppercase; letter-spacing: .12em; color: var(--muted); }
+  .eyebrow { font: 700 12px var(--cd); text-transform: uppercase; letter-spacing: .18em; color: #8c806f; }
+  .top h1 { margin: 16px 0 8px; font: 400 clamp(42px, 7vw, 72px)/.98 var(--bv); }
+  .top h1 em { color: #cc6846; font-style: italic; }
+  .top p { margin: 0; color: #746b5e; font-size: 16px; }
+  .status { min-height: 26px; max-width: 1100px; margin: 0 auto 8px; text-align: center; color: #875341; font-weight: 600; }
+  .status:empty { min-height: 10px; }
+  .kids { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; max-width: 1100px; margin: 0 auto; }
+  .kid { overflow: hidden; padding: clamp(20px, 3vw, 32px); border: 2px solid #29241f; border-radius: 24px; background: #fffdf9; box-shadow: 7px 7px 0 #29241f; }
+  .kid-connor { --kid: #795dc0; --kid-pale: #eee9fb; }
+  .kid-sydney { --kid: #247862; --kid-pale: #e3f3ed; }
+  .kid-head { display: flex; align-items: center; justify-content: space-between; padding-bottom: 18px; border-bottom: 1px dashed #d8d0c2; }
+  .kid-head h2 { margin: 5px 0 0; font: 400 clamp(34px, 5vw, 48px)/1 var(--bv); }
+  .spark { display: grid; place-items: center; width: 58px; height: 58px; border-radius: 50%; color: var(--kid); background: var(--kid-pale); font-size: 30px; }
+  .limits { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; padding: 20px 0; }
+  .limit { display: flex; min-height: 130px; flex-direction: column; justify-content: center; gap: 6px; padding: 12px; border-radius: 16px; background: var(--kid-pale); text-align: center; }
+  .label { color: #746b5e; font: 700 12px var(--cd); text-transform: uppercase; letter-spacing: .1em; }
+  .limit .value { color: var(--kid); font: 700 clamp(22px, 3vw, 32px)/1 var(--bv); white-space: nowrap; }
+  .detail { color: #8c806f; font-size: 11px; line-height: 1.2; }
+  .activity { display: flex; align-items: center; gap: 12px; min-height: 70px; padding: 14px 16px; border: 1px solid #e7e0d4; border-radius: 16px; }
+  .activity-icon { color: var(--kid); font-size: 25px; }
+  .activity-copy { display: grid; min-width: 0; gap: 3px; }
+  .activity-copy strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; }
+  .activity-time { margin-left: auto; color: var(--kid); font: 700 24px var(--bv); white-space: nowrap; }
+  footer { display: flex; justify-content: space-between; gap: 12px; max-width: 1100px; margin: 26px auto 0; color: #857b6d; font: 600 12px var(--cd); letter-spacing: .06em; }
+  @media (max-width: 760px) {
+    .dashboard { padding: 24px 14px 18px; }
+    .back { position: static; display: block; margin-bottom: 24px; text-align: left; }
+    .kids { grid-template-columns: 1fr; gap: 18px; }
+    .limit { min-height: 116px; padding: 8px; }
+    .limits { gap: 7px; }
+    .detail { font-size: 10px; }
+    footer { flex-direction: column; text-align: center; }
+  }
+</style>

@@ -71,6 +71,23 @@ last saved board" note instead of an empty table. Refresh that fallback occasion
 **In production this needs `NOTION_TOKEN` and `NOTION_DATABASE_ID` set in the host's environment
 variables**, not just in `.env`.
 
+## Family time board
+
+`/time-left` is a public, no-login page for the Firewalla daily Internet, YouTube, and gaming
+limits plus the active activity timers from the Family Internet Commitment Hub. The page is
+`noindex`, but anyone with the URL can open it.
+
+The `/api/time-left` function reads Firewalla MSP time-limit rules on each refresh. Configure
+`FIREWALLA_MSP_DOMAIN`, `FIREWALLA_API_TOKEN`, `FIREWALLA_BOX_GID`, and the Connor/Sydney Firewalla
+User IDs as Netlify environment variables. The rule API returns User IDs in each rule's scope;
+the two ID variables map those IDs to the display names. The Firewalla MSP token stays server-side.
+
+The hub sends its active-session snapshot every 30 seconds to `/api/kiosk-session`, which stores
+only the active timers in Netlify Blobs. Set `HUB_SYNC_TOKEN` in Netlify, then enter that same
+secret and `https://todasco.com` in the hub Admin > Firewalla Setup > Public dashboard settings.
+Use the same token in both places; the browser never receives it. Missing or stale hub snapshots
+are treated as no active session after two minutes.
+
 ## Still to wire up
 
 - **Newsletter is a snapshot.** Regenerate from Substack RSS plus the Medium archive rather than

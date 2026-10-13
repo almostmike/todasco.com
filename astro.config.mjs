@@ -20,6 +20,12 @@ export default defineConfig({
     schema: {
       NOTION_TOKEN: envField.string({ context: 'server', access: 'secret', optional: true }),
       NOTION_DATABASE_ID: envField.string({ context: 'server', access: 'secret', optional: true }),
+      FIREWALLA_MSP_DOMAIN: envField.string({ context: 'server', access: 'secret', optional: true }),
+      FIREWALLA_API_TOKEN: envField.string({ context: 'server', access: 'secret', optional: true }),
+      FIREWALLA_BOX_GID: envField.string({ context: 'server', access: 'secret', optional: true }),
+      FIREWALLA_CONNOR_USER_ID: envField.string({ context: 'server', access: 'secret', optional: true }),
+      FIREWALLA_SYDNEY_USER_ID: envField.string({ context: 'server', access: 'secret', optional: true }),
+      HUB_SYNC_TOKEN: envField.string({ context: 'server', access: 'secret', optional: true }),
     },
   },
 });
