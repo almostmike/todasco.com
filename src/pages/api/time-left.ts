@@ -5,6 +5,7 @@ import {
   FIREWALLA_CONNOR_GROUP_ID,
   FIREWALLA_CONNOR_USER_ID,
   FIREWALLA_MSP_DOMAIN,
+  FIREWALLA_SYDNEY_GROUP_ID,
   FIREWALLA_SYDNEY_USER_ID,
 } from 'astro:env/server';
 
@@ -44,7 +45,7 @@ function profileFor(rule: Rule): 'Connor' | 'Sydney' | null {
   const configuredIdMatches = (configuredId: string) => id === configuredId || id === configuredId.split(':').at(-1);
   const text = `${rule.scope.name ?? ''} ${rule.name ?? ''} ${rule.notes ?? ''}`.toLowerCase();
   if ((scopeType === 'group' && FIREWALLA_CONNOR_GROUP_ID && configuredIdMatches(FIREWALLA_CONNOR_GROUP_ID)) || (scopeType === 'user' && FIREWALLA_CONNOR_USER_ID && configuredIdMatches(FIREWALLA_CONNOR_USER_ID)) || text.includes('connor')) return 'Connor';
-  if ((FIREWALLA_SYDNEY_USER_ID && configuredIdMatches(FIREWALLA_SYDNEY_USER_ID)) || text.includes('sydney')) return 'Sydney';
+  if ((scopeType === 'group' && FIREWALLA_SYDNEY_GROUP_ID && configuredIdMatches(FIREWALLA_SYDNEY_GROUP_ID)) || (scopeType === 'user' && FIREWALLA_SYDNEY_USER_ID && configuredIdMatches(FIREWALLA_SYDNEY_USER_ID)) || text.includes('sydney')) return 'Sydney';
   return null;
 }
 
@@ -78,7 +79,7 @@ export async function GET() {
   if (!FIREWALLA_MSP_DOMAIN || !FIREWALLA_API_TOKEN || !FIREWALLA_BOX_GID) {
     return Response.json({ error: 'Firewalla reporting is not configured.', profiles: null, sessions: emptySessions }, { status: 503, headers });
   }
-  if (!FIREWALLA_CONNOR_USER_ID || !FIREWALLA_SYDNEY_USER_ID || !FIREWALLA_CONNOR_GROUP_ID) {
+  if (!FIREWALLA_CONNOR_USER_ID || !FIREWALLA_SYDNEY_USER_ID || !FIREWALLA_CONNOR_GROUP_ID || !FIREWALLA_SYDNEY_GROUP_ID) {
     return Response.json({ error: 'Connor and Sydney Firewalla profile IDs are not configured.', profiles: null, sessions: emptySessions }, { status: 503, headers });
   }
 

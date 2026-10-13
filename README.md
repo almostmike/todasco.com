@@ -79,8 +79,8 @@ limits plus the active activity timers from the Family Internet Commitment Hub. 
 
 The `/api/time-left` function reads Firewalla MSP time-limit rules on each refresh. Configure
 `FIREWALLA_MSP_DOMAIN`, `FIREWALLA_API_TOKEN`, `FIREWALLA_BOX_GID`, Connor's Firewalla User and
-Group IDs, and Sydney's Firewalla User ID as Netlify environment variables. The Firewalla MSP token
-stays server-side.
+Group IDs, and Sydney's Firewalla User and Group IDs as Netlify environment variables. The Firewalla
+MSP token stays server-side.
 
 The hub sends its active-session snapshot every 30 seconds to `/api/kiosk-session`, which stores
 only the active timers in Netlify Blobs. Set `HUB_SYNC_TOKEN` in Netlify, then enter that same
