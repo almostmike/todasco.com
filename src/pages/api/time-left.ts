@@ -10,7 +10,6 @@ import {
 export const prerender = false;
 
 type Rule = {
-  id?: string;
   gid?: string;
   action?: string;
   name?: string;
@@ -71,9 +70,8 @@ function summarize(rules: Rule[]) {
   }))]));
 }
 
-export async function GET({ request }: { request: Request }) {
+export async function GET() {
   const headers = { 'Cache-Control': 'no-store, max-age=0' };
-  const diagnostic = Boolean(HUB_SYNC_TOKEN && request.headers.get('x-dashboard-diagnostic-token') === HUB_SYNC_TOKEN);
   if (!FIREWALLA_MSP_DOMAIN || !FIREWALLA_API_TOKEN || !FIREWALLA_BOX_GID) {
     return Response.json({ error: 'Firewalla reporting is not configured.', profiles: null, sessions: emptySessions }, { status: 503, headers });
   }
@@ -96,9 +94,6 @@ export async function GET({ request }: { request: Request }) {
 
     const payload = await firewallaResponse.json() as { results?: Rule[] } | Rule[];
     const rules = Array.isArray(payload) ? payload : payload.results ?? [];
-    if (diagnostic) {
-      return Response.json({ rules: rules.filter((rule) => rule.timeUsage).map(({ id, action, scope, target, timeUsage }) => ({ id, action, scope, target, timeUsage })) }, { headers });
-    }
     const snapshot = await getStore({ name: 'family-time-left', region: 'us-east-2' }).get('active-sessions', { type: 'json' }) as { updatedAt?: string; sessions?: unknown[] } | null;
     const isFresh = Boolean(snapshot?.updatedAt && Date.now() - Date.parse(snapshot.updatedAt) < 120_000);
     const sessions = isFresh ? snapshot : emptySessions;
@@ -111,8 +106,7 @@ export async function GET({ request }: { request: Request }) {
     };
     return Response.json({ updatedAt: new Date().toISOString(), profiles: summarize(rules), sessions, diagnostics }, { headers });
   } catch (error) {
-    const detail = error instanceof Error ? error.message : 'unknown error';
-    console.error('[time-left] Failed to load data:', detail);
-    return Response.json({ error: diagnostic ? detail : 'Could not load the time-left dashboard.', profiles: null, sessions: emptySessions }, { status: 502, headers });
+    console.error('[time-left] Failed to load data:', error instanceof Error ? error.message : 'unknown error');
+    return Response.json({ error: 'Could not load the time-left dashboard.', profiles: null, sessions: emptySessions }, { status: 502, headers });
   }
 }
