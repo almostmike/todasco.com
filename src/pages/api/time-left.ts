@@ -10,6 +10,7 @@ import {
 export const prerender = false;
 
 type Rule = {
+  id?: string;
   gid?: string;
   action?: string;
   name?: string;
@@ -70,7 +71,7 @@ function summarize(rules: Rule[]) {
   }))]));
 }
 
-export async function GET() {
+export async function GET({ request }: { request: Request }) {
   const headers = { 'Cache-Control': 'no-store, max-age=0' };
   if (!FIREWALLA_MSP_DOMAIN || !FIREWALLA_API_TOKEN || !FIREWALLA_BOX_GID) {
     return Response.json({ error: 'Firewalla reporting is not configured.', profiles: null, sessions: emptySessions }, { status: 503, headers });
@@ -94,6 +95,9 @@ export async function GET() {
 
     const payload = await firewallaResponse.json() as { results?: Rule[] } | Rule[];
     const rules = Array.isArray(payload) ? payload : payload.results ?? [];
+    if (HUB_SYNC_TOKEN && request.headers.get('x-dashboard-diagnostic-token') === HUB_SYNC_TOKEN) {
+      return Response.json({ rules: rules.filter((rule) => rule.timeUsage).map(({ id, action, scope, target, timeUsage }) => ({ id, action, scope, target, timeUsage })) }, { headers });
+    }
     const snapshot = await getStore({ name: 'family-time-left', region: 'us-east-2' }).get('active-sessions', { type: 'json' }) as { updatedAt?: string; sessions?: unknown[] } | null;
     const isFresh = Boolean(snapshot?.updatedAt && Date.now() - Date.parse(snapshot.updatedAt) < 120_000);
     const sessions = isFresh ? snapshot : emptySessions;
