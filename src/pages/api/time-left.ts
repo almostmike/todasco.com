@@ -2,6 +2,7 @@ import { getStore } from '@netlify/blobs';
 import {
   FIREWALLA_API_TOKEN,
   FIREWALLA_BOX_GID,
+  FIREWALLA_CONNOR_GROUP_ID,
   FIREWALLA_CONNOR_USER_ID,
   FIREWALLA_MSP_DOMAIN,
   FIREWALLA_SYDNEY_USER_ID,
@@ -37,11 +38,12 @@ function bucketFor(rule: Rule): 'internet' | 'youtube' | 'gaming' | null {
 }
 
 function profileFor(rule: Rule): 'Connor' | 'Sydney' | null {
-  if (!['user', 'group'].includes(rule.scope?.type?.toLowerCase() ?? '')) return null;
+  const scopeType = rule.scope?.type?.toLowerCase() ?? '';
+  if (!['user', 'group'].includes(scopeType)) return null;
   const id = rule.scope.value ?? '';
   const configuredIdMatches = (configuredId: string) => id === configuredId || id === configuredId.split(':').at(-1);
   const text = `${rule.scope.name ?? ''} ${rule.name ?? ''} ${rule.notes ?? ''}`.toLowerCase();
-  if ((FIREWALLA_CONNOR_USER_ID && configuredIdMatches(FIREWALLA_CONNOR_USER_ID)) || text.includes('connor')) return 'Connor';
+  if ((scopeType === 'group' && FIREWALLA_CONNOR_GROUP_ID && configuredIdMatches(FIREWALLA_CONNOR_GROUP_ID)) || (scopeType === 'user' && FIREWALLA_CONNOR_USER_ID && configuredIdMatches(FIREWALLA_CONNOR_USER_ID)) || text.includes('connor')) return 'Connor';
   if ((FIREWALLA_SYDNEY_USER_ID && configuredIdMatches(FIREWALLA_SYDNEY_USER_ID)) || text.includes('sydney')) return 'Sydney';
   return null;
 }
@@ -76,8 +78,8 @@ export async function GET() {
   if (!FIREWALLA_MSP_DOMAIN || !FIREWALLA_API_TOKEN || !FIREWALLA_BOX_GID) {
     return Response.json({ error: 'Firewalla reporting is not configured.', profiles: null, sessions: emptySessions }, { status: 503, headers });
   }
-  if (!FIREWALLA_CONNOR_USER_ID || !FIREWALLA_SYDNEY_USER_ID) {
-    return Response.json({ error: 'Connor and Sydney Firewalla User IDs are not configured.', profiles: null, sessions: emptySessions }, { status: 503, headers });
+  if (!FIREWALLA_CONNOR_USER_ID || !FIREWALLA_SYDNEY_USER_ID || !FIREWALLA_CONNOR_GROUP_ID) {
+    return Response.json({ error: 'Connor and Sydney Firewalla profile IDs are not configured.', profiles: null, sessions: emptySessions }, { status: 503, headers });
   }
 
   try {
@@ -98,20 +100,7 @@ export async function GET() {
     const snapshot = await getStore({ name: 'family-time-left', region: 'us-east-2' }).get('active-sessions', { type: 'json' }) as { updatedAt?: string; sessions?: unknown[] } | null;
     const isFresh = Boolean(snapshot?.updatedAt && Date.now() - Date.parse(snapshot.updatedAt) < 120_000);
     const sessions = isFresh ? snapshot : emptySessions;
-    return Response.json({
-      updatedAt: new Date().toISOString(),
-      profiles: summarize(rules),
-      sessions,
-      usageRules: rules.filter((rule) => rule.timeUsage).map((rule) => ({
-        action: rule.action,
-        scopeType: rule.scope?.type ?? 'all',
-        scopeTail: rule.scope?.value?.slice(-4) ?? '',
-        targetType: rule.target?.type,
-        targetValue: rule.target?.value,
-        quotaMinutes: rule.timeUsage?.quota,
-        usedMinutes: rule.timeUsage?.used
-      }))
-    }, { headers });
+    return Response.json({ updatedAt: new Date().toISOString(), profiles: summarize(rules), sessions }, { headers });
   } catch (error) {
     console.error('[time-left] Failed to load data:', error instanceof Error ? error.message : 'unknown error');
     return Response.json({ error: 'Could not load the time-left dashboard.', profiles: null, sessions: emptySessions }, { status: 502, headers });

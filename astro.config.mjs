@@ -24,6 +24,7 @@ export default defineConfig({
       FIREWALLA_API_TOKEN: envField.string({ context: 'server', access: 'secret', optional: true }),
       FIREWALLA_BOX_GID: envField.string({ context: 'server', access: 'secret', optional: true }),
       FIREWALLA_CONNOR_USER_ID: envField.string({ context: 'server', access: 'secret', optional: true }),
+      FIREWALLA_CONNOR_GROUP_ID: envField.string({ context: 'server', access: 'secret', optional: true }),
       FIREWALLA_SYDNEY_USER_ID: envField.string({ context: 'server', access: 'secret', optional: true }),
       HUB_SYNC_TOKEN: envField.string({ context: 'server', access: 'secret', optional: true }),
     },
