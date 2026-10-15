@@ -9,13 +9,13 @@ import films from '../data/movies.json';
   description="An ongoing series on what cinema taught us to expect from artificial intelligence, and what those films taught the language models."
 >
   <PageHeader
-    num="04" sym="Mv" name="AI at the Movies" fam="film" count="11"
+    num="04" sym="Mv" name="AI at the Movies" fam="film" count="12"
     title="What the films got right, and very wrong"
     prose="An ongoing series on what cinema taught us to expect from artificial intelligence, and what these movies taught the language models."
     links={[{ label: 'Read in the newsletter', href: '/newsletter' }]}
     mike="mike-movies"
     mikeAlt="Cartoon Mike Todasco alone in a cinema seat clutching an enormous bucket of popcorn"
-    right="Specimens 01 – 10"
+    right="Specimens 01 – 12"
   />
 
   <div class="plates">
@@ -23,7 +23,7 @@ import films from '../data/movies.json';
       {films.map((f, i) => (
         <a class="plate" href={f.url} target="_blank" rel="noopener" style="background:var(--film-pale)">
           <div class="art" style="height:168px;background:var(--panel)">
-            <img src={`/img/${f.art}.webp`} alt={`Cover art for the ${f.film} essay`} width="520" height="300" loading="lazy" />
+            <img src={f.art.startsWith('https://') ? f.art : `/img/${f.art}.webp`} alt={`Cover art for the ${f.film} essay`} width="520" height="300" loading="lazy" />
           </div>
           <div class="meta">
             <div class="row"><span class="n">{String(i + 1).padStart(2, '0')}</span></div>
