@@ -1138,5 +1138,15 @@
   "url": "https://todasco.substack.com/p/why-ai-agents-could-break-the-subscription",
   "src": "Substack",
   "movies": false
+ },
+ {
+  "n": 115,
+  "date": "2026-10-15",
+  "label": "Oct 15",
+  "year": "2026",
+  "title": "What is Wall-E’s p(doom)?",
+  "url": "https://todasco.substack.com/p/what-is-wall-es-pdoom",
+  "src": "Substack",
+  "movies": true
  }
 ]
