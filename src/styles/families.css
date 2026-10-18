@@ -11,13 +11,13 @@
 
 /* Page mobile hero: Ai tile beside the title, big cartoon hidden, so the signup is on the first screen. */
 @media (max-width: 900px) {
-  .nlpage .phead { grid-template-columns: 84px minmax(0, 1fr); align-items: center; }
-  .nlpage .phead > .tilecell { border-bottom: 0; border-right: 0; padding: 10px 0 10px 12px; }
+  .nlpage .phead { grid-template-columns: 84px minmax(0, 1fr); align-items: start; }
+  .nlpage .phead > .tilecell { border-bottom: 0; border-right: 0; background: transparent; padding: 14px 0 0 12px; align-items: flex-start; justify-content: flex-start; }
   .nlpage .phead > .tilecell .tile { width: 72px; height: 72px; padding: 5px 6px; border-width: 2px; }
   .nlpage .phead > .tilecell .tile .sym { font-size: 34px; }
   .nlpage .phead > .tilecell .tile .nm,
   .nlpage .phead > .tilecell .tile .cnt { display: none; }
-  .nlpage .phead > .prose { padding: 10px 14px 10px 12px; gap: 6px; }
+  .nlpage .phead > .prose { padding: 14px 14px 12px 12px; gap: 6px; }
   .nlpage .phead h1 { font-size: 22px; }
   .nlpage .phead p { font-size: 14px; line-height: 1.4; }
   .nlpage .phead > .mike { display: none; }
