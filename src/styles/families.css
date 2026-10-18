@@ -1,0 +1,24 @@
+/* Essay families on /newsletter. Each tile carries data-family and a two-letter
+   code so color is never the only signal. Ink colors pass WCAG AA on their tint. */
+:root {
+  --fam-big-picture-tint:  #F2D3CB;  --fam-big-picture-ink:  #A23318;
+  --fam-models-tools-tint: #D6E2F0;  --fam-models-tools-ink: #1F4A80;
+  --fam-creativity-tint:   #F4E2B4;  --fam-creativity-ink:   #7A5200;
+  --fam-work-money-tint:   #DCE7C6;  --fam-work-money-ink:   #3E5F17;
+  --fam-trust-ethics-tint: #CBE6E2;  --fam-trust-ethics-ink: #11595A;
+  --fam-movies-tint:       #E3D7EE;  --fam-movies-ink:       #5B2E86;
+}
+
+/* Page mobile hero: Ai tile beside the title, big cartoon hidden, so the signup is on the first screen. */
+@media (max-width: 900px) {
+  .nlpage .phead { grid-template-columns: 84px minmax(0, 1fr); align-items: center; }
+  .nlpage .phead > .tilecell { border-bottom: 0; border-right: 0; padding: 10px 0 10px 12px; }
+  .nlpage .phead > .tilecell .tile { width: 72px; height: 72px; padding: 5px 6px; border-width: 2px; }
+  .nlpage .phead > .tilecell .tile .sym { font-size: 34px; }
+  .nlpage .phead > .tilecell .tile .nm,
+  .nlpage .phead > .tilecell .tile .cnt { display: none; }
+  .nlpage .phead > .prose { padding: 10px 14px 10px 12px; gap: 6px; }
+  .nlpage .phead h1 { font-size: 22px; }
+  .nlpage .phead p { font-size: 14px; line-height: 1.4; }
+  .nlpage .phead > .mike { display: none; }
+}
