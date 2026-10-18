@@ -1,0 +1,33 @@
+---
+// StickySubscribe.astro
+// Mobile only. A slim bar that appears once the reader has scrolled PAST #subscribe,
+// and jumps them back to it. Place once, anywhere in the page body.
+---
+<div class="sticky-sub" id="sticky-sub" hidden>
+  <span>Get the next essay free</span>
+  <a href="#subscribe">Subscribe</a>
+</div>
+
+<script>
+  (() => {
+    const bar = document.getElementById('sticky-sub');
+    const target = document.getElementById('subscribe');
+    if (!bar || !target || !('IntersectionObserver' in window)) return;
+    const mq = window.matchMedia('(max-width: 900px)');
+    new IntersectionObserver(([entry]) => {
+      // Show only on mobile, only when the signup block is above the viewport (already scrolled past).
+      const past = !entry.isIntersecting && entry.boundingClientRect.top < 0;
+      bar.hidden = !(mq.matches && past);
+    }).observe(target);
+  })();
+</script>
+
+<style>
+  .sticky-sub { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+                display: flex; align-items: center; justify-content: space-between; gap: 12px;
+                padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+                background: var(--ink); color: var(--paper); font-size: 14px; }
+  .sticky-sub[hidden] { display: none; }
+  .sticky-sub a { background: var(--news); color: #fff; padding: 8px 14px; font-weight: 600; text-decoration: none; }
+  @media (min-width: 901px) { .sticky-sub { display: none !important; } }
+</style>
