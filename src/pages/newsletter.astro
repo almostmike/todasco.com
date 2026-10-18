@@ -65,6 +65,20 @@ const pick = featured[dayIndex(todayKey, featured.length)];
     right={`Complete index · ${posts.length} essays and counting`}
   />
 
+  <section class="ctaband" aria-label="Subscribe to the newsletter">
+    <div class="ctacopy">
+      <div class="ctakicker">Free weekly newsletter</div>
+      <h2>Get the next essay in your inbox.</h2>
+      <p>One practical AI essay a week: what works, what's hype, what's next. Join a few thousand active readers. Always 100% free.</p>
+    </div>
+    <form class="ctaform" action="https://todasco.substack.com/api/v1/free?nojs=true" method="post" target="_blank">
+      <input type="hidden" name="source" value="embed" />
+      <label for="cta-email">Email address</label>
+      <input class="field" id="cta-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+      <button class="btn" type="submit">Subscribe free</button>
+    </form>
+  </section>
+
   <div class="chartwrap">
 
     <div class="topsplit">
@@ -120,6 +134,28 @@ const pick = featured[dayIndex(todayKey, featured.length)];
 </Base>
 
 <style>
+  /* ── signup band ──────────────────────────────────────────── */
+  .ctaband {
+    display: grid; grid-template-columns: 1fr minmax(300px, 420px); gap: 26px; align-items: center;
+    padding: 24px 30px; border-bottom: 3px solid var(--ink); background: var(--news-pale);
+  }
+  .ctakicker {
+    font-family: var(--cd); font-size: 12px; font-weight: 700; letter-spacing: .2em;
+    text-transform: uppercase; color: var(--news); margin-bottom: 7px;
+  }
+  .ctaband h2 { font-family: var(--bv); font-size: 28px; line-height: 1.08; font-weight: 400; margin: 0 0 8px; }
+  .ctaband p { margin: 0; font-size: 15.5px; line-height: 1.5; color: var(--body); max-width: 60ch; }
+  .ctaform { display: flex; gap: 10px; align-items: stretch; }
+  .ctaform label { position: absolute; left: -9999px; }
+  .ctaform .field { flex: 1; width: auto; background: #F6F2E8; }
+  .ctaform .btn { white-space: nowrap; }
+
+  @media (max-width: 900px) {
+    .ctaband { grid-template-columns: 1fr; gap: 14px; padding: 18px 16px; }
+    .ctaband h2 { font-size: 24px; }
+    .ctaform { flex-direction: column; }
+  }
+
   .chartwrap { padding: 22px 30px 28px; display: flex; flex-direction: column; gap: 22px; }
 
   .topsplit { display: grid; grid-template-columns: 762px minmax(0, 1fr); gap: 20px; align-items: start; }
