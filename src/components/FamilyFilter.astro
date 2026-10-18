@@ -8,7 +8,7 @@ const families = Object.entries(fam.families);
   <button type="button" class="famchip" data-filter="all" aria-pressed="true">All <span>{total}</span></button>
   {families.map(([slug, f]) => (
     <button type="button" class="famchip" data-filter={slug} data-family={slug} aria-pressed="false">
-      <b>{f.code}</b> {f.name} <span>{counts[slug] || 0}</span>
+      {f.name} <span>{counts[slug] || 0}</span>
     </button>
   ))}
 </div>
