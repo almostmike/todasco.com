@@ -1,0 +1,15 @@
+{
+ "sjsu": {
+  "title": "Are We Moving Too Fast?",
+  "event": "Responsible Innovation in AI Conference",
+  "venue": "San José State University",
+  "date": "October 2026",
+  "slides": "",
+  "links": [
+   {
+    "label": "You're Probably Wrong About Data Center Electricity Usage",
+    "url": "https://medium.com/@todasco/youre-probably-wrong-about-data-center-electricity-usage-i-was-cdfa96e64b9a"
+   }
+  ]
+ }
+}
