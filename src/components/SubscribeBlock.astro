@@ -47,7 +47,14 @@ const { count } = Astro.props;
   @media (max-width: 900px) {
     .subscribe { grid-template-columns: 1fr; gap: 12px; padding: 16px 14px; }
     .subscribe-title { font-size: 24px; margin-bottom: 0; }
-    .subscribe-sub { display: none; }
+    /* phone order: eyebrow, headline, embed, subhead, proof, alt */
+    .subscribe-copy, .subscribe-form { display: contents; }
+    .subscribe-eyebrow { order: 1; margin: 0; }
+    .subscribe-title { order: 2; }
+    .subscribe-embed { order: 3; }
+    .subscribe-sub { order: 4; font-size: 14.5px; line-height: 1.5; }
+    .subscribe-proof { order: 5; margin: 0; }
+    .subscribe-alt { order: 6; margin: 0; }
     .subscribe-embed { max-width: none; border-width: 2px; }
   }
 </style>
