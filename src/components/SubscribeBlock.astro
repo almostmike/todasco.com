@@ -1,0 +1,53 @@
+---
+// Signup band: Substack's own embed (one step, stays on the page).
+// Needs frame-src https://todasco.substack.com in the CSP (netlify.toml).
+// Substack setting: Growth features > "Show pub logo on embed" should be OFF.
+const { count } = Astro.props;
+---
+<section class="subscribe" id="subscribe" aria-labelledby="subscribe-title">
+  <div class="subscribe-copy">
+    <p class="subscribe-eyebrow">Free weekly newsletter</p>
+    <h2 class="subscribe-title" id="subscribe-title">Stay a little freaked out. Weekly.</h2>
+    <p class="subscribe-sub">
+      Each week I run an AI experiment and report back on what works, what's hype, and what's next.
+      Recent ones: doing my taxes with a $20 AI, cloning podcast hosts' voices in 12 seconds,
+      and asking chatbots how to vote.
+    </p>
+  </div>
+
+  <div class="subscribe-form">
+    <iframe
+      src="https://todasco.substack.com/embed"
+      title="Subscribe to Artificially Intelligent Conversations"
+      class="subscribe-embed"
+      loading="eager"
+      frameborder="0"
+      scrolling="no"></iframe>
+    <p class="subscribe-proof">{count} essays since 2022 · Visiting Fellow, SDSU AI Center · 120+ patents · Free, unsubscribe anytime</p>
+    <p class="subscribe-alt">
+      Prefer LinkedIn or Medium? Follow there instead:
+      <a href="https://www.linkedin.com/newsletters/ai-conversations-6996917847037755392/" target="_blank" rel="noopener">LinkedIn</a>
+      ·
+      <a href="https://medium.com/@todasco" target="_blank" rel="noopener">Medium</a>
+    </p>
+  </div>
+</section>
+
+<style>
+  .subscribe { display: grid; grid-template-columns: 1.1fr 1fr; gap: 28px; align-items: center;
+               background: var(--news-pale); border-top: 3px solid var(--ink); border-bottom: 3px solid var(--ink); padding: 28px 30px; }
+  .subscribe-eyebrow { font-family: var(--cd); font-size: 13px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--news); margin: 0 0 8px; }
+  .subscribe-title { font-family: var(--bv); font-weight: 400; font-size: 34px; line-height: 1.1; margin: 0 0 10px; }
+  .subscribe-sub { margin: 0; color: var(--body); line-height: 1.55; }
+  /* Height is set by Substack's content. 160px fits the embed with the logo off. */
+  .subscribe-embed { display: block; width: 100%; max-width: 480px; height: 160px; border: 3px solid var(--ink); background: #fff; }
+  .subscribe-proof { font-size: 12.5px; color: var(--muted); margin: 10px 0 0; }
+  .subscribe-alt { font-size: 13.5px; color: var(--muted); margin: 6px 0 0; }
+  .subscribe-alt a { color: inherit; text-decoration: underline; }
+  @media (max-width: 900px) {
+    .subscribe { grid-template-columns: 1fr; gap: 12px; padding: 16px 14px; }
+    .subscribe-title { font-size: 24px; margin-bottom: 0; }
+    .subscribe-sub { display: none; }
+    .subscribe-embed { max-width: none; border-width: 2px; }
+  }
+</style>
