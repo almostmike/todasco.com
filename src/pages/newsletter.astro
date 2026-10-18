@@ -71,12 +71,14 @@ const pick = featured[dayIndex(todayKey, featured.length)];
       <h2>Get the next essay in your inbox.</h2>
       <p>One practical AI essay a week: what works, what's hype, what's next. Join a few thousand active readers. Always 100% free.</p>
     </div>
-    <form class="ctaform" action="https://todasco.substack.com/api/v1/free?nojs=true" method="post" target="_blank">
-      <input type="hidden" name="source" value="embed" />
-      <label for="cta-email">Email address</label>
-      <input class="field" id="cta-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
-      <button class="btn" type="submit">Subscribe free</button>
-    </form>
+    <div class="ctaright">
+      <form class="ctaform" action="https://todasco.substack.com/subscribe" method="get" target="_blank" rel="noopener">
+        <label for="cta-email">Email address</label>
+        <input class="field" id="cta-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+        <button class="btn" type="submit">Subscribe free</button>
+      </form>
+      <p class="ctastatus" role="status" aria-live="polite"></p>
+    </div>
   </section>
 
   <div class="chartwrap">
@@ -133,6 +135,17 @@ const pick = featured[dayIndex(todayKey, featured.length)];
   />
 </Base>
 
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('.ctaform');
+    const status = document.querySelector('.ctastatus');
+    if (!form || !status) return;
+    form.addEventListener('submit', () => {
+      status.textContent = 'Opening Substack in a new tab to confirm your free subscription.';
+    });
+  });
+</script>
+
 <style>
   /* ── signup band ──────────────────────────────────────────── */
   .ctaband {
@@ -146,6 +159,8 @@ const pick = featured[dayIndex(todayKey, featured.length)];
   .ctaband h2 { font-family: var(--bv); font-size: 28px; line-height: 1.08; font-weight: 400; margin: 0 0 8px; }
   .ctaband p { margin: 0; font-size: 15.5px; line-height: 1.5; color: var(--body); max-width: 60ch; }
   .ctaform { display: flex; gap: 10px; align-items: stretch; }
+  .ctastatus { margin: 10px 0 0; font-size: 13.5px; line-height: 1.4; color: var(--body); }
+  .ctastatus:empty { display: none; }
   .ctaform label { position: absolute; left: -9999px; }
   .ctaform .field { flex: 1; width: auto; background: #F6F2E8; }
   .ctaform .btn { white-space: nowrap; }
