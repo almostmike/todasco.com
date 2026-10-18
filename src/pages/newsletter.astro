@@ -75,8 +75,12 @@ const pick = featured[dayIndex(todayKey, featured.length)];
       <form class="ctaform" action="https://todasco.substack.com/subscribe" method="get" target="_blank" rel="noopener">
         <label for="cta-email">Email address</label>
         <input class="field" id="cta-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
-        <button class="btn" type="submit">Subscribe free</button>
+        <button class="btn" type="submit">Subscribe on Substack</button>
       </form>
+      <p class="ctaalt">Or subscribe on 
+        <a href="https://medium.com/@todasco" target="_blank" rel="noopener">Medium</a> or 
+        <a href="https://www.linkedin.com/newsletters/ai-conversations-6996917847037755392/" target="_blank" rel="noopener">LinkedIn</a>.
+      </p>
       <p class="ctastatus" role="status" aria-live="polite"></p>
     </div>
   </section>
@@ -160,6 +164,8 @@ const pick = featured[dayIndex(todayKey, featured.length)];
   .ctaband p { margin: 0; font-size: 15.5px; line-height: 1.5; color: var(--body); max-width: 60ch; }
   .ctaform { display: flex; gap: 10px; align-items: stretch; }
   .ctastatus { margin: 10px 0 0; font-size: 13.5px; line-height: 1.4; color: var(--body); }
+  .ctaalt { margin: 10px 0 0; font-size: 13.5px; line-height: 1.4; color: var(--body); }
+  .ctaalt a { color: var(--news); font-weight: 700; }
   .ctastatus:empty { display: none; }
   .ctaform label { position: absolute; left: -9999px; }
   .ctaform .field { flex: 1; width: auto; background: #F6F2E8; }
@@ -277,3 +283,4 @@ const pick = featured[dayIndex(todayKey, featured.length)];
     } catch { /* leave the server-rendered pick in place */ }
   }
 </script>
+
