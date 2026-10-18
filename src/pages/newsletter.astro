@@ -4,6 +4,12 @@ import PageHeader from '../components/PageHeader.astro';
 import PageFooter from '../components/PageFooter.astro';
 import posts from '../data/newsletter.json';
 import featured from '../data/featured.json';
+import famData from '../data/essay-families.json';
+import TalkCard from '../components/TalkCard.astro';
+import SubscribeBlock from '../components/SubscribeBlock.astro';
+import FamilyFilter from '../components/FamilyFilter.astro';
+import StickySubscribe from '../components/StickySubscribe.astro';
+import '../styles/families.css';
 
 // two-letter symbol from the title, unique across the set
 const STOP = new Set(['the','a','an','of','and','or','to','in','on','is','it','my','for','at','with','you','your','i']);
@@ -23,13 +29,34 @@ function symbolFor(title) {
   const f = first[0].toUpperCase() + n; used.add(f); return f;
 }
 
-const years = [...new Set(posts.map((p) => p.year))].sort();
+// Display fixes for a few titles (data file keeps the originals).
+const TITLE_FIX = {
+  16: '“Writing” a Book with AI- My Foreword to Artificial America',
+  24: 'Excerpt from ‘Sherlock Holmes and the Labyrinth of Choices’ Written by GPT-4',
+  5: 'A Beginners Guide to No-Code AI Artwork Tools (Reviewing Craiyon, DALL-E, Midjourney, and Stable Diffusion)',
+  68: 'Can AI Create a Comic Book? (2025)',
+  77: 'AI Will Replace You, And That’s a Good Thing: Guest Post By “Evil Mike”',
+};
+
+// Family per essay comes from essay-families.json. A new essay needs one line there.
+// Fail the build if one is missing so nothing ships unclassified.
+const unfiled = posts.filter((p) => !famData.essays[String(p.n)]);
+if (unfiled.length) throw new Error(`essay-families.json is missing: ${unfiled.map((p) => p.n).join(', ')}`);
+
+// Symbols are assigned oldest-first so existing tiles never change when a new essay is added.
+const withSym = [...posts].sort((a, b) => a.n - b.n).map((p) => {
+  const fam = famData.essays[String(p.n)];
+  return { ...p, title: TITLE_FIX[p.n] ?? p.title, sym: symbolFor(p.title), fam, code: famData.families[fam].code, famName: famData.families[fam].name };
+});
+const counts = {};
+for (const p of withSym) counts[p.fam] = (counts[p.fam] || 0) + 1;
+
+// Newest year first, newest essay first within each year.
+const years = [...new Set(withSym.map((p) => p.year))].sort().reverse();
 const rows = years.map((y) => ({
   year: y,
-  items: posts.filter((p) => p.year === y).map((p) => ({ ...p, sym: symbolFor(p.title) })),
+  items: withSym.filter((p) => p.year === y).sort((a, b) => b.n - a.n),
 }));
-const firstRow = rows[0];
-const restRows = rows.slice(1);
 
 // Pick one article per day. Consecutive days must not land on neighbours, so the
 // date key gets avalanche-mixed rather than just multiplied — a plain h*31 hash
@@ -51,78 +78,64 @@ const pick = featured[dayIndex(todayKey, featured.length)];
   title="The Newsletter — Mike Todasco"
   description={`Every essay from Artificially Intelligent Conversations, Mike Todasco's weekly AI newsletter — ${posts.length} of them, numbered from the first in August 2022.`}
 >
+  <div class="nlpage">
   <PageHeader
     num="01" sym="Ai" name="The Newsletter" fam="news" count="WEEKLY"
     title="Artificially Intelligent Conversations"
-    prose={'Every essay since the first one, published August 2022 &mdash; &ldquo;The One Technology You SHOULD Freak Out About.&rdquo; Four years later, we&rsquo;re all freaking out.'}
-    links={[
-      { label: 'Substack', href: 'https://todasco.substack.com' },
-      { label: 'Medium', href: 'https://medium.com/@todasco' },
-      { label: 'LinkedIn', href: 'https://www.linkedin.com/newsletters/ai-conversations-6996917847037755392/' },
-    ]}
+    prose={'Every essay since the first one in August 2022: &ldquo;The One Technology You SHOULD Freak Out About.&rdquo; Four years later, we&rsquo;re all freaking out.'}
     mike="mike-news"
     mikeAlt="Cartoon Mike Todasco writing late at night while two small robots look over his shoulder"
     right={`Complete index · ${posts.length} essays and counting`}
   />
 
+  <TalkCard />
+  <SubscribeBlock count={posts.length} />
+
   <div class="chartwrap">
-
-    <div class="topsplit">
-      <section class="period narrow">
-        <div class="ylabel"><b>{firstRow.year}</b><span>{firstRow.items.length}</span></div>
-        <div class="row">
-          {firstRow.items.map((p) => (
-            <a class="el" href={p.url} target="_blank" rel="noopener" title={p.title}>
-              <span class="n">{p.n}</span>
-              <span class="sym">{p.sym}</span>
-              <span class="t">{p.title}</span>
-              {p.movies && <span class="mv">At the Movies</span>}
-            </a>
-          ))}
+    <aside class="featured" id="featured" data-pool={JSON.stringify(featured)}>
+      <div class="flabel">Featured article</div>
+      <a class="fcard" id="fcard" href={pick.url} target="_blank" rel="noopener">
+        <div class="fart"><img id="fimg" src={pick.art.startsWith('https://') ? pick.art : `/img/${pick.art}.webp`} alt="" width="760" height="430" /></div>
+        <div class="fmeta">
+          <span class="fnum" id="fnum">#{pick.n}</span>
+          <span class="ftitle" id="ftitle">{pick.title}</span>
+          <span class="fgo">Read it &rarr;</span>
         </div>
-      </section>
+      </a>
+    </aside>
 
-      <aside class="featured" id="featured" data-pool={JSON.stringify(featured)}>
-        <div class="flabel">Featured article</div>
-        <a class="fcard" id="fcard" href={pick.url} target="_blank" rel="noopener">
-          <div class="fart"><img id="fimg" src={pick.art.startsWith('https://') ? pick.art : `/img/${pick.art}.webp`} alt="" width="760" height="430" /></div>
-          <div class="fmeta">
-            <span class="fnum" id="fnum">#{pick.n}</span>
-            <span class="ftitle" id="ftitle">{pick.title}</span>
-            <span class="fgo">Read it &rarr;</span>
+    <FamilyFilter counts={counts} total={posts.length} />
+
+    <div class="index" data-filter="all">
+      {rows.map(({ year, items }) => (
+        <section class="period">
+          <div class="ylabel"><b>{year}</b><span>{items.length}</span></div>
+          <div class="row">
+            {items.map((p) => (
+              <a class="el" data-family={p.fam} href={p.url} target="_blank" rel="noopener" title={p.title} aria-label={`${p.title} (${p.famName}, essay ${p.n})`}>
+                <span class="top"><span class="n">{p.n}</span><span class="famcode">{p.code}</span></span>
+                <span class="sym">{p.sym}</span>
+                <span class="t">{p.title}</span>
+              </a>
+            ))}
           </div>
-        </a>
-      </aside>
+        </section>
+      ))}
     </div>
-
-    {restRows.map(({ year, items }) => (
-      <section class="period">
-        <div class="ylabel"><b>{year}</b><span>{items.length}</span></div>
-        <div class="row">
-          {items.map((p) => (
-            <a class="el" href={p.url} target="_blank" rel="noopener" title={p.title}>
-              <span class="n">{p.n}</span>
-              <span class="sym">{p.sym}</span>
-              <span class="t">{p.title}</span>
-              {p.movies && <span class="mv">At the Movies</span>}
-            </a>
-          ))}
-        </div>
-      </section>
-    ))}
   </div>
 
   <PageFooter
-    left="Numbered from the first one. Violet marks the eleven also filed under AI at the Movies."
+    left="Numbered from the first one. Filter by family above."
     right="Element 01 · The Newsletter"
     fam="news"
   />
+  <StickySubscribe />
+  </div>
 </Base>
 
 <style>
-  .chartwrap { padding: 22px 30px 28px; display: flex; flex-direction: column; gap: 22px; }
-
-  .topsplit { display: grid; grid-template-columns: 762px minmax(0, 1fr); gap: 20px; align-items: start; }
+  .chartwrap { padding: 22px 30px 28px; display: flex; flex-direction: column; gap: 18px; }
+  .index { display: flex; flex-direction: column; gap: 14px; }
 
   .period { display: grid; grid-template-columns: 58px 1fr; gap: 14px; align-items: start; }
   .ylabel {
@@ -133,27 +146,39 @@ const pick = featured[dayIndex(todayKey, featured.length)];
   .ylabel span { font-family: var(--cd); font-size: 12px; font-weight: 600; letter-spacing: .12em; color: var(--muted); margin-top: 3px; }
 
   .row { display: grid; grid-template-columns: repeat(auto-fill, minmax(126px, 1fr)); gap: 5px; }
-  /* 2022 sits beside the featured box, so it wraps into narrower rows */
-  .period.narrow .row { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 
   .el {
+    --tint: var(--news-pale); --ink2: var(--news);
     display: flex; flex-direction: column; gap: 3px;
     aspect-ratio: 1 / 1; padding: 8px 9px 9px;
-    border: 2px solid var(--ink); background: var(--news-pale);
-    overflow: hidden; transition: transform .1s ease, background .1s ease;
+    border: 2px solid var(--ink); background: var(--tint);
+    overflow: hidden; transition: transform .1s ease, opacity .15s ease;
   }
-  .el:hover { transform: translateY(-2px); background: #F6E3DC; color: inherit; }
+  .el:hover { transform: translateY(-2px); color: inherit; }
+  .el[data-family="big-picture"]  { --tint: var(--fam-big-picture-tint);  --ink2: var(--fam-big-picture-ink); }
+  .el[data-family="models-tools"] { --tint: var(--fam-models-tools-tint); --ink2: var(--fam-models-tools-ink); }
+  .el[data-family="creativity"]   { --tint: var(--fam-creativity-tint);   --ink2: var(--fam-creativity-ink); }
+  .el[data-family="work-money"]   { --tint: var(--fam-work-money-tint);   --ink2: var(--fam-work-money-ink); }
+  .el[data-family="trust-ethics"] { --tint: var(--fam-trust-ethics-tint); --ink2: var(--fam-trust-ethics-ink); }
+  .el[data-family="movies"]       { --tint: var(--fam-movies-tint);       --ink2: var(--fam-movies-ink); }
+  .el .top { display: flex; justify-content: space-between; align-items: baseline; }
   .el .n { font-family: var(--cd); font-size: 11px; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; }
-  .el .sym { font-family: var(--bv); font-size: 30px; line-height: .92; color: var(--news); }
+  .el .famcode { font-family: var(--cd); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink2); }
+  .el .sym { font-family: var(--bv); font-size: 30px; line-height: .92; color: var(--ink2); }
   .el .t {
     font-family: var(--cd); font-size: 11.5px; font-weight: 500; line-height: 1.16;
     letter-spacing: .01em; color: var(--ink); margin-top: auto;
     display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
   }
-  .el .mv {
-    font-family: var(--cd); font-size: 9px; font-weight: 700; letter-spacing: .1em;
-    text-transform: uppercase; color: var(--film);
-  }
+
+  /* chips dim non-matching tiles so the table keeps its shape */
+  .index:not([data-filter="all"]) .el { opacity: .18; }
+  .index[data-filter="big-picture"]  .el[data-family="big-picture"],
+  .index[data-filter="models-tools"] .el[data-family="models-tools"],
+  .index[data-filter="creativity"]   .el[data-family="creativity"],
+  .index[data-filter="work-money"]   .el[data-family="work-money"],
+  .index[data-filter="trust-ethics"] .el[data-family="trust-ethics"],
+  .index[data-filter="movies"]       .el[data-family="movies"] { opacity: 1; }
 
   /* ── featured ─────────────────────────────────────────────── */
   .featured { border: 3px solid var(--paper-ink); background: var(--paper-pale); }
@@ -162,37 +187,35 @@ const pick = featured[dayIndex(todayKey, featured.length)];
     text-transform: uppercase; color: #F2F6F9; background: var(--paper-ink);
     padding: 7px 12px;
   }
-  .fcard { display: block; }
+  .fcard { display: grid; grid-template-columns: 340px minmax(0, 1fr); }
   .fcard:hover { color: inherit; }
   .fcard:hover .fgo { border-bottom-color: var(--paper-ink); }
-  .fart { border-bottom: 3px solid var(--paper-ink); background: var(--panel); aspect-ratio: 760 / 430; overflow: hidden; }
+  .fart { border-right: 3px solid var(--paper-ink); background: var(--panel); aspect-ratio: 760 / 430; overflow: hidden; }
   .fart img { width: 100%; height: 100%; object-fit: cover; }
-  .fmeta { padding: 13px 15px 16px; display: flex; flex-direction: column; gap: 7px; }
+  .fmeta { padding: 13px 15px 16px; display: flex; flex-direction: column; justify-content: center; gap: 7px; }
   .fnum { font-family: var(--cd); font-size: 12px; font-weight: 700; letter-spacing: .1em; color: var(--paper-ink); }
-  .ftitle { font-family: var(--bv); font-size: 22px; line-height: 1.15; }
+  .ftitle { font-family: var(--bv); font-size: 24px; line-height: 1.15; }
   .fgo {
     font-family: var(--cd); font-size: 13px; font-weight: 700; letter-spacing: .14em;
     text-transform: uppercase; color: var(--paper-ink);
     border-bottom: 2px solid transparent; align-self: flex-start;
   }
 
-  @media (max-width: 1280px) {
-    .topsplit { grid-template-columns: 1fr; }
-    .featured { order: -1; max-width: 620px; }
-    .period.narrow .row { grid-template-columns: repeat(auto-fill, minmax(126px, 1fr)); }
-  }
   @media (max-width: 900px) {
-    .chartwrap { padding: 14px; gap: 16px; }
-    .topsplit { grid-template-columns: 1fr; }
-    .featured { order: -1; }
-    .period { grid-template-columns: 40px 1fr; gap: 8px; }
-    .ylabel { padding-right: 8px; }
-    .ylabel b { font-size: 19px; }
-    .ylabel span { display: none; }
-    .row, .period.narrow .row { grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 4px; }
-    .el .sym { font-size: 22px; }
-    .el .t { font-size: 10px; -webkit-line-clamp: 3; }
+    .chartwrap { padding: 14px; gap: 12px; }
+    .fcard { grid-template-columns: 1fr; }
+    .fart { border-right: 0; border-bottom: 3px solid var(--paper-ink); }
     .ftitle { font-size: 19px; }
+    .index { gap: 10px; }
+    /* year becomes a full-width header; 3 compact tiles per row */
+    .period { grid-template-columns: 1fr; gap: 6px; }
+    .ylabel { flex-direction: row; align-items: baseline; gap: 8px; border-right: 0; border-bottom: 2px solid var(--ink); padding: 0 0 3px; }
+    .ylabel b { font-size: 20px; }
+    .ylabel span { margin-top: 0; }
+    .row { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; }
+    .el { aspect-ratio: auto; min-height: 104px; padding: 6px 7px 7px; }
+    .el .sym { font-size: 24px; }
+    .el .t { font-size: 10px; -webkit-line-clamp: 3; }
   }
 </style>
 
