@@ -1,0 +1,76 @@
+---
+// TalkCard.astro
+// Renders nothing visible unless the URL has ?talk=<slug> matching data/talks.json.
+// Place it directly ABOVE <SubscribeBlock /> on /newsletter.
+// Static-site friendly: all talks are embedded as JSON and the card is filled client-side.
+import talks from '../data/talks.json';
+
+// Escape "<" so talk text can never close the <script> tag early.
+const talksJson = JSON.stringify(talks).replace(/</g, '\\u003c');
+---
+<script type="application/json" id="talks-data" set:html={talksJson}></script>
+
+<section class="talkcard" id="talkcard" hidden aria-labelledby="talkcard-title">
+  <p class="talkcard-eyebrow">Thanks for coming to my talk</p>
+  <h2 class="talkcard-title" id="talkcard-title"></h2>
+  <p class="talkcard-meta" id="talkcard-meta"></p>
+  <div class="talkcard-actions">
+    <a class="talkcard-slides" id="talkcard-slides" target="_blank" rel="noopener">Get the slides</a>
+  </div>
+  <div class="talkcard-links" id="talkcard-links" hidden>
+    <p class="talkcard-links-label">Things I mentioned</p>
+    <ul id="talkcard-links-list"></ul>
+  </div>
+</section>
+
+<script>
+  (() => {
+    const slug = new URLSearchParams(window.location.search).get('talk');
+    if (!slug) return;
+    let talks = {};
+    try { talks = JSON.parse(document.getElementById('talks-data')?.textContent || '{}'); } catch { return; }
+    if (!Object.prototype.hasOwnProperty.call(talks, slug)) return;
+    const t = talks[slug];
+
+    // Only allow site-relative or https links (never javascript: etc.)
+    const safeUrl = (u) => (typeof u === 'string' && (/^\/(?!\/)/.test(u) || /^https:\/\//.test(u))) ? u : null;
+
+    const card = document.getElementById('talkcard');
+    document.getElementById('talkcard-title').textContent = `“${t.title}”`;
+    document.getElementById('talkcard-meta').textContent =
+      [t.event, t.venue, t.date].filter(Boolean).join(' · ');
+
+    const slides = document.getElementById('talkcard-slides');
+    const slidesUrl = safeUrl(t.slides);
+    // Empty or missing "slides" in talks.json hides the button (placeholder state).
+    if (slidesUrl) slides.href = slidesUrl; else slides.remove();
+
+    const links = Array.isArray(t.links) ? t.links : [];
+    const list = document.getElementById('talkcard-links-list');
+    links.forEach((l) => {
+      const url = safeUrl(l.url);
+      if (!url || !l.label) return;
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = url; a.textContent = l.label; a.target = '_blank'; a.rel = 'noopener';
+      li.appendChild(a); list.appendChild(li);
+    });
+    if (list.children.length) document.getElementById('talkcard-links').hidden = false;
+
+    card.hidden = false;
+  })();
+</script>
+
+<style>
+  .talkcard { border-bottom: 3px solid var(--ink); background: var(--paper); padding: 18px 30px; margin: 0; }
+  .talkcard[hidden] { display: none; }
+  .talkcard-eyebrow { font: 700 13px/1 var(--cd); letter-spacing: .14em; text-transform: uppercase; color: var(--news); margin: 0 0 8px; }
+  .talkcard-title { font-family: var(--bv); font-weight: 400; font-size: 26px; line-height: 1.15; margin: 0 0 6px; }
+  .talkcard-meta { font-size: 14px; color: var(--muted); margin: 0 0 14px; }
+  .talkcard-slides { display: inline-block; border: 2px solid var(--ink); padding: 10px 16px; font-weight: 600; text-decoration: none; color: var(--ink); background: var(--panel); }
+  .talkcard-slides:hover, .talkcard-slides:focus-visible { background: var(--ink); color: var(--paper); }
+  .talkcard-links { margin-top: 14px; }
+  .talkcard-links-label { font-size: 12px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin: 0 0 4px; }
+  .talkcard-links ul { margin: 0; padding-left: 18px; }
+  @media (max-width: 900px) { .talkcard { padding: 12px 14px; } .talkcard-title { font-size: 20px; } .talkcard-meta { margin-bottom: 8px; font-size: 13px; } }
+</style>
