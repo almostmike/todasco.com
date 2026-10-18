@@ -7,8 +7,24 @@
   "slides": "https://slides.google.com/test",
   "links": [
    {
-    "label": "You're Probably Wrong About Data Center Electricity Usage",
-    "url": "https://medium.com/@todasco/youre-probably-wrong-about-data-center-electricity-usage-i-was-cdfa96e64b9a"
+    "label": "What is Wall-E’s p(doom)?",
+    "url": "https://todasco.substack.com/p/what-is-wall-es-pdoom"
+   },
+   {
+    "label": "AI Is Still Telling Me How to Vote",
+    "url": "https://todasco.substack.com/p/ai-is-still-telling-me-how-to-vote"
+   },
+   {
+    "label": "AI: The Emergence of a New Species?",
+    "url": "https://todasco.substack.com/p/ai-the-emergence-of-a-new-species"
+   },
+   {
+    "label": "How Many People Has GenAI Killed?",
+    "url": "https://medium.com/@todasco/how-many-people-has-genai-killed-3ff0a5b1e5ab"
+   },
+   {
+    "label": "Will AI Take Your Job? Part 3: More AI = More Leisure?",
+    "url": "https://medium.com/@todasco/will-ai-take-your-job-part-3-more-ai-more-leisure-f52c346a6e97"
    }
   ]
  }
