@@ -1138,5 +1138,25 @@
   "url": "https://todasco.substack.com/p/why-ai-agents-could-break-the-subscription",
   "src": "Substack",
   "movies": false
+ },
+ {
+  "n": 115,
+  "date": "2026-10-15",
+  "label": "Oct 15",
+  "year": "2026",
+  "title": "What is Wall-E’s p(doom)?",
+  "url": "https://todasco.substack.com/p/what-is-wall-es-pdoom",
+  "src": "Substack",
+  "movies": true
+ },
+ {
+  "n": 116,
+  "date": "2026-10-20",
+  "label": "Oct 20",
+  "year": "2026",
+  "title": "Why is Everyone Freaking Out about Data Centers?",
+  "url": "https://www.linkedin.com/pulse/why-everyone-freaking-out-data-centers-michael-todasco-7pjbc",
+  "src": "LinkedIn",
+  "movies": false
  }
 ]

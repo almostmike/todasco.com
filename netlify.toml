@@ -37,6 +37,27 @@
   to = "/ai-at-the-movies"
   status = 301
 
+# Short aliases for the AI at the Movies page.
+[[redirects]]
+  from = "/movies"
+  to = "/ai-at-the-movies"
+  status = 301
+
+[[redirects]]
+  from = "/film"
+  to = "/ai-at-the-movies"
+  status = 301
+
+[[redirects]]
+  from = "/films"
+  to = "/ai-at-the-movies"
+  status = 301
+
+[[redirects]]
+  from = "/movie"
+  to = "/ai-at-the-movies"
+  status = 301
+
 [[redirects]]
   from = "/research-patents"
   to = "/research"
@@ -207,7 +228,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; frame-src https://www.patentleaderboard.com; form-action 'self' https://todasco.substack.com; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; frame-src https://www.patentleaderboard.com https://todasco.substack.com; form-action 'self' https://todasco.substack.com; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     Referrer-Policy = "strict-origin-when-cross-origin"

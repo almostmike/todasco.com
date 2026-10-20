@@ -1,0 +1,3 @@
+# Short talk URLs for QR codes. One line per talk, 302 so a slug can be repointed.
+# Template: /<slug>   /newsletter?talk=<slug>&utm_source=qr&utm_medium=talk&utm_campaign=<slug>-<year>   302
+/sjsu   /newsletter?talk=sjsu&utm_source=qr&utm_medium=talk&utm_campaign=sjsu-2026   302

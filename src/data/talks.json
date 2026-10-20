@@ -1,0 +1,31 @@
+{
+ "sjsu": {
+  "title": "Are We Moving Too Fast?",
+  "event": "Responsible Innovation in AI Conference",
+  "venue": "San José State University",
+  "date": "October 2026",
+  "slides": "https://docs.google.com/presentation/d/1SR402VO9hFpv1cXxcnBGQ6iNFxPe_b9f/preview",
+  "links": [
+   {
+    "label": "What is Wall-E’s p(doom)?",
+    "url": "https://todasco.substack.com/p/what-is-wall-es-pdoom"
+   },
+   {
+    "label": "AI Is Still Telling Me How to Vote",
+    "url": "https://todasco.substack.com/p/ai-is-still-telling-me-how-to-vote"
+   },
+   {
+    "label": "AI: The Emergence of a New Species?",
+    "url": "https://todasco.substack.com/p/ai-the-emergence-of-a-new-species"
+   },
+   {
+    "label": "How Many People Has GenAI Killed?",
+    "url": "https://medium.com/@todasco/how-many-people-has-genai-killed-3ff0a5b1e5ab"
+   },
+   {
+    "label": "Will AI Take Your Job? Part 3: More AI = More Leisure?",
+    "url": "https://medium.com/@todasco/will-ai-take-your-job-part-3-more-ai-more-leisure-f52c346a6e97"
+   }
+  ]
+ }
+}

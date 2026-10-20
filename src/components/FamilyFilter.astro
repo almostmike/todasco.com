@@ -1,0 +1,46 @@
+---
+// Family legend + filter chips above the archive. Chips dim non-matching tiles (see families.css).
+import fam from '../data/essay-families.json';
+const { counts, total } = Astro.props;
+const families = Object.entries(fam.families);
+---
+<div class="famfilter" role="group" aria-label="Filter essays by family">
+  <button type="button" class="famchip" data-filter="all" aria-pressed="true">All <span>{total}</span></button>
+  {families.map(([slug, f]) => (
+    <button type="button" class="famchip" data-filter={slug} data-family={slug} aria-pressed="false">
+      {f.name} <span>{counts[slug] || 0}</span>
+    </button>
+  ))}
+</div>
+
+<script>
+  (() => {
+    const index = document.querySelector('.index');
+    const chips = document.querySelectorAll('.famchip');
+    if (!index) return;
+    chips.forEach((chip) => chip.addEventListener('click', () => {
+      const f = chip.dataset.filter;
+      index.dataset.filter = f;
+      chips.forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+    }));
+  })();
+</script>
+
+<style>
+  .famfilter { display: flex; flex-wrap: wrap; gap: 6px; }
+  .famchip {
+    font-family: var(--cd); font-size: 14px; font-weight: 600; letter-spacing: .04em;
+    border: 2px solid var(--ink); background: var(--panel2); color: var(--ink);
+    padding: 5px 10px; cursor: pointer;
+  }
+  .famchip[data-family] { background: var(--tint); color: var(--ink2); }
+  .famchip[data-family="big-picture"]  { --tint: var(--fam-big-picture-tint);  --ink2: var(--fam-big-picture-ink); }
+  .famchip[data-family="models-tools"] { --tint: var(--fam-models-tools-tint); --ink2: var(--fam-models-tools-ink); }
+  .famchip[data-family="creativity"]   { --tint: var(--fam-creativity-tint);   --ink2: var(--fam-creativity-ink); }
+  .famchip[data-family="work-money"]   { --tint: var(--fam-work-money-tint);   --ink2: var(--fam-work-money-ink); }
+  .famchip[data-family="trust-ethics"] { --tint: var(--fam-trust-ethics-tint); --ink2: var(--fam-trust-ethics-ink); }
+  .famchip[data-family="movies"]       { --tint: var(--fam-movies-tint);       --ink2: var(--fam-movies-ink); }
+  .famchip[aria-pressed="true"] { outline: 3px solid var(--ink); outline-offset: 1px; }
+  .famchip span { opacity: .75; margin-left: 3px; }
+  @media (max-width: 900px) { .famchip { font-size: 13px; padding: 4px 8px; } }
+</style>
