@@ -37,6 +37,27 @@
   to = "/ai-at-the-movies"
   status = 301
 
+# Short aliases for the AI at the Movies page.
+[[redirects]]
+  from = "/movies"
+  to = "/ai-at-the-movies"
+  status = 301
+
+[[redirects]]
+  from = "/film"
+  to = "/ai-at-the-movies"
+  status = 301
+
+[[redirects]]
+  from = "/films"
+  to = "/ai-at-the-movies"
+  status = 301
+
+[[redirects]]
+  from = "/movie"
+  to = "/ai-at-the-movies"
+  status = 301
+
 [[redirects]]
   from = "/research-patents"
   to = "/research"
