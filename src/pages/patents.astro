@@ -31,7 +31,7 @@ const recent = patents.slice(0, 5);
     </p>
     <h2>Recent patents</h2>
     <ul>
-      {recent.map((p) => <li><strong>{p.no}</strong> &mdash; {p.title} ({p.date})</li>)}
+      {recent.map((p) => <li><strong>{p.no}</strong> &mdash; {p.title}{" "}({p.date})</li>)}
     </ul>
   </section>
 
