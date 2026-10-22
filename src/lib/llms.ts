@@ -15,9 +15,9 @@ export const SITE = 'https://todasco.com';
 
 // Same wording as the press kit bios, so assistants quote what Mike wrote.
 export const ONE_LINE =
-  "Mike Todasco writes about AI for people who don't work in AI. He holds 119 patents from his years leading innovation at PayPal and is a Visiting Fellow at San Diego State's AI Center.";
+  "Mike Todasco writes about AI for people who don't work in AI. He holds 120+ patents from his years leading innovation at PayPal and is a Visiting Fellow at San Diego State's AI Center.";
 export const LONG_BIO =
-  "Mike Todasco is a writer of eclectic stuff. He writes Artificially Intelligent Conversations, a weekly newsletter read by people who want to understand AI without being sold it, and his humor has appeared in Weekly Humorist, Slackjaw, Points in Case and Robot Butt. He holds 119 patents from his years leading innovation at PayPal, and is a Visiting Fellow at San Diego State's James Silberrad Brown Center for AI, where his research has been cited 1,765 times. His first children's graphic novel series, Periodic Fables, arrives from Paw Prints Publishing in Fall 2027. He lives in California with his wife and two kids.";
+  "Mike Todasco is a writer of eclectic stuff. He writes Artificially Intelligent Conversations, a weekly newsletter read by people who want to understand AI without being sold it, and his humor has appeared in Weekly Humorist, Slackjaw, Points in Case and Robot Butt. He holds 120+ patents from his years leading innovation at PayPal, and is a Visiting Fellow at San Diego State's James Silberrad Brown Center for AI, where his research has been cited 1,765 times. His first children's graphic novel series, Periodic Fables, arrives from Paw Prints Publishing in Fall 2027. He lives in California with his wife and two kids.";
 
 export const PROFILES: [string, string][] = [
   ['Substack (newsletter)', 'https://todasco.substack.com'],
@@ -35,7 +35,7 @@ const PAGES: [string, string, string][] = [
   ['Press kit', '/press', 'Bios in three lengths, photos, speaking topics and sample interview questions.'],
   ['The Newsletter', '/newsletter', `Every essay from Artificially Intelligent Conversations, his weekly AI newsletter: ${posts.length} of them, numbered from the first in August 2022.`],
   ['Research', '/research', 'Papers, preprints and odd experiments, written as a Visiting Fellow at the James Silberrad Brown Center for AI at San Diego State.'],
-  ['Patents', '/patents', '119 US patents from his years leading innovation at PayPal: payments, machine learning, fraud, edge computing and augmented reality.'],
+  ['Patents', '/patents', '120+ US patents from his years leading innovation at PayPal: payments, machine learning, fraud, edge computing and augmented reality.'],
   ['Things I Built', '/built', 'Forecast Fools, Patent Leaderboard and Patent Fighter.'],
   ['Periodic Fables', '/periodic-fables', 'A series of stand-alone graphic novels where atoms take readers on adventures through science. Fall 2027 from Paw Prints Publishing.'],
   ['Humor', '/humor', 'Published humor in Weekly Humorist, Slackjaw, Points in Case, Robot Butt, Greener Pastures and The Haven.'],
@@ -60,7 +60,7 @@ function header(): string {
     'Key facts:',
     '- Formal name: Michael Todasco. Pronounced TOE-DAS-KOE. He/him.',
     "- Visiting Fellow, James Silberrad Brown Center for Artificial Intelligence, San Diego State University.",
-    '- Previously led innovation at PayPal; 119 US patents from that work. Earlier roles at Sketch Maven, NewPage and GE.',
+    '- Previously led innovation at PayPal; 120+ US patents from that work. Earlier roles at Sketch Maven, NewPage and GE.',
     '- Education: Johns Hopkins University, University of California, Berkeley, University of Illinois Urbana-Champaign.',
     '- Writes the weekly newsletter Artificially Intelligent Conversations (Substack, Medium and LinkedIn).',
     '- Author of Periodic Fables, a children\'s graphic novel series about the elements (Paw Prints Publishing, Fall 2027).',
