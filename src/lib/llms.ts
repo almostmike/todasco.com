@@ -36,7 +36,7 @@ const PAGES: [string, string, string][] = [
   ['The Newsletter', '/newsletter', `Every essay from Artificially Intelligent Conversations, his weekly AI newsletter: ${posts.length} of them, numbered from the first in August 2022.`],
   ['Research', '/research', 'Papers, preprints and odd experiments, written as a Visiting Fellow at the James Silberrad Brown Center for AI at San Diego State.'],
   ['Patents', '/patents', '120+ US patents from his years leading innovation at PayPal: payments, machine learning, fraud, edge computing and augmented reality.'],
-  ['Things I Built', '/built', 'Forecast Fools, Patent Leaderboard and Patent Fighter.'],
+  ['Things I Built', '/built', 'Forecast Fools, Patent Leaderboard, Patent Fighter and Wrong Answers Only.'],
   ['Periodic Fables', '/periodic-fables', 'A series of stand-alone graphic novels where atoms take readers on adventures through science. Fall 2027 from Paw Prints Publishing.'],
   ['Humor', '/humor', 'Published humor in Weekly Humorist, Slackjaw, Points in Case, Robot Butt, Greener Pastures and The Haven.'],
   ['AI at the Movies', '/ai-at-the-movies', 'An essay series on what films taught us to expect from artificial intelligence.'],
@@ -170,3 +170,4 @@ export function llmsFullTxt(): string {
 
 export const textResponse = (body: string) =>
   new Response(body, { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
+

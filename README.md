@@ -51,7 +51,7 @@ Everything data-driven lives in `src/data/`:
 | `humor.json` | 10 pieces, in Mike's ranking | `art` is a filename in `public/img`, or `""` for a reserved plate |
 | `movies.json` | 10 film essays | `film` is the plate, `sub` the line under it |
 | `research.json` | 7 papers | all seven have plates in `public/img/res-*.webp` |
-| `built.json` | 3 sites | |
+| `built.json` | 4 sites | |
 | `jobs.json` | fallback snapshot only | `/jobs` reads Notion live; this is the backup — see below |
 | `patents.json` / `patent_years.json` | 118 filings, from the CSV | unused since the year chart came out |
 
@@ -109,3 +109,4 @@ non-commercial personal use only.
 
 Point todasco.com at Netlify directly rather than redirecting, and keep redirects from the
 old `todasco.lovable.app` paths so existing links survive.
+

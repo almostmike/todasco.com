@@ -23,5 +23,13 @@
   "kind": "arcade",
   "desc": "A retro arcade game where you fight the greatest inventors of all time, because, why not?",
   "art": "built-patentfighter"
+ },
+ {
+  "sym": "Wa",
+  "name": "Wrong Answers Only",
+  "domain": "wrong-answers-only.com",
+  "url": "https://wrong-answers-only.com",
+  "kind": "game",
+  "desc": "A daily one-minute game where the obvious right answer is the one thing you're not allowed to give. The crowd scores your wrongness."
  }
 ]
