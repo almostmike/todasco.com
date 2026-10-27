@@ -6,16 +6,16 @@ import sites from '../data/built.json';
 ---
 <Base
   title="Things I Built — Mike Todasco"
-  description="Forecast Fools, Patent Leaderboard and Patent Fighter — two scoreboards and an arcade game, built by Mike Todasco to answer questions nobody else was asking."
+  description="Forecast Fools, Patent Leaderboard, Patent Fighter and Wrong Answers Only — two scoreboards and two games, built by Mike Todasco to answer questions nobody else was asking."
 >
   <PageHeader
-    num="08" sym="Ws" name="Things I Built" fam="built" count="3"
-    title="Two scoreboards and an arcade game"
+    num="08" sym="Ws" name="Things I Built" fam="built" count="4"
+    title="Two scoreboards and two games"
     prose="The things I vibe coded that are worthy of me spending hosting costs on."
     links={[]}
     mike="mike-built"
     mikeAlt="Cartoon Mike Todasco soldering together three glowing arcade cabinets at night"
-    right="Specimens 01 – 03"
+    right="Specimens 01 – 04"
   />
 
   <div class="plates">
@@ -38,6 +38,13 @@ import sites from '../data/built.json';
                 <div class="r"><b>3</b><span>Tao Luo</span><em>4,470</em></div>
                 <div class="r"><b>4</b><span>Jonathan P. Ive</span><em>2,945</em></div>
                 <div class="r me"><b>…</b><span>Michael C. Todasco</span><em>120+</em></div>
+              </div>
+            )}
+            {s.kind === 'game' && (
+              <div class="wa">
+                <div class="k">Daily Game &middot; One Minute</div>
+                <div class="q">The obvious right answer is the one thing you&rsquo;re not allowed to give.</div>
+                <div class="chips"><s>the correct answer</s><b>your gloriously wrong one</b></div>
               </div>
             )}
             {s.kind === 'arcade' && (
@@ -84,6 +91,15 @@ import sites from '../data/built.json';
   .pl .r em { text-align: right; font-style: normal; font-variant-numeric: tabular-nums; }
   .pl .r.me { color: var(--news); border-bottom: 0; }
 
+
+  .game { background: #FFF6DC; }
+  .wa { display: flex; flex-direction: column; gap: 13px; }
+  .wa .k { font-family: var(--cd); font-size: 11px; font-weight: 600; letter-spacing: .26em; text-transform: uppercase; color: #B45309; }
+  .wa .q { font-family: var(--bv); font-size: 24px; line-height: 1.12; color: #2A2118; }
+  .wa .chips { display: flex; flex-wrap: wrap; gap: 8px; font-family: var(--cd); font-size: 12.5px; }
+  .wa .chips s { padding: 6px 12px; border-radius: 999px; background: #FDE2E2; color: #B91C1C; }
+  .wa .chips b { padding: 6px 12px; border-radius: 999px; background: #DCFCE7; color: #15803D; }
+
   .arcade { background: #0A0A0C; padding: 0; }
   .arcade img { width: 100%; height: 100%; object-fit: cover; }
   .pf { display: flex; flex-direction: column; gap: 16px; align-items: center; }
@@ -93,3 +109,4 @@ import sites from '../data/built.json';
 
   @media (max-width: 900px) { .grid.three { grid-template-columns: 1fr; } }
 </style>
+
