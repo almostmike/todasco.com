@@ -17,7 +17,7 @@ export const SITE = 'https://todasco.com';
 export const ONE_LINE =
   "Mike Todasco writes about AI for people who don't work in AI. He holds 120+ patents from his years leading innovation at PayPal and is a Visiting Fellow at San Diego State's AI Center.";
 export const LONG_BIO =
-  "Mike Todasco is a writer of eclectic stuff. He writes Artificially Intelligent Conversations, a weekly newsletter read by people who want to understand AI without being sold it, and his humor has appeared in Weekly Humorist, Slackjaw, Points in Case and Robot Butt. He holds 120+ patents from his years leading innovation at PayPal, and is a Visiting Fellow at San Diego State's James Silberrad Brown Center for AI, where his research has been cited 1,765 times. His first children's graphic novel series, Periodic Fables, arrives from Paw Prints Publishing in Fall 2027. He lives in California with his wife and two kids.";
+  "Mike Todasco is a writer of eclectic stuff. He writes Artificially Intelligent Conversations, a weekly newsletter read by people who want to understand AI without being sold it, and his humor has appeared in Weekly Humorist, Slackjaw, Points in Case and Robot Butt. He holds 120+ patents from his years leading innovation at PayPal, and is a Visiting Fellow at San Diego State's James Silberrad Brown Center for AI. His first children's graphic novel series, Periodic Fables, arrives from Paw Prints Publishing in Fall 2027. He lives in California with his wife and two kids.";
 
 export const PROFILES: [string, string][] = [
   ['Substack (newsletter)', 'https://todasco.substack.com'],
