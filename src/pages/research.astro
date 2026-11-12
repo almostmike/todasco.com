@@ -26,9 +26,9 @@ import papers from '../data/research.json';
     <div class="grid four">
       {papers.map((p, i) => (
         <a class="plate" href={p.url} target="_blank" rel="noopener" style="background:var(--paper-pale)">
-          {p.art ? (
+          {(p.art || p.artImg) ? (
             <div class="art" style="height:168px;background:var(--panel)">
-              <img src={`/img/${p.art}.webp`} alt={`Illustration for ${p.short}`} width="520" height="300" loading="lazy" />
+              <img src={p.artImg ?? `/img/${p.art}.webp`} alt={`Illustration for ${p.short}`} width="520" height="300" loading="lazy" />
             </div>
           ) : (
             <div class="art type" style="height:168px;background:var(--paper-pale)">
