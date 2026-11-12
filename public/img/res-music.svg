@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="300" viewBox="0 0 520 300">
+  <defs>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0.91 0 0 0 0 0.88 0 0 0 0 0.78 0 0 0 0.05 0"/><feComposite operator="over" in2="SourceGraphic"/></filter>
+    <filter id="rough"><feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="2" result="t"/><feDisplacementMap in="SourceGraphic" in2="t" scale="1.6"/></filter>
+  </defs>
+  <rect width="520" height="300" fill="#f0ead6"/>
+  <rect width="520" height="300" fill="#f0ead6" filter="url(#grain)"/>
+  <g filter="url(#rough)">
+    <rect x="6" y="6" width="507" height="287" fill="none" stroke="#2b2b23" stroke-width="2"/>
+    <rect x="11" y="11" width="497" height="277" fill="none" stroke="#2b2b23" stroke-width="1"/>
+    <g stroke="#2b2b23" stroke-width="1.8">
+      <line x1="40" y1="120" x2="480" y2="120"/>
+      <line x1="40" y1="136" x2="480" y2="136"/>
+      <line x1="40" y1="152" x2="480" y2="152"/>
+      <line x1="40" y1="168" x2="480" y2="168"/>
+      <line x1="40" y1="184" x2="480" y2="184"/>
+    </g>
+    <g fill="#2e4d6b">
+      <ellipse cx="120" cy="192" rx="11" ry="8" transform="rotate(-20 120 192)"/>
+      <line x1="129" y1="190" x2="129" y2="140" stroke="#2e4d6b" stroke-width="3"/>
+      <ellipse cx="220" cy="176" rx="11" ry="8" transform="rotate(-20 220 176)"/>
+      <line x1="229" y1="174" x2="229" y2="124" stroke="#2e4d6b" stroke-width="3"/>
+      <ellipse cx="420" cy="138" rx="11" ry="8" transform="rotate(-20 420 138)"/>
+      <line x1="429" y1="136" x2="429" y2="86" stroke="#2e4d6b" stroke-width="3"/>
+    </g>
+    <ellipse cx="320" cy="160" rx="11" ry="8" transform="rotate(-20 320 160)" fill="#2e4d6b"/>
+    <line x1="329" y1="158" x2="329" y2="108" stroke="#2e4d6b" stroke-width="3"/>
+    <rect x="284" y="100" width="72" height="76" fill="#2b2b23"/>
+    <g fill="#46443a">
+      <circle cx="296" cy="112" r="0.8"/><circle cx="310" cy="150" r="0.8"/><circle cx="330" cy="130" r="0.8"/><circle cx="345" cy="160" r="0.8"/><circle cx="300" cy="165" r="0.8"/><circle cx="340" cy="112" r="0.8"/><circle cx="318" cy="168" r="0.8"/><circle cx="350" cy="140" r="0.8"/>
+    </g>
+    <g fill="#d6492b">
+      <ellipse cx="472" cy="160" rx="9.4" ry="6.8" transform="rotate(-20 472 160)"/>
+      <line x1="480" y1="158" x2="480" y2="114" stroke="#d6492b" stroke-width="2.6"/>
+      <path d="M 480 114 Q 492 118 494 130" fill="none" stroke="#d6492b" stroke-width="2.6"/>
+    </g>
+  </g>
+</svg>
