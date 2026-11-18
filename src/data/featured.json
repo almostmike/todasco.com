@@ -248,21 +248,28 @@
   "n": 116,
   "title": "Why is Everyone Freaking Out about Data Centers?",
   "url": "https://www.linkedin.com/pulse/why-everyone-freaking-out-data-centers-michael-todasco-7pjbc",
-  "art": "https://media.licdn.com/dms/image/v2/D5612AQHZVrpUHz5AEQ/article-cover_image-shrink_720_1280/B56aFZzWocJkAQ-/0/1792508000686?e=2147483647&v=beta&t=lkNRn6x7JN2kKYfDVd4RwM2JLJhdj0eGB7TJ0k90tRk",
+  "art": "feat-why-everyone-freaking-out-data-centers",
   "date": "2026-10-20"
  },
  {
   "n": 117,
   "title": "Who's Guarding the Castle From Cyberattacks? The Accountants??",
   "url": "https://www.linkedin.com/pulse/whos-guarding-castle-from-cyberattacks-accountants-michael-todasco-njo1c/",
-  "art": "https://media.licdn.com/dms/image/v2/D5612AQEGH_5hIiX6xw/article-cover_image-shrink_720_1280/B56aF5kPyjHAAQ-/0/1793040909126?e=2147483647&v=beta&t=x3pfG8IMexYm69yfvGzrIBi1YPcdd0cwmezoFX-jTRI",
+  "art": "feat-whos-guarding-castle-cyberattacks",
   "date": "2026-10-26"
  },
  {
   "n": 118,
   "title": "AI Gets the Joke. It Just Won’t Leave It Alone",
   "url": "https://www.linkedin.com/pulse/ai-gets-joke-just-wont-leave-alone-michael-todasco-qyhwc/",
-  "art": "https://media.licdn.com/dms/image/v2/D5612AQED0SwOh4QLCg/article-cover_image-shrink_720_1280/B56aHHWz6rGgAQ-/0/1794346008497?e=2147483647&v=beta&t=efaLpvihn-U-GG1dGrIiQlgoka-ycueAAM8ajT2QdXY",
+  "art": "feat-ai-gets-the-joke-2026",
   "date": "2026-11-10"
+ },
+ {
+  "n": 119,
+  "title": "Your Practical Guide to Using (or Not Using) AI Agents for Holiday Shopping",
+  "url": "https://medium.com/@todasco/your-practical-guide-to-using-or-not-using-ai-agents-for-holiday-shopping-1571179c82c7",
+  "art": "feat-holiday-shopping-ai-agents-2026",
+  "date": "2026-11-17"
  }
 ]
