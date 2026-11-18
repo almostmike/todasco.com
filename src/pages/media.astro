@@ -22,7 +22,7 @@ import tags from '../data/media_tags.json';
   <div class="filterbar">
     <div class="lbl">
       <b>Filter by subject</b>
-      <span id="count">all 25 indexed — showing {rows.length} of {rows.length}</span>
+      <span id="count">all {rows.length} indexed — showing {rows.length} of {rows.length}</span>
     </div>
     <div class="chips" id="chips">
       <button class="chip" data-tag="All" aria-pressed="true" type="button">All</button>
@@ -84,6 +84,6 @@ import tags from '../data/media_tags.json';
       r.hidden = !match;
       if (match) shown++;
     });
-    if (count) count.textContent = `all 25 indexed — showing ${shown} of ${rows.length}`;
+    if (count) count.textContent = `all ${rows.length} indexed — showing ${shown} of ${rows.length}`;
   });
 </script>
