@@ -6,16 +6,16 @@ import sites from '../data/built.json';
 ---
 <Base
   title="Things I Built — Mike Todasco"
-  description="Forecast Fools, Patent Leaderboard, Patent Fighter and Wrong Answers Only — two scoreboards and two games, built by Mike Todasco to answer questions nobody else was asking."
+  description="Forecast Fools, Patent Leaderboard, Patent Fighter, Wrong Answers Only and Prompt & Circumstance, two scoreboards and three games built by Mike Todasco to answer questions nobody else was asking."
 >
   <PageHeader
-    num="08" sym="Ws" name="Things I Built" fam="built" count="4"
-    title="Two scoreboards and two games"
+    num="08" sym="Ws" name="Things I Built" fam="built" count="5"
+    title="Two scoreboards and three games"
     prose="The things I vibe coded that are worthy of me spending hosting costs on."
     links={[]}
     mike="mike-built"
     mikeAlt="Cartoon Mike Todasco soldering together three glowing arcade cabinets at night"
-    right="Specimens 01 – 04"
+    right="Specimens 01 – 05"
   />
 
   <div class="plates">
@@ -45,6 +45,13 @@ import sites from '../data/built.json';
                 <div class="k">Daily Game &middot; One Minute</div>
                 <div class="q">The obvious right answer is the one thing you&rsquo;re not allowed to give.</div>
                 <div class="chips"><s>the correct answer</s><b>your gloriously wrong one</b></div>
+              </div>
+            )}
+            {s.kind === 'museum' && (
+              <div class="mm">
+                <div class="k">A short history of prompting, in three machines</div>
+                <div class="h">1966 to 2019, one terminal at a time</div>
+                <div class="chips"><b>1966 &middot; ELIZA</b><b>2018 &middot; GPT-1</b><b>2019 &middot; GPT-2</b></div>
               </div>
             )}
             {s.kind === 'arcade' && (
@@ -99,6 +106,13 @@ import sites from '../data/built.json';
   .wa .chips { display: flex; flex-wrap: wrap; gap: 8px; font-family: var(--cd); font-size: 12.5px; }
   .wa .chips s { padding: 6px 12px; border-radius: 999px; background: #FDE2E2; color: #B91C1C; }
   .wa .chips b { padding: 6px 12px; border-radius: 999px; background: #DCFCE7; color: #15803D; }
+
+  .museum { background: #0C1710; }
+  .mm { display: flex; flex-direction: column; gap: 13px; }
+  .mm .k { font-family: var(--cd); font-size: 11px; font-weight: 600; letter-spacing: .26em; text-transform: uppercase; color: #4ADE80; }
+  .mm .h { font-family: var(--bv); font-size: 26px; line-height: 1.08; color: #E8F5E9; }
+  .mm .chips { display: flex; flex-wrap: wrap; gap: 8px; font-family: var(--cd); font-size: 12.5px; }
+  .mm .chips b { padding: 6px 12px; border-radius: 999px; background: #123220; color: #4ADE80; border: 1px solid #1E4D2E; }
 
   .arcade { background: #0A0A0C; padding: 0; }
   .arcade img { width: 100%; height: 100%; object-fit: cover; }
